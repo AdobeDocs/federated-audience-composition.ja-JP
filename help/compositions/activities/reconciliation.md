@@ -1,0 +1,127 @@
+---
+audience: end-user
+title: 紐付けアクティビティの使用
+description: 紐付けアクティビティの使用方法を学ぶ
+source-git-commit: 92d4a7cf1414ae74b2684619d295eca065a92ce2
+workflow-type: tm+mt
+source-wordcount: '534'
+ht-degree: 69%
+
+---
+
+# 紐付け {#reconciliation}
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_reconciliation"
+>title="紐付けアクティビティ"
+>abstract="この **紐付け** アクティビティを使用すると、データベース内のデータとワークテーブル内のデータ間のリンクを定義できます。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_reconciliation_field"
+>title="紐付け選択フィールド"
+>abstract="紐付け選択フィールド"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_reconciliation_condition"
+>title="紐付け作成条件"
+>abstract="紐付け作成条件"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_reconciliation_complement"
+>title="紐付けで補集合を生成"
+>abstract="紐付けで補集合を生成"
+
+この **紐付け** アクティビティを使用すると、データベース内のデータとワークテーブル内のデータとのリンクを定義できます（外部システムから読み込まれたデータなど）。
+
+<!--For example, the **Reconciliation** activity can be placed after a **Load file** activity to import non-standard data into the database. In this case, the **Reconciliation** activity lets you define the link between the data in the Adobe Campaign database and the data in the work table.-->
+
+## ベストプラクティス {#reconciliation-best-practices}
+
+一方、は **エンリッチメント** アクティビティを使用すると、コンポジションで処理する追加データを定義できます（以下が使用できます **エンリッチメント** 複数のセットからのデータを組み合わせたり、一時的なリソースへのリンクを作成したりするアクティビティ）、 **紐付け** アクティビティを使用すると、識別されていないデータを既存のリソースにリンクできます。
+
+>[!NOTE]
+>紐付け操作は、リンクされたディメンションのデータが既にデータベースに存在することを意味します。例えば、購入された商品、購入時間、商品を購入したクライアントなどを示す購入ファイルを読み込む場合、商品とクライアントはデータベースに既に存在している必要があります。
+
+## 紐付けアクティビティの設定 {#reconciliation-configuration}
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_reconciliation_targeting"
+>title="ターゲティングディメンション"
+>abstract="新しいターゲティングディメンションを選択します。ディメンションを使用すると、ターゲット母集団（受信者、アプリのサブスクライバー、オペレーター、サブスクライバーなど）を定義できます。デフォルトでは、現在のターゲティングディメンションが選択されています。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_reconciliation_rules"
+>title="紐付けルール"
+>abstract="重複排除 - 重複に使用する紐付けルールを選択します。属性を使用するには、「**単純な属性**」オプションを選択し、ソースフィールドと宛先フィールドを選択します。クエリモデラーを使用して独自の紐付け条件を作成するには、「**高度な紐付け条件**」オプションを選択します。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_reconciliation_targeting_selection"
+>title="ターゲティングディメンションの選択"
+>abstract="紐付けするインバウンドデータのターゲティングディメンションを選択します。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_keep_unreconciled_data"
+>title="紐付けられていないデータの保持"
+>abstract="デフォルトでは、紐付けされていないデータは、アウトバウンドトランジションに保持され、後で使用するために作業用テーブルで使用できます。紐付けされていないデータを削除するには、「**紐付けされていないデータを保持**」オプションを非アクティブ化します。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_reconciliation_attribute"
+>title="紐付け属性"
+>abstract="データの紐付けに使用する属性を選択し、確定します。"
+
+**紐付け**&#x200B;アクティビティを設定するには、次の手順に従います。
+
+1. を追加 **紐付け** コンポジションに対するアクティビティ。 <!--This activity should be added following a transition containing a population whose targeting dimension does not directly come from Adobe Campaign. -->
+
+1. 新しいターゲティングディメンションを選択します。ディメンションを使用すると、受信者、アプリの購読者、オペレーター、購読者などのターゲット母集団を定義できます。 <!--[Learn more about targeting dimensions](../../audience/about-recipients.md#targeting-dimensions).-->
+
+1. 紐付けに使用するフィールドを選択します。1 つまたは複数の紐付け条件を使用できます。
+
+   1. 属性を使用してデータを紐付けするには、「**単純な属性**」オプションを選択します。「**ソース**」フィールドには、入力トランジションで使用可能な、紐付けされるフィールドがリストされます。「**宛先**」フィールドは、選択したターゲティングディメンションのフィールドに対応します。データは、ソースと宛先が等しい場合に紐付けされます。例えば、メールアドレスに基づいてプロファイルの重複を排除するには、「**メール**」フィールドを選択します。
+
+      別の紐付け条件を追加するには、「**ルールを追加**」ボタンをクリックします。複数の結合条件が指定される場合、データを相互にリンクさせるには、すべての条件が検証される必要があります。
+
+   <!--     ![](../assets/workflow-reconciliation-criteria.png)-->
+
+   1. 他の属性を使用してデータを紐付けするには、「**高度な紐付け条件**」オプションを選択します。その後、クエリモデラーを使用して、独自の紐付け条件を作成できます。 <!--[Learn how to work with the query modeler](../../query/query-modeler-overview.md).-->
+
+1. 「**フィルターを作成**」ボタンを使用して、データをフィルタリングして紐付けできます。これにより、クエリモデラーを使用してカスタム条件を作成できます。 <!--[Learn how to work with the query modeler](../../query/query-modeler-overview.md)-->
+
+デフォルトでは、紐付けされていないデータは、アウトバウンドトランジションに保持され、後で使用するために作業用テーブルで使用できます。紐付けされていないデータを削除するには、「**紐付けされていないデータを保持**」オプションを非アクティブ化します。
+
+<!--
+## Example {#reconciliation-example}
+
+The following example demonstrates a workflow that creates an audience of profiles directly from an imported file containing new clients. It is made up of the following activities:
+
+The workflow is designed as follows:
+
+![](../assets/workflow-reconciliation-sample-1.0.png)
+
+ 
+It is built with the following activities:
+
+* A [Load file](load-file.md) activity uploads a file containing profiles data that were extracted from an external tool.
+
+    For example:
+
+    ```
+    lastname;firstname;email;birthdate;
+    JACKMAN;Megan;megan.jackman@testmail.com;07/08/1975;
+    PHILLIPS;Edward;phillips@testmail.com;09/03/1986;
+    WEAVER;Justin;justin_w@testmail.com;11/15/1990;
+    MARTIN;Babe;babeth_martin@testmail.net;11/25/1964;
+    REESE;Richard;rreese@testmail.com;02/08/1987;
+    ```
+
+* A **Reconciliation** activity which identifies the incoming data as profiles, by using the **email** and **Date of birth** fields as reconciliation criteria.
+
+    ![](../assets/workflow-reconciliation-sample-1.1.png)
+
+* A [Save audience](save-audience.md) activity to create a new audience based on these updates. You can also replace the **Save audience** activity by an **End** activity if no specific audience needs to be created or updated. Recipient profiles are updated in any case when you run the workflow.
+
+
+## Compatibility {#reconciliation-compat}
+
+The **Reconciliation** activity does not exist in the Client console. All **Enrichments** activities created in the Client console with the reconciliation options enabled are displayed as **Reconciliation** activities in Campaign Web user interface.
+-->
