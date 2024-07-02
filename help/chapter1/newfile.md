@@ -2,10 +2,10 @@
 title: 新規ファイル
 description: 説明
 keywords: 新規ファイル，ファイルを追加，ファイル
-source-git-commit: 8f4242b02f2cd135bf4adc3a69db08fe1f812e4e
+source-git-commit: 194ae763f5040f11eba0fe30aa302064f5d0606a
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 64%
+source-wordcount: '81'
+ht-degree: 39%
 
 ---
 
@@ -16,11 +16,6 @@ ht-degree: 64%
 
 <!-- Workflow + Workflow activities-->
 
-
->[!CONTEXTUALHELP]
->id="dc_workflow_creation_properties"
->title="ワークフローのプロパティ"
->abstract="この画面で、ワークフローの作成に使用するテンプレートを選択し、ラベルを指定します。 「その他のオプション」セクションを展開して、ワークフローの内部名、フォルダー、タイムゾーン、スーパーバイザーグループなどの詳細設定を行います。エラーが発生した場合にオペレーターに警告できるように、スーパーバイザーグループを選択することを強くお勧めします。"
 
 
 >[!CONTEXTUALHELP]
