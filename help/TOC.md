@@ -2,10 +2,10 @@
 user-guide-title: 連合オーディエンス構成
 title: Adobeの Federated Audience Composition ドキュメント
 breadcrumb-title: 連合オーディエンス構成
-source-git-commit: 430b856b1c5ab9c52e572c7a3a789567f3c90a04
+source-git-commit: 2a22a536ac3a13c4e44774126a6d691612268a20
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 46%
+source-wordcount: '99'
+ht-degree: 47%
 
 ---
 
@@ -24,7 +24,6 @@ ht-degree: 46%
 + 構成 {#compositions}
    + [コンポジションの基本を学ぶ](compositions/gs-compositions.md)
    + [コンポジションの作成](compositions/create-composition.md)
-   + [コンポジションへのアクセスと管理](compositions/manage-compositions.md)
    + アクティビティの操作 {#activities}
       + [アクティビティのリスト](compositions/activities/about-activities.md)
       + [And 結合](compositions/activities/and-join.md)
