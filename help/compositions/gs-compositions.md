@@ -2,9 +2,9 @@
 audience: end-user
 title: コンポジションの基本を学ぶ
 description: コンポジションの開始方法を説明します
-source-git-commit: 71b3a93b7ac85605b008f7b1ec1da25a1dc84f24
+source-git-commit: 8690147d401693f0e3f4e20700307fe309b03d9d
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '262'
 ht-degree: 3%
 
 ---
@@ -32,7 +32,7 @@ Adobeデータコンポジションを使用すると、様々なアクティビ
 
 リストを絞り込んで探しているコンポジションを簡単に見つけるには、リストを検索し、ステータスまたは前回の処理日でコンポジションをフィルタリングします。
 
-列を追加または削除してリストをカスタマイズすることもできます。 これを行うには、「列を設定」ボタンをクリックし、管理します
+列を追加または削除してリストをカスタマイズすることもできます。 それには、 **列を設定**&#x200B;ボタンをクリックし、目的の出力列を追加または削除します。
 
 ![](assets/compositions-columns.png)
 
