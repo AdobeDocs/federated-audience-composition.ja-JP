@@ -2,7 +2,7 @@
 audience: end-user
 title: コンポジションの基本を学ぶ
 description: コンポジションの開始方法を説明します
-source-git-commit: 8690147d401693f0e3f4e20700307fe309b03d9d
+source-git-commit: 4ccf3be01abb8d6cb2834f49d83b677edaa61ef7
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 3%
@@ -20,7 +20,7 @@ Adobeデータコンポジションを使用すると、様々なアクティビ
 ## コンポジションへのアクセス {#access}
 
 >[!CONTEXTUALHELP]
->id="dc_workflow_list"
+>id="dc_composition_list"
 >title="構成"
 >abstract="この画面では、コンポジションの完全なリストにアクセスし、現在のステータス、最後/次回の実行日を確認して、新しいコンポジションを作成できます。"
 
