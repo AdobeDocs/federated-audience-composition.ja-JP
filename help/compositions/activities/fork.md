@@ -2,7 +2,7 @@
 audience: end-user
 title: 分岐アクティビティの使用
 description: 分岐アクティビティの使用方法を学ぶ
-source-git-commit: e2e708a21aa0e2d1724f5ba79caf10ef803ae818
+source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 84%
@@ -32,4 +32,5 @@ ht-degree: 84%
 1. を追加 **分岐** コンポジションに対するアクティビティ。
 1. **トランジションを追加**&#x200B;をクリックし、新しいアウトバウンドトランジションを追加します。デフォルトでは、2 つのトランジションが定義されています。
 1. 各トランジションにラベルを追加します。
+
 

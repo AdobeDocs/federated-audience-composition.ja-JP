@@ -2,12 +2,13 @@
 audience: end-user
 title: オーディエンスを作成アクティビティの使用
 description: オーディエンスを作成アクティビティの使用方法を学ぶ
-source-git-commit: 33a1eb9d4c0c7b847e04ac3f0f9f1881317a2f83
+source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 53%
 
 ---
+
 
 # オーディエンスを作成 {#build-audience}
 
@@ -24,10 +25,7 @@ ht-degree: 53%
 * Adobe Experience Platform オーディエンスを選択します。
 * クエリモデラービルダーを使用してフィルタリング条件を定義および組み合わせて、新しいオーディエンスを作成します。
 
-
-
 この **オーディエンスを作成** アクティビティは、コンポジションの最初または他のアクティビティの後に配置できます。 すべてのアクティビティは、の後に配置できます **オーディエンスを作成**.
-
 
 ## オーディエンスを作成アクティビティの設定 {#build-audience-configuration}
 

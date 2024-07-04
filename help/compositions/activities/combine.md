@@ -2,12 +2,13 @@
 audience: end-user
 title: 結合アクティビティの使用
 description: 結合アクティビティの使用方法を説明します
-source-git-commit: 92d4a7cf1414ae74b2684619d295eca065a92ce2
+source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
 workflow-type: tm+mt
 source-wordcount: '810'
 ht-degree: 79%
 
 ---
+
 
 # 結合 {#combine}
 
@@ -22,9 +23,7 @@ ht-degree: 79%
 * **積集合**&#x200B;では、アクティビティ内の異なるインバウンド母集団に共通の要素のみを保持できます。
 * **除外**&#x200B;では、特定の条件に従って、ある母集団から要素を除外することができます。
 
-
 この **結合** アクティビティは、他のアクティビティの後に配置できますが、コンポジションの最初には配置できません。 すべてのアクティビティは、の後に配置できます **結合**.
-
 
 ## 結合アクティビティを設定 {#combine-configuration}
 

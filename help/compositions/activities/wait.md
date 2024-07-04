@@ -2,7 +2,7 @@
 audience: end-user
 title: 待機アクティビティの使用
 description: 待機アクティビティの使用方法を学ぶ
-source-git-commit: e2e708a21aa0e2d1724f5ba79caf10ef803ae818
+source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 70%
@@ -27,4 +27,5 @@ ht-degree: 70%
 1. インバウンドトランジションとアウトバウンドトランジションの間の待機の&#x200B;**期間**&#x200B;を指定します。
 
 1. 「**期間**」フィールドで、秒、分、時間、日などの時間単位を選択します。
+
 
