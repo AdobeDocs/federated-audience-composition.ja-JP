@@ -2,9 +2,9 @@
 user-guide-title: 連合オーディエンス構成
 title: Adobeの Federated Audience Composition ドキュメント
 breadcrumb-title: 連合オーディエンス構成
-source-git-commit: 4a73702c99762a5e9ab73485fa46916b9c28fcc3
+source-git-commit: ff942b86019345f39eeaadab60054f2e4fd9c037
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '117'
 ht-degree: 38%
 
 ---
@@ -37,9 +37,9 @@ ht-degree: 38%
       + [重複の除外](compositions/activities/deduplication.md)
       + [エンリッチメント](compositions/activities/enrichment.md)
       + [分岐](compositions/activities/fork.md)
-      + [増分クエリ](compositions/activities/incremental-query.md)
       + [紐付け](compositions/activities/reconciliation.md)
       + [オーディエンスを保存](compositions/activities/save-audience.md)
+      + [スケジューラー](compositions/activities/scheduler.md)
       + [分割](compositions/activities/split.md)
       + [待機](compositions/activities/wait.md)
 + データベースのクエリ {#query-database}
