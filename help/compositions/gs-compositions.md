@@ -2,10 +2,10 @@
 audience: end-user
 title: コンポジションの基本を学ぶ
 description: コンポジションの開始方法を説明します
-source-git-commit: 4ccf3be01abb8d6cb2834f49d83b677edaa61ef7
+source-git-commit: 0d6930b15be5013b57b8859dd3d21a5d3367ecae
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 3%
+source-wordcount: '276'
+ht-degree: 2%
 
 ---
 
@@ -17,7 +17,7 @@ Adobeデータコンポジションを使用すると、様々なアクティビ
 
 ![](assets/composition-example.png)
 
-## コンポジションへのアクセス {#access}
+## コンポジションへのアクセスと管理 {#access}
 
 >[!CONTEXTUALHELP]
 >id="dc_composition_list"
@@ -26,17 +26,15 @@ Adobeデータコンポジションを使用すると、様々なアクティビ
 
 コンポジションにはAdobe Experience Platformからアクセスできます **[!UICONTROL オーディエンス]** メニュー（内） **連合構成** タブ。
 
-![](assets/compositions-list.png)
+この画面から新しいコンポジションを作成し、既存のコンポジションにアクセスできます。 名前の横にある省略記号ボタンをクリックして、既存のコンポジションを複製または削除することもできます。
 
-この画面から新しいコンポジションを作成し、既存のコンポジションにアクセスできます。
+![](assets/compositions-list.png)
 
 リストを絞り込んで探しているコンポジションを簡単に見つけるには、リストを検索し、ステータスまたは前回の処理日でコンポジションをフィルタリングします。
 
 列を追加または削除してリストをカスタマイズすることもできます。 それには、 **列を設定**&#x200B;ボタンをクリックし、目的の出力列を追加または削除します。
 
 ![](assets/compositions-columns.png)
-
-既存のコンポジションを複製または削除するには、名前の横にある省略記号ボタンをクリックし、目的の操作を選択します。
 
 ## コンポジションのステータス {#status}
 
@@ -47,3 +45,5 @@ Adobeデータコンポジションを使用すると、様々なアクティビ
 * **[!UICONTROL 停止]**：コンポジションの実行が停止しました。
 * **[!UICONTROL 一時停止]**：コンポジションの実行が一時停止されました。
 * **[!UICONTROL エラー]**：コンポジション実行でエラーが発生しました。 コンポジションを開き、ログとタスクにアクセスしてエラーを特定し解決します。
+
+コンポジションの開始および監視方法に関する詳細は、次の場所で入手できます [この節](../compositions/start-monitor-composition.md).
