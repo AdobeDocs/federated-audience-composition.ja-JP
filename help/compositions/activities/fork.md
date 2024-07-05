@@ -2,7 +2,7 @@
 audience: end-user
 title: 分岐アクティビティの使用
 description: 分岐アクティビティの使用方法を学ぶ
-source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
+source-git-commit: 984ea7f59f3099f9f08af24d9468e4dc559da0a5
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 84%
@@ -16,7 +16,6 @@ ht-degree: 84%
 >id="dc_orchestration_fork"
 >title="「分岐」アクティビティ"
 >abstract="**分岐**&#x200B;アクティビティを使用すると、アウトバウンドトランジションを作成して、複数のアクティビティを同時に開始できます。"
-
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_fork_transitions"
@@ -33,4 +32,4 @@ ht-degree: 84%
 1. **トランジションを追加**&#x200B;をクリックし、新しいアウトバウンドトランジションを追加します。デフォルトでは、2 つのトランジションが定義されています。
 1. 各トランジションにラベルを追加します。
 
-
+   ![](../assets/fork.png)
