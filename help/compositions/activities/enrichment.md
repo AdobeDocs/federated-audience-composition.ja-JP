@@ -2,10 +2,10 @@
 audience: end-user
 title: エンリッチメント アクティビティの使用
 description: エンリッチメントアクティビティの使用方法を学ぶ
-source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
+source-git-commit: 5180a92c24b08aa24506bd09a992c9e1573b33bc
 workflow-type: tm+mt
-source-wordcount: '1123'
-ht-degree: 76%
+source-wordcount: '387'
+ht-degree: 47%
 
 ---
 
@@ -53,55 +53,29 @@ ht-degree: 76%
 
 <!--For instance, you can add to the working table information related to customers' purchases and use this data to personalize emails with their latest purchase or the amount spent on these purchases.-->
 
-## エンリッチメントアクティビティの追加 {#enrichment-configuration}
+## エンリッチメントアクティビティを設定します。 {#enrichment-configuration}
 
 次の手順に従って、**エンリッチメント**&#x200B;アクティビティを設定します。
 
 1. **オーディエンスを作成**&#x200B;および&#x200B;**結合**&#x200B;アクティビティを追加します。
 1. **エンリッチメント**&#x200B;アクティビティを追加します。
-1. コンポジションに複数のトランジションが設定されている場合は、 **[!UICONTROL プライマリセット]** データを充実させるために、どのトランジションをプライマリセットとして使用するかを定義するフィールド。
 
-## エンリッチメントデータを追加 {#enrichment-add}
+   ![](../assets/enrichment.png)
+
+1. コンポジションに複数のトランジションが設定されている場合は、 **[!UICONTROL プライマリセット]** データを充実させるために、どのトランジションをプライマリセットとして使用するかを定義するフィールド。
 
 1. 「**エンリッチメントデータを追加**」をクリックし、データのエンリッチメントに使用する属性を選択します。
 
-   選択できるエンリッチメントデータには、ターゲットディメンションからの単一エンリッチメント属性と、コレクションリンクの 2 つのタイプがあります。これらの各タイプについて詳しくは、以下の例を参照してください。
+   ![](../assets/enrichment-add.png)
 
-   * [単一エンリッチメント属性](#single-attribute)
-   * [コレクションリンク](#collection-link)
+   >[!NOTE]
+   >
+   >この **式を編集ボタン** 属性選択画面では、属性を選択するための高度な式を作成できます。
 
-<!--
->[!NOTE]
->
->The **Edit expression button** in the attribute selection screen allows you to build advanced expressions to select the attribute. [Learn how to work with the expression editor](../../query/expression-editor.md)-->
+<!--PAS VU SUR INSTANCE: You can select two types of enrichment data: a single enrichment attribute from the target dimension, or a collection link. Each of these types is detailed in the examples below:
 
-## テーブル間のリンクを作成 {#create-links}
-
-この **[!UICONTROL リンク定義]** セクションを使用すると、ワークテーブルデータとデータベースの間にリンクを作成できます。 例えば、受信者のアカウント番号、国および メールが含まれるファイルからデータを読み込む場合、プロファイル内の情報を更新するために国テーブルへのリンクを作成する必要があります。
-
-使用可能なリンクには、次のいくつかのタイプがあります。
-
-* **[!UICONTROL カーディナリティ 1 のシンプルリンク]**：プライマリセットの各レコードは、リンクされたデータの 1 個のレコードにのみ関連付けることができます。
-* **[!UICONTROL カーディナリティ 0 または 1 のシンプルリンク]**：プライマリセットのレコードは、リンクされたデータの 0 または 1 個のレコードに関連付けることができますが、複数のレコードに関連付けることはできません。
-* **[!UICONTROL カーディナリティ N のコレクションリンク]**：プライマリセットの各レコードは、リンクされたデータの 0、1、または（N）個以上 のレコードに関連付けることができます。
-
-リンクを作成するには、次の手順に従います。
-
-1. 「**[!UICONTROL リンクの定義]**」セクションで、「**[!UICONTROL リンクを追加]**」ボタンをクリックします。
-
-1. **リレーションタイプ**&#x200B;ドロップダウンリストで、作成するリンクのタイプを選択します。
-
-1. プライマリセットをリンクするターゲットを次のように識別します。
-
-   * データベース内の既存のテーブルをリンクするには、「**[!UICONTROL データベーススキーマ]**」を選択し、「**[!UICONTROL ターゲットスキーマ]**」フィールドから目的のテーブルを選択します。
-   * 入力トランジションからのデータとリンクするには、「**一時スキーマ**」を選択し、データを使用するトランジションを選択します。
-
-1. プライマリセットのデータとリンクされたスキーマを一致させるための紐付け条件を定義します。使用可能な結合には、次の 2 つのタイプがあります。
-
-   * **単純結合**：2 つのスキーマのデータを一致させるには、特定の属性を選択します。「**結合を追加**」をクリックし、紐付け条件として使用する&#x200B;**ソース**&#x200B;属性と&#x200B;**宛先**&#x200B;属性を選択します。
-   * **高度な結合**：高度な条件を使用して結合を作成します。「**結合を追加**」をクリックし、「**条件を作成**」ボタンをクリックしてクエリモデラーを開きます。
-
-リンクを使用したコンポジションサンプルは、 [例](#link-example) セクション。
+    * [Single enrichment attribute](#single-attribute)
+    * [Collection lnk](#collection-link)-->
 
 ## 例 {#example}
 
@@ -113,90 +87,46 @@ ht-degree: 76%
 1. ターゲティングディメンションからシンプルなフィールド（この例では生年月日）を選択します。
 1. 「**確認**」をクリックします。
 
-### コレクションリンク {#collection-link}
+<!--### Collection link {#collection-link}
 
-この、より複雑なユースケースでは、テーブル間で 1-N の基数を持つリンクであるコレクションリンクを選択します。100 ドル未満の、最新 3 回の購入を取得します。そのためには、次を定義する必要があります。
+In this more complex use case, we will select a collection link which is a link with a 1-N cardinality between tables. Let's retrieve the three latest purchases that are less than 100$. For this you need to define:
 
-* エンリッチメント属性：「**合計金額**」フィールド
-* 取得する行の数：3
-* フィルター：100 ドルを超える項目を除外
-* 並べ替え：「**注文日付**」フィールドを降順で並び替え。
+* an enrichment attribute: the **Total amount** field
+* the number of lines to retrieve: 3
+* a filter: filter out items that are greater than 100$
+* a sorting: descendant sorting on the **Order date** field. 
 
-#### 属性を追加 {#add-attribute}
+#### Add the attribute {#add-attribute}
 
-エンリッチメントデータとして使用するコレクションリンクを選択する場所です。
+This is where you select the collection link to use as enrichment data.
 
-1. 「**属性**」フィールド内をクリックします。
-1. 「**詳細属性を表示**」をクリックします。
-1. **購入**&#x200B;テーブルから「**合計金額**」フィールドを選択します。
+1. Click inside the **Attribute** field.
+1. Click **Display advanced attributes**.
+1. Select the **Total amount** field from the **Purchases** table. 
 
-#### コレクション設定の定義{#collection-settings}
+#### Define the collection settings{#collection-settings}
 
-次に、データの収集方法と取得するレコード数を定義します。
+Then, define how the data is collected and the number of records to retrieve.
 
-1. **データの収集方法を選択**&#x200B;ドロップダウンで「**データを収集**」を選択します。
-1. 「**取得する行（作成する列）**」フィールドに「3」と入力します。
+1. Select **Collect data** in the **Select how the data is collected** drop-down.
+1. Type "3" in the **Lines to retrieve (Columns to create)** field. 
 
-例えば、顧客の平均購入額を取得する場合は、代わりに「**集計データ**」を選択し、「**集計関数**」ドロップダウンで「**平均**」を選択します。
+If you want, for example, to get the average amount of purchases for a customer, select **Aggregated data** instead, and select **Average** in the **Aggregate function** drop-down.
 
-#### フィルターの定義{#collection-filters}
+#### Define the filters{#collection-filters}
 
-ここでは、エンリッチメント属性の最大値を定義します。100 ドルを超える項目は除外します。 <!--[Learn how to work with the query modeler](../../query/query-modeler-overview.md)-->
+Here, we define the maximum value for the enrichment attribute. We filter out items that are greater than 100$. [Learn how to work with the query modeler](../../query/query-modeler-overview.md)
 
-1. 「**フィルターを編集**」をクリックします。
-1. **合計金額**&#x200B;が存在し、かつ&#x200B;**合計金額**&#x200B;が 100 未満である、という 2 つのフィルターを追加します。最初のフィルターでは、NULL 値が最大値として表示されるようにフィルタリングします。
-1. 「**確認**」をクリックします。
+1. Click **Edit filters**.
+1. Add the two following filters: **Total amount** exists AND **Total amount** is less than 100. The first one filters NULL values as they would appear as the greatest value.
+1. Click **Confirm**.
 
-#### 並べ替えを定義{#collection-sorting}
+#### Define the sorting{#collection-sorting}
 
-**最新**&#x200B;の 3 つの購入を取得するには、並べ替えを適用する必要があります。
+We now need to apply sorting in order to retrieve the three **latest** purchases.
 
-1. 「**並べ替えを有効にする**」オプションをアクティブ化します。
-1. 「**属性**」フィールド内をクリックします。
-1. 「**オーダー日**」フィールドを選択します。
-1. 「**確認**」をクリックします。
-1. **並べ替え**&#x200B;ドロップダウンから「**降順**」を選択します。
-
-
-### リンク済みデータによるエンリッチメント {#link-example}
-
-次の例は、2 つのトランジション間にリンクを作成するように設定されたコンポジションを示しています。 最初のトランジションは「クエリ」アクティビティを使用してプロファイルデータをターゲットにし、2 番目のトランジションには「ファイルを読み込み」アクティビティを通じて読み込んだファイルに保存された購入データが含まれます。
-
-* 最初の「**エンリッチメント**」アクティビティでは、プライマリセット（「**クエリ**」アクティビティのデータ）を「**ファイルを読み込み**」アクティビティのスキーマにリンクします。これにより、クエリのターゲットになる各プロファイルを、対応する購入データと一致させられるようになります。
-* 秒 **エンリッチメント** から取得した購入データでコンポジションテーブルのデータを強化するために、アクティビティが追加されます。 **ファイルをロード** アクティビティ。 これにより、これらのデータを追加のアクティビティに使用でき、例えば、購入に関する情報をお客様に送信するメッセージをパーソナライズできます。
-
-
-
-
-
-<!--
-
-Add other fields
-use it in delivery
-
-
-cardinality between the tables (1-N)
-1. select attribute to use as enrichment data
-
-    display advanced fields option
-    i button
-
-    note: attributes from the target dimension
-
-1. Select how the data is collected
-1. number of records to retrieve if want to retrieve a collection of multiple records
-1. Apply filters and build rule
-
-    select an existing filter
-    save the filter for reuse
-    view results of the filter visually or in code view
-
-1. sort records using an attribute
-
-leverage enrichment data in campaign
-
-where we can use the enrichment data: personalize email, other use cases?
-
-## Example
-
--->
+1. Activate the **Enable sorting** option.
+1. Click inside the **Attribute** field.
+1. Select the **Order date** field.
+1. Click **Confirm**. 
+1. Select **Descending** from the **Sort** drop-down.-->
