@@ -2,10 +2,10 @@
 user-guide-title: 連合オーディエンス構成
 title: Adobeの Federated Audience Composition ドキュメント
 breadcrumb-title: 連合オーディエンス構成
-source-git-commit: 44be467650e2329a1fce6c5adb6d266d94efd1e2
+source-git-commit: 467f93490c33d9e7994315a658a8c5d230696870
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 38%
+source-wordcount: '121'
+ht-degree: 37%
 
 ---
 
@@ -17,6 +17,7 @@ ht-degree: 38%
 + 設定の手順 {#config}
    + [AEP を Federated Audience コンポジションと接続する](connections/destinations.md)
    + [連合データベースの設定](connections/federated-db.md)
+   + [接続の作成と管理](connections/connections.md)
    + データモデルとスキーマ{#datamodel}
       + [データモデルの設定](data-management/gs-models.md)
       + [スキーマの作成と設定](customer/schemas.md)
