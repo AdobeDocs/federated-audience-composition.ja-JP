@@ -2,7 +2,7 @@
 audience: end-user
 title: データモデルの基本を学ぶ
 description: データモデルの使用を開始する方法を学ぶ
-source-git-commit: 315dd7b40f9a0a6bb7e66f584a4727dc86b97616
+source-git-commit: 11abbb900e44d8588bff9d197fbe31a92621cf6c
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 1%
@@ -38,9 +38,9 @@ ht-degree: 1%
 
 データモデルは、スキーマ、オーディエンスおよびこれらの間のリンクのセットです。
 
-の詳細情報 [スキーマ](customer/schemas.md).
+の詳細情報 [スキーマ](../customer/schemas.md).
 
-の詳細情報 [オーディエンス](customer/audiences.md).
+の詳細情報 [オーディエンス](../customer/audiences.md).
 
 ## データモデルの作成方法 {#data-model-create}
 
