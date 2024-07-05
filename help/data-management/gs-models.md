@@ -2,10 +2,10 @@
 audience: end-user
 title: データモデルの基本を学ぶ
 description: データモデルの使用を開始する方法を学ぶ
-source-git-commit: e37229f46b865526f209da5831ba31b3acc8a784
+source-git-commit: 315dd7b40f9a0a6bb7e66f584a4727dc86b97616
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 4%
+source-wordcount: '163'
+ht-degree: 1%
 
 ---
 
@@ -35,4 +35,26 @@ ht-degree: 4%
 
 
 ## データモデルとは {#data-model-start}
+
+データモデルは、スキーマ、オーディエンスおよびこれらの間のリンクのセットです。
+
+の詳細情報 [スキーマ](customer/schemas.md).
+
+の詳細情報 [オーディエンス](customer/audiences.md).
+
+## データモデルの作成方法 {#data-model-create}
+
+対象： **[!UICONTROL 連合データ]** セクションに移動 **[!UICONTROL モデル]** リンク。 そこには **[!UICONTROL データモデル]** タブ。
+
+![](assets/datamodel_create.png){zoomable="yes"}
+
+をクリックする **[!UICONTROL データモデルを作成]** ボタンをクリックすると、データモデルに名前を付け、 **[!UICONTROL 作成]** ボタン。
+
+![](assets/datamodel_name.png){zoomable="yes"}
+
+スキーマ、オーディエンスおよびデータモデルのリンクを追加できるウィンドウにアクセスします。
+
+![](assets/datamodel_created.png){zoomable="yes"}
+
+![](assets/datamodel_schemas.png){zoomable="yes"}
 
