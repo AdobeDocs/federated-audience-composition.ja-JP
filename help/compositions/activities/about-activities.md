@@ -2,9 +2,9 @@
 audience: end-user
 title: アクティビティの操作
 description: アクティビティの操作方法を学ぶ
-source-git-commit: 13e7e75fe1dc175fce9464fa58c7a50b5e6107d4
+source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '278'
 ht-degree: 42%
 
 ---
@@ -20,7 +20,7 @@ Federated Audience Composition では、次の 2 種類のアクティビティ�
 ## ターゲティングアクティビティ
 
 * [オーディエンスを作成アクティビティ](build-audience.md)：ターゲット母集団を定義します。 既存のオーディエンスを選択するか、クエリモデラーを使用して独自のクエリを定義できます。
-* [ディメンションを変更](change-dimension.md)：コンポジションの作成時にターゲティングディメンションを変更します。
+* [ディメンションを変更](change-dimension.md)：コンポジションを作成するので、スキーマ（ターゲティングディメンションとも呼ばれます）を変更します。
 * [結合](combine.md)：インバウンド母集団に対してセグメント化を実行します。和集合、積集合または除外を使用できます。
 * [重複排除 - 重複](deduplication.md)：インバウンドアクティビティの結果から重複を削除します。
 * [エンリッチメント](enrichment.md)：コンポジションで処理する追加データを定義します。 このアクティビティでは、インバウンドトランジションを利用し、追加のデータで出力トランジションを補完するようにアクティビティを設定できます。

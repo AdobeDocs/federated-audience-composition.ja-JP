@@ -2,10 +2,10 @@
 audience: end-user
 title: 紐付けアクティビティの使用
 description: 紐付けアクティビティの使用方法を学ぶ
-source-git-commit: bdfd74a148a0c6df77baec4775d205db660f2573
+source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 45%
+source-wordcount: '518'
+ht-degree: 42%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 45%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_targeting"
 >title="スキーマ"
->abstract="データに適用する新しいスキーマを選択します。 「ターゲティングディメンション」とも呼ばれるスキーマを使用すると、受信者、アプリの購読者、オペレーター、購読者など、ターゲット母集団を定義できます。 デフォルトでは、コンポジションの現在のターゲティングディメンションが選択されています。"
+>abstract="データに適用する新しいスキーマを選択します。 スキーマ（ターゲティングディメンションとも呼ばれます）を使用すると、受信者、アプリの購読者、オペレーター、購読者など、ターゲット母集団を定義できます。 デフォルトでは、コンポジションの現在のスキーマが選択されています。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_rules"
@@ -53,7 +53,7 @@ ht-degree: 45%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_targeting_selection"
 >title="ターゲティングディメンションの選択"
->abstract="紐付けするインバウンドデータのターゲティングディメンションを選択します。"
+>abstract="紐付けるインバウンドデータのスキーマ（ターゲティングディメンションとも呼ばれます）を選択します。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_keep_unreconciled_data"
@@ -69,7 +69,7 @@ ht-degree: 45%
 
 1. を追加 **紐付け** コンポジションに対するアクティビティ。
 
-1. 「」を選択します **新しいスキーマ**. 「ターゲティングディメンション」とも呼ばれるスキーマを使用すると、受信者、アプリの購読者、オペレーター、購読者など、ターゲット母集団を定義できます。
+1. 「」を選択します **新しいスキーマ**. スキーマ（ターゲティングディメンションとも呼ばれます）を使用すると、受信者、アプリの購読者、オペレーター、購読者など、ターゲット母集団を定義できます。
 
 1. 紐付けに使用するフィールドを選択します。1 つまたは複数の紐付け条件を使用できます。
 

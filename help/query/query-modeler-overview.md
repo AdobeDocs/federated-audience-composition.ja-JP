@@ -2,10 +2,10 @@
 audience: end-user
 title: クエリモデラーの操作
 description: クエリモデラーの操作方法について説明します。
-source-git-commit: f6730819712ffcbe815517a4406dac7e8fb9779c
+source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 87%
+source-wordcount: '380'
+ht-degree: 86%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 87%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_querymessage"
 >title="クエリモデラー"
->abstract="データベースから、受信者またはその他のターゲティングディメンションのフィルター条件を定義します。"
+>abstract="受信者またはその他のスキーマ（ターゲティングディメンションとも呼ばれます）のフィルタリング条件をデータベースから定義します。"
 
 クエリモデラーは、様々な条件に基づいてデータベースをフィルタリングするプロセスを簡素化します。 また、クエリモデラーは非常に複雑で長いクエリを効率的に管理できるので、柔軟性と精度が向上します。さらに、条件内で定義済みフィルターをサポートしているので、包括的なオーディエンスのターゲティングとセグメント化戦略に高度な式と演算子を利用しながら、クエリを簡単に絞り込むことができます。
 
