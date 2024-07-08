@@ -2,10 +2,10 @@
 audience: end-user
 title: クエリモデラーの操作
 description: クエリモデラーの操作方法について説明します。
-source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
+source-git-commit: 5d4bdbbb9c903e839b21d22455d870396ac1df7d
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 86%
+source-wordcount: '336'
+ht-degree: 77%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 86%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_querymessage"
 >title="クエリモデラー"
->abstract="受信者またはその他のスキーマ（ターゲティングディメンションとも呼ばれます）のフィルタリング条件をデータベースから定義します。"
+>abstract="データベース内の受信者またはその他のスキーマ(ターゲティングディメンションとも呼ばれます)に対するフィルター条件を定義します。"
 
-クエリモデラーは、様々な条件に基づいてデータベースをフィルタリングするプロセスを簡素化します。 また、クエリモデラーは非常に複雑で長いクエリを効率的に管理できるので、柔軟性と精度が向上します。さらに、条件内で定義済みフィルターをサポートしているので、包括的なオーディエンスのターゲティングとセグメント化戦略に高度な式と演算子を利用しながら、クエリを簡単に絞り込むことができます。
+クエリモデラーは、さまざまな基準に基づいてデータベースをフィルタリングするプロセスを簡素化します。 また、クエリモデラーは非常に複雑で長いクエリを効率的に管理できるので、柔軟性と精度が向上します。さらに、条件内で定義済みフィルターをサポートしているので、包括的なオーディエンスのターゲティングとセグメント化戦略に高度な式と演算子を利用しながら、クエリを簡単に絞り込むことができます。
 
 ## クエリモデラーへのアクセス
 
@@ -24,10 +24,8 @@ ht-degree: 86%
 
 | 用途 | 例 |
 |  ---  |  ---  |
-| **オーディエンスの定義**：コンポジションでターゲットにする母集団を指定し、ニーズに合わせて新しいオーディエンスを簡単に作成します。 | ![](assets/access-audience.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
-| **ワークフローアクティビティのカスタマイズ**：特定の要件に合わせて、**分割**&#x200B;や&#x200B;**紐付け**&#x200B;などのワークフローアクティビティ内にルールを適用します。[詳しくは、ワークフローアクティビティを参照してください。](../compositions/activities/about-activities.md) | ![](assets/access-workflow.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
-| **定義済みフィルター**：データリストの操作や配信のオーディエンスの形成など、様々なフィルタリング操作中にショートカットとして機能する定義済みフィルターを作成します。 | ![](assets/access-predefined-filter.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
-| **リストのカスタマイズ**：受信者、配信リストなどのリストに表示されるデータをフィルタリングするカスタムルールを作成します。 | ![](assets/access-lists.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| **オーディエンスを定義**:コンポジションでターゲットする母集団を指定し、ニーズに合わせた新しいオーディエンスを簡単に作成します。 | ![](assets/access-audience.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| **ワークフローアクティビティのカスタマイズ**: **分割** や **紐付け**&#x200B;などの構成アクティビティ内にルールを適用して、特定の要件に合わせます。 [作曲活動についてもっと知る](../compositions/activities/about-activities.md) | ![](assets/access-composition.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
 ## クエリモデラーインターフェイス {#interface}
 
