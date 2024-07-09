@@ -2,10 +2,10 @@
 audience: end-user
 title: 紐付けアクティビティの使用
 description: 紐付けアクティビティの使用方法を学ぶ
-source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
+source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 42%
+source-wordcount: '526'
+ht-degree: 46%
 
 ---
 
@@ -82,7 +82,7 @@ ht-degree: 42%
 
       ![](../assets/reconciliation-rules.png)
 
-   1. 他の属性を使用してデータを調整するには、 **高度な紐付け条件** 「」オプションを選択し、 **条件の作成** ボタン。 その後、クエリモデラーを使用して、独自の紐付け条件を作成できます。
+   1. 他の属性を使用してデータを調整するには、 **高度な紐付け条件** 「」オプションを選択し、 **条件の作成** ボタン。 その後、クエリモデラーを使用して独自の紐付け条件を作成できます。[詳しくは、クエリモデラーの操作方法を参照してください。](../../query/query-modeler-overview.md)
 
       ![](../assets/reconciliation-advanced.png)
 

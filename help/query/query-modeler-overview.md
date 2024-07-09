@@ -2,10 +2,10 @@
 audience: end-user
 title: クエリモデラーの操作
 description: クエリモデラーの操作方法について説明します。
-source-git-commit: 5d4bdbbb9c903e839b21d22455d870396ac1df7d
+source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 77%
+source-wordcount: '347'
+ht-degree: 74%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 77%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_querymessage"
 >title="クエリモデラー"
->abstract="データベース内の受信者またはその他のスキーマ(ターゲティングディメンションとも呼ばれます)に対するフィルター条件を定義します。"
+>abstract="受信者またはその他のスキーマ（ターゲティングディメンションとも呼ばれます）のフィルタリング条件をデータベースから定義します。"
 
-クエリモデラーは、さまざまな基準に基づいてデータベースをフィルタリングするプロセスを簡素化します。 また、クエリモデラーは非常に複雑で長いクエリを効率的に管理できるので、柔軟性と精度が向上します。さらに、条件内で定義済みフィルターをサポートしているので、包括的なオーディエンスのターゲティングとセグメント化戦略に高度な式と演算子を利用しながら、クエリを簡単に絞り込むことができます。
+クエリモデラーは、様々な条件に基づいてデータベースをフィルタリングするプロセスを簡素化します。 また、クエリモデラーは非常に複雑で長いクエリを効率的に管理できるので、柔軟性と精度が向上します。さらに、条件内で定義済みフィルターをサポートしているので、包括的なオーディエンスのターゲティングとセグメント化戦略に高度な式と演算子を利用しながら、クエリを簡単に絞り込むことができます。
 
 ## クエリモデラーへのアクセス
 
@@ -24,8 +24,8 @@ ht-degree: 77%
 
 | 用途 | 例 |
 |  ---  |  ---  |
-| **オーディエンスを定義**:コンポジションでターゲットする母集団を指定し、ニーズに合わせた新しいオーディエンスを簡単に作成します。 | ![](assets/access-audience.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
-| **ワークフローアクティビティのカスタマイズ**: **分割** や **紐付け**&#x200B;などの構成アクティビティ内にルールを適用して、特定の要件に合わせます。 [作曲活動についてもっと知る](../compositions/activities/about-activities.md) | ![](assets/access-composition.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| **オーディエンスの定義**：コンポジションでターゲットにする母集団を指定し、ニーズに合わせて新しいオーディエンスを簡単に作成します。 | ![](assets/access-audience.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| **ワークフローアクティビティのカスタマイズ**：次のようなコンポジションアクティビティ内のルールを適用します **分割** および **紐付け**&#x200B;を使用して、特定の要件に合わせることができます。 [コンポジションアクティビティの詳細情報](../compositions/activities/about-activities.md) | ![](assets/access-composition.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
 ## クエリモデラーインターフェイス {#interface}
 
@@ -47,4 +47,4 @@ ht-degree: 77%
 
 ### ルールのプロパティパネル {#rule-properties}
 
-右側にある&#x200B;**[!UICONTROL ルールのプロパティ]**&#x200B;パネルには、クエリに関する情報が表示されます。これにより、様々な操作を実行してクエリを確認し、ニーズに合うことを確認できます。[クエリを確認および検証する方法を学ぶ](build-query.md#check-and-validate-your-query)
+右側にある&#x200B;**[!UICONTROL ルールのプロパティ]**&#x200B;パネルには、クエリに関する情報が表示されます。これにより、様々な操作を実行してクエリを確認し、ニーズに合うことを確認できます。このペインは、オーディエンスを作成するクエリを作成する際に表示されます。 [クエリを確認および検証する方法を学ぶ](build-query.md#check-and-validate-your-query)

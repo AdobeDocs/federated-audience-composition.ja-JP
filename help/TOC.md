@@ -2,10 +2,10 @@
 user-guide-title: 連合オーディエンス構成
 title: Adobeの Federated Audience Composition ドキュメント
 breadcrumb-title: 連合オーディエンス構成
-source-git-commit: 467f93490c33d9e7994315a658a8c5d230696870
+source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 37%
+source-wordcount: '119'
+ht-degree: 36%
 
 ---
 
@@ -47,6 +47,5 @@ ht-degree: 37%
    + [クエリモデラーの操作](query/query-modeler-overview.md)
    + [最初のクエリの作成](query/build-query.md)
    + [式の編集](query/expression-editor.md)
-   + [フィルターリスト](query/filter.md)
 + 監査記録 {#audit-trail}
    + [データベースの監視](admin/audit-trail.md)

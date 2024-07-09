@@ -4,10 +4,10 @@ title: 「増分処理クエリ」アクティビティを使用します
 description: 「増分処理クエリ」アクティビティの使用方法を説明します
 hide: true
 hidefromtoc: true
-source-git-commit: 13e7e75fe1dc175fce9464fa58c7a50b5e6107d4
+source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 55%
+source-wordcount: '598'
+ht-degree: 59%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 55%
 
    ターゲティングディメンションは、受信者、契約の受益者、オペレーター、サブスクライバーなど、ターゲットされる母集団を操作ごとに定義します。デフォルトでは、ターゲットが受信者から選択されます。 <!--[Learn more about targeting dimensions](../../audience/about-recipients.md#targeting-dimensions)-->
 
-1. 新しいメールをデザインする際にオーディエンスを作成するのと同じ方法で、クエリモデラーを使用してクエリを定義します。 <!--[Learn how to work with the query modeler](../../query/query-modeler-overview.md)-->
+1. 新しいメールをデザインする際にオーディエンスを作成するのと同じ方法で、クエリモデラーを使用してクエリを定義します。[クエリモデラーの操作方法の詳細を学ぶ](../../query/query-modeler-overview.md)
 
 1. 「**[!UICONTROL 処理済みのデータ]**」セクションで、使用する増分モードを選択します。
 

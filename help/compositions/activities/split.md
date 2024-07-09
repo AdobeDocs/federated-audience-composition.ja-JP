@@ -2,10 +2,10 @@
 audience: end-user
 title: 分割アクティビティの使用
 description: 分割アクティビティの使用方法を学ぶ
-source-git-commit: c4c9eba1dcb3adff3028175a389ff6e4eaf12bc0
+source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
-source-wordcount: '919'
-ht-degree: 82%
+source-wordcount: '927'
+ht-degree: 84%
 
 ---
 
@@ -83,7 +83,7 @@ ht-degree: 82%
 
       ![](../assets/split-subset.png)
 
-   1. サブセットにフィルタリング条件を適用するには、「**[!UICONTROL フィルターを作成]**」をクリックし、クエリモデラーを使用して目的のフィルタリングルールを設定します。例えば、メールアドレスがデータベースに存在する受信母集団のプロファイルを含めます。 <!--[Learn how to work with the query modeler](../../query/query-modeler-overview.md)-->
+   1. サブセットにフィルタリング条件を適用するには、「**[!UICONTROL フィルターを作成]**」をクリックし、クエリモデラーを使用して目的のフィルタリングルールを設定します。例えば、データベースにメールアドレスが存在する入力母集団のプロファイルを含めます。[詳しくは、クエリモデラーの操作方法を参照してください。](../../query/query-modeler-overview.md)
 
    1. サブセットで選択するプロファイル数を制限するには、「**[!UICONTROL 制限を有効にする]**」オプションの切替スイッチをオンにし、含める母集団の数または割合を指定します。
 
