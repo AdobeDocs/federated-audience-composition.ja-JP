@@ -5,7 +5,7 @@ keywords: 新規ファイル，ファイルを追加，ファイル
 source-git-commit: 194ae763f5040f11eba0fe30aa302064f5d0606a
 workflow-type: tm+mt
 source-wordcount: '81'
-ht-degree: 39%
+ht-degree: 88%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_query_enrichment_noneditable"
 >title="編集不可のアクティビティ"
->abstract="条件 **クエリ** または **エンリッチメント** アクティビティの設定にコンソール内の追加データが使用されると、エンリッチメントデータが考慮され、アウトバウンドトランジションに渡されますが、編集はできません。"
+>abstract="コンソールで「**クエリ**」アクティビティまたは「**エンリッチメント**」アクティビティに追加のデータを設定する際、エンリッチメントデータが考慮され、アウトバウンドトランジションに渡されますが、編集はできません。"
 
 <!-- Create a link -->
 

@@ -5,7 +5,7 @@ description: 連合データベースを作成および管理する方法を学�
 source-git-commit: 847da9a5eeb28199010f8491f7eebba4a60a83f1
 workflow-type: tm+mt
 source-wordcount: '890'
-ht-degree: 25%
+ht-degree: 33%
 
 ---
 
@@ -14,20 +14,20 @@ ht-degree: 25%
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_menu"
->title="フェデレーションデータベース"
->abstract="フェデレーション データベースへの既存の接続がこの画面に一覧表示されます。 新しい接続を作成するには、 **連合データベースを追加** ボタン。"
+>title="連合データベース"
+>abstract="この画面には、連合データベースへの既存の接続がリストされます。 新しい接続を作成するには、「**連合データベースを追加**」ボタンをクリックします。"
 
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_properties"
 >title="連合データベースのプロパティ"
->abstract="新しい連合データベースの名前を入力し、そのタイプを選択します。"
+>abstract="新しい連合データベースの名前を入力し、このタイプを選択します。"
 
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_details"
 >title="連合データベースの詳細"
->abstract="新しいフェデレーション データベースに接続するための設定を入力します。 の使用 **接続をテスト** 設定を検証するボタン。"
+>abstract="新しい連合データベースに接続するための設定を入力します。 「**接続をテスト**」ボタンを使用して、設定を検証します。"
 
 外部データベースへの接続を作成、設定、テスト、保存します。
 

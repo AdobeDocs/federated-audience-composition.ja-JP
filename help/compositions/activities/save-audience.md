@@ -5,7 +5,7 @@ description: オーディエンスを保存アクティビティの使用方法�
 source-git-commit: 6b7a0ae164bdb09b1f5fc067a13e304eec9c5201
 workflow-type: tm+mt
 source-wordcount: '358'
-ht-degree: 30%
+ht-degree: 44%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_save_audience"
 >title="オーディエンスの保存"
->abstract="このアクティビティを使用すると、既存のオーディエンスを更新したり、コンポジションのアップストリームで計算された母集団から新しいオーディエンスを作成したりできます。 作成したオーディエンスはオーディエンスのリストに追加され、**オーディエンス**&#x200B;メニューから使用できます。"
+>abstract="このアクティビティを使用すると、既存のオーディエンスを更新したり、構成の上流で計算された母集団から新しいオーディエンスを作成したりすることができます。 作成したオーディエンスはオーディエンスのリストに追加され、**オーディエンス**&#x200B;メニューから使用できます。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveaudience_outbound"
@@ -26,13 +26,13 @@ ht-degree: 30%
 >id="dc_orchestration_save_audience_primary_identity"
 >title="プライマリ ID フィールド"
 >abstract="プロファイルに使用するプライマリ ID を選択します。"
->additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/identity#define-a-identity-field" text="詳しくは、Experience Platformドキュメントを参照してください。"
+>additional-url="https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/ui/fields/identity#define-a-identity-field" text="詳しくは、Experience Platform のドキュメントを参照してください"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveaudience_namespace"
 >title="ID 名前空間"
 >abstract="プロファイルに使用する名前空間を選択します。"
->additional-url="https://experienceleague.adobe.com/ja/docs/experience-platform/identity/features/namespaces" text="詳しくは、Experience Platformドキュメントを参照してください。"
+>additional-url="https://experienceleague.adobe.com/ja/docs/experience-platform/identity/features/namespaces" text="詳しくは、Experience Platform のドキュメントを参照してください"
 
 この **オーディエンスを保存** アクティビティを使用すると、コンポジションのアップストリームで計算された母集団から既存のオーディエンスを更新したり、新しいオーディエンスを作成したりできます。 作成したオーディエンスはアプリケーションオーディエンスのリストに追加され、**オーディエンス**&#x200B;メニューから使用できるようになります。
 

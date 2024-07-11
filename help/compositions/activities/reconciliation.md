@@ -5,7 +5,7 @@ description: 紐付けアクティビティの使用方法を学ぶ
 source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
 source-wordcount: '526'
-ht-degree: 46%
+ht-degree: 52%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 46%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation"
 >title="紐付けアクティビティ"
->abstract="この **紐付け** アクティビティを使用すると、データベース内のデータとワークテーブル内のデータ間のリンクを定義できます。"
+>abstract="「**紐付け**」アクティビティを使用すると、データベース内のデータと作業テーブル内のデータ間のリンクを定義できます。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_field"
@@ -48,7 +48,7 @@ ht-degree: 46%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_rules"
 >title="紐付けルール"
->abstract="重複排除 - 重複に使用する紐付けルールを選択します。属性を使用するには、「**単純な属性**」オプションを選択し、ソースフィールドと宛先フィールドを選択します。クエリモデラーを使用して独自の紐付け条件を作成するには、「**高度な紐付け条件**」オプションを選択します。"
+>abstract="重複排除 - 重複に使用する紐付けルールを選択します。 属性を使用するには、「**単純な属性**」オプションを選択し、ソースフィールドと宛先フィールドを選択します。 クエリモデラーを使用して独自の紐付け条件を作成するには、「**高度な紐付け条件**」オプションを選択します。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_targeting_selection"
@@ -58,12 +58,12 @@ ht-degree: 46%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_keep_unreconciled_data"
 >title="紐付けられていないデータの保持"
->abstract="デフォルトでは、紐付けされていないデータは、アウトバウンドトランジションに保持され、後で使用するために作業用テーブルで使用できます。紐付けされていないデータを削除するには、「**紐付けされていないデータを保持**」オプションを非アクティブ化します。"
+>abstract="デフォルトでは、紐付けされていないデータは、アウトバウンドトランジションに保持され、後で使用するために作業用テーブルで使用できます。 紐付けされていないデータを削除するには、「**紐付けされていないデータを保持**」オプションを非アクティブ化します。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_attribute"
 >title="紐付け属性"
->abstract="データの紐付けに使用する属性を選択し、確定します。"
+>abstract="データの紐付けに使用する属性を選択し、確認します。"
 
 **紐付け**&#x200B;アクティビティを設定するには、次の手順に従います。
 

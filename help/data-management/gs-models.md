@@ -5,7 +5,7 @@ description: データモデルの使用を開始する方法を学ぶ
 source-git-commit: 11abbb900e44d8588bff9d197fbe31a92621cf6c
 workflow-type: tm+mt
 source-wordcount: '163'
-ht-degree: 1%
+ht-degree: 37%
 
 ---
 
@@ -15,17 +15,17 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="dc_model_menu"
 >title="モデルの操作"
->abstract="この画面には、スキーマとデータモデルが一覧表示されます。 からスキーマとデータモデルを作成できます **作成** ボタン。"
+>abstract="この画面には、スキーマとデータモデルがリストされます。 「**作成**」ボタンからスキーマとデータモデルを作成できます。"
 
 >[!CONTEXTUALHELP]
 >id="dc_datamodel_add_schema"
->title="スキーマを選択"
+>title="スキーマの選択"
 >abstract="データモデルのスキーマを選択します。"
 
 
 >[!CONTEXTUALHELP]
 >id="dc_datamodel_add_audience"
->title="オーディエンスを選択"
+>title="オーディエンスの選択"
 >abstract="データモデルのオーディエンスを選択します。"
 
 >[!CONTEXTUALHELP]

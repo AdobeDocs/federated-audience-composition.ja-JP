@@ -1,15 +1,15 @@
 ---
 audience: end-user
-title: コンポジションの基本を学ぶ
+title: 構成の基本を学ぶ
 description: コンポジションの開始方法を説明します
 source-git-commit: 0d6930b15be5013b57b8859dd3d21a5d3367ecae
 workflow-type: tm+mt
 source-wordcount: '276'
-ht-degree: 2%
+ht-degree: 13%
 
 ---
 
-# コンポジションの基本を学ぶ {#compositions}
+# 構成の基本を学ぶ {#compositions}
 
 ## コンポジションとは {#what}
 
@@ -22,7 +22,7 @@ Adobeデータコンポジションを使用すると、様々なアクティビ
 >[!CONTEXTUALHELP]
 >id="dc_composition_list"
 >title="構成"
->abstract="この画面では、コンポジションの完全なリストにアクセスし、現在のステータス、最後/次回の実行日を確認して、新しいコンポジションを作成できます。"
+>abstract="この画面では、構成の完全なリストにアクセスし、現在のステータス、前回／次回の実行日を確認して、新しい構成を作成できます。"
 
 コンポジションにはAdobe Experience Platformからアクセスできます **[!UICONTROL オーディエンス]** メニュー（内） **連合構成** タブ。
 

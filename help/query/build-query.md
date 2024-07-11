@@ -146,7 +146,7 @@ ht-degree: 93%
 
    ![](assets/aggregate.png){zoomable="yes"}{width="85%" align="center"}
 
-### オーディエンスを選択 {#audiences}
+### オーディエンスの選択 {#audiences}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_selectaudience"

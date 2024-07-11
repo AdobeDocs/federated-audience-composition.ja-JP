@@ -5,7 +5,7 @@ description: スキーマの開始方法を学ぶ
 source-git-commit: 407de5e35fae1b38a4f1c2819d684fbd87285970
 workflow-type: tm+mt
 source-wordcount: '96'
-ht-degree: 9%
+ht-degree: 93%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 9%
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_create_select_tables"
->title="テーブルを選択"
+>title="テーブルの選択"
 >abstract="データモデルに追加するテーブルを選択します。"
 
 >[!CONTEXTUALHELP]
@@ -35,7 +35,7 @@ ht-degree: 9%
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_filter_sources"
->title="フィルタリングするソースデータベースを選択"
->abstract="ソースに基づいてスキーマをフィルタリングできます。 1 つまたは複数の連合データベースを選択して、そのスキーマを表示します。"
+>title="フィルタリングするソースデータベースの選択"
+>abstract="ソースに基づいてスキーマをフィルタリングできます。 1 つまたは複数の連合データベースを選択して、このスキーマを表示します。"
 
 
