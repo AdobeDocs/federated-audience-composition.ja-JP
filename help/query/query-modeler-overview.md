@@ -5,7 +5,7 @@ description: クエリモデラーの操作方法について説明します。
 source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
 source-wordcount: '347'
-ht-degree: 74%
+ht-degree: 82%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 74%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_querymessage"
 >title="クエリモデラー"
->abstract="受信者またはその他のスキーマ（ターゲティングディメンションとも呼ばれます）のフィルタリング条件をデータベースから定義します。"
+>abstract="データベースから、受信者またはその他のスキーマ（ターゲティングディメンションとも呼ばれる）のフィルタリング条件を定義します。"
 
 クエリモデラーは、様々な条件に基づいてデータベースをフィルタリングするプロセスを簡素化します。 また、クエリモデラーは非常に複雑で長いクエリを効率的に管理できるので、柔軟性と精度が向上します。さらに、条件内で定義済みフィルターをサポートしているので、包括的なオーディエンスのターゲティングとセグメント化戦略に高度な式と演算子を利用しながら、クエリを簡単に絞り込むことができます。
 
@@ -25,7 +25,7 @@ ht-degree: 74%
 | 用途 | 例 |
 |  ---  |  ---  |
 | **オーディエンスの定義**：コンポジションでターゲットにする母集団を指定し、ニーズに合わせて新しいオーディエンスを簡単に作成します。 | ![](assets/access-audience.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
-| **ワークフローアクティビティのカスタマイズ**：次のようなコンポジションアクティビティ内のルールを適用します **分割** および **紐付け**&#x200B;を使用して、特定の要件に合わせることができます。 [コンポジションアクティビティの詳細情報](../compositions/activities/about-activities.md) | ![](assets/access-composition.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| **ワークフローアクティビティのカスタマイズ**：特定の要件に合わせて、**分割** や **紐付け** などのコンポジションアクティビティ内のルールを適用します。 [ コンポジションアクティビティの詳細情報 ](../compositions/activities/about-activities.md) | ![](assets/access-composition.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
 ## クエリモデラーインターフェイス {#interface}
 
@@ -47,4 +47,4 @@ ht-degree: 74%
 
 ### ルールのプロパティパネル {#rule-properties}
 
-右側にある&#x200B;**[!UICONTROL ルールのプロパティ]**&#x200B;パネルには、クエリに関する情報が表示されます。これにより、様々な操作を実行してクエリを確認し、ニーズに合うことを確認できます。このペインは、オーディエンスを作成するクエリを作成する際に表示されます。 [クエリを確認および検証する方法を学ぶ](build-query.md#check-and-validate-your-query)
+右側にある&#x200B;**[!UICONTROL ルールのプロパティ]**&#x200B;パネルには、クエリに関する情報が表示されます。これにより、様々な操作を実行してクエリを確認し、ニーズに合うことを確認できます。このパネルは、オーディエンスを作成するクエリを作成する際に表示されます。[クエリを確認および検証する方法を学ぶ](build-query.md#check-and-validate-your-query)

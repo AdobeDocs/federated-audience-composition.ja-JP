@@ -5,17 +5,17 @@ description: コンポジションの作成方法を説明します
 source-git-commit: 0d6930b15be5013b57b8859dd3d21a5d3367ecae
 workflow-type: tm+mt
 source-wordcount: '229'
-ht-degree: 41%
+ht-degree: 59%
 
 ---
 
 
-# コンポジション作成の主な原則 {#gs-composition-creation}
+# 構成作成の主な原則 {#gs-composition-creation}
 
 >[!CONTEXTUALHELP]
 >id="dc_composition_creation_properties"
->title="構成のプロパティ"
->abstract="この画面で、コンポジションの作成に使用するテンプレートを選択し、ラベルを指定します。 「その他のOPTIONS」セクションを展開して、コンポジションの内部名、そのフォルダー、タイムゾーン、スーパーバイザーグループなどの追加の設定を指定します。 エラーが発生した場合にオペレーターに警告できるように、スーパーバイザーグループを選択することを強くお勧めします。"
+>title="構成プロパティ"
+>abstract="この画面では、構成の作成に使用するテンプレートを選択し、ラベルを指定します。「その他のオプション」セクションを展開して、構成の内部名、フォルダー、タイムゾーン、スーパーバイザーグループなどの詳細設定を行います。エラーが発生した場合にオペレーターに警告できるように、スーパーバイザーグループを選択することを強くお勧めします。"
 
 ## コンポジションには何が含まれていますか？ {#gs-composition-inside}
 
