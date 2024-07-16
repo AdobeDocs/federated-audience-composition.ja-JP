@@ -2,10 +2,10 @@
 user-guide-title: 連合オーディエンス構成
 title: Adobeの Federated Audience Composition ドキュメント
 breadcrumb-title: 連合オーディエンス構成
-source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
+source-git-commit: e79fb97ae9ce7236831f2ef4112c4cf68b889283
 workflow-type: tm+mt
 source-wordcount: '119'
-ht-degree: 36%
+ht-degree: 39%
 
 ---
 
@@ -13,23 +13,23 @@ ht-degree: 36%
 # Federated Audience Composition ドキュメント {#using}
 
 + [Federated Audience Composition ドキュメント](home.md)
-+ [基本を学ぶ](chapter1/newfile.md)
++ [基本を学ぶ](start/get-started.md)
 + 設定の手順 {#config}
    + [AEP を Federated Audience コンポジションと接続する](connections/destinations.md)
    + [連合データベースの設定](connections/federated-db.md)
    + [接続の作成と管理](connections/connections.md)
-   + データモデルとスキーマ{#datamodel}
+   + データモデルとスキーマ {#datamodel}
       + [データモデルの設定](data-management/gs-models.md)
       + [スキーマの作成と設定](customer/schemas.md)
    + [オーディエンスの操作](customer/audiences.md)
 + 構成 {#compositions}
-   + [コンポジションの基本を学ぶ](compositions/gs-compositions.md)
-   + 最初のコンポジションを作成して実行します {#create-composition}
-      + [コンポジション作成の主な原則](compositions/gs-composition-creation.md)
+   + [構成の基本を学ぶ](compositions/gs-compositions.md)
+   + 最初のコンポジションリク {#create-composition} ストの作成と実行
+      + [構成作成の主な原則](compositions/gs-composition-creation.md)
       + [コンポジションの作成と設定](compositions/create-composition.md)
       + [アクティビティをオーケストレーション](compositions/orchestrate-activities.md)
       + [コンポジションの開始と監視](compositions/start-monitor-composition.md)
-   + アクティビティの操作 {#activities}
+   + でのアクティビティ {#activities} 操作
       + [アクティビティのリスト](compositions/activities/about-activities.md)
       + [AND 結合](compositions/activities/and-join.md)
       + [オーディエンスを作成](compositions/activities/build-audience.md)
