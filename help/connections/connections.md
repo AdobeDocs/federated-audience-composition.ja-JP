@@ -11,11 +11,11 @@ ht-degree: 1%
 
 # 接続の作成 {#connections-fdb}
 
-連合データベースへの新しい接続を作成するには、に移動します。 **[!UICONTROL 連合データ]** セクションおよび **[!UICONTROL 連合データベース]** リンク、クリック **[!UICONTROL 連合データベースを追加]** ボタン。
+フェデレーション データベースへの新しい接続を作成するには、[**[!UICONTROL FEDERATED DATA]**] セクションに移動し、[**[!UICONTROL Federated Databases]**] リンクで [**[!UICONTROL フェデレーション データベースの追加]**] ボタンをクリックします。
 
 ![](assets/connections_list.png){zoomable="yes"}
 
-接続のウィンドウにアクセスします **[!UICONTROL プロパティ]**：データベースの名前とタイプ。
+接続のウィンドウ **[!UICONTROL プロパティ]** にアクセスし、データベースの名前とタイプを指定します。
 
 ![](assets/connections_name.png){zoomable="yes"}
 
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 ![](assets/connections_details.png){zoomable="yes"}
 
-詳細を入力したら、をクリックします。 **[!UICONTROL 接続をテスト]** ボタンなど **[!UICONTROL 関数をデプロイ]** ボタン。
-をクリックして、接続の作成を完了します。 **[!UICONTROL 保存]** ボタン。
+詳細を入力したら、「**[!UICONTROL 接続をテスト]**」ボタンと「**[!UICONTROL 関数をデプロイ]**」ボタンをクリックします。
+「**[!UICONTROL 保存]**」ボタンをクリックして、接続の作成を完了します。
 
 ![](assets/connections_testdeploy.png){zoomable="yes"}

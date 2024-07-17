@@ -38,17 +38,17 @@ ht-degree: 37%
 
 データモデルは、スキーマ、オーディエンスおよびこれらの間のリンクのセットです。
 
-の詳細情報 [スキーマ](../customer/schemas.md).
+詳しくは、[ スキーマ ](../customer/schemas.md) を参照してください。
 
-の詳細情報 [オーディエンス](../customer/audiences.md).
+詳細情報 [ オーディエンス ](../customer/audiences.md)。
 
 ## データモデルの作成方法 {#data-model-create}
 
-対象： **[!UICONTROL 連合データ]** セクションに移動 **[!UICONTROL モデル]** リンク。 そこには **[!UICONTROL データモデル]** タブ。
+「**[!UICONTROL FEDERATED DATA]**」セクションで、「**[!UICONTROL モデル]** リンクに移動します。 そこには、「**[!UICONTROL データモデル]** タブがあります。
 
 ![](assets/datamodel_create.png){zoomable="yes"}
 
-をクリックする **[!UICONTROL データモデルを作成]** ボタンをクリックすると、データモデルに名前を付け、 **[!UICONTROL 作成]** ボタン。
+「**[!UICONTROL データモデルを作成]**」ボタンをクリックすると、データモデルに名前を付け、「**[!UICONTROL 作成]**」ボタンをクリックできます。
 
 ![](assets/datamodel_name.png){zoomable="yes"}
 
