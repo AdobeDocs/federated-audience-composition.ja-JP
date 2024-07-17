@@ -2,10 +2,11 @@
 audience: end-user
 title: 待機アクティビティの使用
 description: 待機アクティビティの使用方法を学ぶ
-source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
+badge: label="限定提供" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 70%
+source-wordcount: '118'
+ht-degree: 71%
 
 ---
 

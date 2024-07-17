@@ -2,10 +2,11 @@
 audience: end-user
 title: 分岐アクティビティの使用
 description: 分岐アクティビティの使用方法を学ぶ
-source-git-commit: 984ea7f59f3099f9f08af24d9468e4dc559da0a5
+badge: label="限定提供" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 84%
+source-wordcount: '120'
+ht-degree: 85%
 
 ---
 

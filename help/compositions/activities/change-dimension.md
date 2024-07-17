@@ -2,9 +2,10 @@
 audience: end-user
 title: 「ディメンションを変更」アクティビティの使用
 description: ディメンションの変更アクティビティの使用方法を説明します
-source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
+badge: label="限定提供" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '189'
 ht-degree: 54%
 
 ---
@@ -15,7 +16,7 @@ ht-degree: 54%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_dimension_complement"
 >title="補集合を生成"
->abstract="重複として除外された残りの母集団を使用して、追加のアウトバウンドトランジションを生成できます。 これを行うには、「**補集合を生成**」オプションの切替スイッチをオンにします。"
+>abstract="重複として除外された残りの母集団を使用して、追加のアウトバウンドトランジションを生成できます。 これを行うには、「**[!UICONTROL 補集合を生成]**」オプションの切替スイッチをオンにします。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_change_dimension"

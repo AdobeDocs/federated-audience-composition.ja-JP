@@ -2,10 +2,11 @@
 audience: end-user
 title: フェデレーション データベースとの接続を作成および管理します
 description: フェデレーション データベースとの接続を作成および管理する方法を説明します
-source-git-commit: afcc9203b55eeb72a71cb8a82ea9e0dda5dfc683
+badge: label="限定提供" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 1%
+source-wordcount: '107'
+ht-degree: 3%
 
 ---
 

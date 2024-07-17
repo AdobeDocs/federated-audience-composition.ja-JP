@@ -2,10 +2,11 @@
 audience: end-user
 title: コンポジションの作成
 description: コンポジションの作成方法を説明します
-source-git-commit: be24c32977cdccab0a5fc7e77a033f4d2b746b9f
+badge: label="限定提供" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 25%
+source-wordcount: '484'
+ht-degree: 26%
 
 ---
 
@@ -48,7 +49,7 @@ ht-degree: 25%
 
 コンポジションにアクセスする場合、エラーが発生した場合のコンポジションの動作を定義するなどの詳細設定にアクセスできます。
 
-コンポジションの追加オプションにアクセスするには、コンポジション作成画面の上部にある **設定** ボタンをクリックします。
+コンポジションの追加オプションにアクセスするには、コンポジション作成画面の上部にある **[!UICONTROL 設定]** ボタンをクリックします。
 
 ![](assets/composition-create-settings.png)
 

@@ -2,9 +2,10 @@
 audience: end-user
 title: エンリッチメント アクティビティの使用
 description: エンリッチメントアクティビティの使用方法を学ぶ
-source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
+badge: label="限定提供" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '397'
 ht-degree: 61%
 
 ---

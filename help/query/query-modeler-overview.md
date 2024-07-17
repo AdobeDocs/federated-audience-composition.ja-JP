@@ -1,11 +1,12 @@
 ---
 audience: end-user
 title: クエリモデラーの操作
-description: クエリモデラーの操作方法について説明します。
-source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
+description: クエリモデラーの操作方法を説明します
+badge: label="限定提供" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 82%
+source-wordcount: '348'
+ht-degree: 81%
 
 ---
 
@@ -25,7 +26,7 @@ ht-degree: 82%
 | 用途 | 例 |
 |  ---  |  ---  |
 | **オーディエンスの定義**：コンポジションでターゲットにする母集団を指定し、ニーズに合わせて新しいオーディエンスを簡単に作成します。 | ![](assets/access-audience.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
-| **ワークフローアクティビティのカスタマイズ**：特定の要件に合わせて、**分割** や **紐付け** などのコンポジションアクティビティ内のルールを適用します。 [ コンポジションアクティビティの詳細情報 ](../compositions/activities/about-activities.md) | ![](assets/access-composition.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| **アクティビティのカスタマイズ**:**分割** や **紐付け** など、コンポジションアクティビティ内のルールを適用して、特定の要件に合わせます。 [ コンポジションアクティビティの詳細情報 ](../compositions/activities/about-activities.md) | ![](assets/access-composition.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
 ## クエリモデラーインターフェイス {#interface}
 
@@ -39,11 +40,11 @@ ht-degree: 82%
 
 キャンバスの右上隅にあるツールバーには、クエリコンポーネントを簡単に操作し、キャンバス内を移動するオプションが表示されます。
 
-* **複数選択モード**：複数のフィルタリングコンポーネントを選択して、選択した場所にコピー＆ペーストします。
-* **回転**：キャンバスを垂直方向に切り替えます。
-* **画面に合わせる**：キャンバスのズームレベルを画面に合わせて調整します。
-* **ズームアウト**／**ズームイン**：キャンバスをズームアウトまたはズームインします。
-* **マップを表示**：現在の位置を示すキャンバスのスナップショットを開きます。
+* **[!UICONTROL 複数選択モード]**：複数のフィルタリングコンポーネントを選択して、選択した場所にコピー＆ペーストします。
+* **[!UICONTROL 回転]**：キャンバスを垂直方向に切り替えます。
+* **[!UICONTROL 画面に合わせる]**：キャンバスのズームレベルを画面に合わせて調整します。
+* **[!UICONTROL ズームアウト]**／**[!UICONTROL ズームイン]**：キャンバスをズームアウトまたはズームインします。
+* **[!UICONTROL マップを表示]**：現在の位置を示すキャンバスのスナップショットを開きます。
 
 ### ルールのプロパティパネル {#rule-properties}
 

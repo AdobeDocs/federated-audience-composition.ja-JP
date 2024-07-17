@@ -2,9 +2,10 @@
 audience: end-user
 title: オーディエンスを作成アクティビティの使用
 description: オーディエンスを作成アクティビティの使用方法を学ぶ
-source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
+badge: label="限定提供" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '239'
 ht-degree: 54%
 
 ---

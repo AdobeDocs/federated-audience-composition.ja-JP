@@ -2,10 +2,11 @@
 audience: end-user
 title: オーディエンスの基本を学ぶ
 description: データモデルの使用を開始する方法を学ぶ
-source-git-commit: ddc880f0146c39fe06187e0ae0cc0355763adb78
+badge: label="限定提供" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 11%
+source-wordcount: '72'
+ht-degree: 13%
 
 ---
 

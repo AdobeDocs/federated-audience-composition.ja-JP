@@ -2,9 +2,10 @@
 audience: end-user
 title: クエリモデラーを使用した最初のクエリの作成
 description: クエリモデラーで最初のクエリを作成する方法を説明します。
-source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
+badge: label="限定提供" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '2100'
+source-wordcount: '2102'
 ht-degree: 98%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 98%
 
 式エディターは、クエリモデラーの「**[!UICONTROL 式を編集]**」ボタンから実行できます。このボタンは、カスタム条件を設定する際に「**[!UICONTROL 属性]**」フィールドと「**[!UICONTROL 値]**」フィールドで使用できます。
 
-| 「**属性**」フィールドからのアクセス | 「**値**」フィールドからのアクセス |
+| 「**[!UICONTROL 属性]**」フィールドからのアクセス | 「**[!UICONTROL 値]**」フィールドからのアクセス |
 |  ---  |  ---  |
 | ![](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} | ![](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
