@@ -2,10 +2,10 @@
 user-guide-title: 連合オーディエンス構成
 title: Adobeの Federated Audience Composition ドキュメント
 breadcrumb-title: 連合オーディエンス構成
-source-git-commit: e79fb97ae9ce7236831f2ef4112c4cf68b889283
+source-git-commit: bea3c176701dd256255f222713d3c10284f97210
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 43%
+source-wordcount: '134'
+ht-degree: 40%
 
 ---
 
@@ -13,7 +13,9 @@ ht-degree: 43%
 # Federated Audience Composition ドキュメント {#using}
 
 + [Federated Audience Composition ドキュメント](home.md)
-+ [基本を学ぶ](start/get-started.md)
++ Federated Audience Composition {#start} の基本を学ぶ
+   + [基本を学ぶ](start/get-started.md)
+   + [リリースノート](start/release-notes.md)
 + 設定の手順 {#config}
    + [AEP を Federated Audience コンポジションと接続する](connections/destinations.md)
    + [連合データベースの設定](connections/federated-db.md)
@@ -49,3 +51,4 @@ ht-degree: 43%
    + [式の編集](query/expression-editor.md)
 + 監査記録 {#audit-trail}
    + [データベースの監視](admin/audit-trail.md)
++ [&lt; Adobe Experience Platform ドキュメントに戻る ](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home)
