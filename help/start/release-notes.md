@@ -2,10 +2,10 @@
 title: Federated Audience Composition の新機能
 description: 最新のアップデートとリリースノート
 badge: label="限定提供" type="Informative"
-source-git-commit: 082bdccd7bc53d6c7520a778b65b2127a62e28a4
+source-git-commit: 529676bc2b882ffb6bdd8208319db523e982adac
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 14%
+source-wordcount: '253'
+ht-degree: 5%
 
 ---
 
@@ -25,7 +25,7 @@ Federated Audience Composition を使用すると、企業は様々なユース�
 >
 >Federated Audience Composition は現在、一連の組織でのみ使用できます（使用制限あり）。 アクセスするには、アドビ担当者にお問い合わせください。
 >
->現時点では、Adobe **Healthcare Shield** および **Privacy and Security Shield** アドオン製品を購入したお客様は、この機能を使用できません。
+>現時点では、Adobe **Healthcare Shield** アドオン機能を購入したお客様は機能を利用できません。
 
 
 ## 前提条件とガードレール {#rn-guardrails}
