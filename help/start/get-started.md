@@ -2,9 +2,9 @@
 title: Federated Audience コンポジションの基本を学ぶ
 description: Adobeの Federated Audience Composition の概要とAdobe Experience Platformでの使用方法を説明します
 badge: label="限定提供" type="Informative"
-source-git-commit: 856b687afe5fdb22da982bc89b907d2f8dcd6bde
+source-git-commit: 33fbb9a2b2d3fa631619fa213d2dffafa153fa05
 workflow-type: tm+mt
-source-wordcount: '1326'
+source-wordcount: '1328'
 ht-degree: 7%
 
 ---
@@ -67,10 +67,11 @@ Federated Audience コンポジションには、特定の権限はありませ�
 
 このリリースでは、Federated Audience Composition は次と互換性があります。
 
-* Snowflake
-* Google BigQuery
-* Azure synapse
 * Amazon Redshift
+* Azure synapse
+* Google BigQuery
+* Snowflake
+* Vertica Analytics
 
 +++
 
