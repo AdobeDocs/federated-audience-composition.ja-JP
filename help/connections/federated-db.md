@@ -3,9 +3,9 @@ audience: end-user
 title: 連合データベースの基本を学ぶ
 description: 連合データベースを作成および管理する方法を学ぶ
 badge: label="限定提供" type="Informative"
-source-git-commit: 2608a9864c605ea127183dd1658932cfc8a18cf8
+source-git-commit: 856b687afe5fdb22da982bc89b907d2f8dcd6bde
 workflow-type: tm+mt
-source-wordcount: '1419'
+source-wordcount: '1458'
 ht-degree: 17%
 
 ---
@@ -27,11 +27,13 @@ ht-degree: 17%
 >title="連合データベースの詳細"
 >abstract="新しい連合データベースに接続するための設定を入力します。 「**[!UICONTROL 接続をテスト]**」ボタンを使用して、設定を検証します。"
 
-外部データベースへの接続を作成、設定、テスト、保存します。
+Federated Audience Composition を使用すると、お客様は、サードパーティのデータウェアハウスからオーディエンスを作成および強化し、オーディエンスをAdobe Experience Platformにインポートできます。
 
+外部データベースへの接続を作成、設定、テスト、保存する方法については、このページを参照してください。
 
+## サポートされるデータベース {#supported-db}
 
-サポートされる外部データベース：
+Federated Audience Composition を使用すると、次のデータベースに接続できます。
 
 * Amazon Redshift
 * Azure synapse
