@@ -2,19 +2,19 @@
 title: Federated Audience コンポジションの基本を学ぶ
 description: Adobeの Federated Audience Composition の概要とAdobe Experience Platformでの使用方法を説明します
 badge: label="限定提供" type="Informative"
-source-git-commit: f72d0dffc73e2412523c3a392520e6f606b1b28b
+source-git-commit: 2608a9864c605ea127183dd1658932cfc8a18cf8
 workflow-type: tm+mt
-source-wordcount: '1284'
-ht-degree: 8%
+source-wordcount: '1320'
+ht-degree: 7%
 
 ---
 
 
 # Federated Audience コンポジションの基本を学ぶ {#gs-fac}
 
-Adobe Experience Platform Federated Audience Composition は、企業の Data Warehouse をAdobe Real-time Customer Data PlatformやAdobe Journey Optimizer内に直接接続し、Data Warehouse のテーブルに対してクエリを実行するための簡単で強力なソリューションです。
+Federated Audience Composition は、お客様がサードパーティのデータウェアハウスからオーディエンスを作成して強化し、オーディエンスをAdobe Experience Platformにインポートできるようにする、Adobe Real-time Customer Data PlatformおよびAdobe Journey Optimizerのアドオンです。
 
-AdobeFederated Audience Composition は、Adobe Experience Platform アプリのユーザーが、データウェアハウスやクラウドストレージプラットフォーム（Amazon Redshift、Azure synapse分析、Google BigQuery、Snowflakeなど）に保存された顧客データにアクセスするのに役立ちます。 お客様のデータは複数のデータ・ウェアハウスに保存でき、レプリケーションなしで即座にアクセス可能になります。
+Adobe Experience Platform Federated Audience Composition は、企業の Data Warehouse をAdobe Real-time Customer Data PlatformやAdobe Journey Optimizer内に直接接続し、Data Warehouse のテーブルに対してクエリを実行するための簡単で強力なソリューションです。 AdobeFederated Audience Composition は、Adobe Experience Platform アプリのユーザーが、データウェアハウスやクラウドストレージプラットフォーム（Amazon Redshift、Azure synapse分析、Google BigQuery、Snowflakeなど）に保存された顧客データにアクセスするのに役立ちます。 お客様のデータは複数のデータ・ウェアハウスに保存でき、レプリケーションなしで即座にアクセス可能になります。
 
 
 ## ユースケース {#rn-uc}

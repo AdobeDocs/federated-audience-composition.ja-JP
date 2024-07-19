@@ -3,7 +3,7 @@ audience: end-user
 title: 連合データベースの基本を学ぶ
 description: 連合データベースを作成および管理する方法を学ぶ
 badge: label="限定提供" type="Informative"
-source-git-commit: f72d0dffc73e2412523c3a392520e6f606b1b28b
+source-git-commit: 2608a9864c605ea127183dd1658932cfc8a18cf8
 workflow-type: tm+mt
 source-wordcount: '1419'
 ht-degree: 17%
@@ -28,6 +28,8 @@ ht-degree: 17%
 >abstract="新しい連合データベースに接続するための設定を入力します。 「**[!UICONTROL 接続をテスト]**」ボタンを使用して、設定を検証します。"
 
 外部データベースへの接続を作成、設定、テスト、保存します。
+
+
 
 サポートされる外部データベース：
 
