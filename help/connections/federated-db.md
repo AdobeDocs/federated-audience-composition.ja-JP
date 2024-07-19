@@ -3,7 +3,7 @@ audience: end-user
 title: 連合データベースの基本を学ぶ
 description: 連合データベースを作成および管理する方法を学ぶ
 badge: label="限定提供" type="Informative"
-source-git-commit: 3d4d8cee37dd95928ab25952baadf51f1caf9d34
+source-git-commit: f72d0dffc73e2412523c3a392520e6f606b1b28b
 workflow-type: tm+mt
 source-wordcount: '1419'
 ht-degree: 17%
@@ -31,11 +31,11 @@ ht-degree: 17%
 
 サポートされる外部データベース：
 
-* Snowflake
-* Google BigQuery
-* Azure synapse
-* Vertica Analytics
 * Amazon Redshift
+* Azure synapse
+* Google BigQuery
+* Snowflake
+* Vertica Analytics
 
 ## Snowflake {#snowflake}
 
