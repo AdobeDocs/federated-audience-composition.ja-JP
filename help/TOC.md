@@ -2,9 +2,9 @@
 user-guide-title: 連合オーディエンス構成
 title: Adobeの Federated Audience Composition ドキュメント
 breadcrumb-title: 連合オーディエンス構成
-source-git-commit: 2608a9864c605ea127183dd1658932cfc8a18cf8
+source-git-commit: 553db3ad6d318e7bddcede352178427255d41781
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '135'
 ht-degree: 40%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 40%
       + [データモデルの設定](data-management/gs-models.md)
       + [スキーマの作成と設定](customer/schemas.md)
    + [オーディエンスの操作](customer/audiences.md)
-   + [AEP へのオーディエンスの読み込み](connections/destinations.md)
+   + [Adobeへのオーディエンスの送信 Federated Audience Composition](connections/destinations.md)
 + 構成 {#compositions}
    + [構成の基本を学ぶ](compositions/gs-compositions.md)
    + 最初のコンポジションリク {#create-composition} ストの作成と実行
