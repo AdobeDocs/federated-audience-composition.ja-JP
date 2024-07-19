@@ -3,9 +3,9 @@ audience: end-user
 title: Adobeへのオーディエンスの送信 Federated Audience Composition
 description: Adobe Experience Platform オーディエンスを Federated Audience コンポジションに送信する方法を説明します
 badge: label="限定提供" type="Informative"
-source-git-commit: 553db3ad6d318e7bddcede352178427255d41781
+source-git-commit: 1e400d98040cdbcc6f13f84faa00e8efa6cfbd4a
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '472'
 ht-degree: 8%
 
 ---
@@ -33,7 +33,7 @@ Adobe Experience Platform オーディエンスをAdobeの Federated Audience �
 
    ![](assets/destination-configure.png)
 
-   「**[!UICONTROL アラート]**」セクションを使用すると、宛先へのデータフローのステータスに関する通知をアラートが受け取れるように設定できます。 アラートについて詳しくは、[UI を使用した宛先アラートの購読](../../ui/alerts.md)についてのガイドを参照してください。
+   「**[!UICONTROL アラート]**」セクションを使用すると、宛先へのデータフローのステータスに関する通知をアラートが受け取れるように設定できます。 アラートについて詳しくは、[UI を使用した宛先アラートの購読](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/alerts)についてのガイドを参照してください。
 
 1. **[!UICONTROL ガバナンスポリシーと適用アクション]** ステップでは、データガバナンスポリシーを定義し、オーディエンスが送信されてアクティブな場合に使用されるデータが準拠していることを確認できます。
 
