@@ -3,9 +3,9 @@ audience: end-user
 title: データモデルの基本を学ぶ
 description: データモデルの使用を開始する方法を学ぶ
 badge: label="限定提供" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+source-git-commit: 96508e648b2f97dd9410df617ed3a5fd8b354b52
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '167'
 ht-degree: 38%
 
 ---
@@ -58,4 +58,6 @@ ht-degree: 38%
 ![](assets/datamodel_created.png){zoomable="yes"}
 
 ![](assets/datamodel_schemas.png){zoomable="yes"}
+
+### リンクを作成 {#data-model-links}
 
