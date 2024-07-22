@@ -3,10 +3,10 @@ audience: end-user
 title: データモデルの基本を学ぶ
 description: データモデルの使用を開始する方法を学ぶ
 badge: label="限定提供" type="Informative"
-source-git-commit: 883ba223f6c78783fae9f6c9617daa1a7e6635de
+source-git-commit: 434210591ca434d5dddda9b28572bf516d22b462
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 39%
+source-wordcount: '220'
+ht-degree: 29%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 39%
 
 データモデルは、スキーマ、オーディエンスおよびこれらの間のリンクのセットです。
 
-詳しくは、[ スキーマ ](../customer/schemas.md) を参照してください。
+詳しくは、[ スキーマ ](../customer/schemas.md#schema-start) を参照してください。
 
 詳細情報 [ オーディエンス ](../customer/audiences.md)。
 
@@ -61,3 +61,16 @@ ht-degree: 39%
 
 ### リンクを作成 {#data-model-links}
 
+データモデルのテーブル間のリンクの作成は、次の 2 つの方法で実行できます。
+- テーブルのいずれかの **[!UICONTROL リンクを作成]** メニューを直接クリックします
+- **[!UICONTROL リンクを作成]** ボタンをクリックし、2 つのテーブルを選択します
+
+![](assets/datamodel_createlinks.png){zoomable="yes"}
+
+指定したフォームに入力して、リンクを定義します。
+
+![](assets/datamodel_link.png){zoomable="yes"}
+
+データモデルに対して定義されたリンクは、すべて次のように表示されます。
+
+![](assets/datamodel_alllinks.png){zoomable="yes"}
