@@ -2,10 +2,10 @@
 title: Federated Audience Composition の新機能
 description: 最新のアップデートとリリースノート
 badge: label="限定提供" type="Informative"
-source-git-commit: 5d399539705559a7c7f583376815a55e665fc813
+source-git-commit: f5b7fa76719861761b423f61c5e3bba3d4d24c9b
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 4%
+source-wordcount: '327'
+ht-degree: 5%
 
 ---
 
@@ -14,19 +14,19 @@ ht-degree: 4%
 
 ## Federated Audience Composition （LA） {#fac-la}
 
-Federated Audience Composition は、パーソナライゼーションのユースケースを強化するために、エンタープライズデータウェアハウスへの柔軟なアクセスと拡張リーチを提供するアドオンです。
+>[!AVAILABILITY]
+>
+>* Federated Audience Composition は現在、一連の組織でのみ使用できます（使用制限あり）。 アクセスするには、アドビ担当者にお問い合わせください。
+>
+>* 現時点では、**Healthcare Shield** アドオンサービスを購入したお客様は機能を利用できません。 [詳細情報](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}
+
 
 Federated Audience Composition を使用すると、企業は様々なユースケースでの使用率を高めるためにデータを作成できます。 この新しいアプローチでは、[Adobe Real-time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home){target="_blank"} または [Adobe Journey Optimizer](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} のユーザーとして、既存の Data Warehouse からデータセットを直接統合して、Adobe Experience Platform オーディエンスと属性をすべて 1 つのシステムで強化できます。
 
+Federated Audience Composition は、パーソナライゼーションのユースケースを強化するために、エンタープライズデータウェアハウスへの柔軟なアクセスと拡張リーチを提供するアドオンです。
 データセットやオーディエンスをAdobe Experience Platformに取り込む代わりに、Federated Audience コンポジションを使用して、特定のセグメント化やアクティベーションのユースケースに必要な特定のオーディエンスや属性をウェアハウスから取り出すことで、データウェアハウスからAdobe Experience Platformにコピーされるデータの量を減らし、機密データがウェアハウス外で保持されないようにすることができるようになりました。
 
 Federated Audience Composition 機能について詳しくは、[ このページ ](get-started.md) および [ よくある質問 ](get-started.md#faq) を参照してください。
-
->[!AVAILABILITY]
->
->Federated Audience Composition は現在、一連の組織でのみ使用できます（使用制限あり）。 アクセスするには、アドビ担当者にお問い合わせください。
->
->現時点では、Adobe **Healthcare Shield** アドオン機能を購入したお客様は機能を利用できません。
 
 ## Federated Audience コンポジションへのアクセス {#fac-access}
 
