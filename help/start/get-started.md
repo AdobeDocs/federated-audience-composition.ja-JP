@@ -2,10 +2,10 @@
 title: Federated Audience コンポジションの基本を学ぶ
 description: Adobeの Federated Audience Composition の概要とAdobe Experience Platformでの使用方法を説明します
 badge: label="限定提供" type="Informative"
-source-git-commit: 33fbb9a2b2d3fa631619fa213d2dffafa153fa05
+source-git-commit: 431fe95afe2297a8fd6c3821c7fbbeaf38807aaf
 workflow-type: tm+mt
-source-wordcount: '1328'
-ht-degree: 7%
+source-wordcount: '1381'
+ht-degree: 6%
 
 ---
 
@@ -35,22 +35,14 @@ Adobeの Federated Audience Composition を使用すると、取り込みプロ�
 
 主な手順：
 
-* **設定**
+1. **データ統合**：様々なソースからのデータを統合し、統合されたデータセットに結合します。 Adobe Experience Platform アプリと Enterprise Data Warehouse を接続する方法、サポートされているデータベース、それらの設定方法について詳しくは、[ この節 ](../connections/federated-db.md) を参照してください。
 
-   1. Adobe Experience Platformとエンタープライズ Data Warehouse を接続します。
-サポートされているデータベースは、Snowflake、Google Big Query、Azure synapse、Redshift です。
-詳しくは、[このページ](../connections/federated-db.md)を参照してください。
-   1. スキーマを作成して、ユーザーインターフェイスからアクセスできるデータを選択します。
-詳しくは、[このページ](../customer/schemas.md)を参照してください。
-   1. データモデルのリンクを作成します。
-詳しくは、[このページ](../data-management/gs-models.md)を参照してください。
+2. **データモデリング**：データの構造、関係、制約を定義するデータモデルとスキーマを設計および作成します。 スキーマについて詳しくは、[ このページ ](../customer/schemas.md) を参照してください。 データモデルのリンクを作成する方法については、[ このページ ](../data-management/gs-models.md) を参照してください。
 
-* **オーディエンスの作成**
+3. **データ変換**：データ操作テクニックを適用して、データ要素の形式、構造または値を変更し、特定の分析やアプリケーションに対して互換性や適したものにします。
 
-   1. オーディエンスを作成するためのコンポジションを設計および実行します。
-詳しくは、[このページ](../compositions/gs-compositions.md)を参照してください。
-   1. Adobe Experience Platform オーディエンスポータルと Destinations を通じて、既存のオーディエンスを更新または再利用します。
-詳しくは、[このページ](../connections/destinations.md)を参照してください。
+4. **データ使用**：オーディエンスを作成、オーケストレーションおよび作成します。 オーディエンスを作成する方法については、[ このページ ](../compositions/gs-compositions.md) を参照してください。 また、Adobe Experience Platform Audience ポータルと Destinations を通じて、既存のオーディエンスを更新または再利用することもできます。 詳しくは、[このページ](../connections/destinations.md)を参照してください。
+
 
 ## よくある質問 {#faq}
 
