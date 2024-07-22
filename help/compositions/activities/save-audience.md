@@ -3,10 +3,10 @@ audience: end-user
 title: オーディエンスを保存アクティビティの使用
 description: オーディエンスを保存アクティビティの使用方法を学ぶ
 badge: label="限定提供" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+source-git-commit: 6e04c42bf4b83448673851b97227faf953638d1e
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 44%
+source-wordcount: '380'
+ht-degree: 42%
 
 ---
 
@@ -48,6 +48,10 @@ ht-degree: 44%
    ![](../assets/save-audience.png)
 
 1. 作成するオーディエンスのラベルを指定します。
+
+   >[!IMPORTANT]
+   >
+   >オーディエンスラベルは、現在のサンドボックス内で一意である必要があります。 既存のオーディエンスと同じラベルにすることはできません。
 
 1. 「**オーディエンスマッピングを追加**」をクリックし、「ソース」フィールドと「ターゲットオーディエンス」フィールドを選択します。
 
