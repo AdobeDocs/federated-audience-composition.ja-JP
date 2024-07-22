@@ -1,25 +1,27 @@
 ---
 audience: end-user
-title: Adobeへのオーディエンスの送信 Federated Audience Composition
-description: Adobe Experience Platform オーディエンスを Federated Audience コンポジションに送信する方法を説明します
+title: 外部データによるAdobe Experience Platform オーディエンスのエンリッチメント
+description: Federated Audience コンポジション宛先を使用して、フェデレーティッドデータベースのデータをAdobe Experience Platform オーディエンスに絞り込み、エンリッチメントする方法を説明します。
 badge: label="限定提供" type="Informative"
-source-git-commit: 1e400d98040cdbcc6f13f84faa00e8efa6cfbd4a
+source-git-commit: 03e1ec555ae64705e8e7ef49610cba27efd5f58b
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 8%
+source-wordcount: '557'
+ht-degree: 7%
 
 ---
 
-# Adobeの Federated Audience Composition にAdobe Experience Platformを送信 {#connect-aep-fac}
+# 外部データによるAdobe Experience Platform オーディエンスのエンリッチメント {#connect-aep-fac}
 
 >[!CONTEXTUALHELP]
 >id="dc_new_destination"
 >title="宛先の作成"
 >abstract="新しい連合データベースに接続するための設定を入力します。 「**[!UICONTROL 宛先に接続]**」ボタンを使用して、設定を検証します。"
 
-Adobe Experience Platformでは、オーディエンスポータルからAdobeの Federated Audience Composition にオーディエンスを送信できます。 これにより、既存のオーディエンスをコンポジションに活用し、外部データベースのデータと組み合わせて、新しいオーディエンスを作成したり、既存のオーディエンスを更新したりできます。
+Adobe Experience Platformでは、Adobeの Federated Audience Composition 宛先を使用して、オーディエンスポータルのオーディエンスを外部データベースにシームレスに統合できます。 これにより、既存のオーディエンスをコンポジションに活用し、外部データベースのデータを使用してエンリッチメントや調整を行い、新しいオーディエンスを作成したり、既存のオーディエンスを更新したりできます。
 
-これを行うには、Adobe Experience Platformで、AdobeFederated Audience Composition 宛先への新しい接続を設定する必要があります。 スケジューラーを使用して、特定のオーディエンスを通常の頻度で送信し、データを紐付ける ID など、オーディエンスと共に送信するフィールドを選択できます。 ガバナンスポリシーとプライバシーポリシーをオーディエンスに適用した場合、オーディエンスが更新された後も保持され、オーディエンスポータルに送り返されます。
+これを行うには、Adobe Experience Platformで、AdobeFederated Audience Composition 宛先への新しい接続を設定する必要があります。 スケジューラーを使用して、特定のオーディエンスを一定の頻度で送信し、含める特定の属性（データ紐付けの ID など）を選択できます。 ガバナンスポリシーとプライバシーポリシーをオーディエンスに適用した場合、オーディエンスが更新された後も保持され、オーディエンスポータルに送り返されます。
+
+例えば、Data Warehouse に顧客のクレジットスコアを保存し、過去 2 か月以内に特定の商品に興味を持つ顧客をターゲティングするAdobe Experience Platform オーディエンスがある場合、Federated Audience Composition の宛先を使用して、クレジットスコアに基づいてこのオーディエンスを絞り込むことができます。 このプロセスを使用すると、機密の信用スコアデータをデータウェアハウスから転送することなく、オーディエンスをフィルタリングして、信用スコアの高いプロファイルのみを含めることができます。
 
 Adobe Experience Platform オーディエンスをAdobeの Federated Audience コンポジションに送信する主な手順は次のとおりです。
 

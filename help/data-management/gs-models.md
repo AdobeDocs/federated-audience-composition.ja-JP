@@ -3,7 +3,7 @@ audience: end-user
 title: データモデルの基本を学ぶ
 description: データモデルの使用を開始する方法を学ぶ
 badge: label="限定提供" type="Informative"
-source-git-commit: 434210591ca434d5dddda9b28572bf516d22b462
+source-git-commit: 03e1ec555ae64705e8e7ef49610cba27efd5f58b
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 29%
@@ -41,7 +41,7 @@ ht-degree: 29%
 
 詳しくは、[ スキーマ ](../customer/schemas.md#schema-start) を参照してください。
 
-詳細情報 [ オーディエンス ](../customer/audiences.md)。
+詳細情報 [ オーディエンス ](../start/audiences.md)。
 
 ## データモデルの作成 {#data-model-create}
 
