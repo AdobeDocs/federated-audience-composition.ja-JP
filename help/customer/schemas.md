@@ -3,10 +3,10 @@ audience: end-user
 title: スキーマの基本を学ぶ
 description: スキーマの開始方法を学ぶ
 badge: label="限定提供" type="Informative"
-source-git-commit: 96508e648b2f97dd9410df617ed3a5fd8b354b52
+source-git-commit: 883ba223f6c78783fae9f6c9617daa1a7e6635de
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 31%
+source-wordcount: '281'
+ht-degree: 34%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 31%
 スキーマは、データがデータベーステーブルにどのように関連付けられるかを定義するアプリケーション内のオブジェクトです。
 スキーマがテーブルを参照します。
 
-## スキーマの作成方法 {#schema-create}
+## スキーマの作成 {#schema-create}
 
 「**[!UICONTROL FEDERATED DATA]**」セクションで、「**[!UICONTROL モデル]** リンクに移動します。 「**[!UICONTROL スキーマ]**」タブがあります。
 「**[!UICONTROL スキーマを作成]**」ボタンをクリックします。
@@ -62,14 +62,14 @@ ht-degree: 31%
 
 ![](assets/schema_fields.png){zoomable="yes"}
 
-## スキーマの編集方法 {#schema-edit}
+## スキーマの編集 {#schema-edit}
 
 スキーマを編集するには、スキーマフォルダーでスキーマの名前をクリックします。 以下のページにアクセスできます。
 「**[!UICONTROL 編集]** ボタンをクリックします。
 
 ![](assets/schema_edit.png){zoomable="yes"}
 
-## スキーマのデータをプレビューするにはどうすればよいですか？ {#schema-preview}
+## スキーマ内のデータのプレビュー {#schema-preview}
 
 スキーマが表すテーブルのデータをプレビューするには、次のように「**[!UICONTROL データ]**」タブに移動します。
 
@@ -79,7 +79,7 @@ ht-degree: 31%
 
 ![](assets/schema_columns.png){zoomable="yes"}
 
-## スキーマの削除方法は？ {#schema-delete}
+## スキーマの削除 {#schema-delete}
 
 スキーマを削除するには、「**[!UICONTROL 詳細]**」ボタン、「**[!UICONTROL 削除]** の順にクリックします。
 

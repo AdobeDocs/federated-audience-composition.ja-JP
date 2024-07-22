@@ -3,10 +3,10 @@ audience: end-user
 title: データモデルの基本を学ぶ
 description: データモデルの使用を開始する方法を学ぶ
 badge: label="限定提供" type="Informative"
-source-git-commit: 96508e648b2f97dd9410df617ed3a5fd8b354b52
+source-git-commit: 883ba223f6c78783fae9f6c9617daa1a7e6635de
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 38%
+source-wordcount: '165'
+ht-degree: 39%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 38%
 
 詳細情報 [ オーディエンス ](../customer/audiences.md)。
 
-## データモデルの作成方法 {#data-model-create}
+## データモデルの作成 {#data-model-create}
 
 「**[!UICONTROL FEDERATED DATA]**」セクションで、「**[!UICONTROL モデル]** リンクに移動します。 そこには、「**[!UICONTROL データモデル]** タブがあります。
 
