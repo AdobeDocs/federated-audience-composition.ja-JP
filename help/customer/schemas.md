@@ -3,10 +3,10 @@ audience: end-user
 title: スキーマの基本を学ぶ
 description: スキーマの開始方法を学ぶ
 badge: label="限定提供" type="Informative"
-source-git-commit: 883ba223f6c78783fae9f6c9617daa1a7e6635de
+source-git-commit: 75d539eef7b36b721c0df52b2fe9115728cf14d3
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 34%
+source-wordcount: '467'
+ht-degree: 20%
 
 ---
 
@@ -42,25 +42,46 @@ ht-degree: 34%
 
 ## スキーマとは {#schema-start}
 
-スキーマは、データがデータベーステーブルにどのように関連付けられるかを定義するアプリケーション内のオブジェクトです。
-スキーマがテーブルを参照します。
+スキーマは、データベースのテーブルを表すものです。 これは、データがデータベーステーブルにどのように関連付けられているかを定義するアプリケーション内のオブジェクトです。
+
+スキーマを作成すると、FAC でテーブルを操作できます。
+- わかりやすい名前と説明を指定して、ユーザーが理解しやすいようにします
+- 各フィールドの実際の用途に応じた表示を決定する
+- [ データモデル ](../data-management/gs-models.md#data-model-start) の必要に応じて、プライマリキーを選択して、スキーマ間をリンクします
 
 ## スキーマの作成 {#schema-create}
 
+FAC でスキーマを作成するには、次の手順に従います。
 「**[!UICONTROL FEDERATED DATA]**」セクションで、「**[!UICONTROL モデル]** リンクに移動します。 「**[!UICONTROL スキーマ]**」タブがあります。
 「**[!UICONTROL スキーマを作成]**」ボタンをクリックします。
 
 ![](assets/schema_create.png){zoomable="yes"}
 
-ドロップダウンリストでソースデータベースを選択し、「**[!UICONTROL テーブルを追加]** タブをクリックします
+次の場所にあるドロップダウンリストを使用して、新しいインターフェイスにアクセスできます
+アプリケーションに接続されているすべてのデータベース。 詳しくは、[ データベース接続 ](../connections/connections.md#connections-fdb) を参照してください。
+リストでソースデータベースを選択し、「**[!UICONTROL テーブルを追加]** タブをクリックします
 
 ![](assets/schema_tables.png){zoomable="yes"}
 
-データベース内のすべてのテーブルにアクセスし、スキーマを作成できるようになります。
+データベース内のすべてのテーブルのリストにアクセスできます。
 
-テーブルを追加すると、そのフィールドにアクセスでき、本当に必要なものを保持できます。
+スキーマを作成するテーブルを追加すると、以下のようにフィールドにアクセスできます。
 
 ![](assets/schema_fields.png){zoomable="yes"}
+
+テーブルごとに、次の操作を実行できます。
+- 指定されたスキーマラベルの名前を変更
+- 説明を追加
+- すべてのフィールドの名前を変更し、表示を決定します。
+- スキーマのプライマリキーを選択
+
+例えば、追加したテーブルの直後に、次のようにテーブルが読み込まれているとします。
+
+![](assets/schema_lumaorder.png){zoomable="yes"}
+
+スキーマは、次のように定義できます。
+
+![](assets/schema_lumaorders.png){zoomable="yes"}
 
 ## スキーマの編集 {#schema-edit}
 
@@ -69,9 +90,18 @@ ht-degree: 34%
 
 ![](assets/schema_edit.png){zoomable="yes"}
 
+スキーマを作成する場合と同じ方法でアクセスできます。
+- 指定されたスキーマラベルの名前を変更
+- 説明を追加
+- すべてのフィールドの名前を変更し、表示を決定します。
+- スキーマのプライマリキーを選択
+
+![](assets/schema_edit_orders.png){zoomable="yes"}
+
 ## スキーマ内のデータのプレビュー {#schema-preview}
 
 スキーマが表すテーブルのデータをプレビューするには、次のように「**[!UICONTROL データ]**」タブに移動します。
+**[!UICONTROL 計算]** リンクをクリックすると、録画の合計数を確認できます。
 
 ![](assets/schema_data.png){zoomable="yes"}
 
