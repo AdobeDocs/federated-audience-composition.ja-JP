@@ -3,10 +3,10 @@ audience: end-user
 title: オーディエンスを作成アクティビティの使用
 description: オーディエンスを作成アクティビティの使用方法を学ぶ
 badge: label="限定提供" type="Informative"
-source-git-commit: 8cc7a4cb8cf5e98496ddf366b9212c25acfdbbd0
+source-git-commit: 71936c3fb6946ce9d4928499c96da39aaef49231
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 44%
+source-wordcount: '246'
+ht-degree: 38%
 
 ---
 
@@ -45,8 +45,11 @@ ht-degree: 44%
 
 1. **オーディエンスを作成** を選択します。
 1. **スキーマ** （ターゲティングディメンションとも呼ばれます）を選択します。 スキーマを使用すると、受信者、契約の受益者、オペレーター、購読者など、ターゲットされる母集団を操作ごとに定義できます。 デフォルトでは、スキーマは受信者から選択されます。
+
+   ![](../assets/build-audience-create.png)
+
 1. 「**続行**」をクリックします。
-1. クエリモデラーを使用してクエリを定義します。 [クエリモデラーの操作方法の詳細を学ぶ](../../query/query-modeler-overview.md)
+1. クエリモデラーを使用してクエリを定義し、確認します。 [クエリモデラーの操作方法の詳細を学ぶ](../../query/query-modeler-overview.md)
 
 >[!TAB オーディエンスの閲覧]
 
@@ -54,9 +57,16 @@ ht-degree: 44%
 
 1. 「**オーディエンスを読み取り**」を選択します。
 1. 「**続行**」をクリックします。
+
+   ![](../assets/build-audience-read.png)
+
 1. オーディエンスを選択します。
 
 >[!ENDTABS]
+
+>[!NOTE]
+>
+>「**アウトバウンドトランジションを生成**」オプションを使用すると、オーディエンス母集団が空の場合に、アクティビティの実行の最後にアクティベートされるアウトバウンドトランジションを追加できます。
 
 <!--
 ## Examples{#build-audience-examples}
