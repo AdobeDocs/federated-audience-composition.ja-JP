@@ -2,10 +2,10 @@
 user-guide-title: 連合オーディエンス構成
 title: Adobeの Federated Audience Composition ドキュメント
 breadcrumb-title: 連合オーディエンス構成
-source-git-commit: 0208da1a1897f166db9124ed6b014828fbe17484
+source-git-commit: 6cfd3bd85d7811e00e716042502c7d7b23fa4ad9
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 40%
+source-wordcount: '136'
+ht-degree: 41%
 
 ---
 
@@ -17,6 +17,7 @@ ht-degree: 40%
 + Federated Audience Composition {#start} の基本を学ぶ
    + [Federated Audience コンポジションとは](start/get-started.md)
    + [オーディエンスの操作](start/audiences.md)
+   + [よくある質問](start/faq.md)
 + 設定の手順 {#config}
    + [接続の作成と管理](connections/connections.md)
    + [連合データベースの設定](connections/federated-db.md)
