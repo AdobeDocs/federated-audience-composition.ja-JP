@@ -2,10 +2,10 @@
 user-guide-title: 連合オーディエンス構成
 title: Adobeの Federated Audience Composition ドキュメント
 breadcrumb-title: 連合オーディエンス構成
-source-git-commit: d168a67fb14644dab5d33e0e9d17c850d2a66262
+source-git-commit: 0208da1a1897f166db9124ed6b014828fbe17484
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 39%
+source-wordcount: '133'
+ht-degree: 40%
 
 ---
 
@@ -13,9 +13,9 @@ ht-degree: 39%
 # Federated Audience Composition ドキュメント {#using}
 
 + [Federated Audience Composition ドキュメント](home.md)
++ [リリースノート](start/release-notes.md)
 + Federated Audience Composition {#start} の基本を学ぶ
-   + [基本を学ぶ](start/get-started.md)
-   + [リリースノート](start/release-notes.md)
+   + [Federated Audience コンポジションとは](start/get-started.md)
    + [オーディエンスの操作](start/audiences.md)
 + 設定の手順 {#config}
    + [接続の作成と管理](connections/connections.md)
@@ -24,7 +24,7 @@ ht-degree: 39%
       + [スキーマの作成と設定](customer/schemas.md)
       + [データモデルの設定](data-management/gs-models.md)
    + [外部データによるAdobe Experience Platform オーディエンスのエンリッチメント](connections/destinations.md)
-+ 構成 {#compositions}
++ オーディエンスの作成 {#compositions}
    + [構成の基本を学ぶ](compositions/gs-compositions.md)
    + 最初のコンポジションリク {#create-composition} ストの作成と実行
       + [構成作成の主な原則](compositions/gs-composition-creation.md)
@@ -51,4 +51,3 @@ ht-degree: 39%
    + [式の編集](query/expression-editor.md)
 + 監査記録 {#audit-trail}
    + [データベースの監視](admin/audit-trail.md)
-+ [&lt; Adobe Experience Platform ドキュメントに戻る ](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home)

@@ -3,10 +3,10 @@ audience: end-user
 title: 構成の基本を学ぶ
 description: コンポジションの開始方法を説明します
 badge: label="限定提供" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+source-git-commit: 03b2fc39c6e0c724363c21418ea50691093d4a10
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 15%
+source-wordcount: '287'
+ht-degree: 17%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 15%
 
 ## コンポジションとは {#what}
 
-Adobeデータコンポジションを使用すると、様々なアクティビティ（分割、除外など）をビジュアルキャンバスに活用してオーディエンスを作成できるコンポジションを作成できます。 完了すると、結果オーディエンスが既存のオーディエンスと共にAdobe Experience Platformに保存され、Journey Optimizerなどの宛先で活用して顧客をターゲットできます。
+Adobeオーディエンスコンポジションを使用すると、様々なアクティビティ（分割、除外など）をビジュアルキャンバスに活用してオーディエンスを作成できるコンポジションを作成できます。 完了すると、結果オーディエンスが既存のオーディエンスと共にAdobe Experience Platformに保存され、Journey Optimizerなどの宛先で活用して顧客をターゲットできます。 [オーディエンスの使用方法を学ぶ](../start/audiences.md)
 
 ![](assets/composition-example.png)
 
@@ -43,7 +43,7 @@ Adobeデータコンポジションを使用すると、様々なアクティビ
 
 * **[!UICONTROL ドラフト]**：コンポジションが作成され、保存されました。
 * **[!UICONTROL 処理中]**：コンポジションが実行され、現在実行中です。
-* **[!UICONTROL 停止]**：コンポジションの実行が停止しました。
+* **[!UICONTROL 停止]**：コンポジションの実行が完了し、停止しました。
 * **[!UICONTROL 一時停止]**：コンポジションの実行が一時停止されました。
 * **[!UICONTROL エラー]**：コンポジション実行でエラーが発生しました。 コンポジションを開き、ログとタスクにアクセスしてエラーを特定し解決します。
 

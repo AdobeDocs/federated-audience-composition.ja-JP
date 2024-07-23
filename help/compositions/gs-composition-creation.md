@@ -3,7 +3,7 @@ audience: end-user
 title: コンポジションの作成
 description: コンポジションの作成方法を説明します
 badge: label="限定提供" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+source-git-commit: 0208da1a1897f166db9124ed6b014828fbe17484
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 59%
@@ -20,7 +20,7 @@ ht-degree: 59%
 
 ## コンポジションには何が含まれていますか？ {#gs-composition-inside}
 
-Federated Data Composition は、様々なアクティビティ（分割、エンリッチメントなど）を活用してオーディエンスを作成できる視覚的なキャンバスを提供します。
+Federated Audience Composition は、様々なアクティビティ（分割、エンリッチメントなど）を活用してオーディエンスを作成できる視覚的なキャンバスを提供します。
 
 構成図は、実行される処理を表したものです。 これは、実行される様々なタスクと、タスク同士の関係を示すものです。
 
