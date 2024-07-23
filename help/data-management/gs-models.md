@@ -3,7 +3,7 @@ audience: end-user
 title: データモデルの基本を学ぶ
 description: データモデルの使用を開始する方法を学ぶ
 badge: label="限定提供" type="Informative"
-source-git-commit: 03e1ec555ae64705e8e7ef49610cba27efd5f58b
+source-git-commit: c1c035d3783af6c3bc94f2ba0aff7ba515fb68e2
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 29%
@@ -62,6 +62,7 @@ ht-degree: 29%
 ### リンクを作成 {#data-model-links}
 
 データモデルのテーブル間のリンクの作成は、次の 2 つの方法で実行できます。
+
 - テーブルのいずれかの **[!UICONTROL リンクを作成]** メニューを直接クリックします
 - **[!UICONTROL リンクを作成]** ボタンをクリックし、2 つのテーブルを選択します
 

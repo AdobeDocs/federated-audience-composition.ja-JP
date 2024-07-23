@@ -3,7 +3,7 @@ audience: end-user
 title: フェデレーション データベースとの接続を作成および管理します
 description: フェデレーション データベースとの接続を作成および管理する方法を説明します
 badge: label="限定提供" type="Informative"
-source-git-commit: 98689f24fc7eeffa4cdfa5418c160c13abba7527
+source-git-commit: c1c035d3783af6c3bc94f2ba0aff7ba515fb68e2
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 5%
@@ -27,6 +27,7 @@ AEP で直接フェデレーテッドデータベースを操作することは�
 ![](assets/connections_details.png){zoomable="yes"}
 
 データベースのタイプに応じて、接続を設定するために必要な情報について、以下のリンクで説明します。
+
 * [Amazon Redshift](federated-db.md#amazon-redshift)
 * [Azure synapse](federated-db.md#azure-synapse-redshift)
 * [Google BigQuery](federated-db.md#google-big-query)
