@@ -2,10 +2,10 @@
 user-guide-title: 連合オーディエンス構成
 title: Adobeの Federated Audience Composition ドキュメント
 breadcrumb-title: 連合オーディエンス構成
-source-git-commit: 75d539eef7b36b721c0df52b2fe9115728cf14d3
+source-git-commit: fdc057b751aac18a6b27bbaa2997fc7994566092
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 40%
+source-wordcount: '136'
+ht-degree: 39%
 
 ---
 
@@ -16,14 +16,14 @@ ht-degree: 40%
 + Federated Audience Composition {#start} の基本を学ぶ
    + [基本を学ぶ](start/get-started.md)
    + [リリースノート](start/release-notes.md)
+   + [オーディエンスの操作](start/audiences.md)
 + 設定の手順 {#config}
    + [接続の作成と管理](connections/connections.md)
    + [連合データベースの設定](connections/federated-db.md)
    + データモデルとスキーマ {#datamodel}
       + [スキーマの作成と設定](customer/schemas.md)
       + [データモデルの設定](data-management/gs-models.md)
-   + [オーディエンスの操作](customer/audiences.md)
-   + [Adobeへのオーディエンスの送信 Federated Audience Composition](connections/destinations.md)
+   + [外部データによるAdobe Experience Platform オーディエンスのエンリッチメント](connections/destinations.md)
 + 構成 {#compositions}
    + [構成の基本を学ぶ](compositions/gs-compositions.md)
    + 最初のコンポジションリク {#create-composition} ストの作成と実行
