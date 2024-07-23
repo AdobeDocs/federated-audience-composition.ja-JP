@@ -3,10 +3,10 @@ audience: end-user
 title: オーディエンスを作成アクティビティの使用
 description: オーディエンスを作成アクティビティの使用方法を学ぶ
 badge: label="限定提供" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+source-git-commit: 8cc7a4cb8cf5e98496ddf366b9212c25acfdbbd0
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 54%
+source-wordcount: '212'
+ht-degree: 44%
 
 ---
 
@@ -18,15 +18,10 @@ ht-degree: 54%
 >title="オーディエンスを作成アクティビティ"
 >abstract="「**オーディエンスを作成**」アクティビティを使用すると、構成にエントリするオーディエンスを定義できます。"
 
-「**オーディエンスを作成**」アクティビティを使用すると、構成にエントリするオーディエンスを定義できます。
+**オーディエンスを作成** アクティビティを使用すると、コンポジションにエントリするオーディエンスを定義できます。 オーディエンス母集団を定義するには、次の操作を実行します。
 
-オーディエンス母集団を定義するには、次の操作を実行します。
-
-<!--* Select an existing audience, created as a list in the client console.-->
-* Adobe Experience Platform オーディエンスを選択します。
-* クエリモデラービルダーを使用してフィルタリング条件を定義および組み合わせて、新しいオーディエンスを作成します。
-
-**オーディエンスを作成** アクティビティは、コンポジションの最初または他のアクティビティの後に配置できます。 任意のアクティビティを **オーディエンスを作成** の後に配置できます。
+* 既存のAdobe Experience Platform オーディエンスを選択します。
+* フィルタリング条件を定義し組み合わせて、クエリモデラーで新しいオーディエンスを作成します。
 
 ## オーディエンスを作成アクティビティの設定 {#build-audience-configuration}
 
