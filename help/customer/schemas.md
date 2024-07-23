@@ -3,9 +3,9 @@ audience: end-user
 title: スキーマの基本を学ぶ
 description: スキーマの開始方法を学ぶ
 badge: label="限定提供" type="Informative"
-source-git-commit: 75d539eef7b36b721c0df52b2fe9115728cf14d3
+source-git-commit: d168a67fb14644dab5d33e0e9d17c850d2a66262
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '470'
 ht-degree: 20%
 
 ---
@@ -44,7 +44,8 @@ ht-degree: 20%
 
 スキーマは、データベースのテーブルを表すものです。 これは、データがデータベーステーブルにどのように関連付けられているかを定義するアプリケーション内のオブジェクトです。
 
-スキーマを作成すると、FAC でテーブルを操作できます。
+スキーマを作成すると、FAC でテーブルの表現を操作できます。
+
 - わかりやすい名前と説明を指定して、ユーザーが理解しやすいようにします
 - 各フィールドの実際の用途に応じた表示を決定する
 - [ データモデル ](../data-management/gs-models.md#data-model-start) の必要に応じて、プライマリキーを選択して、スキーマ間をリンクします
@@ -70,6 +71,7 @@ FAC でスキーマを作成するには、次の手順に従います。
 ![](assets/schema_fields.png){zoomable="yes"}
 
 テーブルごとに、次の操作を実行できます。
+
 - 指定されたスキーマラベルの名前を変更
 - 説明を追加
 - すべてのフィールドの名前を変更し、表示を決定します。
@@ -91,6 +93,7 @@ FAC でスキーマを作成するには、次の手順に従います。
 ![](assets/schema_edit.png){zoomable="yes"}
 
 スキーマを作成する場合と同じ方法でアクセスできます。
+
 - 指定されたスキーマラベルの名前を変更
 - 説明を追加
 - すべてのフィールドの名前を変更し、表示を決定します。
