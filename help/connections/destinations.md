@@ -3,7 +3,8 @@ audience: end-user
 title: 外部データによるAdobe Experience Platform オーディエンスのエンリッチメント
 description: Federated Audience コンポジション宛先を使用して、フェデレーティッドデータベースのデータをAdobe Experience Platform オーディエンスに絞り込み、エンリッチメントする方法を説明します。
 badge: label="限定提供" type="Informative"
-source-git-commit: 8cc7a4cb8cf5e98496ddf366b9212c25acfdbbd0
+exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
+source-git-commit: f2ea9a368b4409f0b38b12508ce310d49e3d84f8
 workflow-type: tm+mt
 source-wordcount: '553'
 ht-degree: 7%
@@ -17,7 +18,7 @@ ht-degree: 7%
 >title="宛先の作成"
 >abstract="新しい連合データベースに接続するための設定を入力します。 「**[!UICONTROL 宛先に接続]**」ボタンを使用して、設定を検証します。"
 
-Adobe Experience Platformを使用すると、**Adobeの Federated Audience Composition** 宛先を使用して、オーディエンスポータルのオーディエンスを外部データベースにシームレスに統合できます。 これにより、既存のオーディエンスをコンポジションに活用し、外部データベースのデータを使用してオーディエンスを強化または調整して、新しいオーディエンスを作成できます。
+Adobe Experience Platformでは、**Adobeの Federated Audience Composition 宛先** を使用して、オーディエンスポータルのオーディエンスを外部データベースとシームレスに統合できます。 この統合を使用すると、既存のオーディエンスをコンポジションに活用し、外部データベースのデータを使用してオーディエンスを強化または調整して、新しいオーディエンスを作成できます。
 
 これを行うには、Adobe Experience Platformで、AdobeFederated Audience Composition 宛先への新しい接続を設定する必要があります。 スケジューラーを使用して、特定のオーディエンスを一定の頻度で送信し、含める特定の属性（データ紐付けの ID など）を選択できます。 ガバナンスポリシーとプライバシーポリシーをオーディエンスに適用した場合、オーディエンスが更新された後も保持され、オーディエンスポータルに送り返されます。
 
