@@ -3,13 +3,13 @@ audience: end-user
 title: エンリッチメント アクティビティの使用
 description: エンリッチメントアクティビティの使用方法を学ぶ
 badge: label="限定提供" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+exl-id: 6bf12c25-fbef-4588-89d0-28215cbcbf58
+source-git-commit: 1b9e4f23403e830a3cd4b12df5268d852f549ffe
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 61%
+source-wordcount: '391'
+ht-degree: 57%
 
 ---
-
 
 # エンリッチメント {#enrichment}
 
@@ -38,7 +38,9 @@ ht-degree: 61%
 >title="エンリッチメントデータ"
 >abstract="構成の強化に使用するデータを選択します。 2 種類のエンリッチメントデータを選択できます。スキーマの単一のエンリッチメント属性（ターゲティングディメンションとも呼ばれる）、またはテーブル間の基数が 1-N のリンクであるコレクションリンクです。"
 
-**エンリッチメント** アクティビティを使用すると、連合データベースからの追加情報でターゲットデータを強化できます。 一般的に、セグメント化アクティビティ後のコンポジションで使用されます。
+**エンリッチメント** アクティビティを使用すると、連合データベースからの追加情報でターゲットデータを強化できます。 一般的に、セグメント化アクティビティ後の構成で使用されます。
+
+Federated Data Composition 宛先への接続を設定した場合は、エンリッチメント アクティビティを使用して、外部データベースからの属性でAdobe Experience Platformに取り込むデータを強化できます。 [ 外部データを使用してAdobe Experience Platform オーディエンスをエンリッチメントする方法を説明します ](../../connections/destinations.md)
 
 エンリッチメントデータは次のいずれかを実行できます。
 
@@ -78,16 +80,17 @@ ht-degree: 61%
     * [Single enrichment attribute](#single-attribute)
     * [Collection lnk](#collection-link)-->
 
-## 例 {#example}
+<!--
+## Examples {#example}
 
-### 単一エンリッチメント属性 {#single-attribute}
+### Single enrichment attribute {#single-attribute}
 
-ここでは、生年月日など、単一エンリッチメント属性を追加します。次の手順に従います。
+Here, we are just adding a single enrichment attribute, for example, the date of birth. Follow these steps:
 
-1. 「**属性**」フィールド内をクリックします。
-1. スキーマからシンプルなフィールド（ターゲティングディメンションとも呼ばれます）を選択します（この例では生年月日）。
-1. 「**確認**」をクリックします。
-
+1. Click inside the **Attribute** field.
+1. Select a simple field from the schema, also known as targeting dimension, the date of birth in our example. 
+1. Click **Confirm**.
+-->
 <!--### Collection link {#collection-link}
 
 In this more complex use case, we will select a collection link which is a link with a 1-N cardinality between tables. Let's retrieve the three latest purchases that are less than 100$. For this you need to define:
