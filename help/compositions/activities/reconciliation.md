@@ -3,13 +3,13 @@ audience: end-user
 title: 紐付けアクティビティの使用
 description: 紐付けアクティビティの使用方法を学ぶ
 badge: label="限定提供" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+exl-id: 933c3cba-9120-4a93-a668-866fb65ee197
+source-git-commit: 122bd469e04d72d2dac0f606c8ab4e195100d4a4
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 61%
+source-wordcount: '526'
+ht-degree: 62%
 
 ---
-
 
 # 紐付け {#reconciliation}
 
@@ -37,7 +37,7 @@ ht-degree: 61%
 
 <!--For example, the **Reconciliation** activity can be placed after a **Load file** activity to import non-standard data into the database. In this case, the **Reconciliation** activity lets you define the link between the data in the Adobe Campaign database and the data in the work table.-->
 
-**紐付け** アクティビティを使用すると、未識別データを既存のリソースにリンクできます。 紐付け操作は、結合するデータが既にデータベースにあることを意味します。 例えば、購入された製品、時刻、クライアントなどを示す購入情報を調整する場合、製品とクライアントが既にデータベースに存在している必要があります。
+識別されていないデータを既存のリソースにリンクできます。 紐付け操作は、結合するデータが既にデータベースにあることを意味します。 例えば、購入された製品、時刻、クライアントなどを示す購入情報を調整する場合、製品とクライアントが既にデータベースに存在している必要があります。
 
 ## 紐付けアクティビティの設定 {#reconciliation-configuration}
 

@@ -2,13 +2,13 @@
 audience: end-user
 title: スケジューラーアクティビティの使用
 description: スケジューラーアクティビティの使用方法を学ぶ
-source-git-commit: 7f73f5f81561fabe6f4ef2ff77f13d386a7927b3
+exl-id: 3e8be2a2-2227-42f4-a512-b9e686ba0f66
+source-git-commit: 122bd469e04d72d2dac0f606c8ab4e195100d4a4
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 39%
+source-wordcount: '456'
+ht-degree: 36%
 
 ---
-
 
 # スケジューラー {#scheduler}
 
@@ -18,6 +18,10 @@ ht-degree: 39%
 >abstract="**スケジューラー** アクティビティを使用すると、オーディエンス構成が開始するタイミングをスケジュールできます。 このアクティビティは、予約済みの開始とみなされます。コンポジションの最初のアクティビティとしてのみ使用できます。"
 
 **スケジューラー**&#x200B;アクティビティは&#x200B;**フロー制御**&#x200B;アクティビティです。コンポジションが開始されるタイミングをスケジュールできます。 このアクティビティは、予約済みの開始とみなされます。それは組成物の最初の活動としてのみ使用することができる。
+
+Federated Data Composition 宛先への接続を設定した場合は、このアクティビティを使用すると、Adobe Experience Platform オーディエンスを通常の頻度で送信できます。 [ 外部データを使用してAdobe Experience Platform オーディエンスをエンリッチメントする方法を説明します ](../../connections/destinations.md)
+
+![](../assets/scheduler.png)
 
 ## 「スケジューラー」アクティビティの設定 {#scheduler-configuration}
 
@@ -38,9 +42,7 @@ ht-degree: 39%
 1. **実行頻度**&#x200B;を設定します。
 
    * **1 回**：コンポジションは 1 回実行されます。
-
    * **毎日**：コンポジションは、1 日に 1 回、特定の時間に実行されます。
-
    * **1 日に数回：** コンポジションは 1 日に数回、定期的に実行されます。 特定の時間を指定するか、定期的に実行されるように設定できます。
 
      >[!NOTE]
@@ -48,7 +50,6 @@ ht-degree: 39%
      >システム全体のパフォーマンスが落ちたり、データベースにブロックが作成されたりする可能性があるので、コンポジションの実行スケジュールは 15 分以上の間隔を空けてください。
 
    * **毎週**：コンポジションは、週に 1 回または数回、指定した瞬間に実行されます。
-
    * **毎月**：コンポジションは、月に 1 回または数回、指定された瞬間に実行されます。 コンポジションを実行する必要がある場合は、月を選択できます。 月の第 2 火曜日など、月の特定の曜日に実行を設定することもできます。
 
 1. 選択した頻度に従って実行の詳細を定義します。詳細フィールドは、指定する頻度（時間、繰り返し頻度、指定した日数など）に応じて異なります。
@@ -68,4 +69,3 @@ ht-degree: 39%
 <!--## Example{#scheduler-example}
 
 In the following example, the activity is configured so that the composition runs several times a day at 9 and 12 AM, every day of the week from October 1st, 2023 to January 1st, 2024.-->
-
