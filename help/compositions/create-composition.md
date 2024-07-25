@@ -3,13 +3,13 @@ audience: end-user
 title: コンポジションの作成
 description: コンポジションの作成方法を説明します
 badge: label="限定提供" type="Informative"
-source-git-commit: 8cc7a4cb8cf5e98496ddf366b9212c25acfdbbd0
+exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
+source-git-commit: 6aec8f5d9e8550ece2b50234d86ed59938f1b028
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 26%
 
 ---
-
 
 # コンポジションの作成と設定 {#create}
 
@@ -44,7 +44,7 @@ ht-degree: 26%
 
 >[!CONTEXTUALHELP]
 >id="dc_composition_settings_error"
->title="エラー管理の設定"
+>title="エラー管理設定"
 >abstract="このセクションでは、実行中のエラーを管理する方法を定義できます。 プロセスの一時停止、一定数のエラーの無視または構成の実行の停止を選択できます。"
 
 コンポジションにアクセスする場合、エラーが発生した場合のコンポジションの動作を定義するなどの詳細設定にアクセスできます。 これらの追加オプションにアクセスするには、コンポジション作成画面の上部にある「**[!UICONTROL 設定]**」ボタンをクリックします。
