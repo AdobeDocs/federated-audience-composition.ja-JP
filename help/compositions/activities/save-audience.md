@@ -4,10 +4,10 @@ title: オーディエンスを保存アクティビティの使用
 description: オーディエンスを保存アクティビティの使用方法を学ぶ
 badge: label="限定提供" type="Informative"
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
-source-git-commit: 6aec8f5d9e8550ece2b50234d86ed59938f1b028
+source-git-commit: ca5939e02b55419574599a09863bcdd546b8f511
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '451'
+ht-degree: 29%
 
 ---
 
@@ -62,7 +62,13 @@ ht-degree: 0%
    * **プライマリ ID フィールド**: プロファイルの識別に使用するフィールドを選択します。 例えば、メールアドレスや電話番号などです。
    * **ID 名前空間**：プロファイルの識別に使用する名前空間、つまり ID キーとして使用するデータのタイプを選択します。 例えば、メールアドレスをプライマリ ID フィールドとして選択した場合は、ID 名前空間 **メール** を選択する必要があります。 一意の識別子が電話番号の場合は、ID 名前空間の&#x200B;**電話**&#x200B;を選択する必要があります。
 
-コンポジションを実行すると、結果のオーディエンスがAdobe Experience Platformに保存され、**オーディエンス** メニューでアクセスできるようになります。 作成されたオーディエンスには、「オーディエンスマッピング」セクションで選択されたすべてのフィールドが含まれます。 Adobe Experience Platformでサポートされている任意の宛先に対して、オーディエンスをアクティブ化できます。
+## Adobe Experience Platformでのオーディエンスへのアクセス {#access-audience}
+
+コンポジションを実行すると、結果のオーディエンスが外部オーディエンスとしてAdobe Experience Platformに保存され、Adobeの Real-time Customer Data Platform やAdobe Journey Optimizerで使用できるようになります。 **オーディエンス** メニューでアクセス可能になります。 [詳細情報](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+
+作成されたオーディエンスには、「オーディエンスマッピング」セクションで選択されたすべてのフィールドが含まれます。 Adobe Experience Platformでサポートされている任意の宛先に対して、オーディエンスをアクティブ化できます。
+
+[詳細情報](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 <!--
 
