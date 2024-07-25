@@ -3,9 +3,9 @@ title: Federated Audience コンポジションの基本を学ぶ
 description: Adobeの Federated Audience Composition の概要とAdobe Experience Platformでの使用方法を説明します
 badge: label="限定提供" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: e0f74c25e2f57098ce65c8cdf032a90b4eecdaba
+source-git-commit: 6a4e50c4d2958504a266297dffc125b00e1294e4
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '510'
 ht-degree: 11%
 
 ---
@@ -20,7 +20,7 @@ Adobeの Federated Audience Composition は、Adobe Experience Platform アプ�
 
 マーケティングに対応した UI を使用して、マーケティングキャンペーンに必要な特定のセグメントに適合するユーザーのリストをデータウェアハウスにクエリするセグメントルールを作成したり、アクティブ化のためにウェアハウス内の既存のオーディエンスにアクセスしたり、ウェアハウス内に存在する追加のデータポイントでAdobe Experience Platform オーディエンスをエンリッチメントしたりできます。
 
-このバージョンでは、オーディエンスの作成およびオーディエンスのエンリッチメントの 2 つのユースケースを使用できます。 プロファイルのエンリッチメントは、今後のリリースで利用可能になる予定です。
+このバージョンでは、オーディエンスの作成およびオーディエンスのエンリッチメントの 2 つのユースケースを使用できます。
 
 ![ 図 ](assets/fac-use-cases.png){zoomable="yes"}
 
