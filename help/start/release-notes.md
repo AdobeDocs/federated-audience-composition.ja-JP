@@ -1,12 +1,12 @@
 ---
-title: Federated Audience Composition の新機能
+title: Experience Platformの Federated Audience Composition の新機能
 description: 最新のアップデートとリリースノート
 badge: label="限定提供" type="Informative"
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 00287147cfc84bbec9bc1982d83c12c951949dd5
+source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 4%
+source-wordcount: '338'
+ht-degree: 2%
 
 ---
 
@@ -16,15 +16,12 @@ ht-degree: 4%
 
 >[!AVAILABILITY]
 >
->* Federated Audience Composition は現在、一連の組織でのみ使用できます（使用制限あり）。 アクセスするには、アドビ担当者にお問い合わせください。
+>Adobe Experience Platform Federated Audience Composition は現在、一連の組織でのみ使用できます（使用制限あり）。
 >
->* 現時点では、**Healthcare Shield** アドオンサービスを購入したお客様は機能を利用できません。 [詳細情報](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}
 
+Federated Audience Composition は、企業がエンタープライズデータウェアハウスへの柔軟かつ拡張されたアクセスを可能にし、重要なエンタープライズデータセットを使用してオーディエンスを作成し、ブランド主導の即時のエクスペリエンスを強化するアドオン機能です。 この新しいアプローチを使用すると、[Adobe Real-time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home){target="_blank"} または [Adobe Journey Optimizer](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} のユーザーとして、オーディエンスデータを既存の Data Warehouse から直接統合して、Adobe Experience Platform オーディエンスを 1 つのシステムで強化できます。
 
-Federated Audience Composition を使用すると、企業は様々なユースケースでの使用率を高めるためにデータを作成できます。 この新しいアプローチでは、[Adobe Real-time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home){target="_blank"} または [Adobe Journey Optimizer](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} のユーザーとして、既存の Data Warehouse からデータセットを直接統合して、Adobe Experience Platform オーディエンスと属性をすべて 1 つのシステムで強化できます。
-
-Federated Audience Composition は、パーソナライゼーションのユースケースを強化するために、エンタープライズデータウェアハウスへの柔軟なアクセスと拡張リーチを提供するアドオンです。
-データセットやオーディエンスをAdobe Experience Platformに取り込む代わりに、Federated Audience コンポジションを使用して、特定のセグメント化やアクティベーションのユースケースに必要な特定のオーディエンスや属性をウェアハウスから取り出すことで、データウェアハウスからAdobe Experience Platformにコピーされるデータの量を減らし、機密データがウェアハウス外で保持されないようにすることができるようになりました。
+Federated Audience Composition は、オーディエンスをウェアハウスのデータセットで柔軟に構成する必要がある企業に対する、市場の需要の高まりに対応しています。 これにより、企業はデータの移動を減らしながら、マーケティングチームが重要なオーディエンスデータを利用してユースケースの要件を満たし、パーソナライズされたエクスペリエンスを強化できます。 
 
 Federated Audience Composition 機能について詳しくは、[ このページ ](get-started.md) および [ よくある質問 ](get-started.md#faq) を参照してください。
 
@@ -41,6 +38,8 @@ Federated Audience コンポジションには、特定の権限はありませ�
 
 ## 前提条件とガードレール {#fac-guardrails}
 
+* Federated Audience Composition は、プライバシーとセキュリティシールドと互換性があり、医療業界を除くすべての業界で使用できます。 現在、Federated Audience Composition は、正常性データの取り込みを検討しているお客様にはライセンスを付与できません。 [詳細情報](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}
+
 * Data Warehouse へのアクセスを有効にし、Federated Audience Composition を使用するには、IP アドレスが許可リストに追加されている必要があります。 Adobeに IP アドレスを追加するには、許可リスト担当者にお問い合わせください。
 
-* エンタイトルメント、製品の制限、パフォーマンスガードレールの一覧については、[Adobe Real-time Customer Data Platform ドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails){target="_blank"} を参照してください。
+* [Adobe Real-time Customer Data Platform ドキュメントに記載されている使用権限、製品の制限事項、パフォーマンスガードレールは ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails){target="_blank"} このアドオンに適用されます。

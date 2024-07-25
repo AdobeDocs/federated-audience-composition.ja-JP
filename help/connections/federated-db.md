@@ -3,9 +3,10 @@ audience: end-user
 title: 連合データベースの基本を学ぶ
 description: 連合データベースを作成および管理する方法を学ぶ
 badge: label="限定提供" type="Informative"
-source-git-commit: fe425bf6f2773e04948378fa34d82731126774f5
+exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
+source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1467'
 ht-degree: 17%
 
 ---
@@ -27,7 +28,7 @@ ht-degree: 17%
 >title="連合データベースの詳細"
 >abstract="新しい連合データベースに接続するための設定を入力します。 「**[!UICONTROL 接続をテスト]**」ボタンを使用して、設定を検証します。"
 
-Federated Audience Composition を使用すると、お客様は、サードパーティのデータウェアハウスからオーディエンスを作成および強化し、オーディエンスをAdobe Experience Platformにインポートできます。
+Experience Platformの Federated Audience Composition を使用すると、お客様は、サードパーティのデータウェアハウスからオーディエンスを作成および強化し、オーディエンスをAdobe Experience Platformにインポートできます。
 
 外部データベースへの接続を作成、設定、テスト、保存する方法については、このページを参照してください。
 
@@ -254,4 +255,3 @@ Federated Audience Composition を使用すると、次のデータベースに�
 | オプション | 説明 |
 |---|---|
 | TimeZoneName | デフォルトでは空で、Campaign Classic アプリケーションサーバーのシステムのタイムゾーンが使用されます。オプションを使用すると、TIMEZONE セッションパラメーターを強制できます。 |
-

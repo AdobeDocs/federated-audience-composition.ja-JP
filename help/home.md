@@ -1,20 +1,20 @@
 ---
-title: Adobe Experience Platform - Federated Audience Composition ドキュメントのホームページ
+title: Adobe Experience Platform Federated Audience Composition ドキュメントのホームページ
 description: 記事の概要です。
 badge: label="限定提供" type="Informative"
-source-git-commit: bea3c176701dd256255f222713d3c10284f97210
+exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
+source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '232'
 ht-degree: 5%
 
 ---
-
 
 # Federated Audience Composition ドキュメント  {#fac-home}
 
 このたびは、Adobe Experience Platform Federated Audience Composition ドキュメントをご利用いただき、誠にありがとうございます。
 
-Federated Audience Composition は、Adobe Real-Time CDPおよびAdobe Journey Optimizerのユーザーに、柔軟かつ効率的なデータ管理を提供します。 Federated Audience Composition を使用すると、マーケター向けの使いやすい UI を使用して Enterprise Data Warehouse にアクセスすることで、基盤となる Enterprise データを永続化することなく、オーディエンスを作成してAdobe Experience Platform ワークフローでデータセットを活用できます。 これにより、エクスペリエンスのユースケースでデータウェアハウスにアクセスする際のデータ移動を減らすことができます。
+Experience PlatformFederated Audience Composition は、Adobe Real-Time CDPおよびAdobe Journey Optimizerのユーザーに、データ管理の柔軟性と効率性を提供します。 Federated Audience Composition を使用すると、マーケター向けの使いやすい UI を使用して Enterprise Data Warehouse にアクセスすることで、基盤となる Enterprise データを永続化することなく、オーディエンスを作成してAdobe Experience Platform ワークフローでデータセットを活用できます。 これにより、エクスペリエンスのユースケースでデータウェアハウスにアクセスする際のデータ移動を減らすことができます。
 
 >[!BEGINTABS]
 
@@ -74,5 +74,3 @@ Federated Audience Composition を使用すると、外部データウェアハ�
 ## その他のリソース  {#additional-resources}
 
 [Real-time Customer Data Platform ドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home){target="_blank"} - [Adobeオーディエンスポータルドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-dashboard){target="_blank"} - [Tutorials](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/audiences/introduction-to-audience-portal-and-composition){target="_blank"}
-
-

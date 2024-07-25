@@ -1,18 +1,18 @@
 ---
 title: よくある質問
-description: よくある質問
+description: Adobe Experience Platform Federated Audience コンポジションに関するよくある質問です
 badge: label="限定提供" type="Informative"
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: 03ad7a7ca602379567bca04f3750faa7a15d61db
+source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
 workflow-type: tm+mt
-source-wordcount: '826'
-ht-degree: 4%
+source-wordcount: '836'
+ht-degree: 3%
 
 ---
 
 # よくある質問 {#faq}
 
-Federated Audience コンポジションに関するよくある質問のリストを以下に示します。 Adobe Experience Platform セグメント化サービスに関するグローバル FAQ は、[ このページ ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq){target="_blank"} でも入手できます。
+Adobe Experience Platform Federated Audience Composition に関するよくある質問のリストを以下に示します。 Adobe Experience Platform セグメント化サービスに関するグローバル FAQ は、[ このページ ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq){target="_blank"} でも入手できます。
 
 
 +++Federated Audience Composition にアクセスするには、どのような権限が必要ですか？

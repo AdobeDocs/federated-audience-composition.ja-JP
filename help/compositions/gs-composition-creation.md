@@ -3,13 +3,13 @@ audience: end-user
 title: コンポジションの作成
 description: コンポジションの作成方法を説明します
 badge: label="限定提供" type="Informative"
-source-git-commit: 0208da1a1897f166db9124ed6b014828fbe17484
+exl-id: 861440ab-ce14-46aa-a215-b86fc9ffeef0
+source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '233'
 ht-degree: 59%
 
 ---
-
 
 # 構成作成の主な原則 {#gs-composition-creation}
 
@@ -20,7 +20,7 @@ ht-degree: 59%
 
 ## コンポジションには何が含まれていますか？ {#gs-composition-inside}
 
-Federated Audience Composition は、様々なアクティビティ（分割、エンリッチメントなど）を活用してオーディエンスを作成できる視覚的なキャンバスを提供します。
+Experience PlatformFederated Audience Composition は、様々なアクティビティ（分割、エンリッチメントなど）を活用してオーディエンスを作成できる視覚的なキャンバスを提供します。
 
 構成図は、実行される処理を表したものです。 これは、実行される様々なタスクと、タスク同士の関係を示すものです。
 
