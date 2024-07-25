@@ -2,13 +2,13 @@
 title: よくある質問
 description: よくある質問
 badge: label="限定提供" type="Informative"
-source-git-commit: 6cfd3bd85d7811e00e716042502c7d7b23fa4ad9
+exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
+source-git-commit: b8cd36152433272277e7e694c8147211deae88bf
 workflow-type: tm+mt
 source-wordcount: '916'
 ht-degree: 3%
 
 ---
-
 
 # よくある質問 {#faq}
 
@@ -71,7 +71,7 @@ Federated Audience Composition では、データの物理的なコピーは管�
 
 例：
 
-* オーディエンスのセグメント化の場合、オーディエンスはウェアハウスに作成され、追加のコンポジションタスクやデータ操作に Federated Audience Composition を使用してから、Adobe Experience Platform Audience Portal を使用して、結果のオーディエンスや関連する属性を公開できます。 オーディエンス定義と関連属性は、Adobe Experience Platformに渡されます。
+* オーディエンスを作成した場合、オーディエンスはウェアハウスに作成され、追加のコンポジションタスクやデータ操作に Federated Audience Composition を使用してから、Adobe Experience Platform Audience ポータルを介して結果オーディエンスおよび関連する属性を公開できます。 オーディエンス定義と関連属性は、Adobe Experience Platformに渡されます。
 外部で生成されたオーディエンスの現在のデータ有効期限は 30 日であることに注意してください。 このデータの有効期限により、組織内に保存される過剰なデータの量が減ります。 データの有効期限が過ぎても、関連するデータセットはデータセットインベントリ内に引き続き表示されますが、オーディエンスをアクティブ化することはできません。また、プロファイル数は 0 と表示されます。 詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq#how-long-do-externally-generated-audiences-last-for){target="_blank"}を参照してください。
 
 * オーディエンスエンリッチメントの場合、開始点は既存のAdobe Experience Platform オーディエンスです。 次の 2 つのシナリオを見ることができます。
@@ -79,7 +79,7 @@ Federated Audience Composition では、データの物理的なコピーは管�
    1. Data Warehouse に存在する追加の属性に基づいて、既存のAdobe Experience Platform オーディエンスを絞り込みます。 例えば、過去 2 か月間に web サイト上の特定の製品に興味を示した顧客のオーディエンスがあるとします。 次に、このオーディエンスを取得し、Federated Audience Composition を使用してさらにセグメント化し、クレジットスコアが高い顧客のみを含めるようにします。 信用スコアは機密と見なされ、個々の信用スコアデータポイントはデータウェアハウスからコピーされません。
 +++
 
-+++オーディエンスセグメント化およびオーディエンスエンリッチメントのユースケースのパターンに関するデータが保持されていない場合、そのデータは一時的にどのように保存されますか？
++++オーディエンス作成およびオーディエンスエンリッチメントのユースケースのパターンに関するデータが保持されていない場合、そのデータは一時的にどのように保存されますか？
 
 結果のオーディエンスデータは、Adobe Experience Platformや Federated Audience Composition では無期限に保持されません。 ユースケースで必要とされる期間を超えて保持されることはありません。 オーディエンスペイロードの一部として取り込まれたオーディエンス属性は、オーディエンス定義の一部としてのみ保持されます。 永続性の期間は、すべてのオーディエンスの TTL に基づきます（デフォルトは 30 日）。
 
