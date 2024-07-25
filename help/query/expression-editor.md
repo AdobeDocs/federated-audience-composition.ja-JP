@@ -3,9 +3,10 @@ audience: end-user
 title: クエリモデラーを使用した最初のクエリの作成
 description: クエリモデラーで最初のクエリを作成する方法を説明します。
 badge: label="限定提供" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+exl-id: abff07ef-2bc0-4e00-8957-4d59fc3bc938
+source-git-commit: 0efe4046cf30b4c447551c1cebbea0b4c2085a9f
 workflow-type: tm+mt
-source-wordcount: '2102'
+source-wordcount: '2068'
 ht-degree: 98%
 
 ---
@@ -13,10 +14,6 @@ ht-degree: 98%
 # 式の編集 {#expression}
 
 式を編集する場合は、条件を手動で入力してルールを作成します。このモードでは、日付、文字列、数値の各フィールドの操作や並べ替えなど、具体的なクエリの実行に使用する値を操作する高度な関数を使用できます。
-
->[!IMPORTANT]
->
->以下の節では、式エディターを操作してルールを作成する方法について説明します。ルールの作成に使用する構文は、パーソナライゼーションの追加に使用する構文とは異なることに注意してください。
 
 ## 式エディターの操作 {#edit}
 
