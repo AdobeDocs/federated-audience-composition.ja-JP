@@ -2,13 +2,13 @@
 title: Federated Audience Composition の新機能
 description: 最新のアップデートとリリースノート
 badge: label="限定提供" type="Informative"
-source-git-commit: f5b7fa76719861761b423f61c5e3bba3d4d24c9b
+exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
+source-git-commit: 00287147cfc84bbec9bc1982d83c12c951949dd5
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 5%
+source-wordcount: '344'
+ht-degree: 4%
 
 ---
-
 
 # リリースノート {#rn-new}
 
@@ -29,6 +29,8 @@ Federated Audience Composition は、パーソナライゼーションのユー�
 Federated Audience Composition 機能について詳しくは、[ このページ ](get-started.md) および [ よくある質問 ](get-started.md#faq) を参照してください。
 
 ## Federated Audience コンポジションへのアクセス {#fac-access}
+
+Federated Audience Composition には、Adobe Real-time Customer Data PlatformおよびAdobe Journey Optimizer Prime または Ultimate パッケージが必要です。
 
 Federated Audience コンポジションには、特定の権限はありません。 この機能にアクセスするための唯一の前提条件は、Federated Audience Composition アドオンを購入することです。
 
