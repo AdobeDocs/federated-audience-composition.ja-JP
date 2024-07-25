@@ -3,7 +3,7 @@ title: Experience Platformの Federated Audience Composition の新機能
 description: 最新のアップデートとリリースノート
 badge: label="限定提供" type="Informative"
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
+source-git-commit: 5d8d0c1195abf6ba28291be2f38a67ef4123964f
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 2%
