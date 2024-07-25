@@ -3,7 +3,7 @@ title: Federated Audience コンポジションの基本を学ぶ
 description: Adobeの Federated Audience Composition の概要とAdobe Experience Platformでの使用方法を説明します
 badge: label="限定提供" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 6a4e50c4d2958504a266297dffc125b00e1294e4
+source-git-commit: 3b4f5284cd65cd5cd30c4223fe2df3ffff7c0905
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 11%
@@ -22,13 +22,13 @@ Adobeの Federated Audience Composition は、Adobe Experience Platform アプ�
 
 このバージョンでは、オーディエンスの作成およびオーディエンスのエンリッチメントの 2 つのユースケースを使用できます。
 
-![ 図 ](assets/fac-use-cases.png){zoomable="yes"}
+![ 図 ](assets/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
 
 ## 主な手順 {#gs-steps}
 
 Adobeの Federated Audience Composition を使用すると、取り込みプロセスを実行することなく、データベースから直接Adobe Experience Platform オーディエンスを作成および更新できます。
 
-![ 図 ](assets/steps-diagram.png){zoomable="yes"}
+![ 図 ](assets/steps-diagram.png){zoomable="yes"}{width="85%" align="center"}
 
 主な手順：
 
