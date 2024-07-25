@@ -3,10 +3,10 @@ title: よくある質問
 description: よくある質問
 badge: label="限定提供" type="Informative"
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: b8cd36152433272277e7e694c8147211deae88bf
+source-git-commit: 03ad7a7ca602379567bca04f3750faa7a15d61db
 workflow-type: tm+mt
-source-wordcount: '916'
-ht-degree: 3%
+source-wordcount: '826'
+ht-degree: 4%
 
 ---
 
@@ -17,7 +17,7 @@ Federated Audience コンポジションに関するよくある質問のリス�
 
 +++Federated Audience Composition にアクセスするには、どのような権限が必要ですか？
 
-Federated Audience コンポジションには、特定の権限はありません。 この機能にアクセスするための唯一の前提条件は、Federated Audience Composition アドオンを購入することです。
+Federated Audience Composition には、Adobe Real-time Customer Data PlatformおよびAdobe Journey Optimizer Prime または Ultimate パッケージが必要です。 Federated Audience コンポジションには、特定の権限はありません。 この機能にアクセスするための唯一の前提条件は、Federated Audience Composition アドオンを購入することです。
 
 +++
 
@@ -61,7 +61,7 @@ Federated Audience コンポジションには、特定の権限はありませ�
 
 +++Federated Audience コンポジションに一時的なストレージはありますか？
 
-いいえ。Federated Audience 構成には、メタデータ（スキーマの説明）のみが格納されます。 顧客データが転送されていません。 オーディエンスの書き出しフローは、Adobe Experience Platform Audience Portal から（[Destination](../connections/destinations.md) 経由で）顧客データベースに直接実行されます。 作成と更新のフローは、Data Warehouse データベースからAdobe Experience Platform Audience Portal に直接送信されます。
+いいえ。Federated Audience 構成には、メタデータ（スキーマの説明）のみが格納されます。 顧客データが転送されていません。<!--The Audience export flow is done directly from Adobe Experience Platform Audience Portal (via [Destination](../connections/destinations.md)) to the customer database. The creation and update flow is done directly from your data warehouse database to Adobe Experience Platform Audience Portal.-->
 
 +++
 
@@ -76,7 +76,7 @@ Federated Audience Composition では、データの物理的なコピーは管�
 
 * オーディエンスエンリッチメントの場合、開始点は既存のAdobe Experience Platform オーディエンスです。 次の 2 つのシナリオを見ることができます。
    1. フェデレーション Data Warehouse から追加のオーディエンスペイロード属性を取り込みます。この場合、追加される追加の属性は、このオーディエンス定義の一部として提供されます。 外部で生成されたオーディエンスのデータの有効期限は、上記と同じ（30 日）です。
-   1. Data Warehouse に存在する追加の属性に基づいて、既存のAdobe Experience Platform オーディエンスを絞り込みます。 例えば、過去 2 か月間に web サイト上の特定の製品に興味を示した顧客のオーディエンスがあるとします。 次に、このオーディエンスを取得し、Federated Audience Composition を使用してさらにセグメント化し、クレジットスコアが高い顧客のみを含めるようにします。 信用スコアは機密と見なされ、個々の信用スコアデータポイントはデータウェアハウスからコピーされません。
+   1. Data Warehouse に存在する追加の属性に基づいて、既存のAdobe Experience Platform オーディエンスを絞り込みます。<!--For example, you have an audience of customers who have shown interest in a particular product on the website for the last two months. You now want to take this audience and further segment it using Federated Audience Composition to only include customers who have a high credit score. The credit score is deemed sensitive and individual credit score data points are not copied over from the data warehouse.-->
 +++
 
 +++オーディエンス作成およびオーディエンスエンリッチメントのユースケースのパターンに関するデータが保持されていない場合、そのデータは一時的にどのように保存されますか？
