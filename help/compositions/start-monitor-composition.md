@@ -3,13 +3,13 @@ audience: end-user
 title: コンポジションの作成
 description: コンポジションの作成方法を説明します
 badge: label="限定提供" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+exl-id: 1f288312-dd6a-4a62-8ee6-fa2417954d5c
+source-git-commit: 3384c816e64b93a80b8e9b3e61dab74fa098889f
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 29%
+source-wordcount: '635'
+ht-degree: 27%
 
 ---
-
 
 # コンポジションの開始と監視 {#start-monitor}
 
@@ -28,7 +28,7 @@ ht-degree: 29%
 コンポジションでは、トランジションを通じてあるアクティビティから別のアクティビティに転送されたデータが、一時的なワークテーブルに保存されます。 このデータは、トランジションごとに表示できます。これを行うには、トランジションを選択して、画面の右側でそのプロパティを開きます。
 
 * 「**[!UICONTROL スキーマをプレビュー]**」をクリックして、作業用テーブルのスキーマを表示します。
-* 「**[!UICONTROL 結果をプレビュー]**」をクリックして、選択したトランジションで転送されたデータを視覚化します。
+* **[!UICONTROL 結果をプレビュー]** をクリックし、選択したトランジションで転送されたデータを視覚化します。 このオプションは、「**[!UICONTROL 2 つの実行間の中間母集団の結果を保持]**」オプションが有効になっている場合にのみ使用できます。 [詳細情報](create-composition.md#settings)
 
 ![](assets/transition-preview.png)
 
