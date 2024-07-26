@@ -4,10 +4,10 @@ title: 連合データベースの基本を学ぶ
 description: 連合データベースを作成および管理する方法を学ぶ
 badge: label="限定提供" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 866dbeb39f2d3cc73d21edea170a3861f91a4802
+source-git-commit: fa968e0c221befa7a0ddaef0f5908752f681c535
 workflow-type: tm+mt
-source-wordcount: '1467'
-ht-degree: 17%
+source-wordcount: '1566'
+ht-degree: 16%
 
 ---
 
@@ -68,7 +68,11 @@ Federated Audience Composition を使用すると、次のデータベースに�
 
    * **[!UICONTROL データベース]**：DSN で指定されていない場合のデータベースの名前。DSN で指定した場合は、空のままにできます
 
-   * **[!UICONTROL 作業スキーマ]**：作業スキーマの名前。 [詳細情報](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html)
+   * **[!UICONTROL 作業用スキーマ]**：作業用テーブルに使用するデータベーススキーマの名前。 [詳細情報](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html)
+
+     >[!NOTE]
+     >
+     >このスキーマへの接続に必要な権限がある場合は、一時的なデータ処理に使用するスキーマを含め、データベース内の任意のスキーマを使用できます。
 
 1. 「**[!UICONTROL 接続をテスト]**」オプションを選択して、設定を確認します。
 
@@ -188,7 +192,11 @@ Federated Audience Composition を使用すると、次のデータベースに�
 
    * **[!UICONTROL データベース]** （オプション）:DSN で指定されていない場合は、データベースの名前を入力します。
 
-   * **[!UICONTROL 作業スキーマ]** （オプション）：作業スキーマの名前を入力します。
+   * **[!UICONTROL 作業用スキーマ]** （オプション）：作業用テーブルに使用するデータベーススキーマの名前を入力します。
+
+     >[!NOTE]
+     >
+     >このスキーマへの接続に必要な権限がある場合は、一時的なデータ処理に使用するスキーマを含め、データベース内の任意のスキーマを使用できます。
 
    * **[!UICONTROL 秘密鍵]**:「**[!UICONTROL 秘密鍵]**」フィールドをクリックして、ロケールフォルダーから.pem ファイルを選択します。
 
@@ -240,7 +248,11 @@ Federated Audience Composition を使用すると、次のデータベースに�
 
    * **[!UICONTROL データベース]** （オプション）:DSN で指定されていない場合は、データベースの名前を入力します。
 
-   * **[!UICONTROL 作業スキーマ]** （オプション）：作業スキーマの名前を入力します。
+   * **[!UICONTROL 作業用スキーマ]** （オプション）：作業用テーブルに使用するデータベーススキーマの名前を入力します。
+
+     >[!NOTE]
+     >
+     >このスキーマへの接続に必要な権限がある場合は、一時的なデータ処理に使用するスキーマを含め、データベース内の任意のスキーマを使用できます。
 
    * **[!UICONTROL オプション]**：コネクタは、以下の表で説明するオプションをサポートします。
 
