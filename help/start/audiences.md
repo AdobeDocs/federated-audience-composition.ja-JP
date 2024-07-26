@@ -4,9 +4,9 @@ title: オーディエンスの操作
 description: オーディエンスの操作方法を学ぶ
 badge: label="限定提供" type="Informative"
 exl-id: c6507624-1dc9-43f9-a3ad-c3dc9689f8c7
-source-git-commit: 58cbd9c38bbeab1fb8a18cbb30de282ed798ffb0
+source-git-commit: 4b7645e45b68a7316d9ddc09af1a8253b4e4dd62
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '301'
 ht-degree: 5%
 
 ---
@@ -17,11 +17,11 @@ Experience Platformの Federated Audience コンポジションを使用する�
 
 その後、Adobe Experience Platformでサポートされている任意の宛先に対して、これらのオーディエンスをアクティブ化できます。
 
-### コンポジションを使用したオーディエンスの作成 {#creation}
+## コンポジションを使用したオーディエンスの作成 {#creation}
 
 Federated Audience コンポジションを使用してオーディエンスを作成するには、**[!UICONTROL オーディエンスを保存]** アクティビティを含むコンポジションを作成する必要があります。 このアクティビティを使用すると、オーディエンスをオーディエンスポータルに保存したり、外部データベースからフィールドを選択してオーディエンスに含めたりできます。 [「オーディエンスを保存」アクティビティの設定方法の詳細情報](../compositions/activities/save-audience.md)
 
-Adobeの Federated Data Composition を使用して作成されたオーディエンスには、**{!UICONTROL Save audience}** アクティビティで選択されたすべてのフィールドが含まれ、すべてのAdobe Experience Platform オーディエンスと共に Audience Portal に保存されます。
+Adobeの Federated Data Composition を使用して作成されたオーディエンスには、**[!UICONTROL オーディエンスを保存]** アクティビティで選択されたすべてのフィールドが含まれ、すべてのAdobe Experience Platform オーディエンスと共に Audience Portal に保存されます。
 
 コンポジションを実行すると、結果のオーディエンスが外部オーディエンスとしてAdobe Experience Platformに保存され、Adobeの Real-time Customer Data Platform やAdobe Journey Optimizerで使用できるようになります。
 
