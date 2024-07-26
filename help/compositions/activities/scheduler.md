@@ -3,7 +3,7 @@ audience: end-user
 title: スケジューラーアクティビティの使用
 description: スケジューラーアクティビティの使用方法を学ぶ
 exl-id: 3e8be2a2-2227-42f4-a512-b9e686ba0f66
-source-git-commit: 122bd469e04d72d2dac0f606c8ab4e195100d4a4
+source-git-commit: 8fa60d20dc574bbddc0106508d57a1cd3f3d3db8
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 36%
@@ -19,7 +19,7 @@ ht-degree: 36%
 
 **スケジューラー**&#x200B;アクティビティは&#x200B;**フロー制御**&#x200B;アクティビティです。コンポジションが開始されるタイミングをスケジュールできます。 このアクティビティは、予約済みの開始とみなされます。それは組成物の最初の活動としてのみ使用することができる。
 
-Federated Data Composition 宛先への接続を設定した場合は、このアクティビティを使用すると、Adobe Experience Platform オーディエンスを通常の頻度で送信できます。 [ 外部データを使用してAdobe Experience Platform オーディエンスをエンリッチメントする方法を説明します ](../../connections/destinations.md)
+Federated Audience Composition 宛先への接続を設定した場合、このアクティビティを使用すると、Adobe Experience Platform オーディエンスを通常の頻度で送信できます。 [ 外部データを使用してAdobe Experience Platform オーディエンスをエンリッチメントする方法を説明します ](../../connections/destinations.md)
 
 ![](../assets/scheduler.png)
 

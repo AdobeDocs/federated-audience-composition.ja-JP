@@ -4,7 +4,7 @@ title: エンリッチメント アクティビティの使用
 description: エンリッチメントアクティビティの使用方法を学ぶ
 badge: label="限定提供" type="Informative"
 exl-id: 6bf12c25-fbef-4588-89d0-28215cbcbf58
-source-git-commit: 1b9e4f23403e830a3cd4b12df5268d852f549ffe
+source-git-commit: 8fa60d20dc574bbddc0106508d57a1cd3f3d3db8
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 57%
@@ -40,7 +40,7 @@ ht-degree: 57%
 
 **エンリッチメント** アクティビティを使用すると、連合データベースからの追加情報でターゲットデータを強化できます。 一般的に、セグメント化アクティビティ後の構成で使用されます。
 
-Federated Data Composition 宛先への接続を設定した場合は、エンリッチメント アクティビティを使用して、外部データベースからの属性でAdobe Experience Platformに取り込むデータを強化できます。 [ 外部データを使用してAdobe Experience Platform オーディエンスをエンリッチメントする方法を説明します ](../../connections/destinations.md)
+Federated Audience Composition 宛先への接続を設定した場合は、エンリッチメント アクティビティを使用して、外部データベースからの属性でAdobe Experience Platformに取り込むデータを強化できます。 [ 外部データを使用してAdobe Experience Platform オーディエンスをエンリッチメントする方法を説明します ](../../connections/destinations.md)
 
 エンリッチメントデータは次のいずれかを実行できます。
 
