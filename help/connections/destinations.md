@@ -4,9 +4,9 @@ title: 外部データによるAdobe Experience Platform オーディエンス�
 description: Federated Audience コンポジション宛先を使用して、フェデレーティッドデータベースのデータをAdobe Experience Platform オーディエンスに絞り込み、エンリッチメントする方法を説明します。
 badge: label="限定提供" type="Informative"
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
-source-git-commit: f2ea9a368b4409f0b38b12508ce310d49e3d84f8
+source-git-commit: 2547f1ae8b22a4fb25c259172b8c052b279fae10
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '566'
 ht-degree: 7%
 
 ---
@@ -22,7 +22,10 @@ Adobe Experience Platformでは、**Adobeの Federated Audience Composition 宛�
 
 これを行うには、Adobe Experience Platformで、AdobeFederated Audience Composition 宛先への新しい接続を設定する必要があります。 スケジューラーを使用して、特定のオーディエンスを一定の頻度で送信し、含める特定の属性（データ紐付けの ID など）を選択できます。 ガバナンスポリシーとプライバシーポリシーをオーディエンスに適用した場合、オーディエンスが更新された後も保持され、オーディエンスポータルに送り返されます。
 
-例えば、Data Warehouse に顧客のクレジットスコアを保存し、過去 2 か月以内に特定の商品に興味を持つ顧客をターゲティングするAdobe Experience Platform オーディエンスがある場合、Federated Audience Composition の宛先を使用して、クレジットスコアに基づいてこのオーディエンスを絞り込むことができます。 このプロセスを使用すると、機密の信用スコアデータをデータウェアハウスから転送することなく、オーディエンスをフィルタリングして、信用スコアの高いプロファイルのみを含めることができます。
+例えば、購入情報をデータウェアハウスに保存し、過去 2 か月以内に特定の商品に興味を持つ顧客をターゲティングするAdobe Experience Platform オーディエンスがあるとします。 Federated Audience Composition の宛先を使用すると、次のことができます。
+
+* 購入情報に基づいてオーディエンスを絞り込みます。 例えば、オーディエンスをフィルタリングして、150 ドルを超える購入のみを行った顧客をターゲットにすることができます。
+* 製品名や購入数量など、購入に関連するフィールドを使用してオーディエンスをエンリッチメントします。
 
 Adobe Experience Platform オーディエンスをAdobeの Federated Audience コンポジションに送信する主な手順は次のとおりです。
 
