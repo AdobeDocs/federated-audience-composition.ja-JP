@@ -4,10 +4,10 @@ title: データモデルの基本を学ぶ
 description: データモデルの使用を開始する方法を学ぶ
 badge: label="限定提供" type="Informative"
 exl-id: 8f9e9895-dcd7-4718-8922-4f7fefe9ed94
-source-git-commit: 41b0778526bf1aa9e75191d13892ef6465e42e0b
+source-git-commit: e43c1061d33298d028ee8d5d873b6b1112f13abe
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 28%
+source-wordcount: '291'
+ht-degree: 22%
 
 ---
 
@@ -37,11 +37,19 @@ ht-degree: 28%
 
 ## データモデルとは {#data-model-start}
 
-データモデルは、スキーマ、オーディエンスおよびこれらの間のリンクのセットです。
+データモデルは、スキーマ、オーディエンスおよびこれらの間のリンクのセットです。 オーディエンスをデータベースデータと統合するために使用されます。
 
 詳しくは、[ スキーマ ](../customer/schemas.md#schema-start) を参照してください。
 
 詳細情報 [ オーディエンス ](../start/audiences.md)。
+
+例えば、データモデルの表現を以下に示します。名前の付いたテーブルとそれらの間のリンクです。
+
+![](assets/datamodel.png){zoomable="yes"}
+
+Federated Audience Composition では、多くのデータモデルを作成できます。
+
+作成はユースケースに基づいて行われます。必要なテーブルを選択し、必要に応じてリンクします。
 
 ## データモデルの作成 {#data-model-create}
 
