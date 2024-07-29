@@ -3,10 +3,10 @@ title: よくある質問
 description: Adobe Experience Platform Federated Audience コンポジションに関するよくある質問です
 badge: label="限定提供" type="Informative"
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: 3384c816e64b93a80b8e9b3e61dab74fa098889f
+source-git-commit: dd19c6a8170a87c10fd8534bf2aa63adcf360529
 workflow-type: tm+mt
-source-wordcount: '816'
-ht-degree: 3%
+source-wordcount: '834'
+ht-degree: 2%
 
 ---
 
@@ -17,7 +17,9 @@ Adobe Experience Platform Federated Audience Composition に関するよくあ�
 
 +++Federated Audience Composition にアクセスするには、どのような権限が必要ですか？
 
-Federated Audience Composition には、Adobe Real-time Customer Data PlatformおよびAdobe Journey Optimizer Prime または Ultimate パッケージが必要です。 Federated Audience コンポジションには、特定の権限はありません。 この機能にアクセスするための唯一の前提条件は、Federated Audience Composition アドオンを購入することです。
+Federated Audience Composition には、Adobe Real-time Customer Data PlatformおよびAdobe Journey Optimizer Prime または Ultimate パッケージが必要です。 また、Federated Audience Composition アドオンを購入している必要があります。
+
+Federated Audience Audience コンポジションを使用するには、各ユーザーをサンドボックスごとに作成された特定のプロファイルに追加する必要があります。 詳しくは、[Access Federated Audience Composition](access-prerequisites.md) ページを参照してください。
 
 +++
 

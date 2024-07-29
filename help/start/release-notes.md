@@ -3,9 +3,9 @@ title: Experience Platformの Federated Audience Composition の新機能
 description: 最新のアップデートとリリースノート
 badge: label="限定提供" type="Informative"
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 5d8d0c1195abf6ba28291be2f38a67ef4123964f
+source-git-commit: dd19c6a8170a87c10fd8534bf2aa63adcf360529
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '188'
 ht-degree: 2%
 
 ---
@@ -25,21 +25,5 @@ Federated Audience Composition は、オーディエンスをウェアハウス�
 
 Federated Audience Composition 機能について詳しくは、[ このページ ](get-started.md) および [ よくある質問 ](get-started.md#faq) を参照してください。
 
-## Federated Audience コンポジションへのアクセス {#fac-access}
+Federated Audience コンポジションにアクセスするための前提条件と現在のガードレールについて詳しくは、[ このページ ](access-prerequisites.md) を参照してください。
 
-Federated Audience Composition には、Adobe Real-time Customer Data PlatformおよびAdobe Journey Optimizer Prime または Ultimate パッケージが必要です。
-
-Federated Audience コンポジションには、特定の権限はありません。 この機能にアクセスするための唯一の前提条件は、Federated Audience Composition アドオンを購入することです。
-
->[!AVAILABILITY]
->
->Adobeから「ようこそ」メール通知を受信した後、インターフェイスが更新され、使用可能な機能が使用可能になるまで、さらに数時間かかる場合があります。
->
-
-## 前提条件とガードレール {#fac-guardrails}
-
-* Federated Audience Composition は、プライバシーとセキュリティシールドと互換性があり、医療業界を除くすべての業界で使用できます。 現在、Federated Audience Composition は、正常性データの取り込みを検討しているお客様にはライセンスを付与できません。 [詳細情報](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}
-
-* Data Warehouse へのアクセスを有効にし、Federated Audience Composition を使用するには、IP アドレスが許可リストに追加されている必要があります。 Adobeに IP アドレスを追加するには、許可リスト担当者にお問い合わせください。
-
-* [Adobe Real-time Customer Data Platform ドキュメントに記載されている使用権限、製品の制限事項、パフォーマンスガードレールは ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails){target="_blank"} このアドオンに適用されます。
