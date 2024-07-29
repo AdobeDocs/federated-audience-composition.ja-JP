@@ -2,10 +2,10 @@
 user-guide-title: Experience Platformの Federated Audience 構成
 title: Experience Platformの Federated Audience Composition ドキュメント
 breadcrumb-title: Experience Platformの Federated Audience 構成
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: 16599cc499b45ee8a293c923b9c26f85aa8e0b68
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 36%
+source-wordcount: '145'
+ht-degree: 38%
 
 ---
 
@@ -51,5 +51,4 @@ ht-degree: 36%
    + [クエリモデラーの操作](query/query-modeler-overview.md)
    + [最初のクエリの作成](query/build-query.md)
    + [式の編集](query/expression-editor.md)
-+ 監査記録 {#audit-trail}
-   + [データベースの監視](admin/audit-trail.md)
++ [監査証跡](admin/audit-trail.md)
