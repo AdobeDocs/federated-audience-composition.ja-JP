@@ -4,10 +4,10 @@ title: データモデルの基本を学ぶ
 description: データモデルの使用を開始する方法を学ぶ
 badge: label="限定提供" type="Informative"
 exl-id: 8f9e9895-dcd7-4718-8922-4f7fefe9ed94
-source-git-commit: e43c1061d33298d028ee8d5d873b6b1112f13abe
+source-git-commit: 2eef334ccc5b6c342a26dc452b76dc61f272ba84
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 22%
+source-wordcount: '380'
+ht-degree: 17%
 
 ---
 
@@ -79,9 +79,17 @@ Federated Audience Composition では、多くのデータモデルを作成で�
 
    ![](assets/datamodel_link.png){zoomable="yes"}
 
-   データモデルに定義されているすべてのリンクを次に示します。
+   **カーディナリティ**
 
-   ![](assets/datamodel_alllinks.png){zoomable="yes"}
+   * 1-N：ソーステーブルの 1 つのオカレンスを、ターゲットテーブルの複数のオカレンスに対応させることができますが、ターゲットテーブルの 1 つのオカレンスは、最大でソーステーブルの 1 つのオカレンスに対応させることができます。
+
+   * N-1：ターゲットテーブルの 1 つのオカレンスを、ソーステーブルの複数のオカレンスに対応させることができますが、ソーステーブルの 1 つのオカレンスは、最大でターゲットテーブルの 1 つのオカレンスに対応させることができます。
+
+   * 1-1：ソーステーブルの 1 つのオカレンスを、ターゲットテーブルの最大 1 つのオカレンスに対応させることができます。
+
+データモデルに定義されているすべてのリンクを次に示します。
+
+![](assets/datamodel_alllinks.png){zoomable="yes"}
 
 ## ビデオガイド、チュートリアル {#data-model-video}
 
