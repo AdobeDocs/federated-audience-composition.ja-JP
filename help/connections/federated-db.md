@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: 連合データベースの基本を学ぶ
-description: 連合データベースを作成および管理する方法を学ぶ
+title: 連合データベースの設定
+description: 連合データベースの設定方法を学ぶ
 badge: label="限定提供" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 68b13d373688741e8b42c89c3f8cce247908adb2
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '1560'
-ht-degree: 12%
+source-wordcount: '1579'
+ht-degree: 10%
 
 ---
 
-# 連合データベースの基本を学ぶ {#federated-db}
+# 連合データベースの設定 {#federated-db}
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_menu"
@@ -30,7 +30,7 @@ ht-degree: 12%
 
 Experience Platformの Federated Audience Composition を使用すると、お客様は、サードパーティのデータウェアハウスからオーディエンスを作成および強化し、オーディエンスをAdobe Experience Platformにインポートできます。
 
-外部データベースへの接続を作成、設定、テスト、保存する方法については、このページを参照してください。
+外部データベースへの接続を作成、設定、テスト、保存する方法については、[ このページ ](connections.md) を参照してください。 以下に、サポートされているデータベースのリストと、それぞれのデータベースに対して設定する詳細な設定を示します。
 
 ## サポートされるデータベース {#supported-db}
 
@@ -68,7 +68,7 @@ Federated Audience Composition を使用すると、次のデータベースに�
 
    * **[!UICONTROL データベース]**：DSN で指定されていない場合のデータベースの名前。DSN で指定した場合は、空のままにできます
 
-   * **[!UICONTROL 作業用スキーマ]**：作業用テーブルに使用するデータベーススキーマの名前。 [詳細情報](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html)
+   * **[!UICONTROL 作業用スキーマ]**：作業用テーブルに使用するデータベーススキーマの名前。 詳しくは、[Amazon ドキュメントを参照してください ](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"}
 
      >[!NOTE]
      >
@@ -116,7 +116,7 @@ Federated Audience Composition を使用すると、次のデータベースに�
 
 | オプション | 説明 |
 |---|---|
-| 認証 | コネクターでサポートされている認証のタイプ。 現在サポートされている値：ActiveDirectoryMSI。 詳しくは、[SQL ドキュメント ](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings) （接続文字列 n°8 の例）を参照してください |
+| 認証 | コネクターでサポートされている認証のタイプ。 現在サポートされている値：ActiveDirectoryMSI。 詳しくは、[Microsoft SQL ドキュメント ](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} を参照してください（接続文字列の例 n°8） |
 
 
 ## Google BigQuery {#google-big-query}
@@ -137,11 +137,11 @@ Federated Audience Composition を使用すると、次のデータベースに�
 
 1. Google Big Query 認証を設定します。
 
-   * **[!UICONTROL サービスアカウント]**: **[!UICONTROL サービスアカウント]** のメールアドレスを入力します。 詳しくは、[Google Cloud ドキュメント ](https://cloud.google.com/iam/docs/creating-managing-service-accounts) を参照してください。
+   * **[!UICONTROL サービスアカウント]**: **[!UICONTROL サービスアカウント]** のメールアドレスを入力します。 詳しくは、[Google Cloud ドキュメント ](https://cloud.google.com/iam/docs/creating-managing-service-accounts){target="_blank"} を参照してください。
 
-   * **[!UICONTROL プロジェクト]**: **[!UICONTROL プロジェクト]** の名前を入力します。 詳しくは、[Google Cloud ドキュメント ](https://cloud.google.com/resource-manager/docs/creating-managing-projects) を参照してください。
+   * **[!UICONTROL プロジェクト]**: **[!UICONTROL プロジェクト]** の名前を入力します。 詳しくは、[Google Cloud ドキュメント ](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"} を参照してください。
 
-   * **[!UICONTROL データセット]**: **[!UICONTROL データセット]** の名前を入力します。 詳しくは、[Google Cloud ドキュメント ](https://cloud.google.com/bigquery/docs/datasets-intro) を参照してください。
+   * **[!UICONTROL データセット]**: **[!UICONTROL データセット]** の名前を入力します。 詳しくは、[Google Cloud ドキュメント ](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"} を参照してください。
 
    * **[!UICONTROL キーファイルパス]**：キーファイルをサーバーにアップロードします。 .json ファイルのみ使用できます。
 
@@ -214,11 +214,11 @@ Federated Audience Composition を使用すると、次のデータベースに�
 |---|---|
 | workschema | ワークテーブルに使用するデータベーススキーマ  |
 | warehouse | 使用するデフォルトのウェアハウスの名前。ユーザーのデフォルト値より優先されます。 |
-| TimeZoneName | デフォルトでは空です。これは、システムタイムゾーンアプリサーバーが使用されることを意味します。 このオプションは、TIMEZONE セッションパラメーターを強制的に指定するために使用できます。<br>詳しくは、[このページ](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone)を参照してください。 |
-| WeekStart | WEEK_START セッションパラメーター。デフォルトでは 0 に設定されています。<br>詳しくは、[このページ](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start)を参照してください。 |
-| UseCachedResult | USE_CACHED_RESULTS セッションパラメーター。デフォルトでは TRUE に設定されています。このオプションは、Snowflakeがキャッシュした結果を無効にするために使用できます。 <br>詳しくは、[このページ](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html)を参照してください。 |
+| TimeZoneName | デフォルトでは空です。これは、システムタイムゾーンアプリサーバーが使用されることを意味します。 このオプションは、TIMEZONE セッションパラメーターを強制的に指定するために使用できます。<br> 詳しくは、[ このページ ](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone){target="_blank"} を参照してください。 |
+| WeekStart | WEEK_START セッションパラメーター。デフォルトでは 0 に設定されています。<br> 詳しくは、[ このページ ](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start){target="_blank"} を参照してください。 |
+| UseCachedResult | USE_CACHED_RESULTS セッションパラメーター。デフォルトでは TRUE に設定されています。このオプションは、Snowflakeがキャッシュした結果を無効にするために使用できます。 <br> 詳しくは、[ このページ ](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html){target="_blank"} を参照してください。 |
 | bulkThreads | Snowflakeバルクローダーに使用するスレッドの数。スレッドが多いほど、大きなバルク読み込みのパフォーマンスが向上します。 デフォルトでは 1 に設定されています。この数は、マシンスレッド数に応じて調整できます。 |
-| chunkSize | バルクローダーチャンクのファイルサイズを決定します。 デフォルトでは 128MB に設定されています。 bulkThreads と共に使用する場合は、より最適なパフォーマンスが得られるように変更できます。 同時にアクティブなスレッドが多いほど、パフォーマンスが向上します。 <br> 詳しくは、[Snowflakeドキュメントを参照してください ](https://docs.snowflake.net/manuals/sql-reference/sql/put.html)。 |
+| chunkSize | バルクローダーチャンクのファイルサイズを決定します。 デフォルトでは 128MB に設定されています。 bulkThreads と共に使用する場合は、より最適なパフォーマンスが得られるように変更できます。 同時にアクティブなスレッドが多いほど、パフォーマンスが向上します。 <br> 詳しくは、[Snowflakeドキュメントを参照してください ](https://docs.snowflake.net/manuals/sql-reference/sql/put.html){target="_blank"}。 |
 | StageName | 事前プロビジョニングされた内部ステージの名前。 新しい一時ステージを作成する代わりに、一括読み込みで使用されます。 |
 
 

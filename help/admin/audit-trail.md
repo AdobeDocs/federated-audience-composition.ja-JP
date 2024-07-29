@@ -3,10 +3,11 @@ audience: end-user
 title: 監査記録の基本を学ぶ
 description: 監査記録を使用してデータベースを監視する方法を説明します
 badge: label="限定提供" type="Informative"
-source-git-commit: 0208da1a1897f166db9124ed6b014828fbe17484
+exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 69%
+source-wordcount: '365'
+ht-degree: 64%
 
 ---
 
@@ -52,7 +53,7 @@ ht-degree: 69%
 
 1. **[!UICONTROL Federated data]** メニューで、「**[!UICONTROL 監査記録]**」を選択します。
 
-1. **[!UICONTROL 監査記録]**&#x200B;ウィンドウが開き、エンティティのリストが表示されます。Adobe Campaign の web ユーザーインターフェイスは、ワークフロー、オプション、配信およびスキーマの作成、編集、削除アクションを監査します。
+1. **[!UICONTROL 監査記録]**&#x200B;ウィンドウが開き、エンティティのリストが表示されます。Federated Audience Composition は、ワークフロー、オプション、配信およびスキーマの作成、編集および削除アクションを監査します。
 
    ![](assets/audit_trail.png)
 

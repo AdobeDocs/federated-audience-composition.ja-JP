@@ -4,10 +4,10 @@ title: 外部データによるAdobe Experience Platform オーディエンス�
 description: Federated Audience コンポジション宛先を使用して、フェデレーティッドデータベースのデータをAdobe Experience Platform オーディエンスに絞り込み、エンリッチメントする方法を説明します。
 badge: label="限定提供" type="Informative"
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
-source-git-commit: 2547f1ae8b22a4fb25c259172b8c052b279fae10
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 7%
+source-wordcount: '573'
+ht-degree: 4%
 
 ---
 
@@ -39,7 +39,7 @@ Adobe Experience Platform オーディエンスをAdobeの Federated Audience �
 
    ![](assets/destination-configure.png)
 
-   「**[!UICONTROL アラート]**」セクションを使用すると、宛先へのデータフローのステータスに関する通知をアラートが受け取れるように設定できます。 アラートについて詳しくは、[UI を使用した宛先アラートの購読](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/alerts)についてのガイドを参照してください。
+   「**[!UICONTROL アラート]**」セクションを使用すると、宛先へのデータフローのステータスに関する通知をアラートが受け取れるように設定できます。 アラートについて詳しくは、[UI を使用した宛先アラートの購読 ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/alerts){target="_blank"} についてのAdobe Experience Platform ドキュメントを参照してください
 
 1. **[!UICONTROL ガバナンスポリシーと適用アクション]** ステップでは、データガバナンスポリシーを定義し、オーディエンスが送信されてアクティブな場合に使用されるデータが準拠していることを確認できます。
 
@@ -57,11 +57,12 @@ Adobe Experience Platform オーディエンスをAdobeの Federated Audience �
 
    >[!NOTE]
    >
-   >スケジュールとファイル名を設定する方法について詳しくは、Adobe Experience Platform ドキュメントを参照してください。
-   >* [ オーディエンスの書き出しをスケジュール ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#scheduling)
-   >* [ ファイル名の設定 ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#configure-file-names)
+   >スケジュールとファイル名を設定する方法について詳しくは、Adobe Experience Platform ドキュメントの次の節を参照してください。
+   >
+   >* [ オーディエンスの書き出しをスケジュール ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#scheduling){target="_blank"}
+   >* [ ファイル名の設定 ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#configure-file-names){target="_blank"}
 
-1. **[!UICONTROL マッピング]** ステップでは、オーディエンスに書き出す属性フィールドと ID フィールドを選択します。 詳しくは、Adobe Experience Platform ドキュメントの [ マッピングステップ ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping) を参照してください。
+1. **[!UICONTROL マッピング]** ステップでは、オーディエンスに書き出す属性フィールドと ID フィールドを選択します。 詳しくは、Adobe Experience Platform ドキュメントの [ マッピングステップ ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping){target="_blank"} を参照してください。
 
    ![](assets/destination-attributes.png)
 

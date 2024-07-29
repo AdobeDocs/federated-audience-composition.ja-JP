@@ -3,9 +3,9 @@ title: Experience Platformの Federated Audience コンポジションの基本�
 description: Adobeの Federated Audience Composition の概要とAdobe Experience Platformでの使用方法を説明します
 badge: label="限定提供" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: dd19c6a8170a87c10fd8534bf2aa63adcf360529
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '722'
 ht-degree: 8%
 
 ---
@@ -64,7 +64,11 @@ Adobeの Federated Audience Composition を使用すると、取り込みプロ�
 
 <!-- Workflow + Workflow activities-->
 
-[ このページ ](faq.md) の「よくある質問」を参照してください。
+
+Federated Audience Composition、ガードレールおよび制限にアクセスする方法については、[ このページ ](access-prerequisites.md) を参照してください。
+
+[ このページ ](faq.md) のよくある質問も参照してください。
+
 
 >[!CONTEXTUALHELP]
 >id="dc_workflow_settings_execution"

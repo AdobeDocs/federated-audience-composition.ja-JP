@@ -1,19 +1,17 @@
 ---
-title: Federated Audience 構成へのアクセス
-description: Federated Audience コンポジションにアクセスする方法を説明します。
+title: Federated Audience コンポジションの前提条件とガードレール
+description: Federated Audience Composition の前提条件、権限およびガードレールについて説明します
 badge: label="限定提供" type="Informative"
-source-git-commit: 4e3a74ba09d3d1fa267c4587cb37f6e95831f7c8
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 2%
+source-wordcount: '286'
+ht-degree: 3%
 
 ---
 
-# Federated Audience 構成へのアクセス {#fac-access}
+# 前提条件とガードレール {#fac-access}
 
-## パッケージとアドオン {#package}
-
-Federated Audience Composition には、Adobe Real-time Customer Data PlatformおよびAdobe Journey Optimizer Prime または Ultimate パッケージが必要です。 この機能にアクセスするには、Federated Audience Composition アドオンを購入する必要があります。
+Federated Audience Composition には、Adobe Real-time Customer Data PlatformやAdobe Journey Optimizer **Prime** または **Ultimate** パッケージが必要です。 この機能にアクセスするには、Federated Audience Composition アドオンを購入する必要があります。
 
 >[!AVAILABILITY]
 >

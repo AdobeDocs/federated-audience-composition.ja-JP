@@ -3,7 +3,7 @@ title: Experience Platformの Federated Audience Composition の新機能
 description: 最新のアップデートとリリースノート
 badge: label="限定提供" type="Informative"
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: dd19c6a8170a87c10fd8534bf2aa63adcf360529
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 2%
@@ -23,7 +23,7 @@ Federated Audience Composition は、企業がエンタープライズデータ�
 
 Federated Audience Composition は、オーディエンスをウェアハウスのデータセットで柔軟に構成する必要がある企業に対する、市場の需要の高まりに対応しています。 これにより、企業はデータの移動を減らしながら、マーケティングチームが重要なオーディエンスデータを利用してユースケースの要件を満たし、パーソナライズされたエクスペリエンスを強化できます。 
 
-Federated Audience Composition 機能について詳しくは、[ このページ ](get-started.md) および [ よくある質問 ](get-started.md#faq) を参照してください。
+Federated Audience Composition 機能について詳しくは、[ このページ ](get-started.md) および [ よくある質問 ](faq.md) を参照してください。
 
 Federated Audience コンポジションにアクセスするための前提条件と現在のガードレールについて詳しくは、[ このページ ](access-prerequisites.md) を参照してください。
 

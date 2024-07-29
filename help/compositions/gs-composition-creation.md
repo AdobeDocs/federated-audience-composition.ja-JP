@@ -4,7 +4,7 @@ title: コンポジションの作成
 description: コンポジションの作成方法を説明します
 badge: label="限定提供" type="Informative"
 exl-id: 861440ab-ce14-46aa-a215-b86fc9ffeef0
-source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 59%
@@ -18,7 +18,7 @@ ht-degree: 59%
 >title="構成プロパティ"
 >abstract="この画面では、構成の作成に使用するテンプレートを選択し、ラベルを指定します。「その他のオプション」セクションを展開して、構成の内部名、フォルダー、タイムゾーン、スーパーバイザーグループなどの詳細設定を行います。エラーが発生した場合にオペレーターに警告できるように、スーパーバイザーグループを選択することを強くお勧めします。"
 
-## コンポジションには何が含まれていますか？ {#gs-composition-inside}
+## コンポジションの内容 {#gs-composition-inside}
 
 Experience PlatformFederated Audience Composition は、様々なアクティビティ（分割、エンリッチメントなど）を活用してオーディエンスを作成できる視覚的なキャンバスを提供します。
 

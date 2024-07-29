@@ -3,42 +3,50 @@ audience: end-user
 title: フェデレーション データベースとの接続を作成および管理します
 description: フェデレーション データベースとの接続を作成および管理する方法を説明します
 badge: label="限定提供" type="Informative"
-source-git-commit: c1c035d3783af6c3bc94f2ba0aff7ba515fb68e2
+exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 5%
+source-wordcount: '220'
+ht-degree: 4%
 
 ---
 
 # 接続の作成 {#connections-fdb}
 
-AEP で直接フェデレーテッドデータベースを操作することは、接続を確立することを意味します。
+Experience Platformの Federated Audience Composition を使用すると、お客様は、サードパーティのデータウェアハウスからオーディエンスを作成および強化し、オーディエンスをAdobe Experience Platformにインポートできます。
 
-データベースとの接続を設定するには、「**[!UICONTROL FEDERATED DATA]**」セクションに移動し、「**[!UICONTROL Federated Databases]**」リンクで「**[!UICONTROL Federated Database を追加]**」ボタンをクリックします。
+連合データベースとAdobe Experience Platformを使用するには、まず接続を確立する必要があります。 この接続は、Adobe Experience Platform ユーザーインターフェイスで使用できる専用のユーザーインターフェイスで設定されます。詳しくは、このページを参照してください。
 
-![](assets/connections_list.png){zoomable="yes"}
+データベースとの接続を設定するには、次の手順に従います。
 
-接続のウィンドウ **[!UICONTROL プロパティ]** にアクセスし、データベースの名前とタイプを指定します。
+1. 左側のパネルの **[!UICONTROL FEDERATED DATA]** セクションを参照します。
 
-![](assets/connections_name.png){zoomable="yes"}
+1. **[!UICONTROL 連合データベース]** リンクで、「**[!UICONTROL 連合データベースを追加]**」ボタンをクリックします。
 
-タイプを選択すると、入力する他のプロパティにアクセスできるようになります。 [ サポートされているデータベースについて詳しくは、こちらを参照してください ](federated-db.md)。
+   ![](assets/connections_list.png){zoomable="yes"}
 
-![](assets/connections_details.png){zoomable="yes"}
+1. 接続 **[!UICONTROL プロパティ]** を、名前とデータベースのタイプで設定します。
 
-データベースのタイプに応じて、接続を設定するために必要な情報について、以下のリンクで説明します。
+   ![](assets/connections_name.png){zoomable="yes"}
 
-* [Amazon Redshift](federated-db.md#amazon-redshift)
-* [Azure synapse](federated-db.md#azure-synapse-redshift)
-* [Google BigQuery](federated-db.md#google-big-query)
-* [Snowflake](federated-db.md#snowflake)
-* [Vertica Analytics](federated-db.md#vertica-analytics)
+   タイプを選択すると、入力する他のプロパティにアクセスできます。 サポートされているデータベースについては、[ このページ ](federated-db.md) を参照してください。
 
-詳細を入力したら、「**[!UICONTROL 接続をテスト]**」ボタンと「**[!UICONTROL 関数をデプロイ]**」ボタンをクリックします。
-「**[!UICONTROL 保存]**」ボタンをクリックして、接続の作成を完了します。
+   ![](assets/connections_details.png){zoomable="yes"}
 
-![](assets/connections_testdeploy.png){zoomable="yes"}
+   設定は、データベースのタイプによって異なります。 接続を設定するために必要な詳細にアクセスするには、以下のリンクを参照してください。
 
-次のような、Federated データベース接続の概要が表示されます。
+   * [Amazon Redshift](federated-db.md#amazon-redshift)
+   * [Azure synapse](federated-db.md#azure-synapse-redshift)
+   * [Google BigQuery](federated-db.md#google-big-query)
+   * [Snowflake](federated-db.md#snowflake)
+   * [Vertica Analytics](federated-db.md#vertica-analytics)
 
-![](assets/connections_overview.png){zoomable="yes"}
+1. 詳細を入力したら、「**[!UICONTROL 接続をテスト]**」ボタンと「**[!UICONTROL 関数をデプロイ]**」ボタンをクリックします。
+
+1. 「**[!UICONTROL 保存]**」ボタンをクリックして、接続の作成を完了します。
+
+   ![](assets/connections_testdeploy.png){zoomable="yes"}
+
+   次に示すように、フェデレーテッド データベース接続の概要が表示されます。
+
+   ![](assets/connections_overview.png){zoomable="yes"}

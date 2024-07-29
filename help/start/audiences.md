@@ -4,9 +4,9 @@ title: オーディエンスの操作
 description: オーディエンスの操作方法を学ぶ
 badge: label="限定提供" type="Informative"
 exl-id: c6507624-1dc9-43f9-a3ad-c3dc9689f8c7
-source-git-commit: 3b891232a3a671f8ec12e06b19086f12ef849f1e
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '311'
 ht-degree: 5%
 
 ---
@@ -25,7 +25,7 @@ Adobeの Federated Data Composition を使用して作成されたオーディ�
 
 コンポジションを実行すると、結果のオーディエンスが外部オーディエンスとしてAdobe Experience Platformに保存され、Adobeの Real-time Customer Data Platform やAdobe Journey Optimizerで使用できるようになります。
 
-これらのオーディエンスは、Adobe Experience Platformでサポートされている任意の宛先に対してアクティブ化できます。 [ 宛先の操作方法については、こちらを参照してください ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home)
+これらのオーディエンスは、Adobe Experience Platformでサポートされている任意の宛先に対してアクティブ化できます。 [Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home){target="_blank"} の宛先を操作する方法を説明します
 
 >[!NOTE]
 >
@@ -39,6 +39,6 @@ Federated Audience コンポジションを使用して作成されたオーデ�
 
 ![](assets/audiences-list.png)
 
-Adobe Experience Platformでのオーディエンスの操作方法について詳しくは、[Audience Portal ドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal) を参照してください。
+Adobe Experience Platformでのオーディエンスの操作方法について詳しくは、[Audience Portal ドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"} を参照してください。
 
 <!-- add link to this donc once published: https://jira.corp.adobe.com/browse/PLAT-198674-->

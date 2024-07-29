@@ -2,10 +2,10 @@
 user-guide-title: Experience Platformの Federated Audience 構成
 title: Experience Platformの Federated Audience Composition ドキュメント
 breadcrumb-title: Experience Platformの Federated Audience 構成
-source-git-commit: dd19c6a8170a87c10fd8534bf2aa63adcf360529
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 34%
+source-wordcount: '148'
+ht-degree: 36%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 34%
 + [リリースノート](start/release-notes.md)
 + Federated Audience Composition {#start} の基本を学ぶ
    + [Federated Audience コンポジションとは](start/get-started.md)
-   + [Federated Audience 構成へのアクセス](start/access-prerequisites.md)
+   + [前提条件とガードレール](start/access-prerequisites.md)
    + [オーディエンスの操作](start/audiences.md)
    + [よくある質問](start/faq.md)
 + 設定の手順 {#config}
