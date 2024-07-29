@@ -3,10 +3,11 @@ audience: end-user
 title: 構成の基本を学ぶ
 description: コンポジションの開始方法を説明します
 badge: label="限定提供" type="Informative"
-source-git-commit: 03b2fc39c6e0c724363c21418ea50691093d4a10
+exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
+source-git-commit: 3b891232a3a671f8ec12e06b19086f12ef849f1e
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 17%
+source-wordcount: '290'
+ht-degree: 16%
 
 ---
 
@@ -14,7 +15,7 @@ ht-degree: 17%
 
 ## コンポジションとは {#what}
 
-Adobeオーディエンスコンポジションを使用すると、様々なアクティビティ（分割、除外など）をビジュアルキャンバスに活用してオーディエンスを作成できるコンポジションを作成できます。 完了すると、結果オーディエンスが既存のオーディエンスと共にAdobe Experience Platformに保存され、Journey Optimizerなどの宛先で活用して顧客をターゲットできます。 [オーディエンスの使用方法を学ぶ](../start/audiences.md)
+Adobeオーディエンスコンポジションを使用すると、様々なアクティビティ（分割、除外など）をビジュアルキャンバスに活用してオーディエンスを作成できるコンポジションを作成できます。 完了すると、結果オーディエンスが既存のオーディエンスと共にAdobe Experience Platformに保存され、Adobe Experience Platformの宛先やAdobe Journey Optimizerで活用して、お客様をターゲットできます。 [オーディエンスの使用方法を学ぶ](../start/audiences.md)
 
 ![](assets/composition-example.png)
 
