@@ -1,22 +1,22 @@
 ---
 audience: end-user
-title: 監査記録の基本を学ぶ
-description: 監査記録を使用してデータベースを監視する方法を説明します
+title: 監査証跡
+description: 監査記録にアクションとイベントを記録してアクセスする方法を説明します
 badge: label="限定提供" type="Informative"
 exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: 16599cc499b45ee8a293c923b9c26f85aa8e0b68
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 64%
+source-wordcount: '369'
+ht-degree: 56%
 
 ---
 
-# 監査記録の基本を学ぶ {#audit-trail}
+# 監査証跡 {#audit-trail}
 
 >[!CONTEXTUALHELP]
 >id="dc_audit_trail"
 >title="監査記録"
->abstract="監査記録機能では、環境に対して行われたすべてのアクションとイベントの詳細な時系列記録がリアルタイムで提供されます。"
+>abstract="監査記録機能は、Adobe Experience Platform Federated Audience Composition 環境に対して実行されたすべてのアクションとイベントの詳細な時系列の記録をリアルタイムで提供します。"
 
 監査記録機能は、環境に対して実行されたすべてのアクションとイベントの詳細な時系列の記録をリアルタイムで提供します
 
