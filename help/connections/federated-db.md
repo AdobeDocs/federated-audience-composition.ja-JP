@@ -4,10 +4,10 @@ title: 連合データベースの基本を学ぶ
 description: 連合データベースを作成および管理する方法を学ぶ
 badge: label="限定提供" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: fa968e0c221befa7a0ddaef0f5908752f681c535
+source-git-commit: 68b13d373688741e8b42c89c3f8cce247908adb2
 workflow-type: tm+mt
-source-wordcount: '1566'
-ht-degree: 16%
+source-wordcount: '1560'
+ht-degree: 12%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_menu"
 >title="連合データベース"
->abstract="この画面には、連合データベースへの既存の接続がリストされます。 新しい接続を作成するには、「**[!UICONTROL 連合データベースを追加]**」ボタンをクリックします。"
+>abstract="この画面には、連合データベースへの既存の接続が一覧表示されます。 新しい接続を作成するには、「**[!UICONTROL 連合データベースを追加]**」ボタンをクリックします。"
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_properties"
@@ -44,7 +44,7 @@ Federated Audience Composition を使用すると、次のデータベースに�
 
 ## Amazon Redshift {#amazon-redshift}
 
-連合データベースを使用して、外部データベースに保存されている情報を処理します。 Amazon Redshift へのアクセスを設定するには、次の手順に従います。
+連合データベースを使用して、外部データベースに格納されている情報を処理します。 Amazon Redshift へのアクセスを設定するには、次の手順に従います。
 
 1. **[!UICONTROL Federated data]** メニューで、「**[!UICONTROL Federated databases]**」を選択します。
 
@@ -82,7 +82,7 @@ Federated Audience Composition を使用すると、次のデータベースに�
 
 ## Azure synapse Redshift {#azure-synapse-redshift}
 
-連合データベースを使用して、外部データベースに保存されている情報を処理します。 azure synapseRedshift へのアクセスを設定するには、次の手順に従います。
+連合データベースを使用して、外部データベースに格納されている情報を処理します。 azure synapseRedshift へのアクセスを設定するには、次の手順に従います。
 
 1. **[!UICONTROL Federated data]** メニューで、「**[!UICONTROL Federated databases]**」を選択します。
 
@@ -121,7 +121,7 @@ Federated Audience Composition を使用すると、次のデータベースに�
 
 ## Google BigQuery {#google-big-query}
 
-連合データベースを使用して、外部データベースに保存されている情報を処理します。 Google Big Query へのアクセスを設定するには、次の手順に従います。
+連合データベースを使用して、外部データベースに格納されている情報を処理します。 Google Big Query へのアクセスを設定するには、次の手順に従います。
 
 1. **[!UICONTROL Federated data]** メニューで、「**[!UICONTROL Federated databases]**」を選択します。
 
@@ -168,7 +168,7 @@ Federated Audience Composition を使用すると、次のデータベースに�
 
 ## Snowflake {#snowflake}
 
-連合データベースを使用して、外部データベースに保存されている情報を処理します。 Snowflakeへのアクセスを設定するには、次の手順に従います。
+連合データベースを使用して、外部データベースに格納されている情報を処理します。 Snowflakeへのアクセスを設定するには、次の手順に従います。
 
 1. **[!UICONTROL Federated data]** メニューで、「**[!UICONTROL Federated databases]**」を選択します。
 
@@ -214,7 +214,7 @@ Federated Audience Composition を使用すると、次のデータベースに�
 |---|---|
 | workschema | ワークテーブルに使用するデータベーススキーマ  |
 | warehouse | 使用するデフォルトのウェアハウスの名前。ユーザーのデフォルト値より優先されます。 |
-| TimeZoneName | デフォルトでは空で、Campaign Classic アプリケーションサーバーのシステムのタイムゾーンが使用されます。このオプションは、TIMEZONE セッションパラメーターを強制的に指定するために使用できます。<br>詳しくは、[このページ](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone)を参照してください。 |
+| TimeZoneName | デフォルトでは空です。これは、システムタイムゾーンアプリサーバーが使用されることを意味します。 このオプションは、TIMEZONE セッションパラメーターを強制的に指定するために使用できます。<br>詳しくは、[このページ](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone)を参照してください。 |
 | WeekStart | WEEK_START セッションパラメーター。デフォルトでは 0 に設定されています。<br>詳しくは、[このページ](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start)を参照してください。 |
 | UseCachedResult | USE_CACHED_RESULTS セッションパラメーター。デフォルトでは TRUE に設定されています。このオプションは、Snowflakeがキャッシュした結果を無効にするために使用できます。 <br>詳しくは、[このページ](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html)を参照してください。 |
 | bulkThreads | Snowflakeバルクローダーに使用するスレッドの数。スレッドが多いほど、大きなバルク読み込みのパフォーマンスが向上します。 デフォルトでは 1 に設定されています。この数は、マシンスレッド数に応じて調整できます。 |
@@ -224,7 +224,7 @@ Federated Audience Composition を使用すると、次のデータベースに�
 
 ## Vertica Analytics {#vertica-analytics}
 
-連合データベースを使用して、外部データベースに保存されている情報を処理します。 vertica analyticsへのアクセスを設定するには、次の手順に従います。
+連合データベースを使用して、外部データベースに格納されている情報を処理します。 vertica analyticsへのアクセスを設定するには、次の手順に従います。
 
 1. **[!UICONTROL Federated data]** メニューで、「**[!UICONTROL Federated databases]**」を選択します。
 
@@ -266,4 +266,4 @@ Federated Audience Composition を使用すると、次のデータベースに�
 
 | オプション | 説明 |
 |---|---|
-| TimeZoneName | デフォルトでは空で、Campaign Classic アプリケーションサーバーのシステムのタイムゾーンが使用されます。オプションを使用すると、TIMEZONE セッションパラメーターを強制できます。 |
+| TimeZoneName | デフォルトでは空です。これは、アプリサーバーのシステムタイムゾーンが使用されることを意味します。 オプションを使用すると、TIMEZONE セッションパラメーターを強制できます。 |
