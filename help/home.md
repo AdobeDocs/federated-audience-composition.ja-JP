@@ -3,7 +3,7 @@ title: Adobe Experience Platform Federated Audience Composition ドキュメン�
 description: Federated Audience Composition アドオンのドキュメント
 badge: label="限定提供" type="Informative"
 exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: 369d2407eb2a7d6b90763da0710ce904f6f1fbb1
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 85%
@@ -69,7 +69,6 @@ Experience PlatformFederated Audience Composition は、Adobe Real-Time CDPお�
     <td><a href="start/faq.md"><img src="assets/learn-more-button.svg"></a></td>
     </tr>
 </table>
-
 
 ## その他のリソース  {#additional-resources}
 
