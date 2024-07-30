@@ -2,10 +2,10 @@
 title: Federated Audience コンポジションの前提条件とガードレール
 description: Federated Audience Composition の前提条件、権限およびガードレールについて説明します
 badge: label="限定提供" type="Informative"
-source-git-commit: e6858ecd06e97b952e59738f299afc90fddeafb7
+source-git-commit: 61ad8899f7de601b64c7b42cb873a172fcaea145
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 3%
+source-wordcount: '270'
+ht-degree: 13%
 
 ---
 
@@ -15,7 +15,7 @@ Federated Audience Composition には、Adobe Real-time Customer Data Platform�
 
 >[!AVAILABILITY]
 >
->Adobeから「ようこそ」メール通知を受信した後、インターフェイスが更新され、使用可能な機能が使用可能になるまで、さらに数時間かかる場合があります。
+>アドビからウェルカムメール通知を受信した後、インターフェイスが更新され、機能が使用可能になるまで、さらに数時間かかる場合があります。
 
 ## 権限 {#permissions}
 
@@ -31,6 +31,9 @@ Federated Audience Composition がデータベースに安全にアクセスで�
 
 ## ガードレールと制限 {#fac-guardrails}
 
-* Federated Audience Composition は、プライバシーとセキュリティシールドと互換性があり、医療業界を除くすべての業界で使用できます。 現在、Federated Audience Composition は、正常性データの取り込みを検討しているお客様にはライセンスを付与できません。 [詳細情報](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}
+* Federated Audience Composition のオーディエンスと属性は、現在、Healthcare Shield およびプライバシーとセキュリティシールドでは使用できません。
 
-* [Adobe Real-time Customer Data Platform ドキュメントに記載されている使用権限、製品の制限事項、パフォーマンスガードレールは ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails){target="_blank"} このアドオンに適用されます。
+<!--
+* Federated Audience Composition is compatible with Privacy & Security Shield and can be used in all verticals except for healthcare industries. Currently, Federated Audience Composition cannot be licensed to customers looking to ingest health data. [Learn more](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}-->
+
+* [Adobe Real-time Customer Data Platform ドキュメントに記載されている使用権限、製品の制限事項、パフォーマンスガードレールは ](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/guardrails){target="_blank"} このアドオンに適用されます。
