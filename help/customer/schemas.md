@@ -4,10 +4,10 @@ title: スキーマの基本を学ぶ
 description: スキーマの開始方法について説明します
 badge: label="限定提供" type="Informative"
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: 741f73443471872025f63142e627ca1ed5b428ae
+source-git-commit: 91324185f91c552128774ad35e73c70b7cc33ac8
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 44%
+source-wordcount: '451'
+ht-degree: 43%
 
 ---
 
@@ -48,6 +48,11 @@ ht-degree: 44%
 * ユーザーが理解しやすいように、わかりやすい名前と説明を指定します
 * 実際の用途に応じて、各フィールドの表示/非表示を決定します
 * [データモデル](../data-management/gs-models.md#data-model-start)で必要に応じて、このプライマリキー間のスキーマをリンクするために、プライマリキーを選択します
+
+>[!CAUTION]
+>
+>同じデータベースに複数のサンドボックスを接続する場合は、異なる作業スキーマを使用する必要があります。
+>
 
 ## スキーマの作成 {#schema-create}
 
