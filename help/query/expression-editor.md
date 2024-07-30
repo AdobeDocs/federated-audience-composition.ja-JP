@@ -1,13 +1,13 @@
 ---
 audience: end-user
 title: クエリモデラーを使用した最初のクエリの作成
-description: クエリモデラーで最初のクエリを作成する方法を説明します。
+description: クエリモデラーで最初のクエリを作成する方法について説明します。
 badge: label="限定提供" type="Informative"
 exl-id: abff07ef-2bc0-4e00-8957-4d59fc3bc938
 source-git-commit: 0efe4046cf30b4c447551c1cebbea0b4c2085a9f
 workflow-type: tm+mt
 source-wordcount: '2068'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 98%
 式エディターには、次の内容があります。
 
 * 式を定義するための&#x200B;**入力フィールド（1）**。
-* 式で使用でき、クエリのスキーマ（ターゲティングディメンションとも呼ばれます）に対応する使用可能な **フィールド （2）** のリスト。
+* 式で使用でき、クエリのスキーマ（ターゲティングディメンションとも呼ばれる）に対応する使用可能な&#x200B;**フィールド（2）**&#x200B;のリスト。
 * カテゴリ別に並べ替えられる&#x200B;**ヘルパー関数（3）**。
 
 式を編集するには、入力フィールドに式を直接入力します。フィールドまたはヘルパー関数を追加するには、式内の追加する場所にカーソルを置き、「+」ボタンをクリックします。
@@ -92,7 +92,7 @@ ht-degree: 98%
   <tr> 
    <td> <strong>StringAgg</strong><br /> </td> 
    <td> 文字列タイプの列の値を 2 番目の引数の文字で区切って連結したものを返します<br /> </td> 
-   <td> StringAgg(&lt;Value&gt;, &lt;String&gt;)<br /></td> 
+   <td> StringAgg(&lt;値&gt;, &lt;文字列&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Sum</strong><br /> </td> 
@@ -156,7 +156,7 @@ ht-degree: 98%
   <tr> 
    <td> <strong>DateCmp</strong><br /> </td> 
    <td> 2 つの日付の比較<br/> </td> 
-   <td> DateCmp(&lt;date&gt;,&lt;date&gt;)<br /> </td>  
+   <td> DateCmp(&lt;日付&gt;,&lt;日付&gt;)<br /> </td>  
   </tr>
   <tr> 
    <td> <strong>DateOnly</strong><br /> </td> 
@@ -241,7 +241,7 @@ ht-degree: 98%
   <tr> 
    <td> <strong>Oldest</strong><br /> </td> 
    <td> 範囲内の最も古い日付を返します<br /> </td> 
-   <td> Oldest (&lt;date, date&gt;)<br /> </td>  
+   <td> Oldest (&lt;日付, 日付&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Second</strong><br /> </td> 
@@ -296,12 +296,12 @@ ht-degree: 98%
   <tr> 
    <td> <strong>ToTimestamp</strong><br /> </td> 
    <td> 文字列をタイムスタンプに変換<br /> </td> 
-   <td> ToTimestamp(&lt;string&gt;)<br /> </td>  
+   <td> ToTimestamp(&lt;文字列&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>ToTimeZone</strong><br /> </td> 
    <td> 日付と時刻をタイムゾーンに変換<br /> </td> 
-   <td> ToTimeZone(&lt;date&gt;,&lt;time zone&gt;)<br /> </td>  
+   <td> ToTimeZone(&lt;日付&gt;,&lt;タイムゾーン&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>TruncDate</strong><br /> </td> 
@@ -351,7 +351,7 @@ ht-degree: 98%
   <tr> 
    <td> <strong>YearsAgo</strong><br /> </td> 
    <td> 指定された日付と現在の日付の間の年数を返します<br /> </td> 
-   <td> YearsAgo(&lt;date&gt;)<br /> </td>  
+   <td> YearsAgo(&lt;日付&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>YearsDiff</strong><br /> </td> 
@@ -487,7 +487,7 @@ ht-degree: 98%
   <tr> 
    <td> <strong>AESEncrypt</strong><br /> </td> 
    <td> 引数で指定された文字列を暗号化<br /> </td> 
-   <td> AESEncrypt(&lt;value&gt;)<br /> </td> 
+   <td> AESEncrypt(&lt;値&gt;)<br /> </td> 
   </tr>
   <tr> 
    <td> <strong>Case</strong><br /> </td> 
@@ -656,7 +656,7 @@ ht-degree: 98%
   <tr> 
    <td> <strong>行</strong><br /> </td> 
    <td> 文字列から n 行目を抽出<br /> </td> 
-   <td> Line(&lt;string&gt;,&lt;number&gt;)<br /></td> 
+   <td> Line(&lt;文字列&gt;,&lt;数値&gt;)<br /></td> 
   </tr>
   <tr> 
    <td> <strong>Lower</strong><br /> </td> 
@@ -691,7 +691,7 @@ ht-degree: 98%
   <tr> 
    <td> <strong>置換</strong><br /> </td> 
    <td> 指定された文字列値のすべての発生を別の文字列値に置き換えます。<br /> </td> 
-   <td> Replace(&lt;String&gt;,&lt;String&gt;,&lt;String&gt;)<br /></td> 
+   <td> Replace(&lt;文字列&gt;,&lt;文字列&gt;,&lt;文字列&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Right</strong><br /> </td> 

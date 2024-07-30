@@ -1,13 +1,13 @@
 ---
 audience: end-user
-title: フェデレーション データベースとの接続を作成および管理します
-description: フェデレーション データベースとの接続を作成および管理する方法を説明します
+title: 連合データベースとの接続の作成および管理
+description: 連合データベースとの接続を作成および管理する方法について説明します
 badge: label="限定提供" type="Informative"
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
 source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '220'
-ht-degree: 4%
+ht-degree: 19%
 
 ---
 
@@ -36,7 +36,7 @@ Experience Platformの Federated Audience Composition を使用すると、お�
    設定は、データベースのタイプによって異なります。 接続を設定するために必要な詳細にアクセスするには、以下のリンクを参照してください。
 
    * [Amazon Redshift](federated-db.md#amazon-redshift)
-   * [Azure synapse](federated-db.md#azure-synapse-redshift)
+   * [Azure Synapse](federated-db.md#azure-synapse-redshift)
    * [Google BigQuery](federated-db.md#google-big-query)
    * [Snowflake](federated-db.md#snowflake)
    * [Vertica Analytics](federated-db.md#vertica-analytics)

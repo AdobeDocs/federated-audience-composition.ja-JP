@@ -5,7 +5,7 @@ breadcrumb-title: Experience Platformの Federated Audience 構成
 source-git-commit: 16599cc499b45ee8a293c923b9c26f85aa8e0b68
 workflow-type: tm+mt
 source-wordcount: '145'
-ht-degree: 38%
+ht-degree: 80%
 
 ---
 
@@ -14,26 +14,26 @@ ht-degree: 38%
 
 + [Experience Platformの Federated Audience Composition ドキュメント](home.md)
 + [リリースノート](start/release-notes.md)
-+ Federated Audience Composition {#start} の基本を学ぶ
-   + [Federated Audience コンポジションとは](start/get-started.md)
++ Federated Audience Composition の基本を学ぶ {#start}
+   + [Federated Audience Composition とは](start/get-started.md)
    + [前提条件とガードレール](start/access-prerequisites.md)
    + [オーディエンスの操作](start/audiences.md)
    + [よくある質問](start/faq.md)
 + 設定の手順 {#config}
    + [接続の作成と管理](connections/connections.md)
    + [連合データベースの設定](connections/federated-db.md)
-   + データモデルとスキーマ {#datamodel}
+   + データモデルとスキーマ{#datamodel}
       + [スキーマの作成と設定](customer/schemas.md)
       + [データモデルの設定](data-management/gs-models.md)
-   + [外部データによるAdobe Experience Platform オーディエンスのエンリッチメント](connections/destinations.md)
-+ オーディエンスの作成 {#compositions}
+   + [外部データを使用して Adobe Experience Platform オーディエンスを強化](connections/destinations.md)
++ オーディエンスを構成 {#compositions}
    + [構成の基本を学ぶ](compositions/gs-compositions.md)
-   + 最初のコンポジションリク {#create-composition} ストの作成と実行
+   + 最初の構成の作成と実行 {#create-composition}
       + [構成作成の主な原則](compositions/gs-composition-creation.md)
-      + [コンポジションの作成と設定](compositions/create-composition.md)
-      + [アクティビティをオーケストレーション](compositions/orchestrate-activities.md)
-      + [コンポジションの開始と監視](compositions/start-monitor-composition.md)
-   + でのアクティビティ {#activities} 操作
+      + [構成の作成と設定](compositions/create-composition.md)
+      + [アクティビティを調整](compositions/orchestrate-activities.md)
+      + [構成の開始と監視](compositions/start-monitor-composition.md)
+   + アクティビティの操作 {#activities}
       + [アクティビティのリスト](compositions/activities/about-activities.md)
       + [AND 結合](compositions/activities/and-join.md)
       + [オーディエンスを作成](compositions/activities/build-audience.md)

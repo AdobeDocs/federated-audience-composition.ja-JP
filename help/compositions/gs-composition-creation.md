@@ -1,13 +1,13 @@
 ---
 audience: end-user
-title: コンポジションの作成
-description: コンポジションの作成方法を説明します
+title: 構成の作成
+description: 構成の作成方法について説明します
 badge: label="限定提供" type="Informative"
 exl-id: 861440ab-ce14-46aa-a215-b86fc9ffeef0
 source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '233'
-ht-degree: 59%
+ht-degree: 88%
 
 ---
 
@@ -22,20 +22,20 @@ ht-degree: 59%
 
 Experience PlatformFederated Audience Composition は、様々なアクティビティ（分割、エンリッチメントなど）を活用してオーディエンスを作成できる視覚的なキャンバスを提供します。
 
-構成図は、実行される処理を表したものです。 これは、実行される様々なタスクと、タスク同士の関係を示すものです。
+構成ダイアグラムは、実行される処理を表したものです。これは、実行される様々なタスクと、タスク同士の関係を示すものです。
 
 ![](assets/composition-example.png){zoomable="yes"} {zoomable="yes"}
 
-各コンポジションには次が含まれます。
+各構成には次が含まれます。
 
 * **[!UICONTROL アクティビティ]**：アクティビティとは、実行されるタスクです。各種アクティビティは、ダイアグラム内にアイコンで示されます。各アクティビティには、特定のプロパティと、すべてのアクティビティに共通のその他のプロパティがあります。
 * **[!UICONTROL トランジション]**：トランジションは、ソースアクティビティを宛先アクティビティにリンクし、そのシーケンスを定義します。
-* **[!UICONTROL 作業用テーブル]**：作業用テーブルには、トランジションによって実行されるすべての情報が含まれます。各コンポジションは、複数のワークテーブルを使用します。 これらのテーブルで伝達されたデータは、コンポジションのライフサイクルを通じて使用できます。
+* **[!UICONTROL 作業用テーブル]**：作業用テーブルには、トランジションによって実行されるすべての情報が含まれます。各構成は、複数の作業用テーブルを使用します。これらのテーブルで伝えられるデータは、構成のライフサイクルを通じて使用できます。
 
-## コンポジションを作成するための主な手順 {#gs-composition-steps}
+## 構成を作成する主な手順 {#gs-composition-steps}
 
-コンポジションを作成する主な手順は次のとおりです。
+構成を作成する主な手順は次のとおりです。
 
-1. [コンポジションの作成と設定](../compositions/create-composition.md)
-1. [アクティビティをオーケストレーション](../compositions/orchestrate-activities.md)
-1. [コンポジションを実行し、その実行を監視します](../compositions/start-monitor-composition.md)
+1. [構成の作成と設定](../compositions/create-composition.md)
+1. [アクティビティを調整](../compositions/orchestrate-activities.md)
+1. [構成の実行と、その実行の監視](../compositions/start-monitor-composition.md)

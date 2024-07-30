@@ -1,13 +1,13 @@
 ---
 audience: end-user
 title: オーディエンスの操作
-description: オーディエンスの操作方法を学ぶ
+description: オーディエンスの操作方法について説明します
 badge: label="限定提供" type="Informative"
 exl-id: c6507624-1dc9-43f9-a3ad-c3dc9689f8c7
 source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '311'
-ht-degree: 5%
+ht-degree: 27%
 
 ---
 
@@ -29,16 +29,16 @@ Adobeの Federated Data Composition を使用して作成されたオーディ�
 
 >[!NOTE]
 >
->Adobe Federated Audience Composition を使用して作成されたオーディエンスは編集できません。 これらのオーディエンスの 1 つを変更するには、コンポジションを使用して新しいオーディエンスを作成する必要があります。
+>アドビの連合オーディエンス構成を使用して作成されたオーディエンスは編集できません。これらのオーディエンスのいずれかを変更するには、構成を使用して新しいオーディエンスを作成する必要があります。
 
 ## Adobe Experience Platformでのオーディエンスへのアクセス {#access-audience}
 
 Federated Audience コンポジションを使用して作成されたオーディエンスは、Audience Portal でアクセス可能になります。このポータルには、**オーディエンス** メニューからアクセスできます。
 
-**[!UICONTROL 参照]** タブには、Adobe Experience Platformに保存されている既存のオーディエンスがすべて表示されます。 **[!UICONTROL 接触チャネル]** 列または左側のパネルで使用可能なフィルターを使用して、リスト内の Federated Audience Composition オーディエンスを識別できます。
+「**[!UICONTROL 参照]**」タブには、Adobe Experience Platform に保存されている既存のオーディエンスがすべて表示されます。**[!UICONTROL 接触チャネル]**&#x200B;列または左パネルで使用可能なフィルターを使用して、リスト内の連合オーディエンス構成オーディエンスを特定できます。
 
 ![](assets/audiences-list.png)
 
-Adobe Experience Platformでのオーディエンスの操作方法について詳しくは、[Audience Portal ドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"} を参照してください。
+Adobe Experience Platformでのオーディエンスの操作方法について詳しくは、[Audience Portal ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"} を参照してください。
 
 <!-- add link to this donc once published: https://jira.corp.adobe.com/browse/PLAT-198674-->

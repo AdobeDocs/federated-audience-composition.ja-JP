@@ -1,13 +1,13 @@
 ---
 audience: end-user
-title: エンリッチメント アクティビティの使用
-description: エンリッチメントアクティビティの使用方法を学ぶ
+title: エンリッチメントアクティビティの使用
+description: エンリッチメントアクティビティの使用方法について説明します
 badge: label="限定提供" type="Informative"
 exl-id: 6bf12c25-fbef-4588-89d0-28215cbcbf58
 source-git-commit: 8fa60d20dc574bbddc0106508d57a1cd3f3d3db8
 workflow-type: tm+mt
 source-wordcount: '391'
-ht-degree: 57%
+ht-degree: 92%
 
 ---
 
@@ -38,13 +38,13 @@ ht-degree: 57%
 >title="エンリッチメントデータ"
 >abstract="構成の強化に使用するデータを選択します。 2 種類のエンリッチメントデータを選択できます。スキーマの単一のエンリッチメント属性（ターゲティングディメンションとも呼ばれる）、またはテーブル間の基数が 1-N のリンクであるコレクションリンクです。"
 
-**エンリッチメント** アクティビティを使用すると、連合データベースからの追加情報でターゲットデータを強化できます。 一般的に、セグメント化アクティビティ後の構成で使用されます。
+**エンリッチメント**&#x200B;アクティビティでは、連合データベースからの追加情報を使用してターゲットデータを強化できます。一般的に、セグメント化アクティビティ後の構成で使用されます。
 
-Federated Audience Composition 宛先への接続を設定した場合は、エンリッチメント アクティビティを使用して、外部データベースからの属性でAdobe Experience Platformに取り込むデータを強化できます。 [ 外部データを使用してAdobe Experience Platform オーディエンスをエンリッチメントする方法を説明します ](../../connections/destinations.md)
+Federated Audience Composition 宛先への接続を設定した場合は、エンリッチメント アクティビティを使用して、外部データベースからの属性でAdobe Experience Platformに取り込むデータを強化できます。 [詳しくは、外部データを使用して Adobe Experience Platform オーディエンスを強化する方法を参照してください](../../connections/destinations.md)
 
 エンリッチメントデータは次のいずれかを実行できます。
 
-* コンポジションのターゲットと **同じ作業用テーブルから**:
+* 構成のターゲットと&#x200B;**同じ作業用テーブルから**：
 
   *顧客のグループをターゲットに設定し、「生年月日」フィールドを現在の作業用テーブルに追加*
 
@@ -52,7 +52,7 @@ Federated Audience Composition 宛先への接続を設定した場合は、エ�
 
   *顧客のグループをターゲットにし、「購入」テーブルから取得した「金額」フィールドと「製品のタイプ」フィールドを追加します*。
 
-エンリッチメントデータをコンポジションに追加したら、**エンリッチメント** アクティビティの後に追加されたアクティビティで使用して、行動、環境設定、選択肢に基づいて顧客を個別のグループにセグメント化できます。
+エンリッチメントデータを構成に追加すると、**エンリッチメント**&#x200B;アクティビティの後に追加したアクティビティで、このデータを使用して、顧客の行動、環境設定、選択に基づいて顧客を個別のグループにセグメント化できます。
 
 <!--For instance, you can add to the working table information related to customers' purchases and use this data to personalize emails with their latest purchase or the amount spent on these purchases.-->
 
@@ -65,7 +65,7 @@ Federated Audience Composition 宛先への接続を設定した場合は、エ�
 
    ![](../assets/enrichment.png)
 
-1. コンポジションに複数のトランジションが設定されている場合、**[!UICONTROL プライマリセット]** フィールドを使用して、データを充実させるためにプライマリセットとして使用するトランジションを定義できます。
+1. 構成に複数のトランジションを設定している場合は、「**[!UICONTROL プライマリセット]**」フィールドを使用して、データを強化するためにプライマリセットとして使用するトランジションを定義できます。
 
 1. 「**エンリッチメントデータを追加**」をクリックし、データのエンリッチメントに使用する属性を選択します。
 
@@ -73,7 +73,7 @@ Federated Audience Composition 宛先への接続を設定した場合は、エ�
 
    >[!NOTE]
    >
-   >属性選択画面の **式を編集ボタン** を使用すると、属性を選択する高度な式を作成できます。
+   >属性選択画面の「**式を編集**」ボタンを使用すると、属性を選択する高度な式を作成できます。
 
 <!--PAS VU SUR INSTANCE: You can select two types of enrichment data: a single enrichment attribute from the target dimension, or a collection link. Each of these types is detailed in the examples below:
 

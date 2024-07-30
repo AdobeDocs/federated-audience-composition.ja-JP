@@ -1,13 +1,13 @@
 ---
 audience: end-user
 title: データモデルの基本を学ぶ
-description: データモデルの使用を開始する方法を学ぶ
+description: データモデルの開始方法について説明します
 badge: label="限定提供" type="Informative"
 exl-id: 8f9e9895-dcd7-4718-8922-4f7fefe9ed94
 source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 17%
+ht-degree: 22%
 
 ---
 
@@ -39,9 +39,9 @@ ht-degree: 17%
 
 データモデルは、スキーマ、オーディエンスおよびこれらの間のリンクのセットです。 オーディエンスをデータベースデータと統合するために使用されます。
 
-詳しくは、[ スキーマ ](../customer/schemas.md#schema-start) を参照してください。
+詳しくは、[スキーマ](../customer/schemas.md#schema-start)を参照してください。
 
-詳細情報 [ オーディエンス ](../start/audiences.md)。
+詳しくは、[オーディエンス](../start/audiences.md)を参照してください。
 
 例えば、データモデルの表現を以下に示します。名前の付いたテーブルとそれらの間のリンクです。
 

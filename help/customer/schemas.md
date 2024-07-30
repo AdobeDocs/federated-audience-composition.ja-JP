@@ -1,13 +1,13 @@
 ---
 audience: end-user
 title: スキーマの基本を学ぶ
-description: スキーマの開始方法を学ぶ
+description: スキーマの開始方法について説明します
 badge: label="限定提供" type="Informative"
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
 source-git-commit: 741f73443471872025f63142e627ca1ed5b428ae
 workflow-type: tm+mt
 source-wordcount: '438'
-ht-degree: 23%
+ht-degree: 44%
 
 ---
 
@@ -41,19 +41,19 @@ ht-degree: 23%
 
 ## スキーマとは {#schema-start}
 
-スキーマは、データベースのテーブルを表すものです。 これは、データがデータベーステーブルにどのように関連付けられているかを定義するアプリケーション内のオブジェクトです。
+スキーマは、データベースのテーブルの表現です。これは、データをデータベーステーブルに関連付ける方法を定義するアプリケーション内のオブジェクトです。
 
 スキーマを作成すると、Experience Platform Federated Audience Composition でテーブルの表現を定義できます。
 
-* わかりやすい名前と説明を指定して、ユーザーが理解しやすいようにします
+* ユーザーが理解しやすいように、わかりやすい名前と説明を指定します
 * 実際の用途に応じて、各フィールドの表示/非表示を決定します
-* [ データモデル ](../data-management/gs-models.md#data-model-start) の必要に応じて、プライマリキーを選択して、スキーマ間をリンクします
+* [データモデル](../data-management/gs-models.md#data-model-start)で必要に応じて、このプライマリキー間のスキーマをリンクするために、プライマリキーを選択します
 
 ## スキーマの作成 {#schema-create}
 
 Federated Audience Composition でスキーマを作成するには、次の手順に従います。
 
-1. 「**[!UICONTROL FEDERATED DATA]**」セクションで、「**[!UICONTROL モデル]** リンクに移動します。 「**[!UICONTROL スキーマ]**」タブを参照し、「**[!UICONTROL スキーマを作成]**」ボタンをクリックします。
+1. 「**[!UICONTROL 連合データ]**」セクションで、**[!UICONTROL モデル]**&#x200B;リンクに移動します。「**[!UICONTROL スキーマ]**」タブを参照し、「**[!UICONTROL スキーマを作成]**」ボタンをクリックします。
 
    ![](assets/schema_create.png){zoomable="yes"}
 
@@ -72,9 +72,9 @@ Federated Audience Composition でスキーマを作成するには、次の手�
    テーブルごとに、次の操作を実行できます。
 
    * スキーマのラベルの変更
-   * 説明を追加
+   * 説明を追加する
    * すべてのフィールドの名前を変更し、表示を設定する
-   * スキーマのプライマリキーを選択
+   * スキーマのプライマリキーを選択する
 
    例えば、以下のテーブルの場合、インポートはされます。
 
@@ -90,7 +90,7 @@ Federated Audience Composition でスキーマを作成するには、次の手�
 
 1. スキーマフォルダーでスキーマの名前をクリックします。
 
-1. 「**[!UICONTROL 編集]** ボタンをクリックします。
+1. 「**[!UICONTROL 編集]**」ボタンをクリックします。
 
    ![](assets/schema_edit.png){zoomable="yes"}
 
