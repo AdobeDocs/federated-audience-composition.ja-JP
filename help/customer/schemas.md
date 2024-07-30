@@ -4,15 +4,14 @@ title: スキーマの基本を学ぶ
 description: スキーマの開始方法を学ぶ
 badge: label="限定提供" type="Informative"
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: 43e43d2600edc9e8c2aeb5713fba50ff4da8e2eb
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 23%
+source-wordcount: '450'
+ht-degree: 22%
 
 ---
 
 # スキーマの基本を学ぶ {#schemas}
-
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_create_select_tables"
@@ -40,7 +39,6 @@ ht-degree: 23%
 >title="フィルタリングするソースデータベースの選択"
 >abstract="ソースに基づいてスキーマをフィルタリングできます。 1 つまたは複数の連合データベースを選択して、このスキーマを表示します。"
 
-
 ## スキーマとは {#schema-start}
 
 スキーマは、データベースのテーブルを表すものです。 これは、データがデータベーステーブルにどのように関連付けられているかを定義するアプリケーション内のオブジェクトです。
@@ -50,6 +48,10 @@ ht-degree: 23%
 * わかりやすい名前と説明を指定して、ユーザーが理解しやすいようにします
 * 実際の用途に応じて、各フィールドの表示/非表示を決定します
 * [ データモデル ](../data-management/gs-models.md#data-model-start) の必要に応じて、プライマリキーを選択して、スキーマ間をリンクします
+
+>[!IMPORTANT]
+>
+>サンドボックスごとに個別の連合データベーススキーマを使用することをお勧めします。
 
 ## スキーマの作成 {#schema-create}
 
