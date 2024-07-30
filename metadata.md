@@ -4,7 +4,8 @@ solution: Experience Cloud
 type: Documentation
 mini-toc-levels: 2
 git-repo: https://github.com/AdobeDocs/federated-audience-composition.ja-JP
-source-git-commit: 7fc4914fbb7276b0507d945846ebc62d21474ff7
+index: true
+source-git-commit: ae4c655f6208a7799aca4b064de8d90a6b86e11e
 workflow-type: tm+mt
 source-wordcount: '53'
 ht-degree: 100%
