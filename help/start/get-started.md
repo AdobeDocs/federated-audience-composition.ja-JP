@@ -3,9 +3,9 @@ title: Experience Platformの Federated Audience コンポジションの基本�
 description: Adobe Federated Audience Composition の概要と Adobe Experience Platform での使用方法について説明します
 badge: label="限定提供" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: 2a3eb92ba6d7c24e9eec7f6ff978bf9a34be34ab
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '721'
 ht-degree: 57%
 
 ---
@@ -44,7 +44,7 @@ Federated Audience Composition は、オーディエンスのキュレーショ�
 
 Adobe Federated Audience Composition を使用すると、取り込みプロセスなしで、データベースから直接 Adobe Experience Platform オーディエンスを作成および更新できます。
 
-![図](assets/steps-diagram.png){zoomable="yes"}{width="85%" align="center"}
+<!--![diagram](assets/steps-diagram.png){zoomable="yes"}{width="85%" align="center"}-->
 
 主な手順：
 
