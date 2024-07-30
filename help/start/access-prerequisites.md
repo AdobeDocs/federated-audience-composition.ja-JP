@@ -2,7 +2,7 @@
 title: Federated Audience コンポジションの前提条件とガードレール
 description: Federated Audience Composition の前提条件、権限およびガードレールについて説明します
 badge: label="限定提供" type="Informative"
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: e6858ecd06e97b952e59738f299afc90fddeafb7
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 3%
@@ -27,7 +27,7 @@ Federated Audience Composition アドオンを購入すると、その時点で�
 
 Federated Audience Composition がデータベースに安全にアクセスできるようにするには、Adobe担当者に連絡して、データベースにアクセスする Federated Audience Composition サーバーの IP アドレスを取得してください。
 
-これらの IP アドレスを許可リストに追加して、Federated Audience Composition のアクセス権を付与します。」
+これらの IP アドレスを許可リストに追加して、Federated Audience Composition のアクセス権を付与します。
 
 ## ガードレールと制限 {#fac-guardrails}
 
