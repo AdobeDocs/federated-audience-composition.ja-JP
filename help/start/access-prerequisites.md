@@ -2,9 +2,9 @@
 title: Federated Audience コンポジションの前提条件とガードレール
 description: Federated Audience Composition の前提条件、権限およびガードレールについて説明します
 badge: label="限定提供" type="Informative"
-source-git-commit: 61ad8899f7de601b64c7b42cb873a172fcaea145
+source-git-commit: 75fa26d74931d63c94e138fe29d85088932acd7f
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '266'
 ht-degree: 13%
 
 ---
@@ -31,7 +31,7 @@ Federated Audience Composition がデータベースに安全にアクセスで�
 
 ## ガードレールと制限 {#fac-guardrails}
 
-* Federated Audience Composition のオーディエンスと属性は、現在、Healthcare Shield およびプライバシーとセキュリティシールドでは使用できません。
+* Federated Audience Composition は、現在、Healthcare Shield およびプライバシーとセキュリティシールドでは使用できません。
 
 <!--
 * Federated Audience Composition is compatible with Privacy & Security Shield and can be used in all verticals except for healthcare industries. Currently, Federated Audience Composition cannot be licensed to customers looking to ingest health data. [Learn more](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}-->
