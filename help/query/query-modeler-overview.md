@@ -1,12 +1,13 @@
 ---
 audience: end-user
 title: クエリモデラーの操作
-description: クエリモデラーの操作方法を説明します
+description: クエリモデラーの操作方法について説明します
 badge: label="限定提供" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+exl-id: b77b9d1c-61d5-4d6d-9d82-3c72bc9c932a
+source-git-commit: 6aec8f5d9e8550ece2b50234d86ed59938f1b028
 workflow-type: tm+mt
 source-wordcount: '348'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +18,7 @@ ht-degree: 81%
 >title="クエリモデラー"
 >abstract="データベースから、受信者またはその他のスキーマ（ターゲティングディメンションとも呼ばれる）のフィルタリング条件を定義します。"
 
-クエリモデラーは、様々な条件に基づいてデータベースをフィルタリングするプロセスを簡素化します。 また、クエリモデラーは非常に複雑で長いクエリを効率的に管理できるので、柔軟性と精度が向上します。さらに、条件内で定義済みフィルターをサポートしているので、包括的なオーディエンスのターゲティングとセグメント化戦略に高度な式と演算子を利用しながら、クエリを簡単に絞り込むことができます。
+クエリモデラーは、様々な条件に基づいてデータベースをフィルタリングするプロセスを簡素化します。また、クエリモデラーは非常に複雑で長いクエリを効率的に管理できるので、柔軟性と精度が向上します。さらに、条件内で定義済みフィルターをサポートしているので、包括的なオーディエンスのターゲティングとセグメント化戦略に高度な式と演算子を利用しながら、クエリを簡単に絞り込むことができます。
 
 ## クエリモデラーへのアクセス
 
@@ -25,8 +26,8 @@ ht-degree: 81%
 
 | 用途 | 例 |
 |  ---  |  ---  |
-| **オーディエンスの定義**：コンポジションでターゲットにする母集団を指定し、ニーズに合わせて新しいオーディエンスを簡単に作成します。 | ![](assets/access-audience.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
-| **アクティビティのカスタマイズ**:**分割** や **紐付け** など、コンポジションアクティビティ内のルールを適用して、特定の要件に合わせます。 [ コンポジションアクティビティの詳細情報 ](../compositions/activities/about-activities.md) | ![](assets/access-composition.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| **オーディエンスを定義**：構成でターゲットにする母集団を指定し、ニーズに合わせて新しいオーディエンスを簡単に作成します。 | ![](assets/access-audience.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| **アクティビティをカスタマイズ**：特定の要件に合わせて、**分割**&#x200B;や&#x200B;**紐付け**&#x200B;などの構成アクティビティ内にルールを適用します。[詳しくは、構成アクティビティを参照してください](../compositions/activities/about-activities.md) | ![](assets/access-composition.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
 ## クエリモデラーインターフェイス {#interface}
 

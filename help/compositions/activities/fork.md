@@ -1,15 +1,15 @@
 ---
 audience: end-user
 title: 分岐アクティビティの使用
-description: 分岐アクティビティの使用方法を学ぶ
+description: 分岐アクティビティの使用方法について説明します
 badge: label="限定提供" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+exl-id: f73f27ca-e00d-446d-8f1c-a751f1809bac
+source-git-commit: 6aec8f5d9e8550ece2b50234d86ed59938f1b028
 workflow-type: tm+mt
 source-wordcount: '120'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
-
 
 # 分岐 {#fork}
 
@@ -29,7 +29,7 @@ ht-degree: 85%
 
 次の手順に従って、**分岐**&#x200B;アクティビティを設定します。
 
-1. **分岐** アクティビティをコンポジションに追加します。
+1. **分岐**&#x200B;アクティビティを構成に追加します。
 1. **トランジションを追加**&#x200B;をクリックし、新しいアウトバウンドトランジションを追加します。デフォルトでは、2 つのトランジションが定義されています。
 1. 各トランジションにラベルを追加します。
 
