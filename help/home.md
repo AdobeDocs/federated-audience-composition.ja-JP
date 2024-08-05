@@ -10,7 +10,7 @@ ht-degree: 85%
 
 ---
 
-# Federated Audience Composition ドキュメント  {#fac-home}
+# 連合オーディエンス構成ドキュメント  {#fac-home}
 
 Adobe Experience Platform 連合オーディエンス構成ドキュメントへようこそ。
 

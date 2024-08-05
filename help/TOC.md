@@ -14,8 +14,8 @@ ht-degree: 80%
 
 + [Experience Platformの Federated Audience Composition ドキュメント](home.md)
 + [リリースノート](start/release-notes.md)
-+ Federated Audience Composition の基本を学ぶ {#start}
-   + [Federated Audience Composition とは](start/get-started.md)
++ 連合オーディエンス構成の基本を学ぶ{#start}
+   + [連合オーディエンス構成とは](start/get-started.md)
    + [前提条件とガードレール](start/access-prerequisites.md)
    + [オーディエンスの操作](start/audiences.md)
    + [よくある質問](start/faq.md)

@@ -15,7 +15,7 @@ ht-degree: 78%
 Adobe Experience Platform Federated Audience Composition に関するよくある質問のリストを以下に示します。 また、Adobe Experience Platform セグメント化サービスに関するグローバル FAQ については、[このページ](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/faq){target="_blank"}も参照してください。
 
 
-+++Federated Audience Composition にアクセスするために必要な権限は何ですか？
++++連合オーディエンス構成にアクセスするために必要な権限は何ですか？
 
 Federated Audience Composition には、Adobe Real-time Customer Data PlatformおよびAdobe Journey Optimizer Prime または Ultimate パッケージが必要です。 また、Federated Audience Composition アドオンを購入している必要があります。
 
@@ -25,7 +25,7 @@ Federated Audience Audience コンポジションを使用するには、各ユ�
 
 +++どのようなクラウドウェアハウスがサポートされていますか？
 
-このリリースでは、Federated Audience Composition は次と互換性があります。
+このリリースでは、連合オーディエンス構成は次と互換性があります。
 
 * Amazon Redshift
 * Azure Synapse
@@ -42,16 +42,16 @@ Federated Audience Audience コンポジションを使用するには、各ユ�
 
 +++
 
-+++ Federated Audience Composition を使用してデータベース全体にアクセスできますか？
++++ 連合オーディエンス構成を使用してデータベース全体にアクセスできますか？
 
-いいえ、専用または共有のデータベース／スキーマへのアクセスはユーザーが設定します。Federated Audience Composition 専用のスキーマを作成し、ビジネスケースのデータセットのみをコピー／共有することをお勧めします。
+いいえ、専用または共有のデータベース／スキーマへのアクセスはユーザーが設定します。連合オーディエンス構成専用のスキーマを作成し、ビジネスケースのデータセットのみをコピー／共有することをお勧めします。
 +++
 
 
 
 +++専用スキーマ内のすべてのテーブルにアクセスできますか？
 
-はい、接続すると、Federated Audience Composition を使用して、定義済みの初期権限に基づいてすべてのテーブルを検出し、ビジュアルスキーマエディターを使用して次の操作を実行できます。
+はい、接続すると、連合オーディエンス構成を使用して、定義済みの初期権限に基づいてすべてのテーブルを検出し、ビジュアルスキーマエディターを使用して次の操作を実行できます。
 
 * テーブルから列とプライマリキーを検出する
 * これらのテーブルにわかりやすいラベルを作成する
@@ -61,15 +61,15 @@ Federated Audience Audience コンポジションを使用するには、各ユ�
 +++
 
 
-+++Federated Audience Composition に一時的なストレージはありますか？
++++連合オーディエンス構成に一時的なストレージはありますか？
 
-いいえ、Federated Audience Composition はメタデータ（スキーマの説明）のみを保存します。顧客データが転送されていません。<!--The Audience export flow is done directly from Adobe Experience Platform Audience Portal (via [Destination](../connections/destinations.md)) to the customer database. The creation and update flow is done directly from your data warehouse database to Adobe Experience Platform Audience Portal.-->
+いいえ、連合オーディエンス構成はメタデータ（スキーマの説明）のみを保存します。顧客データが転送されていません。<!--The Audience export flow is done directly from Adobe Experience Platform Audience Portal (via [Destination](../connections/destinations.md)) to the customer database. The creation and update flow is done directly from your data warehouse database to Adobe Experience Platform Audience Portal.-->
 
 +++
 
-+++Federated Audience Composition には、ダウンストリームシステムに送信する人物のリストの物理的なコピーが保存されますか？
++++連合オーディエンス構成には、ダウンストリームシステムに送信する人物のリストの物理的なコピーが保存されますか？
 
-Federated Audience Composition には、データの物理的なコピーは保存されません。このデータを更新する頻度を定義するには、構成内で頻度を設定します。結果のオーディエンスデータは、お客様のユースケースまたはアクションで必要とされる期間を超えて Adobe Experience Platform に保存されることはありません。
+連合オーディエンス構成には、データの物理的なコピーは保存されません。このデータを更新する頻度を定義するには、構成内で頻度を設定します。結果のオーディエンスデータは、お客様のユースケースまたはアクションで必要とされる期間を超えて Adobe Experience Platform に保存されることはありません。
 
 例：
 
@@ -83,7 +83,7 @@ Federated Audience Composition には、データの物理的なコピーは保�
 
 +++オーディエンス作成およびオーディエンスエンリッチメントのユースケースのパターンに関するデータが保持されていない場合、そのデータは一時的にどのように保存されますか？
 
-結果のオーディエンスデータは、Adobe Experience Platform または Federated Audience Composition に無期限に保持されるわけではありません。ユースケースで必要な期間を超えて保持されることはありません。オーディエンスペイロードの一部として取り込まれたオーディエンス属性は、オーディエンス定義の一部としてのみ保持されます。保持期間はすべてのオーディエンスの TTL に基づき、デフォルトは 30 日です。
+結果のオーディエンスデータは、Adobe Experience Platform または連合オーディエンス構成に無期限に保持されるわけではありません。ユースケースで必要な期間を超えて保持されることはありません。オーディエンスペイロードの一部として取り込まれたオーディエンス属性は、オーディエンス定義の一部としてのみ保持されます。保持期間はすべてのオーディエンスの TTL に基づき、デフォルトは 30 日です。
 
 +++
 
@@ -95,7 +95,7 @@ Federated Audience Composition には、データの物理的なコピーは保�
 
 +++複数のソースからデータを組み合わせる場合、データはどのように結合されますか？ID サービスを使用しますか？
 
-いいえ、構成中に ID サービスは使用しません。構成で使用する様々なソース間のデータは、CRM ID、ユーザーアカウント番号など、ユーザー定義のロジック（基になるモデルで表現される）を通じて結合されます。データウェアハウスで選択するオーディエンスの識別子として使用される ID を選択する必要があります。Federated Audience Composition からの結果のオーディエンスでは、結果のデータセット内の ID の ID 名前空間を識別する必要があります。
+いいえ、構成中に ID サービスは使用しません。構成で使用する様々なソース間のデータは、CRM ID、ユーザーアカウント番号など、ユーザー定義のロジック（基になるモデルで表現される）を通じて結合されます。データウェアハウスで選択するオーディエンスの識別子として使用される ID を選択する必要があります。連合オーディエンス構成からの結果のオーディエンスでは、結果のデータセット内の ID の ID 名前空間を識別する必要があります。
 
 +++
 

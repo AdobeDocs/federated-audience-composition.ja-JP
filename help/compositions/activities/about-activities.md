@@ -6,8 +6,8 @@ badge: label="限定提供" type="Informative"
 exl-id: 1e4e5f53-636f-4f1c-bf2f-cc3b5d6d6dda
 source-git-commit: 6aec8f5d9e8550ece2b50234d86ed59938f1b028
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '280'
+ht-degree: 100%
 
 ---
 
