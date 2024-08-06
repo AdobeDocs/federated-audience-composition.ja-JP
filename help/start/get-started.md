@@ -1,48 +1,48 @@
 ---
-title: Experience Platformの Federated Audience コンポジションの基本を学ぶ
-description: アドビの連合オーディエンス構成の概要と Adobe Experience Platform での使用方法について説明します
+title: Experience Platform 連合オーディエンス構成の基本を学ぶ
+description: Adobe Federated Audience Composition の概要と Adobe Experience Platform での使用方法について説明します
 badge: label="限定提供" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: 2a3eb92ba6d7c24e9eec7f6ff978bf9a34be34ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '721'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
-# 連合オーディエンス構成の基本を学ぶ {#gs-fac}
+# Federated Audience Composition の基本を学ぶ {#gs-fac}
 
-Federated Audience Composition は、サードパーティのデータウェアハウスからオーディエンスを作成して強化し ](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/home){target="_blank"} そのオーディエンスをAdobe Experience Platformにインポートできる ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"}0}Adobe Real-time Customer Data Platform} および [Adobe Journey Optimizer} のアドオン機能です。 [連合オーディエンス構成は、Adobe Real-time Customer Data Platform や Adobe Journey Optimizer 内でエンタープライズデータウェアハウスを直接接続し、データウェアハウスのテーブルに対してクエリを実行するための簡単で強力なソリューションを提供します。
+連合オーディエンス構成は、[Adobe Real-time Customer Data Platform](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/home){target="_blank"} および [Adobe Journey Optimizer](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} のアドオン機能です。サードパーティのデータウェアハウスからオーディエンスを作成して強化し、そのオーディエンスを Adobe Experience Platform に読み込めるようにします。Federated Audience Composition は、Adobe Real-time Customer Data Platform や Adobe Journey Optimizer 内でエンタープライズデータウェアハウスを直接接続し、データウェアハウスのテーブルに対してクエリを実行するための簡単で強力なソリューションを提供します。
 
-アドビの連合オーディエンス構成は、Adobe Experience Platform アプリのユーザーが、Amazon Redshift、Azure Synapse Analytics などのデータウェアハウスやクラウドストレージプラットフォームに保存されている顧客データにアクセスするのに役立ちます。顧客データを複数のデータウェアハウスに保存し、複製せずに即座にアクセスできるようになります。サポートされているプラットフォームについては、[このページ](../connections/federated-db.md#supported-db)を参照してください。
+Adobe Federated Audience Composition は、Adobe Experience Platform アプリのユーザーが、Amazon Redshift、Azure Synapse Analytics などのデータウェアハウスやクラウドストレージプラットフォームに保存されている顧客データにアクセスするのに役立ちます。顧客データを複数のデータウェアハウスに保存し、複製せずに即座にアクセスできるようになります。サポートされているプラットフォームについては、[このページ](../connections/federated-db.md#supported-db)を参照してください。
 
 ## 機能 {#rn-capabilities}
 
-Federated Audience Composition は、オーディエンスのキュレーションとアクティベーションに対する包括的なアプローチを通じて、Real-Time CDPとJourney Optimizerの価値を拡張します。
+連合オーディエンス構成は、オーディエンスのキュレーションとアクティベーションに対する包括的なアプローチを用いて、Real-time CDP と Journey Optimizer の価値を拡張します。
 
-* 重要なウェアハウスベースのデータセットへのアクセスを拡大して、価値の高いオーディエンスを作成：既存のデータウェアハウスを主要なレコードシステムとして活用しながら、クラス最高のアプリケーションを活用して優れたカスタマーエクスペリエンスを強化します。
+* 重要なウェアハウスベースのデータセットへのアクセスを拡張して、価値の高いオーディエンスを作成：既存のデータウェアハウスを主要なレコードシステムとして活用しながら、クラス最高のアプリケーションを活用して優れた顧客体験を実現します。
 
-* エンゲージメントのユースケースを強化するための包括的なサポート：Federated Audience Composition をReal-Time CDPまたはJourney Optimizerと組み合わせて使用すると、Federated Audiences で、ブランド主導のパーソナライズされたエクスペリエンスをサポートし、リアルタイムイベントでトリガーされたリアルタイムのエクスペリエンスと、チーム全体のユースケース要件を満たすユーザー属性を組み合わせて提供します。
+* エンゲージメントのユースケースを強化するための包括的なサポート：連合オーディエンス構成は、Real-time CDP または Journey Optimizer と組み合わせることで、連合オーディエンスによるブランド主導のパーソナライズされたエクスペリエンスをサポートし、リアルタイムイベントによってトリガーされる瞬間的なエクスペリエンスを、ユーザー属性と組み合わせて提供し、チーム全体のユースケース要件を満たします。
 
-* データの移動と重複を最小限に抑える：基盤となるデータをコピーせずに、エンタープライズデータウェアハウスに存在するデータセットからオーディエンスを作成して、実用的なマーケティングプロファイルとオーディエンスを管理します。
+* データの移動と重複を最小化：基になるデータをコピーせずに、エンタープライズデータウェアハウスにあるデータセットからオーディエンスを作成し、実用的なマーケティングプロファイルとオーディエンスを管理します。
 
-* 1 つのシステムをエクスペリエンス駆動型ワークフローに活用：Adobe Experience Platformで取得したオーディエンスとフェデレーテッド オーディエンスをキュレーションし、すべてのチャネルにわたってアウトバウンドエクスペリエンスを調整します。
+* 1 つのシステムをエクスペリエンス駆動型ワークフローに利用：Adobe Experience Platform で取得した連合オーディエンスをキュレーションし、すべてのチャネルにわたってアウトバウンドエクスペリエンスを調整します。
 
 ## ユースケース {#rn-uc}
 
 マーケティングに適した UI を通じて、マーケティングキャンペーンに必要な特定のセグメントに該当するユーザーのリストをデータウェアハウスにクエリするためのセグメントルールを作成したり、ウェアハウス内の既存のオーディエンスにアクセスしてアクティベートしたり、ウェアハウス内に存在する追加のデータポイントを使用して Adobe Experience Platform オーディエンスを強化したりすることができます。
 
-このバージョンでは、次の 2 つのユースケースを使用できます。
+このバージョンでは、次の 2 つのユースケースが使用できます。
 
-1. オーディエンスの作成：基になるデータをコピーせずにエンタープライズデータセットから新しいオーディエンスを作成し、事前に作成された宛先でこれらのオーディエンスをアクティブ化&#x200B;
+1. オーディエンスの作成：基になるデータをコピーせずに、エンタープライズデータセットから新しいオーディエンスを作成し、事前に作成された宛先でこれらのオーディエンスをアクティブ化します。
 
-1. オーディエンスの強化：Enterprise Data Warehouse からフェデレーションされた作成済みオーディエンスデータを利用して、Adobe Experience Platformの既存のオーディエンスを強化します。 このデータは、Adobe Experience Platform顧客プロファイルには保持されません。
+1. オーディエンスのエンリッチメント：エンタープライズデータウェアハウスから連合された構成済みオーディエンスデータを利用して、Adobe Experience Platform の既存のオーディエンスを強化します。このデータは、Adobe Experience Platform の顧客プロファイルには保存されません。
 
 ![図](assets/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
 
 ## 主な手順 {#gs-steps}
 
-アドビの連合オーディエンス構成を使用すると、取り込みプロセスなしで、データベースから直接 Adobe Experience Platform オーディエンスを作成および更新できます。
+Adobe Federated Audience Composition を使用すると、取り込みプロセスなしで、データベースから直接 Adobe Experience Platform オーディエンスを作成および更新できます。
 
 <!--![diagram](assets/steps-diagram.png){zoomable="yes"}{width="85%" align="center"}-->
 
@@ -58,16 +58,16 @@ Federated Audience Composition は、オーディエンスのキュレーショ�
 
 >[!NOTE]
 >
->コンポジションを実行すると、結果のオーディエンスが外部オーディエンスとしてAdobe Experience Platformに保存され、Adobeの Real-time Customer Data Platform やAdobe Journey Optimizerで使用できるようになります。 **オーディエンス** メニューでアクセス可能になります。 [詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+>構成を実行すると、結果のオーディエンスが外部オーディエンスとして Adobe Experience Platform に保存され、Adobe Real-time Customer Data Platform や Adobe Journey Optimizer で使用できるようになります。**オーディエンス**&#x200B;メニューでアクセスできます。[詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 ## 詳細情報 {#learn}
 
 <!-- Workflow + Workflow activities-->
 
 
-Federated Audience Composition、ガードレールおよび制限にアクセスする方法については、[ このページ ](access-prerequisites.md) を参照してください。
+連合オーディエンス構成、ガードレールおよび制限にアクセスする方法については、[このページ](access-prerequisites.md)を参照してください。
 
-[ このページ ](faq.md) のよくある質問も参照してください。
+また、[このページ](faq.md)のよくある質問も参照してください。
 
 
 >[!CONTEXTUALHELP]

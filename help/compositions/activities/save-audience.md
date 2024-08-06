@@ -5,9 +5,9 @@ description: オーディエンスを保存アクティビティの使用方法�
 badge: label="限定提供" type="Informative"
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
 source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '462'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -62,13 +62,13 @@ ht-degree: 84%
    * **プライマリ ID フィールド**：プロファイルの識別に使用するフィールドを選択します。例えば、メールアドレスや電話番号などです。
    * **ID 名前空間**：プロファイルの識別に使用する名前空間、つまり ID キーとして使用するデータのタイプを選択します。例えば、メールアドレスをプライマリ ID フィールドとして選択した場合は、ID 名前空間の&#x200B;**メール**&#x200B;を選択する必要があります。一意の ID が電話番号の場合は、ID 名前空間の&#x200B;**電話**&#x200B;を選択する必要があります。
 
-## Adobe Experience Platformでのオーディエンスへのアクセス {#access-audience}
+## Adobe Experience Platform でのオーディエンスへのアクセス {#access-audience}
 
-コンポジションを実行すると、結果のオーディエンスが外部オーディエンスとしてAdobe Experience Platformに保存され、Adobeの Real-time Customer Data Platform やAdobe Journey Optimizerで使用できるようになります。 **オーディエンス** メニューでアクセス可能になります。 [詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+構成を実行すると、結果のオーディエンスが外部オーディエンスとして Adobe Experience Platform に保存され、Adobe Real-time Customer Data Platform や Adobe Journey Optimizer で使用できるようになります。**オーディエンス**&#x200B;メニューでアクセスできます。[詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
-作成したオーディエンスには、「オーディエンスマッピング」セクションで選択したすべてのフィールドが含まれます。このオーディエンスをJourney Optimizerでターゲットにするか、Adobe Experience Platformでサポートされる任意の宛先に対してアクティブ化できます。
+作成したオーディエンスには、「オーディエンスマッピング」セクションで選択したすべてのフィールドが含まれます。Journey Optimizer でこのオーディエンスをターゲットにするか、Adobe Experience Platform でサポートされる任意の宛先に対してアクティブ化できます。
 
-[ 詳しくは、Adobe Experience Platform ドキュメントを参照してください ](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+[詳しくは、Adobe Experience Platform ドキュメントを参照してください](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 <!--
 

@@ -5,9 +5,9 @@ description: 構成の開始方法について説明します
 badge: label="限定提供" type="Informative"
 exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
 source-git-commit: 3b891232a3a671f8ec12e06b19086f12ef849f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '290'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 89%
 
 ## 構成とは {#what}
 
-Adobe Audience Composition を使用すると、構成を作成し、様々なアクティビティ（分割、除外など）を視覚的なキャンバスに活用してオーディエンスを作成できます。完了すると、結果オーディエンスが既存のオーディエンスと共にAdobe Experience Platformに保存され、Adobe Experience Platformの宛先やAdobe Journey Optimizerで活用して、お客様をターゲットできます。 [オーディエンスの使用方法を学ぶ](../start/audiences.md)
+Adobe Audience Composition を使用すると、構成を作成し、様々なアクティビティ（分割、除外など）を視覚的なキャンバスに活用してオーディエンスを作成できます。完了すると、結果のオーディエンスは既存のオーディエンスと共に Adobe Experience Platform に保存され、Adobe Experience Platform の宛先や Adobe Journey Optimizer で顧客のターゲティングに活用できます。[オーディエンスの使用方法を学ぶ](../start/audiences.md)
 
 ![](assets/composition-example.png)
 

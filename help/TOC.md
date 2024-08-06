@@ -1,21 +1,21 @@
 ---
-user-guide-title: Experience Platformの Federated Audience 構成
-title: Experience Platformの Federated Audience Composition ドキュメント
-breadcrumb-title: Experience Platformの Federated Audience 構成
+user-guide-title: Experience Platform 連合オーディエンス構成
+title: Experience Platform 連合オーディエンス構成ドキュメント
+breadcrumb-title: Experience Platform 連合オーディエンス構成
 source-git-commit: 16599cc499b45ee8a293c923b9c26f85aa8e0b68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '145'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
 
-# Experience Platformの Federated Audience Composition ドキュメント {#using}
+# Experience Platform 連合オーディエンス構成ドキュメント {#using}
 
-+ [Experience Platformの Federated Audience Composition ドキュメント](home.md)
++ [Experience Platform 連合オーディエンス構成ドキュメント](home.md)
 + [リリースノート](start/release-notes.md)
-+ 連合オーディエンス構成の基本を学ぶ{#start}
-   + [連合オーディエンス構成とは](start/get-started.md)
++ Federated Audience Composition の基本を学ぶ {#start}
+   + [Federated Audience Composition とは](start/get-started.md)
    + [前提条件とガードレール](start/access-prerequisites.md)
    + [オーディエンスの操作](start/audiences.md)
    + [よくある質問](start/faq.md)
@@ -51,4 +51,4 @@ ht-degree: 80%
    + [クエリモデラーの操作](query/query-modeler-overview.md)
    + [最初のクエリの作成](query/build-query.md)
    + [式の編集](query/expression-editor.md)
-+ [監査証跡](admin/audit-trail.md)
++ [監査記録](admin/audit-trail.md)

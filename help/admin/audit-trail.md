@@ -1,26 +1,26 @@
 ---
 audience: end-user
-title: 監査証跡
-description: 監査記録にアクションとイベントを記録してアクセスする方法を説明します
+title: 監査記録
+description: 監査記録にアクションとイベントを記録して、アクセスする方法について説明します
 badge: label="限定提供" type="Informative"
 exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
 source-git-commit: 16599cc499b45ee8a293c923b9c26f85aa8e0b68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '369'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
-# 監査証跡 {#audit-trail}
+# 監査記録 {#audit-trail}
 
 >[!CONTEXTUALHELP]
 >id="dc_audit_trail"
 >title="監査記録"
->abstract="監査記録機能は、Adobe Experience Platform Federated Audience Composition 環境に対して実行されたすべてのアクションとイベントの詳細な時系列の記録をリアルタイムで提供します。"
+>abstract="監査記録機能では、Adobe Experience Platform 連合オーディエンス構成環境に対して行われたすべてのアクションとイベントの詳細な時系列記録がリアルタイムで提供されます。"
 
 監査記録機能では、環境に対して行われたすべてのアクションとイベントの詳細な時系列記録がリアルタイムで提供されます。
 
-**[!UICONTROL 監査記録]** 機能は、Adobeの Federated Composition インスタンス内で発生したアクションとイベントの詳細なログを常にリアルタイムで記録します。 データの時系列の記録にアクセスする便利な方法を提供し、ワークフローのステータス、ワークフローを変更した直近のユーザー、インスタンス内でユーザーが実行したアクティビティなどのクエリに対処します。
+**[!UICONTROL 監査記録]**&#x200B;機能は、アドビの連合構成インスタンス内で発生するアクションとイベントの詳細なログをリアルタイムで常に記録します。データの時系列の記録にアクセスする便利な方法を提供し、ワークフローのステータス、ワークフローを変更した直近のユーザー、インスタンス内でユーザーが実行したアクティビティなどのクエリに対処します。
 
 +++ 監査記録が使用可能なエンティティについて説明します
 
@@ -53,7 +53,7 @@ ht-degree: 77%
 
 1. **[!UICONTROL 連合データ]**&#x200B;メニューで、「**[!UICONTROL 監査記録]**」を選択します。
 
-1. **[!UICONTROL 監査記録]**&#x200B;ウィンドウが開き、エンティティのリストが表示されます。Federated Audience Composition は、ワークフロー、オプション、配信およびスキーマの作成、編集および削除アクションを監査します。
+1. **[!UICONTROL 監査記録]**&#x200B;ウィンドウが開き、エンティティのリストが表示されます。連合オーディエンス構成は、ワークフロー、オプション、配信およびスキーマの作成、編集、削除アクションを監査します。
 
    ![](assets/audit_trail.png)
 

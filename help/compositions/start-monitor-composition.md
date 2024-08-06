@@ -5,9 +5,9 @@ description: 構成の作成方法について説明します
 badge: label="限定提供" type="Informative"
 exl-id: 1f288312-dd6a-4a62-8ee6-fa2417954d5c
 source-git-commit: 3384c816e64b93a80b8e9b3e61dab74fa098889f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '635'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 95%
 構成では、トランジションを通じて 1 つのアクティビティから別のアクティビティへ移されたデータは、一時的な作業用テーブルに保存されます。このデータは、トランジションごとに表示できます。これを行うには、トランジションを選択して、画面の右側でそのプロパティを開きます。
 
 * 「**[!UICONTROL スキーマをプレビュー]**」をクリックして、作業用テーブルのスキーマを表示します。
-* **[!UICONTROL 結果をプレビュー]** をクリックし、選択したトランジションで転送されたデータを視覚化します。 このオプションは、「**[!UICONTROL 2 つの実行間の中間母集団の結果を保持]**」オプションが有効になっている場合にのみ使用できます。 [詳細情報](create-composition.md#settings)
+* 「**[!UICONTROL 結果をプレビュー]**」をクリックして、選択したトランジションで移されたデータを視覚化します。このオプションは、「**[!UICONTROL 2 つの実行間で中間母集団の結果を保持]**」オプションが有効になっている場合にのみ使用できます。[詳細情報](create-composition.md#settings)
 
 ![](assets/transition-preview.png)
 

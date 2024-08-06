@@ -5,9 +5,9 @@ description: エンリッチメントアクティビティの使用方法につ�
 badge: label="限定提供" type="Informative"
 exl-id: 6bf12c25-fbef-4588-89d0-28215cbcbf58
 source-git-commit: 8fa60d20dc574bbddc0106508d57a1cd3f3d3db8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '391'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 92%
 
 **エンリッチメント**&#x200B;アクティビティでは、連合データベースからの追加情報を使用してターゲットデータを強化できます。一般的に、セグメント化アクティビティ後の構成で使用されます。
 
-Federated Audience Composition 宛先への接続を設定した場合は、エンリッチメント アクティビティを使用して、外部データベースからの属性でAdobe Experience Platformに取り込むデータを強化できます。 [詳しくは、外部データを使用して Adobe Experience Platform オーディエンスを強化する方法を参照してください](../../connections/destinations.md)
+連合オーディエンス構成の宛先への接続を設定している場合は、エンリッチメントアクティビティを使用すると、外部データベースからの属性を使用して Adobe Experience Platform から受信するデータを強化できます。[詳しくは、外部データを使用して Adobe Experience Platform オーディエンスを強化する方法を参照してください](../../connections/destinations.md)
 
 エンリッチメントデータは次のいずれかを実行できます。
 

@@ -1,12 +1,12 @@
 ---
-title: Adobe Experience Platform Federated Audience Composition ドキュメントのホームページ
-description: Federated Audience Composition アドオンのドキュメント
+title: Adobe Experience Platform 連合オーディエンス構成ドキュメントのホームページ
+description: 連合オーディエンス構成アドオンドキュメント
 badge: label="限定提供" type="Informative"
 exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
 source-git-commit: 369d2407eb2a7d6b90763da0710ce904f6f1fbb1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '232'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 85%
 
 Adobe Experience Platform 連合オーディエンス構成ドキュメントへようこそ。
 
-Experience PlatformFederated Audience Composition は、Adobe Real-Time CDPおよびAdobe Journey Optimizerのユーザーに、データ管理の柔軟性と効率性を提供します。 連合オーディエンス構成を使用すると、マーケター向けのわかりやすい UI を使用してエンタープライズデータウェアハウスにアクセスし、基になるエンタープライズデータを保持せずにオーディエンスを作成して、Adobe Experience Platform ワークフローでデータセットを活用できます。これにより、エクスペリエンスのユースケースでデータウェアハウスにアクセスする際のデータ移動を削減できます。
+Experience Platform 連合オーディエンス構成は、Adobe Real-time CDP および Adobe Journey Optimizer のユーザーにデータ管理の柔軟性と効率性を提供します。連合オーディエンス構成を使用すると、マーケター向けのわかりやすい UI を使用してエンタープライズデータウェアハウスにアクセスし、基になるエンタープライズデータを保持せずにオーディエンスを作成して、Adobe Experience Platform ワークフローでデータセットを活用できます。これにより、エクスペリエンスのユースケースでデータウェアハウスにアクセスする際のデータ移動を削減できます。
 
 >[!BEGINTABS]
 

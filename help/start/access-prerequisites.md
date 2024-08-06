@@ -1,17 +1,17 @@
 ---
-title: Federated Audience コンポジションの前提条件とガードレール
-description: Federated Audience Composition の前提条件、権限およびガードレールについて説明します
+title: 連合オーディエンス構成の前提条件とガードレール
+description: 連合オーディエンス構成の前提条件、権限およびガードレールについて説明します
 badge: label="限定提供" type="Informative"
 source-git-commit: 07170ee709c9e3c4ad0bb2390aa0d44adae3b059
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '274'
-ht-degree: 14%
+ht-degree: 100%
 
 ---
 
 # 前提条件とガードレール {#fac-access}
 
-Federated Audience Composition には、Adobe Real-time Customer Data PlatformやAdobe Journey Optimizer **Prime** または **Ultimate** パッケージが必要です。 この機能にアクセスするには、Federated Audience Composition アドオンを購入する必要があります。
+連合オーディエンス構成には、Adobe Real-time Customer Data Platform や Adobe Journey Optimizer **Prime** または **Ultimate** パッケージが必要です。この機能にアクセスするには、連合オーディエンス構成アドオンを購入しておく必要があります。
 
 >[!AVAILABILITY]
 >
@@ -19,21 +19,21 @@ Federated Audience Composition には、Adobe Real-time Customer Data Platform�
 
 ## 権限 {#permissions}
 
-Federated Audience Composition アドオンを購入すると、その時点でアクティブなサンドボックスごとに製品プロファイルが作成されます。 この製品プロファイルは、**Adobe Experience Platform** Admin Consoleカードの下のサンドボックスに作成され、次の命名規則に従います。`ACP_FAC - <<SandboxName>> - admin.` 特定のサンドボックスの Federated Audience コンポジションにアクセスするには、そのサンドボックス用に作成された製品プロファイルにユーザーを追加する必要があります。
+連合オーディエンス構成アドオンを購入すると、この時点でアクティブになっているサンドボックスごとに製品プロファイルが作成されます。この製品プロファイルは、Admin Console の **Adobe Experience Platform** 製品カードの下に作成され、次の命名規則に従います。`ACP_FAC - <<SandboxName>> - admin.` 特定のサンドボックスの連合オーディエンス構成にアクセスするには、このサンドボックス用に作成された製品プロファイルにユーザーを追加する必要があります。
 
-例えば、「fac-test」という名前の新しいサンドボックスがアクティブ化されると、対応する製品プロファイル「ACP_FAC - fac-test - admin」が作成されます。 このサンドボックスで Federated Audience Composition にアクセスするには、ユーザーをこの製品プロファイルに追加する必要があります。
+例えば、「fac-test」という名前の新しいサンドボックスをアクティブ化すると、対応する製品プロファイル「ACP_FAC - fac-test - admin」が作成されます。このサンドボックスで連合オーディエンス構成にアクセスするには、ユーザーをこの製品プロファイルに追加する必要があります。
 
-## IP の許可リストへの登録 {#ip}
+## IP 許可リスト {#ip}
 
-Federated Audience Composition がデータベースに安全にアクセスできるようにするには、Adobe担当者に連絡して、データベースにアクセスする Federated Audience Composition サーバーの IP アドレスを取得してください。
+連合オーディエンス構成でデータベースに安全にアクセスできるようにするには、アドビ担当者に連絡して、データベースにアクセスする連合オーディエンス構成サーバーの IP アドレスを取得してください。
 
-これらの IP アドレスを許可リストに追加して、Federated Audience Composition のアクセス権を付与します。
+連合オーディエンス構成のアクセス権を付与するには、これらの IP アドレスを許可リストに追加します。
 
 ## ガードレールと制限 {#fac-guardrails}
 
-* Federated Audience Composition は、現在、お客様 [ 正常性データを取り込んでいるお客様 ](https://experienceleague.adobe.com/ja/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"} およびAdobe Journey Optimizer Privacy and Security Shield のお客様は利用できません。 [詳細情報](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences){target="_blank"}。
+* 連合オーディエンス構成は現在、[ヘルスデータを取得](https://experienceleague.adobe.com/ja/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}するお客様と Adobe Journey Optimizer Privacy and Security Shield のお客様は使用できません。[詳細情報](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences){target="_blank"}。
 
 <!--
 * Federated Audience Composition is compatible with Privacy & Security Shield and can be used in all verticals except for healthcare industries. Currently, Federated Audience Composition cannot be licensed to customers looking to ingest health data. [Learn more](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}-->
 
-* [Adobe Real-time Customer Data Platform ドキュメントに記載されている使用権限、製品の制限事項、パフォーマンスガードレールは ](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/guardrails){target="_blank"} このアドオンに適用されます。
+* このアドオンに適用されるエンタイトルメント、製品の制限、パフォーマンスガードレールの一覧について詳しくは、[Adobe Real-time Customer Data Platform ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/guardrails){target="_blank"}を参照してください。

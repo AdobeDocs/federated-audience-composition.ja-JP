@@ -5,7 +5,7 @@ description: クエリモデラーで最初のクエリを作成する方法に�
 badge: label="限定提供" type="Informative"
 exl-id: abff07ef-2bc0-4e00-8957-4d59fc3bc938
 source-git-commit: 0efe4046cf30b4c447551c1cebbea0b4c2085a9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2068'
 ht-degree: 100%
 

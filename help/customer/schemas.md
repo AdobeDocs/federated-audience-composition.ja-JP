@@ -5,9 +5,9 @@ description: スキーマの開始方法について説明します
 badge: label="限定提供" type="Informative"
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
 source-git-commit: 91324185f91c552128774ad35e73c70b7cc33ac8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '451'
-ht-degree: 43%
+ht-degree: 100%
 
 ---
 
@@ -43,49 +43,49 @@ ht-degree: 43%
 
 スキーマは、データベースのテーブルの表現です。これは、データをデータベーステーブルに関連付ける方法を定義するアプリケーション内のオブジェクトです。
 
-スキーマを作成すると、Experience Platform Federated Audience Composition でテーブルの表現を定義できます。
+スキーマを作成することにより、Experience Platform 連合オーディエンス構成でテーブルの表現を定義できます。
 
 * ユーザーが理解しやすいように、わかりやすい名前と説明を指定します
-* 実際の用途に応じて、各フィールドの表示/非表示を決定します
+* 実際の用途に応じて各フィールドの表示を決定します
 * [データモデル](../data-management/gs-models.md#data-model-start)で必要に応じて、このプライマリキー間のスキーマをリンクするために、プライマリキーを選択します
 
 >[!CAUTION]
 >
->同じデータベースに複数のサンドボックスを接続する場合は、異なる作業スキーマを使用する必要があります。
+>複数のサンドボックスを同じデータベースに接続する際は、異なる作業スキーマを使用する必要があります。
 >
 
 ## スキーマの作成 {#schema-create}
 
-Federated Audience Composition でスキーマを作成するには、次の手順に従います。
+連合オーディエンス構成でスキーマを作成するには、次の手順に従います。
 
 1. 「**[!UICONTROL 連合データ]**」セクションで、**[!UICONTROL モデル]**&#x200B;リンクに移動します。「**[!UICONTROL スキーマ]**」タブを参照し、「**[!UICONTROL スキーマを作成]**」ボタンをクリックします。
 
    ![](assets/schema_create.png){zoomable="yes"}
 
-   この手順では、環境に接続されているデータベースを検索できるドロップダウンリストを含む新しい画面にアクセスできます。 データベース接続について詳しくは、[ この節 ](../connections/connections.md#connections-fdb) を参照してください。
+   この手順では、ドロップダウンリストを備えた新しい画面にアクセスして、環境に接続されているデータベースを検索できます。データベース接続について詳しくは、[この節](../connections/connections.md#connections-fdb)を参照してください。
 
-1. リストでソースデータベースを選択し、「**[!UICONTROL テーブルを追加]** タブをクリックします。
+1. リストでソースデータベースを選択し、「**[!UICONTROL テーブルを追加]**」タブをクリックします。
 
    ![](assets/schema_tables.png){zoomable="yes"}
 
-   データベース内のすべてのテーブルのリストが表示されます。
+   その後、データベース内のすべてのテーブルのリストが表示されます。
 
-1. スキーマを作成するテーブルを追加すると、次のようにフィールドにアクセスできます。
+1. スキーマを作成するテーブルを追加すると、以下のように、そのフィールドにアクセスできるようになります。
 
    ![](assets/schema_fields.png){zoomable="yes"}
 
    テーブルごとに、次の操作を実行できます。
 
-   * スキーマのラベルの変更
+   * スキーマのラベルを変更する
    * 説明を追加する
    * すべてのフィールドの名前を変更し、表示を設定する
    * スキーマのプライマリキーを選択する
 
-   例えば、以下のテーブルの場合、インポートはされます。
+   例えば、次のテーブルの場合、以下が読み込まれます。
 
    ![](assets/schema_lumaorder.png){zoomable="yes"}
 
-   スキーマは次のように定義できます。
+   スキーマは、次のように定義できます。
 
    ![](assets/schema_lumaorders.png){zoomable="yes"}
 
@@ -93,30 +93,30 @@ Federated Audience Composition でスキーマを作成するには、次の手�
 
 スキーマを編集するには：
 
-1. スキーマフォルダーでスキーマの名前をクリックします。
+1. スキーマフォルダー内のスキーマの名前をクリックします。
 
 1. 「**[!UICONTROL 編集]**」ボタンをクリックします。
 
    ![](assets/schema_edit.png){zoomable="yes"}
 
-   [ スキーマの作成 ](#schema-create) 時と同じオプションにアクセスできます。
+   [スキーマの作成](#schema-create)時と同じオプションにアクセスできます。
 
    ![](assets/schema_edit_orders.png){zoomable="yes"}
 
 ## スキーマ内のデータのプレビュー {#schema-preview}
 
-スキーマが表すテーブルのデータをプレビューするには、次のように「**[!UICONTROL データ]**」タブを参照します。
+スキーマで表現されたテーブル内のデータをプレビューするには、以下のように「**[!UICONTROL データ]**」タブを参照します。
 
-**[!UICONTROL 計算]** リンクをクリックして、録画の合計数をプレビューします。
+レコードの合計数をプレビューするには、**[!UICONTROL 計算]**&#x200B;リンクをクリックします。
 
 ![](assets/schema_data.png){zoomable="yes"}
 
-「**[!UICONTROL 列を設定]**」ボタンをクリックして、データの表示を変更します。
+データの表示を変更するには、「**[!UICONTROL 列を設定]**」ボタンをクリックします。
 
 ![](assets/schema_columns.png){zoomable="yes"}
 
 ## スキーマの削除 {#schema-delete}
 
-スキーマを削除するには、「**[!UICONTROL 詳細]**」ボタンをクリックして「**[!UICONTROL 削除]**」を選択します。
+スキーマを削除するには、「**[!UICONTROL その他]**」ボタンをクリックし、「**[!UICONTROL 削除]**」を選択します。
 
 ![](assets/schema_delete.png){zoomable="yes"}

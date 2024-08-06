@@ -5,9 +5,9 @@ description: 構成の作成方法について説明します
 badge: label="限定提供" type="Informative"
 exl-id: 861440ab-ce14-46aa-a215-b86fc9ffeef0
 source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '233'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 88%
 >title="構成プロパティ"
 >abstract="この画面では、構成の作成に使用するテンプレートを選択し、ラベルを指定します。「その他のオプション」セクションを展開して、構成の内部名、フォルダー、タイムゾーン、スーパーバイザーグループなどの詳細設定を行います。エラーが発生した場合にオペレーターに警告できるように、スーパーバイザーグループを選択することを強くお勧めします。"
 
-## コンポジションの内容 {#gs-composition-inside}
+## 構成の内容 {#gs-composition-inside}
 
-Experience PlatformFederated Audience Composition は、様々なアクティビティ（分割、エンリッチメントなど）を活用してオーディエンスを作成できる視覚的なキャンバスを提供します。
+Experience Platform 連合オーディエンス構成は、様々なアクティビティ（分割、強化など）を活用してオーディエンスを作成できる視覚的なキャンバスを提供します。
 
 構成ダイアグラムは、実行される処理を表したものです。これは、実行される様々なタスクと、タスク同士の関係を示すものです。
 
