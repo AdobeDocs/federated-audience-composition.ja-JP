@@ -5,7 +5,7 @@ description: 監査記録にアクションとイベントを記録して、ア�
 badge: label="限定提供" type="Informative"
 exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
 source-git-commit: 16599cc499b45ee8a293c923b9c26f85aa8e0b68
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '369'
 ht-degree: 100%
 
