@@ -4,10 +4,10 @@ title: 紐付けアクティビティの使用
 description: 紐付けアクティビティの使用方法について説明します
 badge: label="限定提供" type="Informative"
 exl-id: 933c3cba-9120-4a93-a668-866fb65ee197
-source-git-commit: 122bd469e04d72d2dac0f606c8ab4e195100d4a4
+source-git-commit: 682695357a9bd8f351b5152becd33088fa16f622
 workflow-type: tm+mt
 source-wordcount: '526'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 100%
 
 <!--For example, the **Reconciliation** activity can be placed after a **Load file** activity to import non-standard data into the database. In this case, the **Reconciliation** activity lets you define the link between the data in the Adobe Campaign database and the data in the work table.-->
 
-これにより、識別されていないデータを既存のリソースにリンクできます。紐付け操作を行うには、結合するデータが既にデータベース内に存在する必要があります。例えば、購入された製品、購入時間、製品を購入したクライアントなどを示す購入情報を紐付ける場合、製品とクライアントがデータベース内に既に存在している必要があります。
+これにより、識別されていないデータを既存のリソースにリンクできます。紐付け操作を行うには、結合するデータが既にデータベース内に存在する必要があります。例えば、購入された製品、時刻、クライアントなどを示す購入情報を調整する場合、製品とクライアントが既にデータベースに存在している必要があります。
 
 ## 紐付けアクティビティの設定 {#reconciliation-configuration}
 
@@ -64,7 +64,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_attribute"
 >title="紐付け属性"
->abstract="データの紐付けに使用する属性を選択し、確認します。"
+>abstract="データの紐付けに使用する属性を選択し、確定します。"
 
 **紐付け**&#x200B;アクティビティを設定するには、次の手順に従います。
 
@@ -87,7 +87,7 @@ ht-degree: 100%
 
       ![](../assets/reconciliation-advanced.png)
 
-1. 「**フィルターを作成**」ボタンを使用して、データをフィルタリングして紐付けできます。これにより、クエリモデラーを使用してカスタム条件を作成できます。
+1. 「**フィルターの作成** ボタンを使用して、データをフィルタリングして紐付けることができます。 これにより、クエリモデラーを使用してカスタム条件を作成できます。
 
 デフォルトでは、紐付けされていないデータは、アウトバウンドトランジションに保持され、後で使用するために作業用テーブルで使用できます。紐付けされていないデータを削除するには、「**紐付けされていないデータを保持**」オプションを非アクティブ化します。
 
