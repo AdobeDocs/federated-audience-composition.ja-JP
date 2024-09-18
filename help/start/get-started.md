@@ -1,20 +1,20 @@
 ---
 title: Experience Platform 連合オーディエンス構成の基本を学ぶ
-description: Adobe Federated Audience Composition の概要と Adobe Experience Platform での使用方法について説明します
+description: アドビの連合オーディエンス構成の概要と Adobe Experience Platform での使用方法について説明します
 badge: label="限定提供" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 2a3eb92ba6d7c24e9eec7f6ff978bf9a34be34ab
-workflow-type: ht
+source-git-commit: 59b1bf080e06cfc33ea54cd914479f8ec2e182a7
+workflow-type: tm+mt
 source-wordcount: '721'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
-# Federated Audience Composition の基本を学ぶ {#gs-fac}
+# 連合オーディエンス構成の基本を学ぶ {#gs-fac}
 
-連合オーディエンス構成は、[Adobe Real-time Customer Data Platform](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/home){target="_blank"} および [Adobe Journey Optimizer](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} のアドオン機能です。サードパーティのデータウェアハウスからオーディエンスを作成して強化し、そのオーディエンスを Adobe Experience Platform に読み込めるようにします。Federated Audience Composition は、Adobe Real-time Customer Data Platform や Adobe Journey Optimizer 内でエンタープライズデータウェアハウスを直接接続し、データウェアハウスのテーブルに対してクエリを実行するための簡単で強力なソリューションを提供します。
+連合オーディエンス構成は、[Adobe Real-time Customer Data Platform](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/home){target="_blank"} および [Adobe Journey Optimizer](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} のアドオン機能です。サードパーティのデータウェアハウスからオーディエンスを作成して強化し、そのオーディエンスを Adobe Experience Platform に読み込めるようにします。連合オーディエンス構成は、Adobe Real-time Customer Data Platform や Adobe Journey Optimizer 内でエンタープライズデータウェアハウスを直接接続し、データウェアハウスのテーブルに対してクエリを実行するための簡単で強力なソリューションを提供します。
 
-Adobe Federated Audience Composition は、Adobe Experience Platform アプリのユーザーが、Amazon Redshift、Azure Synapse Analytics などのデータウェアハウスやクラウドストレージプラットフォームに保存されている顧客データにアクセスするのに役立ちます。顧客データを複数のデータウェアハウスに保存し、複製せずに即座にアクセスできるようになります。サポートされているプラットフォームについては、[このページ](../connections/federated-db.md#supported-db)を参照してください。
+アドビの連合オーディエンス構成は、Adobe Experience Platform アプリのユーザーが、Amazon Redshift、Azure Synapse Analytics などのデータウェアハウスやクラウドストレージプラットフォームに保存されている顧客データにアクセスするのに役立ちます。顧客データを複数のデータウェアハウスに保存し、複製せずに即座にアクセスできるようになります。サポートされているプラットフォームについては、[このページ](../connections/federated-db.md#supported-db)を参照してください。
 
 ## 機能 {#rn-capabilities}
 
@@ -34,15 +34,15 @@ Adobe Federated Audience Composition は、Adobe Experience Platform アプリ�
 
 このバージョンでは、次の 2 つのユースケースが使用できます。
 
-1. オーディエンスの作成：基になるデータをコピーせずに、エンタープライズデータセットから新しいオーディエンスを作成し、事前に作成された宛先でこれらのオーディエンスをアクティブ化します。
+1. オーディエンスの作成：基になるデータをコピーせずにエンタープライズデータセットから新しいオーディエンスを作成し、事前に作成された宛先でこれらのオーディエンスをアクティブ化します。
 
 1. オーディエンスのエンリッチメント：エンタープライズデータウェアハウスから連合された構成済みオーディエンスデータを利用して、Adobe Experience Platform の既存のオーディエンスを強化します。このデータは、Adobe Experience Platform の顧客プロファイルには保存されません。
 
-![図](assets/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
+![図](assets/fac-use-cases-1.png){zoomable="yes"}{width="75%" align="center"}
 
 ## 主な手順 {#gs-steps}
 
-Adobe Federated Audience Composition を使用すると、取り込みプロセスなしで、データベースから直接 Adobe Experience Platform オーディエンスを作成および更新できます。
+アドビの連合オーディエンス構成を使用すると、取り込みプロセスなしで、データベースから直接 Adobe Experience Platform オーディエンスを作成および更新できます。
 
 <!--![diagram](assets/steps-diagram.png){zoomable="yes"}{width="85%" align="center"}-->
 
@@ -50,11 +50,11 @@ Adobe Federated Audience Composition を使用すると、取り込みプロセ�
 
 1. **データ統合**：様々なソースからデータを統合し、統合されたデータセットに結合します。Adobe Experience Platform アプリとエンタープライズデータウェアハウスを接続する方法、サポートされているデータベース、およびこれらの設定方法について詳しくは、[この節](../connections/federated-db.md)を参照してください。
 
-2. **データモデリング**：データの構造、関係、制約を定義するデータモデルとスキーマをデザインおよび作成します。スキーマについて詳しくは、[このページ](../customer/schemas.md)を参照してください。データモデルのリンクを作成する方法については、[このページ](../data-management/gs-models.md)を参照してください。
+1. **データモデリング**：データの構造、関係、制約を定義するデータモデルとスキーマをデザインおよび作成します。スキーマについて詳しくは、[このページ](../customer/schemas.md)を参照してください。データモデルのリンクを作成する方法については、[このページ](../data-management/gs-models.md)を参照してください。
 
-3. **データ変換**：データ操作テクニックを適用して、データ要素の形式、構造、値を変更し、特定の分析やアプリケーションに対して互換性を持たせたり、適合させたりします。
+1. **データ変換**：データ操作テクニックを適用して、データ要素の形式、構造、値を変更し、特定の分析やアプリケーションに対して互換性を持たせたり、適合させたりします。
 
-4. **データ使用**：オーディエンスを作成、調整および構築します。オーディエンスの構成方法については、[このページ](../compositions/gs-compositions.md)を参照してください。また、Adobe Experience Platform オーディエンスポータルと宛先を通じて、既存のオーディエンスを更新または再利用することもできます。詳しくは、[このページ](../connections/destinations.md)を参照してください。
+1. **データ使用**：オーディエンスを作成、調整および構築します。オーディエンスの構成方法については、[このページ](../compositions/gs-compositions.md)を参照してください。また、Adobe Experience Platform オーディエンスポータルと宛先を通じて、既存のオーディエンスを更新または再利用することもできます。詳しくは、[このページ](../connections/destinations.md)を参照してください。
 
 >[!NOTE]
 >
