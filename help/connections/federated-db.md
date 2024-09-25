@@ -4,10 +4,10 @@ title: 連合データベースの設定
 description: 連合データベースの設定方法について説明します
 badge: label="限定提供" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 4b219827212351fd0cb0d604251014ab74a4d94b
+source-git-commit: 47d10997c7701611bbba533dfe7553a7bdc41e02
 workflow-type: tm+mt
-source-wordcount: '1621'
-ht-degree: 99%
+source-wordcount: '1622'
+ht-degree: 97%
 
 ---
 
@@ -37,7 +37,7 @@ Experience Platform 連合オーディエンス構成を使用すると、お客
 連合オーディエンス構成を使用すると、次のデータベースに接続できます。各データベースの設定について詳しくは、以下を参照してください。
 
 * [Amazon Redshift](#amazon-redshift)
-* [Azure Synapse](#azure-synapse-redshift)
+* [Azure Synapse Analytics](#azure-synapse)
 * [Google BigQuery](#google-big-query)
 * [Snowflake](#snowflake)
 * [Vertica Analytics](#vertica-analytics)
@@ -82,9 +82,9 @@ Experience Platform 連合オーディエンス構成を使用すると、お客
 
 1. 設定が完了したら、「**[!UICONTROL 追加]**」をクリックして、連合データベースを作成します。
 
-## Azure Synapse Redshift {#azure-synapse-redshift}
+## Azure Synapse Analytics {#azure-synapse}
 
-連合データベースを使用して、外部データベースに保存されている情報を処理します。Azure Synapse Redshift へのアクセスを設定するには、次の手順に従います。
+連合データベースを使用して、外部データベースに保存されている情報を処理します。azure synapse分析へのアクセスを設定するには、次の手順に従います。
 
 1. **[!UICONTROL 連合データ]**&#x200B;メニューで、「**[!UICONTROL 連合データベース]**」を選択します。
 
@@ -94,11 +94,11 @@ Experience Platform 連合オーディエンス構成を使用すると、お客
 
 1. 連合データベースに&#x200B;**[!UICONTROL 名前]**&#x200B;を入力します。
 
-1. **[!UICONTROL タイプ]**&#x200B;ドロップダウンから、「Azure Synapse Redshift」を選択します。
+1. **[!UICONTROL タイプ]** ドロップダウンから、「Azure synapse分析」を選択します。
 
    ![](assets/federated_database_4.png)
 
-1. Azure Synapse Redshift の認証設定を指定します。
+1. azure synapseの Analytics 認証を設定します。
 
    * **[!UICONTROL サーバー]**：Azure Synapse サーバーの URL を入力します。
 
