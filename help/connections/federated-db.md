@@ -5,9 +5,9 @@ description: 連合データベースの設定方法について説明します
 badge: label="限定提供" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 source-git-commit: 47d10997c7701611bbba533dfe7553a7bdc41e02
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1622'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -84,7 +84,7 @@ Experience Platform 連合オーディエンス構成を使用すると、お客
 
 ## Azure Synapse Analytics {#azure-synapse}
 
-連合データベースを使用して、外部データベースに保存されている情報を処理します。azure synapse分析へのアクセスを設定するには、次の手順に従います。
+連合データベースを使用して、外部データベースに保存されている情報を処理します。Azure Synapse Analytics へのアクセスを設定するには、次の手順に従います。
 
 1. **[!UICONTROL 連合データ]**&#x200B;メニューで、「**[!UICONTROL 連合データベース]**」を選択します。
 
@@ -94,11 +94,11 @@ Experience Platform 連合オーディエンス構成を使用すると、お客
 
 1. 連合データベースに&#x200B;**[!UICONTROL 名前]**&#x200B;を入力します。
 
-1. **[!UICONTROL タイプ]** ドロップダウンから、「Azure synapse分析」を選択します。
+1. **[!UICONTROL タイプ]**&#x200B;ドロップダウンから、「Azure Synapse Analytics」を選択します。
 
    ![](assets/federated_database_4.png)
 
-1. azure synapseの Analytics 認証を設定します。
+1. Azure Synapse Analytics の認証設定を指定します。
 
    * **[!UICONTROL サーバー]**：Azure Synapse サーバーの URL を入力します。
 
@@ -141,7 +141,7 @@ Experience Platform 連合オーディエンス構成を使用すると、お客
 
    * **[!UICONTROL サービスアカウント]**：**[!UICONTROL サービスアカウント]**&#x200B;のメールアドレスを入力します。詳しくは、[Google Cloud ドキュメント](https://cloud.google.com/iam/docs/creating-managing-service-accounts){target="_blank"}を参照してください。
 
-   * **[!UICONTROL プロジェクト]**: **[!UICONTROL プロジェクト]** の ID を入力します。 詳しくは、[Google Cloud ドキュメント](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}を参照してください。
+   * **[!UICONTROL プロジェクト]**：**[!UICONTROL プロジェクト]**&#x200B;の ID を入力します。詳しくは、[Google Cloud ドキュメント](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}を参照してください。
 
    * **[!UICONTROL データセット]**：**[!UICONTROL データセット]**&#x200B;の名前を入力します。詳しくは、[Google Cloud ドキュメント](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}を参照してください。
 
