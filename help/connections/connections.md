@@ -1,13 +1,13 @@
 ---
 audience: end-user
-title: 連合データベースとの接続の作成および管理
-description: 連合データベースとの接続を作成および管理する方法について説明します
+title: フェデレーション データベースとの接続を作成および管理します
+description: フェデレーション データベースとの接続を作成および管理する方法を説明します
 badge: label="限定提供" type="Informative"
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
-workflow-type: ht
+source-git-commit: c2d4ec21f497a1c4ad9c1701b4283edd16ca0611
+workflow-type: tm+mt
 source-wordcount: '220'
-ht-degree: 100%
+ht-degree: 81%
 
 ---
 
@@ -21,7 +21,7 @@ Experience Platform 連合オーディエンス構成を使用すると、お客
 
 1. 左側のパネルの「**[!UICONTROL 連合データ]**」セクションを参照します。
 
-1. **[!UICONTROL 連合データベース]**&#x200B;リンクで、「**[!UICONTROL 連合データベースを追加]**」ボタンをクリックします。
+1. **[!UICONTROL 連合データベース]** リンクで、「**[!UICONTROL 連合データベースを追加]**」ボタンをクリックします。
 
    ![](assets/connections_list.png){zoomable="yes"}
 
@@ -47,6 +47,6 @@ Experience Platform 連合オーディエンス構成を使用すると、お客
 
    ![](assets/connections_testdeploy.png){zoomable="yes"}
 
-   次に示すように、連合データベース接続の概要が表示されます。
+   次に示すように、フェデレーテッド データベース接続の概要が表示されます。
 
    ![](assets/connections_overview.png){zoomable="yes"}

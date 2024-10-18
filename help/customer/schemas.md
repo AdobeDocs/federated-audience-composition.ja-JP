@@ -4,10 +4,10 @@ title: スキーマの基本を学ぶ
 description: スキーマの開始方法について説明します
 badge: label="限定提供" type="Informative"
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: 91324185f91c552128774ad35e73c70b7cc33ac8
-workflow-type: ht
+source-git-commit: c2d4ec21f497a1c4ad9c1701b4283edd16ca0611
+workflow-type: tm+mt
 source-wordcount: '451'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="dc_schema_filter_sources"
 >title="フィルタリングするソースデータベースの選択"
->abstract="ソースに基づいてスキーマをフィルタリングできます。 1 つまたは複数の連合データベースを選択して、このスキーマを表示します。"
+>abstract="ソースに基づいてスキーマをフィルタリングできます。 1 つまたは複数の連合データベースを選択して、そのスキーマを表示します。"
 
 ## スキーマとは {#schema-start}
 

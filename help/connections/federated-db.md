@@ -4,10 +4,10 @@ title: 連合データベースの設定
 description: 連合データベースの設定方法について説明します
 badge: label="限定提供" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 47d10997c7701611bbba533dfe7553a7bdc41e02
-workflow-type: ht
+source-git-commit: c2d4ec21f497a1c4ad9c1701b4283edd16ca0611
+workflow-type: tm+mt
 source-wordcount: '1622'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -21,12 +21,12 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_properties"
 >title="連合データベースのプロパティ"
->abstract="新しい連合データベースの名前を入力し、このタイプを選択します。"
+>abstract="新しい連合データベースの名前を入力し、そのタイプを選択します。"
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_details"
 >title="連合データベースの詳細"
->abstract="新しい連合データベースに接続するための設定を入力します。 「**[!UICONTROL 接続をテスト]**」ボタンを使用して、設定を検証します。"
+>abstract="新しいフェデレーション データベースに接続するための設定を入力します。 「**[!UICONTROL 接続をテスト]**」ボタンを使用して、設定を検証します。"
 
 Experience Platform 連合オーディエンス構成を使用すると、お客様はサードパーティのデータウェアハウスからオーディエンスを作成して強化し、このオーディエンスを Adobe Experience Platform に読み込むことができます。
 
