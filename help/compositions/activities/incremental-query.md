@@ -4,29 +4,16 @@ title: 増分クエリアクティビティの使用
 description: 増分クエリアクティビティの使用方法について説明します
 hide: true
 hidefromtoc: true
-source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
+source-git-commit: 34d6fc8f97c491fcb91eebf8e1377018e5020a4a
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '546'
 ht-degree: 100%
 
 ---
 
 # 増分クエリ {#incremental-query}
 
->[!CONTEXTUALHELP]
->id="dc_orchestration_incrementalquery"
->title="増分クエリ"
->abstract="「**増分クエリ**」アクティビティを使用すると、クエリモデラーを使用してデータベースにクエリを実行できます。 このアクティビティが実行されるたびに、以前の実行結果が除外されます。 これにより、新しい要素だけをターゲットにすることができます。"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_incrementalquery_history"
->title="増分処理クエリ履歴"
->abstract="増分処理クエリ履歴"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_incrementalquery_processeddata"
->title="増分クエリの処理済みデータ"
->abstract="増分クエリの処理済みデータ"
+<!-- Warning : contextual help IDs are declared in /start/get-started.md-->
 
 **増分クエリ**&#x200B;アクティビティを使用すると、スケジュールに基づいてデータベースに対してクエリを実行できます。このアクティビティが実行されるたびに、以前の実行結果が除外されます。 これにより、新しい要素だけをターゲットにすることができます。
 

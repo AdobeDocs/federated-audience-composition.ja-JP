@@ -3,10 +3,10 @@ title: Experience Platform 連合オーディエンス構成の基本を学ぶ
 description: アドビの連合オーディエンス構成の概要と Adobe Experience Platform での使用方法について説明します
 badge: label="限定提供" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 8b67aa9258b05a6ca239dd54ebb10273826ea550
-workflow-type: ht
-source-wordcount: '721'
-ht-degree: 100%
+source-git-commit: 34d6fc8f97c491fcb91eebf8e1377018e5020a4a
+workflow-type: tm+mt
+source-wordcount: '887'
+ht-degree: 92%
 
 ---
 
@@ -86,3 +86,36 @@ ht-degree: 100%
 >id="dc_federated_database_create_link"
 >title="リンクの作成"
 >abstract="リンク設定を定義します。"
+
+
+<!-- incremental query IDs -->
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_incrementalquery"
+>title="増分クエリ"
+>abstract="「**増分クエリ**」アクティビティを使用すると、クエリモデラーを使用してデータベースにクエリを実行できます。 このアクティビティが実行されるたびに、以前の実行結果が除外されます。 これにより、新しい要素だけをターゲットにすることができます。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_incrementalquery_history"
+>title="増分処理クエリ履歴"
+>abstract="増分処理クエリ履歴"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_incrementalquery_processeddata"
+>title="増分クエリの処理済みデータ"
+>abstract="増分クエリの処理済みデータ"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_incrementalmode_standard"
+>title="増分クエリモード"
+>abstract="増分処理クエリを使用すると、新しい実行ごとに以前の実行結果を除外することで、同じクエリを複数回実行できます。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_incrementalmode_custom"
+>title="増分クエリモード"
+>abstract="増分クエリでは、日付フィールドが増分クエリアクティビティの最終実行日以降である結果のみを考慮に入れて、同じクエリを複数回実行できます。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_build_audience_dimension"
+>title="ターゲティングディメンションの選択"
+>abstract="ターゲティングディメンションは、受信者、契約の受益者、オペレーター、サブスクライバーなど、ターゲットされる母集団を操作ごとに定義します。デフォルトでは、メールと SMS の場合、ターゲットは受信者ビルトインテーブルから選択されます。プッシュ通知の場合、デフォルトのターゲットディメンションはサブスクライバーのアプリケーションです。"
