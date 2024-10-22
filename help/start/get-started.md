@@ -3,10 +3,10 @@ title: Experience Platform 連合オーディエンス構成の基本を学ぶ
 description: アドビの連合オーディエンス構成の概要と Adobe Experience Platform での使用方法について説明します
 badge: label="限定提供" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 34d6fc8f97c491fcb91eebf8e1377018e5020a4a
+source-git-commit: ce9539fe32ace4a3c35ab6f14f10100f5a7a1a4d
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 92%
+source-wordcount: '933'
+ht-degree: 87%
 
 ---
 
@@ -119,3 +119,31 @@ ht-degree: 92%
 >id="dc_orchestration_build_audience_dimension"
 >title="ターゲティングディメンションの選択"
 >abstract="ターゲティングディメンションは、受信者、契約の受益者、オペレーター、サブスクライバーなど、ターゲットされる母集団を操作ごとに定義します。デフォルトでは、メールと SMS の場合、ターゲットは受信者ビルトインテーブルから選択されます。プッシュ通知の場合、デフォルトのターゲットディメンションはサブスクライバーのアプリケーションです。"
+
+
+<!-- save profile IDs-->
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile"
+>title="プロファイルを保存"
+>abstract="プロファイルを保存"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_selectaepschema"
+>title="プロファイルを保存して AEP スキーマを選択"
+>abstract="プロファイルを保存して AEP スキーマを選択"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_aepschemalist"
+>title="プロファイル AEP スキーマリストの保存"
+>abstract="プロファイル AEP スキーマリストの保存"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_selectaepattribute"
+>title="プロファイル AEP スキーマ属性を保存"
+>abstract="プロファイル AEP スキーマ属性を保存"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_selectprimaryfield"
+>title="プロファイルを保存プライマリの特定フィールドを選択"
+>abstract="プロファイルを保存プライマリの特定フィールドを選択"
