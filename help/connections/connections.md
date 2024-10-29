@@ -4,9 +4,9 @@ title: フェデレーション データベースとの接続を作成および
 description: フェデレーション データベースとの接続を作成および管理する方法を説明します
 badge: label="限定提供" type="Informative"
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: c2d4ec21f497a1c4ad9c1701b4283edd16ca0611
+source-git-commit: 6191b9849200723d00398644d038af5b082e7964
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '221'
 ht-degree: 81%
 
 ---
@@ -40,12 +40,13 @@ Experience Platform 連合オーディエンス構成を使用すると、お客
    * [Google BigQuery](federated-db.md#google-big-query)
    * [Snowflake](federated-db.md#snowflake)
    * [Vertica Analytics](federated-db.md#vertica-analytics)
+   * [Databricks](federated-db.md#databricks)
 
 1. 詳細を入力したら、「**[!UICONTROL 接続をテスト]**」ボタンと「**[!UICONTROL 関数をデプロイ]**」ボタンをクリックします。
 
-1. 「**[!UICONTROL 終了]**」ボタンをクリックして、接続の作成を完了します。
-
    ![](assets/connections_testdeploy.png){zoomable="yes"}
+
+1. 「**[!UICONTROL 終了]**」ボタンをクリックして、接続の作成を完了します。
 
    次に示すように、フェデレーテッド データベース接続の概要が表示されます。
 

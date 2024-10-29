@@ -4,10 +4,10 @@ title: オーディエンスを保存アクティビティの使用
 description: オーディエンスを保存アクティビティの使用方法について説明します
 badge: label="限定提供" type="Informative"
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
-workflow-type: ht
-source-wordcount: '462'
-ht-degree: 100%
+source-git-commit: 62c6eac92bf5817840f55d9b4e981abd6c42ebaa
+workflow-type: tm+mt
+source-wordcount: '475'
+ht-degree: 97%
 
 ---
 
@@ -38,6 +38,10 @@ ht-degree: 100%
 **オーディエンスを保存**&#x200B;アクティビティは、構成のアップストリームで計算された母集団から新しいオーディエンスを作成します。作成したオーディエンスは Adobe Experience Platform オーディエンスのリストに追加され、**オーディエンス**&#x200B;メニューから使用できるようになります。[詳しくは、オーディエンスの操作方法を参照してください](../../start/audiences.md)
 
 このアクティビティは基本的に、同じ構成で計算された母集団グループを再利用可能なオーディエンスに変換することで、このグループを維持するために使用されます。**オーディエンスを作成**&#x200B;アクティビティや&#x200B;**結合**&#x200B;アクティビティなどの他のターゲティングアクティビティに接続します。
+
+>[!IMPORTANT]
+>
+>**オーディエンスを保存** アクティビティには、プロファイル対応のスキーマとデータセットが必要です。 [詳細情報](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}。
 
 ## オーディエンスを保存アクティビティの設定 {#save-audience-configuration}
 

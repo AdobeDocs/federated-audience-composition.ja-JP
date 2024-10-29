@@ -3,16 +3,48 @@ title: Experience Platform 連合オーディエンス構成の新機能
 description: 最新の更新内容とリリースノート
 badge: label="限定提供" type="Informative"
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
-workflow-type: ht
-source-wordcount: '188'
-ht-degree: 100%
+source-git-commit: 61a70f9de0a6cf171a2ff1128b57ae6206be842c
+workflow-type: tm+mt
+source-wordcount: '442'
+ht-degree: 53%
 
 ---
 
 # リリースノート {#rn-new}
 
-## 連合オーディエンス構成（限定的に利用可能） {#fac-la}
+[!DNL Federated Audience Composition] は、新機能、既存機能の強化、およびバグ修正を継続的に提供します。これらのリリースノートでは、すべての変更がまとめられています。 [!DNL Federated Audience Composition] が [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。以下の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target="_blank"}を参照してください。
+
+## 2024 年 10 月リリース {#fac-24-10}
+
+### 互換性 {#fac-24-10-compat}
+
+この新しいリリースで、Federated Audience Composition は、以下に示すシステムと互換性を持つようになりました。
+
+* **Databricks のサポート**
+
+  Federated Audience Composition を使用して、Databricks データベースへの接続を確立できるようになりました。 [詳細情報](../connections/federated-db.md#databricks)
+
+* **AWS PrivateLink によるSnowflakeへの安全なアクセスのサポート**
+
+  プライベートリンクを介した外部Snowflakeデータウェアハウスへの安全なアクセスがサポートされるようになりました。 Snowflakeアカウントは、Amazon Web Services（AWS）でホストされ、Federated Audience Composition 環境と同じリージョンに配置されている必要があります。 Snowflakeアカウントへの安全なアクセスの設定については、Adobe担当者にお問い合わせください。 [詳細情報](../connections/federated-db.md#snowflake)
+
+* **Amazon Redshift サーバーレスのサポート**
+
+  この新しいリリースでは、Federated Audience Composition は、[Amazon Redshift サーバーレス ](https://aws.amazon.com/redshift/redshift-serverless/){target="_blank"} をサポートしています。
+
+### 機能強化 {#fac-24-10-improvements}
+
+このリリースでは、以下に示す機能強化が含まれています。
+
+* **既存のスキーマを更新**
+
+  連合データベースで列を作成、変更、削除する際に、対応するスキーマの「**[!UICONTROL スキーマを更新]**」ボタンをクリックして、変更を検出し、適用できるようになりました。 [詳細情報](../customer/schemas.md#schema-refresh)
+
+* **データモデルと新しいコンポジションの関連付け**
+
+  コンポジションを作成する際に、コンポジションに関連付けるデータモデルを選択できるようになりました。 この新しいオプションを使用すると、関連するデータモデルのテーブルのみが使用可能になるので、アクティビティの設定が容易になります。 [詳細情報](../compositions/create-composition.md)
+
+## 2024 年 7 月リリース - Federated Audience Composition （LA） {#fac-la}
 
 >[!AVAILABILITY]
 >

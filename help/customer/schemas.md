@@ -4,10 +4,10 @@ title: スキーマの基本を学ぶ
 description: スキーマの開始方法について説明します
 badge: label="限定提供" type="Informative"
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: c2d4ec21f497a1c4ad9c1701b4283edd16ca0611
+source-git-commit: 25a60847484aae0cb0dc8441e5dcc7968f8c1615
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 97%
+source-wordcount: '515'
+ht-degree: 84%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="dc_schema_filter_sources"
 >title="フィルタリングするソースデータベースの選択"
->abstract="ソースに基づいてスキーマをフィルタリングできます。 1 つまたは複数の連合データベースを選択して、そのスキーマを表示します。"
+>abstract="ソースに基づいてスキーマをフィルタリングできます。 1 つまたは複数の連合データベースを選択して、このスキーマを表示します。"
 
 ## スキーマとは {#schema-start}
 
@@ -91,9 +91,9 @@ ht-degree: 97%
 
 ## スキーマの編集 {#schema-edit}
 
-スキーマを編集するには：
+スキーマを編集するには、次の手順に従います。
 
-1. スキーマフォルダー内のスキーマの名前をクリックします。
+1. リストでスキーマの名前をクリックします。
 
 1. 「**[!UICONTROL 編集]**」ボタンをクリックします。
 
@@ -102,6 +102,7 @@ ht-degree: 97%
    [スキーマの作成](#schema-create)時と同じオプションにアクセスできます。
 
    ![](assets/schema_edit_orders.png){zoomable="yes"}
+
 
 ## スキーマ内のデータのプレビュー {#schema-preview}
 
@@ -114,6 +115,16 @@ ht-degree: 97%
 データの表示を変更するには、「**[!UICONTROL 列を設定]**」ボタンをクリックします。
 
 ![](assets/schema_columns.png){zoomable="yes"}
+
+
+## スキーマの更新 {#schema-refresh}
+
+連合データベース内のテーブルは、更新、追加、削除できます。 その場合、最新の変更内容に合わせてAdobe Experience Platformのスキーマを更新する必要があります。 これを実行するには、更新するスキーマの名前の横にある 3 ドットアイコンをクリックし、「**スキーマを更新**」を選択します。
+
+編集時にスキーマ定義を更新することもできます。
+
+![](assets/schema_refresh.png){zoomable="yes"}
+
 
 ## スキーマの削除 {#schema-delete}
 

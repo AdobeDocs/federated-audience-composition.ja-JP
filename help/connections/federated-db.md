@@ -4,10 +4,10 @@ title: 連合データベースの設定
 description: 連合データベースの設定方法について説明します
 badge: label="限定提供" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: c2d4ec21f497a1c4ad9c1701b4283edd16ca0611
+source-git-commit: e52ab57e2e7fca91006e51973a759642ead5734f
 workflow-type: tm+mt
-source-wordcount: '1622'
-ht-degree: 98%
+source-wordcount: '1897'
+ht-degree: 93%
 
 ---
 
@@ -21,12 +21,12 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_properties"
 >title="連合データベースのプロパティ"
->abstract="新しい連合データベースの名前を入力し、そのタイプを選択します。"
+>abstract="新しい連合データベースの名前を入力し、このタイプを選択します。"
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_details"
 >title="連合データベースの詳細"
->abstract="新しいフェデレーション データベースに接続するための設定を入力します。 「**[!UICONTROL 接続をテスト]**」ボタンを使用して、設定を検証します。"
+>abstract="新しい連合データベースに接続するための設定を入力します。「**[!UICONTROL 接続をテスト]**」ボタンを使用して、設定を検証します。"
 
 Experience Platform 連合オーディエンス構成を使用すると、お客様はサードパーティのデータウェアハウスからオーディエンスを作成して強化し、このオーディエンスを Adobe Experience Platform に読み込むことができます。
 
@@ -41,6 +41,7 @@ Experience Platform 連合オーディエンス構成を使用すると、お客
 * [Google BigQuery](#google-big-query)
 * [Snowflake](#snowflake)
 * [Vertica Analytics](#vertica-analytics)
+* [Databricks](#databricks)
 
 ## Amazon Redshift {#amazon-redshift}
 
@@ -120,7 +121,6 @@ Experience Platform 連合オーディエンス構成を使用すると、お客
 |---|---|
 | 認証 | コネクタでサポートされている認証のタイプ。現在サポートされている値：ActiveDirectoryMSI。詳しくは、[Microsoft SQL ドキュメント](https://learn.microsoft.com/ja-jp/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"}（接続文字列 n°8 の例）を参照してください |
 
-
 ## Google BigQuery {#google-big-query}
 
 連合データベースを使用して、外部データベースに保存されている情報を処理します。Google BigQuery へのアクセスを設定するには、次の手順に従います。
@@ -167,8 +167,12 @@ Experience Platform 連合オーディエンス構成を使用すると、お客
 | GCloudDefaultConfigName | これは、リリース 7.3.4 以降に適用され、一括読み込みツール（Cloud SDK）にのみ適用されます。</br> アクティブな Google Cloud SDK 設定は、最初にアクティブなタグを新しい設定に転送しないと、削除できません。データを読み込む主な設定を再作成するには、この一時的な設定が必要です。一時設定のデフォルト名は `default` です。これは必要に応じて変更できます。 |
 | GCloudRecreateConfig | これは、リリース 7.3.4 以降に適用され、一括読み込みツール（Cloud SDK）にのみ適用されます。</br> `false` に設定すると、一括読み込みメカニズムは、Google Cloud SDK 設定の再作成、削除、変更を試みません。代わりに、マシン上の既存の設定を使用してデータの読み込みを続行します。この機能は、他の操作が Google Cloud SDK 設定に依存している場合に役立ちます。</br> 適切な設定を行わないで、このエンジンオプションを有効にすると、一括読み込みメカニズムは警告メッセージ `No active configuration found. Please either create it manually or remove the GCloudRecreateConfig option` を表示します。これ以上のエラーを防ぐには、デフォルトの ODBC 配列の挿入一括読み込みメカニズムの使用に戻ります。 |
 
-
 ## Snowflake {#snowflake}
+
+>[!NOTE]
+>
+>プライベートリンクを介した外部Snowflakeデータウェアハウスへの安全なアクセスがサポートされています。 Snowflakeアカウントは、Amazon Web Services（AWS）でホストされ、Federated Audience Composition 環境と同じリージョンに配置されている必要があります。 Snowflakeアカウントへの安全なアクセスの設定については、Adobe担当者にお問い合わせください。
+>
 
 連合データベースを使用して、外部データベースに保存されている情報を処理します。Snowflake へのアクセスを設定するには、次の手順に従います。
 
@@ -225,7 +229,6 @@ Experience Platform 連合オーディエンス構成を使用すると、お客
 | chunkSize | バルクローダーチャンクのファイルサイズを決定します。デフォルトでは 128 MB に設定されています。bulkThreads と共に使用する場合は、より最適なパフォーマンスが得られるように変更できます。同時にアクティブなスレッドが多いほど、パフォーマンスが向上します。<br>詳しくは、[Snowflake ドキュメント](https://docs.snowflake.net/manuals/sql-reference/sql/put.html)を参照してください{target="_blank"}。 |
 | StageName | 事前プロビジョニングされた内部ステージの名前です。新しい一時ステージを作成する代わりに、一括読み込みで使用されます。 |
 
-
 ## Vertica Analytics {#vertica-analytics}
 
 連合データベースを使用して、外部データベースに保存されている情報を処理します。Vertica Analytics へのアクセスを設定するには、次の手順に従います。
@@ -273,3 +276,94 @@ Experience Platform 連合オーディエンス構成を使用すると、お客
 | オプション | 説明 |
 |---|---|
 | TimeZoneName | デフォルトでは空で、アプリサーバーのシステムのタイムゾーンが使用されます。このオプションは、TIMEZONE セッションパラメーターを強制的に指定するために使用できます。 |
+
+## Databricks {#databricks}
+
+連合データベースを使用して、外部データベースに保存されている情報を処理します。Databricks へのアクセスを設定するには、次の手順に従います。
+
+1. **[!UICONTROL 連合データ]**&#x200B;メニューで、「**[!UICONTROL 連合データベース]**」を選択します。
+
+1. 「**[!UICONTROL 連合データベースを追加]**」をクリックします。
+
+   ![](assets/federated_database_1.png)
+
+1. 連合データベースに&#x200B;**[!UICONTROL 名前]**&#x200B;を入力します。
+
+1. 「**[!UICONTROL タイプ]**」ドロップダウンから「Databricks」を選択します。
+
+   ![](assets/databricks-config.png)
+
+1. Databricks 認証設定を構成します。
+
+   * **[!UICONTROL サーバー]**:Databricks サーバーの名前を追加します。
+
+   * **[!UICONTROL HTTP パス]**：クラスターまたはウェアハウスへのパスを追加します。 [詳細情報](https://docs.databricks.com/en/integrations/compute-details.html){target="_blank"}
+
+   * **[!UICONTROL パスワード]**：アカウントアクセストークンを追加します。 [詳細情報](https://docs.databricks.com/en/dev-tools/auth/pat.html){target="_blank"}
+
+   * **[!UICONTROL カタログ]**:Databricks カタログのフィールドを追加します。
+
+   * **[!UICONTROL 作業用スキーマ]**：作業用テーブルに使用するデータベーススキーマの名前。
+
+     >[!NOTE]
+     >
+     >このスキーマへの接続に必要な権限がある限り、一時的なデータ処理に使用するスキーマを含む、データベースの任意のスキーマを使用できます。
+     >
+     >複数のサンドボックスを同じデータベースに接続する際は、**異なる作業スキーマ**&#x200B;を使用する必要があります。
+
+   * **[!UICONTROL オプション]**：コネクタは、以下の表で説明するオプションをサポートします。
+
+1. 「**[!UICONTROL 接続をテスト]**」オプションを選択して、設定を検証します。
+
+1. 「**[!UICONTROL 関数をデプロイ]**」ボタンをクリックして、関数を作成します。
+
+1. 設定が完了したら、「**[!UICONTROL 追加]**」をクリックして、連合データベースを作成します。
+
+コネクタは、次のオプションをサポートしています。
+
+| オプション | 説明 |
+|---|---|
+| TimeZoneName | デフォルトでは空で、アプリサーバーのシステムのタイムゾーンが使用されます。このオプションは、TIMEZONE セッションパラメーターを強制的に指定するために使用できます。 |
+
+<!--Not for October release
+
+## Microsoft Fabric (LA){#microsoft-fabric}
+
+>[!AVAILABILITY]
+>
+>Microsoft Fabric is currently only available for a set of organizations (Limited Availability).
+
+Use Federated databases to process information stored in an external database. Follow the steps below to configure access to Microsoft Fabric.
+
+1. Under the **[!UICONTROL Federated data]** menu, select **[!UICONTROL Federated databases]**.
+
+1. Click **[!UICONTROL Add federated database]**.
+
+    ![](assets/federated_database_1.png)
+
+1. Enter a **[!UICONTROL Name]** to your Federate database.
+
+1. From the **[!UICONTROL Type]** drop-down, select Microsoft Fabric.
+
+    ![](assets/microsoft-config.png)
+
+1. Configure the Microsoft Fabric authentication settings:
+
+    * **[!UICONTROL Server]**: Enter the URL of the Microsoft Fabric server.
+
+    * **[!UICONTROL Application ID]**: Enter your Microsoft Fabric Application ID.
+
+    * **[!UICONTROL Client secret]**: Enter your Client secret.
+
+    * **[!UICONTROL Options]**: The connector supports the options detailed in the table below.
+
+1. Select the **[!UICONTROL Test the connection]** option to verify your configuration.
+
+1. Click **[!UICONTROL Deploy functions]** button to create the functions.
+
+1. Once your configuration is done, click **[!UICONTROL Add]** to create your Federate database.
+
+| Option   |  Description |
+|---|---|
+| Authentication | Type of authentication supported by the connector. Current supported value: ActiveDirectoryMSI. For more information, refer to [Microsoft SQL documentation](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"}  (Example connection strings n°8) |
+-->
