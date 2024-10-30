@@ -4,7 +4,7 @@ title: 構成の作成
 description: 構成の作成方法について説明します
 badge: label="限定提供" type="Informative"
 exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
-source-git-commit: 1a90702a02e30712e95fdf48342f1dea3b92e360
+source-git-commit: bd3223a77f490a43487e21662d8f766d4f9b06fc
 workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 94%
@@ -29,8 +29,8 @@ ht-degree: 94%
 
 1. 「**[!UICONTROL 作成]**」をクリックします。構成キャンバスが表示されます。これで、実行する前に、ニーズに合わせて必要な数のアクティビティを追加して、構成を設定できるようになりました。
 
-   * [アクティビティの調整方法を学ぶ](#action-activities)
-   * [詳しくは、構成を開始および監視する方法を参照してください](#save)
+   * [アクティビティの調整方法を学ぶ](orchestrate-activities.md)
+   * [詳しくは、構成を開始および監視する方法を参照してください](start-monitor-composition.md)
 
 ## 構成の設定を行います。 {#settings}
 
