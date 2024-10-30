@@ -5,9 +5,9 @@ description: 連合オーディエンス構成宛先を使用して、連合デ�
 badge: label="限定提供" type="Informative"
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
 source-git-commit: c2d4ec21f497a1c4ad9c1701b4283edd16ca0611
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '573'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="dc_new_destination"
 >title="宛先の作成"
->abstract="新しいフェデレーション データベースに接続するための設定を入力します。 「**[!UICONTROL 宛先に接続]**」ボタンを使用して、設定を検証します。"
+>abstract="新しい連合データベースに接続するための設定を入力します。「**[!UICONTROL 宛先に接続]**」ボタンを使用して、設定を検証します。"
 
 Adobe Experience Platform では、**Adobe Federated Audience Composition の宛先**&#x200B;を使用して、オーディエンスポータルのオーディエンスと外部データベースをシームレスに統合できます。この統合により、既存のオーディエンスを構成に活用し、外部データベースのデータを使用して強化または絞り込みを行い、新しいオーディエンスを作成できます。
 
