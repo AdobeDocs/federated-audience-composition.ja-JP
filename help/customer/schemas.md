@@ -5,9 +5,9 @@ description: スキーマの開始方法について説明します
 badge: label="限定提供" type="Informative"
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
 source-git-commit: 25a60847484aae0cb0dc8441e5dcc7968f8c1615
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '515'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -93,7 +93,7 @@ ht-degree: 84%
 
 スキーマを編集するには、次の手順に従います。
 
-1. リストでスキーマの名前をクリックします。
+1. リスト内のスキーマの名前をクリックします。
 
 1. 「**[!UICONTROL 編集]**」ボタンをクリックします。
 
@@ -119,9 +119,9 @@ ht-degree: 84%
 
 ## スキーマの更新 {#schema-refresh}
 
-連合データベース内のテーブルは、更新、追加、削除できます。 その場合、最新の変更内容に合わせてAdobe Experience Platformのスキーマを更新する必要があります。 これを実行するには、更新するスキーマの名前の横にある 3 ドットアイコンをクリックし、「**スキーマを更新**」を選択します。
+連合データベース内のテーブルは、更新、追加、削除できます。その場合、最新の変更内容に合わせて Adobe Experience Platform のスキーマを更新する必要があります。これを実行するには、更新するスキーマの名前の横にある 3 つのドットをクリックし、「**スキーマを更新**」を選択します。
 
-編集時にスキーマ定義を更新することもできます。
+また、編集時にスキーマ定義を更新することもできます。
 
 ![](assets/schema_refresh.png){zoomable="yes"}
 

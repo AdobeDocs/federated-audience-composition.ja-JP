@@ -4,9 +4,9 @@ description: アドビの連合オーディエンス構成の概要と Adobe Exp
 badge: label="限定提供" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: ce9539fe32ace4a3c35ab6f14f10100f5a7a1a4d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '933'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -108,12 +108,12 @@ ht-degree: 87%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_incrementalmode_standard"
 >title="増分クエリモード"
->abstract="増分処理クエリを使用すると、新しい実行ごとに以前の実行結果を除外することで、同じクエリを複数回実行できます。"
+>abstract="増分クエリを使用すると、新しい実行ごとに以前の実行結果を除外することで、同じクエリを複数回実行できます。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_incrementalmode_custom"
 >title="増分クエリモード"
->abstract="増分クエリでは、日付フィールドが増分クエリアクティビティの最終実行日以降である結果のみを考慮に入れて、同じクエリを複数回実行できます。"
+>abstract="増分クエリを使用すると、日付フィールドが増分クエリアクティビティの最後の実行日以降である結果のみを考慮して、同じクエリを複数回実行できます。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_build_audience_dimension"
@@ -125,8 +125,8 @@ ht-degree: 87%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile"
->title="プロファイルを保存"
->abstract="プロファイルを保存"
+>title="プロファイルの保存"
+>abstract="プロファイルの保存"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_selectaepschema"
@@ -140,10 +140,10 @@ ht-degree: 87%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_selectaepattribute"
->title="プロファイル AEP スキーマ属性を保存"
->abstract="プロファイル AEP スキーマ属性を保存"
+>title="プロファイル AEP スキーマ属性の保存"
+>abstract="プロファイル AEP スキーマ属性の保存"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_selectprimaryfield"
->title="プロファイルを保存プライマリの特定フィールドを選択"
->abstract="プロファイルを保存プライマリの特定フィールドを選択"
+>title="プロファイルを保存してプライマリ識別フィールドを選択"
+>abstract="プロファイルを保存してプライマリ識別フィールドを選択"

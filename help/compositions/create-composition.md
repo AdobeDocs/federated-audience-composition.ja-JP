@@ -5,9 +5,9 @@ description: 構成の作成方法について説明します
 badge: label="限定提供" type="Informative"
 exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
 source-git-commit: bd3223a77f490a43487e21662d8f766d4f9b06fc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '501'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 94%
 
    ![](assets/composition-create.png)
 
-1. 「**[!UICONTROL プロパティ]**」セクションで、コンポジションのラベルを指定し、データモデルを選択します。 コンポジションのアクティビティでは、このデータモデルに関連付けられているスキーマのみを使用できます。
+1. 「**[!UICONTROL プロパティ]**」セクションで、構成のラベルを指定し、データモデルを選択します。構成のアクティビティでは、このデータモデルに関連付けられているスキーマのみを使用できます。
 
    ![](assets/composition-select-schema.png)
 

@@ -5,9 +5,9 @@ description: オーディエンスを保存アクティビティの使用方法�
 badge: label="限定提供" type="Informative"
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
 source-git-commit: 62c6eac92bf5817840f55d9b4e981abd6c42ebaa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '475'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->**オーディエンスを保存** アクティビティには、プロファイル対応のスキーマとデータセットが必要です。 [詳細情報](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}。
+>**オーディエンスを保存**&#x200B;アクティビティには、プロファイル対応のスキーマとデータセットが必要です。[詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}。
 
 ## オーディエンスを保存アクティビティの設定 {#save-audience-configuration}
 

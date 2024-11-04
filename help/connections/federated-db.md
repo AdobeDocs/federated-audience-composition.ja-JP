@@ -5,9 +5,9 @@ description: 連合データベースの設定方法について説明します
 badge: label="限定提供" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 source-git-commit: e52ab57e2e7fca91006e51973a759642ead5734f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1897'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -171,7 +171,7 @@ Experience Platform 連合オーディエンス構成を使用すると、お客
 
 >[!NOTE]
 >
->プライベートリンクを介した外部Snowflakeデータウェアハウスへの安全なアクセスがサポートされています。 Snowflakeアカウントは、Amazon Web Services（AWS）でホストされ、Federated Audience Composition 環境と同じリージョンに配置されている必要があります。 Snowflakeアカウントへの安全なアクセスの設定については、Adobe担当者にお問い合わせください。
+>プライベートリンクを介した外部 Snowflake データウェアハウスへの安全なアクセスがサポートされています。Snowflake アカウントは、Amazon Web Services（AWS）でホストされ、連合オーディエンス構成環境と同じ地域に配置されている必要があります。Snowflake アカウントへの安全なアクセスの設定について詳しくは、アドビ担当者にお問い合わせください。
 >
 
 連合データベースを使用して、外部データベースに保存されている情報を処理します。Snowflake へのアクセスを設定するには、次の手順に従います。
@@ -271,7 +271,7 @@ Experience Platform 連合オーディエンス構成を使用すると、お客
 
 1. 設定が完了したら、「**[!UICONTROL 追加]**」をクリックして、連合データベースを作成します。
 
-コネクタは、次のオプションをサポートしています。
+コネクターは、次のオプションをサポートしています。
 
 | オプション | 説明 |
 |---|---|
@@ -289,21 +289,21 @@ Experience Platform 連合オーディエンス構成を使用すると、お客
 
 1. 連合データベースに&#x200B;**[!UICONTROL 名前]**&#x200B;を入力します。
 
-1. 「**[!UICONTROL タイプ]**」ドロップダウンから「Databricks」を選択します。
+1. **[!UICONTROL タイプ]**&#x200B;ドロップダウンから、「Databricks」を選択します。
 
    ![](assets/databricks-config.png)
 
-1. Databricks 認証設定を構成します。
+1. Databricks の認証設定を指定します。
 
-   * **[!UICONTROL サーバー]**:Databricks サーバーの名前を追加します。
+   * **[!UICONTROL サーバー]**：Databricks サーバーの名前を追加します。
 
-   * **[!UICONTROL HTTP パス]**：クラスターまたはウェアハウスへのパスを追加します。 [詳細情報](https://docs.databricks.com/en/integrations/compute-details.html){target="_blank"}
+   * **[!UICONTROL HTTP パス]**：クラスターまたはウェアハウスへのパスを追加します。[詳細情報](https://docs.databricks.com/ja/integrations/compute-details.html){target="_blank"}
 
-   * **[!UICONTROL パスワード]**：アカウントアクセストークンを追加します。 [詳細情報](https://docs.databricks.com/en/dev-tools/auth/pat.html){target="_blank"}
+   * **[!UICONTROL パスワード]**：アカウントのアクセストークンを追加します。[詳細情報](https://docs.databricks.com/ja/dev-tools/auth/pat.html){target="_blank"}
 
-   * **[!UICONTROL カタログ]**:Databricks カタログのフィールドを追加します。
+   * **[!UICONTROL カタログ]**：Databricks カタログのフィールドを追加します。
 
-   * **[!UICONTROL 作業用スキーマ]**：作業用テーブルに使用するデータベーススキーマの名前。
+   * **[!UICONTROL 作業スキーマ]**：作業用テーブルに使用するデータベーススキーマの名前。
 
      >[!NOTE]
      >
