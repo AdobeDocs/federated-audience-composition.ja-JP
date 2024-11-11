@@ -3,8 +3,8 @@ title: Experience Platform 連合オーディエンス構成の新機能
 description: 最新の更新内容とリリースノート
 badge: label="限定提供" type="Informative"
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 61a70f9de0a6cf171a2ff1128b57ae6206be842c
-workflow-type: ht
+source-git-commit: de5955ad481061c6f8e488c86fc9666736a2fa1e
+workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 100%
 
@@ -13,6 +13,13 @@ ht-degree: 100%
 # リリースノート {#rn-new}
 
 [!DNL Federated Audience Composition] は、新機能、既存機能の強化、およびバグ修正を継続的に提供します。すべての変更は、このリリースノートに統合されます。[!DNL Federated Audience Composition] が [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。以下の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target="_blank"}を参照してください。
+
+
+>[!AVAILABILITY]
+>
+>Adobe Experience Platform 連合オーディエンス構成は現在、一連の組織でのみ使用できます（限定的に利用可能）。
+>
+
 
 ## 2024年10月リリース {#fac-24-10}
 
@@ -46,10 +53,6 @@ ht-degree: 100%
 
 ## 2024年7月リリース - 連合オーディエンス構成（LA） {#fac-la}
 
->[!AVAILABILITY]
->
->Adobe Experience Platform 連合オーディエンス構成は現在、一連の組織でのみ使用できます（限定的に利用可能）。
->
 
 連合オーディエンス構成は、エンタープライズデータウェアハウスへの柔軟で拡張されたアクセスを企業に提供し、重要なエンタープライズデータセットを使用してオーディエンスを構成し、ブランド主導の瞬間的なエクスペリエンスを強化するアドオン機能です。この新しいアプローチでは、[Adobe Real-time Customer Data Platform](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/home){target="_blank"} や [Adobe Journey Optimizer](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} のユーザーとして、既存のデータウェアハウスからオーディエンスデータを直接統合して、Adobe Experience Platform オーディエンスを 1 つのシステムで強化できます。
 

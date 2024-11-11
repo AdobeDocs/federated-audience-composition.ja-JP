@@ -4,16 +4,16 @@ title: 連合データベースとの接続の作成および管理
 description: 連合データベースとの接続の作成および管理方法について説明します
 badge: label="限定提供" type="Informative"
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 6191b9849200723d00398644d038af5b082e7964
-workflow-type: ht
-source-wordcount: '221'
-ht-degree: 100%
+source-git-commit: de5955ad481061c6f8e488c86fc9666736a2fa1e
+workflow-type: tm+mt
+source-wordcount: '228'
+ht-degree: 85%
 
 ---
 
 # 接続の作成 {#connections-fdb}
 
-Experience Platform 連合オーディエンス構成を使用すると、お客様はサードパーティのデータウェアハウスからオーディエンスを作成して強化し、このオーディエンスを Adobe Experience Platform に読み込むことができます。
+Experience Platformの Federated Audience Composition を使用すると、お客様は、サードパーティのデータウェアハウスからオーディエンスを作成および強化し、オーディエンスをAdobe Experience Platformにインポートできます。 サポートされるデータウェアハウスのリストについては、[ この節 ](../start/access-prerequisites.md#supported-systems) を参照してください。
 
 連合データベースと Adobe Experience Platform を操作するには、まず接続を確立する必要があります。この接続は、Adobe Experience Platform ユーザーインターフェイスで使用できる専用のユーザーインターフェイスで設定されます。詳しくは、このページを参照してください。
 
