@@ -1,11 +1,10 @@
 ---
 title: よくある質問
 description: Adobe Experience Platform 連合オーディエンス構成に関するよくある質問です
-badge: label="限定提供" type="Informative"
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: de5955ad481061c6f8e488c86fc9666736a2fa1e
+source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '827'
 ht-degree: 91%
 
 ---

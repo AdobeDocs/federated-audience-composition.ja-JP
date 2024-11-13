@@ -2,12 +2,11 @@
 audience: end-user
 title: ディメンションを変更アクティビティの使用
 description: ディメンションの変更アクティビティの使用方法を説明します
-badge: label="限定提供" type="Informative"
 exl-id: e71017bd-6d2f-4ace-b2d9-cbfbb537d127
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
-workflow-type: ht
-source-wordcount: '189'
-ht-degree: 100%
+source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

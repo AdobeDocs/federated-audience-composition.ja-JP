@@ -2,11 +2,10 @@
 audience: end-user
 title: クエリモデラーの操作
 description: クエリモデラーの操作方法について説明します
-badge: label="限定提供" type="Informative"
 exl-id: b77b9d1c-61d5-4d6d-9d82-3c72bc9c932a
-source-git-commit: 6aec8f5d9e8550ece2b50234d86ed59938f1b028
+source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '346'
 ht-degree: 100%
 
 ---

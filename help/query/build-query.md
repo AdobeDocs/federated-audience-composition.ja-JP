@@ -2,11 +2,10 @@
 audience: end-user
 title: クエリモデラーを使用した最初のクエリの作成
 description: クエリモデラーで最初のクエリを作成する方法について説明します
-badge: label="限定提供" type="Informative"
 exl-id: bfaf1057-8770-4c3d-945d-4a9d37e5675f
-source-git-commit: 6aec8f5d9e8550ece2b50234d86ed59938f1b028
+source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
 workflow-type: tm+mt
-source-wordcount: '2068'
+source-wordcount: '2066'
 ht-degree: 100%
 
 ---

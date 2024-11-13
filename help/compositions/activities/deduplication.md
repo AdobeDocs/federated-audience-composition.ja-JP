@@ -2,11 +2,10 @@
 audience: end-user
 title: 重複排除 - 重複アクティビティの使用
 description: 重複排除 - 重複アクティビティの使用方法について説明します
-badge: label="限定提供" type="Informative"
 exl-id: 55db2461-fcfb-4284-9ab7-7cb01071ed1c
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
-workflow-type: ht
-source-wordcount: '565'
+source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+workflow-type: tm+mt
+source-wordcount: '563'
 ht-degree: 100%
 
 ---

@@ -2,11 +2,10 @@
 audience: end-user
 title: 構成の作成
 description: 構成の作成方法について説明します
-badge: label="限定提供" type="Informative"
 exl-id: 1f288312-dd6a-4a62-8ee6-fa2417954d5c
-source-git-commit: 3384c816e64b93a80b8e9b3e61dab74fa098889f
-workflow-type: ht
-source-wordcount: '635'
+source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+workflow-type: tm+mt
+source-wordcount: '633'
 ht-degree: 100%
 
 ---

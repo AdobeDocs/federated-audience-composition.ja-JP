@@ -2,11 +2,10 @@
 audience: end-user
 title: オーディエンスを作成アクティビティの使用
 description: オーディエンスを作成アクティビティの使用方法について説明します
-badge: label="限定提供" type="Informative"
 exl-id: 6fad3e49-e654-4f68-a125-50056c4ae980
-source-git-commit: 6aec8f5d9e8550ece2b50234d86ed59938f1b028
+source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '244'
 ht-degree: 100%
 
 ---

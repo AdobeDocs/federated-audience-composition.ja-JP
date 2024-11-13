@@ -2,11 +2,10 @@
 audience: end-user
 title: エンリッチメントアクティビティの使用
 description: エンリッチメントアクティビティの使用方法について説明します
-badge: label="限定提供" type="Informative"
 exl-id: 6bf12c25-fbef-4588-89d0-28215cbcbf58
-source-git-commit: 8fa60d20dc574bbddc0106508d57a1cd3f3d3db8
-workflow-type: ht
-source-wordcount: '391'
+source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+workflow-type: tm+mt
+source-wordcount: '389'
 ht-degree: 100%
 
 ---

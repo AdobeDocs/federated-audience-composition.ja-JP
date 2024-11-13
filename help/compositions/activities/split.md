@@ -2,11 +2,10 @@
 audience: end-user
 title: 分割アクティビティの使用
 description: 分割アクティビティの使用方法について説明します
-badge: label="限定提供" type="Informative"
 exl-id: 6346eef6-b164-40cf-9402-b5ff208af97f
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '923'
 ht-degree: 100%
 
 ---
