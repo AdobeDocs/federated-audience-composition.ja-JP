@@ -4,7 +4,7 @@ title: AND 結合アクティビティの使用
 description: AND 結合アクティビティの使用方法について説明します
 exl-id: 9648f17b-e54c-4bc2-8dff-d35c438eeb8b
 source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '224'
 ht-degree: 100%
 
