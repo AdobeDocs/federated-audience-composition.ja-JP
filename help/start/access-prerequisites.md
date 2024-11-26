@@ -3,9 +3,9 @@ title: 連合オーディエンス構成の前提条件とガードレール
 description: 連合オーディエンス構成の前提条件、権限およびガードレールについて説明します
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
 source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '305'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 92%
 >
 >アドビからウェルカムメール通知を受信した後、インターフェイスが更新され、機能が使用可能になるまで、さらに数時間かかる場合があります。
 
-## サポート対象システム {#supported-systems}
+## サポートされているシステム {#supported-systems}
 
-Federated Audience Composition は、次のクラウドウェアハウスをサポートしています。
+連合オーディエンス構成は、次のクラウドウェアハウスをサポートしています。
 
 * Amazon Redshift
 * Azure Synapse
@@ -28,7 +28,7 @@ Federated Audience Composition は、次のクラウドウェアハウスをサ�
 * Snowflake
 * Vertica Analytics
 
-これらのシステムとの接続を作成する方法については、[ このページ ](../connections/connections.md) を参照してください。
+これらのシステムとの接続を作成する方法について詳しくは、[このページ](../connections/connections.md)を参照してください。
 
 ## 権限 {#permissions}
 

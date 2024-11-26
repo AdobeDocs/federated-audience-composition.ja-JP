@@ -3,9 +3,9 @@ title: Experience Platform 連合オーディエンス構成の新機能
 description: 最新の更新内容とリリースノート
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '461'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 92%
 
 >[!AVAILABILITY]
 >
->以前は一連の組織（LA）で使用できましたが、Adobe Experience Platform Federated Audience Composition はすべてのユーザー（GA）が使用できるようになりました。 このアドオンは、提供されるに基づいてアクティブ化され、関連する権限でのみ表示されます。 [詳細情報](access-prerequisites.md)
+>以前は一部の組織（LA）に対して提供されていた Adobe Experience Platform 連合オーディエンス構成が、すべてのユーザー（GA）に対して提供されるようになりました。このアドオンは、提供されている内容に基づいてアクティブ化され、関連付けられている権限がある場合にのみ表示されます。[詳細情報](access-prerequisites.md)
 >
 
 ### 互換性 {#fac-24-10-compat}

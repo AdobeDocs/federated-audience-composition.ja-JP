@@ -4,7 +4,7 @@ title: 分岐アクティビティの使用
 description: 分岐アクティビティの使用方法について説明します
 exl-id: f73f27ca-e00d-446d-8f1c-a751f1809bac
 source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '118'
 ht-degree: 100%
 

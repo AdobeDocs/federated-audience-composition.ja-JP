@@ -3,9 +3,9 @@ title: Adobe Experience Platform 連合オーディエンス構成ドキュメ�
 description: 連合オーディエンス構成アドオンドキュメント
 exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
 source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '230'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Experience Platform 連合オーディエンス構成は、Adobe Real-time CDP �
 
 >[!TAB オーディエンスの構成]
 
-アクティビティ（分割、エンリッチメント、クエリなど）を追加および設定して、コンポジションを作成し、オーディエンスを作成します。
+アクティビティ（分割、エンリッチメント、クエリなど）を追加および設定して、構成とオーディエンスを作成します。
 
 [![画像](assets/learn-more-button.svg)](compositions/gs-compositions.md)
 
@@ -53,7 +53,7 @@ Experience Platform 連合オーディエンス構成は、Adobe Real-time CDP �
     </td>
     <td>
     <a href="compositions/gs-compositions.md"><img src="assets/do-not-localize/start-journey.jpeg"></a>
-    <div><strong> オーディエンスの作成 </strong><br/> アクティビティ（分割、エンリッチメント、クエリなど）を追加および設定して、コンポジションを作成し、最初のフェデレーティッドオーディエンスを作成します。
+    <div><strong>オーディエンスの作成</strong><br/>アクティビティ（分割、エンリッチメント、クエリなど）を追加および設定して、構成と、最初の連合オーディエンスを作成します。
     </div>
     </td>
     <td>

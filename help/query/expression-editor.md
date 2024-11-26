@@ -4,7 +4,7 @@ title: クエリモデラーを使用した最初のクエリの作成
 description: クエリモデラーで最初のクエリを作成する方法について説明します。
 exl-id: abff07ef-2bc0-4e00-8957-4d59fc3bc938
 source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2066'
 ht-degree: 100%
 
