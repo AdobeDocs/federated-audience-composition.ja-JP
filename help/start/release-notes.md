@@ -2,16 +2,26 @@
 title: Experience Platform 連合オーディエンス構成の新機能
 description: 最新の更新内容とリリースノート
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: ht
-source-wordcount: '461'
-ht-degree: 100%
+source-git-commit: 96931b019e840d6f0351c9b2349eeffcdd4a55b4
+workflow-type: tm+mt
+source-wordcount: '525'
+ht-degree: 88%
 
 ---
 
 # リリースノート {#rn-new}
 
 [!DNL Federated Audience Composition] は、新機能、既存機能の強化、およびバグ修正を継続的に提供します。すべての変更は、このリリースノートに統合されます。[!DNL Federated Audience Composition] が [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。以下の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target="_blank"}を参照してください。
+
+## 2024 年 11 月リリース {#fac-24-11}
+
+### 機能強化 {#fac-24-11-improvements}
+
+このリリースには、以下の機能強化が含まれています。
+
+* **IP アドレスの許可リスト**
+
+  Adobe Experience Platform ユーザーインターフェイスでフェデレーテッドデータベースを追加する際、Federated Audience Composition インスタンスに関連付けられている IP アドレスを直接表示できるようになりました。 これにより、これらの IP を簡単にコピーして認証し、データベースに接続して、セキュリティと柔軟性を向上させることができます。 [詳細情報](../connections/connections.md)
 
 ## 2024年10月リリース {#fac-24-10}
 

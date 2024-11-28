@@ -3,10 +3,10 @@ audience: end-user
 title: 連合データベースとの接続の作成および管理
 description: 連合データベースとの接続の作成および管理方法について説明します
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: ht
-source-wordcount: '226'
-ht-degree: 100%
+source-git-commit: 285facb78861bf5558992c0ab777a101bbfc237a
+workflow-type: tm+mt
+source-wordcount: '291'
+ht-degree: 77%
 
 ---
 
@@ -40,6 +40,16 @@ Experience Platform 連合オーディエンス構成を使用すると、お客
    * [Google BigQuery](federated-db.md#google-big-query)
    * [Snowflake](federated-db.md#snowflake)
    * [Vertica Analytics](federated-db.md#vertica-analytics)
+
+1. サポートされている各データベースに対して、「**[!UICONTROL サーバー IP]**」ボタンを選択します。 Federated Audience Composition インスタンスに関連付けられているすべての IP のリストが表示されます。
+
+   ![](assets/connections_server_IPs.png){zoomable="yes"}
+
+   リストから IP をクリックしてシステムにコピーし、この IP を認証してデータベースに接続します。
+
+>[!NOTE]
+>
+>特定のデータベースに対して Federated Audience Composition を使用するには、そのデータベースに関連付けられているすべての IP アドレスを許可リストにする必要があります。
 
 1. 詳細を入力したら、「**[!UICONTROL 接続をテスト]**」ボタンと「**[!UICONTROL 関数をデプロイ]**」ボタンをクリックします。
 
