@@ -3,7 +3,7 @@ audience: end-user
 title: 連合データベースとの接続の作成および管理
 description: 連合データベースとの接続の作成および管理方法について説明します
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 285facb78861bf5558992c0ab777a101bbfc237a
+source-git-commit: 03ff4c5ecc3f3a5f59dd820fc5052b55f09f88af
 workflow-type: ht
 source-wordcount: '291'
 ht-degree: 100%
@@ -47,9 +47,9 @@ Experience Platform 連合オーディエンス構成を使用すると、お客
 
    リストから IP をクリックしてシステムにコピーし、この IP を承認してデータベースに接続します。
 
->[!NOTE]
->
->指定されたデータベースに対して連合オーディエンス構成を使用するには、そのデータベースに関連付けられているすべての IP アドレスを許可する必要があります。
+   >[!NOTE]
+   >
+   >指定されたデータベースに対して連合オーディエンス構成を使用するには、そのデータベースに関連付けられているすべての IP アドレスを許可する必要があります。
 
 1. 詳細を入力したら、「**[!UICONTROL 接続をテスト]**」ボタンと「**[!UICONTROL 関数をデプロイ]**」ボタンをクリックします。
 
