@@ -2,10 +2,10 @@
 title: 連合オーディエンス構成の前提条件とガードレール
 description: 連合オーディエンス構成の前提条件、権限およびガードレールについて説明します
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: d26fa10fa7e28c1515a625e2e0b10a000aa2d7d5
+source-git-commit: d44813e447de92fe8ba7e43c7b0f0ad9f0b07239
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 82%
+source-wordcount: '335'
+ht-degree: 77%
 
 ---
 
@@ -30,11 +30,9 @@ ht-degree: 82%
 
 これらのシステムとの接続を作成する方法について詳しくは、[このページ](../connections/connections.md)を参照してください。
 
-<!--
-## Sandboxes
+## サンドボックス
 
-When purchasing the Federated Audience Composition add-on, you are entitled to two sandboxes (one production sandbox and one non-production sandbox). For any additional sandbox provisioning requests, contact your Adobe representative.
--->
+Federated Audience Composition アドオンを購入すると、2 つのサンドボックスを使用できます。 その他のサンドボックスプロビジョニングリクエストについては、Adobe担当者にお問い合わせください。
 
 ## 権限 {#permissions}
 
@@ -50,10 +48,9 @@ Federated Audience Composition がデータベースに安全にアクセスで�
 
 ## ガードレールと制限 {#fac-guardrails}
 
-* Federated Audience Composition は現在、お客様が利用できません [ 正常性データを取り込んでいます ](https://experienceleague.adobe.com/ja/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}<!-- and to Adobe Journey Optimizer Privacy and Security Shield customers-->。 [詳細情報](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences){target="_blank"}
+* Federated Audience Composition は現在、お客様が利用できません [ 正常性データを取り込んでいます ](https://experienceleague.adobe.com/ja/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}。 [詳細情報](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences){target="_blank"}
 
 <!--
 * Federated Audience Composition is compatible with Privacy & Security Shield and can be used in all verticals except for healthcare industries. Currently, Federated Audience Composition cannot be licensed to customers looking to ingest health data. [Learn more](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}-->
 
 * このアドオンに適用されるエンタイトルメント、製品の制限、パフォーマンスガードレールの一覧について詳しくは、[Adobe Real-time Customer Data Platform ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/guardrails){target="_blank"}を参照してください。
-
