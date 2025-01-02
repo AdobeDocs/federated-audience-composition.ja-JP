@@ -3,9 +3,9 @@ title: 連合オーディエンス構成の前提条件とガードレール
 description: 連合オーディエンス構成の前提条件、権限およびガードレールについて説明します
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
 source-git-commit: d44813e447de92fe8ba7e43c7b0f0ad9f0b07239
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '335'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 77%
 
 ## サンドボックス
 
-Federated Audience Composition アドオンを購入すると、2 つのサンドボックスを使用できます。 その他のサンドボックスプロビジョニングリクエストについては、Adobe担当者にお問い合わせください。
+連合オーディエンス構成アドオンを購入すると、2 つのサンドボックスを使用できます。その他のサンドボックスプロビジョニングリクエストについて詳しくは、アドビ担当者にお問い合わせください。
 
 ## 権限 {#permissions}
 
@@ -42,13 +42,13 @@ Federated Audience Composition アドオンを購入すると、2 つのサン�
 
 ## IP 許可リスト {#ip}
 
-Federated Audience Composition がデータベースに安全にアクセスできるようにするには、データベースにアクセスする Federated Audience Composition サーバーの IP アドレスを認証する必要があります。 これらの IP アドレスは、Adobe Experience Platform ユーザーインターフェイスでフェデレーティッドデータベースを追加する際に表示されます。 [詳細情報](../connections/connections.md)
+連合オーディエンス構成でデータベースに安全にアクセスできるようにするには、データベースにアクセスする連合オーディエンス構成サーバーの IP アドレスを承認する必要があります。これらの IP アドレスは、Adobe Experience Platform ユーザーインターフェイスで連合データベースを追加する際に表示されます。[詳細情報](../connections/connections.md)
 
 連合オーディエンス構成のアクセス権を付与するには、これらの IP アドレスを許可リストに追加します。
 
 ## ガードレールと制限 {#fac-guardrails}
 
-* Federated Audience Composition は現在、お客様が利用できません [ 正常性データを取り込んでいます ](https://experienceleague.adobe.com/ja/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}。 [詳細情報](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences){target="_blank"}
+* 連合オーディエンス構成は現在、[正常性データを取り込み中の](https://experienceleague.adobe.com/ja/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield)お客様は利用できません{target="_blank"}。[詳細情報](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences){target="_blank"}
 
 <!--
 * Federated Audience Composition is compatible with Privacy & Security Shield and can be used in all verticals except for healthcare industries. Currently, Federated Audience Composition cannot be licensed to customers looking to ingest health data. [Learn more](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}-->
