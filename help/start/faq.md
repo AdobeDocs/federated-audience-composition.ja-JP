@@ -2,10 +2,10 @@
 title: よくある質問
 description: Adobe Experience Platform 連合オーディエンス構成に関するよくある質問です
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: f06414fbacc2e11a374313f3614f76a10eeadc0b
+source-git-commit: e3a5afe631ad652c90d67ca22f0581b5a068ad5d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '827'
+ht-degree: 100%
 
 ---
 
@@ -88,17 +88,18 @@ ht-degree: 0%
 いいえ、構成中に ID サービスは使用しません。構成で使用する様々なソース間のデータは、CRM ID、ユーザーアカウント番号など、ユーザー定義のロジック（基になるモデルで表現される）を通じて結合されます。データウェアハウスで選択するオーディエンスの識別子として使用される ID を選択する必要があります。連合オーディエンス構成からの結果のオーディエンスでは、結果のデータセット内の ID の ID 名前空間を識別する必要があります。
 
 +++
+<!--
++++How are customer consent preferences honored for externally generated audiences that are imported into Federated Audience Composition?
 
-+++Federated Audience Composition にインポートされた外部で生成されたオーディエンスに対して、顧客同意環境設定はどのように適用されますか？
+As customer data is captured from multiple channels, identity stitching and merge policies allow this data to be consolidated in a single Real-Time Customer Profile. Information on the customers' consent preferences are stored and evaluated at the profile level.
 
-顧客データは複数のチャネルから取得されるので、ID ステッチと結合ポリシーを使用して、このデータを単一のリアルタイム顧客プロファイルに統合できます。 顧客の同意環境設定に関する情報は、プロファイルレベルで保存および評価されます。
+Downstream Real-Time CDP and Journey Optimizer destinations check each profile for consent preferences prior to activation. Each profile's consent information is compared against consent requirements for a particular destination. If the profile does not satisfy the requirements, that profile is not sent to a destination.
 
-ダウンストリームのReal-Time CDP宛先とJourney Optimizer宛先では、アクティブ化の前に、各プロファイルで同意の環境設定を確認します。 各プロファイルの同意情報は、特定の宛先の同意要件と比較されます。 プロファイルが要件を満たさない場合、そのプロファイルは宛先に送信されません。
-
-外部オーディエンスが Federated Audience コンポジションに取り込まれると、メールや ECID などのプライマリ ID を使用して、既存のプロファイルと紐付けられます。 その結果、既存の同意ポリシーは、アクティベーションを通じて引き続き有効です。
+When an external audience is ingested into Federated Audience Composition, it is reconciliated with existing profiles using a primary ID such as email or ECID. As a result, the existing consent policies will remain in force throughout activation.
 
 >[!NOTE]
 >
->ペイロード変数はプロファイルではなくデータレイクに保存されるので、外部で生成されたオーディエンスに同意情報を含めないでください。 代わりに、プロファイルデータが読み込まれる他のAdobe Experience Platform取り込みチャネルを使用します。
+>Since the payload variables are not stored in the profile but in the data lake, you should not include consent information in externally generated audiences. Instead, use other Adobe Experience Platform ingestion channels where profile data is imported.
 
 +++
+-->
