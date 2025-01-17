@@ -1,13 +1,11 @@
 ---
 title: Adobe Experience Platform 連合オーディエンス構成ドキュメントのホームページ
 description: 連合オーディエンス構成アドオンドキュメント
-solution: Federated Audience Composition
-product: Federated Audience Composition
 exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
-source-git-commit: 861bacf913c7534adbcdcba30102a5ba434c75ab
+source-git-commit: 10705adefc4bf195ab67b36533265c9e3228e188
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
