@@ -2,10 +2,10 @@
 title: Experience Platform 連合オーディエンス構成の基本を学ぶ
 description: アドビの連合オーディエンス構成の概要と Adobe Experience Platform での使用方法について説明します
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: ht
-source-wordcount: '931'
-ht-degree: 100%
+source-git-commit: b0720ba28e9d01565217ed0b095f4c0bc17893ac
+workflow-type: tm+mt
+source-wordcount: '946'
+ht-degree: 98%
 
 ---
 
@@ -14,6 +14,10 @@ ht-degree: 100%
 連合オーディエンス構成は、[Adobe Real-time Customer Data Platform](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/home){target="_blank"} および [Adobe Journey Optimizer](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} のアドオン機能です。サードパーティのデータウェアハウスからオーディエンスを作成して強化し、そのオーディエンスを Adobe Experience Platform に読み込めるようにします。連合オーディエンス構成は、Adobe Real-time Customer Data Platform や Adobe Journey Optimizer 内でエンタープライズデータウェアハウスを直接接続し、データウェアハウスのテーブルに対してクエリを実行するための簡単で強力なソリューションを提供します。
 
 アドビの連合オーディエンス構成は、Adobe Experience Platform アプリのユーザーが、Amazon Redshift、Azure Synapse Analytics などのデータウェアハウスやクラウドストレージプラットフォームに保存されている顧客データにアクセスするのに役立ちます。顧客データを複数のデータウェアハウスに保存し、複製せずに即座にアクセスできるようになります。サポートされているプラットフォームについては、[このページ](../connections/federated-db.md#supported-db)を参照してください。
+
+>[!INFO]
+>
+>Federated Audience Composition を使用してオーディエンスを作成する方法については、この [ ステップバイステップガイド ](https://experienceleague.adobe.com/en/docs/platform-learn/tutorial-comprehensive-technical/datacollection/module13/fac) に従ってください。
 
 ## 機能 {#rn-capabilities}
 
