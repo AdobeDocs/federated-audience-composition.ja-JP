@@ -2,10 +2,10 @@
 title: よくある質問
 description: Adobe Experience Platform 連合オーディエンス構成に関するよくある質問です
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: e3a5afe631ad652c90d67ca22f0581b5a068ad5d
-workflow-type: ht
-source-wordcount: '827'
-ht-degree: 100%
+source-git-commit: 356826396a0b6c8a1b8716d2102f91b2d612a677
+workflow-type: tm+mt
+source-wordcount: '826'
+ht-degree: 97%
 
 ---
 
@@ -77,9 +77,9 @@ ht-degree: 100%
 
 +++
 
-+++カスタムアップロードしたオーディエンスを削除できますか？
++++オーディエンスを削除できますか？
 
-いいえ、現在のバージョンでは、カスタムアップロードしたオーディエンスを削除できません。
+いいえ。現在のバージョンでは、Federated Audience Composition オーディエンスを削除できません。
 
 +++
 
