@@ -2,10 +2,10 @@
 user-guide-title: Experience Platform 連合オーディエンス構成
 title: Experience Platform 連合オーディエンス構成ドキュメント
 breadcrumb-title: Experience Platform 連合オーディエンス構成
-source-git-commit: 16599cc499b45ee8a293c923b9c26f85aa8e0b68
-workflow-type: ht
-source-wordcount: '145'
-ht-degree: 100%
+source-git-commit: ed72ae722ffd5fbf14f491630b748a5009f4ebc5
+workflow-type: tm+mt
+source-wordcount: '149'
+ht-degree: 97%
 
 ---
 
@@ -14,9 +14,10 @@ ht-degree: 100%
 
 + [Experience Platform 連合オーディエンス構成ドキュメント](home.md)
 + [リリースノート](start/release-notes.md)
-+ Federated Audience Composition の基本を学ぶ {#start}
-   + [Federated Audience Composition とは](start/get-started.md)
++ 連合オーディエンス構成の基本を学ぶ{#start}
+   + [連合オーディエンス構成とは](start/get-started.md)
    + [前提条件とガードレール](start/access-prerequisites.md)
+   + [Federated Audience 構成へのアクセス](start/feature-access.md)
    + [オーディエンスの操作](start/audiences.md)
    + [よくある質問](start/faq.md)
 + 設定の手順 {#config}
