@@ -1,7 +1,8 @@
 ---
 title: Federated Audience 構成へのアクセス
 description: Federated Audience Composition に必要な権限について説明します
-source-git-commit: ed72ae722ffd5fbf14f491630b748a5009f4ebc5
+exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
+source-git-commit: 224dc190e998298c68bf60567bbb280b652355a2
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 36%
@@ -20,7 +21,7 @@ ht-degree: 36%
 
 >[!AVAILABILITY]
 >
->権限は、2 月のリリースの一部として利用できます。
+>権限は 3 月のリリースの一部です。
 
 **Federated Audience Composition** にアクセスするには、まず **Federated Data の管理** 権限が適切な役割に割り当てられていることを確認する必要があります。 次に、これらの役割を、**Federated Audience Composition** へのアクセスを必要とするユーザーに割り当てる必要があります。
 
@@ -53,5 +54,3 @@ ht-degree: 36%
 1. ユーザーの名前またはメールアドレスを入力するか、使用可能なリストから選択します。 完了したら、「**[!UICONTROL 保存]**」をクリックします。
 
 その後、インスタンスへのアクセス手順を記載したメールがユーザーに届きます。 まだユーザーを作成していない場合は、[このドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/abac/permissions-ui/users)を参照してください。
-
-
