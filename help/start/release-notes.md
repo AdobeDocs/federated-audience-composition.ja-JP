@@ -2,25 +2,16 @@
 title: Experience Platform 連合オーディエンス構成の新機能
 description: 最新の更新内容とリリースノート
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 81ac7595196aeff30f1d09d66779ca4392f7bb19
+source-git-commit: e9cc50cbcbd076f784c924bd941e4396c14190ce
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 88%
+source-wordcount: '525'
+ht-degree: 100%
 
 ---
 
 # リリースノート {#rn-new}
 
 [!DNL Federated Audience Composition] は、新機能、既存機能の強化、およびバグ修正を継続的に提供します。すべての変更は、このリリースノートに統合されます。[!DNL Federated Audience Composition] が [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。以下の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target="_blank"}を参照してください。
-
-
-## 2025 年 2 月の更新 {#fac-25-01}
-
-3 月のリリース以降、[!DNL Federated Audience Composition] は、「Federated Data の管理 **権限を付与されたユーザーに対する** Federated Data Management **および** Federated Composition **インターフェイスのアクセスの適用を開始する予** です。
-
-[!DNL Federated Audience Composition] ユーザーインターフェイスへのアクセスを続行するには、ユーザーが管理者に連絡して、この権限を自分の役割に追加してもらうことをお勧めします。
-
-この権限の割り当て方法については、[ 詳細なドキュメント ](feature-access.md) を参照してください。
 
 ## 2024年11月リリース {#fac-24-11}
 
