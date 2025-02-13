@@ -2,10 +2,10 @@
 user-guide-title: Experience Platform 連合オーディエンス構成
 title: Experience Platform 連合オーディエンス構成ドキュメント
 breadcrumb-title: Experience Platform 連合オーディエンス構成
-source-git-commit: ed72ae722ffd5fbf14f491630b748a5009f4ebc5
+source-git-commit: c3025f4682696352dd5d0999268b4413befe1d66
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 97%
+source-wordcount: '154'
+ht-degree: 94%
 
 ---
 
@@ -25,6 +25,7 @@ ht-degree: 97%
    + [連合データベースの設定](connections/federated-db.md)
    + データモデルとスキーマ{#datamodel}
       + [スキーマの作成と設定](customer/schemas.md)
+      + [データモデルの設定（ベータ版）](data-management/gs-models-beta.md)
       + [データモデルの設定](data-management/gs-models.md)
    + [外部データを使用して Adobe Experience Platform オーディエンスを強化](connections/destinations.md)
 + オーディエンスを構成 {#compositions}
