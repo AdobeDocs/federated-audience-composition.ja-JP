@@ -2,7 +2,7 @@
 title: Experience Platform 連合オーディエンス構成の新機能
 description: 最新の更新内容とリリースノート
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: a9d39ec1f7d678ce35b95898370c258b844e7fab
+source-git-commit: 3e508a769856e66e3b1381c3996df01539668dbd
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 82%
@@ -17,7 +17,7 @@ ht-degree: 82%
 
 このリリースには、以下に示す変更点が伴います。
 
-* **Microsoft ファブリック サポート**
+* **Microsoft Fabric サポート**
 
   Federated Audience Composition を使用して、Microsoft ファブリックデータベースへの接続を確立できるようになりました。 [詳細情報](../connections/federated-db.md)
 

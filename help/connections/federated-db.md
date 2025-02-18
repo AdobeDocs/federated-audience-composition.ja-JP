@@ -3,10 +3,10 @@ audience: end-user
 title: 連合データベースの設定
 description: 連合データベースの設定方法について説明します
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 845b92dc2064e5274705b61f8e7f42cc396828b1
+source-git-commit: 3e508a769856e66e3b1381c3996df01539668dbd
 workflow-type: tm+mt
-source-wordcount: '2081'
-ht-degree: 95%
+source-wordcount: '2068'
+ht-degree: 96%
 
 ---
 
@@ -331,9 +331,6 @@ Experience Platform 連合オーディエンス構成を使用すると、お客
 
 ## Microsoftファブリック {#microsoft-fabric}
 
->[!AVAILABILITY]
->
->Microsoft Fabric は現在、一連の組織でのみ使用できます（使用制限あり）。
 
 連合データベースを使用して、外部データベースに保存されている情報を処理します。Microsoft ファブリックへのアクセスを設定するには、次の手順に従います。
 
