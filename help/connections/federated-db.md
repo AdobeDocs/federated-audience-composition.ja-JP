@@ -3,10 +3,10 @@ audience: end-user
 title: 連合データベースの設定
 description: 連合データベースの設定方法について説明します
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 02e83cd73c42477bdab8a43c3d2a54df60ab5018
+source-git-commit: 845b92dc2064e5274705b61f8e7f42cc396828b1
 workflow-type: tm+mt
-source-wordcount: '1904'
-ht-degree: 99%
+source-wordcount: '2081'
+ht-degree: 95%
 
 ---
 
@@ -41,12 +41,13 @@ Experience Platform 連合オーディエンス構成を使用すると、お客
 * [Snowflake](#snowflake)
 * [Vertica Analytics](#vertica-analytics)
 * [Databricks](#databricks)
+* [Microsoftファブリック](#microsoft-fabric)
 
 ## Amazon Redshift {#amazon-redshift}
 
 >[!AVAILABILITY]
 >
->Amazon Redshift およびAmazon Redshift サーバーレスのみがサポートされます。
+>Amazon Redshift AWS、Amazon Redshift Spectrum およびAmazon Redshift Serverless のみがサポートされています。
 
 連合データベースを使用して、外部データベースに保存されている情報を処理します。Amazon Redshift へのアクセスを設定するには、次の手順に従います。
 
@@ -328,45 +329,45 @@ Experience Platform 連合オーディエンス構成を使用すると、お客
 |---|---|
 | TimeZoneName | デフォルトでは空で、アプリサーバーのシステムのタイムゾーンが使用されます。このオプションは、TIMEZONE セッションパラメーターを強制的に指定するために使用できます。 |
 
-<!--Not for October release
-
-## Microsoft Fabric (LA){#microsoft-fabric}
+## Microsoftファブリック {#microsoft-fabric}
 
 >[!AVAILABILITY]
 >
->Microsoft Fabric is currently only available for a set of organizations (Limited Availability).
+>Microsoft Fabric は現在、一連の組織でのみ使用できます（使用制限あり）。
 
-Use Federated databases to process information stored in an external database. Follow the steps below to configure access to Microsoft Fabric.
+連合データベースを使用して、外部データベースに保存されている情報を処理します。Microsoft ファブリックへのアクセスを設定するには、次の手順に従います。
 
-1. Under the **[!UICONTROL Federated data]** menu, select **[!UICONTROL Federated databases]**.
+1. **[!UICONTROL 連合データ]**&#x200B;メニューで、「**[!UICONTROL 連合データベース]**」を選択します。
 
-1. Click **[!UICONTROL Add federated database]**.
+1. 「**[!UICONTROL 連合データベースを追加]**」をクリックします。
 
-    ![](assets/federated_database_1.png)
+   ![](assets/federated_database_1.png)
 
-1. Enter a **[!UICONTROL Name]** to your Federate database.
+1. 連合データベースに&#x200B;**[!UICONTROL 名前]**&#x200B;を入力します。
 
-1. From the **[!UICONTROL Type]** drop-down, select Microsoft Fabric.
+1. 「**[!UICONTROL Type]**」ドロップダウンから「Microsoft Fabric」を選択します。
 
-    ![](assets/microsoft-config.png)
+   ![](assets/microsoft-config.png)
 
-1. Configure the Microsoft Fabric authentication settings:
+1. Microsoft Fabric Authentication を設定します。
 
-    * **[!UICONTROL Server]**: Enter the URL of the Microsoft Fabric server.
+   * **[!UICONTROL サーバー]**:Microsoft Fabric サーバーの URL を入力します。
 
-    * **[!UICONTROL Application ID]**: Enter your Microsoft Fabric Application ID.
+   * **[!UICONTROL アプリケーション ID]**:Microsoft Fabric アプリケーション ID を入力します。
 
-    * **[!UICONTROL Client secret]**: Enter your Client secret.
+   * **[!UICONTROL クライアント秘密鍵]**: クライアント秘密鍵を入力します。
 
-    * **[!UICONTROL Options]**: The connector supports the options detailed in the table below.
+   * **[!UICONTROL オプション]**：コネクタは、以下の表で説明するオプションをサポートします。
 
-1. Select the **[!UICONTROL Test the connection]** option to verify your configuration.
+1. **[!UICONTROL サーバー IP]** をクリックして、認証するサーバー IP を選択します。
 
-1. Click **[!UICONTROL Deploy functions]** button to create the functions.
+1. 「**[!UICONTROL 接続をテスト]**」オプションを選択して、設定を検証します。
 
-1. Once your configuration is done, click **[!UICONTROL Add]** to create your Federate database.
+1. 「**[!UICONTROL 関数をデプロイ]**」ボタンをクリックして、関数を作成します。
 
-| Option   |  Description |
+1. 設定が完了したら、「**[!UICONTROL 追加]**」をクリックして、連合データベースを作成します。
+
+| オプション | 説明 |
 |---|---|
-| Authentication | Type of authentication supported by the connector. Current supported value: ActiveDirectoryMSI. For more information, refer to [Microsoft SQL documentation](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"}  (Example connection strings n°8) |
--->
+| 認証 | コネクタでサポートされている認証のタイプ。現在サポートされている値：ActiveDirectoryMSI。詳しくは、[Microsoft SQL ドキュメント](https://learn.microsoft.com/ja-jp/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"}（接続文字列 n°8 の例）を参照してください |
+

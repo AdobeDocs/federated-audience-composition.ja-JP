@@ -3,10 +3,10 @@ audience: end-user
 title: 外部データを使用して Adobe Experience Platform オーディエンスを強化
 description: 連合オーディエンス構成宛先を使用して、連合データベースのデータで Adobe Experience Platform オーディエンスを絞り込み、強化する方法について説明します。
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: ht
-source-wordcount: '571'
-ht-degree: 100%
+source-git-commit: 2dc7e0ef359eb2b864f2d0e49ec4ff48f7c8bf61
+workflow-type: tm+mt
+source-wordcount: '586'
+ht-degree: 91%
 
 ---
 
@@ -34,11 +34,22 @@ Adobe Experience Platform オーディエンスを連合オーディエンス構
 
    ![](assets/destination-new.png)
 
-1. 新しい接続の名前を指定し、使用する&#x200B;**[!UICONTROL 接続タイプ]**&#x200B;と接続先の&#x200B;**[!UICONTROL 連合データベース]**&#x200B;を選択して、「**[!UICONTROL 次へ]**」をクリックします。
+1. 新しい接続の名前を入力し、使用可能な次の接続から **[!UICONTROL 接続タイプ]** を選択します。
+
+   * Amazon Redshift
+   * Azure Synapse Analytics
+   * Google BigQuery
+   * Snowflake
+   * Vertica Analytics
+   * Databricks
+
+1. 接続する **[!UICONTROL 連合データベース]** を選択し、「**[!UICONTROL 次へ]**」をクリックします。
 
    ![](assets/destination-configure.png)
 
-   「**[!UICONTROL アラート]**」セクションでは、アラートを有効にして、宛先へのデータフローのステータスに関する通知を受信できます。アラートについて詳しくは、[UI を使用した宛先へのアラートの登録](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/ui/alerts){target="_blank"}についての Adobe Experience Platform ドキュメントを参照してください。
+1. 「**[!UICONTROL アラート]**」セクションでは、宛先へのデータフローのステータスに関する通知をアラートが受け取れるように設定できます。
+
+   アラートについて詳しくは、[UI を使用した宛先へのアラートの登録](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/ui/alerts){target="_blank"}についての Adobe Experience Platform ドキュメントを参照してください。
 
 1. **[!UICONTROL ガバナンスポリシーと実施アクション]**&#x200B;手順では、データガバナンスポリシーを定義し、オーディエンスが送信されてアクティブになった際に、使用されるデータが準拠していることを確認できます。
 

@@ -2,16 +2,46 @@
 title: Experience Platform 連合オーディエンス構成の新機能
 description: 最新の更新内容とリリースノート
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: e9cc50cbcbd076f784c924bd941e4396c14190ce
+source-git-commit: a9d39ec1f7d678ce35b95898370c258b844e7fab
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 100%
+source-wordcount: '647'
+ht-degree: 82%
 
 ---
 
 # リリースノート {#rn-new}
 
 [!DNL Federated Audience Composition] は、新機能、既存機能の強化、およびバグ修正を継続的に提供します。すべての変更は、このリリースノートに統合されます。[!DNL Federated Audience Composition] が [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。以下の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target="_blank"}を参照してください。
+
+## 2025 年 2 月リリース {#fac-25-2}
+
+このリリースには、以下に示す変更点が伴います。
+
+* **Microsoft ファブリック サポート**
+
+  Federated Audience Composition を使用して、Microsoft ファブリックデータベースへの接続を確立できるようになりました。 [詳細情報](../connections/federated-db.md)
+
+* **Amazon Redshift Spectrum サポート**
+
+  Amazon Redshift Spectrum が、Amazon Redshift Database 接続でサポートされるようになりました。 [詳細情報](../connections/federated-db.md#amazon-redshift)
+
+* **スキーマ作成エクスペリエンスの強化**
+
+  スキーマの作成プロセスは、より直感的で移動しやすくなるように設計された、更新されたユーザーインターフェイスを通じて改善されました。 これらの機能強化により、データ担当者はデータモデルをよりスムーズかつ効率的に開発できるようになります。 [詳細情報](../customer/schemas.md)
+
+* **Databricks に対する Audience Enrichment のサポート**
+
+  オーディエンスを読み取りフローで Databricks を使用できるようになりました。これにより、Databricks データベースのアクティビティが有効になり、新しい宛先として設定できるようになります。 [詳細情報](../connections/destinations.md)
+
+<!--
+* **Federated Audience Composition permissions**
+
+    Starting March release, [!DNL Federated Audience Composition] will start enforcing the access of **Federated data management** and **Federated Compositions** interfaces to user who have been granted the **Manage Federated Data** permission. 
+
+    We recommend users to contact the administrators to have this permission added to their role in order to continue accessing the [!DNL Federated Audience Composition] user interface.
+
+    To learn how to assign this permission, refer to the [detailed documentation](feature-access.md).
+-->
 
 ## 2024年11月リリース {#fac-24-11}
 
