@@ -3,9 +3,9 @@ title: 連合オーディエンス構成の前提条件とガードレール
 description: 連合オーディエンス構成の前提条件、権限およびガードレールについて説明します
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
 source-git-commit: ed72ae722ffd5fbf14f491630b748a5009f4ebc5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '260'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 90%
 
 ## 権限 {#permissions}
 
-Federated Audience Composition にアクセスするには、ユーザーを購入時に作成され、サンドボックス固有の製品プロファイルに追加して、**[!UICONTROL Federated Data の管理]** 権限を割り当てる必要があります。 [詳細情報](feature-access.md)
+連合オーディエンス構成にアクセスするには、購入時に作成されたサンドボックス固有の製品プロファイルにユーザーを追加し、**[!UICONTROL 連合データを管理]**&#x200B;権限を割り当てる必要があります。[詳細情報](feature-access.md)
 
 ## IP 許可リスト {#ip}
 

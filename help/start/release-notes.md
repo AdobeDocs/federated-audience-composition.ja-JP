@@ -3,9 +3,9 @@ title: Experience Platform 連合オーディエンス構成の新機能
 description: 最新の更新内容とリリースノート
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: 3e508a769856e66e3b1381c3996df01539668dbd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '647'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -13,25 +13,25 @@ ht-degree: 82%
 
 [!DNL Federated Audience Composition] は、新機能、既存機能の強化、およびバグ修正を継続的に提供します。すべての変更は、このリリースノートに統合されます。[!DNL Federated Audience Composition] が [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。以下の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target="_blank"}を参照してください。
 
-## 2025 年 2 月リリース {#fac-25-2}
+## 2025年2月リリース {#fac-25-2}
 
-このリリースには、以下に示す変更点が伴います。
+このリリースでは、以下に示す変更が含まれています。
 
-* **Microsoft Fabric サポート**
+* **Microsoft Fabric のサポート**
 
-  Federated Audience Composition を使用して、Microsoft ファブリックデータベースへの接続を確立できるようになりました。 [詳細情報](../connections/federated-db.md)
+  連合オーディエンス構成を通じて Microsoft Fabricデータベースへの接続を確立できるようになりました。[詳細情報](../connections/federated-db.md)
 
-* **Amazon Redshift Spectrum サポート**
+* **Amazon Redshift Spectrum のサポート**
 
-  Amazon Redshift Spectrum が、Amazon Redshift Database 接続でサポートされるようになりました。 [詳細情報](../connections/federated-db.md#amazon-redshift)
+  Amazon Redshift データベース接続で Amazon Redshift Spectrum がサポートされるようになりました。[詳細情報](../connections/federated-db.md#amazon-redshift)
 
 * **スキーマ作成エクスペリエンスの強化**
 
-  スキーマの作成プロセスは、より直感的で移動しやすくなるように設計された、更新されたユーザーインターフェイスを通じて改善されました。 これらの機能強化により、データ担当者はデータモデルをよりスムーズかつ効率的に開発できるようになります。 [詳細情報](../customer/schemas.md)
+  スキーマの作成プロセスは、より直感的で操作しやすいように設計された、更新されたユーザーインターフェイスを通じて改善されました。これらの機能強化により、データ担当者はよりスムーズで効率的にデータモデルを開発できます。[詳細情報](../customer/schemas.md)
 
-* **Databricks に対する Audience Enrichment のサポート**
+* **Databricks に対するオーディエンスエンリッチメントのサポート**
 
-  オーディエンスを読み取りフローで Databricks を使用できるようになりました。これにより、Databricks データベースのアクティビティが有効になり、新しい宛先として設定できるようになります。 [詳細情報](../connections/destinations.md)
+  オーディエンスを読み取りフローで Databricks を使用できるようになりました。これにより、Databricks データベースのアクティビティが有効になり、新しい宛先として設定できます。[詳細情報](../connections/destinations.md)
 
 <!--
 * **Federated Audience Composition permissions**

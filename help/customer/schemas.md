@@ -4,9 +4,9 @@ title: スキーマの基本を学ぶ
 description: スキーマの開始方法について説明します
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
 source-git-commit: 3c0cbda211eed4fa1a8fdab015d4db4c9ad0cf30
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '516'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -57,13 +57,13 @@ ht-degree: 80%
 
 連合オーディエンス構成でスキーマを作成するには、次の手順に従います。
 
-1. 「**[!UICONTROL Federated Data]**」セクションで、「**[!UICONTROL モデル]** メニューにアクセスします。 「**[!UICONTROL スキーマ]**」タブを参照し、「**[!UICONTROL スキーマを作成]**」をクリックします。
+1. 「**[!UICONTROL 連合データ]**」セクションで、**[!UICONTROL モデル]**&#x200B;メニューにアクセスします。「**[!UICONTROL スキーマ]**」タブを参照し、「**[!UICONTROL スキーマを作成]**」をクリックします。
 
    ![](assets/schema_create.png){zoomable="yes"}
 
    この手順では、ドロップダウンリストを備えた新しい画面にアクセスして、環境に接続されているデータベースを検索できます。データベース接続について詳しくは、[この節](../connections/connections.md#connections-fdb)を参照してください。
 
-1. リストでソースデータベースを選択して、「**[!UICONTROL 次へ]**」をクリックします。
+1. リストでソースデータベースを選択し、「**[!UICONTROL 次へ]**」をクリックします。
 
    ![](assets/schema_tables.png){zoomable="yes"}
 
@@ -71,7 +71,7 @@ ht-degree: 80%
 
 1. スキーマを作成するテーブルを選択します。
 
-1. 選択した各テーブルは、選択した列を持つスキーマを生成します。 必要に応じて、スキーマとその列を設定します。
+1. 選択した各テーブルでは、選択した列を含むスキーマが生成されます。必要に応じて、スキーマとその列を設定します。
 
    ![](assets/schema_fields.png){zoomable="yes"}
 
@@ -79,10 +79,10 @@ ht-degree: 80%
 
    * スキーマのラベルを変更する
    * 説明を追加する
-   * すべてのフィールド ラベルの名前を変更し、表示を設定する
+   * すべてのフィールドラベルの名前を変更し、表示を設定する
    * スキーマのプライマリキーを選択する
 
-   スキーマは次のように定義できます。
+   スキーマは、次のように定義できます。
 
    ![](assets/schema_example.png)
 
@@ -98,7 +98,7 @@ ht-degree: 80%
 
    ![](assets/schema_edit.png){zoomable="yes"}
 
-1. **[!UICONTROL スキーマを編集]** ウィンドウから、[ スキーマを作成 ](#schema-create) 時と同じオプションにアクセスして設定できます。
+1. **[!UICONTROL スキーマを編集]**&#x200B;ウィンドウから、[スキーマの作成](#schema-create)時と同じオプションにアクセスして設定できます。
 
    ![](assets/schema_edit_orders.png){zoomable="yes"}
 

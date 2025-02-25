@@ -3,9 +3,9 @@ user-guide-title: Experience Platform 連合オーディエンス構成
 title: Experience Platform 連合オーディエンス構成ドキュメント
 breadcrumb-title: Experience Platform 連合オーディエンス構成
 source-git-commit: c3025f4682696352dd5d0999268b4413befe1d66
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '154'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 94%
 + 連合オーディエンス構成の基本を学ぶ{#start}
    + [連合オーディエンス構成とは](start/get-started.md)
    + [前提条件とガードレール](start/access-prerequisites.md)
-   + [Federated Audience 構成へのアクセス](start/feature-access.md)
+   + [連合オーディエンス構成へのアクセス](start/feature-access.md)
    + [オーディエンスの操作](start/audiences.md)
    + [よくある質問](start/faq.md)
 + 設定の手順 {#config}

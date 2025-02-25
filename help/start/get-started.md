@@ -3,9 +3,9 @@ title: Experience Platform 連合オーディエンス構成の基本を学ぶ
 description: アドビの連合オーディエンス構成の概要と Adobe Experience Platform での使用方法について説明します
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: b0720ba28e9d01565217ed0b095f4c0bc17893ac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '946'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 98%
 
 >[!INFO]
 >
->Federated Audience Composition を使用してオーディエンスを作成する方法については、この [ ステップバイステップガイド ](https://experienceleague.adobe.com/en/docs/platform-learn/tutorial-comprehensive-technical/datacollection/module13/fac) に従ってください。
+>連合オーディエンス構成を使用してオーディエンスを作成する方法について詳しくは、この[ステップバイステップガイド](https://experienceleague.adobe.com/ja/docs/platform-learn/tutorial-comprehensive-technical/datacollection/module13/fac)を参照してください。
 
 ## 機能 {#rn-capabilities}
 

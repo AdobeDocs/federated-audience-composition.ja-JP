@@ -1,17 +1,17 @@
 ---
-title: Federated Audience 構成へのアクセス
-description: Federated Audience Composition に必要な権限について説明します
+title: 連合オーディエンス構成へのアクセス
+description: 連合オーディエンス構成に必要な権限について説明します。
 exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
 hide: true
 hidefromtoc: true
 source-git-commit: e9cc50cbcbd076f784c924bd941e4396c14190ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '309'
-ht-degree: 36%
+ht-degree: 100%
 
 ---
 
-# Federated Audience 構成へのアクセス {#feature-access}
+# 連合オーディエンス構成へのアクセス {#feature-access}
 
 ## サンドボックスへのアクセスの管理 {#access-sandboxes}
 
@@ -19,33 +19,33 @@ ht-degree: 36%
 
 例えば、「fac-test」という名前の新しいサンドボックスをアクティブ化すると、対応する製品プロファイル「ACP_FAC - fac-test - admin」が作成されます。このサンドボックスで連合オーディエンス構成にアクセスするには、ユーザーをこの製品プロファイルに追加する必要があります。
 
-## Federated Audience コンポジションへのアクセスの管理
+## 連合オーディエンス構成へのアクセスの管理
 
 >[!AVAILABILITY]
 >
->権限は 3 月のリリースの一部です。
+>権限は 3月のリリースの一部として使用できます。
 
-**Federated Audience Composition** にアクセスするには、まず **Federated Data の管理** 権限が適切な役割に割り当てられていることを確認する必要があります。 次に、これらの役割を、**Federated Audience Composition** へのアクセスを必要とするユーザーに割り当てる必要があります。
+**連合オーディエンス構成**&#x200B;にアクセスするには、まず&#x200B;**連合データを管理**&#x200B;権限が適切な役割に割り当てられていることを確認する必要があります。次に、これらの役割は、**連合オーディエンス構成**&#x200B;へのアクセスを必要とするユーザーに割り当てる必要があります。
 
 権限を割り当てることができるのは管理者のみです。
 
-1. **[!UICONTROL 権限]** メニューに移動します。
+1. **[!UICONTROL 権限]**&#x200B;メニューに移動します。
 
-1. **[!UICONTROL 役割]** メニューから、更新する **[!UICONTROL 役割]** を選択します。
+1. **[!UICONTROL 役割]**&#x200B;メニューから、更新する&#x200B;**[!UICONTROL 役割]**&#x200B;を選択します。
 
    ![](assets/access_fda_1.png)
 
-1. **[!UICONTROL 編集]** をクリックして、役割の権限を変更します。
+1. 「**[!UICONTROL 編集]**」をクリックして、役割の権限を変更します。
 
    ![](assets/access_fda_2.png)
 
-1. **Federated Data** リソースを追加して、ドロップダウンメニューから **[!UICONTROL Federated Data を管理]** を選択します。
+1. **連合データ**&#x200B;のリソースを追加し、ドロップダウンメニューから「**[!UICONTROL 連合データを管理]**」を選択します。
 
    ![](assets/access_fda_3.png)
 
-1. 必要な変更を加えたら、「**[!UICONTROL 保存]**」をクリックします。
+1. 必要な変更を行ったら、「**[!UICONTROL 保存]**」をクリックします。
 
-この役割に既に割り当てられているユーザーは、権限が自動的に更新され、Federated Audience Composition にアクセスできます。
+この役割に既に割り当てられているユーザーは、権限が自動的に更新され、連合オーディエンス構成にアクセスできます。
 
 この役割を新しいユーザーに割り当てるには：
 
@@ -53,6 +53,6 @@ ht-degree: 36%
 
    ![](assets/access_fda_4.png)
 
-1. ユーザーの名前またはメールアドレスを入力するか、使用可能なリストから選択します。 完了したら、「**[!UICONTROL 保存]**」をクリックします。
+1. ユーザーの名前またはメールアドレスを入力するか、使用可能なリストから選択します。完了したら、「**[!UICONTROL 保存]**」をクリックします。
 
-その後、インスタンスへのアクセス手順を記載したメールがユーザーに届きます。 まだユーザーを作成していない場合は、[このドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/abac/permissions-ui/users)を参照してください。
+次に、ユーザーはインスタンスにアクセスする手順が記載されたメールを受信します。まだユーザーを作成していない場合は、[このドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/abac/permissions-ui/users)を参照してください。

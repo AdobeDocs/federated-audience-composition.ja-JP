@@ -4,9 +4,9 @@ title: 連合データベースとの接続の作成および管理
 description: 連合データベースとの接続の作成および管理方法について説明します
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
 source-git-commit: 7818cabf3769cffd05ca5308910fbc412240999e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '293'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Experience Platform 連合オーディエンス構成を使用すると、お客
    * [Google BigQuery](federated-db.md#google-big-query)
    * [Snowflake](federated-db.md#snowflake)
    * [Vertica Analytics](federated-db.md#vertica-analytics)
-   * [Microsoftファブリック](federated-db.md#microsoft-fabric)
+   * [Microsoft Fabric](federated-db.md#microsoft-fabric)
 
 1. サポートされている各データベースに対して、「**[!UICONTROL サーバー IP]**」ボタンを選択します。連合オーディエンス構成インスタンスに関連付けられているすべての IP のリストが表示されます。
 

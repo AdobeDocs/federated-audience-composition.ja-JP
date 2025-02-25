@@ -4,9 +4,9 @@ title: 連合データベースの設定
 description: 連合データベースの設定方法について説明します
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 source-git-commit: 3e508a769856e66e3b1381c3996df01539668dbd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2068'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -41,13 +41,13 @@ Experience Platform 連合オーディエンス構成を使用すると、お客
 * [Snowflake](#snowflake)
 * [Vertica Analytics](#vertica-analytics)
 * [Databricks](#databricks)
-* [Microsoftファブリック](#microsoft-fabric)
+* [Microsoft Fabric](#microsoft-fabric)
 
 ## Amazon Redshift {#amazon-redshift}
 
 >[!AVAILABILITY]
 >
->Amazon Redshift AWS、Amazon Redshift Spectrum およびAmazon Redshift Serverless のみがサポートされています。
+>Amazon Redshift AWS、Amazon Redshift Spectrum および Amazon Redshift Serverless のみがサポートされています。
 
 連合データベースを使用して、外部データベースに保存されている情報を処理します。Amazon Redshift へのアクセスを設定するには、次の手順に従います。
 
@@ -329,10 +329,10 @@ Experience Platform 連合オーディエンス構成を使用すると、お客
 |---|---|
 | TimeZoneName | デフォルトでは空で、アプリサーバーのシステムのタイムゾーンが使用されます。このオプションは、TIMEZONE セッションパラメーターを強制的に指定するために使用できます。 |
 
-## Microsoftファブリック {#microsoft-fabric}
+## Microsoft Fabric {#microsoft-fabric}
 
 
-連合データベースを使用して、外部データベースに保存されている情報を処理します。Microsoft ファブリックへのアクセスを設定するには、次の手順に従います。
+連合データベースを使用して、外部データベースに保存されている情報を処理します。Microsoft Fabric へのアクセスを設定するには、次の手順に従います。
 
 1. **[!UICONTROL 連合データ]**&#x200B;メニューで、「**[!UICONTROL 連合データベース]**」を選択します。
 
@@ -342,21 +342,21 @@ Experience Platform 連合オーディエンス構成を使用すると、お客
 
 1. 連合データベースに&#x200B;**[!UICONTROL 名前]**&#x200B;を入力します。
 
-1. 「**[!UICONTROL Type]**」ドロップダウンから「Microsoft Fabric」を選択します。
+1. **[!UICONTROL タイプ]**&#x200B;ドロップダウンから、「Microsoft Fabric」を選択します。
 
    ![](assets/microsoft-config.png)
 
-1. Microsoft Fabric Authentication を設定します。
+1. Microsoft Fabric の認証設定を指定します。
 
-   * **[!UICONTROL サーバー]**:Microsoft Fabric サーバーの URL を入力します。
+   * **[!UICONTROL サーバー]**：Microsoft Fabric サーバーの URL を入力します。
 
-   * **[!UICONTROL アプリケーション ID]**:Microsoft Fabric アプリケーション ID を入力します。
+   * **[!UICONTROL アプリケーション ID]**：Microsoft Fabric アプリケーション ID を入力します。
 
-   * **[!UICONTROL クライアント秘密鍵]**: クライアント秘密鍵を入力します。
+   * **[!UICONTROL クライアント秘密鍵]**：クライアント秘密鍵を入力します。
 
    * **[!UICONTROL オプション]**：コネクタは、以下の表で説明するオプションをサポートします。
 
-1. **[!UICONTROL サーバー IP]** をクリックして、認証するサーバー IP を選択します。
+1. 「**[!UICONTROL サーバー IP]**」をクリックして、認証するサーバー IP を選択します。
 
 1. 「**[!UICONTROL 接続をテスト]**」オプションを選択して、設定を検証します。
 
