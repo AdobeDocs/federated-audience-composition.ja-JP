@@ -2,10 +2,10 @@
 title: 連合オーディエンス構成の前提条件とガードレール
 description: 連合オーディエンス構成の前提条件、権限およびガードレールについて説明します
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: ed72ae722ffd5fbf14f491630b748a5009f4ebc5
-workflow-type: ht
-source-wordcount: '260'
-ht-degree: 100%
+source-git-commit: 0b8781b5b33d96db7d7f23b3c399942b9cfe901f
+workflow-type: tm+mt
+source-wordcount: '259'
+ht-degree: 88%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 ## サンドボックス
 
-連合オーディエンス構成アドオンを購入すると、2 つのサンドボックスを使用できます。その他のサンドボックスプロビジョニングリクエストについて詳しくは、アドビ担当者にお問い合わせください。
+Federated Audience Composition を購入する場合、2 つのサンドボックスを使用できます。 その他のサンドボックスプロビジョニングリクエストについて詳しくは、アドビ担当者にお問い合わせください。
 
 ## 権限 {#permissions}
 
@@ -51,4 +51,4 @@ ht-degree: 100%
 <!--
 * Federated Audience Composition is compatible with Privacy & Security Shield and can be used in all verticals except for healthcare industries. Currently, Federated Audience Composition cannot be licensed to customers looking to ingest health data. [Learn more](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}-->
 
-* このアドオンに適用されるエンタイトルメント、製品の制限、パフォーマンスガードレールの一覧について詳しくは、[Adobe Real-time Customer Data Platform ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/guardrails){target="_blank"}を参照してください。
+* [Adobe Real-Time Customer Data Platform ドキュメントにリストされているエンタイトルメント、製品の制限、パフォーマンスガードレールは ](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/guardrails){target="_blank"}Federated Audience Composition に適用されます。

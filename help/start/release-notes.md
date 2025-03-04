@@ -2,10 +2,10 @@
 title: Experience Platform 連合オーディエンス構成の新機能
 description: 最新の更新内容とリリースノート
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 3e508a769856e66e3b1381c3996df01539668dbd
-workflow-type: ht
-source-wordcount: '647'
-ht-degree: 100%
+source-git-commit: 0b8781b5b33d96db7d7f23b3c399942b9cfe901f
+workflow-type: tm+mt
+source-wordcount: '642'
+ht-degree: 93%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 100%
 
 >[!AVAILABILITY]
 >
->以前は一部の組織（LA）に対して提供されていた Adobe Experience Platform 連合オーディエンス構成が、すべてのユーザー（GA）に対して提供されるようになりました。このアドオンは、提供されている内容に基づいてアクティブ化され、関連付けられている権限がある場合にのみ表示されます。[詳細情報](access-prerequisites.md)
+>以前は一部の組織（LA）に対して提供されていた Adobe Experience Platform 連合オーディエンス構成が、すべてのユーザー（GA）に対して提供されるようになりました。この機能は、のオファーに基づいてアクティブ化され、関連する権限でのみ表示されます。 [詳細情報](access-prerequisites.md)
 >
 
 ### 互換性 {#fac-24-10-compat}
@@ -90,7 +90,7 @@ ht-degree: 100%
 
 ## 2024年7月リリース - 連合オーディエンス構成（LA） {#fac-la}
 
-連合オーディエンス構成は、エンタープライズデータウェアハウスへの柔軟で拡張されたアクセスを企業に提供し、重要なエンタープライズデータセットを使用してオーディエンスを構成し、ブランド主導の瞬間的なエクスペリエンスを強化するアドオン機能です。この新しいアプローチでは、[Adobe Real-time Customer Data Platform](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/home){target="_blank"} や [Adobe Journey Optimizer](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} のユーザーとして、既存のデータウェアハウスからオーディエンスデータを直接統合して、Adobe Experience Platform オーディエンスを 1 つのシステムで強化できます。
+Federated Audience Composition を使用すると、企業はエンタープライズデータウェアハウスへの柔軟かつ拡張されたアクセス権を利用して、重要なエンタープライズデータセットと、ブランド主導の即時エクスペリエンスを活用したオーディエンスを作成できます。 この新しいアプローチでは、[Adobe Real-time Customer Data Platform](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/home){target="_blank"} や [Adobe Journey Optimizer](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} のユーザーとして、既存のデータウェアハウスからオーディエンスデータを直接統合して、Adobe Experience Platform オーディエンスを 1 つのシステムで強化できます。
 
 連合オーディエンス構成は、ウェアハウスデータセットを使用してオーディエンスを柔軟に構成する必要がある企業に対する市場の需要の高まりに対応します。これにより、企業はデータの移動を削減しながら、重要なオーディエンスデータをマーケティングチームが使用できるようにし、ユースケースの要件を満たして、パーソナライズされたエクスペリエンスを強化できます。 
 

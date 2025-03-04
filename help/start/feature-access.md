@@ -4,10 +4,10 @@ description: 連合オーディエンス構成に必要な権限について説�
 exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
 hide: true
 hidefromtoc: true
-source-git-commit: e9cc50cbcbd076f784c924bd941e4396c14190ce
-workflow-type: ht
-source-wordcount: '309'
-ht-degree: 100%
+source-git-commit: 0b8781b5b33d96db7d7f23b3c399942b9cfe901f
+workflow-type: tm+mt
+source-wordcount: '310'
+ht-degree: 93%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 ## サンドボックスへのアクセスの管理 {#access-sandboxes}
 
-連合オーディエンス構成アドオンを購入すると、この時点でアクティブになっているサンドボックスごとに製品プロファイルが作成されます。この製品プロファイルは、Admin Console の **Adobe Experience Platform** 製品カードの下に作成され、次の命名規則に従います。`ACP_FAC - <<SandboxName>> - admin.` 特定のサンドボックスの連合オーディエンス構成にアクセスするには、このサンドボックス用に作成された製品プロファイルにユーザーを追加する必要があります。
+Adobe Experience Platform Federated Audience Composition を購入すると、その時点でアクティブなサンドボックスごとに製品プロファイルが作成されます。 この製品プロファイルは、Admin Console の **Adobe Experience Platform** 製品カードの下に作成され、次の命名規則に従います。`ACP_FAC - <<SandboxName>> - admin.` 特定のサンドボックスの連合オーディエンス構成にアクセスするには、このサンドボックス用に作成された製品プロファイルにユーザーを追加する必要があります。
 
 例えば、「fac-test」という名前の新しいサンドボックスをアクティブ化すると、対応する製品プロファイル「ACP_FAC - fac-test - admin」が作成されます。このサンドボックスで連合オーディエンス構成にアクセスするには、ユーザーをこの製品プロファイルに追加する必要があります。
 

@@ -1,10 +1,10 @@
 ---
 title: Adobe Experience Platform 連合オーディエンス構成ドキュメントのホームページ
-description: 連合オーディエンス構成アドオンドキュメント
+description: 連合オーディエンス構成ドキュメント
 exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
-source-git-commit: 10705adefc4bf195ab67b36533265c9e3228e188
-workflow-type: ht
-source-wordcount: '230'
+source-git-commit: 0b8781b5b33d96db7d7f23b3c399942b9cfe901f
+workflow-type: tm+mt
+source-wordcount: '229'
 ht-degree: 100%
 
 ---

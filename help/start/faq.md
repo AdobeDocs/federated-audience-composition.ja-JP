@@ -2,10 +2,10 @@
 title: よくある質問
 description: Adobe Experience Platform 連合オーディエンス構成に関するよくある質問です
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: 356826396a0b6c8a1b8716d2102f91b2d612a677
-workflow-type: ht
-source-wordcount: '826'
-ht-degree: 100%
+source-git-commit: 0b8781b5b33d96db7d7f23b3c399942b9cfe901f
+workflow-type: tm+mt
+source-wordcount: '824'
+ht-degree: 98%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 +++連合オーディエンス構成にアクセスするために必要な権限は何ですか？
 
-連合オーディエンス構成には、Adobe Real-time Customer Data Platform および Adobe Journey Optimizer Prime または Ultimate パッケージが必要です。また、連合オーディエンス構成アドオンを購入しておく必要もあります。
+連合オーディエンス構成には、Adobe Real-time Customer Data Platform および Adobe Journey Optimizer Prime または Ultimate パッケージが必要です。また、Federated Audience Composition を購入している必要があります。
 
 連合オーディエンス構成を使用するには、各ユーザーを各サンドボックス用に作成された特定のプロファイルに追加する必要があります。詳しくは、[連合オーディエンス構成へのアクセス](access-prerequisites.md)ページを参照してください。
 
