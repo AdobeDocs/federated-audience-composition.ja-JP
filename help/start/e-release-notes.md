@@ -3,10 +3,10 @@ title: Experience Platform 連合オーディエンス構成の新機能
 description: 最新の更新内容とリリースノート
 hide: true
 hidefromtoc: true
-source-git-commit: 59959bf01321d8062d345e1ec89538e5904a03cd
+source-git-commit: 016623ed6aa6e3b2c4dafa5733fd6d1a00109271
 workflow-type: tm+mt
-source-wordcount: '857'
-ht-degree: 68%
+source-wordcount: '898'
+ht-degree: 66%
 
 ---
 
@@ -35,6 +35,10 @@ ht-degree: 68%
 * **オーディエンスの書き出し**
 
   Federated Audience Composition では、大きなオーディエンスの書き出しをサポートし、ファイルサイズを最大 20 GB まで処理できるようになりました。
+
+* **AI アシスタント**
+
+  AI アシスタントは、Adobeの概念をナビゲートして理解し、特定の環境の運用に関するインサイトを取得するのに役立つように設計されたユーザーインターフェイス機能です。 Federated Audience Composition など、Adobe Experience Cloud全体の複数の製品で使用できます。
 
 ### 互換性 {#fac-25-3-compat}
 
