@@ -3,10 +3,10 @@ title: Experience Platform 連合オーディエンス構成の新機能
 description: 最新の更新内容とリリースノート
 hide: true
 hidefromtoc: true
-source-git-commit: 3d4ab8da423ac058e0c8c145caac09315c73ce59
+source-git-commit: 59959bf01321d8062d345e1ec89538e5904a03cd
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 69%
+source-wordcount: '857'
+ht-degree: 68%
 
 ---
 
@@ -16,7 +16,9 @@ ht-degree: 69%
 
 ## 2025 年 3 月リリース {#fac-25-3}
 
-このリリースには、以下の機能強化が含まれています。
+### 機能強化 {#fac-25-3-improvements}
+
+このリリースには、以下の改善点が含まれています。
 
 * **Federated Audience Composition の権限**
 
@@ -34,7 +36,7 @@ ht-degree: 69%
 
   Federated Audience Composition では、大きなオーディエンスの書き出しをサポートし、ファイルサイズを最大 20 GB まで処理できるようになりました。
 
-### 互換性 {#fac-25.3-compat}
+### 互換性 {#fac-25-3-compat}
 
 * **Databricks 接続**
 
