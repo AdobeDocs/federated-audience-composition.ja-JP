@@ -3,10 +3,11 @@ title: Experience Platform 連合オーディエンス構成の新機能
 description: 最新の更新内容とリリースノート
 hide: true
 hidefromtoc: true
-source-git-commit: 016623ed6aa6e3b2c4dafa5733fd6d1a00109271
+exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
+source-git-commit: 4b70d9e84a0089ffc4d3088bd21fb3803143ad38
 workflow-type: tm+mt
-source-wordcount: '898'
-ht-degree: 66%
+source-wordcount: '846'
+ht-degree: 69%
 
 ---
 
@@ -28,13 +29,11 @@ ht-degree: 66%
 
   この権限の割り当て方法については、[ 詳細なドキュメント ](feature-access.md) を参照してください。
 
-* **データモデルキャンバスビュー**
+<!--
+* **Data model Canvas view**
 
-  データモデルセクションのキャンバスビューでは、既存の表形式表示と共に、キャンバスレイアウトでのデータモデルとそのリンクのビジュアライゼーションが可能となるので、エクスペリエンスが向上します。 [詳細情報](../data-management/gs-models.md)
-
-* **オーディエンスの書き出し**
-
-  Federated Audience Composition では、大きなオーディエンスの書き出しをサポートし、ファイルサイズを最大 20 GB まで処理できるようになりました。
+    The Canvas view for the Data Models section improves the experience by enabling the visualization of data models and their links in a canvas layout, alongside the existing tabular view. [Learn more](../data-management/gs-models.md)
+-->
 
 * **AI アシスタント**
 
@@ -45,7 +44,7 @@ ht-degree: 66%
 * **Databricks 接続**
 
   この新しいリリースでは、Federated Audience Composition で、Databricks データベース接続のプライベートリンク接続がサポートされるようになりました。
-また、Amazon Web Services（AWS）および Azure でホストされる Databricks データベースへの安全な接続も可能になります。 [詳細情報](../connections/federated-db.md#databricks)
+また、Amazon Web Services（AWS）およびMicrosoft Azure でホストされる Databricks データベースへの安全な接続も可能になります。 [詳細情報](../connections/federated-db.md#databricks)
 
 * **B2B CDP のお客様のサポート**
 
@@ -53,7 +52,7 @@ ht-degree: 66%
 
 * **Snowflakeで保護された接続**
 
-  この新しいリリースでは、Federated Audience Composition は、Azure でホストされるSnowflake データベースへの安全なプライベートリンク接続をサポートします。 [詳細情報](../connections/federated-db.md#snowflake)
+  この新しいリリースでは、Federated Audience Composition は、Microsoft Azure でホストされるSnowflake データベースへの安全なプライベートリンク接続をサポートします。 [詳細情報](../connections/federated-db.md#snowflake)
 
 ## 2025年2月リリース {#fac-25-2}
 
@@ -129,5 +128,3 @@ Federated Audience Composition は、オーディエンスをウェアハウス�
 連合オーディエンス構成機能について詳しくは、[このページ](get-started.md)および[よくある質問](faq.md)を参照してください。
 
 連合オーディエンス構成にアクセスするための前提条件と現在のガードレールについて詳しくは、[このページ](access-prerequisites.md)を参照してください。
-
-
