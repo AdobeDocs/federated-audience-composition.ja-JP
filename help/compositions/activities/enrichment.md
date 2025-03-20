@@ -14,7 +14,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment"
->title="「エンリッチメント」アクティビティ"
+>title="エンリッチメントアクティビティ"
 >abstract="**エンリッチメント**&#x200B;アクティビティでは、データベースからの追加情報を使用してターゲットデータを強化できます。 一般的に、セグメント化アクティビティ後の構成で使用されます。"
 
 >[!CONTEXTUALHELP]
