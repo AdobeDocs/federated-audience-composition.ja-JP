@@ -2,10 +2,10 @@
 title: Experience Platform 連合オーディエンス構成の基本を学ぶ
 description: アドビの連合オーディエンス構成の概要と Adobe Experience Platform での使用方法について説明します
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 0b8781b5b33d96db7d7f23b3c399942b9cfe901f
+source-git-commit: dbce012ed4f5d971be9109cfcb33b24de2d9af18
 workflow-type: tm+mt
-source-wordcount: '945'
-ht-degree: 96%
+source-wordcount: '957'
+ht-degree: 93%
 
 ---
 
@@ -132,11 +132,6 @@ Federated Audience Composition は、[Adobe Real-Time Customer Data Platform](ht
 >abstract="プロファイルの保存"
 
 >[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile_selectaepschema"
->title="プロファイルを保存して AEP スキーマを選択"
->abstract="プロファイルを保存して AEP スキーマを選択"
-
->[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_aepschemalist"
 >title="プロファイル AEP スキーマリストの保存"
 >abstract="プロファイル AEP スキーマリストの保存"
@@ -147,6 +142,16 @@ Federated Audience Composition は、[Adobe Real-Time Customer Data Platform](ht
 >abstract="プロファイル AEP スキーマ属性の保存"
 
 >[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile_selectprimaryfield"
->title="プロファイルを保存してプライマリ識別フィールドを選択"
->abstract="プロファイルを保存してプライマリ識別フィールドを選択"
+>id="dc_orchestration_saveprofile_primaryidentitynamespace"
+>title="プライマリ ID フィールドを選択"
+>abstract="プライマリが、プロファイルに使用するフィールドを識別します。"
+
+>[!CONTEXTUALHELP]
+>id="ddc_orchestration_saveprofile_selectdataset"
+>title="AEP データセット"
+>abstract="プロファイルに使用するAEP データセットを選択します。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_selectaepschema"
+>title="プロファイルを保存して AEP スキーマを選択"
+>abstract="プロファイルに使用するAEP スキーマを選択します。"
