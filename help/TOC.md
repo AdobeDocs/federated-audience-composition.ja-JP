@@ -2,7 +2,7 @@
 user-guide-title: Experience Platform 連合オーディエンス構成
 title: Experience Platform 連合オーディエンス構成ドキュメント
 breadcrumb-title: Experience Platform 連合オーディエンス構成
-source-git-commit: 3d4ab8da423ac058e0c8c145caac09315c73ce59
+source-git-commit: 03e918ab8828f9a9a1fedeef173852d31f0af818
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 100%
@@ -55,3 +55,4 @@ ht-degree: 100%
    + [最初のクエリの作成](query/build-query.md)
    + [式の編集](query/expression-editor.md)
 + [監査記録](admin/audit-trail.md)
+

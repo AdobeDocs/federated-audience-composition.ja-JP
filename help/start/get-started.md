@@ -2,10 +2,10 @@
 title: Experience Platform 連合オーディエンス構成の基本を学ぶ
 description: アドビの連合オーディエンス構成の概要と Adobe Experience Platform での使用方法について説明します
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: dbce012ed4f5d971be9109cfcb33b24de2d9af18
+source-git-commit: 645d3378120fb52fba7866d3e3499c6af5635027
 workflow-type: tm+mt
-source-wordcount: '957'
-ht-degree: 93%
+source-wordcount: '1095'
+ht-degree: 82%
 
 ---
 
@@ -62,6 +62,24 @@ Federated Audience Composition は、[Adobe Real-Time Customer Data Platform](ht
 >[!NOTE]
 >
 >構成を実行すると、結果のオーディエンスが外部オーディエンスとして Adobe Experience Platform に保存され、Adobe Real-time Customer Data Platform や Adobe Journey Optimizer で使用できるようになります。**オーディエンス**&#x200B;メニューでアクセスできます。[詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+
+## ガバナンス、プライバシー、セキュリティ {#governance-privacy-security}
+
+### プライバシーリクエスト {#gov-privacy-requests}
+
+コンポジションを作成すると、結果オーディエンスがAdobe Experience Platformに保存されます。
+
+その後、お客様のデータリクエストの管理に役立つ [ ユーザーインターフェイス **および [RESTful API](https://experienceleague.adobe.com/ja/docs/experience-platform/privacy/api/overview){target="_blank"} を提供するAdobe Experience Platform** Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ja){target="_blank"} を通じて、これらのオーディエンスに対応するプロファイルデータへのアクセスや削除を求めるプライバシーリクエストを行うことができます。
+
+>[!NOTE]
+>
+>Privacy Serviceについて詳しくは、[Adobe Experience Platform ドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja){target="_blank"} を参照してください。
+
+Adobe Federated Audience Composition から顧客データにアクセスして削除する個々のリクエストを作成および管理できます。 **アクセスリクエスト** および **削除リクエスト** を送信する手順について詳しくは、[ リアルタイム顧客プロファイルのドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/privacy){target="_blank"} を参照してください。
+
+### 監査記録 {#gov-audit-trail}
+
+監査記録機能は、環境に対して実行されたすべてのアクションとイベントの詳細な時系列の記録をリアルタイムで提供します。 [詳細情報](../admin/audit-trail.md)
 
 ## 詳細情報 {#learn}
 

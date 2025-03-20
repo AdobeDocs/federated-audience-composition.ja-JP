@@ -2,10 +2,10 @@
 title: よくある質問
 description: Adobe Experience Platform 連合オーディエンス構成に関するよくある質問です
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: 0b8781b5b33d96db7d7f23b3c399942b9cfe901f
+source-git-commit: 03e918ab8828f9a9a1fedeef173852d31f0af818
 workflow-type: tm+mt
-source-wordcount: '824'
-ht-degree: 98%
+source-wordcount: '897'
+ht-degree: 91%
 
 ---
 
@@ -88,6 +88,18 @@ ht-degree: 98%
 いいえ、構成中に ID サービスは使用しません。構成で使用する様々なソース間のデータは、CRM ID、ユーザーアカウント番号など、ユーザー定義のロジック（基になるモデルで表現される）を通じて結合されます。データウェアハウスで選択するオーディエンスの識別子として使用される ID を選択する必要があります。連合オーディエンス構成からの結果のオーディエンスでは、結果のデータセット内の ID の ID 名前空間を識別する必要があります。
 
 +++
+
++++Federated Audience Composition を使用してプライバシーリクエストを作成および管理する方法？
+
+Adobe Federated Audience Composition の顧客データに対するアクセスおよび削除のリクエストを、次の 2 つの方法で個々に送信できます。
+
+* Adobe Experience Platform **Privacy Service UI** を使用する。 [詳細情報](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ja){target="_blank"}
+* Adobe Experience Platform **Privacy Service API** を使用する。 [詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/privacy/api/overview){target="_blank"}
+
+**アクセスリクエスト** および **削除リクエスト** を作成および管理するすべての手順については、[ リアルタイム顧客プロファイルのドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/privacy){target="_blank"} を参照してください。
+
++++
+
 <!--
 +++How are customer consent preferences honored for externally generated audiences that are imported into Federated Audience Composition?
 
