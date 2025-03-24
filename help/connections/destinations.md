@@ -4,7 +4,7 @@ title: 外部データを使用して Adobe Experience Platform オーディエ�
 description: 連合オーディエンス構成宛先を使用して、連合データベースのデータで Adobe Experience Platform オーディエンスを絞り込み、強化する方法について説明します。
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
 source-git-commit: 302bdfa32249e5efa420256ab4f3abda31bbdd50
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '588'
 ht-degree: 100%
 
