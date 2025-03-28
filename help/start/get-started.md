@@ -2,10 +2,10 @@
 title: Experience Platform 連合オーディエンス構成の基本を学ぶ
 description: アドビの連合オーディエンス構成の概要と Adobe Experience Platform での使用方法について説明します
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 645d3378120fb52fba7866d3e3499c6af5635027
+source-git-commit: 97bda9d08eead79e6172e3b5bb746e7516bf6d85
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 82%
+source-wordcount: '1146'
+ht-degree: 78%
 
 ---
 
@@ -30,6 +30,8 @@ Federated Audience Composition は、[Adobe Real-Time Customer Data Platform](ht
 * データの移動と重複を最小化：基になるデータをコピーせずに、エンタープライズデータウェアハウスにあるデータセットからオーディエンスを作成し、実用的なマーケティングプロファイルとオーディエンスを管理します。
 
 * 1 つのシステムをエクスペリエンス駆動型ワークフローに利用：Adobe Experience Platform で取得した連合オーディエンスをキュレーションし、すべてのチャネルにわたってアウトバウンドエクスペリエンスを調整します。
+
+* B2C および B2B CDP のお客様は、サポートされているエンタープライズデータウェアハウスのデータを統合することで、Federated Audience Composition を活用して、人物ベースのオーディエンスを構築できるようになりました。 さらに、enterprise data warehouse で使用可能な関連属性を取り込み、オーディエンスプロファイルを強化してパーソナライズされたターゲットエンゲージメントを強化することで、既存のAEPの人物ベースのオーディエンスを強化できます。
 
 ## ユースケース {#rn-uc}
 

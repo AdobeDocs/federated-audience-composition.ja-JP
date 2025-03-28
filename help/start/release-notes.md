@@ -2,16 +2,56 @@
 title: Experience Platform 連合オーディエンス構成の新機能
 description: 最新の更新内容とリリースノート
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 0b8781b5b33d96db7d7f23b3c399942b9cfe901f
+source-git-commit: b8687a26a48c574ec4057ec55419c15433c31b4e
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 93%
+source-wordcount: '813'
+ht-degree: 72%
 
 ---
 
 # リリースノート {#rn-new}
 
 [!DNL Federated Audience Composition] は、新機能、既存機能の強化、およびバグ修正を継続的に提供します。すべての変更は、このリリースノートに統合されます。[!DNL Federated Audience Composition] が [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。以下の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target="_blank"}を参照してください。
+
+## 2025 年 3 月リリース {#fac-25-3}
+
+### 機能強化 {#fac-25-3-improvements}
+
+このリリースには、以下の改善点が含まれています。
+
+* **Federated Audience Composition の権限**
+
+  3 月のリリース以降、[!DNL Federated Audience Composition] は、「Federated Data の管理 **権限を付与されたユーザーに対する** Federated Data Management **および** Federated Composition **インターフェイスのアクセスの適用を開始する予** です。
+
+  [!DNL Federated Audience Composition] ユーザーインターフェイスへのアクセスを続行するには、ユーザーが管理者に連絡して、この権限を自分の役割に追加してもらうことをお勧めします。
+
+  この権限の割り当て方法については、[ 詳細なドキュメント ](feature-access.md) を参照してください。
+
+<!--
+* **Data model Canvas view**
+
+    The Canvas view for the Data Models section improves the experience by enabling the visualization of data models and their links in a canvas layout, alongside the existing tabular view. [Learn more](../data-management/gs-models.md)
+
+* **AI Assistant**
+
+    The AI Assistant is a user interface feature designed to help you navigate and understand Adobe concepts and get operational insights for your specific environment. It is available in several products across Adobe Experience Cloud, including Federated Audience Composition. 
+-->
+
+
+### 互換性 {#fac-25-3-compat}
+
+* **Databricks 接続**
+
+  この新しいリリースでは、Federated Audience Composition で、Databricks データベース接続のプライベートリンク接続がサポートされるようになりました。
+これには、プライベートリンクを介してAmazon Web Services（AWS）でホストされている Databricks データベースおよび VPN を介してMicrosoft Azure でホストされている Databricks データベースへの安全な接続が含まれます。 [詳細情報](../connections/federated-db.md#databricks)
+
+* **B2B CDP のお客様のサポート**
+
+  Federated Audience Composition は、人物ベースのオーディエンスのユースケースで、B2B （Business to Business）の Customer Data Platform （CDP）のお客様が利用できるようになりました。
+
+* **Snowflakeで保護された接続**
+
+  この新しいリリースでは、Federated Audience Composition は、Microsoft Azure でホストされるSnowflake データベースへの安全なプライベートリンク接続をサポートします。 [詳細情報](../connections/federated-db.md#snowflake)
 
 ## 2025年2月リリース {#fac-25-2}
 
@@ -32,16 +72,6 @@ ht-degree: 93%
 * **Databricks に対するオーディエンスエンリッチメントのサポート**
 
   オーディエンスを読み取りフローで Databricks を使用できるようになりました。これにより、Databricks データベースのアクティビティが有効になり、新しい宛先として設定できます。[詳細情報](../connections/destinations.md)
-
-<!--
-* **Federated Audience Composition permissions**
-
-    Starting March release, [!DNL Federated Audience Composition] will start enforcing the access of **Federated data management** and **Federated Compositions** interfaces to user who have been granted the **Manage Federated Data** permission. 
-
-    We recommend users to contact the administrators to have this permission added to their role in order to continue accessing the [!DNL Federated Audience Composition] user interface.
-
-    To learn how to assign this permission, refer to the [detailed documentation](feature-access.md).
--->
 
 ## 2024年11月リリース {#fac-24-11}
 
@@ -92,9 +122,8 @@ ht-degree: 93%
 
 Federated Audience Composition を使用すると、企業はエンタープライズデータウェアハウスへの柔軟かつ拡張されたアクセス権を利用して、重要なエンタープライズデータセットと、ブランド主導の即時エクスペリエンスを活用したオーディエンスを作成できます。 この新しいアプローチでは、[Adobe Real-time Customer Data Platform](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/home){target="_blank"} や [Adobe Journey Optimizer](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} のユーザーとして、既存のデータウェアハウスからオーディエンスデータを直接統合して、Adobe Experience Platform オーディエンスを 1 つのシステムで強化できます。
 
-連合オーディエンス構成は、ウェアハウスデータセットを使用してオーディエンスを柔軟に構成する必要がある企業に対する市場の需要の高まりに対応します。これにより、企業はデータの移動を削減しながら、重要なオーディエンスデータをマーケティングチームが使用できるようにし、ユースケースの要件を満たして、パーソナライズされたエクスペリエンスを強化できます。 
+Federated Audience Composition は、オーディエンスをウェアハウスのデータセットで柔軟に構成する必要がある企業に対する、市場の需要の高まりに対応しています。 これにより、企業はデータの移動を削減しながら、重要なオーディエンスデータをマーケティングチームが使用できるようにし、ユースケースの要件を満たして、パーソナライズされたエクスペリエンスを強化できます。
 
 連合オーディエンス構成機能について詳しくは、[このページ](get-started.md)および[よくある質問](faq.md)を参照してください。
 
 連合オーディエンス構成にアクセスするための前提条件と現在のガードレールについて詳しくは、[このページ](access-prerequisites.md)を参照してください。
-

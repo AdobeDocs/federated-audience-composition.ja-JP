@@ -3,10 +3,10 @@ audience: end-user
 title: 外部データを使用して Adobe Experience Platform オーディエンスを強化
 description: 連合オーディエンス構成宛先を使用して、連合データベースのデータで Adobe Experience Platform オーディエンスを絞り込み、強化する方法について説明します。
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
-source-git-commit: 302bdfa32249e5efa420256ab4f3abda31bbdd50
-workflow-type: ht
-source-wordcount: '588'
-ht-degree: 100%
+source-git-commit: 5a332d9252fec16e66e38a1d57ab4e3484ac2b8a
+workflow-type: tm+mt
+source-wordcount: '611'
+ht-degree: 92%
 
 ---
 
@@ -60,11 +60,15 @@ Adobe Experience Platform オーディエンスを連合オーディエンス構
 
    ![](assets/destination-activate.png)
 
-1. 送信する目的のオーディエンスを選択し、「**[!UICONTROL 次へ]**」をクリックします。
+1. 送信するオーディエンスを選択します。
 
-1. 選択したオーディエンスのファイル名と書き出しスケジュールを設定します。
+1. ![](assets/do-not-localize/Smock_Edit_18_N.svg) アイコンを選択して、書き出しスケジュールを編集します。
 
    ![](assets/destination-schedule.png)
+
+1. エクスポートファイルオプションを定義します。 オーディエンスをより迅速にアクティベートするには、「**[!UICONTROL セグメントの評価後]**」オプションを選択して、毎日の Platform バッチセグメント化ジョブが完了した直後にアクティベーションジョブをトリガーにします。
+
+   ![](assets/destination-schedule-2.png)
 
    >[!NOTE]
    >

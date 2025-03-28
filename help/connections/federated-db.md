@@ -3,10 +3,10 @@ audience: end-user
 title: 連合データベースの設定
 description: 連合データベースの設定方法について説明します
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 3e508a769856e66e3b1381c3996df01539668dbd
-workflow-type: ht
-source-wordcount: '2068'
-ht-degree: 100%
+source-git-commit: b8687a26a48c574ec4057ec55419c15433c31b4e
+workflow-type: tm+mt
+source-wordcount: '2120'
+ht-degree: 96%
 
 ---
 
@@ -175,7 +175,7 @@ Experience Platform 連合オーディエンス構成を使用すると、お客
 
 >[!NOTE]
 >
->プライベートリンクを介した外部 Snowflake データウェアハウスへの安全なアクセスがサポートされています。Snowflake アカウントは、Amazon Web Services（AWS）でホストされ、連合オーディエンス構成環境と同じ地域に配置されている必要があります。Snowflake アカウントへの安全なアクセスの設定について詳しくは、アドビ担当者にお問い合わせください。
+>プライベートリンクを介した外部 Snowflake データウェアハウスへの安全なアクセスがサポートされています。Snowflake アカウントは、Amazon Web Services（AWS）または Azure でホストされ、Federated Audience Composition 環境と同じリージョンに配置されている必要があります。 Snowflake アカウントへの安全なアクセスの設定について詳しくは、アドビ担当者にお問い合わせください。
 >
 
 連合データベースを使用して、外部データベースに保存されている情報を処理します。Snowflake へのアクセスを設定するには、次の手順に従います。
@@ -282,6 +282,10 @@ Experience Platform 連合オーディエンス構成を使用すると、お客
 | TimeZoneName | デフォルトでは空で、アプリサーバーのシステムのタイムゾーンが使用されます。このオプションは、TIMEZONE セッションパラメーターを強制的に指定するために使用できます。 |
 
 ## Databricks {#databricks}
+
+>[!NOTE]
+>
+>プライベートリンクを介した外部 Databricks データウェアハウスへの安全なアクセスがサポートされています。 これには、プライベートリンクを介してAmazon Web Services（AWS）でホストされている Databricks データベースおよび VPN を介してMicrosoft Azure でホストされている Databricks データベースへの安全な接続が含まれます。 安全なアクセスの設定について詳しくは、Adobe担当者にお問い合わせください。
 
 連合データベースを使用して、外部データベースに保存されている情報を処理します。Databricks へのアクセスを設定するには、次の手順に従います。
 

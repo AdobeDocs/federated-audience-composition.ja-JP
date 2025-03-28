@@ -2,11 +2,9 @@
 title: 連合オーディエンス構成へのアクセス
 description: 連合オーディエンス構成に必要な権限について説明します。
 exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
-hide: true
-hidefromtoc: true
-source-git-commit: 0b8781b5b33d96db7d7f23b3c399942b9cfe901f
+source-git-commit: 0f4bba9c749a6548da07d78136e914cc53314684
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '301'
 ht-degree: 93%
 
 ---
@@ -20,10 +18,6 @@ Adobe Experience Platform Federated Audience Composition を購入すると、�
 例えば、「fac-test」という名前の新しいサンドボックスをアクティブ化すると、対応する製品プロファイル「ACP_FAC - fac-test - admin」が作成されます。このサンドボックスで連合オーディエンス構成にアクセスするには、ユーザーをこの製品プロファイルに追加する必要があります。
 
 ## 連合オーディエンス構成へのアクセスの管理
-
->[!AVAILABILITY]
->
->権限は 3月のリリースの一部として使用できます。
 
 **連合オーディエンス構成**&#x200B;にアクセスするには、まず&#x200B;**連合データを管理**&#x200B;権限が適切な役割に割り当てられていることを確認する必要があります。次に、これらの役割は、**連合オーディエンス構成**&#x200B;へのアクセスを必要とするユーザーに割り当てる必要があります。
 
