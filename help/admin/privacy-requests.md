@@ -1,19 +1,19 @@
 ---
 audience: end-user
 title: プライバシーリクエスト
-description: Privacy Serviceを通じてプライバシーリクエストを管理する方法を学ぶ
+description: Privacy Service を通じてプライバシーリクエストを管理する方法について説明します
 source-git-commit: 154edf65bc460c6c98ae16f9b799ec38939fb5fd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '117'
-ht-degree: 6%
+ht-degree: 100%
 
 ---
 
 # プライバシーリクエスト {#privacy-requests}
 
-コンポジションを作成すると、結果オーディエンスがAdobe Experience Platformに保存されます。
+構成を作成すると、結果として得られるオーディエンスは Adobe Experience Platform に保存されます。
 
-その後、お客様のデータリクエストの管理に役立つ [ ユーザーインターフェイス **および [RESTful API](https://experienceleague.adobe.com/ja/docs/experience-platform/privacy/api/overview){target="_blank"} を提供するAdobe Experience Platform** Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ja){target="_blank"} を通じて、これらのオーディエンスに対応するプロファイルデータへのアクセスや削除を求めるプライバシーリクエストを行うことができます。
+その後、Adobe Experience Platform **Privacy Service** を通じて、これらのオーディエンスに対応するプロファイルデータにアクセスしたり、プロファイルデータを削除したりするためのプライバシーリクエストを行うことができます。このサービスでは、顧客データリクエストの管理に役立つ[ユーザーインターフェイス](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ja){target="_blank"}と [RESTful API](https://experienceleague.adobe.com/ja/docs/experience-platform/privacy/api/overview){target="_blank"} を提供します。
 
 <!--With Privacy Service, you can submit requests to access and delete personal customer data from Adobe Experience Cloud applications, facilitating automated compliance with legal and organizational privacy regulations.
 
@@ -23,9 +23,9 @@ Privacy requests can be created and managed from the **[!UICONTROL Requests]** m
 
 >[!NOTE]
 >
->Privacy Serviceについて詳しくは、[Adobe Experience Platform ドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja){target="_blank"} を参照してください。
+>Privacy Service について詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja){target="_blank"}を参照してください。
 
-Adobe Federated Audience Composition から顧客データにアクセスして削除する個々のリクエストを作成および管理できます。 **アクセスリクエスト** および **削除リクエスト** を送信する手順について詳しくは、[ リアルタイム顧客プロファイルのドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/privacy){target="_blank"} を参照してください。
+Adobe 連合オーディエンス構成から顧客データにアクセスし、削除する個別のリクエストを作成および管理できます。**アクセスリクエスト**&#x200B;および&#x200B;**削除リクエスト**&#x200B;を送信する手順について詳しくは、[リアルタイム顧客プロファイルドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/privacy){target="_blank"}を参照してください。
 
 <!--## Manage individual data privacy requests {#data-privacy-requests}
 

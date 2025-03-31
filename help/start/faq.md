@@ -3,9 +3,9 @@ title: よくある質問
 description: Adobe Experience Platform 連合オーディエンス構成に関するよくある質問です
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
 source-git-commit: 03e918ab8828f9a9a1fedeef173852d31f0af818
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '897'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 91%
 
 +++連合オーディエンス構成にアクセスするために必要な権限は何ですか？
 
-連合オーディエンス構成には、Adobe Real-time Customer Data Platform および Adobe Journey Optimizer Prime または Ultimate パッケージが必要です。また、Federated Audience Composition を購入している必要があります。
+連合オーディエンス構成には、Adobe Real-time Customer Data Platform および Adobe Journey Optimizer Prime または Ultimate パッケージが必要です。また、連合オーディエンス構成も購入する必要があります。
 
 連合オーディエンス構成を使用するには、各ユーザーを各サンドボックス用に作成された特定のプロファイルに追加する必要があります。詳しくは、[連合オーディエンス構成へのアクセス](access-prerequisites.md)ページを参照してください。
 
@@ -89,14 +89,14 @@ ht-degree: 91%
 
 +++
 
-+++Federated Audience Composition を使用してプライバシーリクエストを作成および管理する方法？
++++連合オーディエンス構成を使用してプライバシーリクエストを作成および管理するにはどうすればよいですか？
 
-Adobe Federated Audience Composition の顧客データに対するアクセスおよび削除のリクエストを、次の 2 つの方法で個々に送信できます。
+アドビの連合オーディエンス構成から顧客データにアクセスして削除するための個別のリクエストは、次の 2 つの方法で送信できます。
 
-* Adobe Experience Platform **Privacy Service UI** を使用する。 [詳細情報](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ja){target="_blank"}
-* Adobe Experience Platform **Privacy Service API** を使用する。 [詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/privacy/api/overview){target="_blank"}
+* Adobe Experience Platform **Privacy Service UI** 経由。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ja){target="_blank"}
+* Adobe Experience Platform **Privacy Service API** 経由。[詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/privacy/api/overview){target="_blank"}
 
-**アクセスリクエスト** および **削除リクエスト** を作成および管理するすべての手順については、[ リアルタイム顧客プロファイルのドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/privacy){target="_blank"} を参照してください。
+**アクセスリクエスト**&#x200B;および&#x200B;**削除リクエスト**&#x200B;を作成および管理するすべての手順について詳しくは、[リアルタイム顧客プロファイルドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/privacy){target="_blank"}を参照してください。
 
 +++
 
