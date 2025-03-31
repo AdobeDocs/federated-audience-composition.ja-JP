@@ -5,13 +5,13 @@ exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: 97bda9d08eead79e6172e3b5bb746e7516bf6d85
 workflow-type: tm+mt
 source-wordcount: '1146'
-ht-degree: 78%
+ht-degree: 95%
 
 ---
 
 # 連合オーディエンス構成の基本を学ぶ {#gs-fac}
 
-Federated Audience Composition は、[Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/home){target="_blank"} および [Adobe Journey Optimizer](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} 環境で使用できます。 これにより、サードパーティのデータウェアハウスからオーディエンスを作成および強化し、オーディエンスをAdobe Experience Platformにインポートできます。 連合オーディエンス構成は、Adobe Real-time Customer Data Platform や Adobe Journey Optimizer 内でエンタープライズデータウェアハウスを直接接続し、データウェアハウスのテーブルに対してクエリを実行するための簡単で強力なソリューションを提供します。
+連合オーディエンス構成は、[Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/home){target="_blank"} および [Adobe Journey Optimizer](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} 環境で使用できます。これを使用すると、サードパーティのデータウェアハウスからオーディエンスを作成して強化し、このオーディエンスを Adobe Experience Platform に読み込むことができます。連合オーディエンス構成は、Adobe Real-time Customer Data Platform や Adobe Journey Optimizer 内でエンタープライズデータウェアハウスを直接接続し、データウェアハウスのテーブルに対してクエリを実行するための簡単で強力なソリューションを提供します。
 
 アドビの連合オーディエンス構成は、Adobe Experience Platform アプリのユーザーが、Amazon Redshift、Azure Synapse Analytics などのデータウェアハウスやクラウドストレージプラットフォームに保存されている顧客データにアクセスするのに役立ちます。顧客データを複数のデータウェアハウスに保存し、複製せずに即座にアクセスできるようになります。サポートされているプラットフォームについては、[このページ](../connections/federated-db.md#supported-db)を参照してください。
 
@@ -69,19 +69,19 @@ Federated Audience Composition は、[Adobe Real-Time Customer Data Platform](ht
 
 ### プライバシーリクエスト {#gov-privacy-requests}
 
-コンポジションを作成すると、結果オーディエンスがAdobe Experience Platformに保存されます。
+構成を作成すると、結果として得られるオーディエンスは Adobe Experience Platform に保存されます。
 
-その後、お客様のデータリクエストの管理に役立つ [ ユーザーインターフェイス **および [RESTful API](https://experienceleague.adobe.com/ja/docs/experience-platform/privacy/api/overview){target="_blank"} を提供するAdobe Experience Platform** Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ja){target="_blank"} を通じて、これらのオーディエンスに対応するプロファイルデータへのアクセスや削除を求めるプライバシーリクエストを行うことができます。
+その後、Adobe Experience Platform **Privacy Service** を通じて、これらのオーディエンスに対応するプロファイルデータにアクセスしたり、プロファイルデータを削除したりするプライバシーリクエストを行うことができます。このサービスでは、顧客データリクエストの管理に役立つ[ユーザーインターフェイス](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ja){target="_blank"}と [RESTful API](https://experienceleague.adobe.com/ja/docs/experience-platform/privacy/api/overview){target="_blank"} を提供します。
 
 >[!NOTE]
 >
->Privacy Serviceについて詳しくは、[Adobe Experience Platform ドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja){target="_blank"} を参照してください。
+>Privacy Service について詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja){target="_blank"}を参照してください。
 
-Adobe Federated Audience Composition から顧客データにアクセスして削除する個々のリクエストを作成および管理できます。 **アクセスリクエスト** および **削除リクエスト** を送信する手順について詳しくは、[ リアルタイム顧客プロファイルのドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/privacy){target="_blank"} を参照してください。
+Adobe 連合オーディエンス構成から顧客データにアクセスし、削除する個別のリクエストを作成および管理できます。**アクセスリクエスト**&#x200B;および&#x200B;**削除リクエスト**&#x200B;を送信する手順について詳しくは、[リアルタイム顧客プロファイルドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/privacy){target="_blank"}を参照してください。
 
 ### 監査記録 {#gov-audit-trail}
 
-監査記録機能は、環境に対して実行されたすべてのアクションとイベントの詳細な時系列の記録をリアルタイムで提供します。 [詳細情報](../admin/audit-trail.md)
+監査記録機能では、環境に対して行われたすべてのアクションとイベントの詳細かつ時系列の記録がリアルタイムで提供されます。[詳細情報](../admin/audit-trail.md)
 
 ## 詳細情報 {#learn}
 
@@ -163,15 +163,15 @@ Adobe Federated Audience Composition から顧客データにアクセスして�
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_primaryidentitynamespace"
->title="プライマリ ID フィールドを選択"
->abstract="プライマリが、プロファイルに使用するフィールドを識別します。"
+>title="プライマリ識別フィールドの選択"
+>abstract="プロファイルに使用するプライマリ識別フィールド。"
 
 >[!CONTEXTUALHELP]
 >id="ddc_orchestration_saveprofile_selectdataset"
 >title="AEP データセット"
->abstract="プロファイルに使用するAEP データセットを選択します。"
+>abstract="プロファイルに使用する AEP データセットを選択します。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_selectaepschema"
 >title="プロファイルを保存して AEP スキーマを選択"
->abstract="プロファイルに使用するAEP スキーマを選択します。"
+>abstract="プロファイルに使用する AEP スキーマを選択します。"
