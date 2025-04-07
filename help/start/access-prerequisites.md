@@ -3,9 +3,9 @@ title: 連合オーディエンス構成の前提条件とガードレール
 description: 連合オーディエンス構成の前提条件、権限およびガードレールについて説明します
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
 source-git-commit: 97bda9d08eead79e6172e3b5bb746e7516bf6d85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '311'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -35,11 +35,11 @@ ht-degree: 83%
 
 連合オーディエンス構成を購入すると、2 つのサンドボックスを使用できます。その他のサンドボックスプロビジョニングリクエストについて詳しくは、アドビ担当者にお問い合わせください。
 
-アクティブな Federated Audience Composition サンドボックスのリストを表示するには、次の手順に従います。
+アクティブな連合オーディエンス構成サンドボックスのリストを表示するには、次の手順に従います。
 
-1. Federated Audience Composition から、**[!UICONTROL 管理]** の下の **[!UICONTROL ライセンスの使用]** メニューにアクセスします。
+1. 連合オーディエンス構成から、**[!UICONTROL 管理]**&#x200B;の下にある&#x200B;**[!UICONTROL ライセンス使用状況]**&#x200B;メニューにアクセスします。
 
-1. **[!UICONTROL データ出力の合計量]** の ![](assets/do-not-localize/Smock_InfoOutline_18_N.svg) アイコンをクリックして、サンドボックスのプロパティにアクセスします。
+1. **[!UICONTROL データ取り出しの合計量]**&#x200B;の ![](assets/do-not-localize/Smock_InfoOutline_18_N.svg) アイコンをクリックして、サンドボックスのプロパティにアクセスします。
 
    ![](assets/sandbox_1.png)
 

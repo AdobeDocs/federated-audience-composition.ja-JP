@@ -3,9 +3,9 @@ title: Experience Platform 連合オーディエンス構成の新機能
 description: 最新の更新内容とリリースノート
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: b8687a26a48c574ec4057ec55419c15433c31b4e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '813'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 96%
 * **Databricks 接続**
 
   この新しいリリースでは、連合オーディエンス構成が、Databricks データベース接続のプライベートリンク接続をサポートするようになりました。
-これには、プライベートリンクを介してAmazon Web Services（AWS）でホストされている Databricks データベースおよび VPN を介してMicrosoft Azure でホストされている Databricks データベースへの安全な接続が含まれます。 [詳細情報](../connections/federated-db.md#databricks)
+これには、プライベートリンク経由で Amazon Web Services（AWS）でホストされている Databricks データベースへの安全な接続と、VPN 経由で Microsoft Azure でホストされている Databricks データベースへの安全な接続が含まれます。[詳細情報](../connections/federated-db.md#databricks)
 
 * **B2B CDP のお客様のサポート**
 
