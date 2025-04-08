@@ -2,18 +2,18 @@
 title: Experience Platform 連合オーディエンス構成の基本を学ぶ
 description: アドビの連合オーディエンス構成の概要と Adobe Experience Platform での使用方法について説明します
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 97bda9d08eead79e6172e3b5bb746e7516bf6d85
-workflow-type: ht
+source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
+workflow-type: tm+mt
 source-wordcount: '1146'
-ht-degree: 100%
+ht-degree: 87%
 
 ---
 
 # 連合オーディエンス構成の基本を学ぶ {#gs-fac}
 
-連合オーディエンス構成は、[Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/home){target="_blank"} および [Adobe Journey Optimizer](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} 環境で使用できます。これを使用すると、サードパーティのデータウェアハウスからオーディエンスを作成して強化し、このオーディエンスを Adobe Experience Platform に読み込むことができます。連合オーディエンス構成は、Adobe Real-time Customer Data Platform や Adobe Journey Optimizer 内でエンタープライズデータウェアハウスを直接接続し、データウェアハウスのテーブルに対してクエリを実行するための簡単で強力なソリューションを提供します。
+Federated Audience Composition は、[Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/home){target="_blank"} および [Adobe Journey Optimizer](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} 環境で使用できます。 これを使用すると、サードパーティのデータウェアハウスからオーディエンスを作成して強化し、このオーディエンスを Adobe Experience Platform に読み込むことができます。連合オーディエンス構成は、Adobe Real-time Customer Data Platform や Adobe Journey Optimizer 内でエンタープライズデータウェアハウスを直接接続し、データウェアハウスのテーブルに対してクエリを実行するための簡単で強力なソリューションを提供します。
 
-アドビの連合オーディエンス構成は、Adobe Experience Platform アプリのユーザーが、Amazon Redshift、Azure Synapse Analytics などのデータウェアハウスやクラウドストレージプラットフォームに保存されている顧客データにアクセスするのに役立ちます。顧客データを複数のデータウェアハウスに保存し、複製せずに即座にアクセスできるようになります。サポートされているプラットフォームについては、[このページ](../connections/federated-db.md#supported-db)を参照してください。
+アドビの連合オーディエンス構成は、Adobe Experience Platform アプリのユーザーが、Amazon Redshift、Azure Synapse Analytics などのデータウェアハウスやクラウドストレージプラットフォームに保存されている顧客データにアクセスするのに役立ちます。顧客データを複数のデータウェアハウスに保存し、複製せずに即座にアクセスできるようになります。サポートされているプラットフォームは [ このページ ](../connections/federated-db.md#supported-db) に一覧表示されます。
 
 >[!INFO]
 >
@@ -55,11 +55,11 @@ ht-degree: 100%
 
 1. **データ統合**：様々なソースからデータを統合し、統合されたデータセットに結合します。Adobe Experience Platform アプリとエンタープライズデータウェアハウスを接続する方法、サポートされているデータベース、およびこれらの設定方法について詳しくは、[この節](../connections/federated-db.md)を参照してください。
 
-1. **データモデリング**：データの構造、関係、制約を定義するデータモデルとスキーマをデザインおよび作成します。スキーマについて詳しくは、[このページ](../customer/schemas.md)を参照してください。データモデルのリンクを作成する方法については、[このページ](../data-management/gs-models.md)を参照してください。
+1. **データモデリング**：データの構造、関係、制約を定義するデータモデルとスキーマをデザインおよび作成します。スキーマについて詳しくは、[ このページ ](../customer/schemas.md) を参照してください。 データモデルのリンクを作成する方法については、[ このページ ](../data-management/gs-models.md) を参照してください。
 
 1. **データ変換**：データ操作テクニックを適用して、データ要素の形式、構造、値を変更し、特定の分析やアプリケーションに対して互換性を持たせたり、適合させたりします。
 
-1. **データ使用**：オーディエンスを作成、調整および構築します。オーディエンスの構成方法については、[このページ](../compositions/gs-compositions.md)を参照してください。また、Adobe Experience Platform オーディエンスポータルと宛先を通じて、既存のオーディエンスを更新または再利用することもできます。詳しくは、[このページ](../connections/destinations.md)を参照してください。
+1. **データ使用**：オーディエンスを作成、調整および構築します。オーディエンスを作成する方法については、[ このページ ](../compositions/gs-compositions.md) を参照してください。 また、Adobe Experience Platform オーディエンスポータルと宛先を通じて、既存のオーディエンスを更新または再利用することもできます。詳しくは、[ このページ ](../connections/destinations.md) を参照してください
 
 >[!NOTE]
 >
@@ -71,13 +71,13 @@ ht-degree: 100%
 
 構成を作成すると、結果として得られるオーディエンスは Adobe Experience Platform に保存されます。
 
-その後、Adobe Experience Platform **Privacy Service** を通じて、これらのオーディエンスに対応するプロファイルデータにアクセスしたり、プロファイルデータを削除したりするプライバシーリクエストを行うことができます。このサービスでは、顧客データリクエストの管理に役立つ[ユーザーインターフェイス](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ja){target="_blank"}と [RESTful API](https://experienceleague.adobe.com/ja/docs/experience-platform/privacy/api/overview){target="_blank"} を提供します。
+その後、お客様のデータリクエストの管理に役立つ [ ユーザーインターフェイス **および [RESTful API](https://experienceleague.adobe.com/ja/docs/experience-platform/privacy/api/overview){target="_blank"} を提供するAdobe Experience Platform** Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ja){target="_blank"} を通じて、これらのオーディエンスに対応するプロファイルデータへのアクセスや削除を求めるプライバシーリクエストを行うことができます。
 
 >[!NOTE]
 >
->Privacy Service について詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja){target="_blank"}を参照してください。
+>Privacy Serviceについて詳しくは、[Adobe Experience Platform ドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja){target="_blank"} を参照してください。
 
-Adobe 連合オーディエンス構成から顧客データにアクセスし、削除する個別のリクエストを作成および管理できます。**アクセスリクエスト**&#x200B;および&#x200B;**削除リクエスト**&#x200B;を送信する手順について詳しくは、[リアルタイム顧客プロファイルドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/privacy){target="_blank"}を参照してください。
+Adobe 連合オーディエンス構成から顧客データにアクセスし、削除する個別のリクエストを作成および管理できます。**アクセスリクエスト** および **削除リクエスト** を送信する手順について詳しくは、[ リアルタイム顧客プロファイルのドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/privacy){target="_blank"} を参照してください。
 
 ### 監査記録 {#gov-audit-trail}
 
@@ -88,9 +88,9 @@ Adobe 連合オーディエンス構成から顧客データにアクセスし�
 <!-- Workflow + Workflow activities-->
 
 
-連合オーディエンス構成、ガードレールおよび制限にアクセスする方法については、[このページ](access-prerequisites.md)を参照してください。
+[ このページ ](access-prerequisites.md) で Federated Audience Composition、ガードレールおよび制限にアクセスする方法を説明します。
 
-また、[このページ](faq.md)のよくある質問も参照してください。
+[ このページ ](faq.md) に関するよくある質問も参照してください。
 
 
 >[!CONTEXTUALHELP]

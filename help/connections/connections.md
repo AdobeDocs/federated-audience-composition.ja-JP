@@ -3,10 +3,10 @@ audience: end-user
 title: 連合データベースとの接続の作成および管理
 description: 連合データベースとの接続の作成および管理方法について説明します
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 7818cabf3769cffd05ca5308910fbc412240999e
-workflow-type: ht
+source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
+workflow-type: tm+mt
 source-wordcount: '293'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 Experience Platform 連合オーディエンス構成を使用すると、お客様はサードパーティのデータウェアハウスからオーディエンスを作成して強化し、このオーディエンスを Adobe Experience Platform に読み込むことができます。サポートされているデータウェアハウスについて詳しくは、[この節](../start/access-prerequisites.md#supported-systems)を参照してください。
 
-連合データベースと Adobe Experience Platform を操作するには、まず接続を確立する必要があります。この接続は、Adobe Experience Platform ユーザーインターフェイスで使用できる専用のユーザーインターフェイスで設定されます。詳しくは、このページを参照してください。
+連合データベースと Adobe Experience Platform を操作するには、まず接続を確立する必要があります。このページで詳しく説明するように、この接続は、Adobe Experience Platform ユーザーインターフェイスで使用できる専用のユーザーインターフェイスで設定されます。
 
 データベースとの接続を設定するには、次の手順に従います。
 
@@ -28,7 +28,7 @@ Experience Platform 連合オーディエンス構成を使用すると、お客
 
    ![](assets/connections_name.png){zoomable="yes"}
 
-   タイプを選択すると、入力する他のプロパティにアクセスできます。サポートされているデータベースについて詳しくは、[このページ](federated-db.md)を参照してください。
+   タイプを選択すると、入力する他のプロパティにアクセスできます。サポートされているデータベースについては、[ このページ ](federated-db.md) を参照してください。
 
    ![](assets/connections_details.png){zoomable="yes"}
 

@@ -2,16 +2,16 @@
 title: よくある質問
 description: Adobe Experience Platform 連合オーディエンス構成に関するよくある質問です
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: 03e918ab8828f9a9a1fedeef173852d31f0af818
-workflow-type: ht
+source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
+workflow-type: tm+mt
 source-wordcount: '897'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
 # よくある質問 {#faq}
 
-以下は、Adobe Experience Platform 連合オーディエンス構成に関するよくある質問のリストです。また、Adobe Experience Platform セグメント化サービスに関するグローバル FAQ については、[このページ](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/faq){target="_blank"}も参照してください。
+以下は、Adobe Experience Platform 連合オーディエンス構成に関するよくある質問のリストです。グローバル FAQ は、Adobe Experience Platform セグメント化サービスでも [ このページ ](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/faq){target="_blank"} で入手できます。
 
 
 +++連合オーディエンス構成にアクセスするために必要な権限は何ですか？
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 +++どのようなクラウドウェアハウスがサポートされていますか？
 
-連合オーディエンス構成でサポートされているシステムのリストについて詳しくは、[このページ](../start/access-prerequisites.md#supported-systems)を参照してください。
+Federated Audience Composition でサポートされているシステムのリストは、[ このページ ](../start/access-prerequisites.md#supported-systems) で確認できます。
 
 +++
 
@@ -64,7 +64,7 @@ ht-degree: 100%
 例：
 
 * オーディエンスの作成の場合、オーディエンスはウェアハウス内に作成され、連合オーディエンス構成を使用して追加の構成タスクやデータ操作を実行した後で、Adobe Experience Platform オーディエンスポータル経由で結果のオーディエンスと関連属性を公開することができます。オーディエンス定義と関連属性は、Adobe Experience Platform に渡されます。
-外部で生成したオーディエンスの現在のデータの有効期限は 30 日です。このデータの有効期限により、組織内に保存される余分なデータ量を削減できます。データの有効期限が過ぎると、関連付けられたデータセットはデータセットインベントリ内に引き続き表示されますが、オーディエンスをアクティベートすることはできず、プロファイル数はゼロとして表示されます。詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/faq#how-long-do-externally-generated-audiences-last-for){target="_blank"}を参照してください。
+外部で生成したオーディエンスの現在のデータの有効期限は 30 日です。このデータの有効期限により、組織内に保存される余分なデータ量を削減できます。データの有効期限が過ぎると、関連付けられたデータセットはデータセットインベントリ内に引き続き表示されますが、オーディエンスをアクティベートすることはできず、プロファイル数はゼロとして表示されます。詳しくは、[Adobe Experience Platform ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/faq#how-long-do-externally-generated-audiences-last-for){target="_blank"} を参照してください。
 
 * オーディエンスのエンリッチメントの場合、既存の Adobe Experience Platform オーディエンスが出発点となります。ここでは、次の 2 つのシナリオを確認します。
    1. 連合データウェアハウスから追加のオーディエンスペイロード属性を取り込みます。この場合、追加属性は、このオーディエンス定義の一部として渡されます。外部で生成したオーディエンスのデータの有効期限は、上記と同じ 30 日間です。
@@ -96,7 +96,7 @@ ht-degree: 100%
 * Adobe Experience Platform **Privacy Service UI** 経由。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ja){target="_blank"}
 * Adobe Experience Platform **Privacy Service API** 経由。[詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/privacy/api/overview){target="_blank"}
 
-**アクセスリクエスト**&#x200B;および&#x200B;**削除リクエスト**&#x200B;を作成および管理するすべての手順について詳しくは、[リアルタイム顧客プロファイルドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/privacy){target="_blank"}を参照してください。
+**アクセスリクエスト** および **削除リクエスト** を作成および管理するすべての手順については、[ リアルタイム顧客プロファイルのドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/privacy){target="_blank"} を参照してください。
 
 +++
 
