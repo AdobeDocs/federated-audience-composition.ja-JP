@@ -1,25 +1,25 @@
 ---
-title: AI アシスタントの操作
+title: AI アシスタントを使用する
 description: AI アシスタントの活用方法を学ぶ
-source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
+source-git-commit: 83d6074da966553caec36908729729445246ea2f
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 85%
+source-wordcount: '246'
+ht-degree: 54%
 
 ---
 
-# AI アシスタントの操作 {#ai-assistant}
+# AI アシスタントを使用する {#ai-assistant}
 
-AI アシスタントは、アドビの概念をナビゲートして理解し、特定の環境の運用上のインサイトを得るために設計されたユーザーインターフェイス機能です。連合オーディエンス構成を含む Adobe Experience Cloud 全体の複数の製品で使用できます。
+AI アシスタントは、Adobeの概念をナビゲートして理解し、特定の環境の運用に関するインサイトを取得するのに役立つように設計されたユーザーインターフェイス機能です。 連合オーディエンス構成を含む Adobe Experience Cloud 全体の複数の製品で使用できます。
 
-AI アシスタントにアクセスするには、上部バーのアイコンをクリックします。画面の右側のセクションに AI アシスタントが表示されます。
+AI アシスタントにアクセスするには、上部バーのアイコンをクリックします。 AI アシスタントが画面の右側のセクションに表示されます。
 
 ![](assets/do-not-localize/ai-assistant-open.png)
 
 
 >[!CAUTION]
 >
->AI アシスタントを使用するには、Adobe Experience Cloud 生成 AI ユーザーガイドラインに同意する必要があります。契約について詳しくは、[ このページ ](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/home){target="_blank"} を参照してください。
+>AI アシスタントを使用するには、Adobe Experience Cloud ジェネレーティブ AI ユーザーガイドラインに同意する必要があります。 契約について詳しくは、[ このページ ](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/home){target="_blank"} を参照してください。
 
 連合オーディエンス構成では、プロセスの様々な側面に関連するアドビの概念に関する製品知識の質問にアクセスできます。このような質問には、例えば次のものがあります。
 
@@ -39,4 +39,4 @@ AI アシスタントにアクセスするには、上部バーのアイコン�
 
 1. サムアップまたはサムダウンを使用して回答を評価します。
 
-AI アシスタントの使用方法については、AI アシスタントで達成できる目標の例や、AI アシスタントの仕組みを参照してください。[Adobe Experience Platform ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/home){target="_blank"}。
+AI アシスタントの使用方法については、AI アシスタントを使用して達成できる目標の例や、AI アシスタントの仕組みを参照してください。[Adobe Experience Platformのドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/home){target="_blank"}。
