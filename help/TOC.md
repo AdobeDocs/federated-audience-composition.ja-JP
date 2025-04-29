@@ -2,10 +2,10 @@
 user-guide-title: Experience Platform 連合オーディエンス構成
 title: Experience Platform 連合オーディエンス構成ドキュメント
 breadcrumb-title: Experience Platform 連合オーディエンス構成
-source-git-commit: 03e918ab8828f9a9a1fedeef173852d31f0af818
-workflow-type: ht
-source-wordcount: '156'
-ht-degree: 100%
+source-git-commit: 8cd1b967e004d84fda3788e442e41d2010f5ec24
+workflow-type: tm+mt
+source-wordcount: '159'
+ht-degree: 86%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 + [Experience Platform 連合オーディエンス構成ドキュメント](home.md)
 + [リリースノート](start/release-notes.md)
 + [リリースノート](start/e-release-notes.md)
-+ 連合オーディエンス構成の基本を学ぶ{#start}
++ Federated Audience コンポジションの基本を学ぶ {#start}
    + [連合オーディエンス構成とは](start/get-started.md)
    + [前提条件とガードレール](start/access-prerequisites.md)
    + [連合オーディエンス構成へのアクセス](start/feature-access.md)
@@ -24,14 +24,15 @@ ht-degree: 100%
 + 設定の手順 {#config}
    + [接続の作成と管理](connections/connections.md)
    + [連合データベースの設定](connections/federated-db.md)
+   + [FDA 権限マトリックス](connections/fda-rights.md)
    + データモデルとスキーマ{#datamodel}
       + [スキーマの作成と設定](customer/schemas.md)
       + [データモデルの設定（ベータ版）](data-management/gs-models-beta.md)
       + [データモデルの設定](data-management/gs-models.md)
    + [外部データを使用して Adobe Experience Platform オーディエンスを強化](connections/destinations.md)
-+ オーディエンスを構成 {#compositions}
++ オーディエンスの作成 {#compositions}
    + [構成の基本を学ぶ](compositions/gs-compositions.md)
-   + 最初の構成の作成と実行 {#create-composition}
+   + 最初のコンポジションを作成して実行します {#create-composition}
       + [構成作成の主な原則](compositions/gs-composition-creation.md)
       + [構成の作成と設定](compositions/create-composition.md)
       + [アクティビティを調整](compositions/orchestrate-activities.md)
