@@ -5,43 +5,43 @@ hide: true
 hidefromtoc: true
 exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
 source-git-commit: 60ead6d1c17161558ed1fb4d92929fdd470ac4f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '969'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
 # リリースノート {#rn-new}
 
-[!DNL Federated Audience Composition] は、新機能、既存機能の強化、およびバグ修正を継続的に提供します。すべての変更は、このリリースノートに統合されます。[!DNL Federated Audience Composition] が [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。以下の変更点について詳しくは、[Adobe Experience Platform リリースノート ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target="_blank"} を参照してください。
+[!DNL Federated Audience Composition] は、新機能、既存機能の強化、およびバグ修正を継続的に提供します。すべての変更は、このリリースノートに統合されます。[!DNL Federated Audience Composition] が [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。以下の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target="_blank"}を参照してください。
 
-## 2025 年 4 月リリース {#fac-25-4}
+## 2025年4月リリース {#fac-25-4}
 
 ### 機能強化 {#fac-25-4-improvements}
 
 このリリースには、以下の機能強化が含まれています。
 
-* **データモデルキャンバスビュー**
+* **データモデルのキャンバス表示**
 
-  データモデルセクションのキャンバスビューでは、既存の表形式表示と共に、キャンバスレイアウトでのデータモデルとそのリンクのビジュアライゼーションが可能となるので、エクスペリエンスが向上します。 [詳細情報](../data-management/gs-models.md)
+  「データモデルのキャンバス表示」セクションでは、既存の表形式表示に加え、データモデルとそのリンクのビジュアライゼーションをキャンバスレイアウトで表示でき、エクスペリエンスが向上します。[詳細情報](../data-management/gs-models.md)
 
 * **AI アシスタント**
 
-  AI アシスタントは、Adobeの概念をナビゲートして理解し、特定の環境の運用に関するインサイトを取得するのに役立つように設計されたユーザーインターフェイス機能です。 Federated Audience Composition など、Adobe Experience Cloud全体の複数の製品で使用できます。 [詳細情報](../start/audiences.md)
+  AI アシスタントは、アドビの概念をナビゲートして理解し、特定の環境の運用上のインサイトを得るために設計されたユーザーインターフェイス機能です。連合オーディエンス構成を含め、Adobe Experience Cloud 全体の複数の製品で使用できます。[詳細情報](../start/audiences.md)
 
 * **データモデル名**
 
-  オーディエンス メニューから、「**Federated コンポジション**」タブに、ID ではなくデータモデル名が表示されるようになり、明確さと全体的な操作性が向上しました。
+  オーディエンスメニューの「**連合構成**」タブに ID の代わりにデータモデル名が表示されるようになり、明確さと全体的な使いやすさが向上しました。
 
 * **オーディエンス**
 
-  オーディエンスが関連付けられていないデータモデルをユーザーが選択すると、オーディエンス メニューに、選択したデータモデルの名前またはラベルが表示されるようになりました。
+  ユーザーが関連付けられていないデータモデルを選択した際、オーディエンスメニューには、選択したデータモデルの名前またはラベルが表示されるようになりました。
 
 ### 互換性 {#fac-25-4-compat}
 
 * **Snowflake の安全な接続**
 
-  この新しいリリースでは、Federated Audience Composition は、Microsoft Azure でホストされるAmazon Redshift データベースへの安全なプライベートリンク接続をサポートします。 [詳細情報](../connections/federated-db.md#amazon-redshift)
+  この新しいリリースでは、連合オーディエンス構成が、Microsoft Azure でホストされている Amazon Redshift データベースへの安全なプライベートリンク接続をサポートします。[詳細情報](../connections/federated-db.md#amazon-redshift)
 
 ## 2025年3月リリース {#fac-25-3}
 
@@ -134,7 +134,7 @@ ht-degree: 77%
 
 * **Amazon Redshift Serverless のサポート**
 
-  この新しいリリースでは、Federated Audience Composition は、[Amazon Redshift サーバーレス ](https://aws.amazon.com/jp/redshift/redshift-serverless/){target="_blank"} をサポートしています。
+  この新しいリリースでは、連合オーディエンス構成が、[Amazon Redshift Serverless](https://aws.amazon.com/jp/redshift/redshift-serverless/){target="_blank"} をサポートするようになりました。
 
 ### 機能強化 {#fac-24-10-improvements}
 
@@ -150,10 +150,10 @@ ht-degree: 77%
 
 ## 2024年7月リリース - 連合オーディエンス構成（LA） {#fac-la}
 
-連合オーディエンス構成は、エンタープライズデータウェアハウスへの柔軟で拡張されたアクセスを企業に提供し、重要なエンタープライズデータセットを使用してオーディエンスを構成し、ブランド主導の瞬間的なエクスペリエンスを強化します。この新しいアプローチを使用すると、[Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/home){target="_blank"} または [Adobe Journey Optimizer](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} のユーザーとして、既存のデータウェアハウスからオーディエンスデータを直接統合し、1 つのシステムでAdobe Experience Platform オーディエンスを強化できます。
+連合オーディエンス構成は、エンタープライズデータウェアハウスへの柔軟で拡張されたアクセスを企業に提供し、重要なエンタープライズデータセットを使用してオーディエンスを構成し、ブランド主導の瞬間的なエクスペリエンスを強化します。この新しいアプローチでは、[Adobe Real-time Customer Data Platform](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/home){target="_blank"} や [Adobe Journey Optimizer](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} のユーザーとして、既存のデータウェアハウスからオーディエンスデータを直接統合して、Adobe Experience Platform オーディエンスを 1 つのシステムで強化できます。
 
 連合オーディエンス構成は、ウェアハウスデータセットを使用してオーディエンスを柔軟に構成する必要がある企業に対する市場の需要の高まりに対応します。これにより、企業はデータの移動を削減しながら、重要なオーディエンスデータをマーケティングチームが使用できるようにし、ユースケースの要件を満たして、パーソナライズされたエクスペリエンスを強化できます。
 
-Federated Audience Composition 機能について詳しくは、[ このページ ](get-started.md) および [ よくある質問 ](faq.md) を参照してください。
+連合オーディエンス構成機能について詳しくは、[このページ](get-started.md)および[よくある質問](faq.md)を参照してください。
 
 連合オーディエンス構成にアクセスするための前提条件と現在のガードレールについて詳しくは、[このページ](access-prerequisites.md)を参照してください。

@@ -4,9 +4,9 @@ title: 連合データベースの設定
 description: 連合データベースの設定方法について説明します
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2120'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 96%
 
 Experience Platform 連合オーディエンス構成を使用すると、お客様はサードパーティのデータウェアハウスからオーディエンスを作成して強化し、このオーディエンスを Adobe Experience Platform に読み込むことができます。
 
-外部データベースへの接続を作成、設定、テスト、保存する方法については、[ このページ ](connections.md) を参照してください。 サポートされているデータベースのリストと、それぞれのデータベースに対して設定する詳細な設定を以下に示します。
+外部データベースへの接続を作成、設定、テストおよび保存する方法について詳しくは、[このページ](connections.md)を参照してください。サポートされているデータベースのリストと、それぞれのデータベースに対して設定する詳細な設定を以下に示します。
 
 ## サポートされているデータベース {#supported-db}
 
@@ -73,7 +73,7 @@ Experience Platform 連合オーディエンス構成を使用すると、お客
 
    * **[!UICONTROL データベース]**：DSN で指定されていない場合のデータベースの名前。DSN で指定した場合は、空のままにできます
 
-   * **[!UICONTROL 作業スキーマ]**：作業用テーブルに使用するデータベーススキーマの名前。詳しくは、[Amazon ドキュメントを参照してください ](https://docs.aws.amazon.com/ja_jp/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"}
+   * **[!UICONTROL 作業スキーマ]**：作業用テーブルに使用するデータベーススキーマの名前。詳しくは、[Amazon ドキュメント](https://docs.aws.amazon.com/ja_jp/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"}を参照してください
 
      >[!NOTE]
      >
@@ -123,7 +123,7 @@ Experience Platform 連合オーディエンス構成を使用すると、お客
 
 | オプション | 説明 |
 |---|---|
-| 認証 | コネクタでサポートされている認証のタイプ。現在サポートされている値：ActiveDirectoryMSI。詳しくは、[Microsoft SQL ドキュメント ](https://learn.microsoft.com/ja-jp/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} を参照してください（接続文字列の例 n°8） |
+| 認証 | コネクタでサポートされている認証のタイプ。現在サポートされている値：ActiveDirectoryMSI。詳しくは、[Microsoft SQL ドキュメント](https://learn.microsoft.com/ja-jp/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"}（接続文字列 n°8 の例）を参照してください |
 
 ## Google BigQuery {#google-big-query}
 
@@ -226,11 +226,11 @@ Experience Platform 連合オーディエンス構成を使用すると、お客
 |---|---|
 | workschema | ワークテーブルに使用するデータベーススキーマ  |
 | warehouse | 使用するデフォルトのウェアハウスの名前。ユーザーのデフォルト値より優先されます。 |
-| TimeZoneName | デフォルトでは空で、アプリサーバーのシステムのタイムゾーンが使用されます。このオプションは、TIMEZONE セッションパラメーターを強制的に指定するために使用できます。<br> 詳しくは、[ このページ ](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone){target="_blank"} を参照してください。 |
-| WeekStart | WEEK_START セッションパラメーター。デフォルトでは 0 に設定されています。<br> 詳しくは、[ このページ ](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start){target="_blank"} を参照してください。 |
-| UseCachedResult | USE_CACHED_RESULTS セッションパラメーター。デフォルトでは TRUE に設定されています。このオプションは、Snowflake がキャッシュした結果を無効にする際に使用できます。<br> 詳しくは、[ このページ ](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html){target="_blank"} を参照してください。 |
+| TimeZoneName | デフォルトでは空で、アプリサーバーのシステムのタイムゾーンが使用されます。このオプションは、TIMEZONE セッションパラメーターを強制的に指定するために使用できます。<br>詳しくは、[このページ](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone){target="_blank"}を参照してください。 |
+| WeekStart | WEEK_START セッションパラメーター。デフォルトでは 0 に設定されています。<br>詳しくは、[このページ](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start){target="_blank"}を参照してください。 |
+| UseCachedResult | USE_CACHED_RESULTS セッションパラメーター。デフォルトでは TRUE に設定されています。このオプションは、Snowflake がキャッシュした結果を無効にする際に使用できます。<br>詳しくは、[このページ](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html){target="_blank"}を参照してください。 |
 | bulkThreads | Snowflake バルクローダーに使用するスレッドの数。スレッドが多いほど、大きな一括読み込みのパフォーマンスが向上します。デフォルトでは 1 に設定されています。この数は、マシンスレッド数に応じて調整できます。 |
-| chunkSize | バルクローダーチャンクのファイルサイズを決定します。デフォルトでは 128 MB に設定されています。bulkThreads と共に使用する場合は、より最適なパフォーマンスが得られるように変更できます。同時にアクティブなスレッドが多いほど、パフォーマンスが向上します。<br> 詳しくは、[Snowflake ドキュメントを参照してください ](https://docs.snowflake.net/manuals/sql-reference/sql/put.html){target="_blank"}。 |
+| chunkSize | バルクローダーチャンクのファイルサイズを決定します。デフォルトでは 128 MB に設定されています。bulkThreads と共に使用する場合は、より最適なパフォーマンスが得られるように変更できます。同時にアクティブなスレッドが多いほど、パフォーマンスが向上します。<br>詳しくは、[Snowflake ドキュメント](https://docs.snowflake.net/manuals/sql-reference/sql/put.html){target="_blank"}を参照してください。 |
 | StageName | 事前プロビジョニングされた内部ステージの名前です。新しい一時ステージを作成する代わりに、一括読み込みで使用されます。 |
 
 ## Vertica Analytics {#vertica-analytics}
@@ -370,5 +370,5 @@ Experience Platform 連合オーディエンス構成を使用すると、お客
 
 | オプション | 説明 |
 |---|---|
-| 認証 | コネクタでサポートされている認証のタイプ。現在サポートされている値：ActiveDirectoryMSI。詳しくは、[Microsoft SQL ドキュメント ](https://learn.microsoft.com/ja-jp/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} を参照してください（接続文字列の例 n°8） |
+| 認証 | コネクタでサポートされている認証のタイプ。現在サポートされている値：ActiveDirectoryMSI。詳しくは、[Microsoft SQL ドキュメント](https://learn.microsoft.com/ja-jp/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"}（接続文字列 n°8 の例）を参照してください |
 

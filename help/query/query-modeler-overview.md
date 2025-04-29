@@ -4,9 +4,9 @@ title: クエリモデラーの操作
 description: クエリモデラーの操作方法について説明します
 exl-id: b77b9d1c-61d5-4d6d-9d82-3c72bc9c932a
 source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '346'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 98%
 | 用途 | 例 |
 |  ---  |  ---  |
 | **オーディエンスを定義**：構成でターゲットにする母集団を指定し、ニーズに合わせて新しいオーディエンスを簡単に作成します。 | ![](assets/access-audience.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
-| **アクティビティをカスタマイズ**：特定の要件に合わせて、**分割**&#x200B;や&#x200B;**紐付け**&#x200B;などの構成アクティビティ内にルールを適用します。[ コンポジションアクティビティの詳細情報 ](../compositions/activities/about-activities.md) | ![](assets/access-composition.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| **アクティビティをカスタマイズ**：特定の要件に合わせて、**分割**&#x200B;や&#x200B;**紐付け**&#x200B;などの構成アクティビティ内にルールを適用します。[構成アクティビティの詳細情報](../compositions/activities/about-activities.md) | ![](assets/access-composition.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
 ## クエリモデラーインターフェイス {#interface}
 
