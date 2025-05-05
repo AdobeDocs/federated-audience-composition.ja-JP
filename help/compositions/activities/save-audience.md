@@ -38,7 +38,7 @@ ht-degree: 91%
 
 このアクティビティは基本的に、同じ構成で計算された母集団グループを再利用可能なオーディエンスに変換することで、このグループを維持するために使用されます。**オーディエンスを作成**&#x200B;アクティビティや&#x200B;**結合**&#x200B;アクティビティなどの他のターゲティングアクティビティに接続します。
 
-**[!UICONTROL オーディエンスを保存]** アクティビティは、新しいオーディエンススキーマとデータセットを生成します。 オーディエンスを作成したら、適切なデータガバナンスラベルを割り当てるために管理者と調整してください。 [ データ使用ラベルの詳細情報 ](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/user-guide)
+**[!UICONTROL オーディエンスを保存]** アクティビティは、新しいオーディエンススキーマとデータセットを生成します。 オーディエンスを作成したら、適切なデータガバナンスラベルを割り当てるために管理者と調整してください。 [ データ使用ラベルの詳細情報 ](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/labels/user-guide)
 
 >[!IMPORTANT]
 >

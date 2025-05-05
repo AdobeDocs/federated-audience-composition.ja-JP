@@ -89,7 +89,7 @@ ht-degree: 84%
 * **オーディエンスを保存アクティビティ**
 
   **オーディエンスを保存** アクティビティにメモが追加され、オーディエンスの作成およびエンリッチメント中に作成された新しいスキーマおよびデータセットにガバナンスラベルを適用するため、ユーザーがデータ管理者と共同作業することを促しました。
-  [ データ使用ラベルの詳細情報 ](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/user-guide)
+  [ データ使用ラベルの詳細情報 ](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/labels/user-guide)
 
 ### 互換性 {#fac-25-4-compat}
 
