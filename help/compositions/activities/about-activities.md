@@ -3,10 +3,10 @@ audience: end-user
 title: アクティビティの操作
 description: アクティビティの操作方法について説明します
 exl-id: 1e4e5f53-636f-4f1c-bf2f-cc3b5d6d6dda
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
 workflow-type: tm+mt
 source-wordcount: '278'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 ## フロー制御アクティビティ
 
 * [AND 結合](and-join.md)：構成の複数の実行分岐を同期します。
-* **終了**：構成の終了を視覚的に示します。このアクティビティは、機能上の影響はないので、省略可能です。
+* **終了**：コンポジションの終了を視覚的に示します。 このアクティビティは、機能上の影響はないので、省略可能です。
 * [分岐](fork.md)：アウトバウンドトランジションを作成して、複数のアクティビティを同時に開始します。
 * [スケジューラー](scheduler.md)：構成の開始日時をスケジュールします。
 * [待機](wait.md)：構成の一部の実行を一時的に中断します。

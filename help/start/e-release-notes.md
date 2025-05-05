@@ -4,9 +4,9 @@ description: 最新の更新内容とリリースノート
 hide: true
 hidefromtoc: true
 exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
-source-git-commit: 60ead6d1c17161558ed1fb4d92929fdd470ac4f9
-workflow-type: ht
-source-wordcount: '969'
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
+workflow-type: tm+mt
+source-wordcount: '980'
 ht-degree: 100%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 100%
 * **Databricks 接続**
 
   この新しいリリースでは、連合オーディエンス構成が、Databricks データベース接続のプライベートリンク接続をサポートするようになりました。
-また、Amazon Web Services（AWS）でホストされている Databricks データベースへの安全な接続も可能になります。[詳細情報](../connections/federated-db.md#databricks)
+これには、プライベートリンク経由で Amazon Web Services（AWS）でホストされている Databricks データベースへの安全な接続と、VPN 経由で Microsoft Azure でホストされている Databricks データベースへの安全な接続が含まれます。[詳細情報](../connections/federated-db.md#databricks)
 
 * **B2B CDP のお客様のサポート**
 

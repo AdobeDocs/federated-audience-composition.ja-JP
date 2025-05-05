@@ -3,10 +3,10 @@ audience: end-user
 title: 連合データベースの設定
 description: 連合データベースの設定方法について説明します
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
-workflow-type: ht
-source-wordcount: '2120'
-ht-degree: 100%
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
+workflow-type: tm+mt
+source-wordcount: '2133'
+ht-degree: 99%
 
 ---
 
@@ -45,9 +45,11 @@ Experience Platform 連合オーディエンス構成を使用すると、お客
 
 ## Amazon Redshift {#amazon-redshift}
 
->[!AVAILABILITY]
+>[!NOTE]
 >
->Amazon Redshift AWS、Amazon Redshift Spectrum および Amazon Redshift Serverless のみがサポートされています。
+>* Amazon Redshift AWS、Amazon Redshift Spectrum および Amazon Redshift Serverless のみがサポートされています。
+>
+>* プライベートリンクを介した外部Amazon Redshift データベースへの安全なアクセスがサポートされています。
 
 連合データベースを使用して、外部データベースに保存されている情報を処理します。Amazon Redshift へのアクセスを設定するには、次の手順に従います。
 

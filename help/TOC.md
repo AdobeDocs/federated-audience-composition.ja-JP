@@ -2,10 +2,10 @@
 user-guide-title: Experience Platform 連合オーディエンス構成
 title: Experience Platform 連合オーディエンス構成ドキュメント
 breadcrumb-title: Experience Platform 連合オーディエンス構成
-source-git-commit: 8cd1b967e004d84fda3788e442e41d2010f5ec24
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 86%
+source-wordcount: '161'
+ht-degree: 85%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 86%
    + [前提条件とガードレール](start/access-prerequisites.md)
    + [連合オーディエンス構成へのアクセス](start/feature-access.md)
    + [オーディエンスの操作](start/audiences.md)
+   + [AI アシスタントの操作](start/ai-assistant.md)
    + [よくある質問](start/faq.md)
 + 設定の手順 {#config}
    + [接続の作成と管理](connections/connections.md)
@@ -27,7 +28,6 @@ ht-degree: 86%
    + [FDA 権限マトリックス](connections/fda-rights.md)
    + データモデルとスキーマ{#datamodel}
       + [スキーマの作成と設定](customer/schemas.md)
-      + [データモデルの設定（ベータ版）](data-management/gs-models-beta.md)
       + [データモデルの設定](data-management/gs-models.md)
    + [外部データを使用して Adobe Experience Platform オーディエンスを強化](connections/destinations.md)
 + オーディエンスの作成 {#compositions}
@@ -48,6 +48,7 @@ ht-degree: 86%
       + [分岐](compositions/activities/fork.md)
       + [紐付け](compositions/activities/reconciliation.md)
       + [オーディエンスを保存](compositions/activities/save-audience.md)
+      + [プロファイルの保存](compositions/activities/save-profiles.md)
       + [スケジューラー](compositions/activities/scheduler.md)
       + [分割](compositions/activities/split.md)
       + [待機](compositions/activities/wait.md)

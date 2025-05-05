@@ -3,10 +3,10 @@ audience: end-user
 title: オーディエンスを保存アクティビティの使用
 description: オーディエンスを保存アクティビティの使用方法について説明します
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: ht
-source-wordcount: '473'
-ht-degree: 100%
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
+workflow-type: tm+mt
+source-wordcount: '508'
+ht-degree: 91%
 
 ---
 
@@ -38,9 +38,11 @@ ht-degree: 100%
 
 このアクティビティは基本的に、同じ構成で計算された母集団グループを再利用可能なオーディエンスに変換することで、このグループを維持するために使用されます。**オーディエンスを作成**&#x200B;アクティビティや&#x200B;**結合**&#x200B;アクティビティなどの他のターゲティングアクティビティに接続します。
 
+**[!UICONTROL オーディエンスを保存]** アクティビティは、新しいオーディエンススキーマとデータセットを生成します。 オーディエンスを作成したら、適切なデータガバナンスラベルを割り当てるために管理者と調整してください。 [ データ使用ラベルの詳細情報 ](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/user-guide)
+
 >[!IMPORTANT]
 >
->**オーディエンスを保存**&#x200B;アクティビティには、プロファイル対応のスキーマとデータセットが必要です。[詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}。
+>**オーディエンスを保存**&#x200B;アクティビティには、プロファイル対応のスキーマとデータセットが必要です。[詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}
 
 ## オーディエンスを保存アクティビティの設定 {#save-audience-configuration}
 
@@ -71,7 +73,7 @@ ht-degree: 100%
 
 作成したオーディエンスには、「オーディエンスマッピング」セクションで選択したすべてのフィールドが含まれます。Journey Optimizer でこのオーディエンスをターゲットにするか、Adobe Experience Platform でサポートされる任意の宛先に対してアクティブ化できます。
 
-[詳しくは、Adobe Experience Platform ドキュメントを参照してください](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+[ 詳しくは、Adobe Experience Platform ドキュメントを参照してください ](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 <!--
 

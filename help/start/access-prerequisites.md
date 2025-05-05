@@ -2,10 +2,10 @@
 title: 連合オーディエンス構成の前提条件とガードレール
 description: 連合オーディエンス構成の前提条件、権限およびガードレールについて説明します
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 86%
+source-wordcount: '338'
+ht-degree: 79%
 
 ---
 
@@ -66,6 +66,6 @@ ht-degree: 86%
 
 * [Adobe Real-Time Customer Data Platform ドキュメントにリストされているエンタイトルメント、製品の制限、パフォーマンスガードレールは ](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/guardrails){target="_blank"}Federated Audience Composition に適用されます。
 
-<!--* Federated Audience Composition supports the export of large audiences, with file sizes greater than 1 GB. For optimal performance, the maximum recommended file size is up to 20 GB.
--->
+* Federated Audience Composition では、ファイルサイズが 1 GB を超える大きなオーディエンスの書き出しをサポートしています。 最適なパフォーマンスを得るために、推奨されるファイルの最大サイズは 20 GB です。
+
 

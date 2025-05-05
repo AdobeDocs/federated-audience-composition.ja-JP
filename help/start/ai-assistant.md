@@ -1,33 +1,36 @@
 ---
 title: AI アシスタントの操作
 description: AI アシスタントの活用方法について学ぶ
-source-git-commit: 83d6074da966553caec36908729729445246ea2f
-workflow-type: ht
-source-wordcount: '246'
-ht-degree: 100%
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
+workflow-type: tm+mt
+source-wordcount: '266'
+ht-degree: 46%
 
 ---
 
 # AI アシスタントの操作 {#ai-assistant}
 
-AI アシスタントは、アドビの概念をナビゲートして理解し、特定の環境の運用上のインサイトを得るために設計されたユーザーインターフェイス機能です。連合オーディエンス構成を含め、Adobe Experience Cloud 全体の複数の製品で使用できます。
-
-AI アシスタントにアクセスするには、上部バーのアイコンをクリックします。画面の右側のセクションに AI アシスタントが表示されます。
-
-![](assets/do-not-localize/ai-assistant-open.png)
-
+AI アシスタントは、Adobeの概念のナビゲーションと理解に役立つユーザーインターフェイス機能です。 これは、Federated Audience Composition を含む、Adobe Experience Cloud全体の複数の製品の製品ナレッジのユースケースで使用できます。
 
 >[!CAUTION]
 >
 >AI アシスタントを使用するには、Adobe Experience Cloud 生成 AI ユーザーガイドラインに同意する必要があります。契約について詳しくは、[このページ](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/home){target="_blank"}を参照してください。
 
-連合オーディエンス構成では、プロセスの様々な側面に関連するアドビの概念に関する製品知識の質問にアクセスできます。このような質問には、例えば次のものがあります。
+Federated Audience Composition では、製品ナレッジにアクセスして、プロセスの様々な部分に関連するAdobeの概念について学習できます。 AI アシスタントは、2 種類の製品知識をサポートします。**オープン検出** （Experience League ドキュメントに基づいて製品の概念を調べる）および **ターゲット設定されたラーニングおよびトラブルシューティング** （特定の機能に関する質問）。
 
-* Snowflake と Adobe Experience Platform 間の連合接続を確立するために必要な設定は何ですか？
-* 連合オーディエンス構成で構成を設定するにはどうすればよいですか？
-* クエリモデラーで定義済みフィルターを使用してオーディエンスの選択を絞り込むにはどうすればよいですか？
+このような質問には、例えば次のものがあります。
+
+* Federated Audience コンポジションとは
+* Snowflake フェデレーテッド データベースアカウントを設定するにはどうすればよいですか？
+* フェデレーション構成を作成するにはどうすればよいですか？
 
 質問するには：
+
+1. 上部バーのアイコンをクリックして、AI アシスタントにアクセスします。
+
+   AI アシスタントが画面の右側のセクションに表示されます。 ![ ダイブ画像の代替テキスト ](assets/do-not-localize/Smock_FullScreen_18_N.svg " 展開 ") をクリックして、AI アシスタントウィンドウを展開できます。
+
+   ![](assets/do-not-localize/ai-assistant-open.png)
 
 1. 画面下部にあるフィールドに入力し、Enter キーを押します。
 

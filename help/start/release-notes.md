@@ -2,16 +2,104 @@
 title: Experience Platform 連合オーディエンス構成の新機能
 description: 最新の更新内容とリリースノート
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 83d6074da966553caec36908729729445246ea2f
-workflow-type: ht
-source-wordcount: '813'
-ht-degree: 100%
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
+workflow-type: tm+mt
+source-wordcount: '1130'
+ht-degree: 84%
 
 ---
 
 # リリースノート {#rn-new}
 
 [!DNL Federated Audience Composition] は、新機能、既存機能の強化、およびバグ修正を継続的に提供します。すべての変更は、このリリースノートに統合されます。[!DNL Federated Audience Composition] が [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。以下の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target="_blank"}を参照してください。
+
+## 2025年4月リリース {#fac-25-4}
+
+### 新機能 {#fac-25-04-feature}
+
+<table>
+<thead>
+<tr>
+<th><strong>データモデルキャンバスビュー – Beta</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>データモデルセクションのキャンバスビューでは、既存の表形式表示と共に、キャンバスレイアウトでのデータモデルとそのリンクのビジュアライゼーションが可能となるので、エクスペリエンスが向上します。 </p>
+<p>キャンバス表示を使用したデータモデルは現在、ベータ版として一部のユーザーのみが使用できます。</p>
+<p>詳しくは、<a href="../data-management/gs-models.md">詳細なドキュメント</a>を参照してください。</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>製品知識のための AI アシスタントのサポート</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>AI アシスタントは、アドビの概念をナビゲートして理解し、特定の環境の運用上のインサイトを得るために設計されたユーザーインターフェイス機能です。連合オーディエンス構成を含め、Adobe Experience Cloud 全体の複数の製品で使用できます。</p>
+<p>詳しくは、<a href="../start/ai-assistant.md">詳細なドキュメント</a>を参照してください。</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>プロファイルを保存アクティビティ</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p> Federated Audience Composition では、プロファイルエンリッチメントのユースケースをサポートするようになり、外部データウェアハウスのデータを使用して既存のExperience Platform プロファイルを強化できるようになりました。
+</p>
+<p>詳しくは、 <a href="../compositions/activities/save-profiles.md">詳細なドキュメント</a>を参照してください。</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 機能強化 {#fac-25-4-improvements}
+
+このリリースには、以下の機能強化が含まれています。
+
+* **データモデル名**
+
+  オーディエンスメニューの「**連合構成**」タブに ID の代わりにデータモデル名が表示されるようになり、明確さと全体的な使いやすさが向上しました。
+
+* **オーディエンス**
+
+  ユーザーが関連付けられていないデータモデルを選択した際、オーディエンスメニューには、選択したデータモデルの名前またはラベルが表示されるようになりました。
+
+* **大量のオーディエンスのエクスポート**
+
+  Federated Audience Composition では、ファイルサイズが 1 GB を超える大きなオーディエンスの書き出しをサポートするようになりました。
+
+* **オーディエンスを保存アクティビティ**
+
+  **オーディエンスを保存** アクティビティにメモが追加され、オーディエンスの作成およびエンリッチメント中に作成された新しいスキーマおよびデータセットにガバナンスラベルを適用するため、ユーザーがデータ管理者と共同作業することを促しました。
+  [ データ使用ラベルの詳細情報 ](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/user-guide)
+
+### 互換性 {#fac-25-4-compat}
+
+* **Amazon Redshift の安全な接続**
+
+  この新しいリリースでは、Federated Audience Composition は、Amazon Redshift データベースへの安全なプライベートリンク接続をサポートします。 [詳細情報](../connections/federated-db.md#amazon-redshift)
+
+* **Google Big Query**
+
+  この新しいリリースでは、Federated Audience Composition は、Google Big Query Databases への安全な VPN 接続をサポートします。 [詳細情報](../connections/federated-db.md#google-big-query)
 
 ## 2025年3月リリース {#fac-25-3}
 

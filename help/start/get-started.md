@@ -2,10 +2,10 @@
 title: Experience Platform 連合オーディエンス構成の基本を学ぶ
 description: アドビの連合オーディエンス構成の概要と Adobe Experience Platform での使用方法について説明します
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
-workflow-type: ht
-source-wordcount: '1146'
-ht-degree: 100%
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
+workflow-type: tm+mt
+source-wordcount: '1112'
+ht-degree: 97%
 
 ---
 
@@ -42,6 +42,8 @@ ht-degree: 100%
 1. オーディエンスの作成：基になるデータをコピーせずに、エンタープライズデータセットから新しいオーディエンスを作成し、事前に作成された宛先でこれらのオーディエンスをアクティブ化します。
 
 1. オーディエンスのエンリッチメント：エンタープライズデータウェアハウスから連合された構成済みオーディエンスデータを利用して、Adobe Experience Platform の既存のオーディエンスを強化します。このデータは、Adobe Experience Platform の顧客プロファイルには保存されません。
+
+1. プロファイルのエンリッチメント：外部ウェアハウスのデータを統合してAdobe Experience Platform プロファイルを強化し、追加の属性とインサイトで顧客プロファイルを強化できます。
 
 ![図](assets/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
 
@@ -143,35 +145,3 @@ Adobe 連合オーディエンス構成から顧客データにアクセスし�
 >title="ターゲティングディメンションの選択"
 >abstract="ターゲティングディメンションは、受信者、契約の受益者、オペレーター、サブスクライバーなど、ターゲットされる母集団を操作ごとに定義します。デフォルトでは、メールと SMS の場合、ターゲットは受信者ビルトインテーブルから選択されます。プッシュ通知の場合、デフォルトのターゲットディメンションはサブスクライバーのアプリケーションです。"
 
-
-<!-- save profile IDs-->
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile"
->title="プロファイルの保存"
->abstract="プロファイルの保存"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile_aepschemalist"
->title="プロファイル AEP スキーマリストの保存"
->abstract="プロファイル AEP スキーマリストの保存"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile_selectaepattribute"
->title="プロファイル AEP スキーマ属性の保存"
->abstract="プロファイル AEP スキーマ属性の保存"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile_primaryidentitynamespace"
->title="プライマリ識別フィールドの選択"
->abstract="プロファイルに使用するプライマリ識別フィールド。"
-
->[!CONTEXTUALHELP]
->id="ddc_orchestration_saveprofile_selectdataset"
->title="AEP データセット"
->abstract="プロファイルに使用する AEP データセットを選択します。"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile_selectaepschema"
->title="プロファイルを保存して AEP スキーマを選択"
->abstract="プロファイルに使用する AEP スキーマを選択します。"
