@@ -31,8 +31,8 @@ Adobe 連合オーディエンス構成から顧客データにアクセスし�
 
 You can submit individual requests to access and delete consumer data from Adobe Federated Audience Composition in two ways:
 
-* Through the **Privacy Service UI**. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html){target="_blank"}
-* Through the **Privacy Service API**. [Learn more](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/overview){target="_blank"}
+* Through the **Privacy Service UI**. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ja){target="_blank"}
+* Through the **Privacy Service API**. [Learn more](https://experienceleague.adobe.com/ja/docs/experience-platform/privacy/api/overview){target="_blank"}
 
 ///More specific information on Privacy Service API [here](https://developer.adobe.com/experience-platform-apis/references/privacy-service/#_blank).
 
@@ -51,7 +51,7 @@ For **access requests** and **delete requests**, specify the three following ser
 To make requests to Access and Delete data for Adobe Federated Audience Composition, you must have:
 
 * an Adobe organization ID
-* an Identity identifier of the person you want to act on and the corresponding namespace(s). For more information about identity namespaces Experience Platform, see the [identity namespace overview](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces).
+* an Identity identifier of the person you want to act on and the corresponding namespace(s). For more information about identity namespaces Experience Platform, see the [identity namespace overview](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/features/namespaces).
 
 ### Required field values for API requests
 
