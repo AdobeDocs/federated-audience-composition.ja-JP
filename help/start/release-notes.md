@@ -3,9 +3,9 @@ title: Experience Platform 連合オーディエンス構成の新機能
 description: 最新の更新内容とリリースノート
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1130'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 84%
 <table>
 <thead>
 <tr>
-<th><strong>データモデルキャンバスビュー – Beta</strong><br/></th>
+<th><strong>データモデルのキャンバス表示 - ベータ版</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>データモデルセクションのキャンバスビューでは、既存の表形式表示と共に、キャンバスレイアウトでのデータモデルとそのリンクのビジュアライゼーションが可能となるので、エクスペリエンスが向上します。 </p>
+<p>「データモデルのキャンバス表示」セクションでは、既存の表形式表示に加え、データモデルとそのリンクのビジュアライゼーションをキャンバスレイアウトで表示でき、エクスペリエンスが向上します。 </p>
 <p>キャンバス表示を使用したデータモデルは現在、ベータ版として一部のユーザーのみが使用できます。</p>
 <p>詳しくは、<a href="../data-management/gs-models.md">詳細なドキュメント</a>を参照してください。</p>
 </br>
@@ -61,7 +61,7 @@ ht-degree: 84%
 <tbody>
 <tr>
 <td>
-<p> Federated Audience Composition では、プロファイルエンリッチメントのユースケースをサポートするようになり、外部データウェアハウスのデータを使用して既存のExperience Platform プロファイルを強化できるようになりました。
+<p> 連合オーディエンス構成では、プロファイルエンリッチメントのユースケースがサポートされるようになり、顧客は外部データウェアハウスのデータを使用して既存の Experience Platform プロファイルを強化できるようになりました。
 </p>
 <p>詳しくは、 <a href="../compositions/activities/save-profiles.md">詳細なドキュメント</a>を参照してください。</p>
 </br>
@@ -82,24 +82,24 @@ ht-degree: 84%
 
   ユーザーが関連付けられていないデータモデルを選択した際、オーディエンスメニューには、選択したデータモデルの名前またはラベルが表示されるようになりました。
 
-* **大量のオーディエンスのエクスポート**
+* **大規模なオーディエンスのエクスポート**
 
-  Federated Audience Composition では、ファイルサイズが 1 GB を超える大きなオーディエンスの書き出しをサポートするようになりました。
+  連合オーディエンス構成は、ファイルサイズが 1 GB を超える大規模なオーディエンスのエクスポートをサポートするようになりました。
 
 * **オーディエンスを保存アクティビティ**
 
-  **オーディエンスを保存** アクティビティにメモが追加され、オーディエンスの作成およびエンリッチメント中に作成された新しいスキーマおよびデータセットにガバナンスラベルを適用するため、ユーザーがデータ管理者と共同作業することを促しました。
-  [ データ使用ラベルの詳細情報 ](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/labels/user-guide)
+  **オーディエンスを保存**アクティビティにメモが追加され、データ管理者と共同作業してオーディエンスの作成とエンリッチメント中に作成された新しいスキーマとデータセットにガバナンスラベルを適用するようユーザーに通知します。
+  [データ使用ラベルの詳細情報を参照してください](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/labels/user-guide)
 
 ### 互換性 {#fac-25-4-compat}
 
 * **Amazon Redshift の安全な接続**
 
-  この新しいリリースでは、Federated Audience Composition は、Amazon Redshift データベースへの安全なプライベートリンク接続をサポートします。 [詳細情報](../connections/federated-db.md#amazon-redshift)
+  この新しいリリースでは、連合オーディエンス構成が、Amazon Redshift データベースへの安全なプライベートリンク接続をサポートします。[詳細情報](../connections/federated-db.md#amazon-redshift)
 
-* **Google Big Query**
+* **Google BigQuery**
 
-  この新しいリリースでは、Federated Audience Composition は、Google Big Query Databases への安全な VPN 接続をサポートします。 [詳細情報](../connections/federated-db.md#google-big-query)
+  この新しいリリースでは、連合オーディエンス構成が、Google BigQuery データベースへの安全な VPN 接続をサポートします。[詳細情報](../connections/federated-db.md#google-big-query)
 
 ## 2025年3月リリース {#fac-25-3}
 

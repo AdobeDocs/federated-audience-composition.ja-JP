@@ -5,9 +5,9 @@ description: データモデルの開始方法について説明します
 badge: label="ベータ版" type="Informative"
 exl-id: 7e1f74c4-b89a-480c-8e12-0257a71e629d
 source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '661'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 91%
 
 データモデルは、スキーマ、オーディエンスおよびこれらの間のリンクのセットです。オーディエンスとデータベースデータを連合するために使用されます。
 
-Federated Audience Composition では、キャンバスビューでデータモデルを直接作成および管理できます。 これには、スキーマとオーディエンスの追加や、ユースケースに基づいたスキーマとオーディエンス間のリンクの定義が含まれます。
+連合オーディエンス構成では、キャンバスビューでデータモデルを直接作成および管理できます。これには、スキーマとオーディエンスの追加と、ユースケースに基づいてこれらの間のリンクの定義が含まれます。
 
 詳しくは、[スキーマ](../customer/schemas.md#schema-start)および[オーディエンス](../start/audiences.md)を参照してください。
 
-例えば、データモデルを表した名前の付いたテーブルとそれらの間のリンクを以下に示します。
+例えば、以下の図はデータモデル（テーブルおよびその名前と、テーブル間のリンク）を表しています。
 
 ![](assets/datamodel.png){zoomable="yes"}
 

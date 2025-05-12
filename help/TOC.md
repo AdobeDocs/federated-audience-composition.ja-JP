@@ -3,9 +3,9 @@ user-guide-title: Experience Platform 連合オーディエンス構成
 title: Experience Platform 連合オーディエンス構成ドキュメント
 breadcrumb-title: Experience Platform 連合オーディエンス構成
 source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '161'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 85%
 + [Experience Platform 連合オーディエンス構成ドキュメント](home.md)
 + [リリースノート](start/release-notes.md)
 + [リリースノート](start/e-release-notes.md)
-+ Federated Audience コンポジションの基本を学ぶ {#start}
++ 連合オーディエンス構成の基本を学ぶ {#start}
    + [連合オーディエンス構成とは](start/get-started.md)
    + [前提条件とガードレール](start/access-prerequisites.md)
    + [連合オーディエンス構成へのアクセス](start/feature-access.md)
@@ -30,9 +30,9 @@ ht-degree: 85%
       + [スキーマの作成と設定](customer/schemas.md)
       + [データモデルの設定](data-management/gs-models.md)
    + [外部データを使用して Adobe Experience Platform オーディエンスを強化](connections/destinations.md)
-+ オーディエンスの作成 {#compositions}
++ オーディエンスの構成 {#compositions}
    + [構成の基本を学ぶ](compositions/gs-compositions.md)
-   + 最初のコンポジションを作成して実行します {#create-composition}
+   + 最初の構成の作成と実行 {#create-composition}
       + [構成作成の主な原則](compositions/gs-composition-creation.md)
       + [構成の作成と設定](compositions/create-composition.md)
       + [アクティビティを調整](compositions/orchestrate-activities.md)
@@ -47,8 +47,8 @@ ht-degree: 85%
       + [エンリッチメント](compositions/activities/enrichment.md)
       + [分岐](compositions/activities/fork.md)
       + [紐付け](compositions/activities/reconciliation.md)
-      + [オーディエンスを保存](compositions/activities/save-audience.md)
-      + [プロファイルの保存](compositions/activities/save-profiles.md)
+      + [オーディエンスの保存](compositions/activities/save-audience.md)
+      + [プロファイルを保存](compositions/activities/save-profiles.md)
       + [スケジューラー](compositions/activities/scheduler.md)
       + [分割](compositions/activities/split.md)
       + [待機](compositions/activities/wait.md)

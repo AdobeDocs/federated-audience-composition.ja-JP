@@ -4,7 +4,7 @@ title: 監査記録
 description: 監査記録にアクションとイベントを記録して、アクセスする方法について説明します
 exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
 source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '343'
 ht-degree: 100%
 

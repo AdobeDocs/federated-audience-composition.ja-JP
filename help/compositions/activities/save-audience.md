@@ -4,13 +4,13 @@ title: オーディエンスを保存アクティビティの使用
 description: オーディエンスを保存アクティビティの使用方法について説明します
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
 source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '508'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
-# オーディエンスを保存 {#save-audience}
+# オーディエンスの保存 {#save-audience}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_save_audience"
@@ -38,7 +38,7 @@ ht-degree: 91%
 
 このアクティビティは基本的に、同じ構成で計算された母集団グループを再利用可能なオーディエンスに変換することで、このグループを維持するために使用されます。**オーディエンスを作成**&#x200B;アクティビティや&#x200B;**結合**&#x200B;アクティビティなどの他のターゲティングアクティビティに接続します。
 
-**[!UICONTROL オーディエンスを保存]** アクティビティは、新しいオーディエンススキーマとデータセットを生成します。 オーディエンスを作成したら、適切なデータガバナンスラベルを割り当てるために管理者と調整してください。 [ データ使用ラベルの詳細情報 ](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/labels/user-guide)
+**[!UICONTROL オーディエンスを保存]**&#x200B;アクティビティは、新しいオーディエンススキーマとデータセットを生成します。オーディエンスを作成したら、管理者と調整して適切なデータガバナンスラベルを割り当ててください。[データ使用ラベルの詳細情報を参照してください](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/labels/user-guide)
 
 >[!IMPORTANT]
 >
@@ -73,7 +73,7 @@ ht-degree: 91%
 
 作成したオーディエンスには、「オーディエンスマッピング」セクションで選択したすべてのフィールドが含まれます。Journey Optimizer でこのオーディエンスをターゲットにするか、Adobe Experience Platform でサポートされる任意の宛先に対してアクティブ化できます。
 
-[ 詳しくは、Adobe Experience Platform ドキュメントを参照してください ](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+[詳しくは、Adobe Experience Platform ドキュメントを参照してください](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 <!--
 

@@ -3,9 +3,9 @@ title: Experience Platform 連合オーディエンス構成の基本を学ぶ
 description: アドビの連合オーディエンス構成の概要と Adobe Experience Platform での使用方法について説明します
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1112'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 97%
 
 1. オーディエンスのエンリッチメント：エンタープライズデータウェアハウスから連合された構成済みオーディエンスデータを利用して、Adobe Experience Platform の既存のオーディエンスを強化します。このデータは、Adobe Experience Platform の顧客プロファイルには保存されません。
 
-1. プロファイルのエンリッチメント：外部ウェアハウスのデータを統合してAdobe Experience Platform プロファイルを強化し、追加の属性とインサイトで顧客プロファイルを強化できます。
+1. プロファイルのエンリッチメント：外部ウェアハウスのデータを統合して Adobe Experience Platform プロファイルを強化し、追加の属性とインサイトで顧客プロファイルを強化できます。
 
 ![図](assets/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
 

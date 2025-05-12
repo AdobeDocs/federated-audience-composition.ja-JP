@@ -3,9 +3,9 @@ title: 連合オーディエンス構成の前提条件とガードレール
 description: 連合オーディエンス構成の前提条件、権限およびガードレールについて説明します
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
 source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '338'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 79%
 * Vertica Analytics
 * Microsoft Fabric
 
-これらのシステムとの接続を作成する方法については、[ このページ ](../connections/connections.md) を参照してください。
+これらのシステムとの接続を作成する方法について詳しくは、[このページ](../connections/connections.md)を参照してください。
 
 ## サンドボックス
 
@@ -59,13 +59,13 @@ ht-degree: 79%
 
 ## ガードレールと制限 {#fac-guardrails}
 
-* Federated Audience Composition は現在、お客様が利用できません [ 正常性データを取り込んでいます ](https://experienceleague.adobe.com/ja/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}。 [詳細情報](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences){target="_blank"}
+* 連合オーディエンス構成は現在、ヘルスデータを取り込み中の[お客様は利用できません](https://experienceleague.adobe.com/ja/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}。[詳細情報](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences){target="_blank"}
 
 <!--
-* Federated Audience Composition is compatible with Privacy & Security Shield and can be used in all verticals except for healthcare industries. Currently, Federated Audience Composition cannot be licensed to customers looking to ingest health data. [Learn more](https://experienceleague.adobe.com/ja/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}-->
+* Federated Audience Composition is compatible with Privacy & Security Shield and can be used in all verticals except for healthcare industries. Currently, Federated Audience Composition cannot be licensed to customers looking to ingest health data. [Learn more](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}-->
 
-* [Adobe Real-Time Customer Data Platform ドキュメントにリストされているエンタイトルメント、製品の制限、パフォーマンスガードレールは ](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/guardrails){target="_blank"}Federated Audience Composition に適用されます。
+* 連合オーディエンス構成に適用されるエンタイトルメント、製品の制限、パフォーマンスガードレールの一覧について詳しくは、[Adobe Real-time Customer Data Platform ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/guardrails){target="_blank"}を参照してください。
 
-* Federated Audience Composition では、ファイルサイズが 1 GB を超える大きなオーディエンスの書き出しをサポートしています。 最適なパフォーマンスを得るために、推奨されるファイルの最大サイズは 20 GB です。
+* 連合オーディエンス構成は、ファイルサイズが 1 GB を超える大規模なオーディエンスのエクスポートをサポートしています。最適なパフォーマンスを得るために、推奨される最大ファイルサイズは 20 GB までです。
 
 
