@@ -4,7 +4,7 @@ title: 結合アクティビティの使用
 description: 結合アクティビティの使用方法について説明します
 exl-id: 395e96d1-0af2-4e59-b599-f57a083b68ca
 source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_options"
->title="セグメント化タイプを選択"
+>title="セグメント化タイプの選択"
 >abstract="オーディエンスの結合方法として、和集合、積集合、除外のいずれかを選択します。"
 
 **結合**&#x200B;アクティビティの設定を開始するには、次の一般的な手順に従います。

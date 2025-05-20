@@ -5,8 +5,8 @@ description: ディメンションの変更アクティビティの使用方法�
 exl-id: e71017bd-6d2f-4ace-b2d9-cbfbb537d127
 source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '187'
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_dimension_complement"
->title="補集合を生成"
+>title="補集合の生成"
 >abstract="重複として除外された残りの母集団を使用して、追加のアウトバウンドトランジションを生成できます。 これを行うには、「**[!UICONTROL 補集合を生成]**」オプションの切替スイッチをオンにします。"
 
 >[!CONTEXTUALHELP]
