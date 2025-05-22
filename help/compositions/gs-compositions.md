@@ -3,14 +3,23 @@ audience: end-user
 title: 構成の基本を学ぶ
 description: 構成の開始方法について説明します
 exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: e26b3cfda7c4de98d1e47fc40edd2b87859c6209
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 100%
+source-wordcount: '319'
+ht-degree: 90%
 
 ---
 
 # 構成の基本を学ぶ {#compositions}
+
+>[!AVAILABILITY]
+>
+>コンポジションにアクセスするには、次のいずれかの権限が必要です。
+>
+>-**フェデレーション コンポジションの管理**
+>-**フェデレーション コンポジションの表示**
+>
+>必要な権限の詳細については、[Access Federated Audience Composition ガイド ](/help/start/feature-access.md) を参照してください。
 
 ## 構成とは {#what}
 
@@ -39,7 +48,7 @@ Adobe Audience Composition を使用すると、構成を作成し、様々な�
 
 ## 構成のステータス {#status}
 
-コンポジションには複数のステータスがあります。
+構成には複数のステータスがあります。
 
 * **[!UICONTROL ドラフト]**：構成が作成され、保存されました。
 * **[!UICONTROL 処理中]**：構成が開始され、現在実行中です。

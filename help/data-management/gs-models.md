@@ -2,20 +2,25 @@
 audience: end-user
 title: データモデルの基本を学ぶ
 description: データモデルの開始方法について説明します
-badge: label="ベータ版" type="Informative"
 exl-id: 7e1f74c4-b89a-480c-8e12-0257a71e629d
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: ht
-source-wordcount: '661'
-ht-degree: 100%
+source-git-commit: 7f8a90c21c000d66cd7f3181170d6d8edb448f83
+workflow-type: tm+mt
+source-wordcount: '688'
+ht-degree: 92%
 
 ---
+
 
 # データモデルの基本を学ぶ {#data-model-beta}
 
 >[!AVAILABILITY]
 >
->キャンバス表示を使用したデータモデルは現在、ベータ版として一部のユーザーのみが使用できます。
+>データモデルにアクセスするには、次のいずれかの権限が必要です。
+>
+>-**連合データモデルの管理**
+>-**フェデレーション データ モデルの表示**
+>
+>必要な権限の詳細については、[Access Federated Audience Composition ガイド ](/help/start/feature-access.md) を参照してください。
 
 ## データモデルとは {#data-model-start}
 
@@ -45,7 +50,9 @@ ht-degree: 100%
 
    ![](assets/datamodel_schemas.png){zoomable="yes"}
 
-1. 「**[!UICONTROL オーディエンスを追加]**」をクリックし、ターゲットグループを定義します。
+1. さらに、データモデルにオーディエンスを追加できます。 「**[!UICONTROL オーディエンスを追加]**」を選択して、ターゲットグループを定義します。
+
+   ![](assets/datamodel-audiences.png){zoomable="yes"}
 
 1. データモデルのテーブル間の接続を確立し、正確なデータ関係を確保します。[詳細情報](#data-model-links)
 
