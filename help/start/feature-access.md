@@ -2,10 +2,10 @@
 title: 連合オーディエンス構成へのアクセス
 description: 連合オーディエンス構成に必要な権限について説明します。
 exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
-source-git-commit: 7f8ba57e0fd53350690e391e015f5161b2b7d04e
+source-git-commit: 62bbed4818caf06539234f97d4c0d1cf9c9a52d1
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 40%
+source-wordcount: '479'
+ht-degree: 46%
 
 ---
 
@@ -63,12 +63,12 @@ Adobe Experience Platform 連合オーディエンス構成を購入すると、
 
 1. ユーザーの名前またはメールアドレスを入力するか、使用可能なリストから選択します。完了したら、「**[!UICONTROL 保存]** を選択します。
 
-必要な権限に応じて、既存の役割のいずれかをユーザーに割り当てることもできます。 既存の役割をユーザーに割り当てる方法については、[ 製品プロファイルのユーザー管理に関するガイド ](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/ui/users) を参照してください。
+<!-- Alternatively, you can assign one of the pre-existing roles to the users, depending on what permissions they need. For more information on assigning pre-existing roles to a user, please read the [guide on managing users for a product profile](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/users).
 
-| 役割名 | 権限 |
+| Role name | Permissions |
 | --------- | ----------- |
-| FAC データ マネージャ | <ul><li>フェデレーション構成の管理</li><li>連合データベースの表示</li><li>連合スキーマを表示</li><li>連合スキーマデータの表示</li><li>連合データモデルの表示</li></ul> |
-| FAC 構成マネージャー | <ul><li>フェデレーション構成の管理</li></ul> |
-| FAC 管理者 | <ul><li>連合データの管理</li></ul> |
+| FAC Data Managers | <ul><li>Manage Federated Compositions</li><li>View Federated Databases</li><li>View Federated Schemas</li><li>View Federated Schema Data</li><li>View Federated Data Models</li></ul> |
+| FAC Composition Managers | <ul><li>Manage Federated Compositions</li></ul> |
+| FAC Administrators | <ul><li>Manage Federated Data</li></ul> | -->
 
 次に、ユーザーはインスタンスにアクセスする手順が記載されたメールを受信します。まだユーザーを作成していない場合は、[このドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/abac/permissions-ui/users)を参照してください。
