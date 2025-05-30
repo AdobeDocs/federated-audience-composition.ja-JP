@@ -4,9 +4,9 @@ title: 監査記録
 description: 監査記録にアクションとイベントを記録して、アクセスする方法について説明します
 exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
 source-git-commit: e26b3cfda7c4de98d1e47fc40edd2b87859c6209
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '371'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 92%
 >
 >-**監査記録の表示**
 >
->必要な権限の詳細については、[Access Federated Audience Composition ガイド ](/help/start/feature-access.md) を参照してください。
+>必要な権限について詳しくは、[連合オーディエンス構成アクセスガイド](/help/start/feature-access.md)を参照してください。
 
 >[!CONTEXTUALHELP]
 >id="dc_audit_trail"

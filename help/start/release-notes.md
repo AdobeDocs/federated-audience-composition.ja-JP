@@ -3,9 +3,9 @@ title: Experience Platform 連合オーディエンス構成の新機能
 description: 最新の更新内容とリリースノート
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: eee35ac94be4192a2e4f9372caec164fbf0e2471
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1246'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -13,22 +13,22 @@ ht-degree: 93%
 
 [!DNL Federated Audience Composition] は、新機能、既存機能の強化、およびバグ修正を継続的に提供します。すべての変更は、このリリースノートに統合されます。[!DNL Federated Audience Composition] が [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。以下の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target="_blank"}を参照してください。
 
-## 2025 年 5 月リリース {#fac-25-5}
+## 2025年5月リリース {#fac-25-5}
 
 ### 新機能 {#fac-25-05-feature}
 
 <table>
 <thead>
 <tr>
-<th><strong>データモデルキャンバスビュー – 一般提供</strong><br/></th>
+<th><strong>データモデルのキャンバス表示 - 一般公開</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>キャンバスビューを使用したデータモデルが、すべてのお客様が利用できるようになりました。</p>
+<p>キャンバス表示を使用したデータモデルをすべてのユーザーが利用できるようになりました。</p>
 <p>「データモデルのキャンバス表示」セクションでは、既存の表形式表示に加え、データモデルとそのリンクのビジュアライゼーションをキャンバスレイアウトで表示でき、エクスペリエンスが向上します。 </p>
-<p>キャンバスビューについて詳しくは、<a href="../data-management/gs-models.md"> データモデルの概要 </a> を参照してください。</p>
+<p>キャンバス表示について詳しくは、<a href="../data-management/gs-models.md">データモデルの概要</a>を参照してください。</p>
 </br>
 </td>
 </tr>
@@ -37,13 +37,13 @@ ht-degree: 93%
 
 ### 機能強化 {#fac-25-5-improvements}
 
-このリリースでは、次の点が改善されました。
+このリリースには、次の機能強化が含まれています。
 
 * **役割ベースのアクセス制御**
 
-  5 月のリリース以降、[!DNL Federated Audience Composition] では、アクセス制御に関する新しいきめ細かい権限をサポートしています。 ユーザーはこれらの権限をユーザーの役割に割り当てることで、[!DNL Federated Audience Composition] へのアクセスをより正確にすることができます。
+  5月のリリース以降、[!DNL Federated Audience Composition] は、アクセス制御に関する新しいきめ細かい権限をサポートします。ユーザーはこれらの権限をユーザーの役割に割り当てることで、[!DNL Federated Audience Composition] へのアクセスをより正確にすることができます。
 
-  新しい権限について詳しくは、[Federated Audience Composition アクセスガイド ](feature-access.md) を参照してください。
+  新しい権限について詳しくは、[連合オーディエンス構成アクセスガイド](feature-access.md)を参照してください。
 
 ## 2025年4月リリース {#fac-25-4}
 
@@ -120,7 +120,7 @@ ht-degree: 93%
 
 * **オーディエンスを保存アクティビティ**
 
-  **オーディエンスを保存**&#x200B;アクティビティにメモが追加され、データ管理者と共同作業してオーディエンスの作成とエンリッチメント中に作成された新しいスキーマとデータセットにガバナンスラベルを適用するようユーザーに通知します。
+  **オーディエンスを保存**アクティビティにメモが追加され、データ管理者と共同作業してオーディエンスの作成とエンリッチメント中に作成された新しいスキーマとデータセットにガバナンスラベルを適用するようユーザーに通知します。
   [データ使用ラベルの詳細情報を参照してください](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/labels/user-guide)
 
 ### 互換性 {#fac-25-4-compat}

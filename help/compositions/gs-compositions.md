@@ -4,9 +4,9 @@ title: 構成の基本を学ぶ
 description: 構成の開始方法について説明します
 exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
 source-git-commit: e26b3cfda7c4de98d1e47fc40edd2b87859c6209
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '319'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -14,12 +14,12 @@ ht-degree: 90%
 
 >[!AVAILABILITY]
 >
->コンポジションにアクセスするには、次のいずれかの権限が必要です。
+>構成にアクセスするには、次のいずれかの権限が必要です。
 >
->-**フェデレーション コンポジションの管理**
->-**フェデレーション コンポジションの表示**
+>-**連合構成の管理**
+>>-**連合構成の表示**
 >
->必要な権限の詳細については、[Access Federated Audience Composition ガイド ](/help/start/feature-access.md) を参照してください。
+>必要な権限について詳しくは、[連合オーディエンス構成ガイドへのアクセス](/help/start/feature-access.md)を参照してください。
 
 ## 構成とは {#what}
 

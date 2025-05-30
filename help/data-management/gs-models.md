@@ -4,9 +4,9 @@ title: データモデルの基本を学ぶ
 description: データモデルの開始方法について説明します
 exl-id: 7e1f74c4-b89a-480c-8e12-0257a71e629d
 source-git-commit: 7f8a90c21c000d66cd7f3181170d6d8edb448f83
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '688'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 92%
 >データモデルにアクセスするには、次のいずれかの権限が必要です。
 >
 >-**連合データモデルの管理**
->-**フェデレーション データ モデルの表示**
+>>-**連合データモデルの表示**
 >
->必要な権限の詳細については、[Access Federated Audience Composition ガイド ](/help/start/feature-access.md) を参照してください。
+>必要な権限について詳しくは、[連合オーディエンス構成ガイドへのアクセス](/help/start/feature-access.md)を参照してください。
 
 ## データモデルとは {#data-model-start}
 
@@ -50,7 +50,7 @@ ht-degree: 92%
 
    ![](assets/datamodel_schemas.png){zoomable="yes"}
 
-1. さらに、データモデルにオーディエンスを追加できます。 「**[!UICONTROL オーディエンスを追加]**」を選択して、ターゲットグループを定義します。
+1. さらに、データモデルにオーディエンスを追加できます。「**[!UICONTROL オーディエンスを追加]**」を選択してターゲットグループを定義します。
 
    ![](assets/datamodel-audiences.png){zoomable="yes"}
 

@@ -4,9 +4,9 @@ title: スキーマの基本を学ぶ
 description: スキーマの開始方法について説明します
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
 source-git-commit: e26b3cfda7c4de98d1e47fc40edd2b87859c6209
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '547'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 94%
 >スキーマにアクセスするには、次のいずれかの権限が必要です。
 >
 >-**連合スキーマの管理**
->-**フェデレーション スキーマの表示**
+>>-**連合スキーマの表示**
 >
->必要な権限の詳細については、[Access Federated Audience Composition ガイド ](/help/start/feature-access.md) を参照してください。
+>必要な権限について詳しくは、[連合オーディエンス構成ガイドへのアクセス](/help/start/feature-access.md)を参照してください。
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_create_select_tables"
