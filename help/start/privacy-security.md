@@ -21,23 +21,23 @@ Federated Audience Composition は、使用するAdobe Experience Platformおよ
 
 または、コンポジションキャンバスで「プロファイルを保存」アクティビティを使用してプロファイルエンリッチメントを作成した後、結果のエンリッチメントをプロファイル対応のスキーマおよびプロファイル対応のデータセットとしてExperience Platformに保存します。 このエンリッチメントデータは、ID フィールドと ID 名前空間でマークされます。 その結果、Privacy Serviceを使用して、これらのプロファイルにアクセスし、消去できます。
 
-Privacy Serviceについて詳しくは、[Privacy Serviceの概要 ](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/home){target="_blank"} を参照してください。
+Privacy Serviceについて詳しくは、[Privacy Serviceの概要 ](https://experienceleague.adobe.com/ja/docs/experience-platform/privacy/home){target="_blank"} を参照してください。
 
 ### プライバシーリクエスト {#privacy-requests}
 
 Privacy Serviceでは、個々のプライバシーリクエストを作成および管理し、Federated Audience Composition から顧客データにアクセスして削除できます。 Privacy Serviceは、カスタマーデータのリクエストの管理に役立つ [ ユーザーインターフェイス ](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ja){target="_blank"} と [RESTful API](https://experienceleague.adobe.com/ja/docs/experience-platform/privacy/api/overview){target="_blank"} の両方を提供します。
 
-プライバシーリクエストの作成と管理について詳しくは、[Privacy Service UI ガイドのプライバシージョブ ](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/ui/user-guide){target="_blank"} を参照してください。
+プライバシーリクエストの作成と管理について詳しくは、[Privacy Service UI ガイドのプライバシージョブ ](https://experienceleague.adobe.com/ja/docs/experience-platform/privacy/ui/user-guide){target="_blank"} を参照してください。
 
 ## 同意ポリシーの適用 {#consent}
 
 Federated Audience Composition は、Experience Platformを通じて、同意の自動適用を可能にするツールを提供し、顧客に提供された同意に基づいてオーディエンスをアクティベートできるようにします。
 
-例えば、コンポジションキャンバスの保存アクティビティブロックを使用してオーディエンスを作成すると、結果オーディエンスが外部オーディエンスとしてExperience Platformのデータレイクに保存されます。 Experience Platformでは、アクティベーション時の同意検証を自動的にサポートします。 詳しくは、[ セグメント化サービスに関する FAQ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq#consent){target="_blank"} を参照してください。
+例えば、コンポジションキャンバスの保存アクティビティブロックを使用してオーディエンスを作成すると、結果オーディエンスが外部オーディエンスとしてExperience Platformのデータレイクに保存されます。 Experience Platformでは、アクティベーション時の同意検証を自動的にサポートします。 詳しくは、[ セグメント化サービスに関する FAQ](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/faq#consent){target="_blank"} を参照してください。
 
-または、コンポジションキャンバスで「プロファイルを保存」アクティビティを使用してプロファイルエンリッチメントを作成すると、結果のエンリッチメントがプロファイル対応のスキーマとプロファイル対応のデータセットとしてExperience Platformに保存されます。 既存のプロファイルの場合、使用可能な同意属性はアクティブ化中に自動的に適用されます。 新規プロファイルの場合、プロファイルの取り込み時に指定された同意属性がアクティブ化時に自動的に適用されます。 プロファイルに対する同意の適用について詳しくは、[ 同意および環境設定フィールドグループガイド ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/consents){target="_blank"} を参照してください。
+または、コンポジションキャンバスで「プロファイルを保存」アクティビティを使用してプロファイルエンリッチメントを作成すると、結果のエンリッチメントがプロファイル対応のスキーマとプロファイル対応のデータセットとしてExperience Platformに保存されます。 既存のプロファイルの場合、使用可能な同意属性はアクティブ化中に自動的に適用されます。 新規プロファイルの場合、プロファイルの取り込み時に指定された同意属性がアクティブ化時に自動的に適用されます。 プロファイルに対する同意の適用について詳しくは、[ 同意および環境設定フィールドグループガイド ](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/field-groups/profile/consents){target="_blank"} を参照してください。
 
-同意の適用について詳しくは、[ ポリシー管理 UI ガイド ](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/policies/user-guide#consent-policy){target="_blank"} を参照してください。
+同意の適用について詳しくは、[ ポリシー管理 UI ガイド ](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/policies/user-guide#consent-policy){target="_blank"} を参照してください。
 
 ## データライフサイクル {#data-lifecycle}
 
@@ -47,13 +47,13 @@ Federated Audience Composition は、どのデータウェアハウスのカス�
 
 または、コンポジションキャンバスで「プロファイルを保存」アクティビティを使用してプロファイルエンリッチメントを作成すると、結果のエンリッチメントがプロファイル対応のスキーマとプロファイル対応のデータセットとしてExperience Platformに保存されます。 その結果、データライフサイクルを使用してプロファイルにアクセスし、クリーンアップできます。
 
-データライフサイクルの使用について詳しくは、[ データライフサイクルの概要 ](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home){target="_blank"} を参照してください。
+データライフサイクルの使用について詳しくは、[ データライフサイクルの概要 ](https://experienceleague.adobe.com/ja/docs/experience-platform/data-lifecycle/home){target="_blank"} を参照してください。
 
 ## データ使用ラベル {#data-usage-labels}
 
 データ使用ラベルを使用すると、データに適用されるガバナンスポリシーに基づいて、データセットとフィールドを分類できます。 コンポジションを使用してオーディエンスを作成したら、結果のスキーマに適切なデータラベルを適用して、必要な使用制限に従っていることを確認できます。
 
-データラベルの使用について詳しくは、[ データ使用ラベルの概要 ](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview){target="_blank"} を参照してください。
+データラベルの使用について詳しくは、[ データ使用ラベルの概要 ](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/labels/overview){target="_blank"} を参照してください。
 
 ## 暗号化 {#encryption}
 
@@ -63,13 +63,13 @@ Federated Audience Composition は、どのデータウェアハウスのカス�
 
 送信中のデータとは、Federated Audience Composition でコンポーネント間を移動する際の顧客データを指します。 データは、HTTPS 経由で TLS 1.3 を使用する Federated Audience Composition コンポーネント全体を通じて暗号化されたままになります。
 
-Adobeでのデータ暗号化の処理方法について詳しくは、[Experience Platformでのデータ暗号化 ](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/encryption){target="_blank"} に関するガイドを参照してください。
+Adobeでのデータ暗号化の処理方法について詳しくは、[Experience Platformでのデータ暗号化 ](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/governance-privacy-security/encryption){target="_blank"} に関するガイドを参照してください。
 
 ### 顧客管理キー {#customer-managed-keys}
 
 顧客管理キーを使用すると、独自の暗号化キーを使用してデータを暗号化できるので、データを制御できます。 Federated Audience Composition は顧客データを保存 **ないので** 結果として得られるオーディエンスとエンリッチメントでは顧客管理キーを直接使用できます。キーはExperience Platformのデータレイクに保存されるからです。
 
-顧客管理キーについて詳しくは、[ 顧客管理キーガイド ](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/customer-managed-keys/overview){target="_blank"} を参照してください。
+顧客管理キーについて詳しくは、[ 顧客管理キーガイド ](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/governance-privacy-security/customer-managed-keys/overview){target="_blank"} を参照してください。
 
 ## 監査ログ {#audit-log}
 
