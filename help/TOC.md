@@ -2,10 +2,10 @@
 user-guide-title: Experience Platform 連合オーディエンス構成
 title: Experience Platform 連合オーディエンス構成ドキュメント
 breadcrumb-title: Experience Platform 連合オーディエンス構成
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: ht
-source-wordcount: '161'
-ht-degree: 100%
+source-git-commit: 16af7b7e5258aa377c94d552048bdc2d38a39b44
+workflow-type: tm+mt
+source-wordcount: '164'
+ht-degree: 98%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 100%
    + [連合オーディエンス構成へのアクセス](start/feature-access.md)
    + [オーディエンスの操作](start/audiences.md)
    + [AI アシスタントの操作](start/ai-assistant.md)
+   + [プライバシーとセキュリティ](start/privacy-security.md)
    + [よくある質問](start/faq.md)
 + 設定の手順 {#config}
    + [接続の作成と管理](connections/connections.md)
