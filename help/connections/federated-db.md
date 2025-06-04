@@ -3,10 +3,10 @@ audience: end-user
 title: 連合データベースの設定
 description: 連合データベースの設定方法について説明します
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: ht
-source-wordcount: '2133'
-ht-degree: 100%
+source-git-commit: d99bd98b5d63af55db223cf2e8dd3996d8012d24
+workflow-type: tm+mt
+source-wordcount: '2128'
+ht-degree: 98%
 
 ---
 
@@ -37,7 +37,7 @@ Experience Platform 連合オーディエンス構成を使用すると、お客
 
 * [Amazon Redshift](#amazon-redshift)
 * [Azure Synapse Analytics](#azure-synapse)
-* [Google BigQuery](#google-big-query)
+* [Google BigQuery](#google-bigquery)
 * [Snowflake](#snowflake)
 * [Vertica Analytics](#vertica-analytics)
 * [Databricks](#databricks)
@@ -127,7 +127,7 @@ Experience Platform 連合オーディエンス構成を使用すると、お客
 |---|---|
 | 認証 | コネクタでサポートされている認証のタイプ。現在サポートされている値：ActiveDirectoryMSI。詳しくは、[Microsoft SQL ドキュメント](https://learn.microsoft.com/ja-jp/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"}（接続文字列 n°8 の例）を参照してください |
 
-## Google BigQuery {#google-big-query}
+## Google BigQuery {#google-bigquery}
 
 連合データベースを使用して、外部データベースに保存されている情報を処理します。Google BigQuery へのアクセスを設定するには、次の手順に従います。
 
@@ -139,11 +139,11 @@ Experience Platform 連合オーディエンス構成を使用すると、お客
 
 1. 連合データベースに&#x200B;**[!UICONTROL 名前]**&#x200B;を入力します。
 
-1. **[!UICONTROL タイプ]**&#x200B;ドロップダウンから、「Google BigQuery」を選択します。
+1. **[!UICONTROL タイプ]** ドロップダウンから、「Google BigQuery」を選択します。
 
    ![](assets/federated_database_3.png)
 
-1. Google BigQuery の認証設定を指定します。
+1. Google BigQuery 認証を設定します。
 
    * **[!UICONTROL サービスアカウント]**：**[!UICONTROL サービスアカウント]**&#x200B;のメールアドレスを入力します。詳しくは、[Google Cloud ドキュメント](https://cloud.google.com/iam/docs/creating-managing-service-accounts){target="_blank"}を参照してください。
 

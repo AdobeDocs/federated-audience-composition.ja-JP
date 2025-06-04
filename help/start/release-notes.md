@@ -2,10 +2,10 @@
 title: Experience Platform 連合オーディエンス構成の新機能
 description: 最新の更新内容とリリースノート
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: eee35ac94be4192a2e4f9372caec164fbf0e2471
+source-git-commit: d99bd98b5d63af55db223cf2e8dd3996d8012d24
 workflow-type: tm+mt
-source-wordcount: '1246'
-ht-degree: 100%
+source-wordcount: '1244'
+ht-degree: 98%
 
 ---
 
@@ -131,7 +131,7 @@ ht-degree: 100%
 
 * **Google BigQuery**
 
-  この新しいリリースでは、連合オーディエンス構成が、Google BigQuery データベースへの安全な VPN 接続をサポートします。[詳細情報](../connections/federated-db.md#google-big-query)
+  この新しいリリースでは、Federated Audience Composition は、Google BigQuery データベースへの安全な VPN 接続をサポートします。 [詳細情報](../connections/federated-db.md#google-bigquery)
 
 ## 2025年3月リリース {#fac-25-3}
 
