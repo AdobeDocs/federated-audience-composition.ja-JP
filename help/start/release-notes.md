@@ -3,9 +3,9 @@ title: Experience Platform 連合オーディエンス構成の新機能
 description: 最新の更新内容とリリースノート
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: d99bd98b5d63af55db223cf2e8dd3996d8012d24
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1244'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -120,7 +120,7 @@ ht-degree: 98%
 
 * **オーディエンスを保存アクティビティ**
 
-  **オーディエンスを保存**&#x200B;アクティビティにメモが追加され、データ管理者と共同作業してオーディエンスの作成とエンリッチメント中に作成された新しいスキーマとデータセットにガバナンスラベルを適用するようユーザーに通知します。
+  **オーディエンスを保存**アクティビティにメモが追加され、データ管理者と共同作業してオーディエンスの作成とエンリッチメント中に作成された新しいスキーマとデータセットにガバナンスラベルを適用するようユーザーに通知します。
   [データ使用ラベルの詳細情報を参照してください](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/labels/user-guide)
 
 ### 互換性 {#fac-25-4-compat}
@@ -131,7 +131,7 @@ ht-degree: 98%
 
 * **Google BigQuery**
 
-  この新しいリリースでは、Federated Audience Composition は、Google BigQuery データベースへの安全な VPN 接続をサポートします。 [詳細情報](../connections/federated-db.md#google-bigquery)
+  この新しいリリースでは、連合オーディエンス構成が、Google BigQuery データベースへの安全な VPN 接続をサポートします。[詳細情報](../connections/federated-db.md#google-bigquery)
 
 ## 2025年3月リリース {#fac-25-3}
 

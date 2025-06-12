@@ -4,9 +4,9 @@ title: 外部データを使用して Adobe Experience Platform オーディエ�
 description: 連合オーディエンス構成宛先を使用して、連合データベースのデータで Adobe Experience Platform オーディエンスを絞り込み、強化する方法について説明します。
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
 source-git-commit: d99bd98b5d63af55db223cf2e8dd3996d8012d24
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '610'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ Adobe Experience Platform オーディエンスを連合オーディエンス構
 
 1. 「**[!UICONTROL アラート]**」セクションでは、アラートを有効にして、宛先へのデータフローのステータスに関する通知を受信できます。
 
-   アラートについて詳しくは、[UI を使用した宛先アラートの購読 ](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/ui/alerts){target="_blank"} についてのAdobe Experience Platform ドキュメントを参照してください
+   アラートについて詳しくは、[UI を使用した宛先へのアラートの登録](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/ui/alerts){target="_blank"}についての Adobe Experience Platform ドキュメントを参照してください。
 
 1. **[!UICONTROL ガバナンスポリシーと実施アクション]**&#x200B;手順では、データガバナンスポリシーを定義し、オーディエンスが送信されてアクティブになった際に、使用されるデータが準拠していることを確認できます。
 

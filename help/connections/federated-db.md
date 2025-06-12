@@ -4,9 +4,9 @@ title: 連合データベースの設定
 description: 連合データベースの設定方法について説明します
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 source-git-commit: d99bd98b5d63af55db223cf2e8dd3996d8012d24
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2128'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -139,11 +139,11 @@ Experience Platform 連合オーディエンス構成を使用すると、お客
 
 1. 連合データベースに&#x200B;**[!UICONTROL 名前]**&#x200B;を入力します。
 
-1. **[!UICONTROL タイプ]** ドロップダウンから、「Google BigQuery」を選択します。
+1. **[!UICONTROL タイプ]**&#x200B;ドロップダウンから、「Google BigQuery」を選択します。
 
    ![](assets/federated_database_3.png)
 
-1. Google BigQuery 認証を設定します。
+1. Google BigQuery の認証設定を指定します。
 
    * **[!UICONTROL サービスアカウント]**：**[!UICONTROL サービスアカウント]**&#x200B;のメールアドレスを入力します。詳しくは、[Google Cloud ドキュメント](https://cloud.google.com/iam/docs/creating-managing-service-accounts){target="_blank"}を参照してください。
 
