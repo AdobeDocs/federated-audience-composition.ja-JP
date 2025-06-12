@@ -4,16 +4,36 @@ description: 最新の更新内容とリリースノート
 hide: true
 hidefromtoc: true
 exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: ht
-source-wordcount: '980'
-ht-degree: 100%
+source-git-commit: a33c3706836e578246c994130d6b46c0cb0e5c1f
+workflow-type: tm+mt
+source-wordcount: '1091'
+ht-degree: 89%
 
 ---
 
 # リリースノート {#rn-new}
 
 [!DNL Federated Audience Composition] は、新機能、既存機能の強化、およびバグ修正を継続的に提供します。すべての変更は、このリリースノートに統合されます。[!DNL Federated Audience Composition] が [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。以下の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target="_blank"}を参照してください。
+
+## 2025 年 6 月リリース {#fac-25-6}
+
+このリリースには、次の機能強化が含まれています。
+
+* **ヘルスケア関連のお客様向けの一般公開**
+
+  Federated Audience Composition は、ヘルスケアのお客様が、オーディエンスの作成、エンリッチメントおよびプロファイルエンリッチメントのユースケースについて、6 月末までに利用できるようになります。
+
+* **オブジェクトレベルのアクセス制御**
+
+  Federated Audience コンポジションで、指定したコンポジションにアクセスラベルを適用する、オブジェクトレベルのアクセス制御がサポートされるようになりました。
+
+* **デフォルトの役割**
+
+  デフォルトの役割の 1 つを使用して、Federated Audience Composition アクセスのユーザー権限を管理できるようになりました。
+
+* **プロファイルエンリッチメントのユースケースでの増分更新**
+
+  プロファイルを保存アクティビティで、増分更新がサポートされるようになりました。 増分更新を使用すると、外部データウェアハウスのデータでプロファイルを強化しながら、増分データのクエリと更新を行うことができます。
 
 ## 2025年4月リリース {#fac-25-4}
 
