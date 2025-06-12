@@ -4,9 +4,9 @@ description: 最新の更新内容とリリースノート
 hide: true
 hidefromtoc: true
 exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
-source-git-commit: a33c3706836e578246c994130d6b46c0cb0e5c1f
+source-git-commit: 996f5a932b2cc849f5844300fcaf38b4d62a84b4
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1095'
 ht-degree: 89%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 89%
 
 このリリースには、次の機能強化が含まれています。
 
-* **ヘルスケア関連のお客様向けの一般公開**
+* **Adobe Healthcare Shield のお客様向けの一般公開**
 
-  Federated Audience Composition は、ヘルスケアのお客様が、オーディエンスの作成、エンリッチメントおよびプロファイルエンリッチメントのユースケースについて、6 月末までに利用できるようになります。
+  Federated Audience Composition は、オーディエンスの作成、エンリッチメントおよびプロファイルエンリッチメントのユースケースについて、Adobe Healthcare Shield のお客様が 6 月末までに利用できるようになります。
 
 * **オブジェクトレベルのアクセス制御**
 
