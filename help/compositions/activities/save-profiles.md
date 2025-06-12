@@ -3,10 +3,10 @@ audience: end-user
 title: プロファイルを保存アクティビティの使用
 description: プロファイルを保存アクティビティの使用方法について学ぶ
 exl-id: 1c840838-32d5-4ceb-8430-835a235b7436
-source-git-commit: fae57356b8e9f5358a39d31cad4883171a310fb6
+source-git-commit: ca975be136155f69bc84362fde8c283b1c4edffe
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 100%
+source-wordcount: '374'
+ht-degree: 55%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_aepschemalist"
->title="AEP スキーマの選択"
+>title="Experience Platform スキーマを選択"
 >abstract="プロファイルの Experience Platform スキーマを選択します。"
 
 >[!CONTEXTUALHELP]
@@ -29,12 +29,42 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_selectaepschema"
->title="AEP スキーマの選択"
+>title="Experience Platform スキーマを選択"
 >abstract="プロファイルの Experience Platform スキーマを選択します。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_updatemode"
+>title="プロファイル更新モードの保存"
+>abstract="プロファイルを保存アクティビティで使用できる更新モードには、完全更新と増分更新があります。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_updatemode_full"
+>title="完全更新"
+>abstract="完全更新モードは、プロファイルの完全なセットを更新して充実させます。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_updatemode_incremental"
+>title="増分更新"
+>abstract="増分更新モードは、最後にエンリッチメントが実行されてから変更されたプロファイルを更新します。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_primaryidentityfield"
+>title="プライマリ ID フィールド"
+>abstract="プライマリ ID フィールドは、エンリッチメントのためにプロファイルを結合する際の信頼できるソースを示します。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_requiredfieldscheck"
+>title="必須フィールドの条件"
+>abstract="必須フィールドは、データを書き出す際に、すべてのプロファイルまたはレコードに入力する必要がある属性です。 必須フィールドがない場合、書き出しは完了または有効になりません。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_primaryidentitycheck"
+>title="プライマリ ID フィールドの条件"
+>abstract="各プロファイルまたはレコードの一意の ID。 これにより、すべてのレコードを明確に認識して一致させることができ、データの重複を防ぐことができます。"
 
 **プロファイルを保存**&#x200B;アクティビティを使用すると、外部ウェアハウスから統合されたデータを使用して Adobe Experience Platform プロファイルを強化できます。
 
-このアクティビティは通常、データを物理的にプラットフォームに移動または複製せずに、追加の属性とインサイトを取り込むことで、顧客プロファイルの強化に使用されます。
+このアクティビティは、通常、データをプラットフォームに物理的に移動または複製せずに、追加の属性やインサイトを取り込むことで、顧客プロファイルを強化するために使用されます。
 
 ## プロファイルを保存アクティビティの設定 {#save-profile-configuration}
 
