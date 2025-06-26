@@ -4,7 +4,7 @@ description: 最新の更新内容とリリースノート
 hide: true
 hidefromtoc: true
 exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
-source-git-commit: 996f5a932b2cc849f5844300fcaf38b4d62a84b4
+source-git-commit: a9410b26629a39b27466ef587e2ff0a1122b9868
 workflow-type: tm+mt
 source-wordcount: '1095'
 ht-degree: 89%
@@ -75,7 +75,7 @@ ht-degree: 89%
 
   [!DNL Federated Audience Composition] ユーザーインターフェイスに引き続きアクセスするには、管理者に連絡して、自分の役割にこの権限を追加してもらうことをお勧めします。
 
-  この権限を割り当てる方法について詳しくは、[詳細なドキュメント](feature-access.md)を参照してください。
+  この権限を割り当てる方法について詳しくは、[詳細なドキュメント](/help/governance-privacy-security/access-control.md)を参照してください。
 
 <!--
 * **Data model Canvas view**

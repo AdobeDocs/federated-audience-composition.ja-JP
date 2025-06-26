@@ -3,10 +3,10 @@ audience: end-user
 title: スキーマの基本を学ぶ
 description: スキーマの開始方法について説明します
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: e26b3cfda7c4de98d1e47fc40edd2b87859c6209
-workflow-type: ht
-source-wordcount: '547'
-ht-degree: 100%
+source-git-commit: 5c16e22587cbbbe5bc87cfa4f22210aa8108341c
+workflow-type: tm+mt
+source-wordcount: '545'
+ht-degree: 97%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 >-**連合スキーマの管理**
 >>-**連合スキーマの表示**
 >
->必要な権限について詳しくは、[連合オーディエンス構成ガイドへのアクセス](/help/start/feature-access.md)を参照してください。
+>必要な権限の詳細については、[ アクセス制御ガイド ](/help/governance-privacy-security/access-control.md) を参照してください。
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_create_select_tables"
@@ -35,7 +35,6 @@ ht-degree: 100%
 >id="dc_schema_create_schema_name"
 >title="スキーマの名前"
 >abstract="スキーマの名前を入力します。"
-
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_edit_description"

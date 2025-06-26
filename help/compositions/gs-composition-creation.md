@@ -3,7 +3,7 @@ audience: end-user
 title: 構成の作成
 description: 構成の作成方法について説明します
 exl-id: 861440ab-ce14-46aa-a215-b86fc9ffeef0
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: b73eba776e3e75f3ff7107bcf48f7b2f60048d08
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 100%
@@ -23,7 +23,7 @@ Experience Platform 連合オーディエンス構成は、様々なアクティ
 
 構成ダイアグラムは、実行される処理を表したものです。これは、実行される様々なタスクと、タスク同士の関係を示すものです。
 
-![](assets/composition-example.png){zoomable="yes"} {zoomable="yes"}
+![](assets/gs-compositions/composition-example.png){zoomable="yes"}{width="70%"}
 
 各構成には次が含まれます。
 

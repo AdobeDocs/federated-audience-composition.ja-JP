@@ -3,10 +3,10 @@ audience: end-user
 title: データモデルの基本を学ぶ
 description: データモデルの開始方法について説明します
 exl-id: 7e1f74c4-b89a-480c-8e12-0257a71e629d
-source-git-commit: 7f8a90c21c000d66cd7f3181170d6d8edb448f83
-workflow-type: ht
-source-wordcount: '688'
-ht-degree: 100%
+source-git-commit: b39fc9ed99a799d6ef6d5821554ebd2a409a652f
+workflow-type: tm+mt
+source-wordcount: '686'
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 >-**連合データモデルの管理**
 >>-**連合データモデルの表示**
 >
->必要な権限について詳しくは、[連合オーディエンス構成ガイドへのアクセス](/help/start/feature-access.md)を参照してください。
+>必要な権限の詳細については、[ アクセス制御ガイド ](/help/governance-privacy-security/access-control.md) を参照してください。
 
 ## データモデルとは {#data-model-start}
 

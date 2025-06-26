@@ -2,16 +2,46 @@
 title: Experience Platform 連合オーディエンス構成の新機能
 description: 最新の更新内容とリリースノート
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: d99bd98b5d63af55db223cf2e8dd3996d8012d24
-workflow-type: ht
-source-wordcount: '1244'
-ht-degree: 100%
+source-git-commit: cfbcccd99f81fc5c771a2ccaad93b35b617a84c4
+workflow-type: tm+mt
+source-wordcount: '1428'
+ht-degree: 87%
 
 ---
 
 # リリースノート {#rn-new}
 
 [!DNL Federated Audience Composition] は、新機能、既存機能の強化、およびバグ修正を継続的に提供します。すべての変更は、このリリースノートに統合されます。[!DNL Federated Audience Composition] が [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。以下の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target="_blank"}を参照してください。
+
+## 2025 年 6 月リリース {#fac-25-6}
+
+### 機能強化 {#fac-25-06-improvements}
+
+このリリースには、次の機能強化が含まれています。
+
+* **Adobe Healthcare Shield のお客様向けの一般公開**
+
+  Federated Audience Composition は、オーディエンスの作成、エンリッチメントおよびプロファイルエンリッチメントのユースケースについて、Adobe Healthcare Shield のお客様が 6 月末までに利用できるようになります。
+
+  Federated Audience Composition のプライバシーとセキュリティについて詳しくは、[ データガバナンス、プライバシー、セキュリティガイド ](/help/governance-privacy-security/home.md) を参照してください。
+
+* **オブジェクトレベルのアクセス制御**
+
+  Federated Audience コンポジションで、指定したコンポジションにアクセスラベルを適用する、オブジェクトレベルのアクセス制御がサポートされるようになりました。
+
+  オブジェクトレベルのアクセスラベルの使用について詳しくは、[ コンポジションガイド ](/help/compositions/gs-compositions.md) を参照してください。
+
+* **デフォルトの役割**
+
+  デフォルトの役割の 1 つを使用して、Federated Audience Composition アクセスのユーザー権限を管理できるようになりました。
+
+  デフォルトの役割について詳しくは、[access Federated Audience Composition ガイド ](/help/governance-privacy-security/access-control.md) を参照してください。
+
+* **プロファイルエンリッチメントのユースケースでの増分更新**
+
+  プロファイルを保存アクティビティで、増分更新がサポートされるようになりました。 増分更新を使用すると、外部データウェアハウスのデータでプロファイルを強化しながら、増分データのクエリと更新を行うことができます。
+
+  プロファイルを保存アクティビティの使用に関する詳細については、[ プロファイルアクティビティの保存ガイド ](/help/compositions/activities/save-profiles.md) を参照してください。
 
 ## 2025年5月リリース {#fac-25-5}
 
@@ -43,7 +73,7 @@ ht-degree: 100%
 
   5月のリリース以降、[!DNL Federated Audience Composition] は、アクセス制御に関する新しいきめ細かい権限をサポートします。ユーザーはこれらの権限をユーザーの役割に割り当てることで、[!DNL Federated Audience Composition] へのアクセスをより正確にすることができます。
 
-  新しい権限について詳しくは、[連合オーディエンス構成アクセスガイド](feature-access.md)を参照してください。
+  新しい権限について詳しくは、[連合オーディエンス構成アクセスガイド](/help/governance-privacy-security/access-control.md)を参照してください。
 
 ## 2025年4月リリース {#fac-25-4}
 
@@ -145,7 +175,7 @@ ht-degree: 100%
 
   [!DNL Federated Audience Composition] ユーザーインターフェイスに引き続きアクセスするには、管理者に連絡して、自分の役割にこの権限を追加してもらうことをお勧めします。
 
-  この権限を割り当てる方法について詳しくは、[詳細なドキュメント](feature-access.md)を参照してください。
+  この権限を割り当てる方法について詳しくは、[詳細なドキュメント](/help/governance-privacy-security/access-control.md)を参照してください。
 
 <!--
 * **Data model Canvas view**

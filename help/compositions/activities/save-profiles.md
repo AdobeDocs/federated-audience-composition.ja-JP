@@ -3,10 +3,10 @@ audience: end-user
 title: プロファイルを保存アクティビティの使用
 description: プロファイルを保存アクティビティの使用方法について学ぶ
 exl-id: 1c840838-32d5-4ceb-8430-835a235b7436
-source-git-commit: ca975be136155f69bc84362fde8c283b1c4edffe
+source-git-commit: c76ef4b64a58d3d43e78b489a1efe1a97a8c09f7
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 55%
+source-wordcount: '563'
+ht-degree: 22%
 
 ---
 
@@ -62,17 +62,23 @@ ht-degree: 55%
 >title="プライマリ ID フィールドの条件"
 >abstract="各プロファイルまたはレコードの一意の ID。 これにより、すべてのレコードを明確に認識して一致させることができ、データの重複を防ぐことができます。"
 
-**プロファイルを保存**&#x200B;アクティビティを使用すると、外部ウェアハウスから統合されたデータを使用して Adobe Experience Platform プロファイルを強化できます。
+**[!UICONTROL プロファイルを保存]** アクティビティを使用すると、外部ウェアハウスからのデータがフェデレーションされたAdobe Experience Platform プロファイルをエンリッチメントできます。
 
 このアクティビティは、通常、データをプラットフォームに物理的に移動または複製せずに、追加の属性やインサイトを取り込むことで、顧客プロファイルを強化するために使用されます。
 
-## プロファイルを保存アクティビティの設定 {#save-profile-configuration}
+## [!UICONTROL  プロファイルの保存 ] アクティビティの設定 {#save-profile-configuration}
 
-**プロファイルを保存**&#x200B;アクティビティを設定するには、次の手順に従います。
+>[!IMPORTANT]
+>
+>**プロファイルを保存** アクティビティには、プロファイル対応のスキーマとデータセットが必要です。 データセットをプロファイル対応にする方法については、[ データセットユーザーガイド ](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"} を参照してください。
+>
+>さらに、選択したデータセットでアップサートが有効 **されていない** 場合、プロファイルのデータは **置き換え** されます。 データセットのアップサートを有効にする方法については、[ アップサートガイドを有効にする ](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert) を参照してください。
 
-1. **プロファイルを保存**&#x200B;アクティビティを構成に追加します。
+次の手順に従って、**[!UICONTROL プロファイルを保存]** アクティビティを設定します。
 
-   ![](../assets/save-profile.png)
+1. **[!UICONTROL プロファイルを保存]** アクティビティをコンポジションに追加します。
+
+   ![ アクティビティ内で「プロファイルを保存」ボタンがハイライト表示されています。](../assets/save-profiles/save-profiles.png){width="1500" zoomable="yes"}
 
 1. 作成するプロファイルのラベルを指定します。
 
@@ -82,14 +88,31 @@ ht-degree: 55%
 
 1. 使用する Adobe Experience Platform スキーマを選択します。
 
-   ![](../assets/save-profile-2.png)
+   ![ 使用可能なスキーマが表示されます。](../assets/save-profiles/select-schema.png){width="1500" zoomable="yes"}
 
-1. データベース内のプロファイルの識別に使用するプライマリ ID フィールドを選択します。
+1. エンリッチメントの保存先データセットを選択します。
 
-1. 追加のデータ属性を紐付けする場合は、「**属性を追加**」をクリックします。
+   ![ データセットのドロップダウンがハイライト表示されている様子 ](../assets/save-profiles/select-dataset.png){width="300" zoomable="yes"}
 
-   次に、マッピングする属性ごとに、「**ソース**」フィールド（外部データ）と「**宛先**」フィールド（スキーマフィールド）を指定します。
+1. データセットを選択したら、データベース内のプロファイルを識別するために使用される「プライマリ ID」フィールドを確認できます。
 
-   ![](../assets/save-profile-3.png)
+1. **[!UICONTROL フィールドを追加]** を選択して、プライマリ ID フィールドと必須 ID フィールドを追加します。
 
-1. 設定が完了したら、「**開始**」をクリックします。
+   ![ 「フィールドを追加」ボタンがハイライト表示されます。](../assets/save-profiles/add-fields.png){width="300" zoomable="yes"}
+
+   マッピングする各属性の **Source** フィールド（外部データ）と **宛先** フィールド（スキーマフィールド）を指定できます。
+
+   ![ 「Source」フィールドと「宛先」フィールドがハイライト表示され、フィールド間のマッピングを作成する場所が示されている様子 ](../assets/save-profiles/specify-mapping.png){width="300" zoomable="yes"}
+
+1. エンリッチメントの更新モードを指定することもできます。
+
+   ![ 更新モードのタイプが表示されます。](../assets/save-profiles/select-update-mode.png){width="300" zoomable="yes"}
+
+   | 更新モード | 説明 |
+   | ----------- | ----------- |
+   | 完全更新 | プロファイルの完全なセットが更新され、エンリッチメントが図られます。 |
+   | 増分更新 | エンリッチメント用に更新されるのは、前回エンリッチメントを実行した後に変更されたプロファイルのみです。 |
+
+   [!UICONTROL  増分更新 ] を選択する場合は、最終変更日を選択して、送信するデータを決定する必要もあります。
+
+1. 設定が完了したら、「**開始**」を選択します。
