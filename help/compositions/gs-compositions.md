@@ -17,7 +17,7 @@ ht-degree: 16%
 >構成にアクセスするには、次のいずれかの権限が必要です。
 >
 >-**連合構成の管理**
->>-**連合構成の表示**
+>&#x200B;>-**連合構成の表示**
 >
 >必要な権限の詳細については、[ アクセス制御ガイド ](/help/governance-privacy-security/access-control.md) を参照してください。
 
@@ -32,7 +32,7 @@ Federated Audience Composition を使用すると、コンポジションを作�
 >title="構成"
 >abstract="この画面では、構成の完全なリストにアクセスし、現在のステータス、前回／次回の実行日を確認して、新しい構成を作成できます。"
 
-コンポジションには、Adobe Experience Platformの **[!UICONTROL オーディエンス]** メニューから、「**[!UICONTROL 顧客**[!UICONTROL  セクション内の「]**Federated コンポジション]** タブでアクセスできます。
+コンポジションには、Adobe Experience Platformの **[!UICONTROL オーディエンス]** メニューから、「**[!UICONTROL 顧客**&#x200B;[!UICONTROL &#x200B; セクション内の「]&#x200B;**Federated コンポジション]** タブでアクセスできます。
 
 この画面から、新しい構成を作成したり、既存の構成にアクセスしたりできます。名前の横にある ![ 省略記号 ](/help/assets/icons/more.png) ボタンを選択して、既存のコンポジションを複製または削除することもできます。
 
