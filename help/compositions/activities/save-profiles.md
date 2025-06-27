@@ -72,7 +72,7 @@ ht-degree: 46%
 >
 >**プロファイルを保存** アクティビティには、プロファイル対応のスキーマとデータセットが必要です。 データセットをプロファイル対応にする方法については、[ データセットユーザーガイド ](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"} を参照してください。
 >
->さらに、選択したデータセットでアップサートが有効 **されていない** 場合、プロファイルのデータは **置き換え** されます。 データセットのアップサートを有効にする方法については、[ アップサートガイドを有効にする ](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert) を参照してください。
+>さらに、選択したデータセットでアップサートが有効 **されていない** 場合、プロファイルのデータは **置き換え** されます。 データセットのアップサートを有効にする方法については、[ アップサートガイドを有効にする ](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/enable-upsert) を参照してください。
 
 次の手順に従って、**[!UICONTROL プロファイルを保存]** アクティビティを設定します。
 
