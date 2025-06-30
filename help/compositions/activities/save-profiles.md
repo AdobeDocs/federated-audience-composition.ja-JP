@@ -6,7 +6,7 @@ exl-id: 1c840838-32d5-4ceb-8430-835a235b7436
 source-git-commit: c76ef4b64a58d3d43e78b489a1efe1a97a8c09f7
 workflow-type: tm+mt
 source-wordcount: '563'
-ht-degree: 46%
+ht-degree: 51%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 46%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_aepschemalist"
->title="Experience Platform スキーマの選択"
+>title="Experience Platform スキーマを選択"
 >abstract="プロファイルの Experience Platform スキーマを選択します。"
 
 >[!CONTEXTUALHELP]
@@ -29,23 +29,23 @@ ht-degree: 46%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_selectaepschema"
->title="Experience Platform スキーマの選択"
+>title="Experience Platform スキーマを選択"
 >abstract="プロファイルの Experience Platform スキーマを選択します。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_updatemode"
->title="プロファイル更新モードの保存"
->abstract="プロファイルの保存アクティビティで利用可能な更新モードには、完全更新と増分更新があります。"
+>title="プロファイルを保存更新モード"
+>abstract="プロファイルを保存アクティビティで使用できる更新モードには、完全更新と増分更新が含まれます。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_updatemode_full"
 >title="完全更新"
->abstract="完全更新モードは、エンリッチメントのためにプロファイルの完全なセットを更新します。"
+>abstract="完全更新モードでは、エンリッチメントのプロファイルの完全なセットが更新されます。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_updatemode_incremental"
 >title="増分更新"
->abstract="増分更新モードは、最後にエンリッチメントが実行されてから変更されたプロファイルを更新します。"
+>abstract="増分更新モードでは、前回のエンリッチメントの実行以降に変更したプロファイルが更新されます。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_primaryidentityfield"
@@ -55,24 +55,24 @@ ht-degree: 46%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_requiredfieldscheck"
 >title="必須フィールドの条件"
->abstract="必須フィールドは、データを書き出す際に、すべてのプロファイルまたはレコードに入力する必要がある属性です。必須フィールドが入力されていない場合、書き出しは完了または有効になりません。"
+>abstract="必須フィールドは、データをエクスポートする際に、すべてのプロファイルまたはレコードに入力する必要がある属性です。必須フィールドが欠落している場合、エクスポートは完了または有効になりません。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_primaryidentitycheck"
 >title="プライマリ ID フィールドの条件"
->abstract="各プロファイルまたはレコードの一意の ID。これにより、すべてのレコードが明確に認識および照合されるため、データの重複を防ぐことができます。"
+>abstract="各プロファイルまたはレコードの一意の ID。これにより、すべてのレコードを明確に認識して一致させることができ、データの重複を防ぐことができます。"
 
 **[!UICONTROL プロファイルを保存]** アクティビティを使用すると、外部ウェアハウスからのデータがフェデレーションされたAdobe Experience Platform プロファイルをエンリッチメントできます。
 
-このアクティビティは、通常、データをプラットフォームに物理的に移動または複製せずに、追加の属性やインサイトを取り込むことで、顧客プロファイルを強化するために使用されます。
+このアクティビティは通常、データを物理的にプラットフォームに移動または複製せずに、追加の属性とインサイトを取り込むことで、顧客プロファイルの強化に使用されます。
 
-## [!UICONTROL &#x200B; プロファイルの保存 &#x200B;] アクティビティの設定 {#save-profile-configuration}
+## [!UICONTROL  プロファイルの保存 ] アクティビティの設定 {#save-profile-configuration}
 
 >[!IMPORTANT]
 >
 >**プロファイルを保存** アクティビティには、プロファイル対応のスキーマとデータセットが必要です。 データセットをプロファイル対応にする方法については、[ データセットユーザーガイド ](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"} を参照してください。
 >
->さらに、選択したデータセットでアップサートが有効 **されていない** 場合、プロファイルのデータは **置き換え** されます。 データセットのアップサートを有効にする方法については、[ アップサートガイドを有効にする ](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/enable-upsert) を参照してください。
+>さらに、選択したデータセットでアップサートが有効 **されていない** 場合、プロファイルのデータは **置き換え** されます。 データセットのアップサートを有効にする方法については、[ アップサートガイドを有効にする ](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert) を参照してください。
 
 次の手順に従って、**[!UICONTROL プロファイルを保存]** アクティビティを設定します。
 
@@ -113,6 +113,6 @@ ht-degree: 46%
    | 完全更新 | プロファイルの完全なセットが更新され、エンリッチメントが図られます。 |
    | 増分更新 | エンリッチメント用に更新されるのは、前回エンリッチメントを実行した後に変更されたプロファイルのみです。 |
 
-   [!UICONTROL &#x200B; 増分更新 &#x200B;] を選択する場合は、最終変更日を選択して、送信するデータを決定する必要もあります。
+   [!UICONTROL  増分更新 ] を選択する場合は、最終変更日を選択して、送信するデータを決定する必要もあります。
 
 1. 設定が完了したら、「**開始**」を選択します。
