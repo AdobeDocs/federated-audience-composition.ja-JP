@@ -73,7 +73,7 @@ Federated Audience Composition を使用すると、コンポジションを作�
 | 機密ラベル | 機密ラベル（「S」ラベル）は、お客様や組織が機密であると見なした分類に使用されます。 |
 | パートナーエコシステムラベル | パートナーエコシステムラベルは、組織外部のソースからのデータを分類するために使用されます。 |
 
-アクセスラベルとデータガバナンスラベルについて詳しくは、[ データ使用ラベルの用語集 ](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference) を参照してください。
+アクセスラベルとデータガバナンスラベルについて詳しくは、[ データ使用ラベルの用語集 ](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/labels/reference) を参照してください。
 
 ## 次の手順
 
