@@ -3,9 +3,9 @@ title: Experience Platform 連合オーディエンス構成の新機能
 description: 最新の更新内容とリリースノート
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: cfbcccd99f81fc5c771a2ccaad93b35b617a84c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1428'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 87%
 
 [!DNL Federated Audience Composition] は、新機能、既存機能の強化、およびバグ修正を継続的に提供します。すべての変更は、このリリースノートに統合されます。[!DNL Federated Audience Composition] が [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。以下の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target="_blank"}を参照してください。
 
-## 2025 年 6 月リリース {#fac-25-6}
+## 2025年6月リリース {#fac-25-6}
 
 ### 機能強化 {#fac-25-06-improvements}
 
@@ -21,27 +21,27 @@ ht-degree: 87%
 
 * **Adobe Healthcare Shield のお客様向けの一般公開**
 
-  Federated Audience Composition は、オーディエンスの作成、エンリッチメントおよびプロファイルエンリッチメントのユースケースについて、Adobe Healthcare Shield のお客様が 6 月末までに利用できるようになります。
+  Adobe Healthcare Shield のお客様は、6月末までに、オーディエンス作成、エンリッチメントおよびプロファイルエンリッチメントのユースケースで連合オーディエンス構成を使用できるようになります。
 
-  Federated Audience Composition のプライバシーとセキュリティについて詳しくは、[ データガバナンス、プライバシー、セキュリティガイド ](/help/governance-privacy-security/home.md) を参照してください。
+  連合オーディエンス構成のプライバシーとセキュリティについて詳しくは、[データガバナンス、プライバシーおよびセキュリティガイド](/help/governance-privacy-security/home.md)を参照してください。
 
 * **オブジェクトレベルのアクセス制御**
 
-  Federated Audience コンポジションで、指定したコンポジションにアクセスラベルを適用する、オブジェクトレベルのアクセス制御がサポートされるようになりました。
+  連合オーディエンス構成では、指定したコンポジションにアクセスラベルを適用する、オブジェクトレベルのアクセス制御がサポートされるようになりました。
 
-  オブジェクトレベルのアクセスラベルの使用について詳しくは、[ コンポジションガイド ](/help/compositions/gs-compositions.md) を参照してください。
+  オブジェクトレベルのアクセスラベルの使用について詳しくは、[構成ガイド](/help/compositions/gs-compositions.md)を参照してください。
 
 * **デフォルトの役割**
 
-  デフォルトの役割の 1 つを使用して、Federated Audience Composition アクセスのユーザー権限を管理できるようになりました。
+  デフォルトの役割の 1 つを使用して、連合オーディエンス構成アクセスのユーザー権限を管理できるようになりました。
 
-  デフォルトの役割について詳しくは、[access Federated Audience Composition ガイド ](/help/governance-privacy-security/access-control.md) を参照してください。
+  デフォルトの役割について詳しくは、[連合オーディエンス構成へのアクセスガイド](/help/governance-privacy-security/access-control.md)を参照してください。
 
 * **プロファイルエンリッチメントのユースケースでの増分更新**
 
-  プロファイルを保存アクティビティで、増分更新がサポートされるようになりました。 増分更新を使用すると、外部データウェアハウスのデータでプロファイルを強化しながら、増分データのクエリと更新を行うことができます。
+  プロファイルを保存アクティビティで、増分更新がサポートされるようになりました。増分更新を使用すると、外部データウェアハウスのデータでプロファイルを強化しながら、増分データのクエリと更新を実行できます。
 
-  プロファイルを保存アクティビティの使用に関する詳細については、[ プロファイルアクティビティの保存ガイド ](/help/compositions/activities/save-profiles.md) を参照してください。
+  プロファイルの保存アクティビティの使用について詳しくは、[プロファイルの保存アクティビティガイド](/help/compositions/activities/save-profiles.md)を参照してください。
 
 ## 2025年5月リリース {#fac-25-5}
 
@@ -150,7 +150,7 @@ ht-degree: 87%
 
 * **オーディエンスを保存アクティビティ**
 
-  **オーディエンスを保存**&#x200B;アクティビティにメモが追加され、データ管理者と共同作業してオーディエンスの作成とエンリッチメント中に作成された新しいスキーマとデータセットにガバナンスラベルを適用するようユーザーに通知します。
+  **オーディエンスを保存**アクティビティにメモが追加され、データ管理者と共同作業してオーディエンスの作成とエンリッチメント中に作成された新しいスキーマとデータセットにガバナンスラベルを適用するようユーザーに通知します。
   [データ使用ラベルの詳細情報を参照してください](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/labels/user-guide)
 
 ### 互換性 {#fac-25-4-compat}

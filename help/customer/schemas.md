@@ -4,9 +4,9 @@ title: スキーマの基本を学ぶ
 description: スキーマの開始方法について説明します
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
 source-git-commit: 5c16e22587cbbbe5bc87cfa4f22210aa8108341c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '545'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 97%
 >スキーマにアクセスするには、次のいずれかの権限が必要です。
 >
 >-**連合スキーマの管理**
->&#x200B;>-**連合スキーマの表示**
+>>-**連合スキーマの表示**
 >
->必要な権限の詳細については、[ アクセス制御ガイド ](/help/governance-privacy-security/access-control.md) を参照してください。
+>必要な権限について詳しくは、[アクセス制御ガイド](/help/governance-privacy-security/access-control.md)を参照してください。
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_create_select_tables"

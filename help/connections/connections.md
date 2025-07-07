@@ -4,9 +4,9 @@ title: 連合データベースとの接続の作成および管理
 description: 連合データベースとの接続の作成および管理方法について説明します
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
 source-git-commit: b39fc9ed99a799d6ef6d5821554ebd2a409a652f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '321'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 95%
 >接続にアクセスするには、次のいずれかの権限が必要です。
 >
 >-**連合データベースの管理**
->&#x200B;>-**連合データベースの表示**
+>>-**連合データベースの表示**
 >
->必要な権限の詳細については、[ アクセス制御ガイド ](/help/governance-privacy-security/access-control.md) を参照してください。
+>必要な権限について詳しくは、[アクセス制御ガイド](/help/governance-privacy-security/access-control.md)を参照してください。
 
 Experience Platform 連合オーディエンス構成を使用すると、お客様はサードパーティのデータウェアハウスからオーディエンスを作成して強化し、このオーディエンスを Adobe Experience Platform に読み込むことができます。サポートされているデータウェアハウスについて詳しくは、[この節](../start/access-prerequisites.md#supported-systems)を参照してください。
 

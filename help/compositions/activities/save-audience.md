@@ -4,9 +4,9 @@ title: オーディエンスを保存アクティビティの使用
 description: オーディエンスを保存アクティビティの使用方法について説明します
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
 source-git-commit: 7429577d99d2f163e7084db056005fe641d1bcf3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '532'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 79%
 
 このアクティビティは基本的に、同じ構成で計算された母集団グループを再利用可能なオーディエンスに変換することで、このグループを維持するために使用されます。**オーディエンスを作成**&#x200B;アクティビティや&#x200B;**結合**&#x200B;アクティビティなどの他のターゲティングアクティビティに接続します。
 
-**[!UICONTROL オーディエンスを保存]** アクティビティは、新しいオーディエンススキーマと関連するデータセットを生成します。このデータセットには、個人を特定できる情報（PII）または保護された医療情報（PHI）を含めることができます。 オーディエンスを作成したら、組織のデータポリシーに従って適切なデータガバナンスラベルが適用されるよう、管理者にお問い合わせください。 データ使用ラベルの適用方法について詳しくは、[ データ使用ラベルユーザーガイド ](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/labels/user-guide) を参照してください。
+**[!UICONTROL オーディエンスを保存]**&#x200B;アクティビティでは、新しいオーディエンススキーマと関連データセットを生成します。これには、個人を特定できる情報（PII）または保護された医療情報（PHI）が含まれる場合があります。オーディエンスを作成したら、管理者と連携して、組織のデータポリシーに従って適切なデータガバナンスラベルが適用されていることを確認してください。データ使用ラベルの適用方法について詳しくは、[データ使用ラベルユーザーガイド](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/labels/user-guide)を参照してください。
 
 ## オーディエンスを保存アクティビティの設定 {#save-audience-configuration}
 
@@ -65,7 +65,7 @@ ht-degree: 79%
 
 ## Adobe Experience Platform でのオーディエンスへのアクセス {#access-audience}
 
-コンポジションを実行すると、結果のオーディエンスが外部オーディエンスとしてAdobe Experience Platformに保存され、Adobe Real-Time CDPや Audience Portal 内のAdobe Journey Optimizerで使用できます。 オーディエンスポータルについて詳しくは、[ オーディエンスポータルの概要 ](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"} を参照してください。
+構成を実行すると、結果のオーディエンスが外部オーディエンスとして Adobe Experience Platform に保存され、オーディエンスポータル内の Adobe Real-time CDP や Adobe Journey Optimizer で使用できるようになります。オーディエンスポータルについて詳しくは、[オーディエンスポータルの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}を参照してください。
 
 作成したオーディエンスには、「オーディエンスマッピング」セクションで選択したすべてのフィールドが含まれます。Journey Optimizer でこのオーディエンスをターゲットにするか、Adobe Experience Platform でサポートされる任意の宛先に対してアクティブ化できます。
 
