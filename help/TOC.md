@@ -2,9 +2,9 @@
 user-guide-title: Experience Platform 連合オーディエンス構成
 title: Experience Platform 連合オーディエンス構成ドキュメント
 breadcrumb-title: Experience Platform 連合オーディエンス構成
-source-git-commit: 326509ed14bb2c29b2061ede11389aceb1f26956
-workflow-type: ht
-source-wordcount: '163'
+source-git-commit: d67acd28c05143202ca9a9cd64b15cfaf42c62e4
+workflow-type: tm+mt
+source-wordcount: '166'
 ht-degree: 100%
 
 ---
@@ -43,6 +43,7 @@ ht-degree: 100%
       + [アクティビティのリスト](compositions/activities/about-activities.md)
       + [AND 結合](compositions/activities/and-join.md)
       + [オーディエンスを作成](compositions/activities/build-audience.md)
+      + [データソースを変更](compositions/activities/change-data-source.md)
       + [ディメンションを変更](compositions/activities/change-dimension.md)
       + [結合](compositions/activities/combine.md)
       + [重複の除外](compositions/activities/deduplication.md)

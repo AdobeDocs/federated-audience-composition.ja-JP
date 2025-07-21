@@ -3,16 +3,16 @@ audience: end-user
 title: アクティビティの操作
 description: アクティビティの操作方法について説明します
 exl-id: 1e4e5f53-636f-4f1c-bf2f-cc3b5d6d6dda
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: ht
-source-wordcount: '278'
-ht-degree: 100%
+source-git-commit: 2a21dcde345febdaad0934c8835df5f7ae8c30f6
+workflow-type: tm+mt
+source-wordcount: '289'
+ht-degree: 91%
 
 ---
 
 # アクティビティの操作 {#activities}
 
-連合オーディエンス構成では、次の 2 種類のアクティビティを使用して構成を作成できます。
+Federated Audience Composition では、次の 2 種類のアクティビティを使用してコンポジションを作成できます。
 
 * **ターゲティングアクティビティ**：オーディエンスを定義するか、積集合、和集合、除外の各操作を使用して分割または結合することで、1 つまたは複数のターゲットを作成できます。
 * **フロー制御**&#x200B;アクティビティは、構成の整理と実行に特化しています。主なタスクは、他のアクティビティの調整です。
@@ -20,6 +20,7 @@ ht-degree: 100%
 ## ターゲティングアクティビティ
 
 * [オーディエンスアクティビティを作成](build-audience.md)：ターゲット母集団を定義します。既存のオーディエンスを選択するか、クエリモデラーを使用して独自のクエリを定義できます。
+* [ データソースを変更 ](./change-data-source.md)：コンポジションで使用されるデータソースを変更します。
 * [ディメンションを変更](change-dimension.md)：構成の作成時にスキーマ（ターゲティングディメンション）を変更します。
 * [結合](combine.md)：インバウンド母集団に対してセグメント化を実行します。和集合、積集合または除外を使用できます。
 * [重複排除 - 重複](deduplication.md)：インバウンドアクティビティの結果から重複を削除します。

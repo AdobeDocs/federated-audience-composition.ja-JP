@@ -3,10 +3,10 @@ audience: end-user
 title: オーディエンスを保存アクティビティの使用
 description: オーディエンスを保存アクティビティの使用方法について説明します
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
-source-git-commit: 7429577d99d2f163e7084db056005fe641d1bcf3
-workflow-type: ht
-source-wordcount: '532'
-ht-degree: 100%
+source-git-commit: ddbadca06acea06258c7d01807ed0f33ea5f8a60
+workflow-type: tm+mt
+source-wordcount: '578'
+ht-degree: 92%
 
 ---
 
@@ -33,6 +33,12 @@ ht-degree: 100%
 >title="ID 名前空間"
 >abstract="プロファイルに使用する名前空間を選択します。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/experience-platform/identity/features/namespaces" text="詳しくは、Experience Platform のドキュメントを参照してください"
+
+>[!IMPORTANT]
+>
+>オーディエンスを保存アクティビティを使用するには、オーディエンスが **順序付きタイムスタンプ** 結合ポリシーを使用する必要があります。 オーディエンスで **データセットの優先順位** 結合ポリシーを使用している場合は、Adobe カスタマーケアに連絡して続行してください。
+>
+>結合ポリシーについて詳しくは、[ 結合ポリシーの概要 ](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/merge-policies/overview) を参照してください。
 
 **[!UICONTROL オーディエンスを保存]**&#x200B;アクティビティは、構成のアップストリームで計算された母集団から新しいオーディエンスを作成します。作成したオーディエンスは Adobe Experience Platform オーディエンスのリストに追加され、**オーディエンス**&#x200B;メニューから使用できるようになります。[詳しくは、オーディエンスの操作方法を参照してください](../../start/audiences.md)
 

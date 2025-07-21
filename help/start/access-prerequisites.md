@@ -2,10 +2,10 @@
 title: 連合オーディエンス構成の前提条件とガードレール
 description: 連合オーディエンス構成の前提条件、権限およびガードレールについて説明します
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: a9410b26629a39b27466ef587e2ff0a1122b9868
-workflow-type: ht
-source-wordcount: '322'
-ht-degree: 100%
+source-git-commit: ddbadca06acea06258c7d01807ed0f33ea5f8a60
+workflow-type: tm+mt
+source-wordcount: '374'
+ht-degree: 87%
 
 ---
 
@@ -56,6 +56,12 @@ ht-degree: 100%
 連合オーディエンス構成でデータベースに安全にアクセスできるようにするには、データベースにアクセスする連合オーディエンス構成サーバーの IP アドレスを承認する必要があります。これらの IP アドレスは、Adobe Experience Platform ユーザーインターフェイスで連合データベースを追加する際に表示されます。[詳細情報](../connections/connections.md)
 
 連合オーディエンス構成のアクセス権を付与するには、これらの IP アドレスを許可リストに追加します。
+
+## 結合ポリシー {#merge-policies}
+
+Federated Audience コンポジションを使用してオーディエンスを生成するには、**順序付きタイムスタンプ** 結合ポリシーを使用する **必須** す。 オーディエンスで **データセットの優先順位** 結合ポリシーを使用している場合は、Adobe カスタマーケアに連絡して続行してください。
+
+結合ポリシーについて詳しくは、[ 結合ポリシーの概要 ](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/merge-policies/overview) を参照してください。
 
 ## ガードレールと制限 {#fac-guardrails}
 
