@@ -2,10 +2,10 @@
 title: Experience Platform 連合オーディエンス構成の基本を学ぶ
 description: アドビの連合オーディエンス構成の概要と Adobe Experience Platform での使用方法について説明します
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: ht
-source-wordcount: '1112'
-ht-degree: 100%
+source-git-commit: bb3e01b11d34568b61fdd98eedaa59af5267fd87
+workflow-type: tm+mt
+source-wordcount: '1236'
+ht-degree: 76%
 
 ---
 
@@ -33,19 +33,22 @@ ht-degree: 100%
 
 * B2C および B2B CDP のお客様は、連合オーディエンス構成を活用し、サポートされているエンタープライズデータウェアハウスからのデータを統合して、個人ベースのオーディエンスを作成できるようになりました。さらに、エンタープライズデータウェアハウスで使用可能な関連属性を組み込むことで、既存の AEP の個人ベースのオーディエンスのエンリッチメントを行い、オーディエンスプロファイルを強化して、よりパーソナライズされ、ターゲットを絞ったエンゲージメントを実現できます。
 
-## ユースケース {#rn-uc}
+## ユースケース {#use-cases}
 
-マーケティングに適した UI を通じて、マーケティングキャンペーンに必要な特定のセグメントに該当するユーザーのリストをデータウェアハウスにクエリするためのセグメントルールを作成したり、ウェアハウス内の既存のオーディエンスにアクセスしてアクティベートしたり、ウェアハウス内に存在する追加のデータポイントを使用して Adobe Experience Platform オーディエンスを強化したりすることができます。
+Federated Audience Composition では、オーディエンスの作成、オーディエンスのエンリッチメント、顧客プロファイルのエンリッチメントという **3 つの** ユースケースのカテゴリをサポートしています。
 
-このバージョンでは、次の 2 つのユースケースが使用できます。
+* オーディエンスの作成：データウェアハウスからオーディエンスを作成し、マーケターに適したドラッグ&amp;ドロップユーザーインターフェイスを介して、オーディエンスをExperience Platformに統合し、Real-Time CDPまたはJourney Optimizerで使用できるようにします。 その結果、機密の基になるデータをコピーしたり、既存のデータを複製したりすることなく、データウェアハウスに対してクエリを実行できます。
+   * **例：** 過去の購入者の取引履歴データを使用して、それらの取引をExperience Platformにコピーせずに、価値の高いオーディエンスをウェアハウスに作成します。
 
-1. オーディエンスの作成：基になるデータをコピーせずに、エンタープライズデータセットから新しいオーディエンスを作成し、事前に作成された宛先でこれらのオーディエンスをアクティブ化します。
+* オーディエンスの強化：データウェアハウスから追加のデータセットを使用し、この情報をオーディエンスにオーバーレイすることで、Experience Platformの既存のオーディエンスに詳細を追加できます。基になるデータをExperience Platformにコピーする必要はありません。 オーディエンスのエンリッチメントを使用すると、エンリッチメントされたオーディエンスで改善されたパーソナライゼーションを提供できます。
+   * **例：** 価値の高い過去の購入者の Federated Audience Composition オーディエンスを使用して、買い物かごの放棄を行ったExperience Platform オーディエンスを強化し、ターゲットを絞ったオファーを提供します。
 
-1. オーディエンスのエンリッチメント：エンタープライズデータウェアハウスから連合された構成済みオーディエンスデータを利用して、Adobe Experience Platform の既存のオーディエンスを強化します。このデータは、Adobe Experience Platform の顧客プロファイルには保存されません。
-
-1. プロファイルのエンリッチメント：外部ウェアハウスのデータを統合して Adobe Experience Platform プロファイルを強化し、追加の属性とインサイトで顧客プロファイルを強化できます。
+* プロファイルのエンリッチメント：データウェアハウスから個々の顧客属性を選択して、Experience Platform プロファイルを強化できます。 これらのプロファイルに連合データを追加することで、インバウンド顧客シグナルによってトリガーされるインモーメントエクスペリエンスをより適切に活用できます。
+   * **例：** フェデレーションされたオーディエンスの情報を使用してExperience Platform プロファイルを強化します。 価値の高い過去の購入者 federated audience に属するサイト訪問者に、オンサイト行動によってトリガーされるターゲットオファーをマーケティングできるようになりました。
 
 ![図](assets/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
+
+Federated Audience Composition のユースケースについて詳しくは、[Federated Audience Composition ホワイトペーパー ](https://business.adobe.com/resources/sdk/flexibly-access-enterprise-data-with-federated-audience-composition.html) を参照してください。
 
 ## 主な手順 {#gs-steps}
 
@@ -65,7 +68,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->構成を実行すると、結果のオーディエンスが外部オーディエンスとして Adobe Experience Platform に保存され、Adobe Real-time Customer Data Platform や Adobe Journey Optimizer で使用できるようになります。**オーディエンス**&#x200B;メニューでアクセスできます。[詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+>コンポジションを実行すると、結果のオーディエンスが外部オーディエンスとしてAdobe Experience Platformに保存され、Adobe Real-Time Customer Data PlatformやAdobe Journey Optimizerで使用できるようになります。 **オーディエンス**&#x200B;メニューでアクセスできます。[詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 ## ガバナンス、プライバシー、セキュリティ {#governance-privacy-security}
 
