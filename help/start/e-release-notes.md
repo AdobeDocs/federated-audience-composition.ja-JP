@@ -4,16 +4,28 @@ description: 最新の更新内容とリリースノート
 hide: true
 hidefromtoc: true
 exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
-source-git-commit: a9410b26629a39b27466ef587e2ff0a1122b9868
-workflow-type: ht
-source-wordcount: '1095'
-ht-degree: 100%
+source-git-commit: a568024516cec999e1e22b6f6deec926fe7083f8
+workflow-type: tm+mt
+source-wordcount: '1142'
+ht-degree: 95%
 
 ---
 
 # リリースノート {#rn-new}
 
 [!DNL Federated Audience Composition] は、新機能、既存機能の強化、およびバグ修正を継続的に提供します。すべての変更は、このリリースノートに統合されます。[!DNL Federated Audience Composition] が [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。以下の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target="_blank"}を参照してください。
+
+## 2025 年 7 月リリース {#fac-25-7}
+
+このリリースには、次の変更および改善点が含まれています。
+
+* **Oracle コネクタの可用性**
+
+  Oracle コネクタを、Federated Audience コンポジションで使用できるようになりました。
+
+* **構成ステータスアラート**
+
+  アラートを購読すると、コンポジションの実行の成功と失敗についてアラートを受け取ることができます。
 
 ## 2025年6月リリース {#fac-25-6}
 

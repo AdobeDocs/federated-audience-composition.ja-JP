@@ -2,10 +2,10 @@
 title: 連合オーディエンス構成の前提条件とガードレール
 description: 連合オーディエンス構成の前提条件、権限およびガードレールについて説明します
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: ddbadca06acea06258c7d01807ed0f33ea5f8a60
+source-git-commit: 3399de79baa5f8009b2ea6bfb084a5ce93f7a158
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 87%
+source-wordcount: '360'
+ht-degree: 90%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 87%
 
 ## 結合ポリシー {#merge-policies}
 
-Federated Audience コンポジションを使用してオーディエンスを生成するには、**順序付きタイムスタンプ** 結合ポリシーを使用する **必須** す。 オーディエンスで **データセットの優先順位** 結合ポリシーを使用している場合は、Adobe カスタマーケアに連絡して続行してください。
+オーディエンスで **データセットの優先順位** 結合ポリシーを使用している場合は、Adobe カスタマーケアに連絡して、`Halos UPS` のデータセットを結合ポリシーに追加してください。
 
 結合ポリシーについて詳しくは、[ 結合ポリシーの概要 ](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/merge-policies/overview) を参照してください。
 
