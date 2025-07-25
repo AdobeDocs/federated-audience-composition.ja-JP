@@ -6,7 +6,7 @@ exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
 source-git-commit: 3399de79baa5f8009b2ea6bfb084a5ce93f7a158
 workflow-type: tm+mt
 source-wordcount: '567'
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 94%
 >
 >オーディエンスで **データセットの優先順位** 結合ポリシーを使用している場合は、Adobe カスタマーケアに連絡して、`Halos UPS` のデータセットを結合ポリシーに追加してください。
 >
->結合ポリシーについて詳しくは、[ 結合ポリシーの概要 ](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/merge-policies/overview) を参照してください。
+>結合ポリシーについて詳しくは、[結合ポリシーの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/merge-policies/overview)を参照してください。
 
 **[!UICONTROL オーディエンスを保存]**&#x200B;アクティビティは、構成のアップストリームで計算された母集団から新しいオーディエンスを作成します。作成したオーディエンスは Adobe Experience Platform オーディエンスのリストに追加され、**オーディエンス**&#x200B;メニューから使用できるようになります。[詳しくは、オーディエンスの操作方法を参照してください](../../start/audiences.md)
 

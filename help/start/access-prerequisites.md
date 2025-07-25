@@ -5,7 +5,7 @@ exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
 source-git-commit: 3399de79baa5f8009b2ea6bfb084a5ce93f7a158
 workflow-type: tm+mt
 source-wordcount: '360'
-ht-degree: 90%
+ht-degree: 93%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 90%
 
 オーディエンスで **データセットの優先順位** 結合ポリシーを使用している場合は、Adobe カスタマーケアに連絡して、`Halos UPS` のデータセットを結合ポリシーに追加してください。
 
-結合ポリシーについて詳しくは、[ 結合ポリシーの概要 ](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/merge-policies/overview) を参照してください。
+結合ポリシーについて詳しくは、[結合ポリシーの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/merge-policies/overview)を参照してください。
 
 ## ガードレールと制限 {#fac-guardrails}
 
