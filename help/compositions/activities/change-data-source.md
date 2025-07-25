@@ -1,33 +1,33 @@
 ---
 audience: end-user
-title: 「データSourceを変更」アクティビティ
-description: データソースを変更アクティビティを使用して、コンポジションで使用されるデータソースを変更し、コンポジション内のデータをより柔軟に管理する方法を説明します。
-source-git-commit: 2a21dcde345febdaad0934c8835df5f7ae8c30f6
-workflow-type: tm+mt
+title: データソースを変更アクティビティ
+description: データソースを変更アクティビティを使用して、構成で使用されるデータソースを変更し、構成内のデータの管理の柔軟性を向上させる方法について説明します。
+exl-id: 8f8e627a-fef9-42b8-a42a-bfa1c421b202
+source-git-commit: 4d377c51150535e3d12f085b472e189818186163
+workflow-type: ht
 source-wordcount: '165'
-ht-degree: 18%
+ht-degree: 100%
 
 ---
-
 
 # データソースを変更
 
 >[!IMPORTANT]
 >
->**[!UICONTROL ディメンションを変更]** アクティビティと **[!UICONTROL データソースを変更]** アクティビティは、1 行に追加 **しない** でください。 両方のアクティビティを連続して使用する必要がある場合は、それらの間に&#x200B;**[!UICONTROL エンリッチメント]**&#x200B;アクティビティを含めます。これにより、適切な実行が確保され、潜在的な競合やエラーが防止されます。
+>**[!UICONTROL ディメンションを変更]**&#x200B;アクティビティと&#x200B;**[!UICONTROL データソースを変更]**&#x200B;アクティビティを 1 つの行に追加&#x200B;**しない**&#x200B;でください。両方のアクティビティを連続して使用する必要がある場合は、それらの間に&#x200B;**[!UICONTROL エンリッチメント]**&#x200B;アクティビティを含めます。これにより、適切に実行されるようになり、潜在的な競合やエラーが防止されます。
 
-**[!UICONTROL データソースを変更]** アクティビティを使用すると、コンポジションで使用されるデータソースを変更できます。
+**[!UICONTROL データソースを変更]**&#x200B;アクティビティを使用すると、構成で使用されるデータソースを変更できます。
 
 ## 設定 {#configure}
 
-**[!UICONTROL データソースを変更]** アクティビティをキャンバスに追加したら、ワークフローのデータソースを定義できます。
+**[!UICONTROL データソースを変更]**&#x200B;アクティビティをキャンバスに追加したら、ワークフローのデータソースを定義できます。
 
-![Federated Audience Composition ワークスペース内で「データソース」オプションがハイライト表示されています。](/help/compositions/assets/change-data-source/configure.png){zoomable="yes"}{width="70%"}{align="center"}
+![連合オーディエンス構成ワークスペース内にデータソースオプションがハイライト表示されています。](/help/compositions/assets/change-data-source/configure.png){zoomable="yes"}{width="70%"}{align="center"}
 
 | ソース | 説明 |
 | ------ | ----------- |
-| FDA 外部アカウント | Federated Audience Composition を通じてAdobe Campaignに接続された外部クラウドデータベース。 |
+| FDA 外部アカウント | 連合オーディエンス構成を通じて Adobe Campaign に接続された外部クラウドデータベース。 |
 
-**[!UICONTROL FDA 外部アカウント]** を選択したら、接続する外部アカウントを選択できます。
+**[!UICONTROL FDA 外部アカウント]**&#x200B;を選択したら、接続する外部アカウントを選択できます。
 
-![ 外部アカウントオプションを表示するポップオーバーが表示されます。](/help/compositions/assets/change-data-source/fda-external-account.png){zoomable="yes"}{width="70%"}{align="center"}
+![外部アカウントオプションを表示するポップオーバーが表示されています。](/help/compositions/assets/change-data-source/fda-external-account.png){zoomable="yes"}{width="70%"}{align="center"}
