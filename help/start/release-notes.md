@@ -2,16 +2,63 @@
 title: Experience Platform 連合オーディエンス構成の新機能
 description: 最新の更新内容とリリースノート
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: cfbcccd99f81fc5c771a2ccaad93b35b617a84c4
-workflow-type: ht
-source-wordcount: '1428'
-ht-degree: 100%
+source-git-commit: 59983bb7fd0f8886cc38bfcfc8d7005db4747ac0
+workflow-type: tm+mt
+source-wordcount: '1542'
+ht-degree: 92%
 
 ---
 
 # リリースノート {#rn-new}
 
 [!DNL Federated Audience Composition] は、新機能、既存機能の強化、およびバグ修正を継続的に提供します。すべての変更は、このリリースノートに統合されます。[!DNL Federated Audience Composition] が [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。以下の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target="_blank"}を参照してください。
+
+## 2025 年 7 月リリース {#fac-25-7}
+
+### 新機能 {#fac-25-07-feature}
+
+<table>
+<thead>
+<tr>
+<th><strong>新しいコネクタ - Oracle</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Oracle コネクタを、Federated Audience コンポジションで使用できるようになりました。</p>
+<p>オーディエンスの作成およびオーディエンスのエンリッチメントのユースケースには、Oracle コネクタを使用できます。</p>
+<p>Oracle接続について詳しくは、<a href="../connections/home.md#create"> 接続の概要 </a> を参照してください。</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>構成アラート</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>アラートを登録して、コンポジションの成功および失敗した実行について知ることができるようになりました</p>
+<p>コンポジションの実行に関する通知の購読について詳しくは、<a href="../compositions/start-monitor-composition.md#alerts"> コンポジションガイドの開始と監視 </a> を参照してください。</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 機能強化 {#fac-25-07-improvements}
+
+このリリースには、次の機能強化が含まれています。
+
+* **サーバー文字の長さの増加**
+
+  連合データベースを設定する際に、以前の 80 文字ではなく、最大 255 文字を使用できるようになりました。
 
 ## 2025年6月リリース {#fac-25-6}
 
@@ -157,11 +204,11 @@ ht-degree: 100%
 
 * **Amazon Redshift の安全な接続**
 
-  この新しいリリースでは、連合オーディエンス構成が、Amazon Redshift データベースへの安全なプライベートリンク接続をサポートします。[詳細情報](../connections/federated-db.md#amazon-redshift)
+  この新しいリリースでは、連合オーディエンス構成が、Amazon Redshift データベースへの安全なプライベートリンク接続をサポートします。[詳細情報](../connections/home.md#amazon-redshift)
 
 * **Google BigQuery**
 
-  この新しいリリースでは、連合オーディエンス構成が、Google BigQuery データベースへの安全な VPN 接続をサポートします。[詳細情報](../connections/federated-db.md#google-bigquery)
+  この新しいリリースでは、連合オーディエンス構成が、Google BigQuery データベースへの安全な VPN 接続をサポートします。[詳細情報](../connections/home.md#google-bigquery)
 
 ## 2025年3月リリース {#fac-25-3}
 
@@ -177,23 +224,12 @@ ht-degree: 100%
 
   この権限を割り当てる方法について詳しくは、[詳細なドキュメント](/help/governance-privacy-security/access-control.md)を参照してください。
 
-<!--
-* **Data model Canvas view**
-
-    The Canvas view for the Data Models section improves the experience by enabling the visualization of data models and their links in a canvas layout, alongside the existing tabular view. [Learn more](../data-management/gs-models.md)
-
-* **AI Assistant**
-
-    AI Assistant is a user interface feature designed to help you navigate and understand Adobe concepts and get operational insights for your specific environment. It is available in several products across Adobe Experience Cloud, including Federated Audience Composition. 
--->
-
-
 ### 互換性 {#fac-25-3-compat}
 
 * **Databricks 接続**
 
   この新しいリリースでは、連合オーディエンス構成が、Databricks データベース接続のプライベートリンク接続をサポートするようになりました。
-これには、プライベートリンク経由で Amazon Web Services（AWS）でホストされている Databricks データベースへの安全な接続と、VPN 経由で Microsoft Azure でホストされている Databricks データベースへの安全な接続が含まれます。[詳細情報](../connections/federated-db.md#databricks)
+これには、プライベートリンク経由で Amazon Web Services（AWS）でホストされている Databricks データベースへの安全な接続と、VPN 経由で Microsoft Azure でホストされている Databricks データベースへの安全な接続が含まれます。[詳細情報](../connections/home.md#databricks)
 
 * **B2B CDP のお客様のサポート**
 
@@ -201,7 +237,7 @@ ht-degree: 100%
 
 * **Snowflake の安全な接続**
 
-  この新しいリリースでは、連合オーディエンス構成が、Microsoft Azure でホストされている Snowflake データベースへの安全なプライベートリンク接続をサポートします。[詳細情報](../connections/federated-db.md#snowflake)
+  この新しいリリースでは、連合オーディエンス構成が、Microsoft Azure でホストされている Snowflake データベースへの安全なプライベートリンク接続をサポートします。[詳細情報](../connections/home.md#snowflake)
 
 ## 2025年2月リリース {#fac-25-2}
 
@@ -209,11 +245,11 @@ ht-degree: 100%
 
 * **Microsoft Fabric のサポート**
 
-  連合オーディエンス構成を通じて Microsoft Fabricデータベースへの接続を確立できるようになりました。[詳細情報](../connections/federated-db.md)
+  連合オーディエンス構成を通じて Microsoft Fabricデータベースへの接続を確立できるようになりました。[詳細情報](../connections/home.md)
 
 * **Amazon Redshift Spectrum のサポート**
 
-  Amazon Redshift データベース接続で Amazon Redshift Spectrum がサポートされるようになりました。[詳細情報](../connections/federated-db.md#amazon-redshift)
+  Amazon Redshift データベース接続で Amazon Redshift Spectrum がサポートされるようになりました。[詳細情報](../connections/home.md#amazon-redshift)
 
 * **スキーマ作成エクスペリエンスの強化**
 
@@ -231,7 +267,7 @@ ht-degree: 100%
 
 * **IP アドレス許可リスト**
 
-  Adobe Experience Platform ユーザーインターフェイスで連合データベースを追加する際に、連合オーディエンス構成インスタンスに関連付けられた IP アドレスを直接表示できるようになりました。これにより、これらの IP を簡単にコピーして承認し、データベースに接続して、セキュリティと柔軟性を向上させることができます。[詳細情報](../connections/connections.md)
+  Adobe Experience Platform ユーザーインターフェイスで連合データベースを追加する際に、連合オーディエンス構成インスタンスに関連付けられた IP アドレスを直接表示できるようになりました。これにより、これらの IP を簡単にコピーして承認し、データベースに接続して、セキュリティと柔軟性を向上させることができます。[詳細情報](../connections/home.md)
 
 ## 2024年10月リリース {#fac-24-10}
 
@@ -246,11 +282,11 @@ ht-degree: 100%
 
 * **Databricks のサポート**
 
-  連合オーディエンス構成を通じて Databricks データベースへの接続を確立できるようになりました。[詳細情報](../connections/federated-db.md#databricks)
+  連合オーディエンス構成を通じて Databricks データベースへの接続を確立できるようになりました。[詳細情報](../connections/home.md#databricks)
 
 * **AWS PrivateLink を介した Snowflake への安全なアクセスのサポート**
 
-  プライベートリンクを介した外部 Snowflake データウェアハウスへの安全なアクセスがサポートされるようになりました。Snowflake アカウントは、Amazon Web Services（AWS）でホストされ、連合オーディエンス構成環境と同じ地域に配置されている必要があります。Snowflake アカウントへの安全なアクセスの設定について詳しくは、アドビ担当者にお問い合わせください。[詳細情報](../connections/federated-db.md#snowflake)
+  プライベートリンクを介した外部 Snowflake データウェアハウスへの安全なアクセスがサポートされるようになりました。Snowflake アカウントは、Amazon Web Services（AWS）でホストされ、連合オーディエンス構成環境と同じ地域に配置されている必要があります。Snowflake アカウントへの安全なアクセスの設定について詳しくは、アドビ担当者にお問い合わせください。[詳細情報](../connections/home.md#snowflake)
 
 * **Amazon Redshift Serverless のサポート**
 

@@ -3,8 +3,8 @@ audience: end-user
 title: 構成の基本を学ぶ
 description: 構成の開始方法について説明します
 exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
-source-git-commit: 5c16e22587cbbbe5bc87cfa4f22210aa8108341c
-workflow-type: ht
+source-git-commit: 59983bb7fd0f8886cc38bfcfc8d7005db4747ac0
+workflow-type: tm+mt
 source-wordcount: '551'
 ht-degree: 100%
 
@@ -48,23 +48,23 @@ ht-degree: 100%
 
 構成を開始または停止する方法について詳しくは、[構成の開始と監視ガイド](./start-monitor-composition.md)を参照してください。
 
-![使用可能な構成のリストが表示されています。](assets/gs-compositions/compositions-list.png){zoomable="yes"}{width="70%"}{align="center"}
+![使用可能な構成のリストが表示されています。](assets/gs-compositions/compositions-list.png){zoomable="yes"}{width="70%"}
 
 リストを絞り込み、探している構成を見つけるには、リストを検索し、ステータスまたは最終処理日で構成をフィルタリングします。
 
 また、列を追加または削除してリストをカスタマイズすることもできます。これを行うには、「**[!UICONTROL 列を設定]**」ボタンを選択し、目的の出力列を追加または削除します。
 
-![構成の参照ページに追加できる使用可能な列のリストが表示されています。](assets/gs-compositions/compositions-columns.png){zoomable="yes"}{width="70%"}{align="center"}
+![構成の参照ページに追加できる使用可能な列のリストが表示されています。](assets/gs-compositions/compositions-columns.png){zoomable="yes"}{width="70%"}
 
 ### アクセスラベルの適用 {#access-labels}
 
 特定の構成にアクセスラベルを適用するには、構成、「**[!UICONTROL アクセスを管理]**」の順に選択します。
 
-![構成キャンバス内で「アクセスを管理」ボタンがハイライト表示されています。](assets/gs-compositions/select-manage-access.png){zoomable="yes"}{width="70%"}{align="center"}
+![構成キャンバス内で「アクセスを管理」ボタンがハイライト表示されています。](assets/gs-compositions/select-manage-access.png){zoomable="yes"}{width="70%"}
 
 **[!UICONTROL アクセスを管理]**&#x200B;ポップオーバーが表示されます。このページでは、該当するアクセスラベルとデータガバナンスラベルを構成に適用できます。
 
-![「アクセスを管理」ポップオーバーが表示されています。構成に適用できる、すべてのラベルのリストが表示されています。](assets/gs-compositions/manage-access.png){zoomable="yes"}{width="70%"}{align="center"}
+![「アクセスを管理」ポップオーバーが表示されています。構成に適用できる、すべてのラベルのリストが表示されています。](assets/gs-compositions/manage-access.png){zoomable="yes"}{width="70%"}
 
 | ラベルタイプ | 説明 |
 | ---------- | ----------- |

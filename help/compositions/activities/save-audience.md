@@ -3,7 +3,7 @@ audience: end-user
 title: オーディエンスを保存アクティビティの使用
 description: オーディエンスを保存アクティビティの使用方法について説明します
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
-source-git-commit: 3399de79baa5f8009b2ea6bfb084a5ce93f7a158
+source-git-commit: c133ddb2b1d2a75e7f9614d7623fad63aa24eb55
 workflow-type: tm+mt
 source-wordcount: '567'
 ht-degree: 96%
@@ -36,7 +36,7 @@ ht-degree: 96%
 
 >[!IMPORTANT]
 >
->オーディエンスで **データセットの優先順位** 結合ポリシーを使用している場合は、Adobe カスタマーケアに連絡して、`Halos UPS` のデータセットを結合ポリシーに追加してください。
+>サンドボックスで **データセットの優先順位** 結合ポリシーを使用している場合は、Adobe カスタマーケアに連絡して、`Halos UPS` のデータセットを結合ポリシーに追加してください。
 >
 >結合ポリシーについて詳しくは、[結合ポリシーの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/merge-policies/overview)を参照してください。
 

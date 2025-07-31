@@ -4,7 +4,7 @@ description: 最新の更新内容とリリースノート
 hide: true
 hidefromtoc: true
 exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
-source-git-commit: a568024516cec999e1e22b6f6deec926fe7083f8
+source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
 workflow-type: tm+mt
 source-wordcount: '1142'
 ht-degree: 95%
@@ -73,7 +73,7 @@ ht-degree: 95%
 
 * **Snowflake の安全な接続**
 
-  この新しいリリースでは、連合オーディエンス構成が、Microsoft Azure でホストされている Amazon Redshift データベースへの安全なプライベートリンク接続をサポートします。[詳細情報](../connections/federated-db.md#amazon-redshift)
+  この新しいリリースでは、連合オーディエンス構成が、Microsoft Azure でホストされている Amazon Redshift データベースへの安全なプライベートリンク接続をサポートします。[詳細情報](../connections/home.md#amazon-redshift)
 
 ## 2025年3月リリース {#fac-25-3}
 
@@ -105,7 +105,7 @@ ht-degree: 95%
 * **Databricks 接続**
 
   この新しいリリースでは、連合オーディエンス構成が、Databricks データベース接続のプライベートリンク接続をサポートするようになりました。
-これには、プライベートリンク経由で Amazon Web Services（AWS）でホストされている Databricks データベースへの安全な接続と、VPN 経由で Microsoft Azure でホストされている Databricks データベースへの安全な接続が含まれます。[詳細情報](../connections/federated-db.md#databricks)
+これには、プライベートリンク経由で Amazon Web Services（AWS）でホストされている Databricks データベースへの安全な接続と、VPN 経由で Microsoft Azure でホストされている Databricks データベースへの安全な接続が含まれます。[詳細情報](../connections/home.md#databricks)
 
 * **B2B CDP のお客様のサポート**
 
@@ -113,7 +113,7 @@ ht-degree: 95%
 
 * **Snowflake の安全な接続**
 
-  この新しいリリースでは、連合オーディエンス構成が、Microsoft Azure でホストされている Snowflake データベースへの安全なプライベートリンク接続をサポートします。[詳細情報](../connections/federated-db.md#snowflake)
+  この新しいリリースでは、連合オーディエンス構成が、Microsoft Azure でホストされている Snowflake データベースへの安全なプライベートリンク接続をサポートします。[詳細情報](../connections/home.md#snowflake)
 
 ## 2025年2月リリース {#fac-25-2}
 
@@ -121,11 +121,11 @@ ht-degree: 95%
 
 * **Microsoft Fabric のサポート**
 
-  連合オーディエンス構成を通じて Microsoft Fabricデータベースへの接続を確立できるようになりました。[詳細情報](../connections/federated-db.md)
+  連合オーディエンス構成を通じて Microsoft Fabricデータベースへの接続を確立できるようになりました。[詳細情報](../connections/home.md)
 
 * **Amazon Redshift Spectrum のサポート**
 
-  Amazon Redshift データベース接続で Amazon Redshift Spectrum がサポートされるようになりました。[詳細情報](../connections/federated-db.md#amazon-redshift)
+  Amazon Redshift データベース接続で Amazon Redshift Spectrum がサポートされるようになりました。[詳細情報](../connections/home.md#amazon-redshift)
 
 * **スキーマ作成エクスペリエンスの強化**
 
@@ -143,7 +143,7 @@ ht-degree: 95%
 
 * **IP アドレス許可リスト**
 
-  Adobe Experience Platform ユーザーインターフェイスで連合データベースを追加する際に、連合オーディエンス構成インスタンスに関連付けられた IP アドレスを直接表示できるようになりました。これにより、これらの IP を簡単にコピーして承認し、データベースに接続して、セキュリティと柔軟性を向上させることができます。[詳細情報](../connections/connections.md)
+  Adobe Experience Platform ユーザーインターフェイスで連合データベースを追加する際に、連合オーディエンス構成インスタンスに関連付けられた IP アドレスを直接表示できるようになりました。これにより、これらの IP を簡単にコピーして承認し、データベースに接続して、セキュリティと柔軟性を向上させることができます。[詳細情報](../connections/home.md)
 
 ## 2024年10月リリース {#fac-24-10}
 
@@ -158,11 +158,11 @@ ht-degree: 95%
 
 * **Databricks のサポート**
 
-  連合オーディエンス構成を通じて Databricks データベースへの接続を確立できるようになりました。[詳細情報](../connections/federated-db.md#databricks)
+  連合オーディエンス構成を通じて Databricks データベースへの接続を確立できるようになりました。[詳細情報](../connections/home.md#databricks)
 
 * **AWS PrivateLink を介した Snowflake への安全なアクセスのサポート**
 
-  プライベートリンクを介した外部 Snowflake データウェアハウスへの安全なアクセスがサポートされるようになりました。Snowflake アカウントは、Amazon Web Services（AWS）でホストされ、連合オーディエンス構成環境と同じ地域に配置されている必要があります。Snowflake アカウントへの安全なアクセスの設定について詳しくは、アドビ担当者にお問い合わせください。[詳細情報](../connections/federated-db.md#snowflake)
+  プライベートリンクを介した外部 Snowflake データウェアハウスへの安全なアクセスがサポートされるようになりました。Snowflake アカウントは、Amazon Web Services（AWS）でホストされ、連合オーディエンス構成環境と同じ地域に配置されている必要があります。Snowflake アカウントへの安全なアクセスの設定について詳しくは、アドビ担当者にお問い合わせください。[詳細情報](../connections/home.md#snowflake)
 
 * **Amazon Redshift Serverless のサポート**
 

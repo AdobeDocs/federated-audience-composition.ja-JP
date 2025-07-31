@@ -2,7 +2,7 @@
 title: 連合オーディエンス構成の前提条件とガードレール
 description: 連合オーディエンス構成の前提条件、権限およびガードレールについて説明します
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: 3399de79baa5f8009b2ea6bfb084a5ce93f7a158
+source-git-commit: c133ddb2b1d2a75e7f9614d7623fad63aa24eb55
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 93%
@@ -29,7 +29,7 @@ ht-degree: 93%
 * Vertica Analytics
 * Microsoft Fabric
 
-これらのシステムとの接続を作成する方法について詳しくは、[このページ](../connections/connections.md)を参照してください。
+これらのシステムとの接続を作成する方法について詳しくは、[このページ](../connections/home.md)を参照してください。
 
 ## サンドボックス
 
@@ -53,13 +53,13 @@ ht-degree: 93%
 
 ## IP 許可リスト {#ip}
 
-連合オーディエンス構成でデータベースに安全にアクセスできるようにするには、データベースにアクセスする連合オーディエンス構成サーバーの IP アドレスを承認する必要があります。これらの IP アドレスは、Adobe Experience Platform ユーザーインターフェイスで連合データベースを追加する際に表示されます。[詳細情報](../connections/connections.md)
+連合オーディエンス構成でデータベースに安全にアクセスできるようにするには、データベースにアクセスする連合オーディエンス構成サーバーの IP アドレスを承認する必要があります。これらの IP アドレスは、Adobe Experience Platform ユーザーインターフェイスで連合データベースを追加する際に表示されます。[詳細情報](../connections/home.md)
 
 連合オーディエンス構成のアクセス権を付与するには、これらの IP アドレスを許可リストに追加します。
 
 ## 結合ポリシー {#merge-policies}
 
-オーディエンスで **データセットの優先順位** 結合ポリシーを使用している場合は、Adobe カスタマーケアに連絡して、`Halos UPS` のデータセットを結合ポリシーに追加してください。
+サンドボックスで **データセットの優先順位** 結合ポリシーを使用している場合は、Adobe カスタマーケアに連絡して、`Halos UPS` のデータセットを結合ポリシーに追加してください。
 
 結合ポリシーについて詳しくは、[結合ポリシーの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/merge-policies/overview)を参照してください。
 

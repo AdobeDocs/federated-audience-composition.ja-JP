@@ -3,8 +3,8 @@ audience: end-user
 title: スキーマの基本を学ぶ
 description: スキーマの開始方法について説明します
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: 5c16e22587cbbbe5bc87cfa4f22210aa8108341c
-workflow-type: ht
+source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
+workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 100%
 
@@ -69,7 +69,7 @@ ht-degree: 100%
 
    ![](assets/schema_create.png){zoomable="yes"}
 
-   この手順では、ドロップダウンリストを備えた新しい画面にアクセスして、環境に接続されているデータベースを検索できます。データベース接続について詳しくは、[この節](../connections/connections.md#connections-fdb)を参照してください。
+   この手順では、ドロップダウンリストを備えた新しい画面にアクセスして、環境に接続されているデータベースを検索できます。データベース接続について詳しくは、[この節](../connections/home.md#connections-fdb)を参照してください。
 
 1. リストでソースデータベースを選択し、「**[!UICONTROL 次へ]**」をクリックします。
 

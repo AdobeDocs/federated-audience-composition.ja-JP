@@ -3,10 +3,10 @@ audience: end-user
 title: 構成の作成
 description: 構成の作成方法について説明します
 exl-id: 1f288312-dd6a-4a62-8ee6-fa2417954d5c
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: 59983bb7fd0f8886cc38bfcfc8d7005db4747ac0
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 100%
+source-wordcount: '738'
+ht-degree: 86%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 100%
 
 ## 構成のトランジション {#transitions}
 
-構成では、トランジションを通じて 1 つのアクティビティから別のアクティビティへ移されたデータは、一時的な作業用テーブルに保存されます。このデータは、トランジションごとに表示できます。これを行うには、トランジションを選択して、画面の右側でそのプロパティを開きます。
+構成では、トランジションを通じて 1 つのアクティビティから別のアクティビティへ移されたデータは、一時的なワークテーブルに保存されます。このデータは、トランジションごとに表示できます。これを行うには、トランジションを選択して、画面の右側でそのプロパティを開きます。
 
-* 「**[!UICONTROL スキーマをプレビュー]**」をクリックして、作業用テーブルのスキーマを表示します。
+* 「**[!UICONTROL スキーマをプレビュー]**」をクリックして、ワークテーブルのスキーマを表示します。
 * 「**[!UICONTROL 結果をプレビュー]**」をクリックして、選択したトランジションで移されたデータを視覚化します。このオプションは、「**[!UICONTROL 2 つの実行間で中間母集団の結果を保持]**」オプションが有効になっている場合にのみ使用できます。[詳細情報](create-composition.md#settings)
 
 ![](assets/transition-preview.png)
@@ -61,6 +61,22 @@ ht-degree: 100%
 ![](assets/logs-tasks.png)
 
 すべてのタブで、表示される列とその順序を選択し、フィルターを適用し、検索フィールドを使用して目的の情報をすばやく見つけることができます。
+
+## アラートの配信を登録 {#alerts}
+
+さらに、アラートを登録すると、フェデレーションのコンポジション実行が成功または失敗した場合に通知を受け取ることができます。
+
+アラートを購読するには、![ 通知アイコン ](/help/assets/icons/bell.png) を選択してから、![ 設定アイコン ](/help/assets/icons/settings.png) を選択します。
+
+![ 通知アイコンと設定アイコンの両方がハイライト表示されます。](assets/monitor/select-notifications.png){zoomable="yes"}{width="70%"}
+
+通知設定ページが表示されます。 このページで、「**[!UICONTROL Experience Platform]**」を選択し、必要なアラートのチャネルを選択します。 UI 内で通知を確認するには、「**[!UICONTROL アプリ内]**」を選択します。
+
+![ 「Experience Platform」セクション内の「アプリ内」チェックボックスが選択されます。](assets/monitor/add-alerts.png){zoomable="yes"}{width="50%"}
+
+**[!UICONTROL アプリ内]** を選択すると、コンポジションの実行の成功と失敗が通知されます。
+
+![ アラートが表示され、コンポジションの成功と失敗が示されます。](assets/monitor/view-alerts.png){zoomable="yes"}{width="70%"}
 
 ## 構成実行コマンド {#execution-commands}
 
