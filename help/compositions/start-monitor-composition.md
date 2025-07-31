@@ -3,7 +3,7 @@ audience: end-user
 title: 構成の作成
 description: 構成の作成方法について説明します
 exl-id: 1f288312-dd6a-4a62-8ee6-fa2417954d5c
-source-git-commit: 59983bb7fd0f8886cc38bfcfc8d7005db4747ac0
+source-git-commit: 59d7d112421e0ff207ce76122593a111ad9c6cc7
 workflow-type: tm+mt
 source-wordcount: '738'
 ht-degree: 86%
@@ -95,3 +95,4 @@ ht-degree: 86%
 * 実行中の構成を&#x200B;**[!UICONTROL 停止]**&#x200B;すると、**[!UICONTROL 完了済み]**&#x200B;ステータスになります。進行中の操作は、可能であれば中断されます。構成を停止した同じ場所から再開することはできません。
 
 * **[!UICONTROL 再起動]**：構成を停止してから再起動します。ほとんどの場合、停止には一定の時間がかかり、「**[!UICONTROL 開始]**」ボタンは停止が有効な場合にのみ使用できるので、より迅速に再起動できます。
+

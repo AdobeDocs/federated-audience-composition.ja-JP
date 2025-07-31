@@ -3,7 +3,7 @@ audience: end-user
 title: 連合データベースとの接続の作成および管理
 description: 連合データベースとの接続の作成および管理方法について説明します
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 0fad4079df8efb2ed249a3b82703acf658ca2e72
+source-git-commit: 59d7d112421e0ff207ce76122593a111ad9c6cc7
 workflow-type: tm+mt
 source-wordcount: '1942'
 ht-degree: 13%
@@ -17,7 +17,7 @@ ht-degree: 13%
 >接続にアクセスするには、次のいずれかの権限が必要です。
 >
 >-**連合データベースの管理**
->&#x200B;>-**連合データベースの表示**
+>>-**連合データベースの表示**
 >
 >必要な権限について詳しくは、[アクセス制御ガイド](/help/governance-privacy-security/access-control.md)を参照してください。
 
@@ -227,4 +227,3 @@ Vertica Analyticsの場合、次の追加オプションを設定できます。
 | 接続をテスト | 設定の詳細を確認できます。 |
 
 **[!UICONTROL 関数をデプロイ]** を選択し、続いて **[!UICONTROL 追加]** を選択して、フェデレーテッド データベースとExperience Platform間の接続を最終決定できるようになりました。
-
