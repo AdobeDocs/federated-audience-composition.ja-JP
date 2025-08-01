@@ -4,7 +4,7 @@ title: 紐付けアクティビティの使用
 description: 紐付けアクティビティの使用方法について説明します
 exl-id: 933c3cba-9120-4a93-a668-866fb65ee197
 source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '521'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation"
 >title="紐付けアクティビティ"
->abstract="「**紐付け**」アクティビティを使用すると、データベース内のデータと作業テーブル内のデータ間のリンクを定義できます。"
+>abstract="「**紐付け**」アクティビティを使用すると、データベース内のデータとワークテーブル内のデータ間のリンクを定義できます。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_field"
@@ -32,7 +32,7 @@ ht-degree: 100%
 >title="紐付けで補集合を生成"
 >abstract="紐付けで補集合を生成"
 
-**紐付け**&#x200B;アクティビティを使用すると、データベース内のデータと作業用テーブル内のデータ（外部システムから読み込まれたデータなど）間のリンクを定義できます。
+**紐付け**&#x200B;アクティビティを使用すると、データベース内のデータとワークテーブル内のデータ（外部システムから読み込まれたデータなど）間のリンクを定義できます。
 
 <!--For example, the **Reconciliation** activity can be placed after a **Load file** activity to import non-standard data into the database. In this case, the **Reconciliation** activity lets you define the link between the data in the Adobe Campaign database and the data in the work table.-->
 
@@ -58,7 +58,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_keep_unreconciled_data"
 >title="紐付けられていないデータの保持"
->abstract="デフォルトでは、紐付けされていないデータは、アウトバウンドトランジションに保持され、後で使用するために作業用テーブルで使用できます。 紐付けされていないデータを削除するには、「**紐付けされていないデータを保持**」オプションを非アクティブ化します。"
+>abstract="デフォルトでは、紐付けされていないデータは、アウトバウンドトランジションに保持され、後で使用するためにワークテーブルで使用できます。 紐付けされていないデータを削除するには、「**紐付けされていないデータを保持**」オプションを非アクティブ化します。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_attribute"
@@ -88,7 +88,7 @@ ht-degree: 100%
 
 1. 「**フィルターを作成**」ボタンを使用して、データをフィルタリングして紐付けできます。これにより、クエリモデラーを使用してカスタム条件を作成できます。
 
-デフォルトでは、紐付けされていないデータは、アウトバウンドトランジションに保持され、後で使用するために作業用テーブルで使用できます。紐付けされていないデータを削除するには、「**紐付けされていないデータを保持**」オプションを非アクティブ化します。
+デフォルトでは、紐付けされていないデータは、アウトバウンドトランジションに保持され、後で使用するためにワークテーブルで使用できます。紐付けされていないデータを削除するには、「**紐付けされていないデータを保持**」オプションを非アクティブ化します。
 
 <!--
 ## Example {#reconciliation-example}
