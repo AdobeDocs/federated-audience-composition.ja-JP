@@ -4,7 +4,7 @@ title: スキーマの基本を学ぶ
 description: スキーマの開始方法について説明します
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
 source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '545'
 ht-degree: 100%
 

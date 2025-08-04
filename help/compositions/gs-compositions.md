@@ -4,7 +4,7 @@ title: 構成の基本を学ぶ
 description: 構成の開始方法について説明します
 exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
 source-git-commit: 59983bb7fd0f8886cc38bfcfc8d7005db4747ac0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '551'
 ht-degree: 100%
 
