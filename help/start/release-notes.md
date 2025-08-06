@@ -3,9 +3,9 @@ title: Experience Platform 連合オーディエンス構成の新機能
 description: 最新の更新内容とリリースノート
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: 59d7d112421e0ff207ce76122593a111ad9c6cc7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1542'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -13,22 +13,22 @@ ht-degree: 92%
 
 [!DNL Federated Audience Composition] は、新機能、既存機能の強化、およびバグ修正を継続的に提供します。すべての変更は、このリリースノートに統合されます。[!DNL Federated Audience Composition] が [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。以下の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target="_blank"}を参照してください。
 
-## 2025 年 7 月リリース {#fac-25-7}
+## 2025年7月リリース {#fac-25-7}
 
 ### 新機能 {#fac-25-07-feature}
 
 <table>
 <thead>
 <tr>
-<th><strong>新しいコネクタ - Oracle</strong><br/></th>
+<th><strong>新しいコネクター - Oracle</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Oracle コネクタを、Federated Audience コンポジションで使用できるようになりました。</p>
-<p>オーディエンスの作成およびオーディエンスのエンリッチメントのユースケースには、Oracle コネクタを使用できます。</p>
-<p>Oracle接続について詳しくは、<a href="../connections/home.md#create"> 接続の概要 </a> を参照してください。</p>
+<p>Oracle コネクターが連合オーディエンス構成で使用できるようになりました。</p>
+<p>Oracle コネクターは、オーディエンスの作成およびオーディエンスのエンリッチメントのユースケースに使用できます。</p>
+<p>Oracle 接続について詳しくは、<a href="../connections/home.md#create">接続の概要</a>を参照してください。</p>
 </br>
 </td>
 </tr>
@@ -44,8 +44,8 @@ ht-degree: 92%
 <tbody>
 <tr>
 <td>
-<p>アラートを登録して、コンポジションの成功および失敗した実行について知ることができるようになりました</p>
-<p>コンポジションの実行に関する通知の購読について詳しくは、<a href="../compositions/start-monitor-composition.md#alerts"> コンポジションガイドの開始と監視 </a> を参照してください。</p>
+<p>アラートを登録して、構成の実行が成功または失敗したかについて通知を受け取ることができるようになりました。</p>
+<p>構成の実行に関する通知の登録方法について詳しくは、<a href="../compositions/start-monitor-composition.md#alerts">構成の開始と監視ガイド</a>を参照してください。</p>
 </br>
 </td>
 </tr>
@@ -56,7 +56,7 @@ ht-degree: 92%
 
 このリリースには、次の機能強化が含まれています。
 
-* **サーバー文字の長さの増加**
+* **サーバーで使用可能な文字数を増加**
 
   連合データベースを設定する際に、以前の 80 文字ではなく、最大 255 文字を使用できるようになりました。
 
@@ -197,7 +197,7 @@ ht-degree: 92%
 
 * **オーディエンスを保存アクティビティ**
 
-  **オーディエンスを保存**&#x200B;アクティビティにメモが追加され、データ管理者と共同作業してオーディエンスの作成とエンリッチメント中に作成された新しいスキーマとデータセットにガバナンスラベルを適用するようユーザーに通知します。
+  **オーディエンスを保存**アクティビティにメモが追加され、データ管理者と共同作業してオーディエンスの作成とエンリッチメント中に作成された新しいスキーマとデータセットにガバナンスラベルを適用するようユーザーに通知します。
   [データ使用ラベルの詳細情報を参照してください](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/labels/user-guide)
 
 ### 互換性 {#fac-25-4-compat}

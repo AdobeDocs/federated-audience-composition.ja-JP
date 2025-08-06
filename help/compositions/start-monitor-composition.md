@@ -4,9 +4,9 @@ title: 構成の作成
 description: 構成の作成方法について説明します
 exl-id: 1f288312-dd6a-4a62-8ee6-fa2417954d5c
 source-git-commit: 59d7d112421e0ff207ce76122593a111ad9c6cc7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '738'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -64,19 +64,19 @@ ht-degree: 86%
 
 ## アラートの配信を登録 {#alerts}
 
-さらに、アラートを登録すると、フェデレーションのコンポジション実行が成功または失敗した場合に通知を受け取ることができます。
+さらに、アラートを登録すると、連合構成の実行が成功または失敗した場合に通知を受け取ることができます。
 
-アラートを購読するには、![ 通知アイコン ](/help/assets/icons/bell.png) を選択してから、![ 設定アイコン ](/help/assets/icons/settings.png) を選択します。
+アラートを登録するには、![通知アイコン](/help/assets/icons/bell.png)を選択してから、![設定アイコン](/help/assets/icons/settings.png)を選択します。
 
-![ 通知アイコンと設定アイコンの両方がハイライト表示されます。](assets/monitor/select-notifications.png){zoomable="yes"}{width="70%"}
+![通知アイコンと設定アイコンの両方がハイライト表示されています。](assets/monitor/select-notifications.png){zoomable="yes"}{width="70%"}
 
-通知設定ページが表示されます。 このページで、「**[!UICONTROL Experience Platform]**」を選択し、必要なアラートのチャネルを選択します。 UI 内で通知を確認するには、「**[!UICONTROL アプリ内]**」を選択します。
+通知設定ページが表示されます。このページで、「**[!UICONTROL Experience Platform]**」を選択し、必要なアラートのチャネルを選択します。UI 内で通知を確認するには、「**[!UICONTROL アプリ内]**」を選択します。
 
-![ 「Experience Platform」セクション内の「アプリ内」チェックボックスが選択されます。](assets/monitor/add-alerts.png){zoomable="yes"}{width="50%"}
+![「Experience Platform」セクション内の「アプリ内」チェックボックスが選択されています。](assets/monitor/add-alerts.png){zoomable="yes"}{width="50%"}
 
-**[!UICONTROL アプリ内]** を選択すると、コンポジションの実行の成功と失敗が通知されます。
+「**[!UICONTROL アプリ内]**」を選択すると、構成の実行が成功または失敗したかが通知されます。
 
-![ アラートが表示され、コンポジションの成功と失敗が示されます。](assets/monitor/view-alerts.png){zoomable="yes"}{width="70%"}
+![アラートが表示され、構成の成功または失敗が示されます。](assets/monitor/view-alerts.png){zoomable="yes"}{width="70%"}
 
 ## 構成実行コマンド {#execution-commands}
 

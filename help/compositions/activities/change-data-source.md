@@ -4,9 +4,9 @@ title: データソースを変更アクティビティ
 description: データソースを変更アクティビティを使用して、構成で使用されるデータソースを変更し、構成内のデータの管理の柔軟性を向上させる方法について説明します。
 exl-id: 8f8e627a-fef9-42b8-a42a-bfa1c421b202
 source-git-commit: 59983bb7fd0f8886cc38bfcfc8d7005db4747ac0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '162'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 94%
 
 | ソース | 説明 |
 | ------ | ----------- |
-| FDA 外部アカウント | Federated Audience Composition に接続された外部クラウドデータベース。 |
+| FDA 外部アカウント | 連合オーディエンス構成に接続された外部クラウドデータベース。 |
 
 **[!UICONTROL FDA 外部アカウント]**&#x200B;を選択したら、接続する外部アカウントを選択できます。
 
