@@ -3,10 +3,10 @@ audience: end-user
 title: 構成の作成
 description: 構成の作成方法について説明します
 exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: d8fd926a445e65b6c7310d2ceac5a83ba9fece3f
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 100%
+source-wordcount: '515'
+ht-degree: 81%
 
 ---
 
@@ -16,20 +16,22 @@ ht-degree: 100%
 
 ## 構成の作成 {#create-the-composition}
 
-1. **[!UICONTROL オーディエンス]**&#x200B;メニューにアクセスし、「**[!UICONTROL 連合構成]**」タブを選択します。
+**[!UICONTROL コンポジションを作成するには、「顧客]** セクション内の **[!UICONTROL オーディエンス]** を選択してから、「**[!UICONTROL フェデレーテッド コンポジション]** タブを選択します。
 
-1. 「**[!UICONTROL 構成を作成]**」ボタンをクリックします。
+画像
 
-   ![](assets/composition-create.png)
+フェデレーション コンポジションの参照ページが表示されます。 **[!UICONTROL コンポジションを作成]** を選択して、コンポジション作成プロセスを続行します。
 
-1. 「**[!UICONTROL プロパティ]**」セクションで、構成のラベルを指定し、データモデルを選択します。構成のアクティビティでは、このデータモデルに関連付けられているスキーマのみを使用できます。
+![](assets/composition-create.png)
 
-   ![](assets/composition-select-schema.png)
+「**[!UICONTROL プロパティ]**」セクションで、コンポジションのラベルを指定し、データモデルを選択します。 構成のアクティビティでは、このデータモデルに関連付けられているスキーマのみを使用できます。
 
-1. 「**[!UICONTROL 作成]**」をクリックします。構成キャンバスが表示されます。これで、実行する前に、ニーズに合わせて必要な数のアクティビティを追加して、構成を設定できるようになりました。
+![](assets/composition-select-schema.png)
 
-   * [アクティビティの調整方法を学ぶ](orchestrate-activities.md)
-   * [詳しくは、構成を開始および監視する方法を参照してください](start-monitor-composition.md)
+「**[!UICONTROL 作成]**」を選択します。コンポジションキャンバスが表示されます。 これで、実行する前に、ニーズに合わせて必要な数のアクティビティを追加して、構成を設定できるようになりました。
+
+* [アクティビティの調整方法を学ぶ](orchestrate-activities.md)
+* [詳しくは、構成を開始および監視する方法を参照してください](start-monitor-composition.md)
 
 ## 構成の設定を行います。 {#settings}
 
@@ -48,7 +50,9 @@ ht-degree: 100%
 >title="エラー管理設定"
 >abstract="このセクションでは、実行中のエラーを管理する方法を定義できます。 プロセスの一時停止、一定数のエラーの無視または構成の実行の停止を選択できます。"
 
-構成にアクセスすると、詳細設定にアクセスして、エラーが発生した場合の構成の動作方法を定義するなどの操作を実行できます。これらの追加オプションにアクセスするには、構成作成画面の上部にある「**[!UICONTROL 設定]**」ボタンをクリックします。
+コンポジションにアクセスする場合、エラーが発生した場合のコンポジションの動作を定義するなどの詳細設定にアクセスできます。
+
+これらの追加オプションにアクセスするには、コンポジション作成画面の上部にある「**[!UICONTROL 設定]**」を選択します。
 
 ![](assets/composition-create-settings.png)
 

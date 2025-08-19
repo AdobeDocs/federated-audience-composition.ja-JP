@@ -3,10 +3,10 @@ audience: end-user
 title: スキーマの基本を学ぶ
 description: スキーマの開始方法について説明します
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
-workflow-type: ht
-source-wordcount: '545'
-ht-degree: 100%
+source-git-commit: 418a6db76a2294df8e4b4fd10744012971b39b54
+workflow-type: tm+mt
+source-wordcount: '573'
+ht-degree: 54%
 
 ---
 
@@ -59,80 +59,70 @@ ht-degree: 100%
 >[!CAUTION]
 >
 >複数のサンドボックスを同じデータベースに接続する際は、異なる作業スキーマを使用する必要があります。
->
 
 ## スキーマの作成 {#schema-create}
 
-連合オーディエンス構成でスキーマを作成するには、次の手順に従います。
+Federated Audience 構成でスキーマを作成するには、「**[!UICONTROL Federated Data]**」セクションで **[!UICONTROL モデル]** を選択します。 「**[!UICONTROL スキーマ]**」タブ内で、「**[!UICONTROL スキーマを作成]**」を選択します。
 
-1. 「**[!UICONTROL 連合データ]**」セクションで、**[!UICONTROL モデル]**&#x200B;メニューにアクセスします。「**[!UICONTROL スキーマ]**」タブを参照し、「**[!UICONTROL スキーマを作成]**」をクリックします。
+![](assets/schema_create.png){zoomable="yes"}
 
-   ![](assets/schema_create.png){zoomable="yes"}
+**[!UICONTROL 連合データベースを選択]** ポップオーバーが表示されます。 このポップオーバーで、「[ ソースデータベース ](/help/connections/home.md)」に続いて「**[!UICONTROL 次へ]**」を選択できます。
 
-   この手順では、ドロップダウンリストを備えた新しい画面にアクセスして、環境に接続されているデータベースを検索できます。データベース接続について詳しくは、[この節](../connections/home.md#connections-fdb)を参照してください。
 
-1. リストでソースデータベースを選択し、「**[!UICONTROL 次へ]**」をクリックします。
+![](assets/schema_tables.png){zoomable="yes"}
 
-   ![](assets/schema_tables.png){zoomable="yes"}
+**テーブルを選択** ポップオーバーが表示されます。 このポップオーバーで、スキーマの作成に使用するテーブルを選択できます。
 
-   その後、データベース内のすべてのテーブルのリストが表示されます。
+![ 「テーブルを選択」ポップオーバーが表示されます。](assets/select-table.png){zoomable="yes"}
 
-1. スキーマを作成するテーブルを選択します。
+選択した各テーブルでは、選択した列を含むスキーマが生成されます。各テーブルでは、スキーマのラベルの変更、説明の追加、フィールドラベルの名前の変更、フィールドラベルの表示の設定、スキーマのプライマリキーの選択を行うことができます。
 
-1. 選択した各テーブルでは、選択した列を含むスキーマが生成されます。必要に応じて、スキーマとその列を設定します。
+![](assets/schema_fields.png){zoomable="yes"}
 
-   ![](assets/schema_fields.png){zoomable="yes"}
+>[!NOTE]
+>
+>**[!UICONTROL 複合キーを使用]** を有効にして、使用するキーを 1 つだけ選択した場合、そのキーは標準スキーマのプライマリキーとして扱われます。
 
-   テーブルごとに、次の操作を実行できます。
+さらに、複数のスキーマ列で構成されるキーを作成できます。 **[!UICONTROL 合成キーを使用]** をオンにして、合成キーとして使用するキーをマークします。
 
-   * スキーマのラベルを変更する
-   * 説明を追加する
-   * すべてのフィールドラベルの名前を変更し、表示を設定する
-   * スキーマのプライマリキーを選択する
+![](assets/composite-key.png)
 
-   スキーマは、次のように定義できます。
-
-   ![](assets/schema_example.png)
-
-1. 設定が完了したら、「**[!UICONTROL 完了]**」をクリックします。
+設定が完了したら、「**[!UICONTROL 完了]**」を選択してスキーマの作成を完了します。
 
 ## スキーマの編集 {#schema-edit}
 
-スキーマを編集するには、次の手順に従います。
+スキーマを編集するには、以前に作成したスキーマを **スキーマ** ページで選択します。
 
-1. 以前に作成したスキーマにアクセスします。
+スキーマの詳細ページが表示されます。 ![ 鉛筆アイコン ](/help/assets/icons/edit.png) を選択して、スキーマを編集します。
 
-1. 「**[!UICONTROL 編集]**」ボタンをクリックします。
+![](assets/schema_edit.png){zoomable="yes"}
 
-   ![](assets/schema_edit.png){zoomable="yes"}
+**[!UICONTROL スキーマを編集]** ウィンドウで、[ スキーマを作成 ](#schema-create) 時と同じオプションにアクセスして設定できます。
 
-1. **[!UICONTROL スキーマを編集]**&#x200B;ウィンドウから、[スキーマの作成](#schema-create)時と同じオプションにアクセスして設定できます。
-
-   ![](assets/schema_edit_orders.png){zoomable="yes"}
+![](assets/schema_edit_orders.png){zoomable="yes"}
 
 ## スキーマ内のデータのプレビュー {#schema-preview}
 
 スキーマで表現されたテーブル内のデータをプレビューするには、以下のように「**[!UICONTROL データ]**」タブを参照します。
 
-レコードの合計数をプレビューするには、**[!UICONTROL 計算]**&#x200B;リンクをクリックします。
+**[!UICONTROL 計算]** リンクを選択して、録画の合計数をプレビューします。
 
 ![](assets/schema_data.png){zoomable="yes"}
 
-データの表示を変更するには、「**[!UICONTROL 列を設定]**」ボタンをクリックします。
+「**[!UICONTROL 列を設定]**」ボタンを選択して、データの表示を変更します。
 
 ![](assets/schema_columns.png){zoomable="yes"}
 
 ## スキーマの更新 {#schema-refresh}
 
-連合データベース内のテーブルは、更新、追加、削除できます。その場合、最新の変更内容に合わせて Adobe Experience Platform のスキーマを更新する必要があります。これを実行するには、更新するスキーマの名前の横にある 3 つのドットをクリックし、「**スキーマを更新**」を選択します。
+連合データベース内のテーブルは、更新、追加、削除できます。その場合、最新の変更内容に合わせて Adobe Experience Platform のスキーマを更新する必要があります。これを実行するには、スキーマ名の横にある ![3 つのドットのアイコン ](/help/assets/icons/more.png) を選択し、「スキーマを更新 **[!UICONTROL を選択し]** す。
 
 また、編集時にスキーマ定義を更新することもできます。
 
 ![](assets/schema_refresh.png){zoomable="yes"}
 
-
 ## スキーマの削除 {#schema-delete}
 
-スキーマを削除するには、「**[!UICONTROL その他]**」ボタンをクリックし、「**[!UICONTROL 削除]**」を選択します。
+スキーマを削除するには、「![3 つのドットのアイコン ](/help/assets/icons/more.png)」に続いて「**[!UICONTROL 削除]**」を選択します。
 
 ![](assets/schema_delete.png){zoomable="yes"}

@@ -3,10 +3,10 @@ audience: end-user
 title: クエリモデラーを使用した最初のクエリの作成
 description: クエリモデラーで最初のクエリを作成する方法について説明します。
 exl-id: abff07ef-2bc0-4e00-8957-4d59fc3bc938
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: ht
-source-wordcount: '2066'
-ht-degree: 100%
+source-git-commit: b0218a627d2f19617a806718c27e69ae39f95e10
+workflow-type: tm+mt
+source-wordcount: '2075'
+ht-degree: 98%
 
 ---
 
@@ -491,7 +491,7 @@ ht-degree: 100%
   <tr> 
    <td> <strong>Case</strong><br /> </td> 
    <td> 条件が true の場合は値 1 を返します。そうでない場合は値 2 を返します<br /> </td> 
-   <td> (When(&lt;条件&gt;, &lt;値 1&gt;), Else(&lt;値 2&gt;))<br /> </td> 
+   <td> Case(When(&lt;条件&gt;, &lt;値 1&gt;), Else(&lt;値 2&gt;))<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>ClearBit</strong><br /> </td> 
@@ -653,7 +653,7 @@ ht-degree: 100%
    <td> Length(&lt;文字列&gt;)<br /></td> 
   </tr> 
   <tr> 
-   <td> <strong>行</strong><br /> </td> 
+   <td> <strong>Line</strong><br /> </td> 
    <td> 文字列から n 行目を抽出<br /> </td> 
    <td> Line(&lt;文字列&gt;,&lt;数値&gt;)<br /></td> 
   </tr>
@@ -688,9 +688,9 @@ ht-degree: 100%
    <td> NodeValue (&lt;文字列&gt;, &lt;文字列&gt;)<br /></td> 
   </tr> 
   <tr> 
-   <td> <strong>置換</strong><br /> </td> 
-   <td> 指定された文字列値のすべての発生を別の文字列値に置き換えます。<br /> </td> 
-   <td> Replace(&lt;文字列&gt;,&lt;文字列&gt;,&lt;文字列&gt;)<br /></td> 
+   <td> <strong>Replace</strong><br /> </td> 
+   <td> 指定された文字列値（文字列 2）のすべての出現箇所を、文字列（文字列 1）内の別の文字列値（文字列 3）に置き換えます。<br /> </td> 
+   <td> Replace （&lt;String1&gt;,&lt;String2&gt;,&lt;String3&gt;）<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Right</strong><br /> </td> 
@@ -760,7 +760,7 @@ ht-degree: 100%
    <td> <strong>構文</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>_Over__</strong><br /> </td> 
+   <td> <strong>_Over_</strong><br /> </td> 
    <td> 第 1 パラメーターとして入力された SQL 関数呼び出しを、第 2 パラメーターとして入力された「パーティション」または「並べ替え順」フィールドより優先して実行します<br /> </td> 
    <td> _Over_(&lt;値&gt;, &lt;値&gt;)<br /> </td>  
   </tr> 
