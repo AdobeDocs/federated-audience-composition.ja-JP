@@ -3,10 +3,10 @@ audience: end-user
 title: スキーマの基本を学ぶ
 description: スキーマの開始方法について説明します
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: 418a6db76a2294df8e4b4fd10744012971b39b54
+source-git-commit: cc692662aa30e3263ef2da68ecd571f09c8dc6b8
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 54%
+source-wordcount: '586'
+ht-degree: 53%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 54%
 >スキーマにアクセスするには、次のいずれかの権限が必要です。
 >
 >-**連合スキーマの管理**
->&#x200B;>-**連合スキーマの表示**
+>>-**連合スキーマの表示**
 >
 >必要な権限について詳しくは、[アクセス制御ガイド](/help/governance-privacy-security/access-control.md)を参照してください。
 
@@ -64,7 +64,7 @@ ht-degree: 54%
 
 Federated Audience 構成でスキーマを作成するには、「**[!UICONTROL Federated Data]**」セクションで **[!UICONTROL モデル]** を選択します。 「**[!UICONTROL スキーマ]**」タブ内で、「**[!UICONTROL スキーマを作成]**」を選択します。
 
-![](assets/schema_create.png){zoomable="yes"}
+![ 「スキーマを作成」ボタンは、「オーディエンス構成スキーマを統合」セクション内でハイライト表示されます。](assets/schema_create.png){zoomable="yes"}
 
 **[!UICONTROL 連合データベースを選択]** ポップオーバーが表示されます。 このポップオーバーで、「[ ソースデータベース ](/help/connections/home.md)」に続いて「**[!UICONTROL 次へ]**」を選択できます。
 
@@ -77,7 +77,7 @@ Federated Audience 構成でスキーマを作成するには、「**[!UICONTROL
 
 選択した各テーブルでは、選択した列を含むスキーマが生成されます。各テーブルでは、スキーマのラベルの変更、説明の追加、フィールドラベルの名前の変更、フィールドラベルの表示の設定、スキーマのプライマリキーの選択を行うことができます。
 
-![](assets/schema_fields.png){zoomable="yes"}
+![](assets/schema-fields.png){zoomable="yes"}
 
 >[!NOTE]
 >
@@ -85,7 +85,7 @@ Federated Audience 構成でスキーマを作成するには、「**[!UICONTROL
 
 さらに、複数のスキーマ列で構成されるキーを作成できます。 **[!UICONTROL 合成キーを使用]** をオンにして、合成キーとして使用するキーをマークします。
 
-![](assets/composite-key.png)
+![](assets/composite-key.png){zoomable="yes"}
 
 設定が完了したら、「**[!UICONTROL 完了]**」を選択してスキーマの作成を完了します。
 

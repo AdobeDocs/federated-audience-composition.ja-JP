@@ -3,10 +3,10 @@ audience: end-user
 title: 連合データベースとの接続の作成および管理
 description: 連合データベースとの接続の作成および管理方法について説明します
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 59d7d112421e0ff207ce76122593a111ad9c6cc7
-workflow-type: ht
-source-wordcount: '1942'
-ht-degree: 100%
+source-git-commit: cc692662aa30e3263ef2da68ecd571f09c8dc6b8
+workflow-type: tm+mt
+source-wordcount: '1970'
+ht-degree: 97%
 
 ---
 
@@ -71,6 +71,10 @@ Amazon Redshift を選択した後に、次の詳細を追加できます。
 | 作業スキーマ | ワークテーブルに使用するデータベーススキーマの名前。この機能ついて詳しくは、[Amazon スキーマのドキュメント](https://docs.aws.amazon.com/ja_jp/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"}を参照してください。<br/><br/>**メモ：**&#x200B;このスキーマへの接続に必要な権限がある限り、一時的なデータ処理に使用するスキーマを含め、データベースから任意のスキーマを使用できます。ただし、複数のサンドボックスを同じデータベースに接続する場合は、異なる作業スキーマを使用する&#x200B;**必要**&#x200B;があります。 |
 
 >[!TAB Azure Synapse Analytics]
+
+>[!NOTE]
+>
+>Azure Synapse Analytics を使用して安全な接続を作成する場合は、Adobe カスタマーケア担当者にお問い合わせください。
 
 Azure Synapse Analytics を選択した後に、次の詳細を追加できます。
 
@@ -153,7 +157,7 @@ Microsoft Fabric では、以下の追加オプションを設定できます。
 >
 >Oracle データベースコネクタは現在、オーディエンスの作成とオーディエンスのエンリッチメントのユースケースに&#x200B;**のみ**&#x200B;使用できます。
 >
->また、Oracle データベースを設定する前に、アドビカスタマーケア担当者にお問い合わせください。
+>安全な接続を使用するためのOracle接続の設定を含め、Oracle データベースを設定する前に、Adobe カスタマーケア担当者にお問い合わせください。
 
 Oracle を選択した後に、次の詳細を追加できます。
 

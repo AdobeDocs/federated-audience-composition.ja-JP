@@ -3,10 +3,10 @@ audience: end-user
 title: 構成の作成
 description: 構成の作成方法について説明します
 exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
-source-git-commit: d8fd926a445e65b6c7310d2ceac5a83ba9fece3f
+source-git-commit: cc692662aa30e3263ef2da68ecd571f09c8dc6b8
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 81%
+source-wordcount: '524'
+ht-degree: 80%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 81%
 
 **[!UICONTROL コンポジションを作成するには、「顧客]** セクション内の **[!UICONTROL オーディエンス]** を選択してから、「**[!UICONTROL フェデレーテッド コンポジション]** タブを選択します。
 
-画像
+![ フェデレーテッド コンポジション セクションにアクセスするためのパスがハイライト表示されています。](assets/create/access-compositions.png)
 
 フェデレーション コンポジションの参照ページが表示されます。 **[!UICONTROL コンポジションを作成]** を選択して、コンポジション作成プロセスを続行します。
 
