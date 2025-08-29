@@ -3,9 +3,9 @@ audience: end-user
 title: 連合データベースとの接続の作成および管理
 description: 連合データベースとの接続の作成および管理方法について説明します
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: cc692662aa30e3263ef2da68ecd571f09c8dc6b8
+source-git-commit: 3f9980840bd9a8e5052d34835c40440c722d13cb
 workflow-type: ht
-source-wordcount: '1970'
+source-wordcount: '1953'
 ht-degree: 100%
 
 ---
@@ -154,8 +154,6 @@ Microsoft Fabric では、以下の追加オプションを設定できます。
 >[!TAB Oracle]
 
 >[!IMPORTANT]
->
->Oracle データベースコネクタは現在、オーディエンスの作成とオーディエンスのエンリッチメントのユースケースに&#x200B;**のみ**&#x200B;使用できます。
 >
 >Oracle データベースの設定（安全な接続を使用するための Oracle 接続の設定など）を行う前に、アドビカスタマーケア担当者にお問い合わせください。
 
