@@ -4,9 +4,9 @@ title: スキーマの基本を学ぶ
 description: スキーマの開始方法について説明します
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
 source-git-commit: cc692662aa30e3263ef2da68ecd571f09c8dc6b8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '586'
-ht-degree: 53%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 53%
 >スキーマにアクセスするには、次のいずれかの権限が必要です。
 >
 >-**連合スキーマの管理**
->&#x200B;>-**連合スキーマの表示**
+>>-**連合スキーマの表示**
 >
 >必要な権限について詳しくは、[アクセス制御ガイド](/help/governance-privacy-security/access-control.md)を参照してください。
 
@@ -62,28 +62,28 @@ ht-degree: 53%
 
 ## スキーマの作成 {#schema-create}
 
-Federated Audience 構成でスキーマを作成するには、「**[!UICONTROL Federated Data]**」セクションで **[!UICONTROL モデル]** を選択します。 「**[!UICONTROL スキーマ]**」タブ内で、「**[!UICONTROL スキーマを作成]**」を選択します。
+連合オーディエンス構成でスキーマを作成するには、「**[!UICONTROL 連合データ]**」セクションで「**[!UICONTROL モデル]**」を選択します。「**[!UICONTROL スキーマ]**」タブで、「**[!UICONTROL スキーマを作成]**」を選択します。
 
-![ 「スキーマを作成」ボタンは、「オーディエンス構成スキーマを統合」セクション内でハイライト表示されます。](assets/schema_create.png){zoomable="yes"}
+![ 「スキーマを作成」ボタンは、「連合オーディエンス構成スキーマ」セクションでハイライト表示されます。](assets/schema_create.png){zoomable="yes"}
 
-**[!UICONTROL 連合データベースを選択]** ポップオーバーが表示されます。 このポップオーバーで、「[ ソースデータベース ](/help/connections/home.md)」に続いて「**[!UICONTROL 次へ]**」を選択できます。
+ **[!UICONTROL 連合データベースを選択]**&#x200B;ポップオーバーが表示されます。このポップオーバーで、「[ソースデータベース](/help/connections/home.md)」を選択し、「**[!UICONTROL 次へ]**」をクリックします。
 
 
 ![](assets/schema_tables.png){zoomable="yes"}
 
-**テーブルを選択** ポップオーバーが表示されます。 このポップオーバーで、スキーマの作成に使用するテーブルを選択できます。
+**テーブルを選択**&#x200B;ポップオーバーが表示されます。このポップオーバーで、スキーマの作成に使用するテーブルを選択できます。
 
-![ 「テーブルを選択」ポップオーバーが表示されます。](assets/select-table.png){zoomable="yes"}
+![テーブルを選択ポップオーバーが表示されます。](assets/select-table.png){zoomable="yes"}
 
-選択した各テーブルでは、選択した列を含むスキーマが生成されます。各テーブルでは、スキーマのラベルの変更、説明の追加、フィールドラベルの名前の変更、フィールドラベルの表示の設定、スキーマのプライマリキーの選択を行うことができます。
+選択した各テーブルでは、選択した列を含むスキーマが生成されます。各テーブルでは、スキーマのラベルの変更、説明の追加、フィールドラベルの名前の変更、フィールドラベルの表示の設定、スキーマのプライマリキーの選択ができます。
 
 ![](assets/schema-fields.png){zoomable="yes"}
 
 >[!NOTE]
 >
->**[!UICONTROL 複合キーを使用]** を有効にして、使用するキーを 1 つだけ選択した場合、そのキーは標準スキーマのプライマリキーとして扱われます。
+>「**[!UICONTROL 複合キーを使用]**」を有効にして、使用するキーを 1 つだけ選択した場合、そのキーは標準スキーマのプライマリキーとして扱われます。
 
-さらに、複数のスキーマ列で構成されるキーを作成できます。 **[!UICONTROL 合成キーを使用]** をオンにして、合成キーとして使用するキーをマークします。
+また、複数のスキーマ列で構成されるキーを作成できます。「**[!UICONTROL 複合キーを使用]**」をオンにして、複合キーとして使用するキーをマークします。
 
 ![](assets/composite-key.png){zoomable="yes"}
 
@@ -91,13 +91,13 @@ Federated Audience 構成でスキーマを作成するには、「**[!UICONTROL
 
 ## スキーマの編集 {#schema-edit}
 
-スキーマを編集するには、以前に作成したスキーマを **スキーマ** ページで選択します。
+スキーマを編集するには、以前に作成したスキーマを&#x200B;**スキーマ**&#x200B;ページで選択します。
 
-スキーマの詳細ページが表示されます。 ![ 鉛筆アイコン ](/help/assets/icons/edit.png) を選択して、スキーマを編集します。
+スキーマの詳細ページが表示されます。![鉛筆アイコン](/help/assets/icons/edit.png)を選択して、スキーマを編集します。
 
 ![](assets/schema_edit.png){zoomable="yes"}
 
-**[!UICONTROL スキーマを編集]** ウィンドウで、[ スキーマを作成 ](#schema-create) 時と同じオプションにアクセスして設定できます。
+**[!UICONTROL スキーマを編集]**&#x200B;ウィンドウから、[スキーマの作成](#schema-create)時と同じオプションにアクセスして設定できます。
 
 ![](assets/schema_edit_orders.png){zoomable="yes"}
 
@@ -105,17 +105,17 @@ Federated Audience 構成でスキーマを作成するには、「**[!UICONTROL
 
 スキーマで表現されたテーブル内のデータをプレビューするには、以下のように「**[!UICONTROL データ]**」タブを参照します。
 
-**[!UICONTROL 計算]** リンクを選択して、録画の合計数をプレビューします。
+レコードの合計数をプレビューするには、 **[!UICONTROL 計算]**&#x200B;リンクをクリックします。
 
 ![](assets/schema_data.png){zoomable="yes"}
 
-「**[!UICONTROL 列を設定]**」ボタンを選択して、データの表示を変更します。
+データ表示を変更するには、「**[!UICONTROL 列を設定]**」ボタンをクリックします。
 
 ![](assets/schema_columns.png){zoomable="yes"}
 
 ## スキーマの更新 {#schema-refresh}
 
-連合データベース内のテーブルは、更新、追加、削除できます。その場合、最新の変更内容に合わせて Adobe Experience Platform のスキーマを更新する必要があります。これを実行するには、スキーマ名の横にある ![3 つのドットのアイコン ](/help/assets/icons/more.png) を選択し、「スキーマを更新 **[!UICONTROL を選択し]** す。
+連合データベース内のテーブルは、更新、追加、削除できます。その場合、最新の変更内容に合わせて Adobe Experience Platform のスキーマを更新する必要があります。これを実行するには、スキーマ名の横にある![3 つのドットのアイコン](/help/assets/icons/more.png)を選択してから、「**[!UICONTROL スキーマを更新]**」を選択します。
 
 また、編集時にスキーマ定義を更新することもできます。
 
@@ -123,6 +123,6 @@ Federated Audience 構成でスキーマを作成するには、「**[!UICONTROL
 
 ## スキーマの削除 {#schema-delete}
 
-スキーマを削除するには、「![3 つのドットのアイコン ](/help/assets/icons/more.png)」に続いて「**[!UICONTROL 削除]**」を選択します。
+スキーマを削除するには、![3 つのドットのアイコン](/help/assets/icons/more.png)選択してから、「**[!UICONTROL 削除]**」を選択します。
 
 ![](assets/schema_delete.png){zoomable="yes"}

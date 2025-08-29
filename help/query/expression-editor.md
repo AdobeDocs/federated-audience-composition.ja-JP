@@ -4,9 +4,9 @@ title: クエリモデラーを使用した最初のクエリの作成
 description: クエリモデラーで最初のクエリを作成する方法について説明します。
 exl-id: abff07ef-2bc0-4e00-8957-4d59fc3bc938
 source-git-commit: b0218a627d2f19617a806718c27e69ae39f95e10
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2075'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -689,8 +689,8 @@ ht-degree: 98%
   </tr> 
   <tr> 
    <td> <strong>Replace</strong><br /> </td> 
-   <td> 指定された文字列値（文字列 2）のすべての出現箇所を、文字列（文字列 1）内の別の文字列値（文字列 3）に置き換えます。<br /> </td> 
-   <td> Replace （&lt;String1&gt;,&lt;String2&gt;,&lt;String3&gt;）<br /></td> 
+   <td> 文字列（文字列 1）内の指定された文字列値（文字列 2）が出現する箇所をすべて別の文字列値（文字列 3）に置き換えます。<br /> </td> 
+   <td> Replace(&lt;String&gt;,&lt;String&gt;,&lt;String&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Right</strong><br /> </td> 

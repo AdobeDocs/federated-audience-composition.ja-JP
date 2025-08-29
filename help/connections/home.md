@@ -4,9 +4,9 @@ title: 連合データベースとの接続の作成および管理
 description: 連合データベースとの接続の作成および管理方法について説明します
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
 source-git-commit: cc692662aa30e3263ef2da68ecd571f09c8dc6b8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1970'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 97%
 >接続にアクセスするには、次のいずれかの権限が必要です。
 >
 >-**連合データベースの管理**
->&#x200B;>-**連合データベースの表示**
+>>-**連合データベースの表示**
 >
 >必要な権限について詳しくは、[アクセス制御ガイド](/help/governance-privacy-security/access-control.md)を参照してください。
 
@@ -74,7 +74,7 @@ Amazon Redshift を選択した後に、次の詳細を追加できます。
 
 >[!NOTE]
 >
->Azure Synapse Analytics を使用して安全な接続を作成する場合は、Adobe カスタマーケア担当者にお問い合わせください。
+>Azure Synapse Analytics を使用して安全な接続を作成する場合は、アドビカスタマーケア担当者にお問い合わせください。
 
 Azure Synapse Analytics を選択した後に、次の詳細を追加できます。
 
@@ -157,7 +157,7 @@ Microsoft Fabric では、以下の追加オプションを設定できます。
 >
 >Oracle データベースコネクタは現在、オーディエンスの作成とオーディエンスのエンリッチメントのユースケースに&#x200B;**のみ**&#x200B;使用できます。
 >
->安全な接続を使用するためのOracle接続の設定を含め、Oracle データベースを設定する前に、Adobe カスタマーケア担当者にお問い合わせください。
+>Oracle データベースの設定（安全な接続を使用するための Oracle 接続の設定など）を行う前に、アドビカスタマーケア担当者にお問い合わせください。
 
 Oracle を選択した後に、次の詳細を追加できます。
 

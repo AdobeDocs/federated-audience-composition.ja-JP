@@ -1,17 +1,17 @@
 ---
-title: Federated Audience コンポジションでのアクセス制御
-description: Federated Audience Composition のユーザーのデータアクセスを管理する方法について説明します。
+title: 連合オーディエンス構成でのアクセス制御
+description: 連合オーディエンス構成でユーザーのデータアクセスを管理する方法について説明します。
 exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
 source-git-commit: a26e5a2b106426113764d3f2f668ddfbbff85b01
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '606'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
-# Federated Audience コンポジションでのアクセス制御
+# 連合オーディエンス構成でのアクセス制御
 
-アクセス制御を使用して、サンドボックスおよび Federated Audience Composition への役割ベースのアクセスを提供できます。
+アクセス制御を使用すると、サンドボックスおよび連合オーディエンス構成への役割ベースのアクセスを提供できます。
 
 ## サンドボックスへのアクセスの管理 {#access-sandboxes}
 
@@ -21,11 +21,11 @@ Adobe Experience Platform 連合オーディエンス構成を購入すると、
 
 ## 連合オーディエンス構成へのアクセスの管理
 
-Federated Audience Composition の様々な側面にアクセスするために必要な権限を割り当てることで、アクセスを管理できます。 これらの権限は、役割を通じて、**Federated Audience Composition** にアクセスする必要があるユーザーに割り当てられます。
+連合オーディエンス構成の様々な側面へのアクセスに必要な権限を割り当てることで、アクセスを管理できます。これらの権限は、**連合オーディエンス構成**&#x200B;へのアクセスが必要なユーザーに対して役割を通じて割り当てられます。
 
 >[!NOTE]
 >
->管理者のみが他のユーザーに権限を割り当てることができます。
+>他のユーザーに権限を割り当てることができるのは、管理者のみです。
 
 1. **[!UICONTROL 権限]**&#x200B;メニューに移動します。
 1. **[!UICONTROL 役割]**&#x200B;メニューから、更新する&#x200B;**[!UICONTROL 役割]**&#x200B;を選択します。
@@ -76,8 +76,8 @@ Federated Audience Composition の様々な側面にアクセスするために�
 
 次に、ユーザーはインスタンスにアクセスする手順が記載されたメールを受信します。まだユーザーを作成していない場合は、[このドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/abac/permissions-ui/users)を参照してください。
 
-## 特定のコンポジションへのアクセスの管理
+## 特定の構成へのアクセスの管理
 
-アクセスラベルを適用して、特定のコンポジションへのアクセスを管理できます。
+アクセスラベルを適用することで、特定の構成へのアクセスを管理できます。
 
-コンポジションガイドの [ アクセスラベルの適用 ](/help/compositions/gs-compositions.md#access-labels) 節を参照して、コンポジションにアクセスラベルを適用する方法を確認してください。
+構成にアクセスラベルを適用する方法の詳細については、構成ガイドの[アクセスラベルの適用](/help/compositions/gs-compositions.md#access-labels)の節を参照してください。

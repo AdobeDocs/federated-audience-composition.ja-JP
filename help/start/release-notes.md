@@ -3,9 +3,9 @@ title: Experience Platform 連合オーディエンス構成の新機能
 description: 最新の更新内容とリリースノート
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: 418a6db76a2294df8e4b4fd10744012971b39b54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1706'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 91%
 
 [!DNL Federated Audience Composition] は、新機能、既存機能の強化、およびバグ修正を継続的に提供します。すべての変更は、このリリースノートに統合されます。[!DNL Federated Audience Composition] が [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。以下の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target="_blank"}を参照してください。
 
-## 2025 年 8 月リリース {#fac-25-8}
+## 2025年8月リリース {#fac-25-8}
 
 ### 新機能 {#fac-25-08-feature}
 
@@ -27,7 +27,7 @@ ht-degree: 91%
 <tr>
 <td>
 <p>列を組み合わせて、スキーマの複合キーを作成できるようになりました。</p>
-<p>スキーマについて詳しくは、<a href="../customer/schemas.md#create"> スキーマの概要 </a> を参照してください。</p>
+<p>スキーマについて詳しくは、<a href="../customer/schemas.md#create">スキーマの概要</a>を参照してください。</p>
 </br>
 </td>
 </tr>
@@ -37,14 +37,14 @@ ht-degree: 91%
 <table>
 <thead>
 <tr>
-<th><strong>モデルのリンクへの複数の結合の追加</strong><br/></th>
+<th><strong>モデルのリンクで複数の結合を追加</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>モデルに対して、1 つのリンクに複数の結合を追加できるようになりました。</p>
-<p>モデルについて詳しくは、<a href="../data-management/gs-models.md#create"> モデルの概要 </a> を参照してください。</p>
+<p>モデルの 1 つのリンクで複数の結合を追加できるようになりました。</p>
+<p>モデルについて詳しくは、<a href="../data-management/gs-models.md#create">モデルの概要</a>を参照してください。</p>
 </br>
 </td>
 </tr>
@@ -55,9 +55,9 @@ ht-degree: 91%
 
 このリリースには、次の機能強化が含まれています。
 
-* **関数 `StringAgg` 追加**
+* **`StringAgg` 関数**&#x200B;を追加
 
-  Amazon Redshift Spectrum データベースで `StringAgg` 関数を使用できるようになりました。 式エディターを使用して。
+  式エディターを使用する際に、Amazon Redshift Spectrum データベースに対して `StringAgg` 関数を使用できるようになりました。
 
 * **`Replace`関数**
 
@@ -67,13 +67,13 @@ ht-degree: 91%
 
 * **Azure Synapse データベース**
 
-  PrivateLink または VPN を使用して、Azure Synapse データベースに安全に接続できるようになりました。 詳しくは、Adobe カスタマーケアにお問い合わせください。
+  PrivateLink または VPN を使用して、Azure Synapse データベースに安全に接続できるようになりました。詳しくは、アドビカスタマーケアにお問い合わせください。
 
 * **Oracle データベース**
 
-  これで、Oracle データベースに安全に接続できます。 詳しくは、Adobe カスタマーケアにお問い合わせください。
+  Oracle データベースに安全に接続できるようになりました。詳しくは、アドビカスタマーケアにお問い合わせください。
 
-Federated Audience Composition でサポートされるデータベースについて詳しくは、[ 接続の概要 ](../connections/home.md) を参照してください。
+連合オーディエンス構成でサポートされるデータベースについて詳しくは、[接続の概要](../connections/home.md)を参照してください。
 
 ## 2025年7月リリース {#fac-25-7}
 
@@ -259,7 +259,7 @@ Federated Audience Composition でサポートされるデータベースにつ�
 
 * **オーディエンスを保存アクティビティ**
 
-  **オーディエンスを保存**&#x200B;アクティビティにメモが追加され、データ管理者と共同作業してオーディエンスの作成とエンリッチメント中に作成された新しいスキーマとデータセットにガバナンスラベルを適用するようユーザーに通知します。
+  **オーディエンスを保存**アクティビティにメモが追加され、データ管理者と共同作業してオーディエンスの作成とエンリッチメント中に作成された新しいスキーマとデータセットにガバナンスラベルを適用するようユーザーに通知します。
   [データ使用ラベルの詳細情報を参照してください](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/labels/user-guide)
 
 ### 互換性 {#fac-25-4-compat}

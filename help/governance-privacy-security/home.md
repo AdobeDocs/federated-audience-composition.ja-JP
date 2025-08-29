@@ -3,9 +3,9 @@ title: 連合オーディエンス構成のプライバシーとセキュリテ�
 description: 連合オーディエンス構成で、データガバナンス、同意の適用、アクセス制御、データ暗号化、プライバシーコンプライアンスなどの機能を含む、ユーザーデータのプライバシーとセキュリティを処理する方法について説明します。
 exl-id: 677e26e7-1294-4f62-a5ce-17b65e84c65e
 source-git-commit: 7429577d99d2f163e7084db056005fe641d1bcf3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1182'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -13,9 +13,9 @@ ht-degree: 77%
 
 >[!IMPORTANT]
 >
->Federated Audience Composition は完全に HIPAA に準拠しており、Healthcare Shield のお客様だけでなく、Privacy and Security Shield のお客様も使用できます。
+>連合オーディエンス構成は HIPAA に完全に準拠しており、Healthcare Shield のお客様だけでなく、Privacy and Security Shield のお客様も使用できます。
 
-Federated Audience Composition には、ビジネスプラクティス、法的義務および開発プロセスに準拠できるサービスとツールがいくつか用意されています。
+連合オーディエンス構成には、ビジネスプラクティス、法的義務および開発プロセスに準拠できるサービスとツールがいくつか用意されています。
 
 これらのサービスは、次の 3 つのカテゴリに分類できます。
 
@@ -25,21 +25,21 @@ Federated Audience Composition には、ビジネスプラクティス、法的�
 
 ## データガバナンス {#data-governance}
 
-データガバナンスを使用して顧客データを管理および識別し、組織または法規制によって定義された制限に従って適切にラベル付けされていることを確認できます。
+データガバナンスを使用して顧客データを管理および識別し、組織または法的規制によって定義された制限に従って適切にラベル付けすることができます。
 
 ### データ使用ラベル {#data-usage-labels}
 
-データ使用ラベルを使用して、データに適用されるガバナンスポリシーに基づいてデータセットとフィールドを分類できます。 構成を使用してオーディエンスを作成したら、その結果作成されたスキーマに適切なデータラベルを適用して、必須の使用制限に準拠していることを確認できます。
+データ使用ラベルを使用して、そのデータに適用されるガバナンスポリシーに基づいて、データセットとフィールドを分類できます。構成を使用してオーディエンスを作成したら、その結果作成されたスキーマに適切なデータラベルを適用して、必須の使用制限に準拠していることを確認できます。
 
-Federated Audience Composition でのデータラベルの使用について詳しくは、[ アクセスラベルの適用 ](../compositions/gs-compositions.md#access-labels){target="_blank"} の節を参照してください。
+連合オーディエンス構成でのデータラベルの使用について詳しくは、[アクセスラベルの適用](../compositions/gs-compositions.md#access-labels){target="_blank"}の節を参照してください。
 
 ## プライバシー
 
-Federated Audience Composition :Adobe Experience PlatformおよびAdobe Journey Optimizerが使用するフェデレーティッドデータを提供し、ユーザーのデータのプライバシーが確実に尊重されるようにします。
+連合オーディエンス構成は、Adobe Experience Platform および Adobe Journey Optimizer で使用するための連合データを提供し、ユーザーデータのプライバシーが尊重されるようにします。
 
 ### Privacy Service {#privacy-service}
 
-Federated Audience Composition は、どのデータウェアハウスのカスタマーデータも保存 **しないので** Adobe Experience Platform Privacy Serviceを使用して、データ主体とデータ削除のリクエストに準拠することができます。
+連合オーディエンス構成では、データウェアハウスからの顧客データは一切保存されて&#x200B;**いない**&#x200B;ため、データ主体およびデータ削除に関するリクエストに対応するには、Adobe Platform Privacy Service を使用します。
 
 例えば、構成キャンバスでアクティビティを保存ブロックを使用してオーディエンスを作成すると、その結果作成されたオーディエンスは、外部オーディエンスとして Experience Platform のデータレイクに保存されます。この外部オーディエンスは、ID フィールドと ID 名前空間でマークされます。その結果、Privacy Service を使用して、外部オーディエンスと共にこれらのプロファイルにアクセスし、削除できます。
 
@@ -75,11 +75,11 @@ Privacy Service では、連合オーディエンス構成から顧客データ�
 
 ## セキュリティ {#security}
 
-データセキュリティにより、Federated Audience Composition でデータが保護されます。
+連合オーディエンス構成のデータは、データセキュリティによって保護されます。
 
 ### 暗号化 {#encryption}
 
-Federated Audience Composition は、保存データ暗号化、転送中データ暗号化、顧客管理キーによる暗号化を提供します。
+連合オーディエンス構成では、保存データの暗号化、転送中のデータの暗号化、顧客管理キーによる暗号化が提供されます。
 
 保存データは、連合オーディエンス構成内で使用される顧客データを指します。データは、クラウドサービスプロバイダーによって暗号化され、暗号化された形式で連合オーディエンス構成で使用されます。
 
@@ -103,7 +103,7 @@ Federated Audience Composition は、保存データ暗号化、転送中デー�
 
 連合オーディエンス構成へのアクセスは、フィールドレベルと役割ベースレベルの両方で制御できます。これらのアクセス制御を使用すると、データガバナンスポリシーを適用し、機密情報の公開を制限し、アクセスをユーザーの責任に合わせて調整できます。
 
-Federated Audience Composition のアクセス制御の詳細については、[ アクセス制御ガイド ](/help/governance-privacy-security/access-control.md){target="_blank"} を参照してください。
+連合オーディエンス構成のアクセス制御について詳しくは、[アクセス制御ガイド](/help/governance-privacy-security/access-control.md){target="_blank"}を参照してください。
 
 ### データのローカライゼーション {#data-localization}
 
@@ -111,4 +111,4 @@ Federated Audience Composition のアクセス制御の詳細については、[
 
 ## 次の手順 {#next-steps}
 
-このガイドを読むことで、データ使用ラベル、プライバシーコンプライアンス、同意の適用、データライフサイクル管理、アクセス制御など、Federated Audience Composition で使用されるデータガバナンス、プライバシー、セキュリティの機能について理解が深まりました。
+このガイドを読むことで、データ使用ラベル、プライバシーコンプライアンス、同意の適用、データライフサイクル管理、アクセス制御など、連合オーディエンス構成で使用されるデータガバナンス、プライバシーおよびセキュリティの機能についての理解が深まります。
