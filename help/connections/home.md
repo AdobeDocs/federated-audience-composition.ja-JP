@@ -3,10 +3,10 @@ audience: end-user
 title: 連合データベースとの接続の作成および管理
 description: 連合データベースとの接続の作成および管理方法について説明します
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 3f9980840bd9a8e5052d34835c40440c722d13cb
+source-git-commit: f0a66632e90526c450e45430d4bdf8a73f2bad49
 workflow-type: tm+mt
-source-wordcount: '1953'
-ht-degree: 100%
+source-wordcount: '1990'
+ht-degree: 96%
 
 ---
 
@@ -155,7 +155,7 @@ Microsoft Fabric では、以下の追加オプションを設定できます。
 
 >[!IMPORTANT]
 >
->Oracle データベースの設定（安全な接続を使用するための Oracle 接続の設定など）を行う前に、アドビカスタマーケア担当者にお問い合わせください。
+>Federated Audience Composition は、Oracle データベースバージョン 11g 以降を使用したフェデレーテッド接続の設定をサポートしており、（外部ネットワークからアクセスできる限り）AWS、Azure、Exadata またはプライベートクラウドでホストされます。 Oracle データベースの設定に関してさらに質問がある場合や、Oracleへの安全な接続を作成する必要がある場合は、Adobe カスタマーケア担当者にお問い合わせください。
 
 Oracle を選択した後に、次の詳細を追加できます。
 
