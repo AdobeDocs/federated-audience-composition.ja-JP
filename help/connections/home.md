@@ -3,10 +3,10 @@ audience: end-user
 title: 連合データベースとの接続の作成および管理
 description: 連合データベースとの接続の作成および管理方法について説明します
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 1806603f14a775cb7209e9f36283deabe5c07559
+source-git-commit: 74679f5cf6dbc7401544232b484febd5ebc00aca
 workflow-type: tm+mt
-source-wordcount: '2224'
-ht-degree: 89%
+source-wordcount: '2298'
+ht-degree: 86%
 
 ---
 
@@ -127,11 +127,15 @@ Google BigQuery を選択すると、Federated Audience Composition と接続す
 
 **[!UICONTROL OAuth 2.0]** を選択した場合は、次のログイン情報を追加できます。
 
+>[!NOTE]
+>
+>OAuth 2.0 を使用してGoogle BigQuery に接続する前に、Google Cloud プロジェクトにリダイレクト URL を設定する必要があります。 OAuth 2.0 クライアント ID 設定の下で、Google クラウドプロジェクトにリダイレクト URL `https://fac-oauth.adobe.io/oauth` を追加します。
+
 | フィールド | 説明 |
 | ----- | ----------- |
 | クライアント ID | Google BigQuery プロジェクトのクライアント ID。 このフィールドは、プロジェクトのユーザー名として機能します。 |
 | クライアント秘密鍵 | Google BigQuery プロジェクトのクライアント秘密鍵。 このフィールドは、プロジェクトのパスワードとして機能します。 |
-| リダイレクト URL | 認証が成功した後にアプリケーションがリダイレクトする URL。 |
+| アクセス スコープ | Google Cloud リソース内で OAuth トークンが許可されている範囲を示す事前入力された情報。 |
 
 「**[!UICONTROL ログイン]**」を選択して、認証を完了します。
 
@@ -176,7 +180,7 @@ Microsoft Fabric では、以下の追加オプションを設定できます。
 
 >[!TAB Oracle]
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >連合オーディエンス構成では、AWS、Azure、Exadata、プライベートクラウド（外部ネットワークからアクセス可能であること）でホストされているバージョン 11g 以降の Oracle データベースとの連合接続の設定をサポートしています。Oracle データベースの設定に関してさらに質問がある場合や、Oracle への安全な接続を作成する必要がある場合は、アドビカスタマーケア担当者にお問い合わせください。
 
@@ -205,6 +209,10 @@ Snowflakeを選択すると、Federated Audience Composition と接続する際�
 | パスワード | アカウントのパスワード。 |
 
 **[!UICONTROL OAuth 2.0]** を選択した場合は、次のログイン情報を追加できます。
+
+>[!NOTE]
+>
+>OAuth 2.0 を使用してSnowflakeに接続する前に、Snowflake OAuth 統合オブジェクトにリダイレクト URL を設定する必要があります。 リダイレクト URL `https://fac-oauth.adobe.io/oauth` をSnowflake OAuth 統合設定に追加します。
 
 | フィールド | 説明 |
 | ----- | ----------- |
