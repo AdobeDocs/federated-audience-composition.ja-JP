@@ -3,7 +3,7 @@ audience: end-user
 title: 連合データベースとの接続の作成および管理
 description: 連合データベースとの接続の作成および管理方法について説明します
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 4ad3897bec276cf4c63f9192ce34b17bd598fe84
+source-git-commit: aabe96fc223af5841c7b77ab914745d08d82ce49
 workflow-type: tm+mt
 source-wordcount: '2298'
 ht-degree: 86%
@@ -277,4 +277,3 @@ Vertica Analytics では、次の追加オプションを設定できます。
 | 接続をテスト | 設定の詳細を確認できます。 |
 
 「**[!UICONTROL 関数をデプロイ]**」を選択し「**[!UICONTROL 追加]**」をクリックすると、連合データベースと Experience Platform 間の接続を確定できます。
-
