@@ -5,7 +5,7 @@ exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: ae33d99e1d8b5c56a563d062c2526d53527878df
 workflow-type: tm+mt
 source-wordcount: '1740'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 98%
 
 [!DNL Federated Audience Composition] は、新機能、既存機能の強化、およびバグ修正を継続的に提供します。すべての変更は、このリリースノートに統合されます。[!DNL Federated Audience Composition] が [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。以下の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target="_blank"}を参照してください。
 
-## 2025 年 10 月リリース {#fac-25-10}
+## 2025年10月リリース {#fac-25-10}
 
 ### 新機能 {#fac-25-10-feature}
 
@@ -28,7 +28,7 @@ ht-degree: 98%
 <tr>
 <td>
 <p>You can now use Federated Audience Composition if your Experience Platform instance is on AWS.</p>
-<p>For more information about Experience Platform on AWS, please read the <a href="https://experienceleague.adobe.com/ja/docs/experience-platform/landing/multi-cloud">multi-cloud overview</a>.</p>
+<p>For more information about Experience Platform on AWS, please read the <a href="https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud">multi-cloud overview</a>.</p>
 </br>
 </td>
 </tr>
@@ -39,14 +39,14 @@ ht-degree: 98%
 <table>
 <thead>
 <tr>
-<th><strong>Google BigQuery およびSnowflakeの OAuth 認証</strong><br/></th>
+<th><strong>Google BigQuery と Snowflake の OAuth 認証</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>OAuth を使用して、Google BigQuery とSnowflakeに接続できるようになりました。</p>
-<p>接続の作成について詳しくは、<a href="../connections/home.md#create"> 接続の概要 </a> を参照してください。</p>
+<p>OAuth を使用して、Google BigQuery と Snowflake に接続できるようになりました。</p>
+<p>接続の作成について詳しくは、<a href="../connections/home.md#create">接続の概要</a>を参照してください。</p>
 </br>
 </td>
 </tr>
@@ -299,7 +299,7 @@ ht-degree: 98%
 
 * **オーディエンスを保存アクティビティ**
 
-  **オーディエンスを保存**&#x200B;アクティビティにメモが追加され、データ管理者と共同作業してオーディエンスの作成とエンリッチメント中に作成された新しいスキーマとデータセットにガバナンスラベルを適用するようユーザーに通知します。
+  **オーディエンスを保存**アクティビティにメモが追加され、データ管理者と共同作業してオーディエンスの作成とエンリッチメント中に作成された新しいスキーマとデータセットにガバナンスラベルを適用するようユーザーに通知します。
   [データ使用ラベルの詳細情報を参照してください](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/labels/user-guide)
 
 ### 互換性 {#fac-25-4-compat}
