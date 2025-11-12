@@ -4,9 +4,9 @@ title: 連合データベースとの接続の作成および管理
 description: 連合データベースとの接続の作成および管理方法について説明します
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
 source-git-commit: aabe96fc223af5841c7b77ab914745d08d82ce49
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2298'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ Experience Platform 連合オーディエンス構成を使用すると、ユー
 >
 >Amazon Redshift AWS、Amazon Redshift Spectrum および Amazon Redshift Serverless のみがサポートされています。
 >
->さらに、プライベートリンクを介した外部Amazon Redshift データウェアハウスへの安全なアクセスがサポートされています。
+>また、プライベートリンクを介した外部 Amazon Redshift データウェアハウスへの安全なアクセスもサポートされています。
 
 Amazon Redshift を選択した後に、次の詳細を追加できます。
 
@@ -115,31 +115,31 @@ Databricks では、以下の追加オプションを設定できます。
 
 >[!NOTE]
 >
->VPN を介した外部Google BigQuery データウェアハウスへの安全なアクセスがサポートされています。
+>VPN を介した外部 Google BigQuery データウェアハウスへの安全なアクセスがサポートされています。
 
-Google BigQuery を選択すると、Federated Audience Composition と接続する際に使用する認証方法を選択できます。
+Google BigQuery を選択した後、連合オーディエンス構成に接続する際に使用する認証方法を選択できます。
 
-**[!UICONTROL アカウント/パスワード認証]** を選択した場合は、次のログイン情報を追加できます。
+「**[!UICONTROL アカウント／パスワード認証]**」を選択した場合は、次のログイン情報を追加できます。
 
 | フィールド | 説明 |
 | ----- | ----------- |
 | サービスアカウント | サービスアカウントのメールアドレス。詳しくは、[Google Cloud サービスアカウント関するドキュメント](https://cloud.google.com/iam/docs/service-accounts-create){target="_blank"}を参照してください。 |
 
-**[!UICONTROL OAuth 2.0]** を選択した場合は、次のログイン情報を追加できます。
+「**[!UICONTROL OAuth 2.0]**」を選択した場合は、次のログイン情報を追加できます。
 
 >[!NOTE]
 >
->OAuth 2.0 を使用してGoogle BigQuery に接続する前に、Google Cloud プロジェクトにリダイレクト URL を設定する必要があります。 OAuth 2.0 クライアント ID 設定の下で、Google クラウドプロジェクトにリダイレクト URL `https://fac-oauth.adobe.io/oauth` を追加します。
+>OAuth 2.0 を使用して Google BigQuery に接続する前に、Google Cloud プロジェクトでリダイレクト URL を設定する必要があります。OAuth 2.0 クライアント ID 設定の下にある Google Cloud プロジェクトにリダイレクト URL `https://fac-oauth.adobe.io/oauth` を追加します。
 
 | フィールド | 説明 |
 | ----- | ----------- |
-| クライアント ID | Google BigQuery プロジェクトのクライアント ID。 このフィールドは、プロジェクトのユーザー名として機能します。 |
-| クライアント秘密鍵 | Google BigQuery プロジェクトのクライアント秘密鍵。 このフィールドは、プロジェクトのパスワードとして機能します。 |
-| アクセス スコープ | Google Cloud リソース内で OAuth トークンが許可されている範囲を示す事前入力された情報。 |
+| クライアント ID | Google BigQuery プロジェクトのクライアント ID。このフィールドは、プロジェクトのユーザー名のように機能します。 |
+| クライアント秘密鍵 | Google BigQuery プロジェクトのクライアント秘密鍵。 このフィールドは、プロジェクトのパスワードのように機能します。 |
+| アクセス範囲 | Google Cloud リソース内で OAuth トークンが認証されている範囲を示す事前入力済みの情報。 |
 
-「**[!UICONTROL ログイン]**」を選択して、認証を完了します。
+認証を終了するには、「**[!UICONTROL ログイン]**」を選択します。
 
-ログインの詳細を入力した後、次の詳細を追加できます。
+ログイン詳細を入力した後に、次の詳細を追加できます。
 
 | フィールド | 説明 |
 | ----- | ----------- |
@@ -198,9 +198,9 @@ Oracle を選択した後に、次の詳細を追加できます。
 >
 >プライベートリンクを介した外部 Snowflake データウェアハウスへの安全なアクセスがサポートされています。Snowflake アカウントは、Amazon Web Services（AWS）または Azure でホストされ、連合オーディエンス構成環境と同じ地域に配置されている必要があります。Snowflake アカウントへの安全なアクセスの設定について詳しくは、アドビ担当者にお問い合わせください。
 
-Snowflakeを選択すると、Federated Audience Composition と接続する際に使用する認証方法を選択できます。
+Snowflake を選択した後、連合オーディエンス構成に接続する際に使用する認証方法を選択できます。
 
-**[!UICONTROL アカウント/パスワード認証]** を選択した場合は、次のログイン情報を追加できます。
+「**[!UICONTROL アカウント／パスワード認証]**」を選択した場合は、次のログイン情報を追加できます。
 
 | フィールド | 説明 |
 | ----- | ----------- |
@@ -208,21 +208,21 @@ Snowflakeを選択すると、Federated Audience Composition と接続する際�
 | ユーザー | アカウントのユーザー名。 |
 | パスワード | アカウントのパスワード。 |
 
-**[!UICONTROL OAuth 2.0]** を選択した場合は、次のログイン情報を追加できます。
+「**[!UICONTROL OAuth 2.0]**」を選択した場合は、次のログイン情報を追加できます。
 
 >[!NOTE]
 >
->OAuth 2.0 を使用してSnowflakeに接続する前に、Snowflake OAuth 統合オブジェクトにリダイレクト URL を設定する必要があります。 リダイレクト URL `https://fac-oauth.adobe.io/oauth` をSnowflake OAuth 統合設定に追加します。
+>OAuth 2.0 を使用して Snowflake に接続する前に、Snowflake OAuth 統合オブジェクトでリダイレクト URL を設定する必要があります。Snowflake OAuth 統合設定にリダイレクト URL `https://fac-oauth.adobe.io/oauth` を追加します。
 
 | フィールド | 説明 |
 | ----- | ----------- |
 | サーバー | サーバーの名前。 |
-| クライアント ID | Snowflake プロジェクトのクライアント ID。 このフィールドは、プロジェクトのユーザー名として機能します。 |
-| クライアント秘密鍵 | Snowflake プロジェクトのクライアントシークレット。 このフィールドは、プロジェクトのパスワードとして機能します。 |
+| クライアント ID | Snowflake プロジェクトのクライアント ID。このフィールドは、プロジェクトのユーザー名のように機能します。 |
+| クライアント秘密鍵 | Snowflake プロジェクトのクライアント秘密鍵。このフィールドは、プロジェクトのパスワードのように機能します。 |
 
-「**[!UICONTROL ログイン]**」を選択して、認証を完了します。
+認証を終了するには、「**[!UICONTROL ログイン]**」を選択します。
 
-ログインの詳細を入力した後、次の詳細を追加できます。
+ログイン詳細を入力した後に、次の詳細を追加できます。
 
 | フィールド | 説明 |
 | ----- | ----------- |
