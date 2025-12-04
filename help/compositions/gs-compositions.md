@@ -3,7 +3,7 @@ audience: end-user
 title: 構成の基本を学ぶ
 description: 構成の開始方法について説明します
 exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
-source-git-commit: 59983bb7fd0f8886cc38bfcfc8d7005db4747ac0
+source-git-commit: e0bf1f76f7f781fb6fcc3b44898ba805d87a25c9
 workflow-type: ht
 source-wordcount: '551'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 >構成にアクセスするには、次のいずれかの権限が必要です。
 >
 >-**連合構成の管理**
->>-**連合構成の表示**
+>-**連合構成の表示**
 >
 >必要な権限について詳しくは、[アクセス制御ガイド](/help/governance-privacy-security/access-control.md)を参照してください。
 
