@@ -4,9 +4,9 @@ title: クエリモデラーを使用した最初のクエリの作成
 description: クエリモデラーで最初のクエリを作成する方法について説明します。
 exl-id: abff07ef-2bc0-4e00-8957-4d59fc3bc938
 source-git-commit: fdf93fb3554d05057052aa7059e141817a883dcc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4107'
-ht-degree: 14%
+ht-degree: 100%
 
 ---
 
@@ -97,47 +97,47 @@ Aggregate functions are not available. -->
 
 | 名前 | 説明 | 構文 | 例 |
 | ---- | ----------- | ------ | ------- |
-| **AddYears** | 指定された年数を指定された日時に追加します。 | AddYears （&lt;DATETIME>, &lt;NUMBER>） | AddYears （&quot;2019-12-25 15:30:00&quot;, 3） |
-| **AddMonths** | 指定された月数を指定された日時に追加します。 | AddMonths （&lt;DATETIME>, &lt;NUMBER>） | AddMonths （&quot;2019-12-25 15:30:00&quot;, 6） |
-| **AddDays** | 指定された日数を指定された日時に追加します。 | AddDays （&lt;DATETIME>, &lt;NUMBER>） | AddDays （&quot;2019-12-25 15:30:00&quot;, 10） |
-| **AddHours** | 指定された時間数を指定された日時に追加します。 | AddHours （&lt;DATETIME>, &lt;NUMBER>） | AddHours （&quot;2019-12-25 15:30:00&quot;, 3） |
-| **AddMinutes** | 指定された分数を指定された日時に追加します。 | AddMinutes （&lt; 日時 >, &lt; 数値 >） | AddMinutes （&quot;2019-12-25 15:30:00&quot;, 32） |
-| **AddSeconds** | 指定された秒数を指定された datetime に追加します。 | AddSeconds （&lt;DATETIME>, &lt;NUMBER>） | AddSeconds （&quot;2019-12-25 15:30:00&quot;, 37） |
-| **SubYears** | 指定された年数を指定された日時に減算します。 | SubYears （&lt;DATETIME>, &lt;NUMBER>） | SubYears （&quot;2019-12-25 15:30:00&quot;, 3） |
-| **SubMonths** | 指定された月数を指定された日時に減算します。 | SubMonths （&lt;DATETIME>, &lt;NUMBER>） | SubMonths （&quot;2019-12-25 15:30:00&quot;, 6） |
-| **SubDays** | 指定された日数を指定された日時に減算します。 | SubDays （&lt;DATETIME>, &lt;NUMBER>） | SubDays （&quot;2019-12-25 15:30:00&quot;, 10） |
-| **SubHours** | 指定された時間数を指定された日時に減算します。 | SubHours （&lt;DATETIME>, &lt;NUMBER>） | SubHours （&quot;2019-12-25 15:30:00&quot;, 3） |
-| **SubMinutes** | 指定された分数を指定された日時に減算します。 | SubMinutes （&lt; 日時 >, &lt; 数値 >） | SubMinutes （&quot;2019-12-25 15:30:00&quot;, 32） |
-| **SubSeconds** | 指定された秒数を指定された日時に減算します。 | SubSeconds （&lt;DATETIME>, &lt;NUMBER>） | SubSeconds （&quot;2019-12-25 15:30:00&quot;, 37） |
-| **Year** | 指定された datetime オブジェクトから年を抽出します。 | 年（&lt; 日時 >） | 年（&quot;2019-12-15 15:30:00&quot;） |
-| **Month** | 指定された datetime オブジェクトから月を抽出します。 | Month （&lt;DATETIME>） | Month （&quot;2019-12-15 15:30:00&quot;） |
-| **Day** | 指定された datetime オブジェクトから日を抽出します。 | Day （&lt;DATETIME>） | Day （&quot;2019-12-15 15:30:00&quot;） |
-| **DayOfYear** | 指定された datetime オブジェクトから通日を抽出します。 例えば、指定された日時が 2 月 2 日である場合、33 が返されます。 | DayOfYear （&lt;DATETIME>） | DayOfYear （&quot;2019-12-15 15:30:00&quot;） |
-| **WeekDay** | 指定された datetime オブジェクトから曜日を 0 ～ 6 の数字で抽出します。0 は日曜日を表します。 | 年（&lt; 日時 >） | 年（&quot;2019-12-15 15:30:00&quot;） |
-| **Hour** | 指定された datetime オブジェクトから時間の値を抽出します。 | 年（&lt; 日時 >） | 年（&quot;2019-12-15 15:30:00&quot;） |
-| **Minute** | 指定された datetime オブジェクトから分の値を抽出します。 | 年（&lt; 日時 >） | 年（&quot;2019-12-15 15:30:00&quot;） |
-| **Second** | 指定された datetime オブジェクトから 2 番目の値を抽出します。 | 年（&lt; 日時 >） | 年（&quot;2019-12-15 15:30:00&quot;） |
-| **YearsDiff** | 指定された日時の違いを年の精度で見つけます。 | YearsDiff （&lt;DATETIME>, &lt;DATETIME>） | YearsDiff （&quot;2019-12-25 15:30:00&quot;, &quot;2018-10-14 18:35:27&quot;） |
-| **MonthsDiff** | 指定された日時の違いを検索します（精度は月単位）。 | MonthsDiff （&lt;DATETIME>, &lt;DATETIME>） | MonthsDiff （&quot;2019-12-25 15:30:00&quot;, &quot;2018-10-14 18:35:27&quot;） |
-| **DaysDiff** | 指定された日時の違いを日単位で検索します。 | DaysDiff （&lt;DATETIME>, &lt;DATETIME>） | DaysDiff （&quot;2019-12-25 15:30:00&quot;, &quot;2018-10-14 18:35:27&quot;） |
-| **HoursDiff** | 指定された日時の違いを時間単位で見つけます。 | HoursDiff （&lt;DATETIME>, &lt;DATETIME>） | HoursDiff （&quot;2019-12-25 15:30:00&quot;, &quot;2018-10-14 18:35:27&quot;） |
-| **MinutesDiff** | 指定された日時の違いを分単位で見つけます。 | MinutesDiff （&lt;DATETIME>, &lt;DATETIME>） | MinutesDiff （&quot;2019-12-25 15:30:00&quot;, &quot;2018-10-14 18:35:27&quot;） |
-| **SecondsDiff** | 指定された日時の違いを秒単位の精度で見つけます。 | SecondsDiff （&lt;DATETIME>, &lt;DATETIME>） | SecondsDiff （&quot;2019-12-25 15:30:00&quot;, &quot;2018-10-14 18:35:27&quot;） |
-| **YearsOld** | 指定された日時と現在の違いを年の精度で見つけます。 | YearsOld （&lt;DATETIME>） | YearsOld （&quot;2019-12-25 15:30:00&quot;） |
-| **MonthsOld** | 指定された日時と現在の違いを検索します（精度は月単位）。 | MonthsOld （&lt;DATETIME>） | MonthsOld （&quot;2019-12-25 15:30:00&quot;） |
-| **DaysOld** | 指定された日時と現在の違いを、日の精度で見つけます。 | DaysOld （&lt;DATETIME>） | DaysOld （&quot;2019-12-25 15:30:00&quot;） |
+| **AddYears** | 指定された年数を指定された日時に加算します。 | AddYears(&lt;日時>, &lt;数値>) | AddYears(&quot;2019-12-25 15:30:00&quot;, 3) |
+| **AddMonths** | 指定された月数を指定された日時に加算します。 | AddMonths(&lt;日時>, &lt;数値>) | AddMonths(&quot;2019-12-25 15:30:00&quot;, 6) |
+| **AddDays** | 指定された日数を指定された日時に加算します。 | AddDays(&lt;日時>, &lt;数値>) | AddDays(&quot;2019-12-25 15:30:00&quot;, 10) |
+| **AddHours** | 指定された時間数を指定された日時に加算します。 | AddHours(&lt;日時>, &lt;数値>) | AddHours(&quot;2019-12-25 15:30:00&quot;, 3) |
+| **AddMinutes** | 指定された分数を指定された日時に加算します。 | AddMinutes(&lt;日時>, &lt;数値>) | AddMinutes(&quot;2019-12-25 15:30:00&quot;, 32) |
+| **AddSeconds** | 指定された秒数を指定された日時に加算します。 | AddSeconds(&lt;日時>, &lt;数値>) | AddSeconds(&quot;2019-12-25 15:30:00&quot;, 37) |
+| **SubYears** | 指定された年数を指定された日時に減算します。 | SubYears(&lt;日時>, &lt;数値>) | SubYears(&quot;2019-12-25 15:30:00&quot;, 3) |
+| **SubMonths** | 指定された月数を指定された日時に減算します。 | SubMonths(&lt;日時>, &lt;数値>) | SubMonths(&quot;2019-12-25 15:30:00&quot;, 6) |
+| **SubDays** | 指定された日数を指定された日時に減算します。 | SubDays(&lt;日時>, &lt;数値>) | SubDays(&quot;2019-12-25 15:30:00&quot;, 10) |
+| **SubHours** | 指定された時間数を指定された日時に減算します。 | SubHours(&lt;日時>, &lt;数値>) | SubHours(&quot;2019-12-25 15:30:00&quot;, 3) |
+| **SubMinutes** | 指定された分数を指定された日時に減算します。 | SubMinutes(&lt;日時>, &lt;数値>) | SubMinutes(&quot;2019-12-25 15:30:00&quot;, 32) |
+| **SubSeconds** | 指定された秒数を指定された日時に減算します。 | SubSeconds(&lt;日時>, &lt;数値>) | SubSeconds(&quot;2019-12-25 15:30:00&quot;, 37) |
+| **Year** | 指定された日時オブジェクトから年を抽出します。 | Year(&lt;日時>) | Year(&quot;2019-12-15 15:30:00&quot;) |
+| **Month** | 指定された日時オブジェクトから月を抽出します。 | Month(&lt;日時>) | Month(&quot;2019-12-15 15:30:00&quot;) |
+| **Day** | 指定された日時オブジェクトから日を抽出します。 | Day(&lt;日時>) | Day(&quot;2019-12-15 15:30:00&quot;) |
+| **DayOfYear** | 指定された日時オブジェクトから年内の日を抽出します。 例えば、指定された日時が 2月2日（PT）である場合、33 が返されます。 | DayOfYear(&lt;日時>) | DayOfYear(&quot;2019-12-15 15:30:00&quot;) |
+| **WeekDay** | 指定された日時オブジェクトから曜日を 0～6 の数値として抽出します。0 は日曜日を表します。 | Year(&lt;日時>) | Year(&quot;2019-12-15 15:30:00&quot;) |
+| **Hour** | 指定された日時オブジェクトから時間の値を抽出します。 | Year(&lt;日時>) | Year(&quot;2019-12-15 15:30:00&quot;) |
+| **Minute** | 指定された日時オブジェクトから分の値を抽出します。 | Year(&lt;日時>) | Year(&quot;2019-12-15 15:30:00&quot;) |
+| **Second** | 指定された日時オブジェクトから 2 番目の値を抽出します。 | Year(&lt;日時>) | Year(&quot;2019-12-15 15:30:00&quot;) |
+| **YearsDiff** | 指定された日時の違いを年の精度で検索します。 | YearsDiff(&lt;日時>, &lt;日時>) | YearsDiff(&quot;2019-12-25 15:30:00&quot;, &quot;2018-10-14 18:35:27&quot;) |
+| **MonthsDiff** | 指定された日時の違いを月の精度で検索します。 | MonthsDiff(&lt;日時>, &lt;日時>) | MonthsDiff(&quot;2019-12-25 15:30:00&quot;, &quot;2018-10-14 18:35:27&quot;) |
+| **DaysDiff** | 指定された日時の違いを日の精度で検索します。 | DaysDiff(&lt;日時>, &lt;日時>) | DaysDiff(&quot;2019-12-25 15:30:00&quot;, &quot;2018-10-14 18:35:27&quot;) |
+| **HoursDiff** | 指定された日時の違いを時間の精度で検索します。 | HoursDiff(&lt;日時>, &lt;日時>) | HoursDiff(&quot;2019-12-25 15:30:00&quot;, &quot;2018-10-14 18:35:27&quot;) |
+| **MinutesDiff** | 指定された日時の違いを分の精度で検索します。 | MinutesDiff(&lt;日時>, &lt;日時E>) | MinutesDiff(&quot;2019-12-25 15:30:00&quot;, &quot;2018-10-14 18:35:27&quot;) |
+| **SecondsDiff** | 指定された日時の違いを秒の精度で検索します。 | SecondsDiff(&lt;日時>, &lt;日時>) | SecondsDiff(&quot;2019-12-25 15:30:00&quot;, &quot;2018-10-14 18:35:27&quot;) |
+| **YearsOld** | 指定された日時と現在の違いを年の精度で検索します。 | YearsOld(&lt;日時>) | YearsOld(&quot;2019-12-25 15:30:00&quot;) |
+| **MonthsOld** | 指定された日時と現在の違いを月の精度で検索します。 | MonthsOld(&lt;日時>) | MonthsOld(&quot;2019-12-25 15:30:00&quot;) |
+| **DaysOld** | 指定された日時と現在の違いを日の精度で検索します。 | DaysOld(&lt;日時>) | DaysOld(&quot;2019-12-25 15:30:00&quot;) |
 | **GetDate** | サーバーの現在の日付を取得します。 | GetDate() | GetDate() |
-| **DateOnly** | 日時を年、月、日のみに切り捨てます。 | DateOnly （&lt;DATETIME>） | DateOnly （&quot;2019-12-25 15:30:00&quot;） |
-| **ToDate** | フィールドを日付フィールドに変換します。 | ToDate （&lt; 日時 >） | ToDate （&quot;2019-12-25 15:30:00&quot;） |
-| **ToDateTime** | フィールドを日時フィールドに変換します。 | ToDateTime （&lt; 日付 >） | ToDateTime （&quot;2019-12-25 15:30:00&quot;） |
-| **ToTimestamp** | フィールドをタイムスタンプ フィールドに変換します。 | ToTimestamp （&lt;DATETIME>） | ToTimestamp （&quot;2019-12-25 15:30:00&quot;） |
-| **Oldest** | 指定された 2 つの日付間の最も古い日付を返します。 | Oldest （&lt;DATETIME>, &lt;DATETIME>） | Oldest （&quot;2015-02-13 11:59:59&quot;, &quot;2016-04-13 19:28:14&quot;） |
-| **TruncDate** | 指定された数値に基づいて、日時を最も近い単位に切り捨てます。 数値が 60 に等しい場合、最も近い分に切り捨てられます。 数値が 3600 に等しい場合、最も近い時間に切り捨てられます。 数値が 86400 に等しい場合、最も近い日に切り捨てられます。 それ以外の場合は、最も近い秒に切り捨てられます。 | TruncDate （&lt;DATETIME>, &lt;NUMBER>） | TruncDate （&quot;2016-04-13 19:28:14&quot;, 3600） |
-| **TruncDateTZ** | 指定された数値に基づいて日時を最も近い単位に切り捨て、日時を指定されたタイムゾーンに設定します。 数値が 60 に等しい場合、最も近い分に切り捨てられます。 数値が 3600 に等しい場合、最も近い時間に切り捨てられます。 数値が 86400 に等しい場合、最も近い日に切り捨てられます。 | TruncDateTZ （&lt;DATETIME>, &lt;NUMBER>, &lt;TIMEZONE>） | TruncDateTZ （&quot;2016-04-13 19:28:14&quot;, 3600, &quot;アメリカ/ロサンゼルス&quot;） |
-| **TruncTime** | 日時を 2000 年 1 月 1 日に設定し、指定された数値に基づいて、残りの日時を最も近い単位に丸めます。数値が 60 に等しい場合、最も近い分に切り捨てます。 数値が 3600 に等しい場合、最も近い時間に切り捨てられます。 | TruncTime （&lt;DATETIME>, &lt;NUMBER>） | TruncTime （&quot;2016-04-13 19:28:14&quot;, 3600） |
-| **TruncQuarter** | datetime を最も近い四半期の最初の日付に切り捨てます。 | TruncQuarter （&lt;DATETIME>） | TruncQuarter （&quot;2016-04-13 19:28:14&quot;） |
-| **TruncYear** | 日時を最も近い年の最初の日付に切り捨てます。 | TruncYear （&lt;DATETIME>） | TruncYear （&quot;2016-04-13 19:28:14&quot;） |
-| **TruncWeek** | 日時を最も近い週の日曜日に切り捨てます。 | TruncWeek （&lt;DATETIME>） | TruncWeek （&quot;2016-04-13 19:28:14&quot;） |
+| **DateOnly** | 日時を年、月、日のみに切り捨てます。 | DateOnly(&lt;日時>) | DateOnly(&quot;2019-12-25 15:30:00&quot;) |
+| **ToDate** | フィールドを日付フィールドに変換します。 | ToDate(&lt;日時>) | ToDate(&quot;2019-12-25 15:30:00&quot;) |
+| **ToDateTime** | フィールドを日時フィールドに変換します。 | ToDateTime(&lt;日付>) | ToDateTime(&quot;2019-12-25 15:30:00&quot;) |
+| **ToTimestamp** | フィールドをタイムスタンプフィールドに変換します。 | ToTimestamp(&lt;日時>) | ToTimestamp(&quot;2019-12-25 15:30:00&quot;) |
+| **Oldest** | 指定された 2 つの日付間の最も古い日付を返します。 | Oldest(&lt;日時>, &lt;日時>) | Oldest(&quot;2015-02-13 11:59:59&quot;, &quot;2016-04-13 19:28:14&quot;) |
+| **TruncDate** | 指定された数値に基づいて、日時を最も近い単位に切り捨てます。数値が 60 に等しい場合は、最も近い分に切り捨てられます。 数値が 3600 に等しい場合は、最も近い時間に切り捨てられます。数値が 86400 に等しい場合は、最も近い日に切り捨てられます。それ以外の場合は、最も近い秒に切り捨てられます。 | TruncDate(&lt;日時>, &lt;数値>) | TruncDate(&quot;2016-04-13 19:28:14&quot;, 3600) |
+| **TruncDateTZ** | 指定された数値に基づいて、日時を最も近い単位に切り捨て、日時を指定されたタイムゾーンに設定します。数値が 60 に等しい場合は、最も近い分に切り捨てられます。 数値が 3600 に等しい場合は、最も近い時間に切り捨てられます。数値が 86400 に等しい場合は、最も近い日に切り捨てられます。 | TruncDateTZ(&lt;日時>, &lt;数値>, &lt;タイムゾーン>) | TruncDateTZ(&quot;2016-04-13 19:28:14&quot;, 3600, &quot;米国/ロサンゼルス&quot;) |
+| **TruncTime** | 日時を 2000年1月1日（PT）に設定し、指定された数値に基づいて、残りの日時を最も近い単位に丸めます。数値が 60 に等しい場合は、最も近い分に切り捨てられます。数値が 3600 に等しい場合は、最も近い時間に切り捨てられます。 | TruncTime(&lt;日時>, &lt;数値>) | TruncTime(&quot;2016-04-13 19:28:14&quot;, 3600) |
+| **TruncQuarter** | 日時を最も近い四半期の最初の日付に切り捨てます。 | TruncQuarter(&lt;日時>) | TruncQuarter(&quot;2016-04-13 19:28:14&quot;) |
+| **TruncYear** | 日時を最も近い年の最初の日付に切り捨てます。 | TruncYear(&lt;日時>) | TruncYear(&quot;2016-04-13 19:28:14&quot;) |
+| **TruncWeek** | 日時を最も近い週の日曜日に切り捨てます。 | TruncWeek(&lt;日時>) | TruncWeek(&quot;2016-04-13 19:28:14&quot;) |
 
 <!-- 
 | **YearAndMonth** | Truncates the datetime to just the year and month. | YearAndMonth(&lt;DATETIME&gt;) | YearAndMonth("2019-12-25 15:30:00") | 
@@ -251,47 +251,47 @@ Aggregate functions are not available. -->
 
 | 名前 | 説明 | 構文 | 例 |
 | ---- | ----------- | ------ | ------- |
-| **AddYears** | 指定された年数を指定された日時に追加します。 | AddYears （&lt;DATETIME>, &lt;NUMBER>） | AddYears （&quot;2019-12-25 15:30:00&quot;, 3） |
-| **AddMonths** | 指定された月数を指定された日時に追加します。 | AddMonths （&lt;DATETIME>, &lt;NUMBER>） | AddMonths （&quot;2019-12-25 15:30:00&quot;, 6） |
-| **AddDays** | 指定された日数を指定された日時に追加します。 | AddDays （&lt;DATETIME>, &lt;NUMBER>） | AddDays （&quot;2019-12-25 15:30:00&quot;, 10） |
-| **AddHours** | 指定された時間数を指定された日時に追加します。 | AddHours （&lt;DATETIME>, &lt;NUMBER>） | AddHours （&quot;2019-12-25 15:30:00&quot;, 3） |
-| **AddMinutes** | 指定された分数を指定された日時に追加します。 | AddMinutes （&lt; 日時 >, &lt; 数値 >） | AddMinutes （&quot;2019-12-25 15:30:00&quot;, 32） |
-| **AddSeconds** | 指定された秒数を指定された datetime に追加します。 | AddSeconds （&lt;DATETIME>, &lt;NUMBER>） | AddSeconds （&quot;2019-12-25 15:30:00&quot;, 37） |
-| **SubYears** | 指定された年数を指定された日時に減算します。 | SubYears （&lt;DATETIME>, &lt;NUMBER>） | SubYears （&quot;2019-12-25 15:30:00&quot;, 3） |
-| **SubMonths** | 指定された月数を指定された日時に減算します。 | SubMonths （&lt;DATETIME>, &lt;NUMBER>） | SubMonths （&quot;2019-12-25 15:30:00&quot;, 6） |
-| **SubDays** | 指定された日数を指定された日時に減算します。 | SubDays （&lt;DATETIME>, &lt;NUMBER>） | SubDays （&quot;2019-12-25 15:30:00&quot;, 10） |
-| **SubHours** | 指定された時間数を指定された日時に減算します。 | SubHours （&lt;DATETIME>, &lt;NUMBER>） | SubHours （&quot;2019-12-25 15:30:00&quot;, 3） |
-| **SubMinutes** | 指定された分数を指定された日時に減算します。 | SubMinutes （&lt; 日時 >, &lt; 数値 >） | SubMinutes （&quot;2019-12-25 15:30:00&quot;, 32） |
-| **SubSeconds** | AdSubtractsds 指定された秒数を指定された日時に減算します。 | SubSeconds （&lt;DATETIME>, &lt;NUMBER>） | SubSeconds （&quot;2019-12-25 15:30:00&quot;, 37） |
-| **Year** | 指定された datetime オブジェクトから年を抽出します。 | 年（&lt; 日時 >） | 年（&quot;2019-12-15 15:30:00&quot;） |
-| **Month** | 指定された datetime オブジェクトから月を抽出します。 | Month （&lt;DATETIME>） | Month （&quot;2019-12-15 15:30:00&quot;） |
-| **Day** | 指定された datetime オブジェクトから日を抽出します。 | Day （&lt;DATETIME>） | Day （&quot;2019-12-15 15:30:00&quot;） |
-| **DayOfYear** | 指定された datetime オブジェクトから通日を抽出します。 例えば、指定された日時が 2 月 2 日である場合、33 が返されます。 | DayOfYear （&lt;DATETIME>） | DayOfYear （&quot;2019-12-15 15:30:00&quot;） |
-| **WeekDay** | 指定された datetime オブジェクトから曜日を 1 ～ 7 の数字で抽出します。1 は日曜日を表します。 | 年（&lt; 日時 >） | 年（&quot;2019-12-15 15:30:00&quot;） |
-| **Hour** | 指定された datetime オブジェクトから時間の値を抽出します。 | 年（&lt; 日時 >） | 年（&quot;2019-12-15 15:30:00&quot;） |
-| **Minute** | 指定された datetime オブジェクトから分の値を抽出します。 | 年（&lt; 日時 >） | 年（&quot;2019-12-15 15:30:00&quot;） |
-| **Second** | 指定された datetime オブジェクトから 2 番目の値を抽出します。 | 年（&lt; 日時 >） | 年（&quot;2019-12-15 15:30:00&quot;） |
-| **YearsDiff** | 指定された日時の違いを年の精度で見つけます。 | YearsDiff （&lt;DATETIME>, &lt;DATETIME>） | YearsDiff （&quot;2019-12-25 15:30:00&quot;, &quot;2018-10-14 18:35:27&quot;） |
-| **MonthsDiff** | 指定された日時の違いを検索します（精度は月単位）。 | MonthsDiff （&lt;DATETIME>, &lt;DATETIME>） | MonthsDiff （&quot;2019-12-25 15:30:00&quot;, &quot;2018-10-14 18:35:27&quot;） |
-| **DaysDiff** | 指定された日時の違いを日単位で検索します。 | DaysDiff （&lt;DATETIME>, &lt;DATETIME>） | DaysDiff （&quot;2019-12-25 15:30:00&quot;, &quot;2018-10-14 18:35:27&quot;） |
-| **HoursDiff** | 指定された日時の違いを時間単位で見つけます。 | HoursDiff （&lt;DATETIME>, &lt;DATETIME>） | HoursDiff （&quot;2019-12-25 15:30:00&quot;, &quot;2018-10-14 18:35:27&quot;） |
-| **MinutesDiff** | 指定された日時の違いを分単位で見つけます。 | MinutesDiff （&lt;DATETIME>, &lt;DATETIME>） | MinutesDiff （&quot;2019-12-25 15:30:00&quot;, &quot;2018-10-14 18:35:27&quot;） |
-| **SecondsDiff** | 指定された日時の違いを秒単位の精度で見つけます。 | SecondsDiff （&lt;DATETIME>, &lt;DATETIME>） | SecondsDiff （&quot;2019-12-25 15:30:00&quot;, &quot;2018-10-14 18:35:27&quot;） |
-| **MonthsOld** | 指定された日時と現在の違いを検索します（精度は月単位）。 | MonthsOld （&lt;DATETIME>） | MonthsOld （&quot;2019-12-25 15:30:00&quot;） |
-| **DaysOld** | 指定された日時と現在の違いを、日の精度で見つけます。 | DaysOld （&lt;DATETIME>） | DaysOld （&quot;2019-12-25 15:30:00&quot;） |
+| **AddYears** | 指定された年数を指定された日時に加算します。 | AddYears(&lt;日時>, &lt;数値>) | AddYears(&quot;2019-12-25 15:30:00&quot;, 3) |
+| **AddMonths** | 指定された月数を指定された日時に加算します。 | AddMonths(&lt;日時>, &lt;数値>) | AddMonths(&quot;2019-12-25 15:30:00&quot;, 6) |
+| **AddDays** | 指定された日数を指定された日時に加算します。 | AddDays(&lt;日時>, &lt;数値>) | AddDays(&quot;2019-12-25 15:30:00&quot;, 10) |
+| **AddHours** | 指定された時間数を指定された日時に加算します。 | AddHours(&lt;日時>, &lt;数値>) | AddHours(&quot;2019-12-25 15:30:00&quot;, 3) |
+| **AddMinutes** | 指定された分数を指定された日時に加算します。 | AddMinutes(&lt;日時>, &lt;数値>) | AddMinutes(&quot;2019-12-25 15:30:00&quot;, 32) |
+| **AddSeconds** | 指定された秒数を指定された日時に加算します。 | AddSeconds(&lt;日時>, &lt;数値>) | AddSeconds(&quot;2019-12-25 15:30:00&quot;, 37) |
+| **SubYears** | 指定された年数を指定された日時に減算します。 | SubYears(&lt;日時>, &lt;数値>) | SubYears(&quot;2019-12-25 15:30:00&quot;, 3) |
+| **SubMonths** | 指定された月数を指定された日時に減算します。 | SubMonths(&lt;日時>, &lt;数値>) | SubMonths(&quot;2019-12-25 15:30:00&quot;, 6) |
+| **SubDays** | 指定された日数を指定された日時に減算します。 | SubDays(&lt;日時>, &lt;数値>) | SubDays(&quot;2019-12-25 15:30:00&quot;, 10) |
+| **SubHours** | 指定された時間数を指定された日時に減算します。 | SubHours(&lt;日時>, &lt;数値>) | SubHours(&quot;2019-12-25 15:30:00&quot;, 3) |
+| **SubMinutes** | 指定された分数を指定された日時に減算します。 | SubMinutes(&lt;日時>, &lt;数値>) | SubMinutes(&quot;2019-12-25 15:30:00&quot;, 32) |
+| **SubSeconds** | 指定された秒数を指定された日時に減算します。 | SubSeconds(&lt;日時>, &lt;数値>) | SubSeconds(&quot;2019-12-25 15:30:00&quot;, 37) |
+| **Year** | 指定された日時オブジェクトから年を抽出します。 | Year(&lt;日時>) | Year(&quot;2019-12-15 15:30:00&quot;) |
+| **Month** | 指定された日時オブジェクトから月を抽出します。 | Month(&lt;日時>) | Month(&quot;2019-12-15 15:30:00&quot;) |
+| **Day** | 指定された日時オブジェクトから日を抽出します。 | Day(&lt;日時>) | Day(&quot;2019-12-15 15:30:00&quot;) |
+| **DayOfYear** | 指定された日時オブジェクトから年内の日を抽出します。 例えば、指定された日時が 2月2日（PT）である場合、33 が返されます。 | DayOfYear(&lt;日時>) | DayOfYear(&quot;2019-12-15 15:30:00&quot;) |
+| **WeekDay** | 指定された日時オブジェクトから曜日を 1～7 の数値として抽出します。1 は日曜日を表します。 | Year(&lt;日時>) | Year(&quot;2019-12-15 15:30:00&quot;) |
+| **Hour** | 指定された日時オブジェクトから時間の値を抽出します。 | Year(&lt;日時>) | Year(&quot;2019-12-15 15:30:00&quot;) |
+| **Minute** | 指定された日時オブジェクトから分の値を抽出します。 | Year(&lt;日時>) | Year(&quot;2019-12-15 15:30:00&quot;) |
+| **Second** | 指定された日時オブジェクトから 2 番目の値を抽出します。 | Year(&lt;日時>) | Year(&quot;2019-12-15 15:30:00&quot;) |
+| **YearsDiff** | 指定された日時の違いを年の精度で検索します。 | YearsDiff(&lt;日時>, &lt;日時>) | YearsDiff(&quot;2019-12-25 15:30:00&quot;, &quot;2018-10-14 18:35:27&quot;) |
+| **MonthsDiff** | 指定された日時の違いを月の精度で検索します。 | MonthsDiff(&lt;日時>, &lt;日時>) | MonthsDiff(&quot;2019-12-25 15:30:00&quot;, &quot;2018-10-14 18:35:27&quot;) |
+| **DaysDiff** | 指定された日時の違いを日の精度で検索します。 | DaysDiff(&lt;日時>, &lt;日時>) | DaysDiff(&quot;2019-12-25 15:30:00&quot;, &quot;2018-10-14 18:35:27&quot;) |
+| **HoursDiff** | 指定された日時の違いを時間の精度で検索します。 | HoursDiff(&lt;日時>, &lt;日時>) | HoursDiff(&quot;2019-12-25 15:30:00&quot;, &quot;2018-10-14 18:35:27&quot;) |
+| **MinutesDiff** | 指定された日時の違いを分の精度で検索します。 | MinutesDiff(&lt;日時>, &lt;日時E>) | MinutesDiff(&quot;2019-12-25 15:30:00&quot;, &quot;2018-10-14 18:35:27&quot;) |
+| **SecondsDiff** | 指定された日時の違いを秒の精度で検索します。 | SecondsDiff(&lt;日時>, &lt;日時>) | SecondsDiff(&quot;2019-12-25 15:30:00&quot;, &quot;2018-10-14 18:35:27&quot;) |
+| **MonthsOld** | 指定された日時と現在の違いを月の精度で検索します。 | MonthsOld(&lt;日時>) | MonthsOld(&quot;2019-12-25 15:30:00&quot;) |
+| **DaysOld** | 指定された日時と現在の違いを日の精度で検索します。 | DaysOld(&lt;日時>) | DaysOld(&quot;2019-12-25 15:30:00&quot;) |
 | **GetDate** | サーバーの現在の日付を取得します。 | GetDate() | GetDate() |
-| **DateOnly** | 日時を年、月、日のみに切り捨てます。 | DateOnly （&lt;DATETIME>） | DateOnly （&quot;2019-12-25 15:30:00&quot;） |
-| **ToDate** | フィールドを日付フィールドに変換します。 | ToDate （&lt; 日時 >） | ToDate （&quot;2019-12-25 15:30:00&quot;） |
-| **ToDateTime** | フィールドを日時フィールドに変換します。 | ToDateTime （&lt; 日付 >） | ToDateTime （&quot;2019-12-25 15:30:00&quot;） |
-| **ToTimestamp** | フィールドをタイムスタンプ フィールドに変換します。 | ToTimestamp （&lt;DATETIME>） | ToTimestamp （&quot;2019-12-25 15:30:00&quot;） |
-| **Oldest** | 指定された 2 つの日付間の最も古い日付を返します。 | Oldest （&lt;DATETIME>, &lt;DATETIME>） | Oldest （&quot;2015-02-13 11:59:59&quot;, &quot;2016-04-13 19:28:14&quot;） |
-| **TruncDate** | 指定された数値に基づいて、日時を最も近い単位に切り捨てます。 数値が 60 に等しい場合、最も近い分に切り捨てられます。 数値が 3600 に等しい場合、最も近い時間に切り捨てられます。 数値が 86400 に等しい場合、最も近い日に切り捨てられます。 それ以外の場合は、最も近い秒に切り捨てられます。 | TruncDate （&lt;DATETIME>, &lt;NUMBER>） | TruncDate （&quot;2016-04-13 19:28:14&quot;, 3600） |
-| **TruncDateTZ** | 指定された数値に基づいて日時を最も近い単位に切り捨て、日時を指定されたタイムゾーンに設定します。 数値が 60 に等しい場合、最も近い分に切り捨てられます。 数値が 3600 に等しい場合、最も近い時間に切り捨てられます。 数値が 86400 に等しい場合、最も近い日に切り捨てられます。 | TruncDateTZ （&lt;DATETIME>, &lt;NUMBER>, &lt;TIMEZONE>） | TruncDateTZ （&quot;2016-04-13 19:28:14&quot;, 3600, &quot;アメリカ/ロサンゼルス&quot;） |
-| **TruncTime** | 日時を 2000 年 1 月 1 日に設定し、指定された数値に基づいて、残りの日時を最も近い単位に丸めます。数値が 60 に等しい場合、最も近い分に切り捨てます。 数値が 3600 に等しい場合、最も近い時間に切り捨てられます。 | TruncTime （&lt;DATETIME>, &lt;NUMBER>） | TruncTime （&quot;2016-04-13 19:28:14&quot;, 3600） |
-| **TruncQuarter** | datetime を最も近い四半期の最初の日付に切り捨てます。 | TruncQuarter （&lt;DATETIME>） | TruncQuarter （&quot;2016-04-13 19:28:14&quot;） |
-| **TruncYear** | 日時を最も近い年の最初の日付に切り捨てます。 | TruncYear （&lt;DATETIME>） | TruncYear （&quot;2016-04-13 19:28:14&quot;） |
-| **TruncWeek** | 日時を最も近い週の日曜日に切り捨てます。 | TruncWeek （&lt;DATETIME>） | TruncWeek （&quot;2016-04-13 19:28:14&quot;） |
-| **ConvertNTZ** | タイムゾーンのないタイムスタンプをタイムゾーンのあるタイムスタンプに変換します。 添付されるタイムゾーンは外部アカウントのタイムゾーンになります。 | ConvertNTZ （&lt;DATETIME>） | ConvertNTZ （&quot;2024-06-24 14:43:49&quot;） |
+| **DateOnly** | 日時を年、月、日のみに切り捨てます。 | DateOnly(&lt;日時>) | DateOnly(&quot;2019-12-25 15:30:00&quot;) |
+| **ToDate** | フィールドを日付フィールドに変換します。 | ToDate(&lt;日時>) | ToDate(&quot;2019-12-25 15:30:00&quot;) |
+| **ToDateTime** | フィールドを日時フィールドに変換します。 | ToDateTime(&lt;日付>) | ToDateTime(&quot;2019-12-25 15:30:00&quot;) |
+| **ToTimestamp** | フィールドをタイムスタンプフィールドに変換します。 | ToTimestamp(&lt;日時>) | ToTimestamp(&quot;2019-12-25 15:30:00&quot;) |
+| **Oldest** | 指定された 2 つの日付間の最も古い日付を返します。 | Oldest(&lt;日時>, &lt;日時>) | Oldest(&quot;2015-02-13 11:59:59&quot;, &quot;2016-04-13 19:28:14&quot;) |
+| **TruncDate** | 指定された数値に基づいて、日時を最も近い単位に切り捨てます。数値が 60 に等しい場合は、最も近い分に切り捨てられます。 数値が 3600 に等しい場合は、最も近い時間に切り捨てられます。数値が 86400 に等しい場合は、最も近い日に切り捨てられます。それ以外の場合は、最も近い秒に切り捨てられます。 | TruncDate(&lt;日時>, &lt;数値>) | TruncDate(&quot;2016-04-13 19:28:14&quot;, 3600) |
+| **TruncDateTZ** | 指定された数値に基づいて、日時を最も近い単位に切り捨て、日時を指定されたタイムゾーンに設定します。数値が 60 に等しい場合は、最も近い分に切り捨てられます。 数値が 3600 に等しい場合は、最も近い時間に切り捨てられます。数値が 86400 に等しい場合は、最も近い日に切り捨てられます。 | TruncDateTZ(&lt;日時>, &lt;数値>, &lt;タイムゾーン>) | TruncDateTZ(&quot;2016-04-13 19:28:14&quot;, 3600, &quot;米国/ロサンゼルス&quot;) |
+| **TruncTime** | 日時を 2000年1月1日（PT）に設定し、指定された数値に基づいて、残りの日時を最も近い単位に丸めます。数値が 60 に等しい場合は、最も近い分に切り捨てられます。数値が 3600 に等しい場合は、最も近い時間に切り捨てられます。 | TruncTime(&lt;日時>, &lt;数値>) | TruncTime(&quot;2016-04-13 19:28:14&quot;, 3600) |
+| **TruncQuarter** | 日時を最も近い四半期の最初の日付に切り捨てます。 | TruncQuarter(&lt;日時>) | TruncQuarter(&quot;2016-04-13 19:28:14&quot;) |
+| **TruncYear** | 日時を最も近い年の最初の日付に切り捨てます。 | TruncYear(&lt;日時>) | TruncYear(&quot;2016-04-13 19:28:14&quot;) |
+| **TruncWeek** | 日時を最も近い週の日曜日に切り捨てます。 | TruncWeek(&lt;日時>) | TruncWeek(&quot;2016-04-13 19:28:14&quot;) |
+| **ConvertNTZ** | タイムゾーンのないタイムスタンプをタイムゾーンのあるタイムスタンプに変換します。 添付されるタイムゾーンは、外部アカウントのタイムゾーンになります。 | ConvertNTZ(&lt;日時>) | ConvertNTZ(&quot;2024-06-24 14:43:49&quot;) |
 
 <!-- 
 | **YearAndMonth** | Truncates the datetime to just the year and month. | YearAndMonth(&lt;DATETIME&gt;) | YearAndMonth("2019-12-25 15:30:00") | 
@@ -372,7 +372,7 @@ Aggregate functions are not available. -->
 
 | 名前 | 説明 | 構文 | 例 |
 | ---- | ----------- | ------ | ------- |
-| **Distance** | 経度と緯度で定義された 2 点間の距離を度単位で double として返します。 | 距離（&lt; 数値 >, &lt; 数値 >, &lt; 数値 >, &lt; 数値 >） | 距離（40.345、39.2345、-35.5834、34.599） |
+| **Distance** | 経度と緯度で定義された 2 点間の距離を度単位で double として返します。 | Distance(&lt;数値>, &lt;数値>, &lt;数値>, &lt;数値>) | Distance(40.345, 39.2345, -35.5834, 34.599) |
 
 <!-- 
 
@@ -398,7 +398,7 @@ Geomarketing functions are not available.
 
 | 名前 | 説明 | 構文 | 例 |
 | ---- | ----------- | ------ | ------- |
-| **Distance** | 経度と緯度で定義された 2 点間の距離を度単位で double として返します。 | 距離（&lt; 数値 >, &lt; 数値 >, &lt; 数値 >, &lt; 数値 >） | 距離（40.345、39.2345、-35.5834、34.599） |
+| **Distance** | 経度と緯度で定義された 2 点間の距離を度単位で double として返します。 | Distance(&lt;数値>, &lt;数値>, &lt;数値>, &lt;数値>) | Distance(40.345, 39.2345, -35.5834, 34.599) |
 
 <!-- 
 
@@ -422,14 +422,14 @@ Geomarketing functions are not available.
 
 | 名前 | 説明 | 構文 | 例 |
 | ---- | ----------- | ------ | ------- |
-| **Mod** | 最初の数値の余りを 2 番目の数値で割った値を返します。 | Mod （&lt;NUMBER>, &lt;NUMBER>） | Mod （3, 2） |
-| **Percent** | 2 番目の数値に対する最初の数値のパーセンテージを計算します。 | Percent （&lt; 数値 >, &lt; 数値 >） | Percent （1, 2） |
-| **Random** | 0 （両端を含む）から 1 （両端を含まない）の間の乱数を返します。 | Random （） | ランダム （） |
-| **Round** | 指定された数値を、要求された最も近い小数点以下の桁数に返します。 | Round （&lt; 数値 >, &lt; 数値 >） | ラウンド（4.5394、2） |
-| **ToDouble** | 指定された数値を倍精度浮動小数点数に変換します。 | ToDouble （&lt;NUMBER>） | ToDouble （5） |
-| **ToInteger** | 指定された数値を整数に変換します。 | ToInteger （&lt;NUMBER>） | ToInteger （45） |
-| **ToInt64** | 指定された数値を 64 ビットの整数に変換します。 | ToInt64 （&lt; 数値 >） | ToInt64 （493） |
-| **Trunc** | 指定された数値を要求された小数点以下の桁数に切り捨てます。 | Trunc （&lt;NUMBER>, &lt;NUMBER>） | Trunc （36.9348934, 3） |
+| **Mod** | 最初の数値を 2 番目の数値で割った余りを返します。 | Mod(&lt;数値>, &lt;数値>) | Mod(3, 2) |
+| **Percent** | 最初の数値が 2 番目の数値の何パーセントであるかを計算します。 | Percent(&lt;数値>, &lt;数値>) | Percent(1, 2) |
+| **Random** | 0（含む）と 1（含まない）の間の乱数を返します。 | Random() | Random() |
+| **Round** | 指指定された数値をリクエストされた最も近い小数点以下の桁数に返します。 | Round(&lt;数値>, &lt;数値>) | Round(4.5394, 2) |
+| **ToDouble** | 指定された数値を double に変換します。 | ToDouble(&lt;数値>) | ToDouble(5) |
+| **ToInteger** | 指定された数値を整数に変換します。 | ToInteger(&lt;数値>) | ToInteger(45) |
+| **ToInt64** | 指定された数値を 64 ビットの整数に変換します。 | ToInt64(&lt;数値>) | ToInt64(493) |
+| **Trunc** | 指定された数値をリクエストされた小数点以下の桁数に切り捨てます。 | Trunc(&lt;数値>, &lt;数値>) | Trunc(36.9348934, 3) |
 
 <!-- 
 | **Ceil** | Rounds up the provided number to the nearest integer. For example, if the provided number is 2.3, it will return 3. | Ceil(&lt;NUMBER&gt;) | Ceil(2.3) |
@@ -474,13 +474,13 @@ Numeric functions are not available.
 
 | 名前 | 説明 | 構文 | 例 |
 | ---- | ----------- | ------ | ------- |
-| **Mod** | 最初の数値の余りを 2 番目の数値で割った値を返します。 | Mod （&lt;NUMBER>, &lt;NUMBER>） | Mod （3, 2） |
-| **Percent** | 2 番目の数値に対する最初の数値のパーセンテージを計算します。 | Percent （&lt; 数値 >, &lt; 数値 >） | Percent （1, 2） |
-| **Random** | 0 （両端を含む）から 1 （両端を含まない）の間の乱数を返します。 | Random （） | ランダム （） |
-| **ToDouble** | 指定された数値を倍精度浮動小数点数に変換します。 | ToDouble （&lt;NUMBER>） | ToDouble （5） |
-| **ToInteger** | 指定された数値を整数に変換します。 | ToInteger （&lt;NUMBER>） | ToInteger （45） |
-| **ToInt64** | 指定された数値を 64 ビットの整数に変換します。 | ToInt64 （&lt; 数値 >） | ToInt64 （493） |
-| **Trunc** | 指定された数値を要求された小数点以下の桁数に切り捨てます。 | Trunc （&lt;NUMBER>, &lt;NUMBER>） | Trunc （36.9348934, 3） |
+| **Mod** | 最初の数値を 2 番目の数値で割った余りを返します。 | Mod(&lt;数値>, &lt;数値>) | Mod(3, 2) |
+| **Percent** | 最初の数値が 2 番目の数値の何パーセントであるかを計算します。 | Percent(&lt;数値>, &lt;数値>) | Percent(1, 2) |
+| **Random** | 0（含む）と 1（含まない）の間の乱数を返します。 | Random() | Random() |
+| **ToDouble** | 指定された数値を double に変換します。 | ToDouble(&lt;数値>) | ToDouble(5) |
+| **ToInteger** | 指定された数値を整数に変換します。 | ToInteger(&lt;数値>) | ToInteger(45) |
+| **ToInt64** | 指定された数値を 64 ビットの整数に変換します。 | ToInt64(&lt;数値>) | ToInt64(493) |
+| **Trunc** | 指定された数値をリクエストされた小数点以下の桁数に切り捨てます。 | Trunc(&lt;数値>, &lt;数値>) | Trunc(36.9348934, 3) |
 
 <!-- 
 
@@ -510,21 +510,21 @@ Numeric functions are not available.
 
 | 名前 | 説明 | 構文 | 例 |
 | ---- | ----------- | ------ | ------- |
-| **Case** | 式が true の場合、最初の値を返します。 それ以外の場合は、2 番目の値を返します。 | Case （When （&lt; 式 > &lt; 値 >）, Else （&lt; 値 >）） | Case （When （a > b, &quot;yes&quot;）, Else （&quot;no&quot;）） |
-| **When** | Case 関数の一部として使用されます。 Case 内の式を確認するために使用します。 | When （&lt; 式 > &lt; 値 >） | When （a > b, &quot;yes&quot;） |
-| **Else** | Case 関数の一部として使用されます。 When 式が false の場合に、もう一方のオプションを選択するために使用します。 | Else （&lt;VALUE>） | Else （&quot;no&quot;） |
-| **Coalesce** | 最初の null 以外の値を返します。 | Coalesce （&lt;VALUE>, &lt;VALUE>） | 結合（&quot;&quot;, &quot;string&quot;） |
-| **Decode** | 値が等しい場合は、最初のオプションを返します。 値が等しくない場合は、2 番目のオプションを返します。 | Decode （&lt;VALUE>, &lt;VALUE>, &lt;VALUE>, &lt;VALUE>） | Decode （1, 2, &quot;true&quot;, &quot;false&quot;） |
-| **GetEmailDomain** | 指定されたメールアドレスからドメインを抽出します。 | GetEmailDomain （&lt;STRING>） | GetEmailDomain （&quot;sample@example.com&quot;） |
-| **Iif** | 条件が true の場合は最初のオプションを返し、条件が false の場合は 2 番目のオプションを返します。 | Iif （&lt;CONDITION>, &lt;VALUE>, &lt;VALUE>） | Iif （10 &lt; 20, &quot;true&quot;, &quot;false&quot;） |
-| **IsEmptyString** | 文字列が空の場合は、最初のオプションを返します。 それ以外の場合は、2 番目のオプションを返します。 | IsEmptyString （&lt; 文字列 > ,&lt; 値 >, &lt; 値 >） | IsEmptyString （&quot;string&quot;, &quot;yes&quot;, &quot;no&quot;） |
-| **NewUUID** | 新しい一意の UUID を生成します。 | NewUUID （） | NewUUID （） |
-| **NoNull** | 指定された文字列が空でない場合は、その文字列を返します。指定された文字列が空の場合は、空の文字列を返します。 | NoNull （&lt;STRING>） | NoNull （&quot;test&quot;） |
-| **IsBitSet** | 指定された数値に対してビット単位および（&amp;）を実行します。 これにより、最初のパラメーター内のビットが 2 番目のパラメーターで指定された位置に設定されているかどうかを確認できます。 | IsBitSet （&lt;NUMBER>, &lt;NUMBER>） | IsBitSet （5, 3） |
-| **ClearBit** | これにより、2 番目のパラメーターで指定された位置にある 1 番目のパラメーター内のビットをクリアできます。 | ClearBit （&lt;NUMBER>, &lt;NUMBER>） | |
-| **SetBit** | 指定された数値に対してビット OR （\|）を実行します。 これにより、最初のパラメーター内のビットを 2 番目のパラメーターで指定された位置に設定できます。 | SetBit （&lt;NUMBER>, &lt;NUMBER>） | SetBit （5, 3） |
-| **RowId** | 行番号を返します。 | RowId （） | RowId （） |
-| **ToBoolean** | 値をブール値に変換します。 | ToBoolean （&lt;VALUE>） | ToBoolean （a=b） |
+| **Case** | 式が true の場合は最初の値を返します。それ以外の場合は、2 番目の値を返します。 | Case(When(&lt;式> &lt;値>), Else(&lt;値>)) | Case(When(a > b, &quot;はい&quot;), Else(&quot;いいえ&quot;)) |
+| **When** | Case 関数の一部として使用されます。Case 内の式を確認するために使用されます。 | When(&lt;式> &lt;値>) | When(a > b, &quot;はい&quot;) |
+| **Else** | Case 関数の一部として使用されます。When 式が false の場合に、他のオプションを選択するために使用されます。 | Else(&lt;値>) | Else(&quot;いいえ&quot;) |
+| **Coalesce** | 最初の null 以外の値を返します。 | Coalesce(&lt;値>, &lt;値>) | Coalesce (&quot;&quot;, &quot;文字列&quot;) |
+| **Decode** | 値が等しい場合は最初のオプションを返します。値が等しくない場合は 2 番目のオプションを返します。 | Decode(&lt;値>, &lt;値>, &lt;値>, &lt;値>) | Decode(1, 2, &quot;true&quot;, &quot;false&quot;) |
+| **GetEmailDomain** | 指定されたメールアドレスからドメインを抽出します。 | GetEmailDomain(&lt;文字列>) | GetEmailDomain(&quot;sample@example.com&quot;) |
+| **Iif** | 条件が true の場合は最初のオプションを返し、条件が false の場合は 2 番目のオプションを返します。 | Iif(&lt;条件>, &lt;値>, &lt;値>) | Iif(10 &lt; 20, &quot;true&quot;, &quot;false&quot;) |
+| **IsEmptyString** | 文字列が空の場合は最初のオプションを返します。それ以外の場合は、2 番目のオプションを返します。 | IsEmptyString(&lt;文字列> ,&lt;値>, &lt;値>) | IsEmptyString(&quot;文字列&quot;, &quot;はい&quot;, &quot;いいえ&quot;) |
+| **NewUUID** | 新しい一意の UUID を生成します。 | NewUUID() | NewUUID() |
+| **NoNull** | 指定された文字列が空でない場合はその文字列を返し、指定された文字列が空の場合は空の文字列を返します。 | NoNull(&lt;文字列>) | NoNull(&quot;テスト&quot;) |
+| **IsBitSet** | 指定された数値に対してビット単位の論理積（&amp;）を実行します。これにより、最初のパラメーター内のビットが 2 番目のパラメーターで指定された位置に設定されているかどうかを確認できます。 | IsBitSet(&lt;数値>, &lt;数値>) | IsBitSet(5, 3) |
+| **ClearBit** | これにより、2 番目のパラメーターで指定された位置にある最初のパラメーター内のビットをクリアできます。 | ClearBit(&lt;数値>, &lt;数値>) | |
+| **SetBit** | 指定された数値に対してビット単位の論理和（\|）を実行します。これにより、最初のパラメーター内のビットを 2 番目のパラメーターで指定された位置に設定できます。 | SetBit(&lt;数値>, &lt;数値>) | SetBit(5, 3) |
+| **RowId** | 行番号を返します。 | RowId() | RowId() |
+| **ToBoolean** | 値をブール値に変換します。 | ToBoolean(&lt;値>) | ToBoolean(a=b) |
 
 <!-- 
 
@@ -571,22 +571,22 @@ Other functions are not available.
 
 | 名前 | 説明 | 構文 | 例 |
 | ---- | ----------- | ------ | ------- |
-| **Case** | 式が true の場合、最初の値を返します。 それ以外の場合は、2 番目の値を返します。 | Case （When （&lt; 式 > &lt; 値 >）, Else （&lt; 値 >）） | Case （When （a > b, &quot;yes&quot;）, Else （&quot;no&quot;）） |
-| **When** | Case 関数の一部として使用されます。 Case 内の式を確認するために使用します。 | When （&lt; 式 > &lt; 値 >） | When （a > b, &quot;yes&quot;） |
-| **Else** | Case 関数の一部として使用されます。 When 式が false の場合に、もう一方のオプションを選択するために使用します。 | Else （&lt;VALUE>） | Else （&quot;no&quot;） |
-| **GetEmailDomain** | 指定されたメールアドレスからドメインを抽出します。 | GetEmailDomain （&lt;STRING>） | GetEmailDomain （&quot;sample@example.com&quot;） |
-| **Iif** | 条件が true の場合は最初のオプションを返し、条件が false の場合は 2 番目のオプションを返します。 | Iif （&lt;CONDITION>, &lt;VALUE>, &lt;VALUE>） | Iif （10 &lt; 20, &quot;true&quot;, &quot;false&quot;） |
-| **IsEmptyString** | 文字列が空の場合は、最初のオプションを返します。 それ以外の場合は、2 番目のオプションを返します。 | IsEmptyString （&lt; 文字列 > ,&lt; 値 >, &lt; 値 >） | IsEmptyString （&quot;string&quot;, &quot;yes&quot;, &quot;no&quot;） |
-| **ToBoolean** | 値が true の場合は 1 を返します。 値が false の場合、0 を返します。 | ToBoolean （&lt;VALUE>） | ToBoolean （a=b） |
-| **ToBooleanType** | 値をブール値に変換します。 | ToBooleanType （&lt;VALUE>） | ToBooleanType （a=b） |
-| **IsBitSet** | 指定された数値に対してビット単位および（&amp;）を実行します。 これにより、最初のパラメーター内のビットが 2 番目のパラメーターで指定された位置に設定されているかどうかを確認できます。 | IsBitSet （&lt;NUMBER>, &lt;NUMBER>） | IsBitSet （5, 3） |
-| **ClearBit** | これにより、2 番目のパラメーターで指定された位置にある 1 番目のパラメーター内のビットをクリアできます。 | ClearBit （&lt;NUMBER>, &lt;NUMBER>） | |
-| **SetBit** | 指定された数値に対してビット OR （\|）を実行します。 これにより、最初のパラメーター内のビットを 2 番目のパラメーターで指定された位置に設定できます。 | SetBit （&lt;NUMBER>, &lt;NUMBER>） | SetBit （5, 3） |
-| **RowId** | 行番号を返します。 | RowId （） | RowId （） |
-| **NewUUID** | 新しい一意の UUID を生成します。 | NewUUID （） | NewUUID （） |
-| **NoNull** | 指定された文字列が空でない場合は、その文字列を返します。指定された文字列が空の場合は、空の文字列を返します。 | NoNull （&lt;STRING>） | NoNull （&quot;test&quot;） |
-| **AESEncrypt** | 指定された文字列を AES 暗号化タイプで暗号化します。 | AESEncrypt （） | AESEncrypt （&quot;hello&quot;） |
-| **ObjectConstruct** | 指定されたキーと値のペアからオブジェクトを作成します。 | ObjectConstruct （&lt;STRING>, &lt;STRING>） | ObjectConstruct （&quot;key&quot;, &quot;value&quot;） |
+| **Case** | 式が true の場合は最初の値を返します。それ以外の場合は、2 番目の値を返します。 | Case(When(&lt;式> &lt;値>), Else(&lt;値>)) | Case(When(a > b, &quot;はい&quot;), Else(&quot;いいえ&quot;)) |
+| **When** | Case 関数の一部として使用されます。Case 内の式を確認するために使用されます。 | When(&lt;式> &lt;値>) | When(a > b, &quot;はい&quot;) |
+| **Else** | Case 関数の一部として使用されます。When 式が false の場合に、他のオプションを選択するために使用されます。 | Else(&lt;値>) | Else(&quot;いいえ&quot;) |
+| **GetEmailDomain** | 指定されたメールアドレスからドメインを抽出します。 | GetEmailDomain(&lt;文字列>) | GetEmailDomain(&quot;sample@example.com&quot;) |
+| **Iif** | 条件が true の場合は最初のオプションを返し、条件が false の場合は 2 番目のオプションを返します。 | Iif(&lt;条件>, &lt;値>, &lt;値>) | Iif(10 &lt; 20, &quot;true&quot;, &quot;false&quot;) |
+| **IsEmptyString** | 文字列が空の場合は最初のオプションを返します。それ以外の場合は、2 番目のオプションを返します。 | IsEmptyString(&lt;文字列> ,&lt;値>, &lt;値>) | IsEmptyString(&quot;文字列&quot;, &quot;はい&quot;, &quot;いいえ&quot;) |
+| **ToBoolean** | 値が true の場合は 1 を返します。値が false の場合は 0 を返します。 | ToBoolean(&lt;値>) | ToBoolean(a=b) |
+| **ToBooleanType** | 値をブール値に変換します。 | ToBooleanType(&lt;値>) | ToBooleanType(a=b) |
+| **IsBitSet** | 指定された数値に対してビット単位の論理積（&amp;）を実行します。これにより、最初のパラメーター内のビットが 2 番目のパラメーターで指定された位置に設定されているかどうかを確認できます。 | IsBitSet(&lt;数値>, &lt;数値>) | IsBitSet(5, 3) |
+| **ClearBit** | これにより、2 番目のパラメーターで指定された位置にある最初のパラメーター内のビットをクリアできます。 | ClearBit(&lt;数値>, &lt;数値>) | |
+| **SetBit** | 指定された数値に対してビット単位の論理和（\|）を実行します。これにより、最初のパラメーター内のビットを 2 番目のパラメーターで指定された位置に設定できます。 | SetBit(&lt;数値>, &lt;数値>) | SetBit(5, 3) |
+| **RowId** | 行番号を返します。 | RowId() | RowId() |
+| **NewUUID** | 新しい一意の UUID を生成します。 | NewUUID() | NewUUID() |
+| **NoNull** | 指定された文字列が空でない場合はその文字列を返し、指定された文字列が空の場合は空の文字列を返します。 | NoNull(&lt;文字列>) | NoNull(&quot;テスト&quot;) |
+| **AESEncrypt** | 指定された文字列を AES 暗号化タイプで暗号化します。 | AESEncrypt() | AESEncrypt(&quot;こんにちは&quot;) |
+| **ObjectConstruct** | 提供されたキーと値のペアに基づいてオブジェクトを作成します。 | ObjectConstruct(&lt;文字列>, &lt;文字列>) | ObjectConstruct(&quot;キー&quot;, &quot;値&quot;) |
 
 <!-- 
 
@@ -623,27 +623,27 @@ Other functions are not available.
 
 | 名前 | 説明 | 構文 | 例 |
 | ---- | ----------- | ------ | ------- |
-| **AllNonNull2** | 2 つの文字列を受け取り、それらがすべて null ではなく、空でないかどうかを確認します。 | AllNonNull2 （&lt;STRING>, &lt;STRING>） | AllNonNull2 （&quot;, &quot;string2&quot;） |
-| **AllNonNull3** | 3 つの文字列を受け取り、それらがすべて null ではなく、空でないかどうかを確認します | AllNonNull3 （&lt;STRING>, &lt;STRING>, &lt;STRING>） | AllNonNull3 （&quot;, &quot;one&quot;, &quot;three&quot;） |
-| **Ascii** | 文字列を受け取り、結果を返します。 | Ascii （&lt;STRING>） | Ascii （&quot;foo&quot;） |
-| **Char** | Unicode コードポイントの配列を受け取り、結果の文字列を返します。 | Char （&lt;ARRAY>） | 文字（[65、68、79、66、69]） |
-| **Charindex** | メイン文字列内で、指定された部分文字列が最初に出現する場所を検索します。 | Charindex （&lt;STRING>, &lt;SUBSTRING>） | Charindex （&quot;bar@example.com&quot;, &quot;@&quot;） |
-| **dataLength** | 文字列内のバイト数を返します。 | dataLength （&lt;STRING>） | dataLength （&quot;My string&quot;） |
-| **GetLine** | 指定された文字列のリクエストされた行を返します。 | GetLine （&lt;STRING>, &lt;NUMBER>） | GetLine （multilinestring, 5） |
-| **IfEquals** | 4 つの文字列を取り、最初の 2 つの文字列が等しい場合は 3 番目の文字列を返し、最初の 2 つの文字列が等しくない場合は 4 番目の文字列を返します。 | IfEquals （&lt;STRING>, &lt;STRING>, &lt;STRING>, &lt;STRING>） | IfEquals （&quot;a&quot;, &quot;a&quot;, &quot;yes&quot;, &quot;no&quot;） |
-| **IsMemoNull** | 文字列が null の場合は 1 を返し、それ以外の場合は 0 を返します。 | IsMemoNull （&lt;STRING>） | IsMemoNull （&quot;hello&quot;） |
-| **JuxtWords** | 2 つの文字列を取得し、1 つの文字列に結合します。 必要に応じて、文字列間にスペースが追加されます。 | JuxtWords （&lt;STRING>, &lt;STRING>） | JuxtWords （「こんにちは」、「世界」） |
-| **JuxtWords3** | 3 つの文字列を取得し、1 つの文字列に結合します。 必要に応じて、文字列間にスペースが追加されます。 | JuxtWords3 （&lt;STRING>, &lt;STRING>, &lt;STRING>） | JuxtWords3 （「こんにちは」、「新規」、「世界」） |
-| **Left** | 文字列を受け取り、指定された一番左の文字を返します。 | Left （&lt;STRING>, &lt;NUMBER>） | Left （&quot;Substring&quot;, 3） |
-| **Length** | 文字列の長さを返します。 | Length （&lt;STRING>） | Length （&quot;MyString&quot;） |
-| **Md5Digest** | MD5 ハッシュ化された文字列を 16 進数表現に変換します。 | Md5Digest （&lt;STRING>） | Md5Digest （&quot;String&quot;） |
-| **MemoContains** | 文字列に、指定された部分文字列が含まれているかどうかを確認します。 | MemoContains （&lt;STRING>, &lt;STRING>） | MemoContains （&quot;string&quot;, &quot;str&quot;） |
-| **Right** | 文字列を取得し、指定された右端の文字を返します。 | Right （&lt;STRING>, &lt;NUMBER>） | Right （&quot;部分文字列&quot;, 3） |
-| **Smart** | 各単語の最初の文字を大文字にした文字列を返します。 | Smart （&lt;STRING>） | スマート（「hello world」） |
-| **Substring** | 文字列を取得し、指定された位置に基づいて、指定された文字列の一部を返します。 | Substring （&lt;STRING>, &lt;LEFT_NUMBER>, RIGHT_NUMBER>） | Substring （&quot;Substring&quot;, 3, 5） |
-| **Sha256Digest** | SHA256 でハッシュ化された文字列を 16 進数表現に変換します。 | Sha256Digest （&lt;STRING>） | Sha256Digest （&quot;string&quot;） |
-| **Sha512Digest** | SHA512 でハッシュ化された文字列を 16 進数表現に変換します。 | Sha512Digest （&lt;STRING>） | Sha512Digest （&quot;string&quot;） |
-| **ToString** | 値を文字列として返します。 | ToString （&lt;VALUE>） | ToString （123） |
+| **AllNonNull2** | 2 つの文字列を受け取り、そのすべてが null ではなく、空でないかどうかを確認します。 | AllNonNull2(&lt;文字列>, &lt;文字列>) | AllNonNull2(&quot;&quot;, &quot;string2&quot;) |
+| **AllNonNull3** | 3 つの文字列を受け取り、そのすべてが null ではなく、空でないかどうかを確認します | AllNonNull3(&lt;文字列>, &lt;文字列>, &lt;文字列>) | AllNonNull3(&quot;&quot;, &quot;1&quot;, &quot;3&quot;) |
+| **Ascii** | 文字列を受け取り、結果を返します。 | Ascii(&lt;文字列>) | Ascii (&quot;foo&quot;) |
+| **Char** | Unicode コードポイントの配列を受け取り、結果の文字列を返します。 | Char(&lt;配列>) | Char([65, 68, 79, 66, 69]) |
+| **Charindex** | メイン文字列内で指定された部分文字列の最初の発生を検索します。 | Charindex(&lt;文字列>, &lt;部分文字列>) | Charindex(&quot;bar@example.com&quot;, &quot;@&quot;) |
+| **dataLength** | 文字列に含まれるバイト数を返します。 | dataLength(&lt;文字列>) | dataLength(&quot;マイ文字列&quot;) |
+| **GetLine** | 指定された文字列のリクエストされた行を返します。 | GetLine(&lt;文字列>, &lt;数値>) | GetLine(multilinestring, 5) |
+| **IfEquals** | 4 つの文字列を受け取り、最初の 2 つの文字列が等しい場合は 3 番目の文字列を返し、最初の 2 つの文字列が等しくない場合は 4 番目の文字列を返します。 | IfEquals(&lt;文字列>, &lt;文字列>, &lt;文字列>, &lt;文字列>) | IfEquals(&quot;a&quot;, &quot;a&quot;, &quot;はい&quot;, &quot;いいえ&quot;) |
+| **IsMemoNull** | 文字列が null の場合は 1 を返し、それ以外の場合は 0 を返します。 | IsMemoNull(&lt;文字列>) | IsMemoNull(&quot;こんにちは&quot;) |
+| **JuxtWords** | 2 つの文字列を受け取り、1 つの文字列に結合します。必要に応じて、文字列間にスペースが追加されます。 | JuxtWords(&lt;文字列>, &lt;文字列>) | JuxtWords(&quot;Hello&quot;, &quot;World&quot;) |
+| **JuxtWords3** | 3 つの文字列を受け取り、1 つの文字列に結合します。必要に応じて、文字列間にスペースが追加されます。 | JuxtWords3(&lt;文字列>, &lt;文字列>, &lt;文字列>) | JuxtWords3(&quot;Hello&quot;, &quot;New&quot;, &quot;World&quot;) |
+| **Left** | 文字列を受け取り、指定された左端の文字を返します。 | Left(&lt;文字列>, &lt;数値>) | Left(&quot;部分文字列&quot;, 3) |
+| **Length** | 文字列の長さを返します。 | Length(&lt;文字列>) | Length(&quot;MyString&quot;) |
+| **Md5Digest** | MD5 ハッシュ文字列を 16 進数表現に変換します。 | Md5Digest(&lt;文字列>) | Md5Digest(&quot;文字列&quot;) |
+| **MemoContains** | 文字列に指定された部分文字列が含まれているかどうかを確認します。 | MemoContains(&lt;文字列>, &lt;文字列>) | MemoContains(&quot;string&quot;, &quot;str&quot;) |
+| **Right** | 文字列を受け取り、指定された右端の文字を返します。 | Right(&lt;文字列>, &lt;数値>) | Right (&quot;部分文字列&quot;, 3) |
+| **Smart** | 各単語の最初の文字を大文字にして文字列を返します。 | Smart(&lt;文字列>) | Smart(&quot;hello world&quot;) |
+| **Substring** | 文字列を受け取り、指定された位置に基づいて、指定された文字列の一部を返します。 | Substring(&lt;STRING>, &lt;LEFT_NUMBER>, RIGHT_NUMBER>) | Substring(&quot;部分文字列&quot;, 3, 5) |
+| **Sha256Digest** | SHA256 ハッシュ文字列を 16 進数表現に変換します。 | Sha256Digest(&lt;文字列>) | Sha256Digest(&quot;文字列&quot;) |
+| **Sha512Digest** | SHA512 ハッシュ文字列を 16 進数表現に変換します。 | Sha512Digest(&lt;文字列>) | Sha512Digest(&quot;文字列&quot;) |
+| **ToString** | 値を文字列として返します。 | ToString(&lt;値>) | ToString(123) |
 
 <!-- 
 
@@ -702,26 +702,26 @@ String functions are not available.
 
 | 名前 | 説明 | 構文 | 例 |
 | ---- | ----------- | ------ | ------- |
-| **AllNonNull2** | 2 つの文字列を受け取り、それらがすべて null ではなく、空でないかどうかを確認します。 | AllNonNull2 （&lt;STRING>, &lt;STRING>） | AllNonNull2 （&quot;, &quot;string2&quot;） |
-| **AllNonNull3** | 3 つの文字列を受け取り、それらがすべて null ではなく、空でないかどうかを確認します | AllNonNull3 （&lt;STRING>, &lt;STRING>, &lt;STRING>） | AllNonNull3 （&quot;, &quot;one&quot;, &quot;three&quot;） |
-| **Char** | Unicode コードポイントの配列を受け取り、結果の文字列を返します。 | Char （&lt;ARRAY>） | 文字（[65、68、79、66、69]） |
-| **Charindex** | メイン文字列内で、指定された部分文字列が最初に出現する場所を検索します。 | Charindex （&lt;STRING>, &lt;SUBSTRING>） | Charindex （&quot;bar@example.com&quot;, &quot;@&quot;） |
-| **dataLength** | 文字列内のバイト数を返します。 | dataLength （&lt;STRING>） | dataLength （&quot;My string&quot;） |
-| **GetLine** | 指定された文字列のリクエストされた行を返します。 | GetLine （&lt;STRING>, &lt;NUMBER>） | GetLine （multilinestring, 5） |
-| **IfEquals** | 4 つの文字列を取り、最初の 2 つの文字列が等しい場合は 3 番目の文字列を返し、最初の 2 つの文字列が等しくない場合は 4 番目の文字列を返します。 | IfEquals （&lt;STRING>, &lt;STRING>, &lt;STRING>, &lt;STRING>） | IfEquals （&quot;a&quot;, &quot;a&quot;, &quot;yes&quot;, &quot;no&quot;） |
-| **IsMemoNull** | 文字列が null の場合は 1 を返し、それ以外の場合は 0 を返します。 | IsMemoNull （&lt;STRING>） | IsMemoNull （&quot;hello&quot;） |
-| **JuxtWords** | 2 つの文字列を取得し、1 つの文字列に結合します。 必要に応じて、文字列間にスペースが追加されます。 | JuxtWords （&lt;STRING>, &lt;STRING>） | JuxtWords （「こんにちは」、「世界」） |
-| **JuxtWords3** | 3 つの文字列を取得し、1 つの文字列に結合します。 必要に応じて、文字列間にスペースが追加されます。 | JuxtWords3 （&lt;STRING>, &lt;STRING>, &lt;STRING>） | JuxtWords3 （「こんにちは」、「新規」、「世界」） |
-| **Left** | 文字列を受け取り、指定された一番左の文字を返します。 | Left （&lt;STRING>, &lt;NUMBER>） | Left （&quot;Substring&quot;, 3） |
-| **Length** | 文字列の長さを返します。 | Length （&lt;STRING>） | Length （&quot;MyString&quot;） |
-| **Line** | 文字列から指定された番号付きの行を返します。 | Line （&lt;STRING>, &lt;NUMBER>） | Line （multilinestring, 5） |
-| **Md5Digest** | MD5 ハッシュ化された文字列を 16 進数表現に変換します。 | Md5Digest （&lt;STRING>） | Md5Digest （&quot;String&quot;） |
-| **Replace** | 文字列を受け取り、部分文字列のすべてのインスタンスを置換部分文字列で置き換えます。 | Replace （&lt;STRING>, &lt;STRING&amp;gt, &lt;STRING&amp;gt） | Replace （「キャプテン スティーブ」、「キャプテン」、「エンジニア」） |
-| **Right** | 文字列を取得し、指定された右端の文字を返します。 | Right （&lt;STRING>, &lt;NUMBER>） | Right （&quot;部分文字列&quot;, 3） |
-| **Sha256Digest** | SHA256 でハッシュ化された文字列を 16 進数表現に変換します。 | Sha256Digest （&lt;STRING>） | Sha256Digest （&quot;string&quot;） |
-| **Sha512Digest** | SHA512 でハッシュ化された文字列を 16 進数表現に変換します。 | Sha512Digest （&lt;STRING>） | Sha512Digest （&quot;string&quot;） |
-| **Smart** | 各単語の最初の文字を大文字にした文字列を返します。 | Smart （&lt;STRING>） | スマート（「hello world」） |
-| **ToString** | 値を文字列として返します。 | ToString （&lt;VALUE>） | ToString （123） |
+| **AllNonNull2** | 2 つの文字列を受け取り、そのすべてが null ではなく、空でないかどうかを確認します。 | AllNonNull2(&lt;文字列>, &lt;文字列>) | AllNonNull2(&quot;&quot;, &quot;string2&quot;) |
+| **AllNonNull3** | 3 つの文字列を受け取り、そのすべてが null ではなく、空でないかどうかを確認します | AllNonNull3(&lt;文字列>, &lt;文字列>, &lt;文字列>) | AllNonNull3(&quot;&quot;, &quot;1&quot;, &quot;3&quot;) |
+| **Char** | Unicode コードポイントの配列を受け取り、結果の文字列を返します。 | Char(&lt;配列>) | Char([65, 68, 79, 66, 69]) |
+| **Charindex** | メイン文字列内で指定された部分文字列の最初の発生を検索します。 | Charindex(&lt;文字列>, &lt;部分文字列>) | Charindex(&quot;bar@example.com&quot;, &quot;@&quot;) |
+| **dataLength** | 文字列に含まれるバイト数を返します。 | dataLength(&lt;文字列>) | dataLength(&quot;マイ文字列&quot;) |
+| **GetLine** | 指定された文字列のリクエストされた行を返します。 | GetLine(&lt;文字列>, &lt;数値>) | GetLine(multilinestring, 5) |
+| **IfEquals** | 4 つの文字列を受け取り、最初の 2 つの文字列が等しい場合は 3 番目の文字列を返し、最初の 2 つの文字列が等しくない場合は 4 番目の文字列を返します。 | IfEquals(&lt;文字列>, &lt;文字列>, &lt;文字列>, &lt;文字列>) | IfEquals(&quot;a&quot;, &quot;a&quot;, &quot;はい&quot;, &quot;いいえ&quot;) |
+| **IsMemoNull** | 文字列が null の場合は 1 を返し、それ以外の場合は 0 を返します。 | IsMemoNull(&lt;文字列>) | IsMemoNull(&quot;こんにちは&quot;) |
+| **JuxtWords** | 2 つの文字列を受け取り、1 つの文字列に結合します。必要に応じて、文字列間にスペースが追加されます。 | JuxtWords(&lt;文字列>, &lt;文字列>) | JuxtWords(&quot;Hello&quot;, &quot;World&quot;) |
+| **JuxtWords3** | 3 つの文字列を受け取り、1 つの文字列に結合します。必要に応じて、文字列間にスペースが追加されます。 | JuxtWords3(&lt;文字列>, &lt;文字列>, &lt;文字列>) | JuxtWords3(&quot;Hello&quot;, &quot;New&quot;, &quot;World&quot;) |
+| **Left** | 文字列を受け取り、指定された左端の文字を返します。 | Left(&lt;文字列>, &lt;数値>) | Left(&quot;部分文字列&quot;, 3) |
+| **Length** | 文字列の長さを返します。 | Length(&lt;文字列>) | Length(&quot;MyString&quot;) |
+| **Line** | 文字列から指定された番号の行を返します。 | Line(&lt;文字列>, &lt;数値>) | Line(multilinestring, 5) |
+| **Md5Digest** | MD5 ハッシュ文字列を 16 進数表現に変換します。 | Md5Digest(&lt;文字列>) | Md5Digest(&quot;文字列&quot;) |
+| **Replace** | 文字列を受け取り、その部分文字列のすべてのインスタンスを置換部分文字列に置き換えます。 | Replace(&lt;STRING>, &lt;STRING&amp;gt, &lt;STRING&amp;gt) | Replace(&quot;キャプテンスティーブ&quot;, &quot;キャプテン&quot;, &quot;エンジニア&quot;) |
+| **Right** | 文字列を受け取り、指定された右端の文字を返します。 | Right(&lt;文字列>, &lt;数値>) | Right (&quot;部分文字列&quot;, 3) |
+| **Sha256Digest** | SHA256 ハッシュ文字列を 16 進数表現に変換します。 | Sha256Digest(&lt;文字列>) | Sha256Digest(&quot;文字列&quot;) |
+| **Sha512Digest** | SHA512 ハッシュ文字列を 16 進数表現に変換します。 | Sha512Digest(&lt;文字列>) | Sha512Digest(&quot;文字列&quot;) |
+| **Smart** | 各単語の最初の文字を大文字にして文字列を返します。 | Smart(&lt;文字列>) | Smart(&quot;hello world&quot;) |
+| **ToString** | 値を文字列として返します。 | ToString(&lt;値>) | ToString(123) |
 
 <!-- 
 
@@ -761,10 +761,10 @@ String functions are not available.
 
 | 名前 | 説明 | 構文 | 例 |
 | ---- | ----------- | ------ | ------- |
-| **RowNum** | テーブル・パーティションとソート順序に基づいた行のシーケンスを戻します。 | RowNum （PartitionBy （&lt; 式 >）, OrderBy （&lt; 式 >）） | RowNum （PartitionBy （除算）, OrderBy （時間）） |
-| **PartitionBy** | 指定された式に基づいて、入力行を異なるパーティションに分割します。 | PartitionBy （&lt; 式 >） | PartitionBy （除算） |
-| **OrderBy** | パーティションの結果を並べ替えます。 | OrderBy （&lt; 式 >） | OrderBy （age） |
-| **Desc** | 昇順ではなく降順で並べ替えることができます。 | Desc （OrderBy （&lt; 式 >）） | Desc （OrderBy （age）） |
+| **RowNum** | テーブルパーティションとソート順序に基づいて行のシーケンスを返します。 | RowNum(PartitionBy(&lt;式>), OrderBy(&lt;式>)) | RowNum(PartitionBy(division), OrderBy(time)) |
+| **PartitionBy** | 指定された式に基づいて、入力行を異なるパーティションに分割します。 | PartitionBy(&lt;式>) | PartitionBy(division) |
+| **OrderBy** | パーティションの結果を並べ替えます。 | OrderBy(&lt;式>) | OrderBy(age) |
+| **Desc** | OrderBy を使用すると、昇順ではなく降順で並べ替えることができます。 | Desc(OrderBy(&lt;式>)) | Desc(OrderBy(age)) |
 
 <!-- 
 
@@ -796,10 +796,10 @@ Window functions are not available.
 
 | 名前 | 説明 | 構文 | 例 |
 | ---- | ----------- | ------ | ------- |
-| **RowNum** | テーブル・パーティションとソート順序に基づいた行のシーケンスを戻します。 | RowNum （PartitionBy （&lt; 式 >）, OrderBy （&lt; 式 >）） | RowNum （PartitionBy （除算）, OrderBy （時間）） |
-| **PartitionBy** | 指定された式に基づいて、入力行を異なるパーティションに分割します。 | PartitionBy （&lt; 式 >） | PartitionBy （除算） |
-| **OrderBy** | パーティションの結果を並べ替えます。 | OrderBy （&lt; 式 >） | OrderBy （age） |
-| **Desc** | 昇順ではなく降順で並べ替えることができます。 | Desc （OrderBy （&lt; 式 >）） | Desc （OrderBy （age）） |
+| **RowNum** | テーブルパーティションとソート順序に基づいて行のシーケンスを返します。 | RowNum(PartitionBy(&lt;式>), OrderBy(&lt;式>)) | RowNum(PartitionBy(division), OrderBy(time)) |
+| **PartitionBy** | 指定された式に基づいて、入力行を異なるパーティションに分割します。 | PartitionBy(&lt;式>) | PartitionBy(division) |
+| **OrderBy** | パーティションの結果を並べ替えます。 | OrderBy(&lt;式>) | OrderBy(age) |
+| **Desc** | OrderBy を使用すると、昇順ではなく降順で並べ替えることができます。 | Desc(OrderBy(&lt;式>)) | Desc(OrderBy(age)) |
 
 <!-- 
 
