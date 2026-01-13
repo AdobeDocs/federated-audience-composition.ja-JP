@@ -38,7 +38,7 @@ ht-degree: 84%
 * Snowflake
 * Vertica Analytics
 
-データウェアハウスへの接続について詳しくは、[ 接続の概要 ](./connections/home.md) を参照してください。
+データウェアハウスへの接続について詳しくは、[&#x200B; 接続の概要 &#x200B;](./connections/home.md) を参照してください。
 
 +++
 

@@ -29,7 +29,7 @@ AI アシスタントは、アドビの概念をナビゲートして理解す�
 
 1. 上部バーのアイコンを選択して、AI アシスタントにアクセスします。
 
-   画面の右側のセクションに AI アシスタントが表示されます。「![ ライブ画像の代替テキスト ](assets/do-not-localize/Smock_FullScreen_18_N.svg " 展開 ")」を選択して、AI アシスタントウィンドウを展開できます。
+   画面の右側のセクションに AI アシスタントが表示されます。「![&#x200B; ライブ画像の代替テキスト &#x200B;](assets/do-not-localize/Smock_FullScreen_18_N.svg " 展開 ")」を選択して、AI アシスタントウィンドウを展開できます。
 
    ![](assets/do-not-localize/ai-assistant-open.png)
 

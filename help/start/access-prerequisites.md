@@ -29,7 +29,7 @@ ht-degree: 92%
 * Vertica Analytics
 * Microsoft Fabric
 
-これらのシステムとの接続を作成する方法については、[ 接続の概要 ](../connections/home.md) を参照してください。
+これらのシステムとの接続を作成する方法については、[&#x200B; 接続の概要 &#x200B;](../connections/home.md) を参照してください。
 
 ## サンドボックス
 
