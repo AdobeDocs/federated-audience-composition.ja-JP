@@ -1,0 +1,362 @@
+---
+title: Federated Audience Composition リリースノート
+description: Federated Audience コンポジションの最新のアップデートとリリースノートです。
+exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
+source-git-commit: e82f1c237927af983a32c848cb9d45d84f9cf3fe
+workflow-type: tm+mt
+source-wordcount: '1279'
+ht-degree: 95%
+
+---
+
+# リリースノート {#rn-new}
+
+[!DNL Federated Audience Composition] は、新機能、既存機能の強化、およびバグ修正を継続的に提供します。すべての変更は、このリリースノートに統合されます。[!DNL Federated Audience Composition] が [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。以下の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target="_blank"}を参照してください。
+
+## 2025年10月リリース {#fac-25-10}
+
+### 新機能 {#fac-25-10-feature}
+
+<!-- 
+<table>
+<thead>
+<tr>
+<th><strong>Availability for Adobe Experience Platform customers on Amazon Web Services (AWS)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now use Federated Audience Composition if your Experience Platform instance is on AWS.</p>
+<p>For more information about Experience Platform on AWS, please read the <a href="https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud">multi-cloud overview</a>.</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table> 
+-->
+
+<table>
+<thead>
+<tr>
+<th><strong>Google BigQuery と Snowflake の OAuth 認証</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>OAuth を使用して、Google BigQuery と Snowflake に接続できるようになりました。</p>
+<p>接続の作成について詳しくは、<a href="../connections/home.md#create">接続の概要</a>を参照してください。</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+## 2025年8月リリース {#fac-25-8}
+
+### 新機能 {#fac-25-08-feature}
+
+<table>
+<thead>
+<tr>
+<th><strong>スキーマ検出での複合キーのサポート</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>列を組み合わせて、スキーマの複合キーを作成できるようになりました。</p>
+<p>スキーマについて詳しくは、<a href="../data-modelling/schemas.md#create">スキーマの概要</a>を参照してください。</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>モデルのリンクで複数の結合を追加</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>モデルの 1 つのリンクで複数の結合を追加できるようになりました。</p>
+<p>モデルについて詳しくは、<a href="../data-modelling/models.md#create">モデルの概要</a>を参照してください。</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 機能強化 {#fac-25-8-improvements}
+
+このリリースには、次の機能強化が含まれています。
+
+* **`StringAgg` 関数**&#x200B;を追加
+
+  式エディターを使用する際に、Amazon Redshift Spectrum データベースに対して `StringAgg` 関数を使用できるようになりました。
+
+* **`Replace`関数**
+
+  `Replace` 関数の説明と構文が、ドキュメント内で明確になりました。
+
+### 互換性 {#fac-25-8-compatibility}
+
+* **Azure Synapse データベース**
+
+  PrivateLink または VPN を使用して、Azure Synapse データベースに安全に接続できるようになりました。詳しくは、アドビカスタマーケアにお問い合わせください。
+
+* **Oracle データベース**
+
+  Oracle データベースに安全に接続できるようになりました。詳しくは、アドビカスタマーケアにお問い合わせください。
+
+連合オーディエンス構成でサポートされるデータベースについて詳しくは、[接続の概要](../connections/home.md)を参照してください。
+
+## 2025年7月リリース {#fac-25-7}
+
+### 新機能 {#fac-25-07-feature}
+
+<table>
+<thead>
+<tr>
+<th><strong>新しいコネクター - Oracle</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Oracle コネクターが連合オーディエンス構成で使用できるようになりました。</p>
+<p>Oracle コネクターは、オーディエンスの作成およびオーディエンスのエンリッチメントのユースケースに使用できます。</p>
+<p>Oracle 接続について詳しくは、<a href="../connections/home.md#create">接続の概要</a>を参照してください。</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>構成アラート</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>アラートを登録して、構成の実行が成功または失敗したかについて通知を受け取ることができるようになりました。</p>
+<p>コンポジションの実行に関する通知の購読について詳しくは、<a href="../compositions/create-composition.md#alerts"> コンポジションガイドの作成 </a> を参照してください。</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 機能強化 {#fac-25-07-improvements}
+
+このリリースには、次の機能強化が含まれています。
+
+* **サーバーで使用可能な文字数を増加**
+
+  連合データベースを設定する際に、以前の 80 文字ではなく、最大 255 文字を使用できるようになりました。
+
+## 2025年6月リリース {#fac-25-6}
+
+### 機能強化 {#fac-25-06-improvements}
+
+このリリースには、次の機能強化が含まれています。
+
+* **Adobe Healthcare Shield のお客様向けの一般公開**
+
+  Adobe Healthcare Shield のお客様は、6月末までに、オーディエンス作成、エンリッチメントおよびプロファイルエンリッチメントのユースケースで連合オーディエンス構成を使用できるようになります。
+
+  連合オーディエンス構成のプライバシーとセキュリティについて詳しくは、[データガバナンス、プライバシーおよびセキュリティガイド](/help/governance-privacy-security/home.md)を参照してください。
+
+* **オブジェクトレベルのアクセス制御**
+
+  連合オーディエンス構成では、指定したコンポジションにアクセスラベルを適用する、オブジェクトレベルのアクセス制御がサポートされるようになりました。
+
+  オブジェクトレベルのアクセスラベルの使用について詳しくは、[構成ガイド](/help/compositions/home.md)を参照してください。
+
+* **デフォルトの役割**
+
+  デフォルトの役割の 1 つを使用して、連合オーディエンス構成アクセスのユーザー権限を管理できるようになりました。
+
+  デフォルトの役割について詳しくは、[連合オーディエンス構成へのアクセスガイド](/help/governance-privacy-security/access-control.md)を参照してください。
+
+* **プロファイルエンリッチメントのユースケースでの増分更新**
+
+  プロファイルを保存アクティビティで、増分更新がサポートされるようになりました。増分更新を使用すると、外部データウェアハウスのデータでプロファイルを強化しながら、増分データのクエリと更新を実行できます。
+
+  プロファイルを保存アクティビティの使用に関する詳細については、アクティビティガイドの [ プロファイルの保存 ](/help/compositions/activities.md#save-profiles) の節を参照してください。
+
+## 2025年5月リリース {#fac-25-5}
+
+### 新機能 {#fac-25-05-feature}
+
+<table>
+<thead>
+<tr>
+<th><strong>データモデルのキャンバス表示 - 一般公開</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>キャンバス表示を使用したデータモデルをすべてのユーザーが利用できるようになりました。</p>
+<p>「データモデルのキャンバス表示」セクションでは、既存の表形式表示に加え、データモデルとそのリンクのビジュアライゼーションをキャンバスレイアウトで表示でき、エクスペリエンスが向上します。 </p>
+<p>キャンバス表示について詳しくは、<a href="../data-modelling/models.md">データモデルの概要</a>を参照してください。</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 機能強化 {#fac-25-5-improvements}
+
+このリリースには、次の機能強化が含まれています。
+
+* **役割ベースのアクセス制御**
+
+  5月のリリース以降、[!DNL Federated Audience Composition] は、アクセス制御に関する新しいきめ細かい権限をサポートします。ユーザーはこれらの権限をユーザーの役割に割り当てることで、[!DNL Federated Audience Composition] へのアクセスをより正確にすることができます。
+
+  新しい権限について詳しくは、[連合オーディエンス構成アクセスガイド](/help/governance-privacy-security/access-control.md)を参照してください。
+
+## 2025年4月リリース {#fac-25-4}
+
+### 新機能 {#fac-25-04-feature}
+
+<table>
+<thead>
+<tr>
+<th><strong>データモデルのキャンバス表示 - ベータ版</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>「データモデルのキャンバス表示」セクションでは、既存の表形式表示に加え、データモデルとそのリンクのビジュアライゼーションをキャンバスレイアウトで表示でき、エクスペリエンスが向上します。 </p>
+<p>キャンバス表示を使用したデータモデルは現在、ベータ版として一部のユーザーのみが使用できます。</p>
+<p>詳しくは、<a href="../data-modelling/models.md">詳細なドキュメント</a>を参照してください。</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>製品知識のための AI アシスタントのサポート</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>AI アシスタントは、アドビの概念をナビゲートして理解し、特定の環境の運用上のインサイトを得るために設計されたユーザーインターフェイス機能です。連合オーディエンス構成を含め、Adobe Experience Cloud 全体の複数の製品で使用できます。</p>
+<p>詳しくは、<a href="../start/ai-assistant.md">詳細なドキュメント</a>を参照してください。</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>プロファイルを保存アクティビティ</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p> 連合オーディエンス構成では、プロファイルエンリッチメントのユースケースがサポートされるようになり、顧客は外部データウェアハウスのデータを使用して既存の Experience Platform プロファイルを強化できるようになりました。
+</p>
+<p>詳しくは、 <a href="../compositions/activities.md#save-profiles">詳細なドキュメント</a>を参照してください。</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 機能強化 {#fac-25-4-improvements}
+
+このリリースには、次の機能強化が含まれています。
+
+* **データモデル名**
+
+  オーディエンスメニューの「**連合構成**」タブに ID の代わりにデータモデル名が表示されるようになり、明確さと全体的な使いやすさが向上しました。
+
+* **オーディエンス**
+
+  ユーザーが関連付けられていないデータモデルを選択した際、オーディエンスメニューには、選択したデータモデルの名前またはラベルが表示されるようになりました。
+
+* **大規模なオーディエンスのエクスポート**
+
+  連合オーディエンス構成は、ファイルサイズが 1 GB を超える大規模なオーディエンスのエクスポートをサポートするようになりました。
+
+* **オーディエンスを保存アクティビティ**
+
+  **オーディエンスを保存**アクティビティにメモが追加され、データ管理者と共同作業してオーディエンスの作成とエンリッチメント中に作成された新しいスキーマとデータセットにガバナンスラベルを適用するようユーザーに通知します。
+  [データ使用ラベルの詳細情報を参照してください](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/labels/user-guide)
+
+### 互換性 {#fac-25-4-compat}
+
+* **Amazon Redshift の安全な接続**
+
+  この新しいリリースでは、連合オーディエンス構成が、Amazon Redshift データベースへの安全なプライベートリンク接続をサポートします。[詳細情報](../connections/home.md#amazon-redshift)
+
+* **Google BigQuery**
+
+  この新しいリリースでは、連合オーディエンス構成が、Google BigQuery データベースへの安全な VPN 接続をサポートします。[詳細情報](../connections/home.md#google-bigquery)
+
+## 2025年3月リリース {#fac-25-3}
+
+### 機能強化 {#fac-25-3-improvements}
+
+このリリースには、次の機能強化が含まれています。
+
+* **連合オーディエンス構成権限**
+
+  3 月リリース以降、[!DNL Federated Audience Composition] では、**連合データを管理**&#x200B;権限を付与されたユーザーに対して&#x200B;**連合データ管理**&#x200B;および&#x200B;**連合構成**&#x200B;インターフェイスへのアクセス権の適用を開始する予定です。
+
+  [!DNL Federated Audience Composition] ユーザーインターフェイスに引き続きアクセスするには、管理者に連絡して、自分の役割にこの権限を追加してもらうことをお勧めします。
+
+  この権限を割り当てる方法について詳しくは、[詳細なドキュメント](/help/governance-privacy-security/access-control.md)を参照してください。
+
+### 互換性 {#fac-25-3-compat}
+
+* **Databricks 接続**
+
+  この新しいリリースでは、連合オーディエンス構成が、Databricks データベース接続のプライベートリンク接続をサポートするようになりました。
+これには、プライベートリンク経由で Amazon Web Services（AWS）でホストされている Databricks データベースへの安全な接続と、VPN 経由で Microsoft Azure でホストされている Databricks データベースへの安全な接続が含まれます。[詳細情報](../connections/home.md#databricks)
+
+* **B2B CDP のお客様のサポート**
+
+  企業間（B2B）顧客データプラットフォーム（CDP）のお客様は、個人ベースのオーディエンスのユースケースで連合オーディエンス構成を使用できるようになりました。
+
+* **Snowflake の安全な接続**
+
+  この新しいリリースでは、連合オーディエンス構成が、Microsoft Azure でホストされている Snowflake データベースへの安全なプライベートリンク接続をサポートします。[詳細情報](../connections/home.md#snowflake)
+
+## 2025年2月リリース {#fac-25-2}
+
+このリリースには、次の変更が含まれています。
+
+* **Microsoft Fabric のサポート**
+
+  連合オーディエンス構成を通じて Microsoft Fabricデータベースへの接続を確立できるようになりました。[詳細情報](../connections/home.md)
+
+* **Amazon Redshift Spectrum のサポート**
+
+  Amazon Redshift データベース接続で Amazon Redshift Spectrum がサポートされるようになりました。[詳細情報](../connections/home.md#amazon-redshift)
+
+* **スキーマ作成エクスペリエンスの強化**
+
+  スキーマの作成プロセスは、より直感的で操作しやすいように設計された、更新されたユーザーインターフェイスを通じて改善されました。これらの機能強化により、データ担当者はよりスムーズで効率的にデータモデルを開発できます。[詳細情報](../data-modelling/schemas.md)
+
+* **Databricks に対するオーディエンスエンリッチメントのサポート**
+
+  オーディエンスを読み取りフローで Databricks を使用できるようになりました。これにより、Databricks データベースのアクティビティが有効になり、新しい宛先として設定できます。[詳細情報](../connections/destinations.md)

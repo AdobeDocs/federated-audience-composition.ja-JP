@@ -2,8 +2,8 @@
 title: 連合オーディエンス構成でのアクセス制御
 description: 連合オーディエンス構成でユーザーのデータアクセスを管理する方法について説明します。
 exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
-source-git-commit: a26e5a2b106426113764d3f2f668ddfbbff85b01
-workflow-type: ht
+source-git-commit: 65a69bf857ec1a0701534693600a8c6340179838
+workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 100%
 
@@ -80,4 +80,4 @@ Adobe Experience Platform 連合オーディエンス構成を購入すると、
 
 アクセスラベルを適用することで、特定の構成へのアクセスを管理できます。
 
-構成にアクセスラベルを適用する方法の詳細については、構成ガイドの[アクセスラベルの適用](/help/compositions/gs-compositions.md#access-labels)の節を参照してください。
+構成にアクセスラベルを適用する方法の詳細については、構成ガイドの[アクセスラベルの適用](/help/compositions/home.md#access-labels)の節を参照してください。

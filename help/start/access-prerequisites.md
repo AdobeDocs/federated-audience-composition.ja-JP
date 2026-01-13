@@ -2,10 +2,10 @@
 title: 連合オーディエンス構成の前提条件とガードレール
 description: 連合オーディエンス構成の前提条件、権限およびガードレールについて説明します
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: c133ddb2b1d2a75e7f9614d7623fad63aa24eb55
-workflow-type: ht
-source-wordcount: '360'
-ht-degree: 100%
+source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
+workflow-type: tm+mt
+source-wordcount: '363'
+ht-degree: 92%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 * Vertica Analytics
 * Microsoft Fabric
 
-これらのシステムとの接続を作成する方法について詳しくは、[このページ](../connections/home.md)を参照してください。
+これらのシステムとの接続を作成する方法については、[ 接続の概要 ](../connections/home.md) を参照してください。
 
 ## サンドボックス
 
@@ -39,7 +39,7 @@ ht-degree: 100%
 
 1. 連合オーディエンス構成から、**[!UICONTROL 管理]**&#x200B;の下にある&#x200B;**[!UICONTROL ライセンス使用状況]**&#x200B;メニューにアクセスします。
 
-1. **[!UICONTROL データ取り出しの合計量]**&#x200B;の ![](assets/do-not-localize/Smock_InfoOutline_18_N.svg) アイコンをクリックして、サンドボックスのプロパティにアクセスします。
+1. ![](assets/do-not-localize/Smock_InfoOutline_18_N.svg) データ出力の合計量 **[!UICONTROL から]** のアイコンを選択して、サンドボックスのプロパティにアクセスします。
 
    ![](assets/sandbox_1.png)
 
