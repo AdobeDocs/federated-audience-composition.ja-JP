@@ -53,7 +53,7 @@ Federated Audience Composition 内のコンポジションは、次の部分で�
 | **[!UICONTROL 一時停止]** | 構成の実行が一時停止されています。 |
 | **[!UICONTROL エラー]** | 構成の実行でエラーが発生しました。エラーに関する詳細情報を表示するには、構成を開き、ログにアクセスします。 |
 
-コンポジションの開始または停止方法については、[&#x200B; コンポジションを作成ガイド &#x200B;](./create-composition.md#monitor-logs) を参照してください。
+コンポジションの開始または停止方法については、[ コンポジションを作成ガイド ](./create-composition.md#monitor-logs) を参照してください。
 
 ![使用可能な構成のリストが表示されています。](assets/compositions/compositions-list.png){zoomable="yes"}{width="70%"}
 
@@ -82,9 +82,9 @@ Federated Audience Composition 内のコンポジションは、次の部分で�
 
 アクセスラベルとデータガバナンスラベルについて詳しくは、[データ使用ラベル用語集](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/labels/reference)を参照してください。
 
-## の作成 {#create}
+##  の作成 {#create}
 
-オーディエンス構成を使用して、Adobe Experience Platform用の構成を作成できます。 詳しくは、[&#x200B; コンポジションガイドの作成 &#x200B;](./create-composition.md) を参照してください。
+オーディエンス構成を使用して、Adobe Experience Platform用の構成を作成できます。 詳しくは、[ コンポジションガイドの作成 ](./create-composition.md) を参照してください。
 
 ## 次の手順
 

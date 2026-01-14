@@ -62,7 +62,7 @@ ht-degree: 98%
 
 連合オーディエンス構成でスキーマを作成するには、「**[!UICONTROL 連合データ]**」セクションで「**[!UICONTROL モデル]**」を選択します。「**[!UICONTROL スキーマ]**」タブで、「**[!UICONTROL スキーマを作成]**」を選択します。
 
-![&#x200B; 「スキーマを作成」ボタンは、「連合オーディエンス構成スキーマ」セクションでハイライト表示されます。](assets/schemas/schema_create.png){zoomable="yes"}
+![ 「スキーマを作成」ボタンは、「連合オーディエンス構成スキーマ」セクションでハイライト表示されます。](assets/schemas/schema_create.png){zoomable="yes"}
 
  **[!UICONTROL 連合データベースを選択]**&#x200B;ポップオーバーが表示されます。このポップオーバーで、「[ソースデータベース](/help/connections/home.md)」を選択し、「**[!UICONTROL 次へ]**」をクリックします。
 
