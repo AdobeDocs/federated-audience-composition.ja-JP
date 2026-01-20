@@ -4,9 +4,9 @@ title: 外部データを使用して Adobe Experience Platform オーディエ�
 description: 連合オーディエンス構成宛先を使用して、連合データベースのデータで Adobe Experience Platform オーディエンスを絞り込み、強化する方法について説明します。
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
 source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '610'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Adobe Experience Platform オーディエンスを連合オーディエンス構
 
 1. Adobe Experience Platform 宛先カタログにアクセスし、連合オーディエンス構成宛先を選択します。
 
-   右側のパネルで「**[!UICONTROL 新しい宛先を設定]**」を選択します。
+   右側のパネルで、「**[!UICONTROL 新しい宛先を設定]**」を選択します。
 
    ![](assets/destination-new.png)
 
@@ -44,7 +44,7 @@ Adobe Experience Platform オーディエンスを連合オーディエンス構
    * Databricks
    * Microsoft Fabric
 
-1. 接続する **[!UICONTROL 連合データベース]** を選択し、続いて **[!UICONTROL 次へ]** を選択します。
+1. 接続する&#x200B;**[!UICONTROL 連合データベース]**&#x200B;を選択し、次に「**[!UICONTROL 次へ]**」を選択します。
 
    ![](assets/destination-configure.png)
 
@@ -54,9 +54,9 @@ Adobe Experience Platform オーディエンスを連合オーディエンス構
 
 1. **[!UICONTROL ガバナンスポリシーと実施アクション]**&#x200B;手順では、データガバナンスポリシーを定義し、オーディエンスが送信されてアクティブになった際に、使用されるデータが準拠していることを確認できます。
 
-   宛先に対する目的のマーケティングアクションの選択が終了したら、「**[!UICONTROL 作成]**」を選択します。
+   宛先に対する目的のマーケティングアクションの選択が完了したら、「**[!UICONTROL 作成]**」を選択します。
 
-1. 宛先への新しい接続が作成されます。オーディエンスをアクティベートして、宛先に送信できるようになりました。これを行うには、リストからテンプレートを選択し、続けて **[!UICONTROL 次へ]** を選択します
+1. 宛先への新しい接続が作成されます。オーディエンスをアクティベートして、宛先に送信できるようになりました。これを行うには、リストから選択して、次に「**[!UICONTROL 次へ]**」を選択します。
 
    ![](assets/destination-activate.png)
 
@@ -81,7 +81,7 @@ Adobe Experience Platform オーディエンスを連合オーディエンス構
 
    ![](assets/destination-attributes.png)
 
-1. 宛先設定とオーディエンス設定を確認し、「**[!UICONTROL 完了]**」を選択します。
+1. 宛先設定とオーディエンス設定を確認し、「**[!UICONTROL 終了]**」を選択します。
 
    ![](assets/destination-review.png)
 

@@ -1,8 +1,8 @@
 ---
 source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '483'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 # 記事のコントリビューション
@@ -26,8 +26,8 @@ ht-degree: 93%
 マイナーな更新を投稿しようとしている場合：
 
 1. 編集するトピックに移動します。
-2. 「このコンテンツは役に立ちましたか？」ブラウザーウィンドウの下部に表示されるバナーで、「**詳細フィードバックオプション**」を選択します。
-3. **編集の提案** を選択し、GitHub UI で変更内容を含むプルリクエスト（PR）を送信します。
+2. 「このコンテンツは役に立ちましたか？」バナー（ブラウザーウィンドウの下部に表示される）で、「**詳細フィードバックオプション**」を選択します。
+3. 「**編集を提案**」を選択し、変更内容を記載したプルリクエスト（PR）を GitHub UI で送信します。
 
    詳しくは、全般的な事項について説明した[アドビドキュメントのコントリビューターガイド](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=ja)を参照してください。
 

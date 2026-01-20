@@ -3,7 +3,7 @@ title: 連合オーディエンス構成でのアクセス制御
 description: 連合オーディエンス構成でユーザーのデータアクセスを管理する方法について説明します。
 exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
 source-git-commit: 65a69bf857ec1a0701534693600a8c6340179838
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '606'
 ht-degree: 100%
 

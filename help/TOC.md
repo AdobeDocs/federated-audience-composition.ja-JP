@@ -3,9 +3,9 @@ user-guide-title: Experience Platform 連合オーディエンス構成
 title: Experience Platform 連合オーディエンス構成ドキュメント
 breadcrumb-title: Experience Platform 連合オーディエンス構成
 source-git-commit: 93f4a16d00c71059672c4c6a51ff36debb6c9cee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '110'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 82%
 # Experience Platform 連合オーディエンス構成ドキュメント {#using}
 
 - [Experience Platform 連合オーディエンス構成ドキュメント](landing.md)
-- [Federated Audience Composition の概要](./overview.md)
+- [連合オーディエンス構成の概要](./overview.md)
 - 連合オーディエンス構成の基本を学ぶ {#start}
    - [前提条件とガードレール](start/access-prerequisites.md)
    - [オーディエンスの操作](start/audiences.md)
@@ -23,7 +23,7 @@ ht-degree: 82%
    - [アクセス制御](governance-privacy-security/access-control.md)
 - 接続 {#connections}
    - [接続の概要](connections/home.md)
-   - [データアクセス権限マトリックス](connections/fda-rights.md)
+   - [データアクセス権マトリックス](connections/fda-rights.md)
    - [外部データを使用して Adobe Experience Platform オーディエンスを強化](connections/destinations.md)
 - データモデルとスキーマ {#models}
    - [スキーマの概要](data-modelling/schemas.md)

@@ -4,13 +4,13 @@ title: 構成の基本を学ぶ
 description: 構成の開始方法について説明します
 exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
 source-git-commit: e82f1c237927af983a32c848cb9d45d84f9cf3fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '646'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
-# コンポジションの概要
+# 構成の概要
 
 >[!AVAILABILITY]
 >
@@ -27,10 +27,10 @@ ht-degree: 85%
 
 ## 構成コンポーネント {#components}
 
-Federated Audience Composition 内のコンポジションは、次の部分で構成されます。
+連合オーディエンス構成内の構成は、次の部分で構成されます。
 
-- **[!UICONTROL アクティビティ]**：アクティビティは実行されるタスクであり、コンポジション内にアイコンで表されます。
-- **[!UICONTROL トランジション]**：トランジションは、ソースアクティビティを宛先アクティビティにリンクし、そのシーケンスを定義します。 トランジションに含まれる情報は、ワークテーブルに保存されます。 各構成は、複数のワークテーブルを使用します。これらのテーブルで伝えられるデータは、構成のライフサイクルを通じて使用できます。
+- **[!UICONTROL アクティビティ]**：アクティビティは実行されるタスクで、構成内にアイコンで表されます。
+- **[!UICONTROL トランジション]**：トランジションは、ソースアクティビティを宛先アクティビティにリンクし、そのシーケンスを定義します。トランジションに含まれる情報は、作業用テーブル内に保存されます。各構成は、複数のワークテーブルを使用します。これらのテーブルで伝えられるデータは、構成のライフサイクルを通じて使用できます。
 
 ## 構成へのアクセスと管理 {#access}
 
@@ -53,7 +53,7 @@ Federated Audience Composition 内のコンポジションは、次の部分で�
 | **[!UICONTROL 一時停止]** | 構成の実行が一時停止されています。 |
 | **[!UICONTROL エラー]** | 構成の実行でエラーが発生しました。エラーに関する詳細情報を表示するには、構成を開き、ログにアクセスします。 |
 
-コンポジションの開始または停止方法については、[&#x200B; コンポジションを作成ガイド &#x200B;](./create-composition.md#monitor-logs) を参照してください。
+構成を開始または停止する方法について詳しくは、[構成の作成ガイド](./create-composition.md#monitor-logs)を参照してください。
 
 ![使用可能な構成のリストが表示されています。](assets/compositions/compositions-list.png){zoomable="yes"}{width="70%"}
 
@@ -82,9 +82,9 @@ Federated Audience Composition 内のコンポジションは、次の部分で�
 
 アクセスラベルとデータガバナンスラベルについて詳しくは、[データ使用ラベル用語集](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/labels/reference)を参照してください。
 
-## の作成 {#create}
+## 作成 {#create}
 
-オーディエンス構成を使用して、Adobe Experience Platform用の構成を作成できます。 詳しくは、[&#x200B; コンポジションガイドの作成 &#x200B;](./create-composition.md) を参照してください。
+オーディエンス構成を使用して、Adobe Experience Platform の構成を作成できます。詳しくは、[構成の作成ガイド](./create-composition.md)を参照してください。
 
 ## 次の手順
 

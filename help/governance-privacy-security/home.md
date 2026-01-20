@@ -3,7 +3,7 @@ title: 連合オーディエンス構成のプライバシーとセキュリテ�
 description: 連合オーディエンス構成で、データガバナンス、同意の適用、アクセス制御、データ暗号化、プライバシーコンプライアンスなどの機能を含む、ユーザーデータのプライバシーとセキュリティを処理する方法について説明します。
 exl-id: 677e26e7-1294-4f62-a5ce-17b65e84c65e
 source-git-commit: 65a69bf857ec1a0701534693600a8c6340179838
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1182'
 ht-degree: 100%
 

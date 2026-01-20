@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: Modelerのクエリの概要
-description: クエリモデラーを使用して、データベースをフィルタリングするためのルールを定義する方法を説明します。
+title: クエリモデラーの概要
+description: クエリモデラーを使用して、データベースをフィルタリングするルールを定義する方法について説明します。
 exl-id: b77b9d1c-61d5-4d6d-9d82-3c72bc9c932a
 source-git-commit: 93f4a16d00c71059672c4c6a51ff36debb6c9cee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '348'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 

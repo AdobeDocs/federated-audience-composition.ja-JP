@@ -4,9 +4,9 @@ title: オーディエンスの操作
 description: オーディエンスの操作方法について説明します
 exl-id: c6507624-1dc9-43f9-a3ad-c3dc9689f8c7
 source-git-commit: ad6ba3e9e806065c05bb4b67ef94dffc7e6b45cd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '309'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Experience Platform 連合オーディエンス構成を使用すると、[構�
 
 構成を実行すると、結果のオーディエンスが外部オーディエンスとして Adobe Experience Platform に保存され、Adobe Real-time Customer Data Platform や Adobe Journey Optimizer で使用できるようになります。
 
-これらのオーディエンスは、Adobe Experience Platform でサポートされている任意の宛先に対してアクティブ化できます。[Adobe Experience Platform](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/home){target="_blank"} の宛先を操作する方法を説明します
+これらのオーディエンスは、Adobe Experience Platform でサポートされている任意の宛先に対してアクティブ化できます。宛先の操作について詳しくは、[Adobe Experience Platform](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/home){target="_blank"} を参照してください
 
 >[!NOTE]
 >
