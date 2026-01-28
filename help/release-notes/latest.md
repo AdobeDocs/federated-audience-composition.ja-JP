@@ -21,11 +21,11 @@ Federated Audience Composition の 1 月のリリースでは、次の新機能�
 
 | Azure Synapse サービスプリンシパル認証のサポート |
 | --- |
-| サービスプリンシパルを使用して、Azure Synapseで Federated Audience Composition に接続できるようになりました。 接続の作成について詳しくは、[ 接続の概要 ](../connections/home.md#create) を参照してください。 |
+| サービスプリンシパルを使用して、Azure Synapseで Federated Audience Composition に接続できるようになりました。 接続の作成について詳しくは、[&#x200B; 接続の概要 &#x200B;](../connections/home.md#create) を参照してください。 |
 
 | Amazon Web Services（AWS）のAdobe Experience Platformのお客様向けの提供 |
 | --- |
-| Experience Platform インスタンスがAWS上にある場合、Federated Audience Composition を使用できるようになりました。 AWSのExperience Platformについて詳しくは、[ マルチクラウドの概要 ](https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud) を参照してください。 |
+| Experience Platform インスタンスがAWS上にある場合、Federated Audience Composition を使用できるようになりました。 AWSのExperience Platformについて詳しくは、[&#x200B; マルチクラウドの概要 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud) を参照してください。 |
 
 ### 機能強化 {#fac-26-01-improvements}
 
@@ -35,4 +35,4 @@ Federated Audience Composition の 1 月のリリースでは、次の新機能�
 
   コンポジションで **オーディエンスを保存** アクティビティを使用する際に、データの有効期限を設定できるようになりました。
 
-  Federated Audience Composition のデータ有効期限について詳しくは、[ アクティビティガイド ](../compositions/activities.md#save-audience) を参照してください。
+  Federated Audience Composition のデータ有効期限について詳しくは、[&#x200B; アクティビティガイド &#x200B;](../compositions/activities.md#save-audience) を参照してください。

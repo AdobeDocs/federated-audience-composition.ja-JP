@@ -104,7 +104,7 @@ Azure Synapse Analytics を選択した後に、次の詳細を追加できま�
 
 Azure Portal 内で、まず新しいアプリ登録を作成する必要があります。 アプリケーションに一意の名前を付けた後、「**登録**」を選択します。 **概要** ページが表示されます。 **アプリケーション（クライアント） ID** と **ディレクトリ（テナント） ID** の値を必ずメモしてください。
 
-![ 概要ページ内のアプリケーション（クライアント） ID がハイライト表示されている様子。](/help/connections/assets/home/azure-client-id.png)
+![&#x200B; 概要ページ内のアプリケーション（クライアント） ID がハイライト表示されている様子。](/help/connections/assets/home/azure-client-id.png)
 
 新しく登録されたアプリケーション内で、「証明書と秘密鍵 **を選択し** す。 ここから、「**クライアントシークレット** セクション内の **新しいクライアントシークレット** を選択して、新しいクライアントシークレットを作成します。 説明と有効期限を入力したら、「**追加**」を選択して、クライアントシークレットを生成します。
 
@@ -114,7 +114,7 @@ Azure Portal 内で、まず新しいアプリ登録を作成する必要があ�
 
 クライアントシークレットを生成したら、リソースに **サービスプリンシパル** ID を付与したことを確認する必要があります。
 
-リソースへの ID の割り当てについて詳しくは、[Azure Synapse Analytics の管理 ID ガイド ](https://learn.microsoft.com/en-us/azure/synapse-analytics/synapse-service-identity) を参照してください。
+リソースへの ID の割り当てについて詳しくは、[Azure Synapse Analytics の管理 ID ガイド &#x200B;](https://learn.microsoft.com/en-us/azure/synapse-analytics/synapse-service-identity) を参照してください。
 
 Azure 側の設定がすべて完了したので、Federated-Audience-Composition 側の設定をセットアップできるようになりました。
 
