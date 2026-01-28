@@ -2,10 +2,10 @@
 title: よくある質問
 description: Adobe Experience Platform 連合オーディエンス構成に関するよくある質問です
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: e82f1c237927af983a32c848cb9d45d84f9cf3fe
+source-git-commit: 007192281ac7c853972a3405ea1d4069af847de1
 workflow-type: tm+mt
-source-wordcount: '928'
-ht-degree: 84%
+source-wordcount: '927'
+ht-degree: 83%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 84%
 * Snowflake
 * Vertica Analytics
 
-データウェアハウスへの接続について詳しくは、[&#x200B; 接続の概要 &#x200B;](./connections/home.md) を参照してください。
+データウェアハウスへの接続について詳しくは、[ 接続の概要 ](./connections/home.md) を参照してください。
 
 +++
 
@@ -106,7 +106,7 @@ ht-degree: 84%
 
 +++ 回答
 
-いいえ、現在のバージョンでは、連合オーディエンス構成のオーディエンスを削除できません。
+はい、Audience Portal 内の Federated Audience Composition オーディエンスを削除できます。
 
 +++
 
