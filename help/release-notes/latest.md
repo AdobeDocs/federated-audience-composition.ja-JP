@@ -25,7 +25,7 @@ Federated Audience Composition の 1 月のリリースでは、次の新機能�
 
 | Amazon Web Services（AWS）のAdobe Experience Platformのお客様向けの提供 |
 | --- |
-| Experience Platform インスタンスがAWS上にある場合、Federated Audience Composition を使用できるようになりました。 AWSのExperience Platformについて詳しくは、[&#x200B; マルチクラウドの概要 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud) を参照してください。 |
+| Experience Platform インスタンスがAWS上にある場合、Federated Audience Composition を使用できるようになりました。 AWSのExperience Platformについて詳しくは、[&#x200B; マルチクラウドの概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/multi-cloud) を参照してください。 |
 
 ### 機能強化 {#fac-26-01-improvements}
 
