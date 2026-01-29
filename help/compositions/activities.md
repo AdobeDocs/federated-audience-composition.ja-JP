@@ -2,7 +2,7 @@
 audience: end-user
 title: アクティビティの概要
 description: 連合オーディエンス構成内で使用できる様々なアクティビティとトランジションについて説明します。
-source-git-commit: 04f4edafd1c687b94bf5617458edf0866bba16fa
+source-git-commit: 8e6bd50191afa2bdeb420186d9eb65347f063bb9
 workflow-type: tm+mt
 source-wordcount: '4662'
 ht-degree: 99%
@@ -23,7 +23,7 @@ ht-degree: 99%
 
 ターゲティングアクティビティを使用すると、構成のオーディエンスを構成する要素を定義できます。
 
-#### オーディエンスを作成
+#### オーディエンスを作成 {#build-audience}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_build_audience_audienceselector"
@@ -60,7 +60,7 @@ ht-degree: 99%
 
 +++
 
-#### データソースを変更
+#### データソースを変更 {#change-data-source}
 
 **データソースを変更**&#x200B;アクティビティを使用すると、構成で使用されているデータソースを変更できます。
 
@@ -80,7 +80,7 @@ ht-degree: 99%
 
 +++
 
-#### ディメンションを変更
+#### ディメンションを変更 {#change-dimension}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_dimension_complement"
@@ -104,7 +104,7 @@ ht-degree: 99%
 
 +++
 
-#### 結合
+#### 結合 {#combine}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine"
@@ -206,7 +206,7 @@ ht-degree: 99%
 
 +++
 
-#### 重複の除外
+#### 重複の除外 {#deduplication}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_fields"
@@ -251,7 +251,7 @@ ht-degree: 99%
 
 +++
 
-#### エンリッチメント
+#### エンリッチメント {#enrichment}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment"
@@ -294,7 +294,7 @@ ht-degree: 99%
 
 +++
 
-#### 紐付け
+#### 紐付け {#reconciliation}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation"
@@ -375,7 +375,7 @@ ht-degree: 99%
 
 +++
 
-#### オーディエンスを保存
+#### オーディエンスを保存 {#save-audience}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_save_audience"
@@ -415,7 +415,7 @@ ht-degree: 99%
 
 **オーディエンスを保存**&#x200B;アクティビティを構成に追加した後、新しく作成したオーディエンスの名前を指定できます。
 
-![](./assets/activities/save-audience.png)
+![](./assets/activities/save-audience.png){zoomable="yes" width="30%"}
 
 これで、マッピングを指定して、新しく作成されたオーディエンスに転送するフィールドを選択できます。「**オーディエンスマッピングを追加**」を選択し、ソースオーディエンスフィールドとターゲットオーディエンスフィールドを選択して、必要な回数だけ繰り返します。
 
@@ -425,7 +425,7 @@ ht-degree: 99%
 
 +++
 
-#### 分割
+#### 分割 {#split}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split"
@@ -506,7 +506,7 @@ ht-degree: 99%
 
 フロー制御アクティビティを使用すると、構成の組織と調整を定義できます。
 
-#### AND 結合
+#### AND 結合 {#and-join}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_and-join"
@@ -525,11 +525,11 @@ ht-degree: 99%
 
 +++
 
-#### 終了
+#### 終了 {#end}
 
 **終了**&#x200B;アクティビティは、構成の終了をグラフィカルに示すものであり、機能には影響はありません。
 
-#### 分岐
+#### 分岐 {#fork}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_fork"
@@ -551,7 +551,7 @@ ht-degree: 99%
 
 +++
 
-#### スケジューラー
+#### スケジューラー {#scheduler}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_scheduler"
@@ -651,7 +651,7 @@ ht-degree: 99%
 
 +++
 
-#### 待機
+#### 待機 {#wait}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_wait"
