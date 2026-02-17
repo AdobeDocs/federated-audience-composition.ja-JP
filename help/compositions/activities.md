@@ -2,10 +2,11 @@
 audience: end-user
 title: アクティビティの概要
 description: 連合オーディエンス構成内で使用できる様々なアクティビティとトランジションについて説明します。
-source-git-commit: 8e6bd50191afa2bdeb420186d9eb65347f063bb9
+exl-id: 6ef5c165-c4fa-437b-be16-d42cb2f7991b
+source-git-commit: 177efcf5f04d152a4e27ed553dac3f97f4613e11
 workflow-type: tm+mt
-source-wordcount: '4662'
-ht-degree: 99%
+source-wordcount: '5001'
+ht-degree: 94%
 
 ---
 
@@ -20,6 +21,81 @@ ht-degree: 99%
 連合オーディエンス構成内で使用するアクティビティには、ターゲティングアクティビティとフロー制御アクティビティの **2** つの異なるタイプがあります。
 
 ### ターゲティングアクティビティ {#targeting}
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset"
+>title="フィールドを強化"
+>abstract="フィールドのエンリッチメント アクティビティを使用すると、外部ウェアハウスのデータを統合してExperience Platform スキーマを強化し、追加の属性でExperience Platform スキーマを強化できます。 "
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primaryidentitynamespace"
+>title="プライマリの名前空間フィールドの識別"
+>abstract="プライマリ ID の名前空間。 名前空間は、プライマリ ID の分類を説明するコンテキストを提供するのに役立ちます。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_selectaepschema"
+>title="Experience Platform スキーマを選択"
+>abstract="エンリッチメントするExperience Platform スキーマを選択します。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_updatemode"
+>title="フィールド更新モードを強化"
+>abstract="フィールドのエンリッチメント アクティビティで使用できる更新モードには、完全更新と増分更新があります。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_updatemode_full"
+>title="完全更新"
+>abstract="完全更新モードは、選択したスキーマの属性の完全なセットを更新します。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_updatemode_incremental"
+>title="増分更新"
+>abstract="増分更新モードでは、前回のエンリッチメント実行以降に変更されたフィールドが更新されます。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primaryidentityfield"
+>title="プライマリ ID フィールド"
+>abstract="プライマリ ID フィールドは、エンリッチメントのためにプロファイルを結合する際の信頼できるソースを示します。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_requiredfieldscheck"
+>title="必須フィールドの条件"
+>abstract="必須フィールドは、データをエクスポートする際に、すべてのプロファイルまたはレコードに入力する必要がある属性です。必須フィールドが欠落している場合、エクスポートは完了または有効になりません。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primaryidentitycheck"
+>title="プライマリ ID フィールドの条件"
+>abstract="各プロファイルまたはレコードの一意の ID。これにより、すべてのレコードを明確に認識して一致させることができ、データの重複を防ぐことができます。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_aepschemalist"
+>title="スキーマリスト"
+>abstract="サンドボックスで使用可能なスキーマのリスト。 標準スキーマまたはリレーショナルスキーマを選択できます。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_selectaepattribute"
+>title="属性を選択"
+>abstract="フィールドのソース/宛先マッピングを作成できます。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_selectaepdataset"
+>title="データセットを選択"
+>abstract="スキーマに属するデータセットのリスト。 エンリッチメントしたデータを保存するデータセットを選択できます。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primarykeycheck"
+>title="プライマリキー"
+>abstract="リレーショナルスキーマのプライマリキー。 この値は、重複レコードが取り込まれないようにすることで、データセット内の一意性を確保します。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_versiondescriptor"
+>title="バージョン記述子"
+>abstract="リレーショナルスキーマのバージョン記述子。 この値は、複数の値が同じプライマリキーを共有する場合に、最新の更新が確実に適用されるように、どのプロパティが優先されるかを判断するのに役立ちます。"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_timestampdescriptor"
+>title="タイムスタンプ記述子"
+>abstract="リレーショナルスキーマのタイムスタンプ記述子。 この値は、順序付けのイベント時間を設定するのに役立ち、時系列データを扱う場合にのみ存在します。"
 
 ターゲティングアクティビティを使用すると、構成のオーディエンスを構成する要素を定義できます。
 
