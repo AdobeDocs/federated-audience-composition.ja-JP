@@ -4,7 +4,7 @@ title: 構成の作成
 description: 構成の作成方法について説明します
 exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
 source-git-commit: 036dcb96d2d831e3a1d6ab50afef5b87e25b564b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1596'
 ht-degree: 100%
 
