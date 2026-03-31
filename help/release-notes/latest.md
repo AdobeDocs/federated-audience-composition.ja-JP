@@ -1,53 +1,67 @@
 ---
 title: Federated Audience Composition リリースノート
-description: Federated Audience コンポジションの最新のアップデートとリリースノートです。
+description: Federated Audience Compositionの最新のアップデートとリリースノート。
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 7d12773b36cb963f3d4251a9b88486864056a0fb
+source-git-commit: d3a97b5887778f910ca8f09f7cb8fa99360a612c
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 11%
+source-wordcount: '442'
+ht-degree: 8%
 
 ---
 
 
 # リリースノート
 
-[!DNL Federated Audience Composition] は、新機能、既存機能の強化、およびバグ修正を継続的に提供します。 これらのリリースノートでは、すべての変更がまとめられています。[!DNL Federated Audience Composition] [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。 以下の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target="_blank"}を参照してください。
+[!DNL Federated Audience Composition] は、新機能、既存機能の強化、およびバグ修正を継続的に提供します。 すべての変更点は、このリリースノートに統合されています。[!DNL Federated Audience Composition] は[!DNL Adobe Experience Platform]上でネイティブに構築され、最新のイノベーションと機能強化を継承しています。 以下の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target="_blank"}を参照してください。
 
-## 2026 年 2 月リリース {#fac-26-02}
+## 26年3月リリース {#fac-26-03}
 
-Federated Audience Composition の 2 月のリリースでは、次の機能がサポートされています。
+Federated Audience Compositionの3月リリースでは、次の機能をサポートしています。
+
+### 新機能 {#fac-26-03-feature}
+
+| AIを活用したセグメンテーション |
+| --- |
+| AI アシスタント内で連合オーディエンスの構成を自律的に作成できるようになりました。 AI アシスタントを使用してオーディエンスを作成する場合、AI アシスタントは、承認後、ブラウザー内で実行されるプランを生成します。 AI アシスタントを使用してオーディエンスを作成する方法について詳しくは、[AI アシスタントの概要](/help/start/ai-assistant.md)を参照してください。 |
+
+| 運用インサイト用AI アシスタント |
+| --- |
+| 連合オーディエンス構成内の運用上のインサイトについて、AI アシスタントに質問できるようになりました。 サポートされている領域には、接続、スキーマ、データモデルなどがあります。 このリリースでは、連合コンポジションは&#x200B;**サポートされていません**。 連合オーディエンス構成のAI アシスタントについて詳しくは、[AI アシスタントの概要](/help/start/ai-assistant.md)を参照してください。 |
+
+## 26/2月リリース {#fac-26-02}
+
+Federated Audience Compositionの2月リリースでは、次の機能をサポートしています。
 
 ### 新機能 {#fac-26-02-feature}
 
-| フィールドエンリッチメントのサポート |
+| フィールド強化サポート |
 | --- |
-| これで、コンポジション内でフィールドを保存アクティビティを使用できます。 フィールドを保存アクティビティを使用すると、外部ウェアハウスのデータを統合してExperience Platform スキーマを強化し、追加の属性でExperience Platform スキーマを強化できます。 フィールドを保存アクティビティは、B2B と B2C の両方のスキーマをサポートしています。 このアクティビティの使用方法について詳しくは、[&#x200B; アクティビティの概要 &#x200B;](../compositions/activities.md#save-fields) を参照してください。 |
+| コンポジション内で「フィールドを保存」アクティビティを使用できるようになりました。 フィールドを保存アクティビティを使用すると、外部ウェアハウスからのデータをフェデレーションしてExperience Platform スキーマを強化し、追加の属性を使用してExperience Platform スキーマを強化できます。 フィールドを保存アクティビティでは、B2B スキーマとB2C スキーマの両方をサポートしています。 このアクティビティの使用について詳しくは、[ アクティビティの概要](../compositions/activities.md#save-fields)を参照してください。 |
 
-| Databricks の高度な認証サポート |
+| Databricksの高度な認証サポート |
 | --- |
-| サービスプリンシパル認証または OAuth 2.0 を使用して、Databricks を使用して Federated Audience Composition に接続できるようになりました。 接続の作成について詳しくは、[&#x200B; 接続の概要 &#x200B;](../connections/home.md#create) を参照してください。 |
+| サービスプリンシパル認証またはOAuth 2.0を使用して、Databricksで連合オーディエンス構成に接続できるようになりました。 接続の作成について詳しくは、[接続の概要](../connections/home.md#create)を参照してください。 |
 
-## 2026 年 1 月リリース {#fac-26-01}
+## 26年1月リリース {#fac-26-01}
 
-Federated Audience Composition の 1 月のリリースでは、次の新機能と機能強化がサポートされています。
+Federated Audience Compositionの1月リリースでは、次の新機能と機能強化がサポートされています。
 
 ### 新機能 {#fac-26-01-feature}
 
-| Azure Synapse サービスプリンシパル認証のサポート |
+| Azure Synapse Service プリンシパル認証のサポート |
 | --- |
-| サービスプリンシパルを使用して、Azure Synapseで Federated Audience Composition に接続できるようになりました。 接続の作成について詳しくは、[&#x200B; 接続の概要 &#x200B;](../connections/home.md#create) を参照してください。 |
+| サービスプリンシパルを使用して、Azure Synapseで連合オーディエンス構成に接続できるようになりました。 接続の作成について詳しくは、[接続の概要](../connections/home.md#create)を参照してください。 |
 
-| Amazon Web Services（AWS）のAdobe Experience Platformのお客様向けの提供 |
+| Amazon Web Services（AWS）でのAdobe Experience Platformのお客様の利用状況 |
 | --- |
-| Experience Platform インスタンスがAWS上にある場合、Federated Audience Composition を使用できるようになりました。 AWSのExperience Platformについて詳しくは、[&#x200B; マルチクラウドの概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/multi-cloud) を参照してください。 |
+| Experience Platform インスタンスがAWS上にある場合、連合オーディエンス構成を使用できるようになりました。 AWS上のExperience Platformについて詳しくは、[ マルチクラウドの概要](https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud)を参照してください。 |
 
 ### 機能強化 {#fac-26-01-improvements}
 
-このリリースには、次の機能強化が含まれています。
+このリリースには、次の改善点が含まれています。
 
 - **オーディエンスのデータ有効期限の設定**
 
-  コンポジションで **オーディエンスを保存** アクティビティを使用する際に、データの有効期限を設定できるようになりました。
+  コンポジションで&#x200B;**オーディエンスを保存** アクティビティを使用する際に、データの有効期限を設定できるようになりました。
 
-  Federated Audience Composition のデータ有効期限について詳しくは、[&#x200B; アクティビティガイド &#x200B;](../compositions/activities.md#save-audience) を参照してください。
+  Federated Audience Compositionのデータ有効期限について詳しくは、[ アクティビティガイド ](../compositions/activities.md#save-audience)を参照してください。
