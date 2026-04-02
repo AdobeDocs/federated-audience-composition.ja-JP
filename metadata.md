@@ -17,4 +17,4 @@ ht-degree: 55%
 
 metadata.md ファイルには、リポジトリ内のユーザーガイド TOC.md ファイルに渡されるリポジトリレベルのメタデータが含まれています。 任意のユーザーガイドの metadata.md コンテンツを変更する場合は、任意の TOC.md ファイルで変更します。
 
-**solution**、**product**、**type**&#x200B;の有効な値のリストについては、[ メタデータ ](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/editing/user-guide-setup/metadata.html)を参照してください。
+**solution**、**product**、**type**&#x200B;の有効な値のリストについては、[&#x200B; メタデータ &#x200B;](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/editing/user-guide-setup/metadata.html)を参照してください。
