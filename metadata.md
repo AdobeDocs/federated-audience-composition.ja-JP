@@ -3,18 +3,18 @@ cloud: Experience Cloud
 solution: Experience Cloud
 type: Documentation
 mini-toc-levels: 2
-git-repo: https://github.com/AdobeDocs/federated-audience-composition.ja-JP
+git-repo: https://github.com/AdobeDocs/federated-audience-composition.en
 index: true
-source-git-commit: ae4c655f6208a7799aca4b064de8d90a6b86e11e
-workflow-type: ht
-source-wordcount: '53'
-ht-degree: 100%
+source-git-commit: 5c67619fd99763608a1794c75eacc0c80100ef79
+workflow-type: tm+mt
+source-wordcount: '70'
+ht-degree: 55%
 
 ---
 
 
-# 社内用のメタデータ
+# 内部使用のためのメタデータ
 
-metadata.md ファイルには、リポジトリー内にあるユーザーガイドの TOC.md ファイルにパススルーされる、リポジトリーレベルのメタデータが含まれています。任意のユーザーガイドの metadata.md コンテンツを変更したい場合は、任意の TOC.md ファイル内で行います。
+metadata.md ファイルには、リポジトリ内のユーザーガイド TOC.md ファイルに渡されるリポジトリレベルのメタデータが含まれています。 任意のユーザーガイドの metadata.md コンテンツを変更する場合は、任意の TOC.md ファイルで変更します。
 
-**解決策**、**製品**、**タイプ**&#x200B;の有効な値のリストについては、[メタデータ](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/editing/user-guide-setup/metadata.html?lang=ja)を参照してください。
+**solution**、**product**、**type**&#x200B;の有効な値のリストについては、[ メタデータ ](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/editing/user-guide-setup/metadata.html)を参照してください。

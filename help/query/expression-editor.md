@@ -3,16 +3,16 @@ audience: end-user
 title: 式エディターの概要
 description: 式エディター内で関数を使用して、クエリモデラー内でクエリを作成する方法について説明します。
 exl-id: abff07ef-2bc0-4e00-8957-4d59fc3bc938
-source-git-commit: 93f4a16d00c71059672c4c6a51ff36debb6c9cee
-workflow-type: ht
-source-wordcount: '4108'
-ht-degree: 100%
+source-git-commit: 226679a38d0ad17726fd743f5df3b74879a2dd32
+workflow-type: tm+mt
+source-wordcount: '4215'
+ht-degree: 98%
 
 ---
 
 # 式エディターの概要 {#expression}
 
-式を編集する場合は、条件を手動で入力してルールを作成します。このモードでは、日付、文字列、数値の各フィールドの操作や並べ替えなど、具体的なクエリの実行に使用する値を操作する高度な関数を使用できます。
+式を編集する場合は、条件を手動で入力してルールを作成します。 このモードでは、日付、文字列、数値の各フィールドの操作や並べ替えなど、具体的なクエリの実行に使用する値を操作する高度な関数を使用できます。
 
 ## 式エディターの操作 {#edit}
 
@@ -28,21 +28,22 @@ ht-degree: 100%
 * 式で使用でき、クエリのスキーマ（ターゲティングディメンションとも呼ばれる）に対応する使用可能な&#x200B;**フィールド（2）**&#x200B;のリスト。
 * カテゴリ別に並べ替えられる&#x200B;**ヘルパー関数（3）**。
 
-式を編集するには、入力フィールドに式を直接入力します。フィールドまたはヘルパー関数を追加するには、式内の追加する場所にカーソルを置き、「+」ボタンを選択します。
+式を編集するには、入力フィールドに式を直接入力します。 フィールドまたはヘルパー関数を追加するには、式内の追加する場所にカーソルを置き、「+」ボタンを選択します。
 
 ![](assets/expression-editor.png){zoomable="yes"}
 
-式の準備が整ったら、「**[!UICONTROL 確認]**」を選択します。式は、選択したフィールドに表示されます。編集するには、式エディターを開き、目的の変更を行います。
+式の準備が整ったら、「**[!UICONTROL 確認]**」を選択します。 式は、選択したフィールドに表示されます。 編集するには、式エディターを開き、目的の変更を行います。
 
-次の例は、「**[!UICONTROL 値]**」フィールドに設定された式を示しています。編集するには、「**[!UICONTROL 式を編集]**」ボタンを使用して式エディターを開く必要があります。
+次の例は、「**[!UICONTROL 値]**」フィールドに設定された式を示しています。 編集するには、「**[!UICONTROL 式を編集]**」ボタンを使用して式エディターを開く必要があります。
 
 ![](assets/edit-expression-value.png){zoomable="yes"}
 
 ## ヘルパー関数
 
-クエリ編集ツールを使用すると、高度な関数を使用して、目的の結果や操作対象のデータのタイプに応じて複雑なフィルタリングを実行できます。次の関数を使用できます。
+クエリ編集ツールを使用すると、高度な関数を使用して、目的の結果や操作対象のデータのタイプに応じて複雑なフィルタリングを実行できます。 次の関数を使用できます。
 
-<!-- ### Aggregate
+<!-- 
+### Aggregate
 
 The aggregate functions are used to perform calculations on a set of values.
 
@@ -52,7 +53,8 @@ The aggregate functions are used to perform calculations on a set of values.
 
 | Name | Description | Syntax | Example |
 | ---- | ----------- | ------ | ------- |
-| **StdDev** | Returns the standard deviation of the values given. | StdDev(&lt;VALUE&gt;) | StdDev([0,3,5]) | -->
+| **StdDev** | Returns the standard deviation of the values given. | StdDev(&lt;VALUE&gt;) | StdDev([0,3,5]) | 
+-->
 
 <!-- 
 
@@ -68,7 +70,8 @@ Aggregate functions are not available.
 
 >[!TAB Redshift]
 
-Aggregate functions are not available. -->
+Aggregate functions are not available. 
+-->
 
 <!-- 
 
@@ -76,12 +79,14 @@ Aggregate functions are not available. -->
 
 | Name | Description | Syntax | Example |
 | ---- | ----------- | ------ | ------- |
-| **StringAgg** | Returns the concatenation of the values of a string type column, separated by the character in the second argument | StringAgg(&lt;Value&gt;, &lt;String&gt;) | StringAgg(column, ",") | -->
+| **StringAgg** | Returns the concatenation of the values of a string type column, separated by the character in the second argument | StringAgg(&lt;Value&gt;, &lt;String&gt;) | StringAgg(column, ",") | 
+-->
 
 <!-- 
 >[!TAB Vertica]
 
-Aggregate functions are not available. -->
+Aggregate functions are not available. 
+-->
 
 <!-- 
 >[!ENDTABS] 
@@ -132,21 +137,23 @@ Aggregate functions are not available. -->
 | **ToDateTime** | フィールドを日時フィールドに変換します。 | ToDateTime(&lt;日付>) | ToDateTime(&quot;2019-12-25 15:30:00&quot;) |
 | **ToTimestamp** | フィールドをタイムスタンプフィールドに変換します。 | ToTimestamp(&lt;日時>) | ToTimestamp(&quot;2019-12-25 15:30:00&quot;) |
 | **Oldest** | 指定された 2 つの日付間の最も古い日付を返します。 | Oldest(&lt;日時>, &lt;日時>) | Oldest(&quot;2015-02-13 11:59:59&quot;, &quot;2016-04-13 19:28:14&quot;) |
-| **TruncDate** | 指定された数値に基づいて、日時を最も近い単位に切り捨てます。数値が 60 に等しい場合は、最も近い分に切り捨てられます。 数値が 3600 に等しい場合は、最も近い時間に切り捨てられます。数値が 86400 に等しい場合は、最も近い日に切り捨てられます。それ以外の場合は、最も近い秒に切り捨てられます。 | TruncDate(&lt;日時>, &lt;数値>) | TruncDate(&quot;2016-04-13 19:28:14&quot;, 3600) |
-| **TruncDateTZ** | 指定された数値に基づいて、日時を最も近い単位に切り捨て、日時を指定されたタイムゾーンに設定します。数値が 60 に等しい場合は、最も近い分に切り捨てられます。 数値が 3600 に等しい場合は、最も近い時間に切り捨てられます。数値が 86400 に等しい場合は、最も近い日に切り捨てられます。 | TruncDateTZ(&lt;日時>, &lt;数値>, &lt;タイムゾーン>) | TruncDateTZ(&quot;2016-04-13 19:28:14&quot;, 3600, &quot;米国/ロサンゼルス&quot;) |
-| **TruncTime** | 日時を 2000年1月1日（PT）に設定し、指定された数値に基づいて、残りの日時を最も近い単位に丸めます。数値が 60 に等しい場合は、最も近い分に切り捨てられます。数値が 3600 に等しい場合は、最も近い時間に切り捨てられます。 | TruncTime(&lt;日時>, &lt;数値>) | TruncTime(&quot;2016-04-13 19:28:14&quot;, 3600) |
+| **TruncDate** | 指定された数値に基づいて、日時を最も近い単位に切り捨てます。 数値が 60 に等しい場合は、最も近い分に切り捨てられます。 数値が 3600 に等しい場合は、最も近い時間に切り捨てられます。 数値が 86400 に等しい場合は、最も近い日に切り捨てられます。 それ以外の場合は、最も近い秒に切り捨てられます。 | TruncDate(&lt;日時>, &lt;数値>) | TruncDate(&quot;2016-04-13 19:28:14&quot;, 3600) |
+| **TruncDateTZ** | 指定された数値に基づいて、日時を最も近い単位に切り捨て、日時を指定されたタイムゾーンに設定します。 数値が 60 に等しい場合は、最も近い分に切り捨てられます。 数値が 3600 に等しい場合は、最も近い時間に切り捨てられます。 数値が 86400 に等しい場合は、最も近い日に切り捨てられます。 | TruncDateTZ(&lt;日時>, &lt;数値>, &lt;タイムゾーン>) | TruncDateTZ(&quot;2016-04-13 19:28:14&quot;, 3600, &quot;米国/ロサンゼルス&quot;) |
+| **TruncTime** | 日時を2000年1月1日に設定し、指定された数値に基づいて、残りの日時を最も近い単位に丸めます。数値が 60 に等しい場合は、最も近い分に切り捨てられます。 数値が 3600 に等しい場合は、最も近い時間に切り捨てられます。 | TruncTime(&lt;日時>, &lt;数値>) | TruncTime(&quot;2016-04-13 19:28:14&quot;, 3600) |
 | **TruncQuarter** | 日時を最も近い四半期の最初の日付に切り捨てます。 | TruncQuarter(&lt;日時>) | TruncQuarter(&quot;2016-04-13 19:28:14&quot;) |
 | **TruncYear** | 日時を最も近い年の最初の日付に切り捨てます。 | TruncYear(&lt;日時>) | TruncYear(&quot;2016-04-13 19:28:14&quot;) |
 | **TruncWeek** | 日時を最も近い週の日曜日に切り捨てます。 | TruncWeek(&lt;日時>) | TruncWeek(&quot;2016-04-13 19:28:14&quot;) |
 
 <!-- 
-| **YearAndMonth** | Truncates the datetime to just the year and month. | YearAndMonth(&lt;DATETIME&gt;) | YearAndMonth("2019-12-25 15:30:00") | 
+| **YearAndMonth** | Truncates the datetime to just the year and month. | YearAndMonth(&lt;DATETIME&gt;) | YearAndMonth("2019-12-25 15:30:00") |
 -->
 
-<!-- | **DaysAgo** | Calculates the number of days between the current date and the provided timestamp, and returns the value as a datetime. | DaysAgo(&lt;DATETIME&gt;) | DaysAgo("2024-06-24 14:43:49") |
+<!-- 
+| **DaysAgo** | Calculates the number of days between the current date and the provided timestamp, and returns the value as a datetime. | DaysAgo(&lt;DATETIME&gt;) | DaysAgo("2024-06-24 14:43:49") |
 | **DaysAgoInt** | Calculates the number of days between the current date and the provided timestamp, and returns the value as an integer. | DaysAgoInt(&lt;DATETIME&gt;) | DaysAgoInt("2024-06-24 14:43:49") |
 | **MonthsAgo** | Calculates the number of months between the current date and the provided timestamp, and returns the value as a datetime. | MonthsAgo(&lt;DATETIME&gt;) | MonthsAgo("2024-06-24 14:43:49") |
-| **YearsAgo** | Calculates the number of years between the current date and the provided timestamp, and returns the value as a datetime. | YearsAgo(&lt;DATETIME&gt;) | YearsAgo("2024-06-24 14:43:49") | -->
+| **YearsAgo** | Calculates the number of years between the current date and the provided timestamp, and returns the value as a datetime. | YearsAgo(&lt;DATETIME&gt;) | YearsAgo("2024-06-24 14:43:49") | 
+-->
 
 
 <!-- 
@@ -245,7 +252,7 @@ Aggregate functions are not available. -->
 | ---- | ----------- | ------ | ------- |
 | **ConvertTimezone** | Converts the datetime from its timezone to the timezone of the external account. | ConvertTimezone(&lt;DATETIME&gt;) | ConvertTimezone("2019-12-25 15:30:00") |
 
- -->
+-->
 
 >[!TAB Snowflake]
 
@@ -285,23 +292,23 @@ Aggregate functions are not available. -->
 | **ToDateTime** | フィールドを日時フィールドに変換します。 | ToDateTime(&lt;日付>) | ToDateTime(&quot;2019-12-25 15:30:00&quot;) |
 | **ToTimestamp** | フィールドをタイムスタンプフィールドに変換します。 | ToTimestamp(&lt;日時>) | ToTimestamp(&quot;2019-12-25 15:30:00&quot;) |
 | **Oldest** | 指定された 2 つの日付間の最も古い日付を返します。 | Oldest(&lt;日時>, &lt;日時>) | Oldest(&quot;2015-02-13 11:59:59&quot;, &quot;2016-04-13 19:28:14&quot;) |
-| **TruncDate** | 指定された数値に基づいて、日時を最も近い単位に切り捨てます。数値が 60 に等しい場合は、最も近い分に切り捨てられます。 数値が 3600 に等しい場合は、最も近い時間に切り捨てられます。数値が 86400 に等しい場合は、最も近い日に切り捨てられます。それ以外の場合は、最も近い秒に切り捨てられます。 | TruncDate(&lt;日時>, &lt;数値>) | TruncDate(&quot;2016-04-13 19:28:14&quot;, 3600) |
-| **TruncDateTZ** | 指定された数値に基づいて、日時を最も近い単位に切り捨て、日時を指定されたタイムゾーンに設定します。数値が 60 に等しい場合は、最も近い分に切り捨てられます。 数値が 3600 に等しい場合は、最も近い時間に切り捨てられます。数値が 86400 に等しい場合は、最も近い日に切り捨てられます。 | TruncDateTZ(&lt;日時>, &lt;数値>, &lt;タイムゾーン>) | TruncDateTZ(&quot;2016-04-13 19:28:14&quot;, 3600, &quot;米国/ロサンゼルス&quot;) |
-| **TruncTime** | 日時を 2000年1月1日（PT）に設定し、指定された数値に基づいて、残りの日時を最も近い単位に丸めます。数値が 60 に等しい場合は、最も近い分に切り捨てられます。数値が 3600 に等しい場合は、最も近い時間に切り捨てられます。 | TruncTime(&lt;日時>, &lt;数値>) | TruncTime(&quot;2016-04-13 19:28:14&quot;, 3600) |
+| **TruncDate** | 指定された数値に基づいて、日時を最も近い単位に切り捨てます。 数値が 60 に等しい場合は、最も近い分に切り捨てられます。 数値が 3600 に等しい場合は、最も近い時間に切り捨てられます。 数値が 86400 に等しい場合は、最も近い日に切り捨てられます。 それ以外の場合は、最も近い秒に切り捨てられます。 | TruncDate(&lt;日時>, &lt;数値>) | TruncDate(&quot;2016-04-13 19:28:14&quot;, 3600) |
+| **TruncDateTZ** | 指定された数値に基づいて、日時を最も近い単位に切り捨て、日時を指定されたタイムゾーンに設定します。 数値が 60 に等しい場合は、最も近い分に切り捨てられます。 数値が 3600 に等しい場合は、最も近い時間に切り捨てられます。 数値が 86400 に等しい場合は、最も近い日に切り捨てられます。 | TruncDateTZ(&lt;日時>, &lt;数値>, &lt;タイムゾーン>) | TruncDateTZ(&quot;2016-04-13 19:28:14&quot;, 3600, &quot;米国/ロサンゼルス&quot;) |
+| **TruncTime** | 日時を2000年1月1日に設定し、指定された数値に基づいて、残りの日時を最も近い単位に丸めます。数値が 60 に等しい場合は、最も近い分に切り捨てられます。 数値が 3600 に等しい場合は、最も近い時間に切り捨てられます。 | TruncTime(&lt;日時>, &lt;数値>) | TruncTime(&quot;2016-04-13 19:28:14&quot;, 3600) |
 | **TruncQuarter** | 日時を最も近い四半期の最初の日付に切り捨てます。 | TruncQuarter(&lt;日時>) | TruncQuarter(&quot;2016-04-13 19:28:14&quot;) |
 | **TruncYear** | 日時を最も近い年の最初の日付に切り捨てます。 | TruncYear(&lt;日時>) | TruncYear(&quot;2016-04-13 19:28:14&quot;) |
 | **TruncWeek** | 日時を最も近い週の日曜日に切り捨てます。 | TruncWeek(&lt;日時>) | TruncWeek(&quot;2016-04-13 19:28:14&quot;) |
 | **ConvertNTZ** | タイムゾーンのないタイムスタンプをタイムゾーンのあるタイムスタンプに変換します。 添付されるタイムゾーンは、外部アカウントのタイムゾーンになります。 | ConvertNTZ(&lt;日時>) | ConvertNTZ(&quot;2024-06-24 14:43:49&quot;) |
 
 <!-- 
-| **YearAndMonth** | Truncates the datetime to just the year and month. | YearAndMonth(&lt;DATETIME&gt;) | YearAndMonth("2019-12-25 15:30:00") | 
+| **YearAndMonth** | Truncates the datetime to just the year and month. | YearAndMonth(&lt;DATETIME&gt;) | YearAndMonth("2019-12-25 15:30:00") |
 -->
 
 <!-- 
 | **DaysAgo** | Calculates the number of days between the current date and the provided timestamp, and returns the value as a datetime. | DaysAgo(&lt;DATETIME&gt;) | DaysAgo("2024-06-24 14:43:49") |
 | **DaysAgoInt** | Calculates the number of days between the current date and the provided timestamp, and returns the value as an integer. | DaysAgoInt(&lt;DATETIME&gt;) | DaysAgoInt("2024-06-24 14:43:49") |
 | **MonthsAgo** | Calculates the number of months between the current date and the provided timestamp, and returns the value as a datetime. | MonthsAgo(&lt;DATETIME&gt;) | MonthsAgo("2024-06-24 14:43:49") |
-| **YearsAgo** | Calculates the number of years between the current date and the provided timestamp, and returns the value as a datetime. | YearsAgo(&lt;DATETIME&gt;) | YearsAgo("2024-06-24 14:43:49") | 
+| **YearsAgo** | Calculates the number of years between the current date and the provided timestamp, and returns the value as a datetime. | YearsAgo(&lt;DATETIME&gt;) | YearsAgo("2024-06-24 14:43:49") |
 -->
 
 <!-- 
@@ -436,7 +443,7 @@ Geomarketing functions are not available.
 | **Floor** | Rounds down the provided number to the nearest integer. For example, if the provided number is 3.8, it will return 3. | Floor(&lt;NUMBER&gt;) | Floor(3.8) |
 | **Greatest** | Returns the larger number between the two provided numbers. | Greatest(&lt;NUMBER&gt;, &lt;NUMBER&gt;) | Greatest(1, 2) |
 | **Least** | Returns the smaller number between the two provided numbers. | Least(&lt;NUMBER&gt;, &lt;NUMBER&gt;) | Least (1,2) |
- -->
+-->
 
 <!-- 
 
@@ -468,7 +475,7 @@ Geomarketing functions are not available.
 
 Numeric functions are not available.
 
---->
+-->
 
 >[!TAB Snowflake]
 
@@ -496,7 +503,7 @@ Numeric functions are not available.
 | **ToInt64** | Converts the provided number to a 64-bit integer. | ToInt64(&lt;NUMBER&gt;) | ToInt64(493) |
 | **Trunc** | Truncates the provided number to the requested number of decimal places. | Trunc(&lt;NUMBER&gt;, &lt;NUMBER&gt;) | Trunc(36.9348934, 3) |
 
---->
+-->
 
 >[!ENDTABS]
 
@@ -510,19 +517,19 @@ Numeric functions are not available.
 
 | 名前 | 説明 | 構文 | 例 |
 | ---- | ----------- | ------ | ------- |
-| **Case** | 式が true の場合は最初の値を返します。それ以外の場合は、2 番目の値を返します。 | Case(When(&lt;式> &lt;値>), Else(&lt;値>)) | Case(When(a > b, &quot;はい&quot;), Else(&quot;いいえ&quot;)) |
-| **When** | Case 関数の一部として使用されます。Case 内の式を確認するために使用されます。 | When(&lt;式> &lt;値>) | When(a > b, &quot;はい&quot;) |
-| **Else** | Case 関数の一部として使用されます。When 式が false の場合に、他のオプションを選択するために使用されます。 | Else(&lt;値>) | Else(&quot;いいえ&quot;) |
+| **Case** | 式が true の場合は最初の値を返します。 それ以外の場合は、2 番目の値を返します。 | Case(When(&lt;式> &lt;値>), Else(&lt;値>)) | Case(When(a > b, &quot;はい&quot;), Else(&quot;いいえ&quot;)) |
+| **When** | Case 関数の一部として使用されます。 Case 内の式を確認するために使用されます。 | When(&lt;式> &lt;値>) | When(a > b, &quot;はい&quot;) |
+| **Else** | Case 関数の一部として使用されます。 When 式が false の場合に、他のオプションを選択するために使用されます。 | Else(&lt;値>) | Else(&quot;いいえ&quot;) |
 | **Coalesce** | 最初の null 以外の値を返します。 | Coalesce(&lt;値>, &lt;値>) | Coalesce (&quot;&quot;, &quot;文字列&quot;) |
-| **Decode** | 値が等しい場合は最初のオプションを返します。値が等しくない場合は 2 番目のオプションを返します。 | Decode(&lt;値>, &lt;値>, &lt;値>, &lt;値>) | Decode(1, 2, &quot;true&quot;, &quot;false&quot;) |
-| **GetEmailDomain** | 指定されたメールアドレスからドメインを抽出します。 | GetEmailDomain(&lt;文字列>) | GetEmailDomain(&quot;sample@example.com&quot;) |
+| **Decode** | 値が等しい場合は最初のオプションを返します。 値が等しくない場合は 2 番目のオプションを返します。 | Decode(&lt;値>, &lt;値>, &lt;値>, &lt;値>) | Decode(1, 2, &quot;true&quot;, &quot;false&quot;) |
+| **GetEmailDomain** | 指定されたメールアドレスからドメインを抽出します。 | GetEmailDomain(&lt;文字列>) | GetEmailDomain （&quot;`sample@example.com`&quot;） |
 | **Iif** | 条件が true の場合は最初のオプションを返し、条件が false の場合は 2 番目のオプションを返します。 | Iif(&lt;条件>, &lt;値>, &lt;値>) | Iif(10 &lt; 20, &quot;true&quot;, &quot;false&quot;) |
-| **IsEmptyString** | 文字列が空の場合は最初のオプションを返します。それ以外の場合は、2 番目のオプションを返します。 | IsEmptyString(&lt;文字列> ,&lt;値>, &lt;値>) | IsEmptyString(&quot;文字列&quot;, &quot;はい&quot;, &quot;いいえ&quot;) |
+| **IsEmptyString** | 文字列が空の場合は最初のオプションを返します。 それ以外の場合は、2 番目のオプションを返します。 | IsEmptyString(&lt;文字列> ,&lt;値>, &lt;値>) | IsEmptyString(&quot;文字列&quot;, &quot;はい&quot;, &quot;いいえ&quot;) |
 | **NewUUID** | 新しい一意の UUID を生成します。 | NewUUID() | NewUUID() |
 | **NoNull** | 指定された文字列が空でない場合はその文字列を返し、指定された文字列が空の場合は空の文字列を返します。 | NoNull(&lt;文字列>) | NoNull(&quot;テスト&quot;) |
-| **IsBitSet** | 指定された数値に対してビット単位の論理積（&amp;）を実行します。これにより、最初のパラメーター内のビットが 2 番目のパラメーターで指定された位置に設定されているかどうかを確認できます。 | IsBitSet(&lt;数値>, &lt;数値>) | IsBitSet(5, 3) |
+| **IsBitSet** | 指定された数値に対してビット単位の論理積（&amp;）を実行します。 これにより、最初のパラメーター内のビットが 2 番目のパラメーターで指定された位置に設定されているかどうかを確認できます。 | IsBitSet(&lt;数値>, &lt;数値>) | IsBitSet(5, 3) |
 | **ClearBit** | これにより、2 番目のパラメーターで指定された位置にある最初のパラメーター内のビットをクリアできます。 | ClearBit(&lt;数値>, &lt;数値>) | |
-| **SetBit** | 指定された数値に対してビット単位の論理和（\|）を実行します。これにより、最初のパラメーター内のビットを 2 番目のパラメーターで指定された位置に設定できます。 | SetBit(&lt;数値>, &lt;数値>) | SetBit(5, 3) |
+| **SetBit** | 指定された数値に対してビット単位の論理和（\|）を実行します。 これにより、最初のパラメーター内のビットを 2 番目のパラメーターで指定された位置に設定できます。 | SetBit(&lt;数値>, &lt;数値>) | SetBit(5, 3) |
 | **RowId** | 行番号を返します。 | RowId() | RowId() |
 | **ToBoolean** | 値をブール値に変換します。 | ToBoolean(&lt;値>) | ToBoolean(a=b) |
 
@@ -565,23 +572,23 @@ Numeric functions are not available.
 
 Other functions are not available.
 
---->
+-->
 
 >[!TAB Snowflake]
 
 | 名前 | 説明 | 構文 | 例 |
 | ---- | ----------- | ------ | ------- |
-| **Case** | 式が true の場合は最初の値を返します。それ以外の場合は、2 番目の値を返します。 | Case(When(&lt;式> &lt;値>), Else(&lt;値>)) | Case(When(a > b, &quot;はい&quot;), Else(&quot;いいえ&quot;)) |
-| **When** | Case 関数の一部として使用されます。Case 内の式を確認するために使用されます。 | When(&lt;式> &lt;値>) | When(a > b, &quot;はい&quot;) |
-| **Else** | Case 関数の一部として使用されます。When 式が false の場合に、他のオプションを選択するために使用されます。 | Else(&lt;値>) | Else(&quot;いいえ&quot;) |
-| **GetEmailDomain** | 指定されたメールアドレスからドメインを抽出します。 | GetEmailDomain(&lt;文字列>) | GetEmailDomain(&quot;sample@example.com&quot;) |
+| **Case** | 式が true の場合は最初の値を返します。 それ以外の場合は、2 番目の値を返します。 | Case(When(&lt;式> &lt;値>), Else(&lt;値>)) | Case(When(a > b, &quot;はい&quot;), Else(&quot;いいえ&quot;)) |
+| **When** | Case 関数の一部として使用されます。 Case 内の式を確認するために使用されます。 | When(&lt;式> &lt;値>) | When(a > b, &quot;はい&quot;) |
+| **Else** | Case 関数の一部として使用されます。 When 式が false の場合に、他のオプションを選択するために使用されます。 | Else(&lt;値>) | Else(&quot;いいえ&quot;) |
+| **GetEmailDomain** | 指定されたメールアドレスからドメインを抽出します。 | GetEmailDomain(&lt;文字列>) | GetEmailDomain （&quot;`sample@example.com`&quot;） |
 | **Iif** | 条件が true の場合は最初のオプションを返し、条件が false の場合は 2 番目のオプションを返します。 | Iif(&lt;条件>, &lt;値>, &lt;値>) | Iif(10 &lt; 20, &quot;true&quot;, &quot;false&quot;) |
-| **IsEmptyString** | 文字列が空の場合は最初のオプションを返します。それ以外の場合は、2 番目のオプションを返します。 | IsEmptyString(&lt;文字列> ,&lt;値>, &lt;値>) | IsEmptyString(&quot;文字列&quot;, &quot;はい&quot;, &quot;いいえ&quot;) |
-| **ToBoolean** | 値が true の場合は 1 を返します。値が false の場合は 0 を返します。 | ToBoolean(&lt;値>) | ToBoolean(a=b) |
+| **IsEmptyString** | 文字列が空の場合は最初のオプションを返します。 それ以外の場合は、2 番目のオプションを返します。 | IsEmptyString(&lt;文字列> ,&lt;値>, &lt;値>) | IsEmptyString(&quot;文字列&quot;, &quot;はい&quot;, &quot;いいえ&quot;) |
+| **ToBoolean** | 値が true の場合は 1 を返します。 値が false の場合は 0 を返します。 | ToBoolean(&lt;値>) | ToBoolean(a=b) |
 | **ToBooleanType** | 値をブール値に変換します。 | ToBooleanType(&lt;値>) | ToBooleanType(a=b) |
-| **IsBitSet** | 指定された数値に対してビット単位の論理積（&amp;）を実行します。これにより、最初のパラメーター内のビットが 2 番目のパラメーターで指定された位置に設定されているかどうかを確認できます。 | IsBitSet(&lt;数値>, &lt;数値>) | IsBitSet(5, 3) |
+| **IsBitSet** | 指定された数値に対してビット単位の論理積（&amp;）を実行します。 これにより、最初のパラメーター内のビットが 2 番目のパラメーターで指定された位置に設定されているかどうかを確認できます。 | IsBitSet(&lt;数値>, &lt;数値>) | IsBitSet(5, 3) |
 | **ClearBit** | これにより、2 番目のパラメーターで指定された位置にある最初のパラメーター内のビットをクリアできます。 | ClearBit(&lt;数値>, &lt;数値>) | |
-| **SetBit** | 指定された数値に対してビット単位の論理和（\|）を実行します。これにより、最初のパラメーター内のビットを 2 番目のパラメーターで指定された位置に設定できます。 | SetBit(&lt;数値>, &lt;数値>) | SetBit(5, 3) |
+| **SetBit** | 指定された数値に対してビット単位の論理和（\|）を実行します。 これにより、最初のパラメーター内のビットを 2 番目のパラメーターで指定された位置に設定できます。 | SetBit(&lt;数値>, &lt;数値>) | SetBit(5, 3) |
 | **RowId** | 行番号を返します。 | RowId() | RowId() |
 | **NewUUID** | 新しい一意の UUID を生成します。 | NewUUID() | NewUUID() |
 | **NoNull** | 指定された文字列が空でない場合はその文字列を返し、指定された文字列が空の場合は空の文字列を返します。 | NoNull(&lt;文字列>) | NoNull(&quot;テスト&quot;) |
@@ -632,8 +639,8 @@ Other functions are not available.
 | **GetLine** | 指定された文字列のリクエストされた行を返します。 | GetLine(&lt;文字列>, &lt;数値>) | GetLine(multilinestring, 5) |
 | **IfEquals** | 4 つの文字列を受け取り、最初の 2 つの文字列が等しい場合は 3 番目の文字列を返し、最初の 2 つの文字列が等しくない場合は 4 番目の文字列を返します。 | IfEquals(&lt;文字列>, &lt;文字列>, &lt;文字列>, &lt;文字列>) | IfEquals(&quot;a&quot;, &quot;a&quot;, &quot;はい&quot;, &quot;いいえ&quot;) |
 | **IsMemoNull** | 文字列が null の場合は 1 を返し、それ以外の場合は 0 を返します。 | IsMemoNull(&lt;文字列>) | IsMemoNull(&quot;こんにちは&quot;) |
-| **JuxtWords** | 2 つの文字列を受け取り、1 つの文字列に結合します。必要に応じて、文字列間にスペースが追加されます。 | JuxtWords(&lt;文字列>, &lt;文字列>) | JuxtWords(&quot;Hello&quot;, &quot;World&quot;) |
-| **JuxtWords3** | 3 つの文字列を受け取り、1 つの文字列に結合します。必要に応じて、文字列間にスペースが追加されます。 | JuxtWords3(&lt;文字列>, &lt;文字列>, &lt;文字列>) | JuxtWords3(&quot;Hello&quot;, &quot;New&quot;, &quot;World&quot;) |
+| **JuxtWords** | 2 つの文字列を受け取り、1 つの文字列に結合します。 必要に応じて、文字列間にスペースが追加されます。 | JuxtWords(&lt;文字列>, &lt;文字列>) | JuxtWords(&quot;Hello&quot;, &quot;World&quot;) |
+| **JuxtWords3** | 3 つの文字列を受け取り、1 つの文字列に結合します。 必要に応じて、文字列間にスペースが追加されます。 | JuxtWords3(&lt;文字列>, &lt;文字列>, &lt;文字列>) | JuxtWords3(&quot;Hello&quot;, &quot;New&quot;, &quot;World&quot;) |
 | **Left** | 文字列を受け取り、指定された左端の文字を返します。 | Left(&lt;文字列>, &lt;数値>) | Left(&quot;部分文字列&quot;, 3) |
 | **Length** | 文字列の長さを返します。 | Length(&lt;文字列>) | Length(&quot;MyString&quot;) |
 | **Md5Digest** | MD5 ハッシュ文字列を 16 進数表現に変換します。 | Md5Digest(&lt;文字列>) | Md5Digest(&quot;文字列&quot;) |
@@ -651,7 +658,7 @@ Other functions are not available.
 
 | Name | Description | Syntax | Example |
 | ---- | ----------- | ------ | ------- |
-| **AllNonNull2** | Takes two strings and checks if all of them are not null and not empty. |  AllNonNull2(&lt;STRING&gt;, &lt;STRING&gt;) | AllNonNull2("", "string2") | 
+| **AllNonNull2** | Takes two strings and checks if all of them are not null and not empty. |  AllNonNull2(&lt;STRING&gt;, &lt;STRING&gt;) | AllNonNull2("", "string2") |
 | **AllNonNull3** | Takes three strings and checks if all of them are not null and not empty | AllNonNull3(&lt;STRING&gt;, &lt;STRING&gt;, &lt;STRING&gt;) | AllNonNull3("", "one", "three") |
 | **Char** | Takes an array of Unicode codepoints and returns the resulting string. | Char(&lt;ARRAY&gt;) | Char([65, 68, 79, 66, 69]) |
 | **Charindex** | Finds the first occurrence of the specified substring within the main string. | Charindex(&lt;STRING&gt;, &lt;SUBSTRING&gt;) | Charindex ("bar@example.com", "@") |
@@ -671,7 +678,7 @@ Other functions are not available.
 
 | Name | Description | Syntax | Example |
 | ---- | ----------- | ------ | ------- |
-| **AllNonNull2** | Takes two strings and checks if all of them are not null and not empty. |  AllNonNull2(&lt;STRING&gt;, &lt;STRING&gt;) | AllNonNull2("", "string2") | 
+| **AllNonNull2** | Takes two strings and checks if all of them are not null and not empty. |  AllNonNull2(&lt;STRING&gt;, &lt;STRING&gt;) | AllNonNull2("", "string2") |
 | **AllNonNull3** | Takes three strings and checks if all of them are not null and not empty | AllNonNull3(&lt;STRING&gt;, &lt;STRING&gt;, &lt;STRING&gt;) | AllNonNull3("", "one", "three") |
 | **Char** | Takes an array of Unicode codepoints and returns the resulting string. | Char(&lt;ARRAY&gt;) | Char([65, 68, 79, 66, 69]) |
 | **Charindex** | Finds the first occurrence of the specified substring within the main string. | Charindex(&lt;STRING&gt;, &lt;SUBSTRING&gt;) | Charindex ("bar@example.com", "@") |
@@ -710,8 +717,8 @@ String functions are not available.
 | **GetLine** | 指定された文字列のリクエストされた行を返します。 | GetLine(&lt;文字列>, &lt;数値>) | GetLine(multilinestring, 5) |
 | **IfEquals** | 4 つの文字列を受け取り、最初の 2 つの文字列が等しい場合は 3 番目の文字列を返し、最初の 2 つの文字列が等しくない場合は 4 番目の文字列を返します。 | IfEquals(&lt;文字列>, &lt;文字列>, &lt;文字列>, &lt;文字列>) | IfEquals(&quot;a&quot;, &quot;a&quot;, &quot;はい&quot;, &quot;いいえ&quot;) |
 | **IsMemoNull** | 文字列が null の場合は 1 を返し、それ以外の場合は 0 を返します。 | IsMemoNull(&lt;文字列>) | IsMemoNull(&quot;こんにちは&quot;) |
-| **JuxtWords** | 2 つの文字列を受け取り、1 つの文字列に結合します。必要に応じて、文字列間にスペースが追加されます。 | JuxtWords(&lt;文字列>, &lt;文字列>) | JuxtWords(&quot;Hello&quot;, &quot;World&quot;) |
-| **JuxtWords3** | 3 つの文字列を受け取り、1 つの文字列に結合します。必要に応じて、文字列間にスペースが追加されます。 | JuxtWords3(&lt;文字列>, &lt;文字列>, &lt;文字列>) | JuxtWords3(&quot;Hello&quot;, &quot;New&quot;, &quot;World&quot;) |
+| **JuxtWords** | 2 つの文字列を受け取り、1 つの文字列に結合します。 必要に応じて、文字列間にスペースが追加されます。 | JuxtWords(&lt;文字列>, &lt;文字列>) | JuxtWords(&quot;Hello&quot;, &quot;World&quot;) |
+| **JuxtWords3** | 3 つの文字列を受け取り、1 つの文字列に結合します。 必要に応じて、文字列間にスペースが追加されます。 | JuxtWords3(&lt;文字列>, &lt;文字列>, &lt;文字列>) | JuxtWords3(&quot;Hello&quot;, &quot;New&quot;, &quot;World&quot;) |
 | **Left** | 文字列を受け取り、指定された左端の文字を返します。 | Left(&lt;文字列>, &lt;数値>) | Left(&quot;部分文字列&quot;, 3) |
 | **Length** | 文字列の長さを返します。 | Length(&lt;文字列>) | Length(&quot;MyString&quot;) |
 | **Line** | 文字列から指定された番号の行を返します。 | Line(&lt;文字列>, &lt;数値>) | Line(multilinestring, 5) |
@@ -729,7 +736,7 @@ String functions are not available.
 
 | Name | Description | Syntax | Example |
 | ---- | ----------- | ------ | ------- |
-| **AllNonNull2** | Takes two strings and checks if all of them are not null and not empty. |  AllNonNull2(&lt;STRING&gt;, &lt;STRING&gt;) | AllNonNull2("", "string2") | 
+| **AllNonNull2** | Takes two strings and checks if all of them are not null and not empty. |  AllNonNull2(&lt;STRING&gt;, &lt;STRING&gt;) | AllNonNull2("", "string2") |
 | **AllNonNull3** | Takes three strings and checks if all of them are not null and not empty | AllNonNull3(&lt;STRING&gt;, &lt;STRING&gt;, &lt;STRING&gt;) | AllNonNull3("", "one", "three") |
 | **Char** | Takes an array of Unicode codepoints and returns the resulting string. | Char(&lt;ARRAY&gt;) | Char([65, 68, 79, 66, 69]) |
 | **Charindex** | Finds the first occurrence of the specified substring within the main string. | Charindex(&lt;STRING&gt;, &lt;SUBSTRING&gt;) | Charindex ("bar@example.com", "@") |
@@ -790,7 +797,7 @@ String functions are not available.
 
 Window functions are not available.
 
---->
+-->
 
 >[!TAB Snowflake]
 
