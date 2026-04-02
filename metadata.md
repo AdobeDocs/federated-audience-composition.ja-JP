@@ -3,7 +3,7 @@ cloud: Experience Cloud
 solution: Experience Cloud
 type: Documentation
 mini-toc-levels: 2
-git-repo: https://github.com/AdobeDocs/federated-audience-composition.en
+git-repo: https://github.com/AdobeDocs/federated-audience-composition.ja-JP
 index: true
 source-git-commit: 5c67619fd99763608a1794c75eacc0c80100ef79
 workflow-type: tm+mt
