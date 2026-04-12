@@ -503,52 +503,52 @@ ht-degree: 87%
 >title="タイムスタンプ記述子"
 >abstract="関係スキーマのタイムスタンプ記述子。 この値は、順序のイベント時間を設定するのに役立ち、時系列データを使用している場合にのみ存在します。"
 
-**[!UICONTROL フィールドを保存]** アクティビティを使用すると、外部ウェアハウスからのデータをフェデレーションしてExperience Platform スキーマを強化し、Experience Platform スキーマに追加の属性を追加できます。
+The **[!UICONTROL Save Fields]** activity lets you enrich Experience Platform schemas by federating data from external warehouses, letting you enrich Experience Platform schemas with additional attributes.
 
-このアクティビティは、データをプラットフォームに物理的に移動または複製することなく、追加の属性とインサイトを取り込むことで、スキーマを強化するために使用されます。
+This activity is used to enrich schemas by bringing in additional attributes and insights without physically moving or duplicating the data into the platform.
 
 +++ 設定の詳細
 
 >[!IMPORTANT]
 >
->選択したデータセットで&#x200B;**not**&#x200B;がupsertを有効にしている場合、データは&#x200B;**replaced**&#x200B;になります。 データセットのアップサートを有効にする方法については、[&#x200B; アップサートを有効にするガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/enable-upsert)を参照してください。
+>If the selected dataset does **not** have upsert enabled, the data will be **replaced**. To learn how to enable upsert for your datasets, please read the [enable upsert guide](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert).
 
-コンポジションに「**[!UICONTROL フィールドを保存]**」アクティビティを追加したら、アクティビティにラベルを付けて、使用するAdobe Experience Platform スキーマを選択できます。 スキーマは、標準スキーマまたはリレーショナルスキーマのいずれかです。
+After adding the **[!UICONTROL Save Fields]** activity to your composition, you can give a label to the activity and select the Adobe Experience Platform schema you want to use. The schema can either be a standard schema or a relational schema.
 
-![使用可能なスキーマが表示されます。](/help/compositions//assets/activities/enrich-fields/select-schema.png){width="1500" zoomable="yes"}
+![The available schemas are displayed.](/help/compositions//assets/activities/enrich-fields/select-schema.png){width="1500" zoomable="yes"}
 
 >[!BEGINTABS]
 
->[!TAB 標準スキーマ ]
+>[!TAB Standard schema]
 
-標準スキーマを選択する場合は、エンリッチメントを保存するデータセットを選択する必要があります。
+If you select a standard schema, you&#39;ll need to choose the dataset the enrichment is saved to.
 
-![&#x200B; データセットの選択セクションがハイライト表示されます。](/help/compositions/assets/activities/enrich-fields/select-dataset-standard.png){width="300" zoomable="yes"}
+![The select dataset section is highlighted.](/help/compositions/assets/activities/enrich-fields/select-dataset-standard.png){width="300" zoomable="yes"}
 
-データセットを選択すると、データベース内のプロファイルを識別するために使用されるプライマリ ID フィールドが表示されます。 ただし、プライマリフィールドと必須フィールドをマッピングする必要があります。 「**[!UICONTROL フィールドを追加]**」を選択し、マッピングする各属性に&#x200B;**[!UICONTROL Source]** フィールド（外部データ）と&#x200B;**[!UICONTROL 宛先]** フィールド（スキーマフィールド）を指定します。
+After selecting the dataset, you can see the primary identity field that will be used to identify profiles in the database. However, you&#39;ll need to map the primary and required fields. Select **[!UICONTROL Add fields]** and specify the **[!UICONTROL Source]** field (external data) and the **[!UICONTROL Destination]** field (schema field) for each attribute you want to map.
 
-![&#x200B; フィールドを追加ボタンとフィールドマッピングセクションがハイライト表示されます。](/help/compositions/assets/activities/enrich-fields/specify-mapping-standard.png){width="300" zoomable="yes"}
+![The add fields button and the field mapping section are highlighted.](/help/compositions/assets/activities/enrich-fields/specify-mapping-standard.png){width="300" zoomable="yes"}
 
-また、エンリッチメントの更新モードを指定することもできます。
+You can also specify the update mode for the enrichment.
 
-![更新モードの種類が表示されます。](/help/compositions/assets/activities/enrich-fields/select-update-mode.png){width="300" zoomable="yes"}
+![The update mode types are displayed.](/help/compositions/assets/activities/enrich-fields/select-update-mode.png){width="300" zoomable="yes"}
 
-| 更新モード | 説明 |
+| Update mode | 説明 |
 | ----------- | ----------- |
-| 完全更新 | 選択したスキーマ内の属性の完全なセットがエンリッチメント用に更新されます。 |
-| 増分更新 | 最後のエンリッチメント実行以降に変更されたフィールドのみが、エンリッチメント用に更新されます。 |
+| 完全更新 | The full set of attributes in the selected schemas is updated for enrichment. |
+| 増分更新 | Only the fields that have been modified since the last enrichment ran are updated for the enrichment. |
 
-[!UICONTROL 増分更新]を選択した場合は、最終更新日を選択して、どのデータが送信されるかを決定する必要もあります。
+If you select [!UICONTROL Incremental updates], you also need to choose the last modified date to determine what data is sent.
 
->[!TAB  リレーショナルスキーマ ]
+>[!TAB Relational schema]
 
 リレーショナルスキーマを選択する場合は、エンリッチメントを保存するデータセットを選択する必要があります。
 
-![&#x200B; データセットの選択セクションがハイライト表示されます。](/help/compositions/assets/activities/enrich-fields/select-dataset-relational.png){width="300" zoomable="yes"}
+![ データセットの選択セクションがハイライト表示されます。](/help/compositions/assets/activities/enrich-fields/select-dataset-relational.png){width="300" zoomable="yes"}
 
 データセットを選択すると、データベースのプライマリキーとバージョン記述子が表示されます。  ただし、プライマリキーと必須フィールドをマッピングする必要があります。 「**[!UICONTROL フィールドを追加]s**」を選択し、マッピングする各属性に&#x200B;**[!UICONTROL Source]** フィールド（外部データ）と&#x200B;**[!UICONTROL 宛先]** フィールド（スキーマフィールド）を指定します。
 
-![&#x200B; フィールドを追加ボタンとフィールドマッピングセクションがハイライト表示されます。](/help/compositions/assets/activities/enrich-fields/specify-mapping-relational.png){width="300" zoomable="yes"}
+![ フィールドを追加ボタンとフィールドマッピングセクションがハイライト表示されます。](/help/compositions/assets/activities/enrich-fields/specify-mapping-relational.png){width="300" zoomable="yes"}
 
 リレーショナルスキーマは増分更新のみをサポートするため、どのようなデータが送信されるかを決定するには、最終更新日を選択する必要があります。 増分更新は、前回のエンリッチメント実行以降に変更されたフィールドのみを更新します。
 
