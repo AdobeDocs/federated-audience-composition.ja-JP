@@ -511,7 +511,7 @@ This activity is used to enrich schemas by bringing in additional attributes and
 
 >[!IMPORTANT]
 >
->If the selected dataset does **not** have upsert enabled, the data will be **replaced**. To learn how to enable upsert for your datasets, please read the [enable upsert guide](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert).
+>If the selected dataset does **not** have upsert enabled, the data will be **replaced**. To learn how to enable upsert for your datasets, please read the [enable upsert guide](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/enable-upsert).
 
 After adding the **[!UICONTROL Save Fields]** activity to your composition, you can give a label to the activity and select the Adobe Experience Platform schema you want to use. The schema can either be a standard schema or a relational schema.
 
