@@ -4,16 +4,16 @@ description: 最新の更新内容とリリースノート
 hide: true
 hidefromtoc: true
 exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
-source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
+source-git-commit: 049b33e4c237f3de232341caf11076018ab0d103
 workflow-type: tm+mt
-source-wordcount: '1139'
+source-wordcount: '1174'
 ht-degree: 97%
 
 ---
 
 # リリースノート {#rn-new}
 
-[!DNL Federated Audience Composition] は、新機能、既存機能の強化、およびバグ修正を継続的に提供します。すべての変更は、このリリースノートに統合されます。[!DNL Federated Audience Composition] が [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。以下の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target="_blank"}を参照してください。
+[!DNL Federated Audience Composition] は、新機能、既存機能の強化、およびバグ修正を継続的に提供します。 すべての変更は、このリリースノートに統合されます。 [!DNL Federated Audience Composition] が [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。 以下の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target="_blank"}を参照してください。
 
 ## 2025年7月リリース {#fac-25-7}
 
@@ -45,7 +45,7 @@ ht-degree: 97%
 
 * **プロファイルエンリッチメントのユースケースでの増分更新**
 
-  プロファイルを保存アクティビティで、増分更新がサポートされるようになりました。増分更新を使用すると、外部データウェアハウスのデータでプロファイルを強化しながら、増分データのクエリと更新を実行できます。
+  プロファイルを保存アクティビティで、増分更新がサポートされるようになりました。 増分更新を使用すると、外部データウェアハウスのデータでプロファイルを強化しながら、増分データのクエリと更新を実行できます。
 
 ## 2025年4月リリース {#fac-25-4}
 
@@ -55,11 +55,11 @@ ht-degree: 97%
 
 * **データモデルのキャンバス表示**
 
-  「データモデルのキャンバス表示」セクションでは、既存の表形式表示に加え、データモデルとそのリンクのビジュアライゼーションをキャンバスレイアウトで表示でき、エクスペリエンスが向上します。[詳細情報](../data-modelling/models.md)
+  「データモデルのキャンバス表示」セクションでは、既存の表形式表示に加え、データモデルとそのリンクのビジュアライゼーションをキャンバスレイアウトで表示でき、エクスペリエンスが向上します。 [詳細情報](../data-modelling/models.md)
 
 * **AI アシスタント**
 
-  AI アシスタントは、アドビの概念をナビゲートして理解し、特定の環境の運用上のインサイトを得るために設計されたユーザーインターフェイス機能です。連合オーディエンス構成を含め、Adobe Experience Cloud 全体の複数の製品で使用できます。[詳細情報](../start/audiences.md)
+  AI アシスタントは、アドビの概念をナビゲートして理解し、特定の環境の運用上のインサイトを得るために設計されたユーザーインターフェイス機能です。 連合オーディエンス構成を含め、Adobe Experience Cloud 全体の複数の製品で使用できます。 [詳細情報](../start/audiences.md)
 
 * **データモデル名**
 
@@ -73,7 +73,7 @@ ht-degree: 97%
 
 * **Snowflake の安全な接続**
 
-  この新しいリリースでは、連合オーディエンス構成が、Microsoft Azure でホストされている Amazon Redshift データベースへの安全なプライベートリンク接続をサポートします。[詳細情報](../connections/home.md#amazon-redshift)
+  この新しいリリースでは、連合オーディエンス構成が、Microsoft Azure でホストされている Amazon Redshift データベースへの安全なプライベートリンク接続をサポートします。 [詳細情報](../connections/home.md#amazon-redshift)
 
 ## 2025年3月リリース {#fac-25-3}
 
@@ -105,7 +105,7 @@ ht-degree: 97%
 * **Databricks 接続**
 
   この新しいリリースでは、連合オーディエンス構成が、Databricks データベース接続のプライベートリンク接続をサポートするようになりました。
-これには、プライベートリンク経由で Amazon Web Services（AWS）でホストされている Databricks データベースへの安全な接続と、VPN 経由で Microsoft Azure でホストされている Databricks データベースへの安全な接続が含まれます。[詳細情報](../connections/home.md#databricks)
+これには、プライベートリンク経由で Amazon Web Services（AWS）でホストされている Databricks データベースへの安全な接続と、VPN 経由で Microsoft Azure でホストされている Databricks データベースへの安全な接続が含まれます。 [詳細情報](../connections/home.md#databricks)
 
 * **B2B CDP のお客様のサポート**
 
@@ -113,7 +113,7 @@ ht-degree: 97%
 
 * **Snowflake の安全な接続**
 
-  この新しいリリースでは、連合オーディエンス構成が、Microsoft Azure でホストされている Snowflake データベースへの安全なプライベートリンク接続をサポートします。[詳細情報](../connections/home.md#snowflake)
+  この新しいリリースでは、連合オーディエンス構成が、Microsoft Azure でホストされている Snowflake データベースへの安全なプライベートリンク接続をサポートします。 [詳細情報](../connections/home.md#snowflake)
 
 ## 2025年2月リリース {#fac-25-2}
 
@@ -121,19 +121,19 @@ ht-degree: 97%
 
 * **Microsoft Fabric のサポート**
 
-  連合オーディエンス構成を通じて Microsoft Fabricデータベースへの接続を確立できるようになりました。[詳細情報](../connections/home.md)
+  連合オーディエンス構成を通じて Microsoft Fabricデータベースへの接続を確立できるようになりました。 [詳細情報](../connections/home.md)
 
 * **Amazon Redshift Spectrum のサポート**
 
-  Amazon Redshift データベース接続で Amazon Redshift Spectrum がサポートされるようになりました。[詳細情報](../connections/home.md#amazon-redshift)
+  Amazon Redshift データベース接続で Amazon Redshift Spectrum がサポートされるようになりました。 [詳細情報](../connections/home.md#amazon-redshift)
 
 * **スキーマ作成エクスペリエンスの強化**
 
-  スキーマの作成プロセスは、より直感的で操作しやすいように設計された、更新されたユーザーインターフェイスを通じて改善されました。これらの機能強化により、データ担当者はよりスムーズで効率的にデータモデルを開発できます。[詳細情報](../data-modelling/schemas.md)
+  スキーマの作成プロセスは、より直感的で操作しやすいように設計された、更新されたユーザーインターフェイスを通じて改善されました。 これらの機能強化により、データ担当者はよりスムーズで効率的にデータモデルを開発できます。 [詳細情報](../data-modelling/schemas.md)
 
 * **Databricks に対するオーディエンスエンリッチメントのサポート**
 
-  オーディエンスを読み取りフローで Databricks を使用できるようになりました。これにより、Databricks データベースのアクティビティが有効になり、新しい宛先として設定できます。[詳細情報](../connections/destinations.md)
+  オーディエンスを読み取りフローで Databricks を使用できるようになりました。これにより、Databricks データベースのアクティビティが有効になり、新しい宛先として設定できます。 [詳細情報](../connections/destinations.md)
 
 ## 2024年11月リリース {#fac-24-11}
 
@@ -143,13 +143,13 @@ ht-degree: 97%
 
 * **IP アドレス許可リスト**
 
-  Adobe Experience Platform ユーザーインターフェイスで連合データベースを追加する際に、連合オーディエンス構成インスタンスに関連付けられた IP アドレスを直接表示できるようになりました。これにより、これらの IP を簡単にコピーして承認し、データベースに接続して、セキュリティと柔軟性を向上させることができます。[詳細情報](../connections/home.md)
+  Adobe Experience Platform ユーザーインターフェイスで連合データベースを追加する際に、連合オーディエンス構成インスタンスに関連付けられた IP アドレスを直接表示できるようになりました。 これにより、これらの IP を簡単にコピーして承認し、データベースに接続して、セキュリティと柔軟性を向上させることができます。 [詳細情報](../connections/home.md)
 
 ## 2024年10月リリース {#fac-24-10}
 
 >[!AVAILABILITY]
 >
->以前は一部の組織（LA）に対して提供されていた Adobe Experience Platform 連合オーディエンス構成が、すべてのユーザー（GA）に対して提供されるようになりました。この機能は、提供されている内容に基づいてアクティブ化され、関連付けられている権限がある場合にのみ表示されます。[詳細情報](../start/access-prerequisites.md)
+>以前は一部の組織（LA）に対して提供されていた Adobe Experience Platform 連合オーディエンス構成が、すべてのユーザー（GA）に対して提供されるようになりました。 この機能は、提供されている内容に基づいてアクティブ化され、関連付けられている権限がある場合にのみ表示されます。 [詳細情報](../start/access-prerequisites.md)
 >
 
 ### 互換性 {#fac-24-10-compat}
@@ -158,11 +158,11 @@ ht-degree: 97%
 
 * **Databricks のサポート**
 
-  連合オーディエンス構成を通じて Databricks データベースへの接続を確立できるようになりました。[詳細情報](../connections/home.md#databricks)
+  連合オーディエンス構成を通じて Databricks データベースへの接続を確立できるようになりました。 [詳細情報](../connections/home.md#databricks)
 
 * **AWS PrivateLink を介した Snowflake への安全なアクセスのサポート**
 
-  プライベートリンクを介した外部 Snowflake データウェアハウスへの安全なアクセスがサポートされるようになりました。Snowflake アカウントは、Amazon Web Services（AWS）でホストされ、連合オーディエンス構成環境と同じ地域に配置されている必要があります。Snowflake アカウントへの安全なアクセスの設定について詳しくは、アドビ担当者にお問い合わせください。[詳細情報](../connections/home.md#snowflake)
+  プライベートリンクを介した外部 Snowflake データウェアハウスへの安全なアクセスがサポートされるようになりました。 Snowflake アカウントは、Amazon Web Services（AWS）でホストされ、連合オーディエンス構成環境と同じ地域に配置されている必要があります。 Snowflake アカウントへの安全なアクセスの設定について詳しくは、アドビ担当者にお問い合わせください。 [詳細情報](../connections/home.md#snowflake)
 
 * **Amazon Redshift Serverless のサポート**
 
@@ -174,17 +174,17 @@ ht-degree: 97%
 
 * **既存のスキーマの更新**
 
-  連合データベースで列を作成、変更または削除する際に、対応するスキーマで「**[!UICONTROL スキーマを更新]**」を選択して、変更を検出して適用できるようになりました。 [詳細情報](../data-modelling/schemas.md#schema-refresh)
+  フェデレーションデータベースで列を作成、変更、または削除する際に、対応するスキーマで「**[!UICONTROL スキーマを更新]**」を選択して、変更を検出および適用できるようになりました。 [詳細情報](../data-modelling/schemas.md#schema-refresh)
 
 * **新しい構成とのデータモデルの関連付け**
 
-  構成を作成する際に、構成に関連付けるデータモデルを選択できるようになりました。この新しいオプションを使用すると、関連付けたデータモデルのテーブルのみが使用可能になるので、アクティビティの設定が簡単になります。[詳細情報](../compositions/create-composition.md)
+  構成を作成する際に、構成に関連付けるデータモデルを選択できるようになりました。 この新しいオプションを使用すると、関連付けたデータモデルのテーブルのみが使用可能になるので、アクティビティの設定が簡単になります。 [詳細情報](../compositions/create-composition.md)
 
 ## 2024年7月リリース - 連合オーディエンス構成（LA） {#fac-la}
 
-連合オーディエンス構成は、エンタープライズデータウェアハウスへの柔軟で拡張されたアクセスを企業に提供し、重要なエンタープライズデータセットを使用してオーディエンスを構成し、ブランド主導の瞬間的なエクスペリエンスを強化します。この新しいアプローチでは、[Adobe Real-time Customer Data Platform](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/home){target="_blank"} や [Adobe Journey Optimizer](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} のユーザーとして、既存のデータウェアハウスからオーディエンスデータを直接統合して、Adobe Experience Platform オーディエンスを 1 つのシステムで強化できます。
+連合オーディエンス構成は、エンタープライズデータウェアハウスへの柔軟で拡張されたアクセスを企業に提供し、重要なエンタープライズデータセットを使用してオーディエンスを構成し、ブランド主導の瞬間的なエクスペリエンスを強化します。 この新しいアプローチでは、[Adobe Real-time Customer Data Platform](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/home){target="_blank"} や [Adobe Journey Optimizer](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} のユーザーとして、既存のデータウェアハウスからオーディエンスデータを直接統合して、Adobe Experience Platform オーディエンスを 1 つのシステムで強化できます。
 
-連合オーディエンス構成は、ウェアハウスデータセットを使用してオーディエンスを柔軟に構成する必要がある企業に対する市場の需要の高まりに対応します。これにより、企業はデータの移動を削減しながら、重要なオーディエンスデータをマーケティングチームが使用できるようにし、ユースケースの要件を満たして、パーソナライズされたエクスペリエンスを強化できます。
+連合オーディエンス構成は、ウェアハウスデータセットを使用してオーディエンスを柔軟に構成する必要がある企業に対する市場の需要の高まりに対応します。 これにより、企業はデータの移動を削減しながら、重要なオーディエンスデータをマーケティングチームが使用できるようにし、ユースケースの要件を満たして、パーソナライズされたエクスペリエンスを強化できます。
 
 連合オーディエンス構成機能について詳しくは、[このページ](../overview.md)および[よくある質問](../faq.md)を参照してください。
 
