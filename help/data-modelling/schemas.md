@@ -4,8 +4,12 @@ title: スキーマの基本を学ぶ
 description: スキーマの開始方法について説明します
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
 TQID: https://experienceleague.adobe.com/cpkFeiskYDpixNo01llqC3UKK8XfewN7XC2yAf1wOYQ
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
 workflow-type: tm+mt
 source-wordcount: 580
@@ -65,7 +69,7 @@ ht-degree: 99%
 
 連合オーディエンス構成でスキーマを作成するには、「**[!UICONTROL 連合データ]**」セクションで「**[!UICONTROL モデル]**」を選択します。 「**[!UICONTROL スキーマ]**」タブで、「**[!UICONTROL スキーマを作成]**」を選択します。
 
-![ 「スキーマを作成」ボタンは、「連合オーディエンス構成スキーマ」セクションでハイライト表示されます。](assets/schemas/schema_create.png){zoomable="yes"}
+![&#x200B; 「スキーマを作成」ボタンは、「連合オーディエンス構成スキーマ」セクションでハイライト表示されます。](assets/schemas/schema_create.png){zoomable="yes"}
 
 **[!UICONTROL 連合データベースを選択]**&#x200B;ポップオーバーが表示されます。 このポップオーバーで、「[ソースデータベース](/help/connections/home.md)」を選択し、「**[!UICONTROL 次へ]**」をクリックします。
 
