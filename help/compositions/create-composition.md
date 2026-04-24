@@ -3,9 +3,11 @@ audience: end-user
 title: 構成の作成
 description: 構成の作成方法について説明します
 exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
-source-git-commit: 036dcb96d2d831e3a1d6ab50afef5b87e25b564b
+TQID: https://experienceleague.adobe.com/J1BfErdvMzZZ-23BAU4cbQcx3V3n7ymzv5nZdUOTw6M
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
 workflow-type: tm+mt
-source-wordcount: '1603'
+source-wordcount: 1603
 ht-degree: 100%
 
 ---
