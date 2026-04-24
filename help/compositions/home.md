@@ -3,9 +3,16 @@ audience: end-user
 title: 構成の基本を学ぶ
 description: 構成の開始方法について説明します
 exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
-source-git-commit: e82f1c237927af983a32c848cb9d45d84f9cf3fe
+TQID: https://experienceleague.adobe.com/-SzMG0wJnEcqFJPJZqBWKD8y22d4Z525Obe5CnyhcfE
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: 655
 ht-degree: 99%
 
 ---
