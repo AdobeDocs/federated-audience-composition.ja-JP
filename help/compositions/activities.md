@@ -4,7 +4,8 @@ title: アクティビティの概要
 description: 連合オーディエンス構成内で使用できる様々なアクティビティとトランジションについて説明します。
 exl-id: 6ef5c165-c4fa-437b-be16-d42cb2f7991b
 TQID: https://experienceleague.adobe.com/hyCx0law7owYRhatvfX4o9OJQkd0pYEaj47iLi5t7FE
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
 source-git-commit: 57a981aa915e19caa7564c8a33a1a267df5bd52e
 workflow-type: tm+mt
 source-wordcount: 5478
@@ -515,7 +516,7 @@ ht-degree: 87%
 
 >[!IMPORTANT]
 >
->選択したデータセットで&#x200B;**not**&#x200B;がupsertを有効にしている場合、データは&#x200B;**replaced**&#x200B;になります。 データセットのアップサートを有効にする方法については、[ アップサートを有効にするガイド ](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert)を参照してください。
+>選択したデータセットで&#x200B;**not**&#x200B;がupsertを有効にしている場合、データは&#x200B;**replaced**&#x200B;になります。 データセットのアップサートを有効にする方法については、[&#x200B; アップサートを有効にするガイド &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert)を参照してください。
 
 コンポジションに「**[!UICONTROL フィールドを保存]**」アクティビティを追加したら、アクティビティにラベルを付けて、使用するAdobe Experience Platform スキーマを選択できます。 スキーマは、標準スキーマまたはリレーショナルスキーマのいずれかです。
 
@@ -527,11 +528,11 @@ ht-degree: 87%
 
 標準スキーマを選択する場合は、エンリッチメントを保存するデータセットを選択する必要があります。
 
-![ データセットの選択セクションがハイライト表示されます。](/help/compositions/assets/activities/enrich-fields/select-dataset-standard.png){width="300" zoomable="yes"}
+![&#x200B; データセットの選択セクションがハイライト表示されます。](/help/compositions/assets/activities/enrich-fields/select-dataset-standard.png){width="300" zoomable="yes"}
 
 データセットを選択すると、データベース内のプロファイルを識別するために使用されるプライマリ ID フィールドが表示されます。 ただし、プライマリフィールドと必須フィールドをマッピングする必要があります。 「**[!UICONTROL フィールドを追加]**」を選択し、マッピングする各属性に&#x200B;**[!UICONTROL Source]** フィールド（外部データ）と&#x200B;**[!UICONTROL 宛先]** フィールド（スキーマフィールド）を指定します。
 
-![ フィールドを追加ボタンとフィールドマッピングセクションがハイライト表示されます。](/help/compositions/assets/activities/enrich-fields/specify-mapping-standard.png){width="300" zoomable="yes"}
+![&#x200B; フィールドを追加ボタンとフィールドマッピングセクションがハイライト表示されます。](/help/compositions/assets/activities/enrich-fields/specify-mapping-standard.png){width="300" zoomable="yes"}
 
 また、エンリッチメントの更新モードを指定することもできます。
 
@@ -548,11 +549,11 @@ ht-degree: 87%
 
 リレーショナルスキーマを選択する場合は、エンリッチメントを保存するデータセットを選択する必要があります。
 
-![ データセットの選択セクションがハイライト表示されます。](/help/compositions/assets/activities/enrich-fields/select-dataset-relational.png){width="300" zoomable="yes"}
+![&#x200B; データセットの選択セクションがハイライト表示されます。](/help/compositions/assets/activities/enrich-fields/select-dataset-relational.png){width="300" zoomable="yes"}
 
 データセットを選択すると、データベースのプライマリキーとバージョン記述子が表示されます。  ただし、プライマリキーと必須フィールドをマッピングする必要があります。 「**[!UICONTROL フィールドを追加]s**」を選択し、マッピングする各属性に&#x200B;**[!UICONTROL Source]** フィールド（外部データ）と&#x200B;**[!UICONTROL 宛先]** フィールド（スキーマフィールド）を指定します。
 
-![ フィールドを追加ボタンとフィールドマッピングセクションがハイライト表示されます。](/help/compositions/assets/activities/enrich-fields/specify-mapping-relational.png){width="300" zoomable="yes"}
+![&#x200B; フィールドを追加ボタンとフィールドマッピングセクションがハイライト表示されます。](/help/compositions/assets/activities/enrich-fields/specify-mapping-relational.png){width="300" zoomable="yes"}
 
 リレーショナルスキーマは増分更新のみをサポートするため、どのようなデータが送信されるかを決定するには、最終更新日を選択する必要があります。 増分更新は、前回のエンリッチメント実行以降に変更されたフィールドのみを更新します。
 
