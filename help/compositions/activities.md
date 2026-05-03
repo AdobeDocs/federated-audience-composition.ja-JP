@@ -4,12 +4,11 @@ title: アクティビティの概要
 description: 連合オーディエンス構成内で使用できる様々なアクティビティとトランジションについて説明します。
 exl-id: 6ef5c165-c4fa-437b-be16-d42cb2f7991b
 TQID: https://experienceleague.adobe.com/hyCx0law7owYRhatvfX4o9OJQkd0pYEaj47iLi5t7FE
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
 source-git-commit: 57a981aa915e19caa7564c8a33a1a267df5bd52e
 workflow-type: tm+mt
 source-wordcount: 5478
-ht-degree: 87%
+ht-degree: 90%
 
 ---
 
@@ -440,13 +439,13 @@ ht-degree: 87%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_primaryidentitynamespace"
->title="名前空間フィールドを特定するプライマリ"
->abstract="プライマリ IDの名前空間。 名前空間は、プライマリ IDの分類を説明するコンテキストを提供するのに役立ちます。"
+>title="プライマリ ID 名前空間フィールド"
+>abstract="プライマリ ID の名前空間。 名前空間は、プライマリ ID の分類を説明するコンテキストを指定するのに役立ちます。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_selectaepschema"
 >title="Experience Platform スキーマを選択"
->abstract="エンリッチするExperience Platform スキーマを選択します。"
+>abstract="強化する Experience Platform スキーマを選択します。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_updatemode"
@@ -461,7 +460,7 @@ ht-degree: 87%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_updatemode_incremental"
 >title="増分更新"
->abstract="増分更新モードは、前回のエンリッチメント実行以降に変更されたフィールドを更新します。"
+>abstract="増分更新モードは、最後にエンリッチメントが実行されてから変更されたフィールドを更新します。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_primaryidentityfield"
@@ -481,32 +480,32 @@ ht-degree: 87%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_aepschemalist"
 >title="スキーマリスト"
->abstract="サンドボックスで使用可能なスキーマのリスト。 標準スキーマまたはリレーショナルスキーマのいずれかを選択できます。"
+>abstract="サンドボックスで使用可能なスキーマのリスト。 標準スキーマまたはリレーショナルスキーマを選択できます。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_selectaepattribute"
 >title="属性を選択"
->abstract="フィールドのソース/宛先マッピングを作成できます。"
+>abstract="フィールドのソース／宛先マッピングを作成できます。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_selectaepdataset"
 >title="データセットを選択"
->abstract="スキーマに属するデータセットのリスト。 エンリッチメントされたデータを保存するデータセットを選択できます。"
+>abstract="スキーマに属するデータセットのリスト。 強化したデータを保存するデータセットを選択できます。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_primarykeycheck"
 >title="プライマリキー"
->abstract="リレーショナルスキーマのプライマリキー。 この値は、重複するレコードが取り込まれるのを防ぐことによって、データセット内の一意性を保証します。"
+>abstract="リレーショナルスキーマのプライマリキー。 この値は、重複レコードの取り込みを防ぐことで、データセット内の一意性を確保します。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_versiondescriptor"
 >title="バージョン記述子"
->abstract="関係スキーマのバージョン記述子。 この値は、複数の値が同じプライマリキーを共有し、最新の更新が確実に適用される場合に、どのプロパティが優先されるかを判断するのに役立ちます。"
+>abstract="リレーショナルスキーマのバージョン記述子。 この値は、複数の値が同じプライマリキーを共有している場合に、優先されるプロパティを判断するのに役立ち、最新の更新が確実に適用されるようにします。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_timestampdescriptor"
 >title="タイムスタンプ記述子"
->abstract="関係スキーマのタイムスタンプ記述子。 この値は、順序のイベント時間を設定するのに役立ち、時系列データを使用している場合にのみ存在します。"
+>abstract="リレーショナルスキーマのタイムスタンプ記述子。 この値は、イベントの順序付けの時間を設定するのに役立ち、時系列データを操作している場合にのみ存在します。"
 
 **[!UICONTROL フィールドを保存]** アクティビティを使用すると、外部ウェアハウスからのデータをフェデレーションしてExperience Platform スキーマを強化し、Experience Platform スキーマに追加の属性を追加できます。
 
@@ -516,7 +515,7 @@ ht-degree: 87%
 
 >[!IMPORTANT]
 >
->選択したデータセットで&#x200B;**not**&#x200B;がupsertを有効にしている場合、データは&#x200B;**replaced**&#x200B;になります。 データセットのアップサートを有効にする方法については、[&#x200B; アップサートを有効にするガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/enable-upsert)を参照してください。
+>選択したデータセットで&#x200B;**not**&#x200B;がupsertを有効にしている場合、データは&#x200B;**replaced**&#x200B;になります。 データセットのアップサートを有効にする方法については、[ アップサートを有効にするガイド ](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert)を参照してください。
 
 コンポジションに「**[!UICONTROL フィールドを保存]**」アクティビティを追加したら、アクティビティにラベルを付けて、使用するAdobe Experience Platform スキーマを選択できます。 スキーマは、標準スキーマまたはリレーショナルスキーマのいずれかです。
 
@@ -528,11 +527,11 @@ ht-degree: 87%
 
 標準スキーマを選択する場合は、エンリッチメントを保存するデータセットを選択する必要があります。
 
-![&#x200B; データセットの選択セクションがハイライト表示されます。](/help/compositions/assets/activities/enrich-fields/select-dataset-standard.png){width="300" zoomable="yes"}
+![ データセットの選択セクションがハイライト表示されます。](/help/compositions/assets/activities/enrich-fields/select-dataset-standard.png){width="300" zoomable="yes"}
 
 データセットを選択すると、データベース内のプロファイルを識別するために使用されるプライマリ ID フィールドが表示されます。 ただし、プライマリフィールドと必須フィールドをマッピングする必要があります。 「**[!UICONTROL フィールドを追加]**」を選択し、マッピングする各属性に&#x200B;**[!UICONTROL Source]** フィールド（外部データ）と&#x200B;**[!UICONTROL 宛先]** フィールド（スキーマフィールド）を指定します。
 
-![&#x200B; フィールドを追加ボタンとフィールドマッピングセクションがハイライト表示されます。](/help/compositions/assets/activities/enrich-fields/specify-mapping-standard.png){width="300" zoomable="yes"}
+![ フィールドを追加ボタンとフィールドマッピングセクションがハイライト表示されます。](/help/compositions/assets/activities/enrich-fields/specify-mapping-standard.png){width="300" zoomable="yes"}
 
 また、エンリッチメントの更新モードを指定することもできます。
 
@@ -549,11 +548,11 @@ ht-degree: 87%
 
 リレーショナルスキーマを選択する場合は、エンリッチメントを保存するデータセットを選択する必要があります。
 
-![&#x200B; データセットの選択セクションがハイライト表示されます。](/help/compositions/assets/activities/enrich-fields/select-dataset-relational.png){width="300" zoomable="yes"}
+![ データセットの選択セクションがハイライト表示されます。](/help/compositions/assets/activities/enrich-fields/select-dataset-relational.png){width="300" zoomable="yes"}
 
 データセットを選択すると、データベースのプライマリキーとバージョン記述子が表示されます。  ただし、プライマリキーと必須フィールドをマッピングする必要があります。 「**[!UICONTROL フィールドを追加]s**」を選択し、マッピングする各属性に&#x200B;**[!UICONTROL Source]** フィールド（外部データ）と&#x200B;**[!UICONTROL 宛先]** フィールド（スキーマフィールド）を指定します。
 
-![&#x200B; フィールドを追加ボタンとフィールドマッピングセクションがハイライト表示されます。](/help/compositions/assets/activities/enrich-fields/specify-mapping-relational.png){width="300" zoomable="yes"}
+![ フィールドを追加ボタンとフィールドマッピングセクションがハイライト表示されます。](/help/compositions/assets/activities/enrich-fields/specify-mapping-relational.png){width="300" zoomable="yes"}
 
 リレーショナルスキーマは増分更新のみをサポートするため、どのようなデータが送信されるかを決定するには、最終更新日を選択する必要があります。 増分更新は、前回のエンリッチメント実行以降に変更されたフィールドのみを更新します。
 
