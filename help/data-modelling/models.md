@@ -10,10 +10,10 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+source-git-commit: f1a9d21c9026c569d525e0a4289010be83538914
 workflow-type: tm+mt
-source-wordcount: 748
-ht-degree: 97%
+source-wordcount: 778
+ht-degree: 93%
 
 ---
 
@@ -32,11 +32,11 @@ ht-degree: 97%
 
 連合オーディエンス構成では、キャンバスビューでデータモデルを直接作成および管理できます。 これには、スキーマとオーディエンスの追加と、ユースケースに基づいてこれらの間のリンクの定義が含まれます。
 
-詳しくは、[スキーマ](../data-modelling/schemas.md#schema-start)および[オーディエンス](../start/audiences.md)を参照してください。
+スキーマについて詳しくは、[&#x200B; スキーマの概要](../data-modelling/schemas.md)を参照してください。 オーディエンスについて詳しくは、[&#x200B; オーディエンスの操作ガイド &#x200B;](../start/audiences.md)を参照してください。
 
 例えば、以下の図はデータモデル（テーブルおよびその名前と、テーブル間のリンク）を表しています。
 
-![](assets/models/datamodel.png){zoomable="yes"}
+![表と表間のリンクが表示されたデータモデルのサンプル表現。](assets/models/datamodel.png){zoomable="yes"}
 
 ## データモデルの作成 {#data-model-create}
 

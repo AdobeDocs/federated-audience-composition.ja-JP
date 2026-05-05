@@ -6,7 +6,7 @@ exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
 TQID: https://experienceleague.adobe.com/J1BfErdvMzZZ-23BAU4cbQcx3V3n7ymzv5nZdUOTw6M
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+source-git-commit: f1a9d21c9026c569d525e0a4289010be83538914
 workflow-type: tm+mt
 source-wordcount: 1603
 ht-degree: 100%
@@ -73,6 +73,7 @@ ht-degree: 100%
 * **[!UICONTROL 一時停止]／[!UICONTROL 再開]**：アクティビティを一時停止または再開します。 構成を実行すると、一時停止したアクティビティで一時停止します。 対応するタスクと、同じパス内でそのタスクに続くすべてのタスクが実行されません。
 * **[!UICONTROL コピー]**：アクティビティをコピーして、構成内の別の場所にペーストします。 これを行うには、トランジションの「**+**」ボタンを選択し、「**[!UICONTROL X アクティビティをペースト]**」を選択します。<!-- cannot copy multiple activities ? cannot paste in another composition?-->
 * 選択したアクティビティの&#x200B;**[!UICONTROL 実行オプション]**&#x200B;を設定します。 使用可能な実行オプションは次のとおりです。
+
   +++使用可能な実行オプション
 
   「**[!UICONTROL プロパティ]**」セクションでは、アクティビティの実行に関する一般的な設定を指定できます。
@@ -88,6 +89,7 @@ ht-degree: 100%
   「**[!UICONTROL 初期化スクリプト]**」セクションでは、変数を初期化したり、アクティビティのプロパティを変更したりできます。 「**[!UICONTROL コードを編集]**」ボタンを選択し、実行するコードのスニペットを入力します。 スクリプトは、アクティビティの実行時に呼び出されます。
 
   +++
+
 * **ログとタスク**：選択したアクティビティのログとタスクを表示します。
 
 ## 構成の開始と監視 {#start-and-monitor}

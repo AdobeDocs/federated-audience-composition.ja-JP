@@ -6,10 +6,10 @@ exl-id: 6ef5c165-c4fa-437b-be16-d42cb2f7991b
 TQID: https://experienceleague.adobe.com/hyCx0law7owYRhatvfX4o9OJQkd0pYEaj47iLi5t7FE
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+source-git-commit: 57a981aa915e19caa7564c8a33a1a267df5bd52e
 workflow-type: tm+mt
 source-wordcount: 5478
-ht-degree: 87%
+ht-degree: 90%
 
 ---
 
@@ -207,6 +207,8 @@ ht-degree: 87%
 プライマリセットを選択した後、**除外ルール**&#x200B;を設定できます。 「**属性で一致**」または「**結合**」を選択できます。
 
 除外ルールを設定した後、「**補集合を生成**」オプションを選択することもできます。 補集合を生成すると、残りの母集団が処理され、除外の一部として含まれて&#x200B;**いない**&#x200B;データが含まれます。 追加のアウトバウンドトランジションがアクティビティに追加されます。
+
+>[!ENDTABS]
 
 +++
 
@@ -438,13 +440,13 @@ ht-degree: 87%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_primaryidentitynamespace"
->title="名前空間フィールドを特定するプライマリ"
->abstract="プライマリ IDの名前空間。 名前空間は、プライマリ IDの分類を説明するコンテキストを提供するのに役立ちます。"
+>title="プライマリ ID 名前空間フィールド"
+>abstract="プライマリ ID の名前空間。 名前空間は、プライマリ ID の分類を説明するコンテキストを指定するのに役立ちます。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_selectaepschema"
 >title="Experience Platform スキーマを選択"
->abstract="エンリッチするExperience Platform スキーマを選択します。"
+>abstract="強化する Experience Platform スキーマを選択します。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_updatemode"
@@ -459,7 +461,7 @@ ht-degree: 87%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_updatemode_incremental"
 >title="増分更新"
->abstract="増分更新モードは、前回のエンリッチメント実行以降に変更されたフィールドを更新します。"
+>abstract="増分更新モードは、最後にエンリッチメントが実行されてから変更されたフィールドを更新します。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_primaryidentityfield"
@@ -479,32 +481,32 @@ ht-degree: 87%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_aepschemalist"
 >title="スキーマリスト"
->abstract="サンドボックスで使用可能なスキーマのリスト。 標準スキーマまたはリレーショナルスキーマのいずれかを選択できます。"
+>abstract="サンドボックスで使用可能なスキーマのリスト。 標準スキーマまたはリレーショナルスキーマを選択できます。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_selectaepattribute"
 >title="属性を選択"
->abstract="フィールドのソース/宛先マッピングを作成できます。"
+>abstract="フィールドのソース／宛先マッピングを作成できます。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_selectaepdataset"
 >title="データセットを選択"
->abstract="スキーマに属するデータセットのリスト。 エンリッチメントされたデータを保存するデータセットを選択できます。"
+>abstract="スキーマに属するデータセットのリスト。 強化したデータを保存するデータセットを選択できます。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_primarykeycheck"
 >title="プライマリキー"
->abstract="リレーショナルスキーマのプライマリキー。 この値は、重複するレコードが取り込まれるのを防ぐことによって、データセット内の一意性を保証します。"
+>abstract="リレーショナルスキーマのプライマリキー。 この値は、重複レコードの取り込みを防ぐことで、データセット内の一意性を確保します。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_versiondescriptor"
 >title="バージョン記述子"
->abstract="関係スキーマのバージョン記述子。 この値は、複数の値が同じプライマリキーを共有し、最新の更新が確実に適用される場合に、どのプロパティが優先されるかを判断するのに役立ちます。"
+>abstract="リレーショナルスキーマのバージョン記述子。 この値は、複数の値が同じプライマリキーを共有している場合に、優先されるプロパティを判断するのに役立ち、最新の更新が確実に適用されるようにします。"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_timestampdescriptor"
 >title="タイムスタンプ記述子"
->abstract="関係スキーマのタイムスタンプ記述子。 この値は、順序のイベント時間を設定するのに役立ち、時系列データを使用している場合にのみ存在します。"
+>abstract="リレーショナルスキーマのタイムスタンプ記述子。 この値は、イベントの順序付けの時間を設定するのに役立ち、時系列データを操作している場合にのみ存在します。"
 
 **[!UICONTROL フィールドを保存]** アクティビティを使用すると、外部ウェアハウスからのデータをフェデレーションしてExperience Platform スキーマを強化し、Experience Platform スキーマに追加の属性を追加できます。
 
