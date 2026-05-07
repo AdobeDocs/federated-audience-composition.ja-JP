@@ -3,8 +3,11 @@ title: 外部データベースへのアクセスの権限
 description: 各データベースエンジンにアクセスしてタスクを実行するために必要な権限について説明します
 exl-id: 287fb4a4-5767-4337-96be-dceca55f756d
 TQID: https://experienceleague.adobe.com/LI7H7b6iM3TAsPy00wDwNj3-D0Z7mIrH9MKW8g9QDsk
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 5cbe8da3f51b33b14f5c86648b3523ce6464b944
 workflow-type: tm+mt
 source-wordcount: 447

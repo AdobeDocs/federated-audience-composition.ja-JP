@@ -42,4 +42,4 @@ ht-degree: 97%
    - [最新のリリースノート](./release-notes/latest.md)
    - [2024年](./release-notes/2024.md)
    - [2025](./release-notes/2025.md)
-   - {hide-from-toc}[ プレリリースノート ](./release-notes/e-release-notes.md)
+   - {hide-from-toc}[&#x200B; プレリリースノート &#x200B;](./release-notes/e-release-notes.md)
