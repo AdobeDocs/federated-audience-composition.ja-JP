@@ -3,9 +3,9 @@ user-guide-title: Experience Platform 連合オーディエンス構成
 title: Experience Platform 連合オーディエンス構成ドキュメント
 breadcrumb-title: Experience Platform 連合オーディエンス構成
 source-git-commit: 5784d7d29ac1e58b2c186c9c6fb714a33b11f764
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '112'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -42,4 +42,4 @@ ht-degree: 97%
    - [最新のリリースノート](./release-notes/latest.md)
    - [2024年](./release-notes/2024.md)
    - [2025](./release-notes/2025.md)
-   - {hide-from-toc}[&#x200B; プレリリースノート &#x200B;](./release-notes/e-release-notes.md)
+   - {hide-from-toc}[プレリリースノート](./release-notes/e-release-notes.md)

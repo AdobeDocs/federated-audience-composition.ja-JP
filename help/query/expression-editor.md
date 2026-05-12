@@ -7,9 +7,9 @@ TQID: https://experienceleague.adobe.com/CEu72QK6dqP1LCl8Ip1JSdZpZtubK0nyDJvj3QM
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
 source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 4215
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -142,7 +142,7 @@ Aggregate functions are not available.
 | **Oldest** | 指定された 2 つの日付間の最も古い日付を返します。 | Oldest(&lt;日時>, &lt;日時>) | Oldest(&quot;2015-02-13 11:59:59&quot;, &quot;2016-04-13 19:28:14&quot;) |
 | **TruncDate** | 指定された数値に基づいて、日時を最も近い単位に切り捨てます。 数値が 60 に等しい場合は、最も近い分に切り捨てられます。 数値が 3600 に等しい場合は、最も近い時間に切り捨てられます。 数値が 86400 に等しい場合は、最も近い日に切り捨てられます。 それ以外の場合は、最も近い秒に切り捨てられます。 | TruncDate(&lt;日時>, &lt;数値>) | TruncDate(&quot;2016-04-13 19:28:14&quot;, 3600) |
 | **TruncDateTZ** | 指定された数値に基づいて、日時を最も近い単位に切り捨て、日時を指定されたタイムゾーンに設定します。 数値が 60 に等しい場合は、最も近い分に切り捨てられます。 数値が 3600 に等しい場合は、最も近い時間に切り捨てられます。 数値が 86400 に等しい場合は、最も近い日に切り捨てられます。 | TruncDateTZ(&lt;日時>, &lt;数値>, &lt;タイムゾーン>) | TruncDateTZ(&quot;2016-04-13 19:28:14&quot;, 3600, &quot;米国/ロサンゼルス&quot;) |
-| **TruncTime** | 日時を2000年1月1日に設定し、指定された数値に基づいて、残りの日時を最も近い単位に丸めます。数値が 60 に等しい場合は、最も近い分に切り捨てられます。 数値が 3600 に等しい場合は、最も近い時間に切り捨てられます。 | TruncTime(&lt;日時>, &lt;数値>) | TruncTime(&quot;2016-04-13 19:28:14&quot;, 3600) |
+| **TruncTime** | 日時を 2000年1月1日に設定し、指定された数値に基づいて、残りの日時を最も近い単位に丸めます。数値が 60 に等しい場合は、最も近い分に切り捨てられます。 数値が 3600 に等しい場合は、最も近い時間に切り捨てられます。 | TruncTime(&lt;日時>, &lt;数値>) | TruncTime(&quot;2016-04-13 19:28:14&quot;, 3600) |
 | **TruncQuarter** | 日時を最も近い四半期の最初の日付に切り捨てます。 | TruncQuarter(&lt;日時>) | TruncQuarter(&quot;2016-04-13 19:28:14&quot;) |
 | **TruncYear** | 日時を最も近い年の最初の日付に切り捨てます。 | TruncYear(&lt;日時>) | TruncYear(&quot;2016-04-13 19:28:14&quot;) |
 | **TruncWeek** | 日時を最も近い週の日曜日に切り捨てます。 | TruncWeek(&lt;日時>) | TruncWeek(&quot;2016-04-13 19:28:14&quot;) |
@@ -297,7 +297,7 @@ Aggregate functions are not available.
 | **Oldest** | 指定された 2 つの日付間の最も古い日付を返します。 | Oldest(&lt;日時>, &lt;日時>) | Oldest(&quot;2015-02-13 11:59:59&quot;, &quot;2016-04-13 19:28:14&quot;) |
 | **TruncDate** | 指定された数値に基づいて、日時を最も近い単位に切り捨てます。 数値が 60 に等しい場合は、最も近い分に切り捨てられます。 数値が 3600 に等しい場合は、最も近い時間に切り捨てられます。 数値が 86400 に等しい場合は、最も近い日に切り捨てられます。 それ以外の場合は、最も近い秒に切り捨てられます。 | TruncDate(&lt;日時>, &lt;数値>) | TruncDate(&quot;2016-04-13 19:28:14&quot;, 3600) |
 | **TruncDateTZ** | 指定された数値に基づいて、日時を最も近い単位に切り捨て、日時を指定されたタイムゾーンに設定します。 数値が 60 に等しい場合は、最も近い分に切り捨てられます。 数値が 3600 に等しい場合は、最も近い時間に切り捨てられます。 数値が 86400 に等しい場合は、最も近い日に切り捨てられます。 | TruncDateTZ(&lt;日時>, &lt;数値>, &lt;タイムゾーン>) | TruncDateTZ(&quot;2016-04-13 19:28:14&quot;, 3600, &quot;米国/ロサンゼルス&quot;) |
-| **TruncTime** | 日時を2000年1月1日に設定し、指定された数値に基づいて、残りの日時を最も近い単位に丸めます。数値が 60 に等しい場合は、最も近い分に切り捨てられます。 数値が 3600 に等しい場合は、最も近い時間に切り捨てられます。 | TruncTime(&lt;日時>, &lt;数値>) | TruncTime(&quot;2016-04-13 19:28:14&quot;, 3600) |
+| **TruncTime** | 日時を 2000年1月1日に設定し、指定された数値に基づいて、残りの日時を最も近い単位に丸めます。数値が 60 に等しい場合は、最も近い分に切り捨てられます。 数値が 3600 に等しい場合は、最も近い時間に切り捨てられます。 | TruncTime(&lt;日時>, &lt;数値>) | TruncTime(&quot;2016-04-13 19:28:14&quot;, 3600) |
 | **TruncQuarter** | 日時を最も近い四半期の最初の日付に切り捨てます。 | TruncQuarter(&lt;日時>) | TruncQuarter(&quot;2016-04-13 19:28:14&quot;) |
 | **TruncYear** | 日時を最も近い年の最初の日付に切り捨てます。 | TruncYear(&lt;日時>) | TruncYear(&quot;2016-04-13 19:28:14&quot;) |
 | **TruncWeek** | 日時を最も近い週の日曜日に切り捨てます。 | TruncWeek(&lt;日時>) | TruncWeek(&quot;2016-04-13 19:28:14&quot;) |
@@ -525,7 +525,7 @@ Numeric functions are not available.
 | **Else** | Case 関数の一部として使用されます。 When 式が false の場合に、他のオプションを選択するために使用されます。 | Else(&lt;値>) | Else(&quot;いいえ&quot;) |
 | **Coalesce** | 最初の null 以外の値を返します。 | Coalesce(&lt;値>, &lt;値>) | Coalesce (&quot;&quot;, &quot;文字列&quot;) |
 | **Decode** | 値が等しい場合は最初のオプションを返します。 値が等しくない場合は 2 番目のオプションを返します。 | Decode(&lt;値>, &lt;値>, &lt;値>, &lt;値>) | Decode(1, 2, &quot;true&quot;, &quot;false&quot;) |
-| **GetEmailDomain** | 指定されたメールアドレスからドメインを抽出します。 | GetEmailDomain(&lt;文字列>) | GetEmailDomain （&quot;`sample@example.com`&quot;） |
+| **GetEmailDomain** | 指定されたメールアドレスからドメインを抽出します。 | GetEmailDomain(&lt;文字列>) | GetEmailDomain(&quot;`sample@example.com`&quot;) |
 | **Iif** | 条件が true の場合は最初のオプションを返し、条件が false の場合は 2 番目のオプションを返します。 | Iif(&lt;条件>, &lt;値>, &lt;値>) | Iif(10 &lt; 20, &quot;true&quot;, &quot;false&quot;) |
 | **IsEmptyString** | 文字列が空の場合は最初のオプションを返します。 それ以外の場合は、2 番目のオプションを返します。 | IsEmptyString(&lt;文字列> ,&lt;値>, &lt;値>) | IsEmptyString(&quot;文字列&quot;, &quot;はい&quot;, &quot;いいえ&quot;) |
 | **NewUUID** | 新しい一意の UUID を生成します。 | NewUUID() | NewUUID() |
@@ -584,7 +584,7 @@ Other functions are not available.
 | **Case** | 式が true の場合は最初の値を返します。 それ以外の場合は、2 番目の値を返します。 | Case(When(&lt;式> &lt;値>), Else(&lt;値>)) | Case(When(a > b, &quot;はい&quot;), Else(&quot;いいえ&quot;)) |
 | **When** | Case 関数の一部として使用されます。 Case 内の式を確認するために使用されます。 | When(&lt;式> &lt;値>) | When(a > b, &quot;はい&quot;) |
 | **Else** | Case 関数の一部として使用されます。 When 式が false の場合に、他のオプションを選択するために使用されます。 | Else(&lt;値>) | Else(&quot;いいえ&quot;) |
-| **GetEmailDomain** | 指定されたメールアドレスからドメインを抽出します。 | GetEmailDomain(&lt;文字列>) | GetEmailDomain （&quot;`sample@example.com`&quot;） |
+| **GetEmailDomain** | 指定されたメールアドレスからドメインを抽出します。 | GetEmailDomain(&lt;文字列>) | GetEmailDomain(&quot;`sample@example.com`&quot;) |
 | **Iif** | 条件が true の場合は最初のオプションを返し、条件が false の場合は 2 番目のオプションを返します。 | Iif(&lt;条件>, &lt;値>, &lt;値>) | Iif(10 &lt; 20, &quot;true&quot;, &quot;false&quot;) |
 | **IsEmptyString** | 文字列が空の場合は最初のオプションを返します。 それ以外の場合は、2 番目のオプションを返します。 | IsEmptyString(&lt;文字列> ,&lt;値>, &lt;値>) | IsEmptyString(&quot;文字列&quot;, &quot;はい&quot;, &quot;いいえ&quot;) |
 | **ToBoolean** | 値が true の場合は 1 を返します。 値が false の場合は 0 を返します。 | ToBoolean(&lt;値>) | ToBoolean(a=b) |
