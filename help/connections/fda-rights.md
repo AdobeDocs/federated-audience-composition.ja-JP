@@ -3,15 +3,12 @@ title: 外部データベースへのアクセスの権限
 description: 各データベースエンジンにアクセスしてタスクを実行するために必要な権限について説明します
 exl-id: 287fb4a4-5767-4337-96be-dceca55f756d
 TQID: https://experienceleague.adobe.com/LI7H7b6iM3TAsPy00wDwNj3-D0Z7mIrH9MKW8g9QDsk
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5cbe8da3f51b33b14f5c86648b3523ce6464b944
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 2f08e668fafcde9df941313f912c5cb2037ef691
 workflow-type: tm+mt
-source-wordcount: 447
-ht-degree: 93%
+source-wordcount: 445
+ht-degree: 88%
 
 ---
 
@@ -30,7 +27,7 @@ ht-degree: 93%
 | **実行のモニタリング** | 必要なオブジェクトに対する `MONITOR` 権限 | `EXPLAIN` コマンドの使用に権限は不要 | `monitoring.viewer` 役割 | `CAN_VIEW` 権限 |
 | **データの書き込み** | `INSERT` または `UPDATE` 権限（書き込み操作による） | `INSERT` および `UPDATE` 権限 | サービスアカウントに割り当てられる役割には、`bigquery.jobs.create` および `bigquery.tables.updateData` が含まれている必要があります | `MODIFY` 権限 |
 | **テーブルへのデータの読み込み** | 対象テーブル権限の`CREATE STAGE ON SCHEMA`、`Create file FORMATGRANT CREATE FILE FORMAT ON SCHEMA <SCHEMA> to ROLE <ROLE>`、`SELECT`、および`INSERT` | `SELECT` および `INSERT` 権限 | サービスアカウントに割り当てられる役割には、`bigquery.jobs.create`、`bigquery.tables.getData`、`bigquery.tables.updateData` が含まれている必要があります | `SELECT` および `MODIFY` 権限 |
-| **クライアントデータへのアクセス** | `SELECT on (FUTURE) TABLE(S)` または `VIEW(S)` 権限 | `SELECT` 権限 | サービスアカウントに割り当てられる役割には、テーブル用の `bigquery.jobs.create` および `bigquery.tables.getData` や、`bigquery.dataViewer` 役割が含まれている必要があります | `SELECT` 権限 |
+| **クライアントデータへのアクセス** | `SELECT on (FUTURE) TABLE(S)` または `VIEW(S)` 権限 | `SELECT` 権限 | サービスアカウントに割り当てられた役割には、テーブルまたは`bigquery.dataViewer`の役割に対して`bigquery.jobs.create`、`bigquery.readsessions.create`および`bigquery.tables.getData`が含まれている必要があります | `SELECT` 権限 |
 | **メタデータへのアクセス** | `SELECT on INFORMATION_SCHEMA SCHEMA` 権限 | `SELECT` 権限 | `bigquery.metadataViewer` 役割 |  `SELECT on INFORMATION_SCHEMA SCHEMA` 権限 |
 
 
