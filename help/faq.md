@@ -3,11 +3,8 @@ title: よくある質問
 description: Adobe Experience Platform 連合オーディエンス構成に関するよくある質問です
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
 TQID: https://experienceleague.adobe.com/Wd6WnteenqEV9ZEBs4-tgD8aRSSO1SwtEB4EetSUac4
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
 workflow-type: tm+mt
 source-wordcount: 975
@@ -52,7 +49,7 @@ ht-degree: 75%
 
 +++ 回答
 
-はい、複数のウェアハウスに対して同じ構成でクエリを実行し、複数のソースからのデータを組み合わせることができます。  通常、各[&#x200B; コンポジションアクティビティ &#x200B;](./compositions/activities.md) （クエリ、エンリッチメント、分割など） アクティビティの設定、ターゲットとなるデータベース（フェデレーションデータアクセスの複数のケースが可能）、実行の結果を含む1つ以上のワークテーブルの出力に応じて、1つまたは複数のSQL ステートメントを実行します。 これらのワークテーブルは、連続するアクティビティの入力として使用されます。
+はい、複数のウェアハウスに対して同じ構成でクエリを実行し、複数のソースからのデータを組み合わせることができます。  通常、各[ コンポジションアクティビティ ](./compositions/activities.md) （クエリ、エンリッチメント、分割など） アクティビティの設定、ターゲットとなるデータベース（フェデレーションデータアクセスの複数のケースが可能）、実行の結果を含む1つ以上のワークテーブルの出力に応じて、1つまたは複数のSQL ステートメントを実行します。 これらのワークテーブルは、連続するアクティビティの入力として使用されます。
 
 +++
 
@@ -90,7 +87,7 @@ ht-degree: 75%
 
 連合オーディエンス構成には、データの物理的なコピーは保存されません。 このデータを更新する頻度を定義するには、構成内で頻度を設定します。 結果のオーディエンスデータは、お客様のユースケースまたはアクションで必要とされる期間を超えて Adobe Experience Platform に保存されることはありません。
 
-例：
+次に例を示します。
 
 * オーディエンスの作成の場合、オーディエンスはウェアハウス内に作成され、連合オーディエンス構成を使用して追加の構成タスクやデータ操作を実行した後で、Adobe Experience Platform オーディエンスポータル経由で結果のオーディエンスと関連属性を公開することができます。 オーディエンス定義と関連属性は、Adobe Experience Platform に渡されます。
 外部で生成したオーディエンスの現在のデータの有効期限は 30 日です。 このデータの有効期限により、組織内に保存される余分なデータ量を削減できます。 データの有効期限が過ぎると、関連付けられたデータセットはデータセットインベントリ内に引き続き表示されますが、オーディエンスをアクティベートすることはできず、プロファイル数はゼロとして表示されます。 詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/faq#how-long-do-externally-generated-audiences-last-for){target="_blank"}を参照してください。
