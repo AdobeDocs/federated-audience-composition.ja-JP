@@ -90,7 +90,7 @@ ht-degree: 75%
 
 連合オーディエンス構成には、データの物理的なコピーは保存されません。 このデータを更新する頻度を定義するには、構成内で頻度を設定します。 結果のオーディエンスデータは、お客様のユースケースまたはアクションで必要とされる期間を超えて Adobe Experience Platform に保存されることはありません。
 
-例：
+次に例を示します。
 
 * オーディエンスの作成の場合、オーディエンスはウェアハウス内に作成され、連合オーディエンス構成を使用して追加の構成タスクやデータ操作を実行した後で、Adobe Experience Platform オーディエンスポータル経由で結果のオーディエンスと関連属性を公開することができます。 オーディエンス定義と関連属性は、Adobe Experience Platform に渡されます。
 外部で生成したオーディエンスの現在のデータの有効期限は 30 日です。 このデータの有効期限により、組織内に保存される余分なデータ量を削減できます。 データの有効期限が過ぎると、関連付けられたデータセットはデータセットインベントリ内に引き続き表示されますが、オーディエンスをアクティベートすることはできず、プロファイル数はゼロとして表示されます。 詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/faq#how-long-do-externally-generated-audiences-last-for){target="_blank"}を参照してください。
