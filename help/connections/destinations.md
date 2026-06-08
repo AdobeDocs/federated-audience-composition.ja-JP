@@ -9,9 +9,9 @@ product_v2:
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 6e722691fb7d8487e452bfe5301f8c38243222d2
+source-git-commit: ce79e1b9216ca69020155978ac84f29577c5ff8d
 workflow-type: tm+mt
-source-wordcount: 773
+source-wordcount: 774
 ht-degree: 56%
 
 ---
@@ -77,7 +77,7 @@ Adobe Experience Platform Destinations カタログ内で、Federated Audience C
 
 >[!IMPORTANT]
 >
->宛先をアクティブ化する際に、システム生成の列を&#x200B;**使用することはできません**。 システム生成の列を選択すると、アクティベーションが失敗します。
+>宛先に対してアクティブ化する際に、システム生成の列を&#x200B;**使用することはできません**。 システム生成の列を選択すると、エラーが発生します。
 
 詳しくは、Adobe Experience Platform ドキュメントの[&#x200B; マッピングの節](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping){target="_blank"}を参照してください。
 
