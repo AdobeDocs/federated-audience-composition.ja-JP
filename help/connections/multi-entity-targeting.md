@@ -2,7 +2,7 @@
 audience: end-user
 title: Adobe Journey Optimizerの連合オーディエンス構成オーディエンスを使用したマルチエンティティターゲティング
 description: Adobe Journey Optimizer ジャーニーでFederated Audience Composition オーディエンスからプロファイルをターゲティングする方法について説明します。
-source-git-commit: 297a1d5019737c35ee07967a6d7330d3ad0bac1d
+source-git-commit: 79f05c5a1b025b522a1b88615973d9fe383e3720
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 3%
@@ -57,3 +57,4 @@ ht-degree: 3%
 ## 次の手順 {#next-steps}
 
 このガイドでは、Journey Optimizer ジャーニーでFederated Audience Composition オーディエンスから補足的なIDを使用する方法について説明します。 追加のジャーニーの使用について詳しくは、ジャーニーのガイド [&#128279;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/supplemental-identifier)で補足識別子を使用するを参照してください。
+
