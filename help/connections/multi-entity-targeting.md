@@ -24,7 +24,7 @@ ht-degree: 3%
 
 オーディエンスの設定が完了したら、「**開始**」を選択して、コンポジションの実行を開始します。 このオーディエンスとそれに対応するデータセットは、Experience Platformで使用できるようになります。
 
-連合オーディエンスコンポジションでのコンポジションの作成について詳しくは、[ コンポジションの作成ガイド ](/help/compositions/create-composition.md)を参照してください。
+連合オーディエンスコンポジションでのコンポジションの作成について詳しくは、[&#x200B; コンポジションの作成ガイド &#x200B;](/help/compositions/create-composition.md)を参照してください。
 
 ## Adobe Journey Optimizerでオーディエンスをアクティベート {#activate}
 
@@ -34,7 +34,7 @@ ht-degree: 3%
 
 ジャーニーインターフェイス内で、**オーディエンスを読み取り** ノードを追加します。 このノードを設定するには、ラベルを指定し、以前に作成したオーディエンスを選択します。
 
-![ オーディエンスの読み取りノードがJourney Optimizer UIに表示されます。](/help/connections/assets/multi-entity-targeting/read-journey.png)
+![&#x200B; オーディエンスの読み取りノードがJourney Optimizer UIに表示されます。](/help/connections/assets/multi-entity-targeting/read-journey.png)
 
 以前に作成したオーディエンスを選択したら、**追加識別子を使用**&#x200B;を有効にします。
 
@@ -56,4 +56,4 @@ ht-degree: 3%
 
 ## 次の手順 {#next-steps}
 
-このガイドでは、Journey Optimizer ジャーニーでFederated Audience Composition オーディエンスから補足的なIDを使用する方法について説明します。 追加のジャーニーの使用について詳しくは、ジャーニーのガイド ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/supplemental-identifier)で[補足識別子を使用するを参照してください。
+このガイドでは、Journey Optimizer ジャーニーでFederated Audience Composition オーディエンスから補足的なIDを使用する方法について説明します。 追加のジャーニーの使用について詳しくは、ジャーニーのガイド [&#128279;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/supplemental-identifier)で補足識別子を使用するを参照してください。
