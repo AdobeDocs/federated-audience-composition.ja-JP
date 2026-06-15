@@ -1,12 +1,11 @@
 ---
 cloud: Experience Cloud
 solution: Experience Cloud
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
 usetq: true
 type: Documentation
 mini-toc-levels: 2
-git-repo: https://github.com/AdobeDocs/federated-audience-composition.ja-JP
+git-repo: https://github.com/AdobeDocs/federated-audience-composition.en
 index: true
 source-git-commit: 5b83f5cd91ba01a72397ff7c8c0597998a25090c
 workflow-type: ht
