@@ -1,60 +1,60 @@
 ---
 audience: end-user
-title: Adobe Journey Optimizerの連合オーディエンス構成オーディエンスを使用したマルチエンティティターゲティング
-description: Adobe Journey Optimizer ジャーニーでFederated Audience Composition オーディエンスからプロファイルをターゲティングする方法について説明します。
+title: Adobe Journey Optimizer で連合オーディエンス構成オーディエンスを使用したマルチエンティティターゲティング
+description: Adobe Journey Optimizer ジャーニーで連合オーディエンス構成オーディエンスからプロファイルをターゲットにする方法について説明します。
 source-git-commit: 79f05c5a1b025b522a1b88615973d9fe383e3720
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '496'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
 
-# Adobe Journey OptimizerのFederated Audience Composition オーディエンスによるマルチエンティティターゲティング
+# Adobe Journey Optimizer で連合オーディエンス構成オーディエンスを使用したマルチエンティティターゲティング
 
-複数のエンティティを使用したターゲティングでは、Adobe Journey Optimizer ジャーニーでFederated Audience Composition オーディエンス属性を補足識別子として使用できます。 これらの属性により、アカウントレベルや購読レベルなどの複数のエンティティでオーディエンスをアクティブ化できます。
+マルチエンティティターゲティングを使用すると、連合オーディエンス構成オーディエンス属性を、Adobe Journey Optimizer ジャーニーの補助識別子として使用できます。これらの属性により、アカウントやサブスクリプションレベルなど、複数のエンティティでオーディエンスをアクティブ化できます。
 
-## Federated Audience Compositionでのオーディエンスの作成 {#create}
+## 連合オーディエンス構成でのオーディエンスの作成 {#create}
 
 マルチエンティティターゲティングを開始するには、まず連合オーディエンス構成でオーディエンスを作成して保存する必要があります。
 
-オーディエンス構成UI内で、「**オーディエンスを作成**」アクティビティを追加して、連合コンポジションキャンバス内にオーディエンスを作成し、「**オーディエンスを保存**」アクティビティを追加して、オーディエンスのマッピング、プライマリ ID、データの有効期限を設定します。
+オーディエンス構成 UI 内で、**オーディエンスを作成**&#x200B;アクティビティを追加して、連合構成キャンバス内にオーディエンスを作成し、**オーディエンスを保存**&#x200B;アクティビティを追加して、オーディエンスのマッピング、プライマリ ID、データ有効期限を設定します。
 
-![連合オーディエンス構成UIが表示され、オーディエンスが表示されます。](/help/connections/assets/multi-entity-targeting/build-activity.png)
+![オーディエンスを示す、連合オーディエンス構成 UI が表示されています。](/help/connections/assets/multi-entity-targeting/build-activity.png)
 
-オーディエンスの設定が完了したら、「**開始**」を選択して、コンポジションの実行を開始します。 このオーディエンスとそれに対応するデータセットは、Experience Platformで使用できるようになります。
+オーディエンスの設定が完了したら、「**開始**」を選択して、構成の実行を開始します。このオーディエンスとそれに対応するデータセットは、Experience Platform で使用可能になります。
 
-連合オーディエンスコンポジションでのコンポジションの作成について詳しくは、[&#x200B; コンポジションの作成ガイド &#x200B;](/help/compositions/create-composition.md)を参照してください。
+連合オーディエンス構成での構成の作成について詳しくは、[構成の作成ガイド](/help/compositions/create-composition.md)を参照してください。
 
-## Adobe Journey Optimizerでオーディエンスをアクティベート {#activate}
+## Adobe Journey Optimizer でのオーディエンスのアクティブ化 {#activate}
 
-コンポジションの実行が完了したら、Journey Optimizerでオーディエンスをアクティブ化できます。 Adobe Journey Optimizerの&#x200B;**ジャーニー管理** セクション内で、「**ジャーニー**」を選択し、続いて「**ジャーニーを作成**」を選択して、ジャーニーユーザーインターフェイスを開きます。
+構成の実行が完了したら、Journey Optimizer でオーディエンスをアクティブ化できます。Adobe Journey Optimizer の「**ジャーニー管理**」セクション内で、「**ジャーニー**」、「**ジャーニーを作成**」の順に選択して、ジャーニーのユーザーインターフェイスを開きます。
 
-![Adobe Journey Optimizer内の「ジャーニーを作成」ボタンがハイライト表示されます。](/help/connections/assets/multi-entity-targeting/select-create-journey.png)
+![Adobe Journey Optimizer 内の「ジャーニーを作成」ボタンがハイライト表示されています。](/help/connections/assets/multi-entity-targeting/select-create-journey.png)
 
-ジャーニーインターフェイス内で、**オーディエンスを読み取り** ノードを追加します。 このノードを設定するには、ラベルを指定し、以前に作成したオーディエンスを選択します。
+ジャーニーインターフェイス内で、**オーディエンスを読み取り**&#x200B;ノードを追加します。このノードは、ラベルを指定し、以前に作成したオーディエンスを選択して設定できます。
 
-![&#x200B; オーディエンスの読み取りノードがJourney Optimizer UIに表示されます。](/help/connections/assets/multi-entity-targeting/read-journey.png)
+![オーディエンスを読み取りノードが Journey Optimizer UI で表示されています。](/help/connections/assets/multi-entity-targeting/read-journey.png)
 
-以前に作成したオーディエンスを選択したら、**追加識別子を使用**&#x200B;を有効にします。
+以前に作成したオーディエンスを選択したら、**補助識別子を使用**&#x200B;を有効にします。
 
-![補足識別子を使用チェックボックスが強調表示されます。](/help/connections/assets/multi-entity-targeting/enable-use-supplemental-identifier.png)
+![「補助識別子を使用」チェックボックスがハイライト表示されています。](/help/connections/assets/multi-entity-targeting/enable-use-supplemental-identifier.png)
 
-補足識別子を選択できるようになりました。 セレクター画面で、**詳細モード**&#x200B;を選択し、**Experience Platform**&#x200B;に移動します。 このページ内で、以前に作成したオーディエンスの名前を選択し、オーディエンスに使用する補足識別子を選択します。
+補助識別子を選択できるようになりました。セレクター画面で、「**詳細設定モード**」を選択し、**Experience Platform** に移動します。このページ内で、以前に作成したオーディエンスの名前を選択し、そのオーディエンスに使用する補助識別子を選択します。
 
-![式エディターが表示されます。](/help/connections/assets/multi-entity-targeting/add-expression.png)
+![式エディターが表示されています。](/help/connections/assets/multi-entity-targeting/add-expression.png)
 
 ## ジャーニー条件の設定 {#configure-journey}
 
-オーディエンス設定をアクティブ化して設定したら、ジャーニーの残りの条件を引き続き設定できます。 このユースケースでは、**オーディエンスの読み取り** ノードの後に&#x200B;**Optimizer** ノードを追加し、その後に&#x200B;**アクション** ノードを追加します。
+オーディエンス設定をアクティブ化して設定したら、ジャーニーの残りの条件を引き続き設定できます。このユースケースでは、**オーディエンスを読み取り**&#x200B;ノードの後に **Optimizer** ノード、**アクション**&#x200B;ノードの順に追加する必要があります。
 
-残りのノードを設定したら、**公開**&#x200B;を選択してジャーニーの作成を完了します。
+残りのノードを設定したら、「**公開**」を選択し、ジャーニーの作成を完了します。
 
-![公開ボタンがハイライト表示されます。](/help/connections/assets/multi-entity-targeting/select-publish.png)
+![公開ボタンがハイライト表示されています。](/help/connections/assets/multi-entity-targeting/select-publish.png)
 
-これで、ジャーニーは、プライマリ識別子ではなく&#x200B;**補足識別子**&#x200B;に基づいてオーディエンスプロファイルをターゲットにします。 この機能を使用すると、サブスクリプション ID、アカウント ID、注文IDなどの複数のエンティティをターゲットにして、目的のチャネルにアクティベートできるようになりました。
+ジャーニーは、プライマリ識別子の代わりに、**補助識別子**&#x200B;に基づいてオーディエンスプロファイルをターゲットにするようになります。この機能を使用すると、サブスクリプション ID、アカウント ID、注文 ID などの複数のエンティティをターゲットにして、目的のチャネルにアクティブ化できるようになりました。
 
 ## 次の手順 {#next-steps}
 
-このガイドでは、Journey Optimizer ジャーニーでFederated Audience Composition オーディエンスから補足的なIDを使用する方法について説明します。 追加のジャーニーの使用について詳しくは、ジャーニーのガイド [&#128279;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/supplemental-identifier)で補足識別子を使用するを参照してください。
+このガイドを参照すると、連合オーディエンス構成オーディエンスの補助識別子を Journey Optimizer ジャーニーで使用する方法が理解できます。補助ジャーニーの使用について詳しくは、[ジャーニーの補助識別子の使用](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/supplemental-identifier)ガイドを参照してください。
 
