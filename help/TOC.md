@@ -3,9 +3,9 @@ user-guide-title: Experience Platform 連合オーディエンス構成
 title: Experience Platform 連合オーディエンス構成ドキュメント
 breadcrumb-title: Experience Platform 連合オーディエンス構成
 source-git-commit: 8f33ab9a8461e36282d115ea49d93f403ee65c5c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '115'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
