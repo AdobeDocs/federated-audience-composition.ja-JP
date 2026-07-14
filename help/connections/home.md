@@ -13,9 +13,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 906ea4119d9a1f2ddf5829cc8d53598ba620bbcc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 3976
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -225,8 +225,8 @@ Google BigQuery を選択した後、連合オーディエンス構成に接続�
 | プロジェクト | プロジェクトの ID。 詳しくは、[Google Cloud プロジェクトに関するドキュメント](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}を参照してください。 |
 | データセット | データセットの名前。 詳しくは、[Google Cloud データセットに関するドキュメント](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}を参照してください。 |
 | キーファイルのパス | サーバーに対するキーファイル。 `json` ファイルのみがサポートされています。 |
-| Google バケットの場所 | Google バケットの場所。 このフィールドを追加するのは、コンポジションで「**ディメンションを変更**」アクティビティを使用している場合のみです。 詳しくは、[Google Cloud バケットの場所に関するドキュメント &#x200B;](https://docs.cloud.google.com/storage/docs/locations){target="_blank"}を参照してください。 |
-| REST API コネクタの使用 | REST API コネクタを使用できるようにするトグル。 このオプションは、アカウント/パスワード認証を使用している場合は&#x200B;**のみ**&#x200B;利用できます。 |
+| Google バケットのロケーション | Google バケットの場所。構成で&#x200B;**ディメンションを変更**&#x200B;アクティビティを使用する場合にのみ、このフィールドを追加する必要があります。詳しくは、[Google Cloud バケットのロケーションドキュメント](https://docs.cloud.google.com/storage/docs/locations){target="_blank"}を参照してください。 |
+| REST API コネクタを使用 | REST API コネクタの使用を有効にする切替スイッチ。このオプションは、アカウント／パスワード認証を使用している場合に&#x200B;**のみ**&#x200B;使用できます。 |
 | オプション | その他の接続オプション。 使用可能なオプションを次の表に示します。 |
 
 Google BigQuery では、以下の追加オプションを設定できます。
@@ -241,7 +241,7 @@ Google BigQuery では、以下の追加オプションを設定できます。
 | GCloudConfigName | **メモ：**&#x200B;これは、バージョン 7.3.4 以降の&#x200B;**一括読み込みツール**（Cloud SDK）にのみ適用されます。<br/><br/> データを読み込むためのパラメーターを保存する設定の名前です。 デフォルトでは、この値は `accfda` です。 |
 | GCloudDefaultConfigName | **メモ：**&#x200B;これは、バージョン 7.3.4 以降の&#x200B;**一括読み込みツール**（Cloud SDK）にのみ適用されます。<br/><br/> データを読み込むためのメイン設定を再作成する一時設定の名前です。 デフォルトでは、この値は `default` です。 |
 | GCloudRecreateConfig | **メモ：**&#x200B;これは、バージョン 7.3.4 以降の&#x200B;**一括読み込みツール**（Cloud SDK）にのみ適用されます。<br/><br/> 一括読み込みメカニズムが Google Cloud SDK 設定を自動的に再作成、削除、変更するかどうかを決定できるブール値です。 この値を `false` に設定した場合、一括読み込みメカニズムはマシン上の既存の設定を使用してデータを読み込みます。 この値を `true` に設定した場合、設定が適切に設定されていることを確認します。適切に設定されていない場合、`No active configuration found. Please either create it manually or remove the GCloudRecreateConfig option` エラーが表示され、読み込みメカニズムがデフォルトの読み込みメカニズムに戻ります。 |
-| **restEndpoint** | Apigee プロキシのエンドポイント。 Apigee プロキシでREST-API コネクタを使用している場合にのみ、これを使用する必要があります。 Apigee プロキシを使用している場合は、**REST API コネクタを使用**&#x200B;設定を有効にします。 設定について詳しくは、[Google BigQuery Apigee Gateway サポートの節](#apigee)を参照してください。 |
+| **restEndpoint** | Apigee プロキシのエンドポイント。Apigee プロキシで REST-API コネクタを使用する場合にのみ、これを使用する必要があります。Apigee プロキシを使用している場合は、**REST API コネクタを使用**&#x200B;設定を有効にします。設定について詳しくは、[Google BigQuery Apigee Gateway サポートの節](#apigee)を参照してください。 |
 
 >[!TAB Microsoft Fabric]
 
@@ -435,31 +435,31 @@ Google Cloud Console で、**「IAM &amp; 管理」セクション**&#x200B;に 
 
 クライアントライブラリ設定をダウンロードしたら、連合オーディエンス構成で WIF 接続を設定できるようになりました。
 
-### Google BigQuery [!DNL Apigee] Gateway サポート {#apigee}
+### Google BigQuery [!DNL Apigee] Gateway のサポート {#apigee}
 
-Google Cloudのネイティブ API管理プラットフォームである[!DNL Apigee]を使用して、API呼び出しをGoogle BigQueryにプロキシできます。
+Google Cloud のネイティブ API 管理プラットフォームである [!DNL Apigee] を使用して、Google BigQuery への API 呼び出しをプロキシできます。
 
-まず[!DNL Apigee] UI内でプロキシを作成する必要があります。 Google Cloudで、**Apigee**&#x200B;に移動し、**Proxy development**、**API プロキシ**、**Create**&#x200B;に移動して、**プロキシの作成** パネルを表示します。 パネルでは、次の詳細を入力できます。
+まず、[!DNL Apigee] UI 内でプロキシを作成する必要があります。Google Cloud で **Apigee** に移動し、**Proxy development**／**API proxies**／**Create**&#x200B;の順に選択して、**Create a proxy**&#x200B;パネルを表示します。パネルで、次の詳細を入力できます。
 
-![Apigee プロキシの作成画面が表示されます。](/help/connections/assets/home/create-proxy-apigee.png)
+![Apigee プロキシ作成画面が表示されます。](/help/connections/assets/home/create-proxy-apigee.png)
 
 | 詳細 | 説明 |
 | ------- | ----------- |
-| プロキシテンプレート | 作成するプロキシのタイプ。 この使用例では、**リバースプロキシ（最も一般的）**&#x200B;を選択する必要があります。 |
-| プロキシ名 | プロキシの名前。 この値には、英数字、ダッシュ （`-`）、またはアンダースコア （`_`）を含めることができる&#x200B;**のみ**&#x200B;があります。 |
-| ベースパス | API プロキシのホストアドレスを示すURI フラグメント。 このベースパスはプロキシ名に基づいています。**一意である必要があります。** |
-| 説明 | API プロキシのオプションの説明。 |
-| ターゲット | API プロキシが呼び出すバックエンドサービスのURL （HTTPまたはHTTPSのいずれかを含む）。 |
+| プロキシテンプレート | 作成するプロキシのタイプ。このユースケースでは、「**Reverse proxy (Most common)**」を選択する必要があります。 |
+| プロキシ名 | プロキシの名前。この値には、英数字、ダッシュ（`-`）またはアンダースコア（`_`）**のみ**&#x200B;を含めることができます。 |
+| 基本パス | API プロキシのホストアドレスを示す URI フラグメント。この基本パスは、プロキシ名に基づいているので、一意にする&#x200B;**必要**&#x200B;があります。 |
+| 説明 | API プロキシの説明（オプション）。 |
+| ターゲット | API プロキシが呼び出すバックエンドサービスの URL（HTTP または HTTPS を含む）。 |
 
-連合オーディエンス構成の場合は、次に示すように、Google BigQuery コネクタが使用する&#x200B;**各** エンドポイントのプロキシエンドポイントルールを作成します。
+連合オーディエンス構成では、次に示すように、Google BigQuery コネクタが使用する&#x200B;**各**&#x200B;エンドポイントのプロキシエンドポイントルールを作成します。
 
-| ベースパス | ターゲットエンドポイント | 説明 |
+| 基本パス | ターゲットエンドポイント | 説明 |
 | --------- | --------------- | ----------- |
-| `/bigquery` | `https://bigquery.googleapis.com/bigquery` | Google BigQueryのメインエンドポイント。 このエンドポイントは、クエリやリストテーブルなどのデータを取得するために使用されます。 |
+| `/bigquery` | `https://bigquery.googleapis.com/bigquery` | Google BigQuery のメインエンドポイント。このエンドポイントは、クエリやリストテーブルなどのデータを取得するために使用されます。 |
 | `/token` | `https://oauth2.googleapis.com/token` | このエンドポイントは、サービスアカウントの認証に使用されます。 |
 | `/storage` | `https://storage.googleapis.com/storage` | このストレージエンドポイントは、一時的な一括読み込みファイルの削除に使用されます。 |
 | `/upload` | `https://storage.googleapis.com/upload` | このストレージエンドポイントは、ファイルの一括読み込みに使用されます。 |
-| `/v1/token` | `https://sts.googleapis.com/v1/token` | このエンドポイントは、トークンを取得するためのWorkload Identity Federation （WIF）フローに使用されます。 |
-| `/v1/projects` | `https://iamcredentials.googleapis.com/v1/projects` | このエンドポイントは、Workload Identity Federation （WIF）フローでサービスアカウントを偽装するために使用されます。 |
+| `/v1/token` | `https://sts.googleapis.com/v1/token` | このエンドポイントは、Workload Identity Federation（WIF）フローでトークンを取得するために使用されます。 |
+| `/v1/projects` | `https://iamcredentials.googleapis.com/v1/projects` | このエンドポイントは、Workload Identity Federation（WIF）フローでサービスアカウントを別のユーザーとして実行するために使用されます。 |
 
-プロキシを作成したら、それを使用して連合オーディエンス構成に接続します。 プロキシをデプロイすると、**管理者** セクション内で&#x200B;**環境**&#x200B;と&#x200B;**グループ**&#x200B;を選択すると、**ホスト名**&#x200B;に記載されているプロキシの完全なURLを見つけることができます。
+プロキシを作成したら、これを使用して連合オーディエンス構成に接続できます。プロキシをデプロイしたら、「**Admin**」セクション内で「**Environments**」、「**Groups**」の順に選択すると、**Hostnames** の下でプロキシの完全な URL を見つけることができます。
