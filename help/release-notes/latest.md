@@ -3,7 +3,8 @@ title: Federated Audience Composition リリースノート
 description: Federated Audience Compositionの最新のアップデートとリリースノート。
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 TQID: https://experienceleague.adobe.com/AqtqibUr1TNXwQ9lrtVoQ3CBNwyjSMS64e4s8y4iTSc
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
 source-git-commit: f31a9799fecd72b0fccf84f5656b0ee8a6e7df92
 workflow-type: tm+mt
 source-wordcount: 825
@@ -29,7 +30,7 @@ Federated Audience Compositionの7月リリースでは、次の機能をサポ�
 
 - **ジャーニーシミュレーションでの連合オーディエンス構成オーディエンスのサポート**
 
-  ジャーニーシミュレーションを使用すると、シミュレートされたユーザーで公開する前に、Federated Audience Composition オーディエンスで作成したジャーニーをテストできるようになりました。 詳しくは、[ジャーニーシミュレーションの基本を学ぶガイド ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs)を参照してください。
+  ジャーニーシミュレーションを使用すると、シミュレートされたユーザーで公開する前に、Federated Audience Composition オーディエンスで作成したジャーニーをテストできるようになりました。 詳しくは、[ジャーニーシミュレーションの基本を学ぶガイド &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs)を参照してください。
 
 ## 2026年6月リリース {#fac-26-06}
 
@@ -55,7 +56,7 @@ Federated Audience Compositionの5月リリースでは、次の機能をサポ�
 
   Journey OptimizerでFAC オーディエンス属性を補足識別子として活用できるようになりました。オーディエンスを読み取りジャーニー。 これにより、アカウントや購読レベルなどの複数のエンティティでオーディエンスをアクティブ化できます。
 
-  詳しくは、ジャーニーのガイド ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/supplemental-identifier)で補足識別子を使用する[を参照してください。
+  詳しくは、ジャーニーのガイド [&#128279;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/supplemental-identifier)で補足識別子を使用するを参照してください。
 
 ## 2026年4月リリース {#fac-26-04}
 
@@ -99,7 +100,7 @@ Federated Audience Compositionの2月リリースでは、次の機能をサポ�
 
 | フィールド強化サポート |
 | --- |
-| コンポジション内で「フィールドを保存」アクティビティを使用できるようになりました。 フィールドを保存アクティビティを使用すると、外部ウェアハウスからのデータをフェデレーションしてExperience Platform スキーマを強化し、追加の属性を使用してExperience Platform スキーマを強化できます。 フィールドを保存アクティビティでは、B2B スキーマとB2C スキーマの両方をサポートしています。 このアクティビティの使用について詳しくは、[ アクティビティの概要](../compositions/activities.md#save-fields)を参照してください。 |
+| コンポジション内で「フィールドを保存」アクティビティを使用できるようになりました。 フィールドを保存アクティビティを使用すると、外部ウェアハウスからのデータをフェデレーションしてExperience Platform スキーマを強化し、追加の属性を使用してExperience Platform スキーマを強化できます。 フィールドを保存アクティビティでは、B2B スキーマとB2C スキーマの両方をサポートしています。 このアクティビティの使用について詳しくは、[&#x200B; アクティビティの概要](../compositions/activities.md#save-fields)を参照してください。 |
 
 | Databricksの高度な認証サポート |
 | --- |
@@ -117,7 +118,7 @@ Federated Audience Compositionの1月リリースでは、次の新機能と機�
 
 | Amazon Web Services（AWS）でのAdobe Experience Platformのお客様の利用状況 |
 | --- |
-| Experience Platform インスタンスがAWS上にある場合、連合オーディエンス構成を使用できるようになりました。 AWS上のExperience Platformについて詳しくは、[ マルチクラウドの概要](https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud)を参照してください。 |
+| Experience Platform インスタンスがAWS上にある場合、連合オーディエンス構成を使用できるようになりました。 AWS上のExperience Platformについて詳しくは、[&#x200B; マルチクラウドの概要](https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud)を参照してください。 |
 
 ### 機能強化 {#fac-26-01-improvements}
 
@@ -127,4 +128,4 @@ Federated Audience Compositionの1月リリースでは、次の新機能と機�
 
   コンポジションで&#x200B;**オーディエンスを保存** アクティビティを使用する際に、データの有効期限を設定できるようになりました。
 
-  Federated Audience Compositionのデータ有効期限について詳しくは、[ アクティビティガイド ](../compositions/activities.md#save-audience)を参照してください。
+  Federated Audience Compositionのデータ有効期限について詳しくは、[&#x200B; アクティビティガイド &#x200B;](../compositions/activities.md#save-audience)を参照してください。
