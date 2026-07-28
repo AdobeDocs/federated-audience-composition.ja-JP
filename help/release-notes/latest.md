@@ -30,7 +30,7 @@ Federated Audience Compositionの7月リリースでは、次の機能をサポ�
 
 - **ジャーニーシミュレーションでの連合オーディエンス構成オーディエンスのサポート**
 
-  ジャーニーシミュレーションを使用すると、シミュレートされたユーザーで公開する前に、Federated Audience Composition オーディエンスで作成したジャーニーをテストできるようになりました。 詳しくは、[ジャーニーシミュレーションの基本を学ぶガイド &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs)を参照してください。
+  ジャーニーシミュレーションを使用すると、シミュレートされたユーザーで公開する前に、Federated Audience Composition オーディエンスで作成したジャーニーをテストできるようになりました。 詳しくは、[ジャーニーシミュレーションの基本を学ぶガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs)を参照してください。
 
 ## 2026年6月リリース {#fac-26-06}
 
@@ -118,7 +118,7 @@ Federated Audience Compositionの1月リリースでは、次の新機能と機�
 
 | Amazon Web Services（AWS）でのAdobe Experience Platformのお客様の利用状況 |
 | --- |
-| Experience Platform インスタンスがAWS上にある場合、連合オーディエンス構成を使用できるようになりました。 AWS上のExperience Platformについて詳しくは、[&#x200B; マルチクラウドの概要](https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud)を参照してください。 |
+| Experience Platform インスタンスがAWS上にある場合、連合オーディエンス構成を使用できるようになりました。 AWS上のExperience Platformについて詳しくは、[&#x200B; マルチクラウドの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/multi-cloud)を参照してください。 |
 
 ### 機能強化 {#fac-26-01-improvements}
 
