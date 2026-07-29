@@ -5,16 +5,32 @@ exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 TQID: https://experienceleague.adobe.com/AqtqibUr1TNXwQ9lrtVoQ3CBNwyjSMS64e4s8y4iTSc
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: 8da27489f6767e837828456b2b11c8238ea6a0a4
+source-git-commit: f31a9799fecd72b0fccf84f5656b0ee8a6e7df92
 workflow-type: tm+mt
-source-wordcount: 726
-ht-degree: 12%
+source-wordcount: 825
+ht-degree: 11%
 
 ---
 
 # リリースノート
 
 [!DNL Federated Audience Composition] は、新機能、既存機能の強化、およびバグ修正を継続的に提供します。 すべての変更は、このリリースノートに統合されます。 [!DNL Federated Audience Composition] が [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。 以下の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target="_blank"}を参照してください。
+
+## 26/7/月リリース {#fac-26-07}
+
+Federated Audience Compositionの7月リリースでは、次の機能をサポートしています。
+
+| CHE2 （Switzerland）地域の一般提供 |
+| --- |
+| CHE2 （スイス）リージョンでFederated Audience Composition インスタンスをプロビジョニングできるようになりました。 |
+
+### 機能強化 {#fac-26-07-improvements}
+
+このリリースには、次の改善点が含まれています。
+
+- **ジャーニーシミュレーションでの連合オーディエンス構成オーディエンスのサポート**
+
+  ジャーニーシミュレーションを使用すると、シミュレートされたユーザーで公開する前に、Federated Audience Composition オーディエンスで作成したジャーニーをテストできるようになりました。 詳しくは、[ジャーニーシミュレーションの基本を学ぶガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs)を参照してください。
 
 ## 2026年6月リリース {#fac-26-06}
 
