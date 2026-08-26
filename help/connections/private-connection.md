@@ -32,7 +32,7 @@ Federated Audience Compositionは、複数のデータベースとのプライ�
 
 >[!AVAILABILITY]
 >
->[!DNL Snowflake]とのプライベート接続を使用するには、**少なくとも**&#x200B;が[!DNL Snowflake]のBusiness Critical層以上である必要があります。 [!DNL Snowflake]とのプライベート接続について詳しくは、[Snowflake ドキュメント ](https://docs.snowflake.com/en/user-guide/private-connectivity-inbound)のプライベート接続ガイドを参照してください。
+>[!DNL Snowflake]とのプライベート接続を使用するには、**少なくとも**&#x200B;が[!DNL Snowflake]のBusiness Critical層以上である必要があります。 [!DNL Snowflake]とのプライベート接続について詳しくは、[Snowflake ドキュメント &#x200B;](https://docs.snowflake.com/en/user-guide/private-connectivity-inbound)のプライベート接続ガイドを参照してください。
 
 [!DNL Snowflake]とのプライベート接続を使用するには、[!DNL Snowflake] インスタンスがどのクラウドプロバイダーに属しているかによって異なります。
 
@@ -51,11 +51,11 @@ AWS アカウントが[!DNL Snowflake]での使用を許可されたら、`priva
 
 これらのコマンドを実行したら、SQL出力をAdobe カスタマーケアに送信して、AdobeでVPC インターフェイス エンドポイントを作成できるようにします。
 
-AWSとのPrivateLink接続を作成する方法について詳しくは、[AWS PrivateLink ガイド ](https://docs.snowflake.com/en/user-guide/admin-security-privatelink)を参照してください。
+AWSとのPrivateLink接続を作成する方法について詳しくは、[AWS PrivateLink ガイド &#x200B;](https://docs.snowflake.com/en/user-guide/admin-security-privatelink)を参照してください。
 
 内部ステージング環境でのPrivateLinkの使用を許可する場合は、Adobe カスタマーケアに連絡して環境を有効にしてください。
 
-内部ステージング環境用にAWSとのPrivateLink接続を作成する方法について詳しくは、[内部ステージング用のAWS VPC インターフェイス エンドポイント ガイド ](https://docs.snowflake.com/en/user-guide/private-internal-stages-aws)を参照してください。
+内部ステージング環境用にAWSとのPrivateLink接続を作成する方法について詳しくは、[内部ステージング用のAWS VPC インターフェイス エンドポイント ガイド &#x200B;](https://docs.snowflake.com/en/user-guide/private-internal-stages-aws)を参照してください。
 
 ### Microsoft Azure {#snowflake-azure}
 
@@ -70,13 +70,13 @@ Microsoft Azureの場合、Azure プライベートエンドポイントを作�
 
 AdobeがAzure プライベートエンドポイントを作成したら、プライベートエンドポイントリソース IDを取得できます。 プライベートエンドポイントリソース IDが取得できたので、[!DNL Snowflake] サポートに連絡して、リソース IDを提供しながら[!DNL Snowflake] アカウントを認証してください。
 
-AzureとのPrivateLink接続を作成する方法について詳しくは、[Azure PrivateLink ガイド ](https://docs.snowflake.com/en/user-guide/privatelink-azure)を参照してください。
+AzureとのPrivateLink接続を作成する方法について詳しくは、[Azure PrivateLink ガイド &#x200B;](https://docs.snowflake.com/en/user-guide/privatelink-azure)を参照してください。
 
 内部ステージング環境で使用するPrivateLinkを認証する場合は、Adobe カスタマーケアが提供する内部ステージリソース IDを指定しながら、[!DNL Snowflake]で次のコマンドを実行します。
 
 `SELECT SYSTEM$AUTHORIZE_STAGE_PRIVATELINK_ACCESS('<internal-stage-private-endpoint-resource-id>');`
 
-内部ステージング環境用にAzureとのPrivateLink接続を作成する方法について詳しくは、[内部ステージング用のAzure プライベートエンドポイント ガイド ](https://docs.snowflake.com/en/user-guide/private-internal-stages-azure)を参照してください。
+内部ステージング環境用にAzureとのPrivateLink接続を作成する方法について詳しくは、[内部ステージング用のAzure プライベートエンドポイント ガイド &#x200B;](https://docs.snowflake.com/en/user-guide/private-internal-stages-azure)を参照してください。
 
 ## Amazon Redshift {#amazon-redshift}
 
@@ -84,7 +84,7 @@ AzureとのPrivateLink接続を作成する方法について詳しくは、[Azu
 
 >[!IMPORTANT]
 >
->開始する前に、Adobe カスタマーケアに問い合わせて、Amazon Web Services（AWS）アカウント IDとVirtual Private Cloud （VPC） IDを受け取ってください。 クロスアカウントエンドポイントへのアクセスを取得するには、これらの値の&#x200B;**両方**&#x200B;が必要です。 VPCへのアクセス権の付与について詳しくは、[VPCへのアクセス権の付与ガイド ](https://docs.aws.amazon.com/redshift/latest/mgmt/managing-cluster-cross-vpc-console-grantor.html)を参照してください。
+>開始する前に、Adobe カスタマーケアに問い合わせて、Amazon Web Services（AWS）アカウント IDとVirtual Private Cloud （VPC） IDを受け取ってください。 クロスアカウントエンドポイントへのアクセスを取得するには、これらの値の&#x200B;**両方**&#x200B;が必要です。 VPCへのアクセス権の付与について詳しくは、[VPCへのアクセス権の付与ガイド &#x200B;](https://docs.aws.amazon.com/redshift/latest/mgmt/managing-cluster-cross-vpc-console-grantor.html)を参照してください。
 
 AWSとVPC IDの両方を取得したら、AWS Management Consoleに移動して、管理対象のVPC エンドポイントに対するクロスアカウントアクセス権を付与します。
 
@@ -96,7 +96,7 @@ AWSとVPC IDの両方を取得したら、AWS Management Consoleに移動して�
 
 >[!AVAILABILITY]
 >
->Databricksとのプライベート接続を使用するには、Databricksのエンタープライズ プランに&#x200B;**アクセスしている必要があります。** Databricksとのプライベート接続について詳しくは、[ プライベートリンクの概念ガイド ](https://docs.databricks.com/aws/en/security/network/concepts/privatelink-concepts)を参照してください。
+>Databricksとのプライベート接続を使用するには、Databricksのエンタープライズ プランに&#x200B;**アクセスしている必要があります。** Databricksとのプライベート接続について詳しくは、[&#x200B; プライベートリンクの概念ガイド &#x200B;](https://docs.databricks.com/aws/en/security/network/concepts/privatelink-concepts)を参照してください。
 
 Databricksとのプライベート接続の使用は、Databricks インスタンスがどのクラウドプロバイダーを使用しているかによって異なります。
 
@@ -106,9 +106,9 @@ Amazon Web Servicesを使用して設定する前に、Adobe カスタマーケ�
 
 Adobe カスタマーケアからVPC エンドポイント IDとAWS リージョンを取得したら、Adobeから提供される情報にVPC エンドポイントを登録する必要があります。
 
-VPC エンドポイントを登録したら、Private Access Settings （PAS）オブジェクトを作成する必要があります。 エンドポイントを作成する場合、**プライベートアクセスレベル**&#x200B;を&#x200B;**エンドポイント** レベルに設定し、以前に作成したVPC エンドポイントを選択します。 プライベートアクセス設定の作成について詳しくは、[ インバウンド PrivateLinkの設定ガイド ](https://docs.databricks.com/aws/en/security/network/front-end/front-end-private-connect#step-3-create-private-access-settings)を参照してください。
+VPC エンドポイントを登録したら、Private Access Settings （PAS）オブジェクトを作成する必要があります。 エンドポイントを作成する場合、**プライベートアクセスレベル**&#x200B;を&#x200B;**エンドポイント** レベルに設定し、以前に作成したVPC エンドポイントを選択します。 プライベートアクセス設定の作成について詳しくは、[&#x200B; インバウンド PrivateLinkの設定ガイド &#x200B;](https://docs.databricks.com/aws/en/security/network/front-end/front-end-private-connect#step-3-create-private-access-settings)を参照してください。
 
-プライベートアクセス設定を設定したら、VPC エンドポイントをワークスペースにアタッチできます。 PrivateLinkを使用したワークスペースの作成について詳しくは、[ インバウンド PrivateLinkの設定ガイド ](https://docs.databricks.com/aws/en/security/network/front-end/front-end-private-connect#step-4-create-your-workspace-with-private-link-objects)を参照してください。
+プライベートアクセス設定を設定したら、VPC エンドポイントをワークスペースにアタッチできます。 PrivateLinkを使用したワークスペースの作成について詳しくは、[&#x200B; インバウンド PrivateLinkの設定ガイド &#x200B;](https://docs.databricks.com/aws/en/security/network/front-end/front-end-private-connect#step-4-create-your-workspace-with-private-link-objects)を参照してください。
 
 すべての設定が完了したので、Databricks WorkspaceのURLをAdobe カスタマーケアと共有できます。 Databricks Workspace URLを共有すると、Adobeは、リクエストをWorkspace エンドポイントにルーティングするために必要なDNS設定を設定できます。
 
@@ -130,7 +130,7 @@ GCP HA VPN ゲートウェイとクラウドルーターを設定したら、次
 
 これらの詳細により、Adobeは、接続に必要なVPN トンネルを確立できます。 VPN トンネルを確立すると、Adobeは&#x200B;**VPN-Tunnelのパブリック IP アドレスとプライベート IP アドレス**、**事前共有キー**、および&#x200B;**自律システム番号**&#x200B;を提供します。
 
-Google Cloud Platform アカウントでVPN トンネルを設定できるようになりました。 詳しくは、[HA VPN接続の作成ガイド ](https://docs.cloud.google.com/network-connectivity/docs/vpn/tutorials/create-ha-vpn-connections-google-cloud-aws)を参照してください。
+Google Cloud Platform アカウントでVPN トンネルを設定できるようになりました。 詳しくは、[HA VPN接続の作成ガイド &#x200B;](https://docs.cloud.google.com/network-connectivity/docs/vpn/tutorials/create-ha-vpn-connections-google-cloud-aws)を参照してください。
 
 ## Azure Synapse Analytics {#azure-synapse}
 
@@ -150,4 +150,4 @@ GCP HA VPN ゲートウェイとクラウドルーターを設定したら、次
 
 これらの詳細により、Adobeは、接続に必要なVPN トンネルを確立できます。 VPN トンネルを確立すると、Adobeは&#x200B;**VPN-Tunnelのパブリック IP アドレスとプライベート IP アドレス**、**事前共有キー**、および&#x200B;**自律システム番号**&#x200B;を提供します。
 
-Google Cloud Platform アカウントでVPN トンネルを設定できるようになりました。 詳しくは、[HA VPN接続の作成ガイド ](https://docs.cloud.google.com/network-connectivity/docs/vpn/tutorials/create-ha-vpn-connections-google-cloud-aws)を参照してください。
+Google Cloud Platform アカウントでVPN トンネルを設定できるようになりました。 詳しくは、[HA VPN接続の作成ガイド &#x200B;](https://docs.cloud.google.com/network-connectivity/docs/vpn/tutorials/create-ha-vpn-connections-google-cloud-aws)を参照してください。
