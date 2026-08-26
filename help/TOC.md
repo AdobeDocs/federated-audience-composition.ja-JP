@@ -2,10 +2,10 @@
 user-guide-title: Experience Platform 連合オーディエンス構成
 title: Experience Platform 連合オーディエンス構成ドキュメント
 breadcrumb-title: Experience Platform 連合オーディエンス構成
-source-git-commit: f31a9799fecd72b0fccf84f5656b0ee8a6e7df92
+source-git-commit: e114b7cce6f9add45e82aa4e485b358bc3f85321
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 100%
+source-wordcount: '117'
+ht-degree: 98%
 
 ---
 
@@ -26,6 +26,7 @@ ht-degree: 100%
   - [データアクセス権マトリックス](connections/fda-rights.md)
   - [外部データを使用して Adobe Experience Platform オーディエンスを強化](connections/destinations.md)
   - [マルチエンティティターゲティング](connections/multi-entity-targeting.md)
+  - [プライベート接続](connections/private-connection.md)
 - データモデルとスキーマ {#models}
   - [スキーマの概要](data-modelling/schemas.md)
   - [データモデルの概要](data-modelling/models.md)

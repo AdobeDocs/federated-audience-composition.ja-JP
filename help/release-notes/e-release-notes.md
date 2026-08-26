@@ -5,18 +5,12 @@ hide: true
 hidefromtoc: yes
 exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
 TQID: https://experienceleague.adobe.com/0EDM9gSVZCkdKfhZihxhJJL2TZyGxv1Hvm1azjaPUAA
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 87b5c0ce27eef85fe7eb6a06df903a5701ecd83f
 workflow-type: tm+mt
-source-wordcount: 1174
-ht-degree: 97%
+source-wordcount: 1191
+ht-degree: 90%
 
 ---
 
@@ -82,7 +76,7 @@ ht-degree: 97%
 
 * **Snowflake の安全な接続**
 
-  この新しいリリースでは、連合オーディエンス構成が、Microsoft Azure でホストされている Amazon Redshift データベースへの安全なプライベートリンク接続をサポートします。 [詳細情報](../connections/home.md#amazon-redshift)
+  この新しいリリースでは、Federated Audience Compositionは、Microsoft AzureでホストされているAmazon Redshift データベースへの安全なPrivateLink接続をサポートしています。 [詳細情報](../connections/home.md#amazon-redshift)
 
 ## 2025年3月リリース {#fac-25-3}
 
@@ -113,8 +107,8 @@ ht-degree: 97%
 
 * **Databricks 接続**
 
-  この新しいリリースでは、連合オーディエンス構成が、Databricks データベース接続のプライベートリンク接続をサポートするようになりました。
-これには、プライベートリンク経由で Amazon Web Services（AWS）でホストされている Databricks データベースへの安全な接続と、VPN 経由で Microsoft Azure でホストされている Databricks データベースへの安全な接続が含まれます。 [詳細情報](../connections/home.md#databricks)
+  この新しいリリースでは、Federated Audience Compositionで、Databricks データベース接続のPrivateLink接続がサポートされるようになりました。
+  これには、PrivateLinkを介してAmazon Web Services（AWS）でホストされているDatabricks データベースへの安全な接続と、VPNを介してMicrosoft AzureでホストされているDatabricks データベースへの安全な接続が含まれます。 [詳細情報](../connections/home.md#databricks)
 
 * **B2B CDP のお客様のサポート**
 
@@ -122,7 +116,7 @@ ht-degree: 97%
 
 * **Snowflake の安全な接続**
 
-  この新しいリリースでは、連合オーディエンス構成が、Microsoft Azure でホストされている Snowflake データベースへの安全なプライベートリンク接続をサポートします。 [詳細情報](../connections/home.md#snowflake)
+  この新しいリリースでは、Federated Audience Compositionは、Microsoft AzureでホストされているSnowflake データベースへの安全なPrivateLink接続をサポートしています。 [詳細情報](../connections/home.md#snowflake)
 
 ## 2025年2月リリース {#fac-25-2}
 
@@ -171,7 +165,7 @@ ht-degree: 97%
 
 * **AWS PrivateLink を介した Snowflake への安全なアクセスのサポート**
 
-  プライベートリンクを介した外部 Snowflake データウェアハウスへの安全なアクセスがサポートされるようになりました。 Snowflake アカウントは、Amazon Web Services（AWS）でホストされ、連合オーディエンス構成環境と同じ地域に配置されている必要があります。 Snowflake アカウントへの安全なアクセスの設定について詳しくは、アドビ担当者にお問い合わせください。 [詳細情報](../connections/home.md#snowflake)
+  PrivateLinkを介した外部Snowflake データウェアハウスへの安全なアクセスがサポートされるようになりました。 Snowflake アカウントは、Amazon Web Services（AWS）でホストされ、連合オーディエンス構成環境と同じ地域に配置されている必要があります。 Snowflake アカウントへの安全なアクセスの設定について詳しくは、アドビ担当者にお問い合わせください。 [詳細情報](../connections/home.md#snowflake)
 
 * **Amazon Redshift Serverless のサポート**
 
