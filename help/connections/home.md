@@ -12,10 +12,10 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 66d3263d4ed369cf0af022da5c4f1eca993b3c9a
+source-git-commit: dc34a02611fc856fc25715fa6599e88db8a1d3e8
 workflow-type: tm+mt
-source-wordcount: 3992
-ht-degree: 99%
+source-wordcount: 3987
+ht-degree: 97%
 
 ---
 
@@ -74,7 +74,7 @@ Experience Platform 連合オーディエンス構成を使用すると、ユー
 
 >[!NOTE]
 >
->プライベートリンクまたは VPN を使用した安全な接続をリクエストするには、Privacy and Security Shield または Healthcare Shield のライセンスを取得している&#x200B;**必要**&#x200B;があります。
+>PrivateLinkまたはVPNを使用して安全な接続をリクエストするには、**Privacy and Security ShieldまたはHealthcare Shieldのライセンスを取得している必要があります。**
 
 接続のプロパティのポップオーバーが表示されます。 接続に名前を付けたり、作成するデータベースのタイプを選択したりできます。
 
@@ -90,7 +90,7 @@ Experience Platform 連合オーディエンス構成を使用すると、ユー
 >
 >Amazon Redshift AWS、Amazon Redshift Spectrum および Amazon Redshift Serverless のみがサポートされています。
 >
->また、プライベートリンクを介した外部 Amazon Redshift データウェアハウスへの安全なアクセスもサポートされています。
+>さらに、PrivateLinkを介した外部Amazon Redshift データウェアハウスへの安全なアクセスもサポートされています。
 
 Amazon Redshift を選択した後に、次の詳細を追加できます。
 
@@ -162,7 +162,7 @@ Azure Synapse 接続内で、次の設定の詳細を指定します。
 
 >[!NOTE]
 >
->プライベートリンクを介した外部 Databricks データウェアハウスへの安全なアクセスがサポートされています。 これには、プライベートリンク経由で Amazon Web Services（AWS）でホストされている Databricks データベースへの安全な接続と、VPN 経由で Microsoft Azure でホストされている Databricks データベースへの安全な接続が含まれます。 安全なアクセスの設定について詳しくは、アドビ担当者にお問い合わせください。
+>PrivateLinkを介した外部Databricks データウェアハウスへの安全なアクセスがサポートされています。 これには、PrivateLinkを介してAmazon Web Services（AWS）でホストされているDatabricks データベースへの安全な接続と、VPNを介してMicrosoft AzureでホストされているDatabricks データベースへの安全な接続が含まれます。 安全なアクセスの設定について詳しくは、アドビ担当者にお問い合わせください。
 
 Databricks を選択した後、連合オーディエンス構成に接続する際に使用する認証方法を選択できます。
 
@@ -295,7 +295,7 @@ Oracle を選択した後に、次の詳細を追加できます。
 
 >[!NOTE]
 >
->プライベートリンクを介した外部 Snowflake データウェアハウスへの安全なアクセスがサポートされています。 Snowflake アカウントは、Amazon Web Services（AWS）または Azure でホストされ、連合オーディエンス構成環境と同じ地域に配置されている必要があります。 Snowflake アカウントへの安全なアクセスの設定について詳しくは、アドビ担当者にお問い合わせください。
+>PrivateLinkを介した外部のSnowflake データウェアハウスへの安全なアクセスがサポートされています。 Snowflake アカウントは、Amazon Web Services（AWS）または Azure でホストされ、連合オーディエンス構成環境と同じ地域に配置されている必要があります。 Snowflake アカウントへの安全なアクセスの設定について詳しくは、アドビ担当者にお問い合わせください。
 
 Snowflake を選択した後、連合オーディエンス構成に接続する際に使用する認証方法を選択できます。
 
