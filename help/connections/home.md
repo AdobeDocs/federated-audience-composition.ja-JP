@@ -13,9 +13,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: dc34a02611fc856fc25715fa6599e88db8a1d3e8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 3987
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -74,7 +74,7 @@ Experience Platform 連合オーディエンス構成を使用すると、ユー
 
 >[!NOTE]
 >
->PrivateLinkまたはVPNを使用して安全な接続をリクエストするには、**Privacy and Security ShieldまたはHealthcare Shieldのライセンスを取得している必要があります。**
+>PrivateLink または VPN を使用した安全な接続をリクエストするには、Privacy and Security Shield または Healthcare Shield のライセンスを取得している&#x200B;**必要**&#x200B;があります。
 
 接続のプロパティのポップオーバーが表示されます。 接続に名前を付けたり、作成するデータベースのタイプを選択したりできます。
 
@@ -90,7 +90,7 @@ Experience Platform 連合オーディエンス構成を使用すると、ユー
 >
 >Amazon Redshift AWS、Amazon Redshift Spectrum および Amazon Redshift Serverless のみがサポートされています。
 >
->さらに、PrivateLinkを介した外部Amazon Redshift データウェアハウスへの安全なアクセスもサポートされています。
+>また、PrivateLink を介した外部 Amazon Redshift データウェアハウスへの安全なアクセスもサポートされています。
 
 Amazon Redshift を選択した後に、次の詳細を追加できます。
 
@@ -162,7 +162,7 @@ Azure Synapse 接続内で、次の設定の詳細を指定します。
 
 >[!NOTE]
 >
->PrivateLinkを介した外部Databricks データウェアハウスへの安全なアクセスがサポートされています。 これには、PrivateLinkを介してAmazon Web Services（AWS）でホストされているDatabricks データベースへの安全な接続と、VPNを介してMicrosoft AzureでホストされているDatabricks データベースへの安全な接続が含まれます。 安全なアクセスの設定について詳しくは、アドビ担当者にお問い合わせください。
+>PrivateLink を介した外部 Databricks データウェアハウスへの安全なアクセスがサポートされています。これには、PrivateLink 経由で Amazon Web Services（AWS）でホストされている Databricks データベースへの安全な接続と、VPN 経由で Microsoft Azure でホストされている Databricks データベースへの安全な接続が含まれます。安全なアクセスの設定について詳しくは、アドビ担当者にお問い合わせください。
 
 Databricks を選択した後、連合オーディエンス構成に接続する際に使用する認証方法を選択できます。
 
@@ -295,7 +295,7 @@ Oracle を選択した後に、次の詳細を追加できます。
 
 >[!NOTE]
 >
->PrivateLinkを介した外部のSnowflake データウェアハウスへの安全なアクセスがサポートされています。 Snowflake アカウントは、Amazon Web Services（AWS）または Azure でホストされ、連合オーディエンス構成環境と同じ地域に配置されている必要があります。 Snowflake アカウントへの安全なアクセスの設定について詳しくは、アドビ担当者にお問い合わせください。
+>PrivateLink を介した外部 Snowflake データウェアハウスへの安全なアクセスがサポートされています。Snowflake アカウントは、Amazon Web Services（AWS）または Azure でホストされ、連合オーディエンス構成環境と同じ地域に配置されている必要があります。 Snowflake アカウントへの安全なアクセスの設定について詳しくは、アドビ担当者にお問い合わせください。
 
 Snowflake を選択した後、連合オーディエンス構成に接続する際に使用する認証方法を選択できます。
 
@@ -466,7 +466,7 @@ Google Cloud のネイティブ API 管理プラットフォームである [!DN
 | プロキシ名 | プロキシの名前。 この値には、英数字、ダッシュ（`-`）またはアンダースコア（`_`）**のみ**&#x200B;を含めることができます。 |
 | 基本パス | API プロキシのホストアドレスを示す URI フラグメント。 この基本パスは、プロキシ名に基づいているので、一意にする&#x200B;**必要**&#x200B;があります。 |
 | 説明 | API プロキシの説明（オプション）。 |
-| Target | API プロキシが呼び出すバックエンドサービスの URL（HTTP または HTTPS を含む）。 |
+| ターゲット | API プロキシが呼び出すバックエンドサービスの URL（HTTP または HTTPS を含む）。 |
 
 連合オーディエンス構成では、次に示すように、Google BigQuery コネクタが使用する&#x200B;**各**&#x200B;エンドポイントのプロキシエンドポイントルールを作成します。
 
