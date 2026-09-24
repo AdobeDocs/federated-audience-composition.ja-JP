@@ -24,7 +24,7 @@ ht-degree: 35%
 >
 >新しいスキーマエクスペリエンスは、一部の顧客のみが利用できます。 詳しくは、Adobe カスタマーケアにお問い合わせください。
 >
->新しいスキーマエクスペリエンスにアクセスできない場合は、[ スキーマの概要](./schemas.md)をお読みください。
+>新しいスキーマエクスペリエンスにアクセスできない場合は、[&#x200B; スキーマの概要](./schemas.md)をお読みください。
 >
 >スキーマにアクセスするには、次のいずれかの権限が必要です。
 >
@@ -54,11 +54,11 @@ ht-degree: 35%
 
 Federated Audience Compositionでスキーマを作成するには、Experience Platform UIの&#x200B;**[!UICONTROL Data Management]** セクション内の&#x200B;**[!UICONTROL Schemas]**&#x200B;を選択します。 スキーマ UIで、「**[!UICONTROL スキーマを作成]**」を選択します。
 
-![ スキーマとスキーマの作成ボタンは、両方ともスキーマ UI内で強調表示されます。](/help/data-modelling/assets/integrated/select-create-schema.png)
+![&#x200B; スキーマとスキーマの作成ボタンは、両方ともスキーマ UI内で強調表示されます。](/help/data-modelling/assets/integrated/select-create-schema.png)
 
 「スキーマを作成」ポップオーバーが表示されたら、「**[!UICONTROL リレーショナル]**」、「**[!UICONTROL スキーマを見つける]**」および「**[!UICONTROL 次へ]**」を選択して、連合オーディエンス構成のスキーマを作成します。
 
-![ リレーショナルスキーマの作成ポップオーバー内で「スキーマを検索」ボタンが強調表示されます。](/help/data-modelling/assets/integrated/select-discover-schemas.png)
+![&#x200B; リレーショナルスキーマの作成ポップオーバー内で「スキーマを検索」ボタンが強調表示されます。](/help/data-modelling/assets/integrated/select-discover-schemas.png)
 
 **[!UICONTROL 連合データベースを選択]**&#x200B;ポップオーバーが表示されます。 このポップオーバーで、「[ソースデータベース](/help/connections/home.md)」を選択し、「**[!UICONTROL 次へ]**」をクリックします。
 
@@ -73,7 +73,7 @@ Federated Audience Compositionでスキーマを作成するには、Experience 
 
 連合データベースを選択した後、スキーマを定義できるようになりました。 「**[!UICONTROL データを追加]**」画面が表示されます。 このページでは、**[!UICONTROL テーブルを追加]**&#x200B;を選択して、スキーマに追加するテーブルを選択できます。
 
-![ データの追加画面で「テーブルを追加」ボタンが強調表示されます。](/help/data-modelling/assets/integrated/select-add-table.png)
+![&#x200B; データの追加画面で「テーブルを追加」ボタンが強調表示されます。](/help/data-modelling/assets/integrated/select-add-table.png)
 
 **[!UICONTROL テーブルを選択]**&#x200B;ポップオーバーが表示されます。 このポップオーバーで、スキーマの作成に使用するテーブルを選択できます。
 
@@ -95,35 +95,35 @@ Federated Audience Compositionでスキーマを作成するには、Experience 
 
 ## スキーマの編集 {#schema-edit}
 
-スキーマを編集するには、**スキーマ** ページで以前に作成したスキーマの横にある![省略記号アイコン ](/help/assets/icons/more.png)を選択し、次に&#x200B;**[!UICONTROL 編集]**&#x200B;を選択します。
+スキーマを編集するには、**スキーマ** ページで以前に作成したスキーマの横にある![省略記号アイコン &#x200B;](/help/assets/icons/more.png)を選択し、次に&#x200B;**[!UICONTROL 編集]**&#x200B;を選択します。
 
-![ スキーマを編集ボタンがハイライト表示されます。](/help/data-modelling/assets/integrated/edit-schema.png)
+![&#x200B; スキーマを編集ボタンがハイライト表示されます。](/help/data-modelling/assets/integrated/edit-schema.png)
 
-**[!UICONTROL スキーマを編集]** ウィンドウで、スキーマエディターを表示できます。 スキーマエディターの使用について詳しくは、[ スキーマ UI ガイド ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#customize-schema)を参照してください。
+**[!UICONTROL スキーマを編集]** ウィンドウで、スキーマエディターを表示できます。 スキーマエディターの使用について詳しくは、[&#x200B; スキーマ UI ガイド &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#customize-schema)を参照してください。
 
-![ スキーマエディターが表示されます。](/help/data-modelling/assets/integrated/schema-editor.png)
+![&#x200B; スキーマエディターが表示されます。](/help/data-modelling/assets/integrated/schema-editor.png)
 
 ### 関係を編集 {#relationship-edit}
 
 スキーマの関係を編集するには、スキーマエディター内の「**[!UICONTROL エンティティ図を表示]**」を選択します。
 
-![ 「エンティティ図を表示」ボタンがハイライト表示されます。](/help/data-modelling/assets/integrated/view-entity-diagram.png)
+![&#x200B; 「エンティティ図を表示」ボタンがハイライト表示されます。](/help/data-modelling/assets/integrated/view-entity-diagram.png)
 
 エンティティ図ページが表示されます。 このページでは、スキーマ間の関係を確立するためのリンクを作成できます。
 
-![ エンティティ図が表示されます。](/help/data-modelling/assets/integrated/entity-diagram.png)
+![&#x200B; エンティティ図が表示されます。](/help/data-modelling/assets/integrated/entity-diagram.png)
 
-リンクの作成について詳しくは、[ データモデルの概要](/help/data-modelling/models.md#data-model-links)の「キャンバス表示」タブを参照してください。
+リンクの作成について詳しくは、[&#x200B; データモデルの概要](/help/data-modelling/models.md#data-model-links)の「キャンバス表示」タブを参照してください。
 
 ## スキーマ内のデータのプレビュー {#schema-preview}
 
 スキーマで表されるテーブル内のデータをプレビューするには、**[!UICONTROL データセット]** セクションに移動し、**[!UICONTROL 参照]**&#x200B;を選択します。
 
-![ データセットと「参照」ボタンがハイライト表示されます。](/help/data-modelling/assets/integrated/datasets-browse.png)
+![&#x200B; データセットと「参照」ボタンがハイライト表示されます。](/help/data-modelling/assets/integrated/datasets-browse.png)
 
-![3つのドット ](/help/assets/icons/more.png)を選択し、続いて&#x200B;**[!UICONTROL データセットのプレビュー]**&#x200B;を選択すると、スキーマ内のデータのプレビューが表示されます。
+![3つのドット &#x200B;](/help/assets/icons/more.png)を選択し、続いて&#x200B;**[!UICONTROL データセットのプレビュー]**&#x200B;を選択すると、スキーマ内のデータのプレビューが表示されます。
 
-![ データセットのプレビューボタンがハイライト表示されます。](/help/data-modelling/assets/integrated/select-preview-dataset.png)
+![&#x200B; データセットのプレビューボタンがハイライト表示されます。](/help/data-modelling/assets/integrated/select-preview-dataset.png)
 
 ## スキーマの更新 {#schema-refresh}
 
@@ -133,10 +133,10 @@ Federated Audience Compositionでスキーマを作成するには、Experience 
 
 **[!UICONTROL 設定を編集]** ポップオーバーが表示されます。 「**[!UICONTROL 更新]**」を選択して、スキーマを更新します。
 
-![ スキーマの更新ボタンがハイライト表示されます。](/help/data-modelling/assets/integrated/refresh-schema.png)
+![&#x200B; スキーマの更新ボタンがハイライト表示されます。](/help/data-modelling/assets/integrated/refresh-schema.png)
 
 ## スキーマの削除 {#schema-delete}
 
 スキーマエディター内のスキーマを削除するには、**[!UICONTROL 詳細]**&#x200B;を選択し、その後&#x200B;**[!UICONTROL 削除]**&#x200B;を選択します。
 
-![ スキーマを削除ボタンがハイライト表示されます。](/help/data-modelling/assets/integrated/delete-schema.png)
+![&#x200B; スキーマを削除ボタンがハイライト表示されます。](/help/data-modelling/assets/integrated/delete-schema.png)
