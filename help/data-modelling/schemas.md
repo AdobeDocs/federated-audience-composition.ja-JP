@@ -14,10 +14,10 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 401985f058e47cf4970065ec06c9b9cfba7d71a1
+source-git-commit: ded8d299cabcdc0a5bd387db64e895ae65cd3b55
 workflow-type: tm+mt
-source-wordcount: '610'
-ht-degree: 95%
+source-wordcount: '580'
+ht-degree: 99%
 ---
 # スキーマの概要 {#schemas}
 
@@ -29,11 +29,6 @@ ht-degree: 95%
 >-**連合スキーマの表示**
 >
 >必要な権限について詳しくは、[アクセス制御ガイド](/help/governance-privacy-security/access-control.md)を参照してください。
-
->[!CONTEXTUALHELP]
->id="platform_schemas_manageconfiguration"
->title="設定を管理"
->abstract="一時的な空白コンテンツ。"
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_create_select_tables"
@@ -74,14 +69,9 @@ ht-degree: 95%
 
 ## スキーマの作成 {#schema-create}
 
->[!CONTEXTUALHELP]
->id="platform_schemas_primarycompositekey"
->title="複合キー"
->abstract="複数のスキーマ列で構成されるスキーマキー。 複合キーとして使用する列にマークを付けます。"
-
 連合オーディエンス構成でスキーマを作成するには、「**[!UICONTROL 連合データ]**」セクションで「**[!UICONTROL モデル]**」を選択します。 「**[!UICONTROL スキーマ]**」タブで、「**[!UICONTROL スキーマを作成]**」を選択します。
 
-![&#x200B; 「スキーマを作成」ボタンは、「連合オーディエンス構成スキーマ」セクションでハイライト表示されます。](assets/schemas/schema_create.png){zoomable="yes"}
+![ 「スキーマを作成」ボタンは、「連合オーディエンス構成スキーマ」セクションでハイライト表示されます。](assets/schemas/schema_create.png){zoomable="yes"}
 
 **[!UICONTROL 連合データベースを選択]**&#x200B;ポップオーバーが表示されます。 このポップオーバーで、「[ソースデータベース](/help/connections/home.md)」を選択し、「**[!UICONTROL 次へ]**」をクリックします。
 
