@@ -6,17 +6,19 @@ exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
 TQID: https://experienceleague.adobe.com/cpkFeiskYDpixNo01llqC3UKK8XfewN7XC2yAf1wOYQ
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: Experience Cloud
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 66d3263d4ed369cf0af022da5c4f1eca993b3c9a
+    internal-label: Privacy
+source-git-commit: 401985f058e47cf4970065ec06c9b9cfba7d71a1
 workflow-type: tm+mt
-source-wordcount: 585
-ht-degree: 98%
-
+source-wordcount: '610'
+ht-degree: 95%
 ---
-
 # スキーマの概要 {#schemas}
 
 >[!AVAILABILITY]
@@ -72,9 +74,14 @@ ht-degree: 98%
 
 ## スキーマの作成 {#schema-create}
 
+>[!CONTEXTUALHELP]
+>id="platform_schemas_primarycompositekey"
+>title="複合キー"
+>abstract="複数のスキーマ列で構成されるスキーマキー。 複合キーとして使用する列にマークを付けます。"
+
 連合オーディエンス構成でスキーマを作成するには、「**[!UICONTROL 連合データ]**」セクションで「**[!UICONTROL モデル]**」を選択します。 「**[!UICONTROL スキーマ]**」タブで、「**[!UICONTROL スキーマを作成]**」を選択します。
 
-![&#x200B; 「スキーマを作成」ボタンは、「連合オーディエンス構成スキーマ」セクションでハイライト表示されます。](assets/schemas/schema_create.png){zoomable="yes"}
+![ 「スキーマを作成」ボタンは、「連合オーディエンス構成スキーマ」セクションでハイライト表示されます。](assets/schemas/schema_create.png){zoomable="yes"}
 
 **[!UICONTROL 連合データベースを選択]**&#x200B;ポップオーバーが表示されます。 このポップオーバーで、「[ソースデータベース](/help/connections/home.md)」を選択し、「**[!UICONTROL 次へ]**」をクリックします。
 
