@@ -73,7 +73,7 @@ Experience Platform 連合オーディエンス構成を使用すると、ユー
 
 ソースカタログが表示されます。 組織で使用可能なフェデレーションデータベースのリストを表示するには、**[!UICONTROL フェデレーションデータ]**&#x200B;を選択します。
 
-![&#x200B; ソースカタログ内のFederated Data セクションがハイライト表示されます。](/help/connections/assets/integrated/federated-data-sources.png)
+![ ソースカタログ内のFederated Data セクションがハイライト表示されます。](/help/connections/assets/integrated/federated-data-sources.png)
 
 フェデレーションデータベースの種類を選択したら、新しい接続を行う場合は&#x200B;**[!UICONTROL 設定]**、既存の接続を使用する場合は&#x200B;**[!UICONTROL データを追加]**&#x200B;を選択します。
 
@@ -182,7 +182,7 @@ DataBricksを選択した後、Federated Audience Compositionに接続する際�
 | フィールド | 説明 |
 | ----- | ----------- |
 | サーバー | DataBricks サーバーの名前。 |
-| パスワード | DataBricks サーバーのアクセストークン。 この値について詳しくは、個人アクセストークン [&#128279;](https://docs.databricks.com/aws/ja/dev-tools/auth/pat){target="_blank"}に関するDataBricks ドキュメントを参照してください。 |
+| パスワード | DataBricks サーバーのアクセストークン。 この値について詳しくは、個人アクセストークン ](https://docs.databricks.com/aws/ja/dev-tools/auth/pat){target="_blank"}に関する[DataBricks ドキュメントを参照してください。 |
 
 **[!UICONTROL OAuth2認証コード]**&#x200B;を選択した場合は、次の詳細を追加できます。
 
@@ -205,8 +205,8 @@ DataBricksを選択した後、Federated Audience Compositionに接続する際�
 
 | フィールド | 説明 |
 | ----- | ----------- |
-| HTTP パス | クラスターまたはウェアハウスへのパス。 パスの詳細については、接続の詳細[&#128279;](https://docs.databricks.com/aws/ja/integrations/compute-details){target="_blank"}に関するDataBricks ドキュメントを参照してください。 |
-| カタログ | DataBricks カタログの名前。 DataBricksのカタログについて詳しくは、[&#x200B; カタログに関するDataBricks ドキュメント &#x200B;](https://docs.databricks.com/aws/ja/catalogs/){target="_blank"}を参照してください |
+| HTTP パス | クラスターまたはウェアハウスへのパス。 パスの詳細については、接続の詳細](https://docs.databricks.com/aws/ja/integrations/compute-details){target="_blank"}に関する[DataBricks ドキュメントを参照してください。 |
+| カタログ | DataBricks カタログの名前。 DataBricksのカタログについて詳しくは、[ カタログに関するDataBricks ドキュメント ](https://docs.databricks.com/aws/ja/catalogs/){target="_blank"}を参照してください |
 | 作業スキーマ | ワークテーブルに使用するデータベーススキーマの名前。 <br/><br/>**メモ：**&#x200B;このスキーマへの接続に必要な権限がある限り、一時的なデータ処理に使用するスキーマを含め、データベースから&#x200B;**任意の**&#x200B;スキーマを使用できます。 ただし、複数のサンドボックスを同じデータベースに接続する場合は、異なる作業スキーマを使用する&#x200B;**必要**&#x200B;があります。 |
 | オプション | その他の接続オプション。 使用可能なオプションを次の表に示します。 |
 
@@ -214,7 +214,7 @@ DataBricksの場合は、次の追加オプションを設定できます。
 
 | オプション | 説明 |
 | ------- | ----------- |
-| TimeZoneName | 使用するタイムゾーンの名前。 この値は、`TIMEZONE` セッションパラメーターを表します。 タイムゾーンについて詳しくは、[DataBricksのタイムゾーン &#x200B;](https://docs.databricks.com/aws/ja/sql/language-manual/parameters/timezone#:~:text=The%20system%20default%20is%20UTC%20.){target="_blank"}に関するドキュメントを参照してください。 |
+| TimeZoneName | 使用するタイムゾーンの名前。 この値は、`TIMEZONE` セッションパラメーターを表します。 タイムゾーンについて詳しくは、[DataBricksのタイムゾーン ](https://docs.databricks.com/aws/ja/sql/language-manual/parameters/timezone#:~:text=The%20system%20default%20is%20UTC%20.){target="_blank"}に関するドキュメントを参照してください。 |
 
 >[!TAB Google BigQuery]
 
@@ -347,7 +347,7 @@ Snowflake を選択した後、連合オーディエンス構成に接続する�
 | ----- | ----------- |
 | データベース | データベースの名前。 これがサーバー名で指定されている場合は、このフィールドを空白のままにすることができます。 |
 | 作業スキーマ | ワークテーブルに使用するデータベーススキーマの名前。 <br/><br/>**メモ：**&#x200B;このスキーマへの接続に必要な権限がある限り、一時的なデータ処理に使用するスキーマを含め、データベースから&#x200B;**任意の**&#x200B;スキーマを使用できます。 ただし、複数のサンドボックスを同じデータベースに接続する場合は、異なる作業スキーマを使用する&#x200B;**必要**&#x200B;があります。 |
-| 秘密鍵 | Snowflake アカウントのBase64 エンコードされた秘密鍵。 暗号化された秘密鍵または暗号化されていない秘密鍵を生成できます。 暗号化された秘密鍵を使用している場合は、Experience Platformに対する認証時に秘密鍵パスフレーズも指定する必要があります。 詳しくは、[Snowflake秘密鍵の取得](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/connectors/databases/snowflake)に関するガイドを参照してください。 |
+| 秘密鍵 | Snowflake アカウントのBase64 エンコードされた秘密鍵。 暗号化された秘密鍵または暗号化されていない秘密鍵を生成できます。 暗号化された秘密鍵を使用している場合は、Experience Platformに対する認証時に秘密鍵パスフレーズも指定する必要があります。 詳しくは、[Snowflake秘密鍵の取得](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake)に関するガイドを参照してください。 |
 | 秘密鍵パスフレーズ | 秘密鍵パスフレーズは、暗号化された秘密鍵で認証する際に使用する必要がある追加のセキュリティレイヤーです。 暗号化されていない秘密鍵を使用している場合は、パスフレーズを指定する必要はありません。 |
 | オプション | その他の接続オプション。 使用可能なオプションを次の表に示します。 |
 
@@ -425,9 +425,9 @@ Vertica Analytics では、次の追加オプションを設定できます。
 
 **[!UICONTROL スキーマ選択]** ページが表示されます。 このページでは、フェデレーションデータベース接続のスキーマを定義できます。
 
-![&#x200B; データの追加画面で「テーブルを追加」ボタンが強調表示されます。](/help/data-modelling/assets/integrated/select-add-table.png)
+![ データの追加画面で「テーブルを追加」ボタンが強調表示されます。](/help/data-modelling/assets/integrated/select-add-table.png)
 
-スキーマの詳細の設定について詳しくは、[&#x200B; スキーマガイド &#x200B;](/help/data-modelling/schemas-integrated.md)を参照してください。
+スキーマの詳細の設定について詳しくは、[ スキーマガイド ](/help/data-modelling/schemas-integrated.md)を参照してください。
 
 スキーマを選択したら、**[!UICONTROL 次へ]**&#x200B;を選択して続行します。
 
@@ -435,23 +435,23 @@ Vertica Analytics では、次の追加オプションを設定できます。
 
 **[!UICONTROL レビュー]** ページが表示されます。 このページでは、フェデレーションデータベース接続の詳細を確認できます。 詳細が正しく見える場合は、**[!UICONTROL 終了]**&#x200B;を選択して接続を作成します。
 
-![&#x200B; レビューのページが表示されます。 このページには、接続の詳細とスキーマ情報が表示されます。](/help/connections/assets/integrated/review.png)
+![ レビューのページが表示されます。 このページには、接続の詳細とスキーマ情報が表示されます。](/help/connections/assets/integrated/review.png)
 
-接続が作成されます。 **[!UICONTROL スキーマの表示]**&#x200B;または&#x200B;**[!UICONTROL 関係の作成]**&#x200B;を求めるポップアップが表示されます。 **[!UICONTROL スキーマの表示]**&#x200B;を選択すると、[&#x200B; スキーマ参照](/help/data-modelling/schemas-integrated.md#edit-a-schema) ページが表示されます。 「**[!UICONTROL 関係を作成]**」を選択すると、[&#x200B; エンティティ図](/help/data-modelling/schemas-integrated.md#edit-relationships) ページが表示されます。
+接続が作成されます。 **[!UICONTROL スキーマの表示]**&#x200B;または&#x200B;**[!UICONTROL 関係の作成]**&#x200B;を求めるポップアップが表示されます。 **[!UICONTROL スキーマの表示]**&#x200B;を選択すると、[ スキーマ参照](/help/data-modelling/schemas-integrated.md#edit-a-schema) ページが表示されます。 「**[!UICONTROL 関係を作成]**」を選択すると、[ エンティティ図](/help/data-modelling/schemas-integrated.md#edit-relationships) ページが表示されます。
 
 ## 接続を編集 {#edit-connection}
 
 ソース接続のログイン情報を編集する必要がある場合は、「**[!UICONTROL ソース]**」を選択し、「**[!UICONTROL アカウント]**」を選択します。
 
-![&#x200B; アカウントボタンがハイライト表示され、ソースアカウントの閲覧ページが表示されます。](/help/connections/assets/integrated/select-accounts.png)
+![ アカウントボタンがハイライト表示され、ソースアカウントの閲覧ページが表示されます。](/help/connections/assets/integrated/select-accounts.png)
 
-ソースコネクタの参照ページが表示されます。 更新するソースコネクタを見つけ、![3つのドット &#x200B;](/help/assets/icons/more.png)を選択し、続いて&#x200B;**[!UICONTROL 詳細を編集]**&#x200B;を選択します。
+ソースコネクタの参照ページが表示されます。 更新するソースコネクタを見つけ、![3つのドット ](/help/assets/icons/more.png)を選択し、続いて&#x200B;**[!UICONTROL 詳細を編集]**&#x200B;を選択します。
 
 ![詳細を編集ボタンがハイライト表示されます。](/help/connections/assets/integrated/select-edit-details.png)
 
 「**[!UICONTROL アカウントの詳細を編集]**」ポップオーバーが表示されます。 このポップオーバーで、フェデレーションデータベースソース接続の詳細を更新できます。
 
-![&#x200B; アカウントの詳細を編集ポップオーバーが表示されます。](/help/connections/assets/integrated/edit-account-details.png)
+![ アカウントの詳細を編集ポップオーバーが表示されます。](/help/connections/assets/integrated/edit-account-details.png)
 
 ## 付録 {#appendix}
 
