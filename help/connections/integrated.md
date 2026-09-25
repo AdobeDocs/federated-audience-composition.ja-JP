@@ -1,8 +1,7 @@
 ---
 audience: end-user
-title: 連合データベースとの接続の作成および管理
-description: 連合データベースとの接続の作成および管理方法
-exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
+title: Experience Platform UI内のフェデレーションデータベースとの接続を作成および管理します
+description: Experience Platform UI内でフェデレーションデータベースを使用して接続を作成および管理する方法について説明します。
 TQID: https://experienceleague.adobe.com/6-pzawt2ndn2MKLyYLXPMy-ec1SIOsQI5frTt9IqOX0
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
@@ -17,15 +16,18 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-touch: edit
 source-git-commit: 3b159f95e28414b75b44e41e822e9e3d0e35b537
 workflow-type: tm+mt
-source-wordcount: '3969'
-ht-degree: 98%
+source-wordcount: '4385'
+ht-degree: 78%
 ---
-# 接続の作成 {#connections-fdb}
+# Experience Platform UIでのコネクションの作成
 
 >[!AVAILABILITY]
+>
+>新しい統合接続エクスペリエンスは、一部の顧客のみが利用できます。 詳しくは、Adobe カスタマーケアにお問い合わせください。
+>
+>新しい接続エクスペリエンスにアクセスできない場合は、[接続の概要](./home.md)をお読みください。
 >
 >接続にアクセスするには、次のいずれかの権限が必要です。
 >
@@ -38,11 +40,21 @@ Experience Platform 連合オーディエンス構成を使用すると、ユー
 
 ## サポートされているデータベース {#supported-databases}
 
+>[!CONTEXTUALHELP]
+>id="platform_sources_snowflake_privatekey"
+>title="秘密鍵"
+>abstract="一時的な空白コンテンツ。"
+
+>[!CONTEXTUALHELP]
+>id="platform_sources_snowflake_keyfilepath"
+>title="キーファイルのパス"
+>abstract="一時的な空白コンテンツ。"
+
 連合データベースと Adobe Experience Platform を連携させるには、まず 2 つのソース間の接続を確立する必要があります。 連合オーディエンス構成を使用すると、次のデータベースに接続できます。
 
 - Amazon Redshift
 - Azure Synapse Analytics
-- Databricks
+- DataBricks
 - Google BigQuery
 - Microsoft Fabric
 - Oracle
@@ -52,23 +64,34 @@ Experience Platform 連合オーディエンス構成を使用すると、ユー
 
 ## 接続を作成 {#create}
 
-接続を作成するには、「連合データ」セクション内で「**[!UICONTROL 連合データベース]**」を選択します。
+>[!CONTEXTUALHELP]
+>id="platform_sources_serverip"
+>title="サーバー IP"
+>abstract="データベースに接続するために許可リストに加えるする必要があるIP アドレス。"
 
-![左側のナビゲーション内で、「連合データベース」ボタンがハイライト表示されています。](assets/home/select-federated.png){zoomable="yes" width="70%" align="center"}
+接続を作成するには、**[!UICONTROL 接続]** セクション内の&#x200B;**[!UICONTROL ソース]**&#x200B;を選択します。
 
-「連合データベース」セクションが表示されます。 「**[!UICONTROL 連合データベースを追加]**」を選択して、接続を作成します。
+ソースカタログが表示されます。 組織で使用可能なフェデレーションデータベースのリストを表示するには、**[!UICONTROL フェデレーションデータ]**&#x200B;を選択します。
 
-![連合データベースの表示ページ内で「連合データベースを追加」ボタンがハイライト表示されています。](assets/home/add-federated.png){zoomable="yes" width="70%" align="center"}
+![&#x200B; ソースカタログ内のFederated Data セクションがハイライト表示されます。](/help/connections/assets/integrated/federated-data-sources.png)
+
+フェデレーションデータベースの種類を選択したら、新しい接続を行う場合は&#x200B;**[!UICONTROL 設定]**、既存の接続を使用する場合は&#x200B;**[!UICONTROL データを追加]**&#x200B;を選択します。
+
+アカウントの接続ページが表示されます。 **既存の** アカウントを使用するか、**新規** アカウントを作成できます。
+
+### 既存のアカウント {#existing-account}
+
+**[!UICONTROL 既存のアカウント]**&#x200B;を選択した場合は、以前に作成したソース接続のいずれかを選択できます。
+
+![既存のアカウントセクションの例が表示されます。](/help/connections/assets/integrated/existing-account.png)
 
 >[!NOTE]
 >
->PrivateLink または VPN を使用した安全な接続をリクエストするには、Privacy and Security Shield または Healthcare Shield のライセンスを取得している&#x200B;**必要**&#x200B;があります。
+>プライベートリンクまたはVPNを使用して安全な接続をリクエストするには、**Privacy and Security ShieldまたはHealthcare Shieldのライセンスを取得している必要があります。**
 
-接続のプロパティのポップオーバーが表示されます。 接続に名前を付けたり、作成するデータベースのタイプを選択したりできます。
+### 新規アカウント {#new-account}
 
-![連合データベースのタイプが表示されています。](assets/home/select-type.png){zoomable="yes" width="70%" align="center"}
-
-タイプを選択すると、「**[!UICONTROL 詳細]**」セクションが表示されます。 このセクションは、以前に選択したデータベースのタイプによって異なります。
+**[!UICONTROL 新しいアカウント]**&#x200B;を選択すると、接続の詳細ページが表示されます。 このページでは、アカウント名、説明、アカウント認証の詳細など、接続に関する詳細を設定できます。 アカウント認証セクションは、以前に選択したデータベースタイプに基づいて異なります。
 
 >[!BEGINTABS]
 
@@ -78,7 +101,7 @@ Experience Platform 連合オーディエンス構成を使用すると、ユー
 >
 >Amazon Redshift AWS、Amazon Redshift Spectrum および Amazon Redshift Serverless のみがサポートされています。
 >
->また、PrivateLink を介した外部 Amazon Redshift データウェアハウスへの安全なアクセスもサポートされています。
+>また、プライベートリンクを介した外部 Amazon Redshift データウェアハウスへの安全なアクセスもサポートされています。
 
 Amazon Redshift を選択した後に、次の詳細を追加できます。
 
@@ -146,52 +169,52 @@ Azure Synapse 接続で、次の設定の詳細を指定します。
 | データベース | データベースの名前。 サーバー名でこの名前が指定されている場合は、このフィールドを空白のままにすることができます。 |
 | オプション | その他の接続オプション。 サービスプリンシパル認証を使用するには、`Authentication="ActiveDirectoryServicePrincipal"` を設定する必要があります。 |
 
->[!TAB Databricks]
+>[!TAB DataBricks]
 
 >[!NOTE]
 >
->PrivateLink を介した外部 Databricks データウェアハウスへの安全なアクセスがサポートされています。 これには、PrivateLink 経由で Amazon Web Services（AWS）でホストされている Databricks データベースへの安全な接続と、VPN 経由で Microsoft Azure でホストされている Databricks データベースへの安全な接続が含まれます。 安全なアクセスの設定について詳しくは、アドビ担当者にお問い合わせください。
+>プライベートリンクを介した外部DataBricks データウェアハウスへの安全なアクセスがサポートされています。 これには、プライベートリンクを介してAmazon Web Services（AWS）でホストされているDataBricks データベースへの安全な接続や、VPNを介してMicrosoft AzureでホストされているDataBricks データベースへの安全な接続が含まれます。 安全なアクセスの設定について詳しくは、アドビ担当者にお問い合わせください。
 
-Databricks を選択した後、連合オーディエンス構成に接続する際に使用する認証方法を選択できます。
+DataBricksを選択した後、Federated Audience Compositionに接続する際に使用する認証方法を選択できます。
 
-「**アカウント／パスワード認証**」を選択した場合は、次のログイン情報を追加できます。
-
-| フィールド | 説明 |
-| ----- | ----------- |
-| サーバー | Databricks サーバーの名前。 |
-| パスワード | Databricks サーバーのアクセストークン。 この値について詳しくは、[個人用アクセストークンに関する Databricks ドキュメント](https://docs.databricks.com/aws/ja/dev-tools/auth/pat){target="_blank"}を参照してください。 |
-
-「**サービスプリンシパル認証**」を選択した場合は、次の詳細を追加できます。
+**[!UICONTROL 基本認証]**&#x200B;を選択した場合は、次のログイン情報を追加できます。
 
 | フィールド | 説明 |
 | ----- | ----------- |
-| サーバー | Databricks サーバーの名前。 |
-| クライアント ID | Databricks サーバーのクライアント ID。 このフィールドは、プロジェクトのユーザー名のように機能します。 |
-| クライアント秘密鍵 | Databricks サーバーのクライアントシークレット。 このフィールドは、プロジェクトのパスワードのように機能します。 |
+| サーバー | DataBricks サーバーの名前。 |
+| パスワード | DataBricks サーバーのアクセストークン。 この値について詳しくは、個人アクセストークン [&#128279;](https://docs.databricks.com/aws/ja/dev-tools/auth/pat){target="_blank"}に関するDataBricks ドキュメントを参照してください。 |
 
-「**OAuth 2.0**」を選択した場合は、次の詳細を追加できます。
+**[!UICONTROL OAuth2認証コード]**&#x200B;を選択した場合は、次の詳細を追加できます。
 
 | フィールド | 説明 |
 | ----- | ----------- |
-| サーバー | Databricks サーバーの名前。 |
-| クライアント ID | Databricks サーバーのクライアント ID。 このフィールドは、OAuth 2.0 認証中にアプリケーションを特定するために使用され、プロジェクトのユーザー名のように機能します。 |
-| クライアント秘密鍵 | Databricks サーバーのクライアントシークレット。 この機密資格情報はクライアント ID と共に発行され、プロジェクトのパスワードのように機能します。 |
-| アクセス範囲 | Databricks サーバー内で OAuth トークンに許可されているスコープを示す事前入力済みの情報。 |
+| サーバー | DataBricks サーバーの名前。 |
+| クライアント ID | DataBricks サーバーのクライアント ID。 このフィールドは、OAuth 2.0 認証中にアプリケーションを特定するために使用され、プロジェクトのユーザー名のように機能します。 |
+| クライアント秘密鍵 | DataBricks サーバーからのクライアント秘密鍵。 この機密資格情報はクライアント ID と共に発行され、プロジェクトのパスワードのように機能します。 |
+| アクセス範囲 | OAuth トークンがDataBricks サーバー内で許可されているスコープをリストする事前入力済みの情報。 |
+
+「**[!UICONTROL サービスプリンシパル認証]**」を選択した場合は、次の詳細を追加できます。
+
+| フィールド | 説明 |
+| ----- | ----------- |
+| サーバー | DataBricks サーバーの名前。 |
+| クライアント ID | DataBricks サーバーのクライアント ID。 このフィールドは、プロジェクトのユーザー名のように機能します。 |
+| クライアント秘密鍵 | DataBricks サーバーからのクライアント秘密鍵。 このフィールドは、プロジェクトのパスワードのように機能します。 |
 
 ログイン詳細を入力した後に、次の情報を追加できます。
 
 | フィールド | 説明 |
 | ----- | ----------- |
-| HTTP パス | クラスターまたはウェアハウスへのパス。 パスについて詳しくは、[接続の詳細に関する Databricks ドキュメント](https://docs.databricks.com/aws/ja/integrations/compute-details){target="_blank"}を参照してください。 |
-| カタログ | Databricks のカタログの名前。 Databricks のカタログについて詳しくは、[カタログに関する Databricks ドキュメント](https://docs.databricks.com/aws/ja/catalogs/){target="_blank"}を参照してください |
+| HTTP パス | クラスターまたはウェアハウスへのパス。 パスの詳細については、接続の詳細[&#128279;](https://docs.databricks.com/aws/ja/integrations/compute-details){target="_blank"}に関するDataBricks ドキュメントを参照してください。 |
+| カタログ | DataBricks カタログの名前。 DataBricksのカタログについて詳しくは、[&#x200B; カタログに関するDataBricks ドキュメント &#x200B;](https://docs.databricks.com/aws/ja/catalogs/){target="_blank"}を参照してください |
 | 作業スキーマ | ワークテーブルに使用するデータベーススキーマの名前。 <br/><br/>**メモ：**&#x200B;このスキーマへの接続に必要な権限がある限り、一時的なデータ処理に使用するスキーマを含め、データベースから&#x200B;**任意の**&#x200B;スキーマを使用できます。 ただし、複数のサンドボックスを同じデータベースに接続する場合は、異なる作業スキーマを使用する&#x200B;**必要**&#x200B;があります。 |
 | オプション | その他の接続オプション。 使用可能なオプションを次の表に示します。 |
 
-Databricks では、以下の追加オプションを設定できます。
+DataBricksの場合は、次の追加オプションを設定できます。
 
 | オプション | 説明 |
 | ------- | ----------- |
-| TimeZoneName | 使用するタイムゾーンの名前。 この値は、`TIMEZONE` セッションパラメーターを表します。 タイムゾーンについて詳しくは、[タイムゾーンに関する Databricks ドキュメント](https://docs.databricks.com/aws/ja/sql/language-manual/parameters/timezone#:~:text=The%20system%20default%20is%20UTC%20.){target="_blank"}を参照してください。 |
+| TimeZoneName | 使用するタイムゾーンの名前。 この値は、`TIMEZONE` セッションパラメーターを表します。 タイムゾーンについて詳しくは、[DataBricksのタイムゾーン &#x200B;](https://docs.databricks.com/aws/ja/sql/language-manual/parameters/timezone#:~:text=The%20system%20default%20is%20UTC%20.){target="_blank"}に関するドキュメントを参照してください。 |
 
 >[!TAB Google BigQuery]
 
@@ -201,13 +224,13 @@ Databricks では、以下の追加オプションを設定できます。
 
 Google BigQuery を選択した後、連合オーディエンス構成に接続する際に使用する認証方法を選択できます。
 
-「**[!UICONTROL アカウント／パスワード認証]**」を選択した場合は、次のログイン情報を追加できます。
+**[!UICONTROL 基本認証]**&#x200B;を選択した場合は、次のログイン情報を追加できます。
 
 | フィールド | 説明 |
 | ----- | ----------- |
 | サービスアカウント | サービスアカウントのメールアドレス。 詳しくは、[Google Cloud サービスアカウントに関するドキュメント](https://cloud.google.com/iam/docs/service-accounts-create){target="_blank"}を参照してください。 |
 
-「**[!UICONTROL OAuth 2.0]**」を選択した場合は、次のログイン情報を追加できます。
+**[!UICONTROL OAuth2認証コード]**&#x200B;を選択した場合は、次のログイン情報を追加できます。
 
 >[!NOTE]
 >
@@ -221,7 +244,7 @@ Google BigQuery を選択した後、連合オーディエンス構成に接続�
 
 認証を完了するには、「**[!UICONTROL ログイン]**」を選択します。
 
-「**[!UICONTROL WIF]**」を選択した場合、ログイン情報を入力する必要は&#x200B;**ありません**。 ただし、**[!UICONTROL キーファイルパス]**&#x200B;としてクライアントライブラリの設定を追加する&#x200B;**必要**&#x200B;があります。 クライアントライブラリの設定について詳しくは、[Google BigQuery（Workload Identity Federation）の設定の節](#wif-configuration)を参照してください。
+「**[!UICONTROL WIF]**」を選択した場合、ログイン情報を入力する必要は&#x200B;**ありません**。 ただし、**は** クライアントライブラリ設定を&#x200B;**[!UICONTROL 設定ファイルパス]**&#x200B;として追加する必要があります。 クライアントライブラリの設定について詳しくは、[Google BigQuery（Workload Identity Federation）の設定の節](#wif-configuration)を参照してください。
 
 ログイン詳細を入力した後に、次の詳細を追加できます。
 
@@ -229,9 +252,9 @@ Google BigQuery を選択した後、連合オーディエンス構成に接続�
 | ----- | ----------- |
 | プロジェクト | プロジェクトの ID。 詳しくは、[Google Cloud プロジェクトに関するドキュメント](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}を参照してください。 |
 | データセット | データセットの名前。 詳しくは、[Google Cloud データセットに関するドキュメント](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}を参照してください。 |
-| キーファイルのパス | サーバーのキーファイル。 `json` ファイルのみがサポートされています。 |
+| 設定ファイルパス | 設定ファイルをサーバーに送信します。 `json` ファイルのみがサポートされています。 |
 | Google バケットのロケーション | Google バケットの場所。 構成で&#x200B;**ディメンションを変更**&#x200B;アクティビティを使用する場合にのみ、このフィールドを追加する必要があります。 詳しくは、[Google Cloud バケットのロケーションドキュメント](https://docs.cloud.google.com/storage/docs/locations){target="_blank"}を参照してください。 |
-| REST API コネクタを使用 | REST API コネクタの使用を有効にする切替スイッチ。 このオプションは、アカウント／パスワード認証を使用している場合に&#x200B;**のみ**&#x200B;使用できます。 |
+| REST API コネクタを使用 | REST API コネクタの使用を有効にする切替スイッチ。 このオプションは、基本認証を使用している場合は&#x200B;**のみ**&#x200B;利用できます。 |
 | オプション | その他の接続オプション。 使用可能なオプションを次の表に示します。 |
 
 Google BigQuery では、以下の追加オプションを設定できます。
@@ -283,11 +306,11 @@ Oracle を選択した後に、次の詳細を追加できます。
 
 >[!NOTE]
 >
->PrivateLink を介した外部 Snowflake データウェアハウスへの安全なアクセスがサポートされています。 Snowflake アカウントは、Amazon Web Services（AWS）または Azure でホストされ、連合オーディエンス構成環境と同じ地域に配置されている必要があります。 Snowflake アカウントへの安全なアクセスの設定について詳しくは、アドビ担当者にお問い合わせください。
+>プライベートリンクを介した外部 Snowflake データウェアハウスへの安全なアクセスがサポートされています。 Snowflake アカウントは、Amazon Web Services（AWS）または Azure でホストされ、連合オーディエンス構成環境と同じ地域に配置されている必要があります。 Snowflake アカウントへの安全なアクセスの設定について詳しくは、アドビ担当者にお問い合わせください。
 
 Snowflake を選択した後、連合オーディエンス構成に接続する際に使用する認証方法を選択できます。
 
-「**[!UICONTROL アカウント／パスワード認証]**」を選択した場合は、次のログイン情報を追加できます。
+**[!UICONTROL 基本認証]**&#x200B;を選択した場合は、次のログイン情報を追加できます。
 
 | フィールド | 説明 |
 | ----- | ----------- |
@@ -295,7 +318,7 @@ Snowflake を選択した後、連合オーディエンス構成に接続する�
 | ユーザー | アカウントのユーザー名。 |
 | パスワード | アカウントのパスワード。 |
 
-または、パスワードを指定する代わりに秘密鍵を指定することもできます。 秘密鍵を追加する場合は、次の情報を指定する必要があります。
+**[!UICONTROL キーペア認証]**&#x200B;を選択した場合は、次のログイン情報を追加できます。
 
 | フィールド | 説明 |
 | ----- | ----------- |
@@ -304,7 +327,7 @@ Snowflake を選択した後、連合オーディエンス構成に接続する�
 | 秘密鍵 | アカウントの秘密鍵。 `.pem` ファイルのみがサポートされています。 |
 | パスワード | （オプション）アカウントのパスワード。 |
 
-「**[!UICONTROL OAuth 2.0]**」を選択した場合は、次のログイン情報を追加できます。
+**[!UICONTROL OAuth2認証コード]**&#x200B;を選択した場合は、次のログイン情報を追加できます。
 
 >[!NOTE]
 >
@@ -324,7 +347,8 @@ Snowflake を選択した後、連合オーディエンス構成に接続する�
 | ----- | ----------- |
 | データベース | データベースの名前。 これがサーバー名で指定されている場合は、このフィールドを空白のままにすることができます。 |
 | 作業スキーマ | ワークテーブルに使用するデータベーススキーマの名前。 <br/><br/>**メモ：**&#x200B;このスキーマへの接続に必要な権限がある限り、一時的なデータ処理に使用するスキーマを含め、データベースから&#x200B;**任意の**&#x200B;スキーマを使用できます。 ただし、複数のサンドボックスを同じデータベースに接続する場合は、異なる作業スキーマを使用する&#x200B;**必要**&#x200B;があります。 |
-| 秘密鍵 | データベース接続の秘密鍵。 ローカルシステムから `.pem` ファイルをアップロードできます。 |
+| 秘密鍵 | Snowflake アカウントのBase64 エンコードされた秘密鍵。 暗号化された秘密鍵または暗号化されていない秘密鍵を生成できます。 暗号化された秘密鍵を使用している場合は、Experience Platformに対する認証時に秘密鍵パスフレーズも指定する必要があります。 詳しくは、[Snowflake秘密鍵の取得](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/connectors/databases/snowflake)に関するガイドを参照してください。 |
+| 秘密鍵パスフレーズ | 秘密鍵パスフレーズは、暗号化された秘密鍵で認証する際に使用する必要がある追加のセキュリティレイヤーです。 暗号化されていない秘密鍵を使用している場合は、パスフレーズを指定する必要はありません。 |
 | オプション | その他の接続オプション。 使用可能なオプションを次の表に示します。 |
 
 Snowflake では、以下の追加オプションを設定できます。
@@ -395,7 +419,39 @@ Vertica Analytics では、次の追加オプションを設定できます。
 | サーバー IP | データベースに接続するために許可リストに追加する必要がある IP アドレスを表示するポップオーバー。 |
 | 接続をテスト | 設定の詳細を確認できます。 |
 
-「**[!UICONTROL 関数をデプロイ]**」を選択し「**[!UICONTROL 追加]**」をクリックすると、連合データベースと Experience Platform 間の接続を確定できます。
+**[!UICONTROL ソースに接続]**&#x200B;を選択して、データベース接続のスキーマの詳細を設定できるようになりました。
+
+## スキーマの選択 {#schema-selection}
+
+**[!UICONTROL スキーマ選択]** ページが表示されます。 このページでは、フェデレーションデータベース接続のスキーマを定義できます。
+
+![&#x200B; データの追加画面で「テーブルを追加」ボタンが強調表示されます。](/help/data-modelling/assets/integrated/select-add-table.png)
+
+スキーマの詳細の設定について詳しくは、[&#x200B; スキーマガイド &#x200B;](/help/data-modelling/schemas-integrated.md)を参照してください。
+
+スキーマを選択したら、**[!UICONTROL 次へ]**&#x200B;を選択して続行します。
+
+## レビュー {#review}
+
+**[!UICONTROL レビュー]** ページが表示されます。 このページでは、フェデレーションデータベース接続の詳細を確認できます。 詳細が正しく見える場合は、**[!UICONTROL 終了]**&#x200B;を選択して接続を作成します。
+
+![&#x200B; レビューのページが表示されます。 このページには、接続の詳細とスキーマ情報が表示されます。](/help/connections/assets/integrated/review.png)
+
+接続が作成されます。 **[!UICONTROL スキーマの表示]**&#x200B;または&#x200B;**[!UICONTROL 関係の作成]**&#x200B;を求めるポップアップが表示されます。 **[!UICONTROL スキーマの表示]**&#x200B;を選択すると、[&#x200B; スキーマ参照](/help/data-modelling/schemas-integrated.md#edit-a-schema) ページが表示されます。 「**[!UICONTROL 関係を作成]**」を選択すると、[&#x200B; エンティティ図](/help/data-modelling/schemas-integrated.md#edit-relationships) ページが表示されます。
+
+## 接続を編集 {#edit-connection}
+
+ソース接続のログイン情報を編集する必要がある場合は、「**[!UICONTROL ソース]**」を選択し、「**[!UICONTROL アカウント]**」を選択します。
+
+![&#x200B; アカウントボタンがハイライト表示され、ソースアカウントの閲覧ページが表示されます。](/help/connections/assets/integrated/select-accounts.png)
+
+ソースコネクタの参照ページが表示されます。 更新するソースコネクタを見つけ、![3つのドット &#x200B;](/help/assets/icons/more.png)を選択し、続いて&#x200B;**[!UICONTROL 詳細を編集]**&#x200B;を選択します。
+
+![詳細を編集ボタンがハイライト表示されます。](/help/connections/assets/integrated/select-edit-details.png)
+
+「**[!UICONTROL アカウントの詳細を編集]**」ポップオーバーが表示されます。 このポップオーバーで、フェデレーションデータベースソース接続の詳細を更新できます。
+
+![&#x200B; アカウントの詳細を編集ポップオーバーが表示されます。](/help/connections/assets/integrated/edit-account-details.png)
 
 ## 付録 {#appendix}
 
