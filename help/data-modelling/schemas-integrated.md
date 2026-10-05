@@ -99,7 +99,7 @@ Federated Audience Compositionでスキーマを作成するには、Experience 
 
 ![&#x200B; スキーマを編集ボタンがハイライト表示されます。](/help/data-modelling/assets/integrated/edit-schema.png)
 
-**[!UICONTROL スキーマを編集]** ウィンドウで、スキーマエディターを表示できます。 スキーマエディターの使用について詳しくは、[&#x200B; スキーマ UI ガイド &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#customize-schema)を参照してください。
+**[!UICONTROL スキーマを編集]** ウィンドウで、スキーマエディターを表示できます。 スキーマエディターの使用について詳しくは、[&#x200B; スキーマ UI ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/ui/resources/schemas#customize-schema)を参照してください。
 
 ![&#x200B; スキーマエディターが表示されます。](/help/data-modelling/assets/integrated/schema-editor.png)
 
