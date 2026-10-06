@@ -1,22 +1,24 @@
 ---
 audience: end-user
 title: 構成の基本を学ぶ
-description: 構成の開始方法について説明します
+description: 構成の開始方法
 exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
 TQID: https://experienceleague.adobe.com/-SzMG0wJnEcqFJPJZqBWKD8y22d4Z525Obe5CnyhcfE
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
-workflow-type: ht
-source-wordcount: 655
+    internal-label: Privacy
+source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
+workflow-type: tm+mt
+source-wordcount: '655'
 ht-degree: 100%
-
 ---
-
 # 構成の概要
 
 >[!AVAILABILITY]
@@ -44,7 +46,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="dc_composition_list"
 >title="構成"
->abstract="この画面では、構成の完全なリストにアクセスし、現在のステータス、前回／次回の実行日を確認して、新しい構成を作成できます。"
+>abstract="この画面では、構成の一覧全体にアクセスし、現在のステータス、前回／次回の実行日を確認して、新しい構成を作成できます。"
 
 構成には、Adobe Experience Platform **[!UICONTROL オーディエンス]**&#x200B;メニューの「**[!UICONTROL 顧客]**」セクションにある「**[!UICONTROL 連合構成]**」タブからアクセスできます。
 
@@ -55,7 +57,7 @@ ht-degree: 100%
 | ステータス | 説明 |
 | ------ | ----------- |
 | **[!UICONTROL ドラフト]** | 構成が作成され、保存されました。 |
-| **[!UICONTROL 処理中]** | 構成が行われ、現在実行中です。 |
+| **[!UICONTROL 処理中]** | 構成が実行され、現在実行中です。 |
 | **[!UICONTROL 停止]** | 構成の実行が完了し、停止しています。 |
 | **[!UICONTROL 一時停止]** | 構成の実行が一時停止されています。 |
 | **[!UICONTROL エラー]** | 構成の実行でエラーが発生しました。 エラーに関する詳細情報を表示するには、構成を開き、ログにアクセスします。 |
@@ -95,4 +97,4 @@ ht-degree: 100%
 
 ## 次の手順
 
-このガイドを参照することで、構成のアクセスラベルへのアクセス、管理、作成方法を学びました。 オーディエンス全体の操作方法について詳しくは、[オーディエンスガイド](../start/audiences.md)を参照してください。
+このガイドを参照することで、構成のアクセスラベルにアクセスし、管理し、作成する方法を学びました。 オーディエンス全体の操作方法について詳しくは、[オーディエンスガイド](../start/audiences.md)を参照してください。

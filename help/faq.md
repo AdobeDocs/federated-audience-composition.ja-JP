@@ -1,20 +1,21 @@
 ---
 title: よくある質問
-description: Adobe Experience Platform 連合オーディエンス構成に関するよくある質問です
+description: Adobe Experience Platform 連合オーディエンス構成に関するよくある質問
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
 TQID: https://experienceleague.adobe.com/Wd6WnteenqEV9ZEBs4-tgD8aRSSO1SwtEB4EetSUac4
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+    internal-label: Privacy
+source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
 workflow-type: tm+mt
-source-wordcount: 975
+source-wordcount: '981'
 ht-degree: 75%
-
 ---
-
 # よくある質問 {#faq}
 
 以下は、Adobe Experience Platform 連合オーディエンス構成に関するよくある質問のリストです。 また、Adobe Experience Platform セグメント化サービスに関するグローバル FAQ については、[このページ](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/faq){target="_blank"}も参照してください。
@@ -23,7 +24,7 @@ ht-degree: 75%
 
 +++ 回答
 
-連合オーディエンス構成には、Adobe Real-time Customer Data Platform および Adobe Journey Optimizer Prime または Ultimate パッケージが必要です。 また、連合オーディエンス構成も購入する必要があります。
+連合オーディエンス構成には、Adobe Real-Time Customer Data Platform および Adobe Journey Optimizer Prime または Ultimate パッケージが必要です。 また、連合オーディエンス構成も購入する必要があります。
 
 連合オーディエンス構成を使用するには、各ユーザーを各サンドボックス用に作成された特定のプロファイルに追加する必要があります。 詳しくは、[連合オーディエンス構成へのアクセス](./start/access-prerequisites.md)ページを参照してください。
 
@@ -52,7 +53,7 @@ ht-degree: 75%
 
 +++ 回答
 
-はい、複数のウェアハウスに対して同じ構成でクエリを実行し、複数のソースからのデータを組み合わせることができます。  通常、各[&#x200B; コンポジションアクティビティ &#x200B;](./compositions/activities.md) （クエリ、エンリッチメント、分割など） アクティビティの設定、ターゲットとなるデータベース（フェデレーションデータアクセスの複数のケースが可能）、実行の結果を含む1つ以上のワークテーブルの出力に応じて、1つまたは複数のSQL ステートメントを実行します。 これらのワークテーブルは、連続するアクティビティの入力として使用されます。
+はい、複数のウェアハウスに対して同じ構成でクエリを実行し、複数のソースからのデータを組み合わせることができます。  通常、各[ コンポジションアクティビティ ](./compositions/activities.md) （クエリ、エンリッチメント、分割など） アクティビティの設定、ターゲットとなるデータベース（フェデレーションデータアクセスの複数のケースが可能）、実行の結果を含む1つ以上のワークテーブルの出力に応じて、1つまたは複数のSQL ステートメントを実行します。 これらのワークテーブルは、連続するアクティビティの入力として使用されます。
 
 +++
 
@@ -69,7 +70,7 @@ ht-degree: 75%
 
 はい、接続すると、連合オーディエンス構成を使用して、定義済みの初期権限に基づいてすべてのテーブルを検出し、ビジュアルスキーマエディターを使用して次の操作を実行できます。
 
-* テーブルから列とプライマリキーを検出する
+* テーブルから列とプライマリキーを検出
 * これらのテーブルにわかりやすいラベルを作成する
 * 各列にわかりやすいラベルを作成する
 * 不要な列を非表示にする
@@ -96,8 +97,8 @@ ht-degree: 75%
 外部で生成したオーディエンスの現在のデータの有効期限は 30 日です。 このデータの有効期限により、組織内に保存される余分なデータ量を削減できます。 データの有効期限が過ぎると、関連付けられたデータセットはデータセットインベントリ内に引き続き表示されますが、オーディエンスをアクティベートすることはできず、プロファイル数はゼロとして表示されます。 詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/faq#how-long-do-externally-generated-audiences-last-for){target="_blank"}を参照してください。
 
 * オーディエンスのエンリッチメントの場合、既存の Adobe Experience Platform オーディエンスが出発点となります。 ここでは、次の 2 つのシナリオを確認します。
-   1. 連合データウェアハウスから追加のオーディエンスペイロード属性を取り込みます。この場合、追加属性は、このオーディエンス定義の一部として渡されます。 外部で生成したオーディエンスのデータの有効期限は、上記と同じ 30 日間です。
-   1. データウェアハウスに存在する追加属性に基づいて、既存の Adobe Experience Platform オーディエンスを絞り込みます。<!--For example, you have an audience of customers who have shown interest in a particular product on the website for the last two months. You now want to take this audience and further segment it using Federated Audience Composition to only include customers who have a high credit score. The credit score is deemed sensitive and individual credit score data points are not copied over from the data warehouse.-->
+  1. 連合データウェアハウスから追加のオーディエンスペイロード属性を取り込みます。この場合、追加属性は、このオーディエンス定義の一部として渡されます。 外部で生成したオーディエンスのデータの有効期限は、上記と同じ 30 日間です。
+  1. データウェアハウスに存在する追加属性に基づいて、既存の Adobe Experience Platform オーディエンスを絞り込みます。<!--For example, you have an audience of customers who have shown interest in a particular product on the website for the last two months. You now want to take this audience and further segment it using Federated Audience Composition to only include customers who have a high credit score. The credit score is deemed sensitive and individual credit score data points are not copied over from the data warehouse.-->
 +++
 
 ## オーディエンス作成とオーディエンスエンリッチメントのユースケースパターンのデータが保持されていない場合、一時的にどのように保存されますか？
@@ -128,7 +129,7 @@ ht-degree: 75%
 
 +++ 回答
 
-アドビの連合オーディエンス構成から顧客データにアクセスして削除するための個別のリクエストは、次の 2 つの方法で送信できます。
+アドビの連合オーディエンス構成から顧客データにアクセスして削除するための個々のリクエストは、次の 2 つの方法で送信できます。
 
 * Adobe Experience Platform **Privacy Service UI** 経由。 [詳細情報](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ja){target="_blank"}
 * Adobe Experience Platform **Privacy Service API** 経由。 [詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/privacy/api/overview){target="_blank"}

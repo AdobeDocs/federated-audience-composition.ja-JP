@@ -6,7 +6,7 @@ exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
 TQID: https://experienceleague.adobe.com/cpkFeiskYDpixNo01llqC3UKK8XfewN7XC2yAf1wOYQ
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-    internal-label: Experience Cloud
+    internal-label: CX Enterprise
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
     internal-label: Governance
@@ -14,7 +14,7 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ded8d299cabcdc0a5bd387db64e895ae65cd3b55
+source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
 workflow-type: tm+mt
 source-wordcount: '580'
 ht-degree: 99%
@@ -71,7 +71,7 @@ ht-degree: 99%
 
 連合オーディエンス構成でスキーマを作成するには、「**[!UICONTROL 連合データ]**」セクションで「**[!UICONTROL モデル]**」を選択します。 「**[!UICONTROL スキーマ]**」タブで、「**[!UICONTROL スキーマを作成]**」を選択します。
 
-![&#x200B; 「スキーマを作成」ボタンは、「連合オーディエンス構成スキーマ」セクションでハイライト表示されます。](assets/schemas/schema_create.png){zoomable="yes"}
+![ 「スキーマを作成」ボタンは、「連合オーディエンス構成スキーマ」セクションでハイライト表示されます。](assets/schemas/schema_create.png){zoomable="yes"}
 
 **[!UICONTROL 連合データベースを選択]**&#x200B;ポップオーバーが表示されます。 このポップオーバーで、「[ソースデータベース](/help/connections/home.md)」を選択し、「**[!UICONTROL 次へ]**」をクリックします。
 

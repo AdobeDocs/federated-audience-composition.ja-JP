@@ -6,7 +6,7 @@ exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
 TQID: https://experienceleague.adobe.com/6-pzawt2ndn2MKLyYLXPMy-ec1SIOsQI5frTt9IqOX0
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-    internal-label: Experience Cloud
+    internal-label: CX Enterprise
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
     internal-label: Integrations
@@ -18,7 +18,7 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
 touch: edit
-source-git-commit: 3b159f95e28414b75b44e41e822e9e3d0e35b537
+source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
 workflow-type: tm+mt
 source-wordcount: '3969'
 ht-degree: 98%
@@ -430,7 +430,7 @@ Google Cloud Console で、**「IAM &amp; 管理」セクション**&#x200B;に 
 
 ダイアログで、「**サービスアカウントを別のユーザーとして実行してアクセス権を付与**」を選択します。 「**プリンシパルを選択**」セクション内で、属性マッピングを作成する必要があります。
 
-**aws_role** を選択し、値として `arn:aws:sts::AWSAccountID:assumed-role/AWSRoleName` を追加します。`AWSAccountID` と `AWSRoleName` は、以前に指定した値に置き換えます。
+**aws_role**&#x200B;を選択し、`arn:aws:sts::AWSAccountID:assumed-role/AWSRoleName`を値として追加し、`AWSAccountID`と`AWSRoleName`を以前に指定した値に置き換えます。
 
 ![アクセス権を付与ダイアログが表示されています。](/help/connections/assets/home/aws-role.png)
 

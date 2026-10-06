@@ -7,19 +7,23 @@ exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
 TQID: https://experienceleague.adobe.com/0EDM9gSVZCkdKfhZihxhJJL2TZyGxv1Hvm1azjaPUAA
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 87b5c0ce27eef85fe7eb6a06df903a5701ecd83f
+    internal-label: Privacy
+source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
 workflow-type: tm+mt
-source-wordcount: 1191
-ht-degree: 90%
-
+source-wordcount: '1191'
+ht-degree: 92%
 ---
-
 # リリースノート {#rn-new}
 
 [!DNL Federated Audience Composition] は、新機能、既存機能の強化、およびバグ修正を継続的に提供します。 すべての変更は、このリリースノートに統合されます。 [!DNL Federated Audience Composition] が [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。 以下の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target="_blank"}を参照してください。
@@ -114,7 +118,7 @@ ht-degree: 90%
 * **Databricks 接続**
 
   この新しいリリースでは、Federated Audience Compositionで、Databricks データベース接続のPrivateLink接続がサポートされるようになりました。
-  これには、PrivateLinkを介してAmazon Web Services（AWS）でホストされているDatabricks データベースへの安全な接続と、VPNを介してMicrosoft AzureでホストされているDatabricks データベースへの安全な接続が含まれます。 [詳細情報](../connections/home.md#databricks)
+  これには、PrivateLink 経由で Amazon Web Services（AWS）でホストされている Databricks データベースへの安全な接続と、VPN 経由で Microsoft Azure でホストされている Databricks データベースへの安全な接続が含まれます。 [詳細情報](../connections/home.md#databricks)
 
 * **B2B CDP のお客様のサポート**
 
