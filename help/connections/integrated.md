@@ -67,7 +67,7 @@ Experience Platform 連合オーディエンス構成を使用すると、ユー
 >[!CONTEXTUALHELP]
 >id="platform_sources_serverip"
 >title="サーバー IP"
->abstract="データベースに接続するために許可リストに加えるする必要があるIP アドレス。"
+>abstract="データベースに接続するために許可リストに追加する必要がある IP アドレス。"
 
 接続を作成するには、**[!UICONTROL 接続]** セクション内の&#x200B;**[!UICONTROL ソース]**&#x200B;を選択します。
 
@@ -486,7 +486,7 @@ Google Cloud Console で、**「IAM &amp; 管理」セクション**&#x200B;に 
 
 ダイアログで、「**サービスアカウントを別のユーザーとして実行してアクセス権を付与**」を選択します。 「**プリンシパルを選択**」セクション内で、属性マッピングを作成する必要があります。
 
-**aws_role** を選択し、値として `arn:aws:sts::AWSAccountID:assumed-role/AWSRoleName` を追加します。`AWSAccountID` と `AWSRoleName` は、以前に指定した値に置き換えます。
+**aws_role**&#x200B;を選択し、`arn:aws:sts::AWSAccountID:assumed-role/AWSRoleName`を値として追加し、`AWSAccountID`と`AWSRoleName`を以前に指定した値に置き換えます。
 
 ![アクセス権を付与ダイアログが表示されています。](/help/connections/assets/home/aws-role.png)
 

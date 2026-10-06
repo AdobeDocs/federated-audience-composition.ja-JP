@@ -16,7 +16,7 @@ topic_v2:
 source-git-commit: 3b159f95e28414b75b44e41e822e9e3d0e35b537
 workflow-type: tm+mt
 source-wordcount: '796'
-ht-degree: 35%
+ht-degree: 38%
 ---
 # スキーマの概要 {#schemas}
 
@@ -69,7 +69,7 @@ Federated Audience Compositionでスキーマを作成するには、Experience 
 >[!CONTEXTUALHELP]
 >id="platform_schemas_primarycompositekey"
 >title="複合キー"
->abstract="複数のスキーマ列で構成されるスキーマキー。 複合キーとして使用する列にマークを付けます。"
+>abstract="複数のスキーマ列で構成されるスキーマキー。 複合キーとして使用する列をマークします。"
 
 連合データベースを選択した後、スキーマを定義できるようになりました。 「**[!UICONTROL データを追加]**」画面が表示されます。 このページでは、**[!UICONTROL テーブルを追加]**&#x200B;を選択して、スキーマに追加するテーブルを選択できます。
 
