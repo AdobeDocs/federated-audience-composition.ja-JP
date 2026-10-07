@@ -5,17 +5,19 @@ exl-id: 677e26e7-1294-4f62-a5ce-17b65e84c65e
 TQID: https://experienceleague.adobe.com/f9H56k6sIfCskuaO1yhHcETFFqLnfufpP2riTT-iGAg
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+    internal-label: Privacy
+source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
 workflow-type: tm+mt
-source-wordcount: 1286
+source-wordcount: '1286'
 ht-degree: 100%
-
 ---
-
 # データガバナンス、プライバシー、セキュリティ
 
 >[!IMPORTANT]
@@ -48,9 +50,9 @@ ht-degree: 100%
 
 連合オーディエンス構成では、データウェアハウスからの顧客データは一切保存されて&#x200B;**いない**&#x200B;ため、データ主体およびデータ削除に関するリクエストに対応するには、Adobe Platform Privacy Service を使用します。
 
-例えば、構成キャンバスでアクティビティを保存ブロックを使用してオーディエンスを作成すると、その結果作成されたオーディエンスは、外部オーディエンスとして Experience Platform のデータレイクに保存されます。 この外部オーディエンスは、ID フィールドと ID 名前空間でマークされます。 その結果、Privacy Service を使用して、外部オーディエンスと共にこれらのプロファイルにアクセスし、削除できます。
+例えば、構成キャンバスで保存アクティビティブロックを使用してオーディエンスを作成すると、その結果作成されたオーディエンスは、外部オーディエンスとして Experience Platform のデータレイクに保存されます。 この外部オーディエンスは、ID フィールドと ID 名前空間でマークされます。 その結果、Privacy Service を使用して、外部オーディエンスに関連付けられたこれらのプロファイルにアクセスし、削除できます。
 
-または、構成キャンバスでプロファイルを保存アクティビティを使用してプロファイルエンリッチメントを作成すると、その結果作成されたエンリッチメントは、プロファイル対応スキーマおよびプロファイル対応データセットとして Experience Platform に保存されます。 このエンリッチメントデータは、ID フィールドと ID 名前空間でマークされます。 その結果、Privacy Service を使用して、これらのプロファイルにアクセスし、削除できます。
+または、構成キャンバスで「プロファイルを保存」アクティビティを使用してプロファイルエンリッチメントを作成すると、その結果作成されたエンリッチメントは、プロファイル対応スキーマおよびプロファイル対応データセットとして Experience Platform に保存されます。 このエンリッチメントデータは、ID フィールドと ID 名前空間でマークされます。 その結果、Privacy Service を使用して、これらのプロファイルにアクセスし、クリーンアップできます。
 
 Privacy Service について詳しくは、[Privacy Service の概要](https://experienceleague.adobe.com/ja/docs/experience-platform/privacy/home){target="_blank"}を参照してください。
 
@@ -62,11 +64,11 @@ Privacy Service では、連合オーディエンス構成から顧客データ�
 
 ### 同意ポリシーの適用 {#consent}
 
-連合オーディエンス構成では、Experience Platform を通じて、同意の適用を自動化し、顧客に提供された同意に基づいてオーディエンスをアクティブ化できるようにするツールを提供します。
+連合オーディエンス構成では、Experience Platform を通じて、同意の適用を自動化し、顧客が提供した同意に基づいてオーディエンスをアクティブ化できるようにするツールを提供します。
 
-例えば、構成キャンバスでアクティビティを保存ブロックを使用してオーディエンスを作成すると、その結果作成されたオーディエンスは、外部オーディエンスとして Experience Platform のデータレイクに保存されます。 Experience Platform では、アクティベーション中に同意の検証を自動的にサポートします。 詳しくは、[セグメント化サービスに関する FAQ](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/faq#consent){target="_blank"} を参照してください。
+例えば、構成キャンバスで保存アクティビティブロックを使用してオーディエンスを作成すると、その結果作成されたオーディエンスは、外部オーディエンスとして Experience Platform のデータレイクに保存されます。 Experience Platform では、アクティベーション中に同意の検証を自動的にサポートします。 詳しくは、[セグメント化サービスに関する FAQ](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/faq#consent){target="_blank"} を参照してください。
 
-または、構成キャンバスでプロファイルを保存アクティビティを使用してプロファイルエンリッチメントを作成すると、その結果作成されたエンリッチメントは、プロファイル対応スキーマおよびプロファイル対応データセットとして Experience Platform に保存されます。 既存のプロファイルの場合、使用可能な同意属性は、アクティベーション中に自動的に適用されます。 新規プロファイルの場合、プロファイルの取り込み中に提供された同意属性は、アクティベーション中に自動的に適用されます。 プロファイルに対する同意の適用について詳しくは、[同意および環境設定フィールドグループガイド](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/field-groups/profile/consents){target="_blank"}を参照してください。
+または、構成キャンバスでプロファイル保存アクティビティを使用してプロファイルエンリッチメントを作成すると、その結果作成されたエンリッチメントは、プロファイル対応スキーマおよびプロファイル対応データセットとして Experience Platform に保存されます。 既存のプロファイルの場合、使用可能な同意属性は、アクティベーション中に自動的に適用されます。 新規プロファイルの場合、プロファイルの取り込み中に提供された同意属性は、アクティベーション中に自動的に適用されます。 プロファイルに対する同意の適用について詳しくは、[同意および環境設定フィールドグループガイド](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/field-groups/profile/consents){target="_blank"}を参照してください。
 
 同意の適用について詳しくは、[ポリシーの管理 UI ガイド](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/policies/user-guide#consent-policy){target="_blank"}を参照してください。
 
@@ -74,9 +76,9 @@ Privacy Service では、連合オーディエンス構成から顧客データ�
 
 連合オーディエンス構成では、いずれのデータウェアハウスからも顧客データは保存され&#x200B;**ない**&#x200B;ので、Experience Platform を使用してデータライフサイクルを管理できます。 高度なデータライフサイクル管理を使用すると、データセットレベルとレコードレベルの両方でデータライフサイクルを管理できます。
 
-例えば、構成キャンバスでアクティビティを保存ブロックを使用してオーディエンスを作成すると、その結果作成されたオーディエンスは、外部オーディエンスとして Experience Platform のデータレイクに保存されます。 このデータは連合オーディエンス構成に保存され&#x200B;**ない**&#x200B;ので、オーディエンスポータルでオーディエンスを削除すると、オーディエンスデータと対応するデータセットは自動的に削除されます。
+例えば、構成キャンバスで保存アクティビティブロックを使用してオーディエンスを作成すると、その結果作成されたオーディエンスは、外部オーディエンスとして Experience Platform のデータレイクに保存されます。 このデータは連合オーディエンス構成に保存され&#x200B;**ない**&#x200B;ので、オーディエンスポータルでオーディエンスを削除すると、オーディエンスデータと対応するデータセットは自動的に削除されます。
 
-または、構成キャンバスでプロファイルを保存アクティビティを使用してプロファイルエンリッチメントを作成すると、その結果作成されたエンリッチメントは、プロファイル対応スキーマおよびプロファイル対応データセットとして Experience Platform に保存されます。 その結果、データライフサイクルを使用して、プロファイルにアクセスし、削除できます。
+または、構成キャンバスでプロファイル保存アクティビティを使用してプロファイルエンリッチメントを作成すると、その結果作成されたエンリッチメントは、プロファイル対応スキーマおよびプロファイル対応データセットとして Experience Platform に保存されます。 その結果、データライフサイクルを使用して、プロファイルにアクセスし、削除できます。
 
 データライフサイクルについて詳しくは、[データライフサイクルの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/data-lifecycle/home){target="_blank"}を参照してください。
 

@@ -6,16 +6,17 @@ exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
 TQID: https://experienceleague.adobe.com/g32ycFuhXFq68NmBJjunWZT3m4JpmL108bhMSs-4EYc
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ce79e1b9216ca69020155978ac84f29577c5ff8d
-workflow-type: ht
-source-wordcount: 774
+    internal-label: Privacy
+source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
+workflow-type: tm+mt
+source-wordcount: '774'
 ht-degree: 100%
-
 ---
-
 # 外部データを使用して Adobe Experience Platform オーディエンスを強化 {#connect-aep-fac}
 
 >[!CONTEXTUALHELP]
@@ -34,11 +35,11 @@ Adobe Experience Platform では、**アドビの連合オーディエンス構�
 
 ## 宛先に対するオーディエンスのアクティブ化 {#activate}
 
-Adobe Experience Platform 宛先カタログ内で、連合オーディエンス構成宛先を選択します。右側のパネルで、「**[!UICONTROL 新しい宛先を設定]**」を選択します。
+Adobe Experience Platform 宛先カタログ内で、連合オーディエンス構成宛先を選択します。 右側のパネルで、「**[!UICONTROL 新しい宛先を設定]**」を選択します。
 
 ![宛先カタログ内で「新しい宛先を設定」ボタンがハイライト表示されています。](assets/destinations/new.png)
 
-**[!UICONTROL 新しい宛先を設定]**&#x200B;ページが表示されます。このページでは、名前、説明、接続タイプ、連合データベースなど、宛先の詳細を設定できます。
+**[!UICONTROL 新しい宛先を設定]**&#x200B;ページが表示されます。 このページでは、名前、説明、接続タイプ、連合データベースなど、宛先の詳細を設定できます。
 
 ![宛先を作成するために追加する必要がある詳細を示す、新しい宛先を設定ページが表示されています。](assets/destinations/configure.png)
 
@@ -48,7 +49,7 @@ Adobe Experience Platform 宛先カタログ内で、連合オーディエンス
 
 ![宛先に対して使用可能なアラートが表示されています。](assets/destinations/alerts.png)
 
-宛先の詳細の設定が完了したら、「**[!UICONTROL 次へ]**」を選択します。**[!UICONTROL ガバナンスポリシー &amp; 実施アクション]**&#x200B;手順が表示されます。このページでは、データガバナンスポリシーを定義し、オーディエンスが送信されてアクティブになった際に、使用されるデータが準拠していることを確認できます。
+宛先の詳細の設定が完了したら、「**[!UICONTROL 次へ]**」を選択します。 **[!UICONTROL ガバナンスポリシー &amp; 実施アクション]**&#x200B;手順が表示されます。 このページでは、データガバナンスポリシーを定義し、オーディエンスが送信されてアクティブになった際に、使用されるデータが準拠していることを確認できます。
 
 宛先に対する目的のマーケティングアクションの選択が終了したら、「**[!UICONTROL 作成]**」を選択します。
 
@@ -56,7 +57,7 @@ Adobe Experience Platform 宛先カタログ内で、連合オーディエンス
 
 ![アクティブ化ボタンがハイライト表示されています。](assets/destinations/activate.png)
 
-**[!UICONTROL スケジュール]**&#x200B;手順が表示されます。宛先に対してアクティブ化する目的のオーディエンスを選択できます。スケジュールを設定するには、![鉛筆アイコン](assets/do-not-localize/Smock_Edit_18_N.svg) を選択し、エクスポートスケジュールを編集します。
+**[!UICONTROL スケジュール]**&#x200B;手順が表示されます。 宛先に対してアクティブ化する目的のオーディエンスを選択できます。 スケジュールを設定するには、![鉛筆アイコン](assets/do-not-localize/Smock_Edit_18_N.svg) を選択し、エクスポートスケジュールを編集します。
 
 ![宛先をアクティブ化ページが表示されています。](assets/destinations/schedule.png)
 
