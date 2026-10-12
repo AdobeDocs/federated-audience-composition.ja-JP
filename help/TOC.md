@@ -3,9 +3,9 @@ user-guide-title: Experience Platform 連合オーディエンス構成
 title: Experience Platform 連合オーディエンス構成ドキュメント
 breadcrumb-title: Experience Platform 連合オーディエンス構成
 source-git-commit: aafa842b00c7c283953badf68171c151558ece5e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '128'
-ht-degree: 91%
+ht-degree: 100%
 ---
 
 # Experience Platform 連合オーディエンス構成ドキュメント {#using}
@@ -21,14 +21,14 @@ ht-degree: 91%
   - [アクセス制御](governance-privacy-security/access-control.md)
 - 接続 {#connections}
   - [接続の概要](connections/home.md)
-  - [新機能 – Experience PlatformでのSource接続](connections/integrated.md)
+  - [新機能 - Experience Platform のソース接続](connections/integrated.md)
   - [データアクセス権マトリックス](connections/fda-rights.md)
   - [外部データを使用して Adobe Experience Platform オーディエンスを強化](connections/destinations.md)
   - [マルチエンティティターゲティング](connections/multi-entity-targeting.md)
   - [プライベート接続](connections/private-connection.md)
 - データモデルとスキーマ {#models}
   - [スキーマの概要](data-modelling/schemas.md)
-  - [新機能 – Experience Platformのスキーマ](data-modelling/schemas-integrated.md)
+  - [新機能 - Experience Platform のスキーマ](data-modelling/schemas-integrated.md)
   - [データモデルの概要](data-modelling/models.md)
 - 構成 {#compositions}
   - [構成の概要](compositions/home.md)
