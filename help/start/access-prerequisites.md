@@ -24,7 +24,7 @@ topic_v2:
 source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
 workflow-type: tm+mt
 source-wordcount: '406'
-ht-degree: 95%
+ht-degree: 100%
 ---
 # 前提条件とガードレール {#fac-access}
 
@@ -64,7 +64,7 @@ ht-degree: 95%
 
    ![](assets/sandbox_2.png)
 
-別のサンドボックスでFederated Audience Compositionを使用する場合は、Adobe カスタマーケアに連絡してサンドボックスの切り替えをリクエストしてください。
+別のサンドボックスで連合オーディエンス構成を使用する場合は、アドビカスタマーケアに連絡して、サンドボックスの切り替えをリクエストしてください。
 
 ## 権限 {#permissions}
 

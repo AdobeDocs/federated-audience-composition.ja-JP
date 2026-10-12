@@ -21,7 +21,7 @@ touch: edit
 source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
 workflow-type: tm+mt
 source-wordcount: '3969'
-ht-degree: 98%
+ht-degree: 100%
 ---
 # 接続の作成 {#connections-fdb}
 
@@ -337,7 +337,7 @@ Snowflake では、以下の追加オプションを設定できます。
 | UseCachedResult | Snowflake のキャッシュされた結果を使用するかどうかを決定するブール値。 この値は、`USE_CACHED_RESULTS` セッションパラメーターを表します。 デフォルトでは、この値は true に設定されています。 このパラメーターについて詳しくは、[結果の保持に関する Snowflake ドキュメント](https://docs.snowflake.com/ja/user-guide/querying-persisted-results){target="_blank"}を参照してください。 |
 | bulkThreads | Snowflake のバルクローダーに使用するスレッドの数。 追加するスレッドの数が多いほど、大規模な一括読み込みのパフォーマンスが向上します。 デフォルトでは、この値は 1 に設定されています。 |
 | chunkSize | 各バルクローダーの各チャンクのファイルサイズ。 より多くのスレッドと同時に使用すると、一括読み込みのパフォーマンスを向上させることができます。 デフォルトでは、この値は 128 MB に設定されています。 チャンクサイズについて詳しくは、[データファイルの準備に関する Snowflake ドキュメント](https://docs.snowflake.com/ja/user-guide/data-load-considerations-prepare){target="_blank"}を参照してください。 |
-| StageName | 事前プロビジョニングされた内部ステージング環境の名前。 新しい一時ステージを作成する代わりに、これを一括読み込みで使用できます。 |
+| StageName | 事前にプロビジョニングされた内部ステージング環境の名前。 新しい一時ステージを作成する代わりに、これを一括読み込みで使用できます。 |
 
 >[!TAB TeraData]
 
@@ -403,12 +403,12 @@ Vertica Analytics では、次の追加オプションを設定できます。
 
 ### Google BigQuery（Workload Identity Federation）の設定 {#wif-configuration}
 
-Google Cloud Platformの設定を行う前に、次の値が必要です。
+Google Cloud Platform の設定を行う前に、次の値が必要です。
 
 - AWS アカウント ID
   - この値を取得するには、アドビ担当者にお問い合わせください。
 - AWS IAM 役割名
-  - AWS IAM ロール名は、次の形式に従います：`arn:aws:iam::<ADOBE_AWS_ACCOUNT_ID>:role/fac-<CUSTOMER_IMS_ORG_ID>`
+  - AWS IAM 役割名は、`arn:aws:iam::<ADOBE_AWS_ACCOUNT_ID>:role/fac-<CUSTOMER_IMS_ORG_ID>` の形式に従います
 
 Google Cloud Console で、**「IAM &amp; 管理」セクション**&#x200B;に **Workload Identity Pool** を作成します。 これにより、外部 ID を整理および管理できます。
 
@@ -430,7 +430,7 @@ Google Cloud Console で、**「IAM &amp; 管理」セクション**&#x200B;に 
 
 ダイアログで、「**サービスアカウントを別のユーザーとして実行してアクセス権を付与**」を選択します。 「**プリンシパルを選択**」セクション内で、属性マッピングを作成する必要があります。
 
-**aws_role**&#x200B;を選択し、`arn:aws:sts::AWSAccountID:assumed-role/AWSRoleName`を値として追加し、`AWSAccountID`と`AWSRoleName`を以前に指定した値に置き換えます。
+「**aws_role**」を選択し、`arn:aws:sts::AWSAccountID:assumed-role/AWSRoleName` を値として追加し、`AWSAccountID` と `AWSRoleName` を以前に指定した値に置き換えます。
 
 ![アクセス権を付与ダイアログが表示されています。](/help/connections/assets/home/aws-role.png)
 
