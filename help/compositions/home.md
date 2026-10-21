@@ -69,7 +69,7 @@ ht-degree: 71%
 | ------ | ----------- |
 | **[!UICONTROL 複製]** | 選択したコンポジションを複製します。 |
 | **[!UICONTROL 削除]** | 選択したコンポジションを削除します。 |
-| **[!UICONTROL パッケージに追加]** | サンドボックス間でコンポジションを移動します。 この機能について詳しくは、[&#x200B; サンドボックスツールガイド &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/ui/sandbox-tooling)を参照してください。 |
+| **[!UICONTROL パッケージに追加]** | サンドボックス間でコンポジションを移動します。 この機能について詳しくは、[&#x200B; サンドボックスツールガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/sandbox/ui/sandbox-tooling)を参照してください。 |
 
 リストを絞り込み、探している構成を見つけるには、リストを検索し、ステータスまたは最終処理日で構成をフィルタリングします。
 
