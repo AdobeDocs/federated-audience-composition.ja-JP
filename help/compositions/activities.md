@@ -7,10 +7,10 @@ TQID: https://experienceleague.adobe.com/hyCx0law7owYRhatvfX4o9OJQkd0pYEaj47iLi5
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
-source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
+source-git-commit: 062f7f55aafbbe5999c1a0d31ddea542f9b4b75d
 workflow-type: tm+mt
-source-wordcount: '5478'
-ht-degree: 100%
+source-wordcount: '5480'
+ht-degree: 99%
 ---
 # アクティビティの概要
 
@@ -426,7 +426,7 @@ ht-degree: 100%
 
 マッピングを追加した後、プライマリ ID と名前空間を選択して、データベース内のターゲットプロファイルを識別できます。 プライマリ ID フィールドはプロファイルの識別に使用され、ID 名前空間は ID を識別するキーとして機能します。
 
-また、オーディエンスのデータ有効期限を設定できます。 データ有効期限は、オーディエンスメンバーシップが期限切れになるまでの日数を決定します。 データ有効期限は、1～90 日の範囲で指定できます。 デフォルトでは、この値は 30 に設定されています。
+また、オーディエンスのデータ有効期限を設定できます。 データ有効期限は、オーディエンスメンバーシップが期限切れになるまでの日数を決定します。 データの有効期限は、1 ～ 3650日（10年）の範囲で指定できます。 デフォルトでは、この値は 30 に設定されています。
 
 +++
 
