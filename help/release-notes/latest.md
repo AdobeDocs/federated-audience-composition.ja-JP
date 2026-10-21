@@ -6,14 +6,34 @@ TQID: https://experienceleague.adobe.com/AqtqibUr1TNXwQ9lrtVoQ3CBNwyjSMS64e4s8y4
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
-source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
+source-git-commit: 062f7f55aafbbe5999c1a0d31ddea542f9b4b75d
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 11%
+source-wordcount: '973'
+ht-degree: 9%
 ---
 # リリースノート
 
 [!DNL Federated Audience Composition] は、新機能、既存機能の強化、およびバグ修正を継続的に提供します。 すべての変更は、このリリースノートに統合されます。 [!DNL Federated Audience Composition] が [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。 以下の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target="_blank"}を参照してください。
+
+## 26年9月リリース {#fac-26-09}
+
+連合オーディエンス構成の9月リリースでは、次の機能をサポートしています。
+
+| 連合の接続とスキーマ向けの新しい統合エクスペリエンス |
+| --- |
+| Adobe Experience Platform UI内でフェデレーション接続とスキーマに直接アクセスできるようになりました。 フェデレーション接続を作成する方法については、Experience Platform UI ガイド [&#128279;](/help/connections/integrated.md)の「接続を作成する」を参照してください。 スキーマの作成方法については、[&#x200B; スキーマの概要](/help/data-modelling/schemas-integrated.md)を参照してください。 |
+
+| Federated Audience Composition オーディエンスのサンドボックスツールのサポート |
+| --- |
+| Experience Platform サンドボックスツール機能を使用して、Federated Audience Composition オーディエンスを1つのサンドボックスから別のサンドボックスに移動できるようになりました。 サンドボックスツールの使用について詳しくは、[&#x200B; サンドボックスツールガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/sandbox/ui/sandbox-tooling)を参照してください。 |
+
+### 機能強化 {#fac-26-09-improvements}
+
+このリリースには、次の改善点が含まれています。
+
+- **連合オーディエンス構成オーディエンスのデータ有効期限の増加**
+
+  Federated Audience Composition オーディエンスのデータ有効期限が3,650日（10年）に延長されました。
 
 ## 2026年7月リリース {#fac-26-07}
 
