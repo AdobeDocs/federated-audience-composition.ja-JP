@@ -50,7 +50,7 @@ ht-degree: 71%
 
 構成には、Adobe Experience Platform **[!UICONTROL オーディエンス]**&#x200B;メニューの「**[!UICONTROL 顧客]**」セクションにある「**[!UICONTROL 連合構成]**」タブからアクセスできます。
 
-![ フェデレーション コンポジションとオーディエンス ボタンがハイライト表示され、フェデレーション コンポジション セクションにアクセスする方法が表示されます。](/help/compositions/assets/home/access-fac-compositions.png){zoomable="yes"}{width="70%"}
+![&#x200B; フェデレーション コンポジションとオーディエンス ボタンがハイライト表示され、フェデレーション コンポジション セクションにアクセスする方法が表示されます。](/help/compositions/assets/home/access-fac-compositions.png){zoomable="yes"}{width="70%"}
 
 この画面では、コンポジションに関する情報を表示したり、新しいコンポジションを作成したりできます。
 
@@ -58,8 +58,8 @@ ht-degree: 71%
 
 | フィールド | 説明 |
 | ----- | ----------- |
-| **[!UICONTROL 名前]** | コンポジションの名前。 コンポジションを選択した場合は、コンポジションを編集できます。 コンポジションの作成と編集について詳しくは、[ コンポジションの作成ガイド ](/help/compositions/create-composition.md)を参照してください。 |
-| **[!UICONTROL ステータス]** | コンポジションのステータス。 指定できる値は、[!UICONTROL  ドラフト ]、[!UICONTROL 進行中]、[!UICONTROL 停止]、[!UICONTROL 一時停止]、および[!UICONTROL 誤った]です。 <ul><li>**[!UICONTROL ドラフト]**: コンポジションが作成され、保存されました。</li><li>**[!UICONTROL 処理中]**: コンポジションは実行され、現在実行中です。</li><li>**[!UICONTROL 停止]**: コンポジションの実行が完了し、停止しました。</li><li>**[!UICONTROL 一時停止]**: コンポジションの実行が一時停止されました。</li><li>**[!UICONTROL エラー]**：コンポジションの実行でエラーが発生しました。 エラーに関する詳細情報を表示するには、構成を開き、ログにアクセスします。</li></ul> コンポジションを開始または停止する方法については、[ コンポジションの作成ガイド ](./create-composition.md#monitor-logs)を参照してください。 |
+| **[!UICONTROL 名前]** | コンポジションの名前。 コンポジションを選択した場合は、コンポジションを編集できます。 コンポジションの作成と編集について詳しくは、[&#x200B; コンポジションの作成ガイド &#x200B;](/help/compositions/create-composition.md)を参照してください。 |
+| **[!UICONTROL ステータス]** | コンポジションのステータス。 指定できる値は、[!UICONTROL &#x200B; ドラフト &#x200B;]、[!UICONTROL 進行中]、[!UICONTROL 停止]、[!UICONTROL 一時停止]、および[!UICONTROL 誤った]です。 <ul><li>**[!UICONTROL ドラフト]**: コンポジションが作成され、保存されました。</li><li>**[!UICONTROL 処理中]**: コンポジションは実行され、現在実行中です。</li><li>**[!UICONTROL 停止]**: コンポジションの実行が完了し、停止しました。</li><li>**[!UICONTROL 一時停止]**: コンポジションの実行が一時停止されました。</li><li>**[!UICONTROL エラー]**：コンポジションの実行でエラーが発生しました。 エラーに関する詳細情報を表示するには、構成を開き、ログにアクセスします。</li></ul> コンポジションを開始または停止する方法については、[&#x200B; コンポジションの作成ガイド &#x200B;](./create-composition.md#monitor-logs)を参照してください。 |
 | **[!UICONTROL 作成者]** | コンポジションを作成したユーザーの名前とメールアドレス。 |
 | **[!UICONTROL 変更]** | コンポジションが最後に更新された日時。 |
 
@@ -69,7 +69,7 @@ ht-degree: 71%
 | ------ | ----------- |
 | **[!UICONTROL 複製]** | 選択したコンポジションを複製します。 |
 | **[!UICONTROL 削除]** | 選択したコンポジションを削除します。 |
-| **[!UICONTROL パッケージに追加]** | サンドボックス間でコンポジションを移動します。 この機能について詳しくは、[ サンドボックスツールガイド ](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/ui/sandbox-tooling)を参照してください。 |
+| **[!UICONTROL パッケージに追加]** | サンドボックス間でコンポジションを移動します。 この機能について詳しくは、[&#x200B; サンドボックスツールガイド &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/ui/sandbox-tooling)を参照してください。 |
 
 リストを絞り込み、探している構成を見つけるには、リストを検索し、ステータスまたは最終処理日で構成をフィルタリングします。
 
