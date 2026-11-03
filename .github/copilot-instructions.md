@@ -100,8 +100,8 @@ Adobe製品名（`[!DNL Analytics]`、`[!DNL Target]`、`[!DNL Campaign]`）に�
 URL、ファイル名、ディレクトリ名、コードブロック、略語、用語には既に適用しないでください
 Do Not Translate データベースに保存されます。
 
-リンクテキストで、タグブラケットを削除します：`[Adobe](https://www.adobe.com)`。削除しないでください
-`[[!DNL Adobe]](https://www.adobe.com)`.
+リンクテキストで、タグブラケットを削除します：`[Adobe](https://www.adobe.com/jp)`。削除しないでください
+`[[!DNL Adobe]](https://www.adobe.com/jp)`.
 
 ### `[!UICONTROL Label]`: UI コントロール
 
@@ -362,7 +362,7 @@ call to action: 製品名で始めたり、最初の段落をコピーしたり�
 >id="platform_destinations_activate_filename"
 >title="Configure file name"
 >abstract="For file-based destinations, a unique file name is generated per segment. Use the file name editor to create and edit a unique file name or keep the default name."
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations.html#file-names" text="Learn more in documentation"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations.html?lang=ja#file-names" text="Learn more in documentation"
 ```
 
 必須フィールド：`id`、`title`、`abstract`。 それ以外はすべてオプションです。
