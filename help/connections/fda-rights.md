@@ -12,7 +12,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
 source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '445'
 ht-degree: 100%
 ---
@@ -47,4 +47,4 @@ ht-degree: 100%
 | **データの書き込み** | `INSERT` または `UPDATE ON OBJECT` | `INSERT` および `UPDATE` 権限 | `INSERT` および `UPDATE` 権限 | `INSERT` および `UPDATE` 権限 |
 | **テーブルへのデータの読み込み** | `SELECT ON OBJECT` および `INSERT ON OBJECT` | `CREATE TABLE`、`EXECUTE`、`SELECT`、`INSERT`、`UPDATE`、`ALTER` 権限 | テーブルでの `INSERT` 権限、スキーマでの `USAGE` 権限 | `SELECT` および `INSERT`（例：`COPY TO`／`COPY FROM`） |
 | **クライアントデータへのアクセス** | `SELECT ON OBJECT` | `SELECT` 権限 | `SELECT` 権限 | `SELECT` 権限 |
-| **メタデータへのアクセス** | `SELECT ON INFORMATION_SCHEMA` | describe テーブルに権限は不要 | `USAGE ON SCHEMA`、`SELECT on TABLE` およびテーブル `v_catalog.columns` と `v_catalog.view_columns` での権限 | `SHOW` 権限 |
+| **メタデータへのアクセス** | `SELECT ON INFORMATION_SCHEMA` | テーブルを記述するための権限は不要 | `USAGE ON SCHEMA`、`SELECT on TABLE` およびテーブル `v_catalog.columns` と `v_catalog.view_columns` での権限 | `SHOW` 権限 |

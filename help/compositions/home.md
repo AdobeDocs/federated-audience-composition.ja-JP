@@ -15,9 +15,9 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
 source-git-commit: 062f7f55aafbbe5999c1a0d31ddea542f9b4b75d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '765'
-ht-degree: 71%
+ht-degree: 100%
 ---
 # 構成の概要
 
@@ -50,26 +50,26 @@ ht-degree: 71%
 
 構成には、Adobe Experience Platform **[!UICONTROL オーディエンス]**&#x200B;メニューの「**[!UICONTROL 顧客]**」セクションにある「**[!UICONTROL 連合構成]**」タブからアクセスできます。
 
-![&#x200B; フェデレーション コンポジションとオーディエンス ボタンがハイライト表示され、フェデレーション コンポジション セクションにアクセスする方法が表示されます。](/help/compositions/assets/home/access-fac-compositions.png){zoomable="yes"}{width="70%"}
+![「連合構成」ボタンと「オーディエンス」ボタンがハイライト表示され、「連合構成」セクションへのアクセス方法を示しています。](/help/compositions/assets/home/access-fac-compositions.png){zoomable="yes"}{width="70%"}
 
-この画面では、コンポジションに関する情報を表示したり、新しいコンポジションを作成したりできます。
+この画面から、構成に関する情報を表示したり、新しい構成を作成したりできます。
 
-![連合コンポジションのリストが表示されます。](/help/compositions/assets/home/composition-list.png){zoomable="yes"}{width="70%"}
+![連合構成のリストが表示されます。](/help/compositions/assets/home/composition-list.png){zoomable="yes"}{width="70%"}
 
 | フィールド | 説明 |
 | ----- | ----------- |
-| **[!UICONTROL 名前]** | コンポジションの名前。 コンポジションを選択した場合は、コンポジションを編集できます。 コンポジションの作成と編集について詳しくは、[&#x200B; コンポジションの作成ガイド &#x200B;](/help/compositions/create-composition.md)を参照してください。 |
-| **[!UICONTROL ステータス]** | コンポジションのステータス。 指定できる値は、[!UICONTROL &#x200B; ドラフト &#x200B;]、[!UICONTROL 進行中]、[!UICONTROL 停止]、[!UICONTROL 一時停止]、および[!UICONTROL 誤った]です。 <ul><li>**[!UICONTROL ドラフト]**: コンポジションが作成され、保存されました。</li><li>**[!UICONTROL 処理中]**: コンポジションは実行され、現在実行中です。</li><li>**[!UICONTROL 停止]**: コンポジションの実行が完了し、停止しました。</li><li>**[!UICONTROL 一時停止]**: コンポジションの実行が一時停止されました。</li><li>**[!UICONTROL エラー]**：コンポジションの実行でエラーが発生しました。 エラーに関する詳細情報を表示するには、構成を開き、ログにアクセスします。</li></ul> コンポジションを開始または停止する方法については、[&#x200B; コンポジションの作成ガイド &#x200B;](./create-composition.md#monitor-logs)を参照してください。 |
-| **[!UICONTROL 作成者]** | コンポジションを作成したユーザーの名前とメールアドレス。 |
-| **[!UICONTROL 変更]** | コンポジションが最後に更新された日時。 |
+| **[!UICONTROL 名前]** | 構成の名前。構成を選択すると、構成を編集できます。構成の作成と編集について詳しくは、[構成の作成ガイド](/help/compositions/create-composition.md)を参照してください。 |
+| **[!UICONTROL ステータス]** | 構成のステータス。指定できる値には、[!UICONTROL ドラフト]、[!UICONTROL 処理中]、[!UICONTROL 停止]、[!UICONTROL 一時停止]、および[!UICONTROL エラー]があります。<ul><li>**[!UICONTROL ドラフト]**：構成が作成され、保存されました。</li><li>**[!UICONTROL 処理中]**：構成が実行され、現在実行中です。</li><li>**[!UICONTROL 停止]**：構成の実行が完了し、停止しました。</li><li>**[!UICONTROL 一時停止]**：構成の実行が一時停止されました。</li><li>**[!UICONTROL エラー]**：構成の実行でエラーが発生しました。エラーに関する詳細情報を表示するには、構成を開き、ログにアクセスします。</li></ul>構成を開始または停止する方法については、[構成の作成ガイド](./create-composition.md#monitor-logs)を参照してください。 |
+| **[!UICONTROL 作成者]** | 構成を作成した人の名前とメールアドレス。 |
+| **[!UICONTROL 変更日]** | 構成が最後に更新された日付と時刻。 |
 
-コンポジションの名前の横にある「![省略記号](/help/assets/icons/more.png)」ボタンを選択して、コンポジションに対するクイックアクションを実行することもできます。
+また、名前の横にある「![省略記号](/help/assets/icons/more.png)」ボタンを選択して、構成に対してクイックアクションを実行することもできます。
 
 | アクション | 説明 |
 | ------ | ----------- |
-| **[!UICONTROL 複製]** | 選択したコンポジションを複製します。 |
-| **[!UICONTROL 削除]** | 選択したコンポジションを削除します。 |
-| **[!UICONTROL パッケージに追加]** | サンドボックス間でコンポジションを移動します。 この機能について詳しくは、[&#x200B; サンドボックスツールガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/sandbox/ui/sandbox-tooling)を参照してください。 |
+| **[!UICONTROL 複製]** | 選択した構成を複製します。 |
+| **[!UICONTROL 削除]** | 選択した構成を削除します。 |
+| **[!UICONTROL パッケージに追加]** | サンドボックス間で構成を移動します。この機能について詳しくは、[サンドボックスツールガイド](https://experienceleague.adobe.com/ja/docs/experience-platform/sandbox/ui/sandbox-tooling)を参照してください。 |
 
 リストを絞り込み、探している構成を見つけるには、リストを検索し、ステータスまたは最終処理日で構成をフィルタリングします。
 

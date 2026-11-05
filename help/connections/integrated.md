@@ -17,7 +17,7 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
 source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4385'
 ht-degree: 100%
 ---
@@ -510,7 +510,7 @@ Google Cloud のネイティブ API 管理プラットフォームである [!DN
 | プロキシ名 | プロキシの名前。 この値には、英数字、ダッシュ（`-`）またはアンダースコア（`_`）**のみ**&#x200B;を含めることができます。 |
 | 基本パス | API プロキシのホストアドレスを示す URI フラグメント。 この基本パスは、プロキシ名に基づいているので、一意にする&#x200B;**必要**&#x200B;があります。 |
 | 説明 | API プロキシの説明（オプション）。 |
-| ターゲット | API プロキシが呼び出すバックエンドサービスの URL（HTTP または HTTPS を含む）。 |
+| Target | API プロキシが呼び出すバックエンドサービスの URL（HTTP または HTTPS を含む）。 |
 
 連合オーディエンス構成では、次に示すように、Google BigQuery コネクタが使用する&#x200B;**各**&#x200B;エンドポイントのプロキシエンドポイントルールを作成します。
 

@@ -8,7 +8,7 @@ product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
 source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '326'
 ht-degree: 100%
 ---
@@ -24,7 +24,7 @@ Experience Platform 連合オーディエンス構成を使用すると、[構�
 
 アドビの連合オーディエンス構成を使用して作成されたオーディエンスには、**[!UICONTROL オーディエンスを保存]**&#x200B;アクティビティで選択したすべてのフィールドが含まれ、すべての Adobe Experience Platform オーディエンスと共にオーディエンスポータルに保存されます。
 
-構成を実行すると、結果のオーディエンスが外部オーディエンスとして Adobe Experience Platform に保存され、Adobe Real-time Customer Data Platform や Adobe Journey Optimizer で使用できるようになります。
+構成を実行すると、結果のオーディエンスが外部オーディエンスとして Adobe Experience Platform に保存され、Adobe Real-Time Customer Data Platform や Adobe Journey Optimizer で使用できるようになります。
 
 これらのオーディエンスは、Adobe Experience Platform でサポートされている任意の宛先に対してアクティブ化できます。 宛先の操作について詳しくは、[Adobe Experience Platform](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/home){target="_blank"} を参照してください
 
