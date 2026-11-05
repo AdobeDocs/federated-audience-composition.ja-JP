@@ -7,10 +7,10 @@ product_v2:
 usetq: true
 type: Documentation
 mini-toc-levels: 2
-git-repo: https://github.com/AdobeDocs/federated-audience-composition.ja-JP
+git-repo: https://github.com/AdobeDocs/federated-audience-composition.en
 index: true
 source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '64'
 ht-degree: 100%
 ---
