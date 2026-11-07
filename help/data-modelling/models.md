@@ -143,4 +143,4 @@ ht-degree: 93%
 
 データモデルの作成方法については、次のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/3432020)
+>[!VIDEO](https://video.tv.adobe.com/v/3507563?captions=jpn)
