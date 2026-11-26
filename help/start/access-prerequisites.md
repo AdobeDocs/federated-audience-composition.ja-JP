@@ -21,10 +21,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
-workflow-type: ht
+source-git-commit: cff08ca99aa0f02eb593ae2891bc43a42c8fdc0e
+workflow-type: tm+mt
 source-wordcount: '406'
-ht-degree: 100%
+ht-degree: 97%
 ---
 # 前提条件とガードレール {#fac-access}
 
@@ -50,7 +50,7 @@ ht-degree: 100%
 
 ## サンドボックス
 
-連合オーディエンス構成を購入すると、2 つのサンドボックスを使用できます。 その他のサンドボックスプロビジョニングリクエストについて詳しくは、アドビ担当者にお問い合わせください。
+連合オーディエンス構成を購入すると、5つのサンドボックスを利用できます。 その他のサンドボックスプロビジョニングリクエストについて詳しくは、アドビ担当者にお問い合わせください。
 
 アクティブな連合オーディエンス構成サンドボックスのリストを表示するには、次の手順に従います。
 
